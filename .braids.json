@@ -641,6 +641,11 @@
       "branch": "master",
       "revision": "45afa054629026277cf0071852809870bde8435e"
     },
+    "docbook-sgml": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docbook-sgml.git",
+      "branch": "master",
+      "revision": "c37c515d28dba34f3da038b724554a29dc031d64"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
