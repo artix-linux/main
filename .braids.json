@@ -2006,6 +2006,11 @@
       "branch": "master",
       "revision": "fd4769fa1d3de5c29795a53e5e1fff824ae46a09"
     },
+    "glibc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glibc.git",
+      "branch": "master",
+      "revision": "799d78107ef2f74da4ca081acfc374656a29b0a2"
+    },
     "glibmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
       "branch": "master",
