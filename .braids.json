@@ -210,6 +210,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libatomic_ops.git",
       "branch": "master",
       "revision": "9c53123c1ee5281c419e953036bb906a05c18cca"
+    },
+    "libblastrampoline": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libblastrampoline.git",
+      "branch": "master",
+      "revision": "08d2739b64a037fdf822f006d7e884b47c5f78b0"
     }
   }
 }
