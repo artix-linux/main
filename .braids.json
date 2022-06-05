@@ -4916,6 +4916,11 @@
       "branch": "master",
       "revision": "5a38fa696036c1a37de4b5bc9646249dc1806f16"
     },
+    "os-prober": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/os-prober.git",
+      "branch": "master",
+      "revision": "bd0e2f23fa2cb249c080fdc70e15523f4061dd3a"
+    },
     "osm-gps-map": {
       "url": "gitea@gitea.artixlinux.org:packagesO/osm-gps-map.git",
       "branch": "master",
