@@ -4976,6 +4976,11 @@
       "branch": "master",
       "revision": "010281fa7cfde25bfb6b562e467941d9412d36b8"
     },
+    "par2cmdline": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/par2cmdline.git",
+      "branch": "master",
+      "revision": "cf5f59ec2e6a02ea8243ca104f983d12d6a8ed91"
+    },
     "pastebinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pastebinit.git",
       "branch": "master",
