@@ -2916,6 +2916,11 @@
       "branch": "master",
       "revision": "3854a9b8ce51fc4b6ab7ba765bfb2cd75399daec"
     },
+    "java-hamcrest": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/java-hamcrest.git",
+      "branch": "master",
+      "revision": "55747a28b1d253311f35665283e4bd8efed31927"
+    },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
