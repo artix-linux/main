@@ -6586,6 +6586,11 @@
       "branch": "master",
       "revision": "6760ff1617afc2b5497a457f9cd963e992c9a8f6"
     },
+    "pyopengl": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyopengl.git",
+      "branch": "master",
+      "revision": "ee126a4aea00f11263fbb6d1089552bc43e602a8"
+    },
     "pyprof2calltree": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyprof2calltree.git",
       "branch": "master",
