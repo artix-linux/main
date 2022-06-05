@@ -3206,6 +3206,11 @@
       "branch": "master",
       "revision": "f334e66718a1096e3cceaa52b4cf7704adc66526"
     },
+    "pipewire": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pipewire.git",
+      "branch": "master",
+      "revision": "691aaf3ad974f825b359ff4b2f67c73b2d629422"
+    },
     "pixman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pixman.git",
       "branch": "master",
