@@ -1541,6 +1541,11 @@
       "branch": "master",
       "revision": "7a142a30721309d4ff603a24874d2ecd041edefb"
     },
+    "libdca": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdca.git",
+      "branch": "master",
+      "revision": "9d7694989c85440907579e628e71ec62b3c2e749"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
