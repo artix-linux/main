@@ -961,6 +961,11 @@
       "branch": "master",
       "revision": "1d6146b62e86a1352ab9d2dbd835a7ebf4848896"
     },
+    "noto-fonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts.git",
+      "branch": "master",
+      "revision": "39e7a173b7df011c0fe0de707d3bbddbfe1dbc95"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
