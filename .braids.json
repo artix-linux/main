@@ -6791,6 +6791,11 @@
       "branch": "master",
       "revision": "95d103a2b0a194f2eb51cb60d77b81e00b89310b"
     },
+    "uriparser": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uriparser.git",
+      "branch": "master",
+      "revision": "af58094314155232e371e600b9f26880cac58cac"
+    },
     "usbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbmuxd.git",
       "branch": "master",
