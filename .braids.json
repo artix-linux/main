@@ -2766,6 +2766,11 @@
       "branch": "master",
       "revision": "38de0b18ae116e6e3718861213dc5eb13ef54970"
     },
+    "iw": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iw.git",
+      "branch": "master",
+      "revision": "30bd95f897bcd7eeb062b60a39ff79a7a77d9fac"
+    },
     "iwd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
       "branch": "master",
