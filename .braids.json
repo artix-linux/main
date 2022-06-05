@@ -261,6 +261,11 @@
       "branch": "master",
       "revision": "414cc479bc7019f1ae18cf530823cb459895dba6"
     },
+    "font-awesome": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
+      "branch": "master",
+      "revision": "e9ef377e354d10ebc11c68df1c555698abcabb9e"
+    },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
