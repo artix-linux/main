@@ -5641,6 +5641,11 @@
       "branch": "master",
       "revision": "570d436eeb41724de45bc2e06621bf3340624161"
     },
+    "nilfs-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nilfs-utils.git",
+      "branch": "master",
+      "revision": "fcf27b38a0b8fc39fbf7f0cf14c20e00c4179bca"
+    },
     "ninja": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ninja.git",
       "branch": "master",
