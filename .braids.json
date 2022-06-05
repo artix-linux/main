@@ -3546,6 +3546,11 @@
       "branch": "master",
       "revision": "d1474a277bfb26c3e788a2e4ba80cbac78671fce"
     },
+    "liburcu": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liburcu.git",
+      "branch": "master",
+      "revision": "4ff8a9d0b920f98aba7dc3c6336079dd2461a3ba"
+    },
     "liburing": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liburing.git",
       "branch": "master",
