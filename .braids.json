@@ -7616,6 +7616,11 @@
       "branch": "master",
       "revision": "a312cc01b6d5ee3f0431ad9b2c5725d6b658a7b8"
     },
+    "sqlite": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sqlite.git",
+      "branch": "master",
+      "revision": "ce76780036f676368d7e643916576a041b8d35e5"
+    },
     "squid": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squid.git",
       "branch": "master",
