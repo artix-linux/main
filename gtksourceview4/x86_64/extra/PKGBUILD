@@ -1,0 +1,42 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Balló György <ballogyor+arch at gmail dot com>
+# Contributor: Ionut Biru <ibiru@archlinux.org>
+
+pkgname=gtksourceview4
+pkgver=4.8.3
+pkgrel=1
+pkgdesc="A text widget adding syntax highlighting and more to GNOME"
+url="https://wiki.gnome.org/Projects/GtkSourceView"
+arch=(x86_64)
+license=(GPL)
+depends=(gtk3 libxml2)
+makedepends=(gobject-introspection vala gtk-doc glade yelp-tools git meson)
+checkdepends=(xorg-server-xvfb)
+provides=(libgtksourceview-${pkgver%%.*}.so)
+options=(debug)
+_commit=852d98241a61636de6eafe7e6b0e886e25c77775  # tags/4.8.3^0
+source=("git+https://gitlab.gnome.org/GNOME/gtksourceview.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd gtksourceview
+  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd gtksourceview
+}
+
+build() {
+  artix-meson gtksourceview build -D glade_catalog=true -D gtk_doc=true
+  meson compile -C build
+}
+
+check() {
+  dbus-run-session xvfb-run -s '-nolisten local' \
+    meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}

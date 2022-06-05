@@ -1311,6 +1311,11 @@
       "branch": "master",
       "revision": "8eadab7b6f6a817eb2bd36f6f9da8b3cf74375f3"
     },
+    "gtksourceview4": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gtksourceview4.git",
+      "branch": "master",
+      "revision": "3749943b5f5cf24e84b84fd5a225dc5d505070db"
+    },
     "gts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
       "branch": "master",
