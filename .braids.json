@@ -5161,6 +5161,11 @@
       "branch": "master",
       "revision": "cf237b02df73bbde141d435a7ca32e6ffeda2897"
     },
+    "powertop": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/powertop.git",
+      "branch": "master",
+      "revision": "d59d8a5a298ea39a0a6d2d6085f1a66c7d27a72b"
+    },
     "pptpd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpd.git",
       "branch": "master",
