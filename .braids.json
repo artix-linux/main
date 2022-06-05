@@ -656,6 +656,11 @@
       "branch": "master",
       "revision": "e9dac1f40756e5586cdcfff26df31c0c54bb5c67"
     },
+    "getdns": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/getdns.git",
+      "branch": "master",
+      "revision": "d473f499259b69ca3c18d55993dd2160c2019a2d"
+    },
     "ghostscript": {
       "url": "gitea@gitea.artixlinux.org:packagesG/ghostscript.git",
       "branch": "master",
