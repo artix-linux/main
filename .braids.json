@@ -1631,6 +1631,11 @@
       "branch": "master",
       "revision": "6c4a3856f3e8ed119e1cb8b5b7e706efe9b85e98"
     },
+    "file": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/file.git",
+      "branch": "master",
+      "revision": "fd640c5cebc4621a3da1d1bbcf454c23213199f2"
+    },
     "fira-code": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fira-code.git",
       "branch": "master",
