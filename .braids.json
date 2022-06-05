@@ -225,6 +225,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libfabric.git",
       "branch": "master",
       "revision": "020ae4125aa442cac69e3eda524d11e87a22dc5f"
+    },
+    "libgnt": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
+      "branch": "master",
+      "revision": "771d15a9d53257144be908fb19c03d4591c95ae2"
     }
   }
 }
