@@ -1596,6 +1596,11 @@
       "branch": "master",
       "revision": "ba5457416b5e534030925357b0a5613a8281ed78"
     },
+    "libebml": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libebml.git",
+      "branch": "master",
+      "revision": "ca7a5129825a40de7e791d3f491c184830c310ba"
+    },
     "libepubgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepubgen.git",
       "branch": "master",
