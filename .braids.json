@@ -1706,6 +1706,11 @@
       "branch": "master",
       "revision": "86117a0baece958f53b1176adc680e40c755028a"
     },
+    "xorgproto": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
+      "branch": "master",
+      "revision": "6c558d63e03df3ecafa7c57c83c7dc104e3cb8a7"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
