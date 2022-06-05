@@ -3271,6 +3271,11 @@
       "branch": "master",
       "revision": "f991b96fac7e5b71eebbc3b957b1e4f490644e42"
     },
+    "libdaemon": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdaemon.git",
+      "branch": "master",
+      "revision": "cc452f926e194aa37c670e327c4a8e416322127f"
+    },
     "libdbi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdbi.git",
       "branch": "master",
