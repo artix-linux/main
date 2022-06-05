@@ -566,6 +566,11 @@
       "branch": "master",
       "revision": "04003c0dab2a65f2fb68f9a15d670bf7cca68f7c"
     },
+    "chrony": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chrony.git",
+      "branch": "master",
+      "revision": "828b7e10af72d8ca8fa4f2957c1bba5930218ea4"
+    },
     "cifs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cifs-utils.git",
       "branch": "master",
