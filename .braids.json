@@ -4831,6 +4831,11 @@
       "branch": "master",
       "revision": "338308e6160c0d389a7fc2b65c3d648ed0433bfc"
     },
+    "linux-atm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/linux-atm.git",
+      "branch": "master",
+      "revision": "ddb198e555f90dbf1d9e4d973e7b017329b8a498"
+    },
     "linux-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-firmware.git",
       "branch": "master",
