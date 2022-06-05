@@ -271,6 +271,11 @@
       "branch": "master",
       "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
     },
+    "hypercorn": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
+      "branch": "master",
+      "revision": "8797ecc0368ab7e9bccdf9e4c74039dad3921d80"
+    },
     "i2c-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
       "branch": "master",
