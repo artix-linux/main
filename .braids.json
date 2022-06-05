@@ -3631,6 +3631,11 @@
       "branch": "master",
       "revision": "839cc6a5aa91de574d018be7e75cc6ebc98234c4"
     },
+    "sndio": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sndio.git",
+      "branch": "master",
+      "revision": "ca2c12d08d6a16fa4f5af8c68ab5a72b8d9714e3"
+    },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
