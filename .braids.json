@@ -6661,6 +6661,11 @@
       "branch": "master",
       "revision": "21f04a10c1ce49296c8ccc989ba61894e85ce991"
     },
+    "pyqt6-webengine": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-webengine.git",
+      "branch": "master",
+      "revision": "5f1603d64f400f01e965c4fa69376ffaee498159"
+    },
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",
