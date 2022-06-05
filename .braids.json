@@ -3356,6 +3356,11 @@
       "branch": "master",
       "revision": "0384533b4636bde172eac66787bcfcc4d4fe7fe2"
     },
+    "mkinitcpio-nfs-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio-nfs-utils.git",
+      "branch": "master",
+      "revision": "0ef624250970a6a4d4c54aa9369557ee3db3817f"
+    },
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
