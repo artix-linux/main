@@ -201,6 +201,11 @@
       "branch": "master",
       "revision": "d8b50b42c3cc40e200bafafe2826acd8aaab1ca7"
     },
+    "flake8": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/flake8.git",
+      "branch": "master",
+      "revision": "0825695e0d00ce956c86daa9b2ca0731a83f870a"
+    },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
