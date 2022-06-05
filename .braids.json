@@ -3111,6 +3111,11 @@
       "branch": "master",
       "revision": "ca9aecbcc999fa796b4a08365fe546688ffe0094"
     },
+    "libassuan": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libassuan.git",
+      "branch": "master",
+      "revision": "3ffb604fe878484bb788fbf071b132bcfa2b0432"
+    },
     "libasyncns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libasyncns.git",
       "branch": "master",
