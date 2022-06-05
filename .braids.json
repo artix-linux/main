@@ -2386,6 +2386,11 @@
       "branch": "master",
       "revision": "f8cec4fec87cd63b31e16b21ac9476f2b4cdcb66"
     },
+    "radicale": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radicale.git",
+      "branch": "master",
+      "revision": "f80484d0fdca57f70f5f4c4fd4421cb458d09558"
+    },
     "ranger": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ranger.git",
       "branch": "master",
