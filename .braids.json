@@ -1996,6 +1996,11 @@
       "branch": "master",
       "revision": "9d50e145995259d999a4d4c91a97fc955c56136e"
     },
+    "libopenraw": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libopenraw.git",
+      "branch": "master",
+      "revision": "0ae9f4242e58816b9aa0f546d23f5e520f0bdeb5"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
