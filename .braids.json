@@ -656,6 +656,11 @@
       "branch": "master",
       "revision": "6b6c60db5832e22c767d9d5a87502e9f9b758789"
     },
+    "libvdpau": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvdpau.git",
+      "branch": "master",
+      "revision": "473838ecb7e60104821bf344d5d8bd4980ae2c7f"
+    },
     "libvirt-python": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-python.git",
       "branch": "master",
