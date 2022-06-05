@@ -536,6 +536,11 @@
       "branch": "master",
       "revision": "23c4d00aa429006d02443dbcc6fe59b30be33c4b"
     },
+    "cgmanager": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager.git",
+      "branch": "master",
+      "revision": "a02f26582a7326b11a11e3bc650109ac1ed5a655"
+    },
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
