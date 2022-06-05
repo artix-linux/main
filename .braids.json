@@ -2526,6 +2526,11 @@
       "branch": "master",
       "revision": "3d7de1bd8037938ee10254a9460fca16004340c8"
     },
+    "slirp4netns": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/slirp4netns.git",
+      "branch": "master",
+      "revision": "45f81b3aa5a38abdc0a311bdc87dcea8cefa7ff0"
+    },
     "slop": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slop.git",
       "branch": "master",
