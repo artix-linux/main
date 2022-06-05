@@ -1,0 +1,32 @@
+# Maintainer: Timothy Redaelli <timothy.redaelli@gmail.com>
+# Contributor: Michael P <ptchinster@archlinux.us>
+# Contributor: Roberto Alsina <ralsina@kde.org>
+# Contributor: Will Chappell <mr.chapendi@gmail.com>
+# Contributor: Jesse Young <jesse.young@gmail.com>
+# Contributor: Gustavo Alvarez <sl1pkn07@gmail.com>
+
+pkgname=ragel
+pkgver=6.10
+pkgrel=3.1
+pkgdesc="Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code."
+arch=('x86_64')
+url="http://www.complang.org/ragel/"
+license=('GPL')
+depends=('gcc-libs')
+source=(https://www.colm.net/files/$pkgname/$pkgname-$pkgver.tar.gz)
+validpgpkeys=(C3260F001EE3780F1BC3D4F650FE47277DC196FB)
+md5sums=('748cae8b50cffe9efcaa5acebc6abf0d')
+
+build() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+  ./configure --prefix=/usr CXXFLAGS="$CXXFLAGS -std=gnu++98" 
+  make
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+  make DESTDIR="$pkgdir/" install
+  install -m0644 -D ragel.vim "$pkgdir"/usr/share/vim/vimfiles/syntax/ragel.vim
+}

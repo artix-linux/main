@@ -5711,6 +5711,11 @@
       "branch": "master",
       "revision": "08adba65daa4ce9041294f7689d8ed16b4a2c2be"
     },
+    "ragel": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/ragel.git",
+      "branch": "master",
+      "revision": "38f9e56b8b9b522050169cef1aaac7662f643220"
+    },
     "ranger": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ranger.git",
       "branch": "master",
