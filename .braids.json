@@ -1696,6 +1696,11 @@
       "branch": "master",
       "revision": "64eec2180e3a8d28add7c6deef6e51f71fc0b84e"
     },
+    "xorg-iceauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-iceauth.git",
+      "branch": "master",
+      "revision": "51507efc2082fcfa0c46949d6ba924b817921a40"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
