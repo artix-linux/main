@@ -3816,6 +3816,11 @@
       "branch": "master",
       "revision": "0f9726727d7caa6f6c0153bce8c5fec02a809c4d"
     },
+    "libxmlb": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxmlb.git",
+      "branch": "master",
+      "revision": "6a3e819f1cb14a0553f57c5d24db6146a63baaf9"
+    },
     "libxmu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmu.git",
       "branch": "master",
