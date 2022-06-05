@@ -1,6 +1,11 @@
 {
   "config_version": 1,
   "mirrors": {
+    "a52dec": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/a52dec.git",
+      "branch": "master",
+      "revision": "90d49c1eb2e817852dc2902856e2ee264accc578"
+    },
     "abseil-cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/abseil-cpp.git",
       "branch": "master",
