@@ -1156,6 +1156,11 @@
       "branch": "master",
       "revision": "57c5ab5e747bfb9e42cdc086d93e924b4d1ed91c"
     },
+    "id3lib": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/id3lib.git",
+      "branch": "master",
+      "revision": "dba77f53023fda032a5d89bc15d5322307de8f84"
+    },
     "ijs": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ijs.git",
       "branch": "master",
