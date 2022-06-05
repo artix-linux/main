@@ -4266,6 +4266,11 @@
       "branch": "master",
       "revision": "e4104d8c69546581fd0da05a2274c13237de4858"
     },
+    "minisign": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minisign.git",
+      "branch": "master",
+      "revision": "502f6ffd7443d6fa89b761049992dc94a19525f5"
+    },
     "miniupnpc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/miniupnpc.git",
       "branch": "master",
