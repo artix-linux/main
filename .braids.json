@@ -1816,6 +1816,11 @@
       "branch": "master",
       "revision": "1a7477e6fd6118d61cb8a3b815d2e75577fc2987"
     },
+    "fop": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fop.git",
+      "branch": "master",
+      "revision": "02fb277665adad5be29db5f3b63105b6d9d1dad0"
+    },
     "fractal": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fractal.git",
       "branch": "master",

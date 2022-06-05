@@ -1,0 +1,32 @@
+# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Stefan Husmann <stefan-husmann@t-online.de>
+# Contributor: Simon Lipp <sloonz+aur@gmail.com>
+
+pkgname=fop
+pkgver=2.7
+pkgrel=1
+pkgdesc='XSL-FO implementation in Java.'
+arch=('any')
+url='https://xmlgraphics.apache.org/fop/'
+license=('APACHE')
+depends=('java-xmlgraphics-commons' 'java-commons-logging' 'java-commons-io' 'java-batik'
+         'java-avalon-framework')
+makedepends=('apache-ant' 'java-environment')
+source=("https://ftp-stud.hs-esslingen.de/pub/Mirrors/ftp.apache.org/dist/xmlgraphics/$pkgname/source/$pkgname-$pkgver-src.tar.gz"
+        'fop.conf')
+sha256sums=('b4f1a5212989cebc7d17c7275fbd23de73cc57259d9288c01436556254ad86d4'
+            'd2900605dc271f5938d0820ca30bdec8060724976b56e43d827157bd6975da96')
+backup=('etc/fop.conf')
+
+build() {
+  cd $pkgname-$pkgver
+  ant -f "$pkgname"/build.xml package
+}
+
+package() {
+  cd $pkgname-$pkgver
+
+  install -Dm0644 "$pkgname/build/fop.jar" "$pkgdir/usr/share/java/fop/fop.jar"
+  install -Dm0644 "../fop.conf" "$pkgdir/etc/fop.conf"
+  install -Dm0755 "$pkgname/$pkgname" "$pkgdir/usr/bin/$pkgname"
+}
