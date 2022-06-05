@@ -2286,6 +2286,11 @@
       "branch": "master",
       "revision": "d724416d18c9256963d5dbb527970754250eac6c"
     },
+    "libva-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libva-utils.git",
+      "branch": "master",
+      "revision": "d4fae66d3db84eabd154468348ee4535b0d72d01"
+    },
     "libvdpau": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvdpau.git",
       "branch": "master",
