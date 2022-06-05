@@ -5101,6 +5101,11 @@
       "branch": "master",
       "revision": "bd893fa0129c47858254643e205f37a6de440bec"
     },
+    "podman": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/podman.git",
+      "branch": "master",
+      "revision": "025930fe8761882e0d4661b652cf9a89ea68932a"
+    },
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
       "branch": "master",
