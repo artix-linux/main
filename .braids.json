@@ -25,6 +25,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/awesome-terminal-fonts.git",
       "branch": "master",
       "revision": "6fad0cf19d6a5333189f4693d0d1a7d94a7c3766"
+    },
+    "banner": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
+      "branch": "master",
+      "revision": "f17c59f22c8f27f8eaa088a7dfdcd386404a2510"
     }
   }
 }
