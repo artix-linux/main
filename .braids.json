@@ -1086,6 +1086,11 @@
       "branch": "master",
       "revision": "65797db251a0565aa616c9caf8634ec9448d0032"
     },
+    "ecryptfs-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ecryptfs-utils.git",
+      "branch": "master",
+      "revision": "8aa3ff8bdc2d1562165a1a1ea7e5fc5192ec085e"
+    },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
