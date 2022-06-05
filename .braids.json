@@ -1981,6 +1981,11 @@
       "branch": "master",
       "revision": "0a722ad2cf9709c5ac0b46719543128f1a6935fb"
     },
+    "vigra": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vigra.git",
+      "branch": "master",
+      "revision": "69c5612578ba20db456eddc02b543e2d6ccaf973"
+    },
     "vimiv": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vimiv.git",
       "branch": "master",
