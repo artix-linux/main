@@ -3181,6 +3181,11 @@
       "branch": "master",
       "revision": "b2f49b3527fe0daa98e5332de74a73b66d39fc3f"
     },
+    "libnih": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnih.git",
+      "branch": "master",
+      "revision": "30b22fd3877c2cef1be38e0dcb320fbd34dda825"
+    },
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
