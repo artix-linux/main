@@ -2556,6 +2556,11 @@
       "branch": "master",
       "revision": "6fcabedd7b7ffa8bb8758473e1f1d3a33ec3bbf4"
     },
+    "sslh": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sslh.git",
+      "branch": "master",
+      "revision": "8863eca77d90f090494853a72ff6baf922f97492"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
