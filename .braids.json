@@ -111,6 +111,11 @@
       "branch": "master",
       "revision": "3539a6c3698de9cbf78e9fc2e3fa33454b6a576a"
     },
+    "bumblebee": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee.git",
+      "branch": "master",
+      "revision": "cd19d2d483c214e9f922f2965968c781c536816c"
+    },
     "capstone": {
       "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
       "branch": "master",
