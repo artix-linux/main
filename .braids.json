@@ -2311,6 +2311,11 @@
       "branch": "master",
       "revision": "3b06859b662126d7358a645d82acb647edb0a3b8"
     },
+    "libvisual": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvisual.git",
+      "branch": "master",
+      "revision": "b24da7be19321550a376339524883807c142d987"
+    },
     "libvncserver": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvncserver.git",
       "branch": "master",
