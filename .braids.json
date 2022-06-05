@@ -371,6 +371,11 @@
       "branch": "master",
       "revision": "2ee0be190510caa4b42e842737b2956acb350353"
     },
+    "keystone": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/keystone.git",
+      "branch": "master",
+      "revision": "70263b8e11c8fc83cee25c8f38411876740f3464"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
