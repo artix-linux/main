@@ -441,6 +441,11 @@
       "branch": "master",
       "revision": "1b2ef32e5aa424a2ad854331a96a49e07d86dd87"
     },
+    "clutter": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clutter.git",
+      "branch": "master",
+      "revision": "d2a0e21bcdfb165a89d7a8a1edae64aa801ded5b"
+    },
     "clutter-gst": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clutter-gst.git",
       "branch": "master",
