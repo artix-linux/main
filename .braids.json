@@ -191,6 +191,11 @@
       "branch": "master",
       "revision": "02d12302e69ef77a83ee2253a974f7afeb2ef41e"
     },
+    "cudnn": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cudnn.git",
+      "branch": "master",
+      "revision": "6d3119a58053e57faa5a47a7c4f4803c2edcb4f0"
+    },
     "cython": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
       "branch": "master",
