@@ -666,6 +666,11 @@
       "branch": "master",
       "revision": "a29386774a145f9a59f9508a93eb0e2691c599ba"
     },
+    "libvncserver": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvncserver.git",
+      "branch": "master",
+      "revision": "486498ee30ab0d99ac9167f017d1ce79ee3fa39a"
+    },
     "libvoikko": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
       "branch": "master",
