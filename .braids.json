@@ -2686,6 +2686,11 @@
       "branch": "master",
       "revision": "407a821df8fe24d5a8db564c9b85ac922a45c8a7"
     },
+    "media-player-info": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/media-player-info.git",
+      "branch": "master",
+      "revision": "c2d8268aac92acd029f41fcfe3eb73ffbf959d0b"
+    },
     "mediainfo": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mediainfo.git",
       "branch": "master",
