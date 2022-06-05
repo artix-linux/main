@@ -681,6 +681,11 @@
       "branch": "master",
       "revision": "30f9d84c08ddee57ed4e32a207ce6324f708c112"
     },
+    "ropper": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/ropper.git",
+      "branch": "master",
+      "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
+    },
     "scim": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
