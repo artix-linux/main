@@ -901,6 +901,11 @@
       "branch": "master",
       "revision": "3282895cc192b970a8f44f01e628d6cca8e4deeb"
     },
+    "iwd": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
+      "branch": "master",
+      "revision": "d0af126ca43ad9727e0bd08f514f603e2a794fb2"
+    },
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
       "branch": "master",
