@@ -1656,6 +1656,11 @@
       "branch": "master",
       "revision": "8badb45d6cf3538691a306e46c10e6460379719a"
     },
+    "xkeyboard-config": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xkeyboard-config.git",
+      "branch": "master",
+      "revision": "57780ac63601bcad9d8c9b4b95dd0359b55b0799"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
