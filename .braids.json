@@ -5546,6 +5546,11 @@
       "branch": "master",
       "revision": "3b06668deadca3ab849cd7c3c7f980040ae0039c"
     },
+    "ndctl": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ndctl.git",
+      "branch": "master",
+      "revision": "2c65ab1ada6bb4974cdd87f6a3a62016125c2e4c"
+    },
     "ndisc6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
       "branch": "master",
