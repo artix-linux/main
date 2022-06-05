@@ -1436,6 +1436,11 @@
       "branch": "master",
       "revision": "9c53123c1ee5281c419e953036bb906a05c18cca"
     },
+    "libavc1394": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libavc1394.git",
+      "branch": "master",
+      "revision": "5addee03dad5a1f3b9b3e4fe104d4779c67fca14"
+    },
     "libb64": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libb64.git",
       "branch": "master",
