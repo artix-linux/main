@@ -871,6 +871,11 @@
       "branch": "master",
       "revision": "37767a9ad22a69e77b75805802a2483ee6ede407"
     },
+    "xonsh": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
+      "branch": "master",
+      "revision": "857b8a4b0783402fb1c8e0d46e99dcb7c537967f"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
