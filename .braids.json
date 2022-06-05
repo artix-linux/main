@@ -1706,6 +1706,11 @@
       "branch": "master",
       "revision": "a6a26e818f9d896616dc95a04781eb82552b8870"
     },
+    "go-bindata-hashicorp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/go-bindata-hashicorp.git",
+      "branch": "master",
+      "revision": "af5dc89f6fcad67911e98f43d392d189b9382657"
+    },
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
       "branch": "master",
