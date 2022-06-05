@@ -1586,6 +1586,11 @@
       "branch": "master",
       "revision": "dbbfdbbd3ea43bb06cd77f02b53cc86c7130fa5e"
     },
+    "intel-ucode": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-ucode.git",
+      "branch": "master",
+      "revision": "d75fa45acd25197cd2504c4e1900641b6a764efa"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
