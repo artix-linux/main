@@ -480,6 +480,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
       "branch": "master",
       "revision": "1821e16967eee06eb1a285f9ccb1c2b2b9f1cdbd"
+    },
+    "virt-what": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
+      "branch": "master",
+      "revision": "cdc5680656deab9f7039792682ef0916d3c2de19"
     }
   }
 }
