@@ -991,6 +991,11 @@
       "branch": "master",
       "revision": "283fcdcfad8328794876513ddd80844687b6be85"
     },
+    "openconnect": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openconnect.git",
+      "branch": "master",
+      "revision": "7a2bf3a5e63db3afd4d4a05c59d4145bf34a7364"
+    },
     "opendoas": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendoas.git",
       "branch": "master",
