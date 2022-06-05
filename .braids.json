@@ -2656,6 +2656,11 @@
       "branch": "master",
       "revision": "1a0aa9340e0a58501bcda874d2ba1088ffac2c81"
     },
+    "telepathy-logger": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-logger.git",
+      "branch": "master",
+      "revision": "27874ec14615b723a285308456104b6fe23f62fa"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
