@@ -16,6 +16,11 @@
       "branch": "master",
       "revision": "fcf4af5c052c751ac61b8992d358caa692effb1a"
     },
+    "apache-orc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apache-orc.git",
+      "branch": "master",
+      "revision": "cfce90b6d993b1be1f385dcc00da83e21141e95f"
+    },
     "apparmor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor.git",
       "branch": "master",
