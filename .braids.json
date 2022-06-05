@@ -601,6 +601,11 @@
       "branch": "master",
       "revision": "e40b56deb18e79c1d115005c5c124fef201cc505"
     },
+    "freeradius": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freeradius.git",
+      "branch": "master",
+      "revision": "52317c4856872e34f937fe40beeea7cd52ebd111"
+    },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
