@@ -6731,6 +6731,11 @@
       "branch": "master",
       "revision": "d7b41dc0f34b7c99ad479db096ca9f25926bab7b"
     },
+    "unarchiver": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unarchiver.git",
+      "branch": "master",
+      "revision": "411ce6ce870ef25ce398a5c17b2f53a38639c642"
+    },
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
       "branch": "master",
