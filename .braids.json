@@ -181,6 +181,11 @@
       "branch": "master",
       "revision": "936cd43769787a79fe720f70d87d1c451cf21435"
     },
+    "audiofile": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/audiofile.git",
+      "branch": "master",
+      "revision": "dab0f92a2d5bf1651e2a1f5c9882eb1c3da39c0a"
+    },
     "auth-tarball-from-git": {
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
       "branch": "master",
