@@ -6156,6 +6156,11 @@
       "branch": "master",
       "revision": "9210859a5ddac2faf7090b47f7a49c14301c99f2"
     },
+    "spdlog": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spdlog.git",
+      "branch": "master",
+      "revision": "14f76a2638b30fa8c7146c37220f5bcef508dcba"
+    },
     "speech-dispatcher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speech-dispatcher.git",
       "branch": "master",
