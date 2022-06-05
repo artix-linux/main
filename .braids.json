@@ -2311,6 +2311,11 @@
       "branch": "master",
       "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
     },
+    "libnotify": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnotify.git",
+      "branch": "master",
+      "revision": "04ec8bf2e19eca56b9baefce768a8dc24d26ac64"
+    },
     "libnumbertext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnumbertext.git",
       "branch": "master",
