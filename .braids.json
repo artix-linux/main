@@ -2286,6 +2286,11 @@
       "branch": "master",
       "revision": "2c11fb9287d5040811d3d1b9ee5983c7783f2c2e"
     },
+    "jq": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jq.git",
+      "branch": "master",
+      "revision": "01cbf7cf5101f997874a73f730a27b8486e33dc7"
+    },
     "jrnl": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jrnl.git",
       "branch": "master",
