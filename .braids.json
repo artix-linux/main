@@ -3031,6 +3031,11 @@
       "branch": "master",
       "revision": "d5b9de7e9dad608b5857975f8059be87656c52d9"
     },
+    "junit": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/junit.git",
+      "branch": "master",
+      "revision": "ed45292bb7d0ab05c6bfe13a846d0d3e58bb92a5"
+    },
     "jupyter": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter.git",
       "branch": "master",
