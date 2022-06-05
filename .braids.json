@@ -456,6 +456,11 @@
       "branch": "master",
       "revision": "882537c04bb61df7a17696dad92b81173283578e"
     },
+    "libvirt-python": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-python.git",
+      "branch": "master",
+      "revision": "a29386774a145f9a59f9508a93eb0e2691c599ba"
+    },
     "libvoikko": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
       "branch": "master",
