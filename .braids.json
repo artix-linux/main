@@ -65,6 +65,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cli11.git",
       "branch": "master",
       "revision": "df58eec93e9de610a0a66b74700de48ff4123fe0"
+    },
+    "cln": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cln.git",
+      "branch": "master",
+      "revision": "30634a416b6b0ea101c07e7a6bf8e6ab25f5cf5e"
     }
   }
 }
