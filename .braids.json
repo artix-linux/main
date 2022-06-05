@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "089ccc3d39255aada088924b4f23927f29e9881d"
     },
+    "gavl": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gavl.git",
+      "branch": "master",
+      "revision": "643a2d04807d0efd6f86b4cdeb17e54dd9818fb7"
+    },
     "gcc11": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
       "branch": "master",
