@@ -6161,6 +6161,11 @@
       "branch": "master",
       "revision": "14f76a2638b30fa8c7146c37220f5bcef508dcba"
     },
+    "speakup-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/speakup-utils.git",
+      "branch": "master",
+      "revision": "19277b2b1fd6b8423300bd021133d5e9f13ccded"
+    },
     "speech-dispatcher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speech-dispatcher.git",
       "branch": "master",
