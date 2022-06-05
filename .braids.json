@@ -501,6 +501,11 @@
       "branch": "master",
       "revision": "8dc165ae77dfd0580ce7a50b4a79f8592f1848d9"
     },
+    "highway": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/highway.git",
+      "branch": "master",
+      "revision": "1d3ea080bab7df25c74d49b006220773a42a1363"
+    },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
