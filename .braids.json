@@ -76,6 +76,11 @@
       "branch": "master",
       "revision": "5ad0711b7ee780324b2f3a4c3e6af1d605dc5a3b"
     },
+    "capstone": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
+      "branch": "master",
+      "revision": "a5a4742ec506609aac862d84d28aa2c2fdbd3ad3"
+    },
     "catfish": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
       "branch": "master",
