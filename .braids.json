@@ -451,6 +451,11 @@
       "branch": "master",
       "revision": "4a6e1fed55ab05d3e5f7628f109a637bc8d3c993"
     },
+    "libusbsio": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
+      "branch": "master",
+      "revision": "882537c04bb61df7a17696dad92b81173283578e"
+    },
     "libvoikko": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
       "branch": "master",
