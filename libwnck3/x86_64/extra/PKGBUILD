@@ -1,0 +1,39 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Ionut Biru <ibiru@archlinux.org>
+
+pkgname=libwnck3
+pkgver=40.1
+pkgrel=1
+pkgdesc="Library to manage X windows and workspaces (via pagers, tasklists, etc.)"
+url="https://gitlab.gnome.org/GNOME/libwnck"
+arch=(x86_64)
+license=(LGPL)
+depends=(gtk3 startup-notification libxres)
+makedepends=(gobject-introspection gtk-doc git meson)
+_commit=7fab141ba787cecb576b732c9182b006453d82f4  # tags/40.1^0
+source=("git+https://gitlab.gnome.org/GNOME/libwnck.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd libwnck
+  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd libwnck
+}
+
+build() {
+  artix-meson libwnck build -D gtk_doc=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}
+
+# vim:set sw=2 et:
