@@ -1886,6 +1886,11 @@
       "branch": "master",
       "revision": "e35e5348b883e3b65726b623edec0fa02ea1fdd2"
     },
+    "mitmproxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mitmproxy.git",
+      "branch": "master",
+      "revision": "1f0afb77642deaaa59ecea741839985783d3df02"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
