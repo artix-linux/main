@@ -811,6 +811,11 @@
       "branch": "master",
       "revision": "f31da04624d88525277594a6e27b18ff67099f73"
     },
+    "libxres": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxres.git",
+      "branch": "master",
+      "revision": "da94b138a0a4991e871acfa0232c05a9c823c992"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
