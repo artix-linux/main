@@ -4996,6 +4996,11 @@
       "branch": "master",
       "revision": "537ead5019f6d2a15eed7c2263f0e641bd760c02"
     },
+    "patchelf": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/patchelf.git",
+      "branch": "master",
+      "revision": "95e44af5fbe70ba1214a3c22685822887ca0fb03"
+    },
     "pcaudiolib": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcaudiolib.git",
       "branch": "master",
