@@ -1011,6 +1011,11 @@
       "branch": "master",
       "revision": "70263b8e11c8fc83cee25c8f38411876740f3464"
     },
+    "kismet": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/kismet.git",
+      "branch": "master",
+      "revision": "6168fc84cce119e0892705332b2fdf3da1ea1261"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
