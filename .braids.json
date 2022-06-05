@@ -6726,6 +6726,11 @@
       "branch": "master",
       "revision": "64d5f52c87419228924c4e2fa0f6bc079a9e6b00"
     },
+    "umockdev": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/umockdev.git",
+      "branch": "master",
+      "revision": "d7b41dc0f34b7c99ad479db096ca9f25926bab7b"
+    },
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
       "branch": "master",

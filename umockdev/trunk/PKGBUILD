@@ -1,0 +1,34 @@
+# Maintainer: Jaroslav Lichtblau <svetlemodry@archlinux.org>
+# Contributor: Marcin (CTRL) Wieczorek <marcin@marcin.co>
+# Contributor: Xiao-Long Chen <chenxiaolong@cxl.epac.to>
+
+pkgname=umockdev
+pkgver=0.17.12
+pkgrel=1
+pkgdesc="Record/mock hardware devices for bug reports and regression tests"
+arch=('x86_64')
+url="https://github.com/martinpitt/umockdev/"
+license=('LGPL')
+depends=('udev' 'libgudev' 'libpcap')
+makedepends=('meson' 'gobject-introspection' 'gtk-doc' 'vala')
+source=($pkgname-$pkgver.tar.gz::https://github.com/martinpitt/$pkgname/archive/$pkgver.tar.gz)
+sha256sums=('ac59aa274cb0eb910051d9da413c89cfaf5455705eea30e83a9ae50e4660b238')
+
+build() {
+  cd $pkgname-$pkgver
+
+  artix-meson -Dgtk_doc=true ../build
+  ninja -v -C ../build
+}
+
+check() {
+  cd $pkgname-$pkgver
+
+  meson test -C ../build --print-errorlogs
+}
+
+package() {
+  cd $pkgname-$pkgver
+
+  DESTDIR="${pkgdir}" meson install -C ../build
+}
