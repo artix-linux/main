@@ -7766,6 +7766,11 @@
       "branch": "master",
       "revision": "c8995f1c0c5241b76f67906a052ba2f696653ffb"
     },
+    "syslinux": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslinux.git",
+      "branch": "master",
+      "revision": "3148655cd128d27157fff75053163a106bb52bf2"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
