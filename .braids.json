@@ -6101,6 +6101,11 @@
       "branch": "master",
       "revision": "839cc6a5aa91de574d018be7e75cc6ebc98234c4"
     },
+    "snapper": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/snapper.git",
+      "branch": "master",
+      "revision": "35f59de7f14bf3da12fc8c4d695de4ca4b1c5bba"
+    },
     "sndio": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio.git",
       "branch": "master",
