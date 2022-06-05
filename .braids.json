@@ -3036,6 +3036,11 @@
       "branch": "master",
       "revision": "f1c868528c29f43588eeb91e8f7aaa34cabfc316"
     },
+    "less": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/less.git",
+      "branch": "master",
+      "revision": "6d503a8a7d0039f6ec44439a163bc9334bc39bb2"
+    },
     "level-zero": {
       "url": "gitea@gitea.artixlinux.org:packagesL/level-zero.git",
       "branch": "master",
