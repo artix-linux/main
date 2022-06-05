@@ -1,0 +1,36 @@
+# Maintainer: Andreas Radke <andyrtr@archlinux.org>
+
+pkgname=libnumbertext
+pkgver=1.0.10
+pkgrel=1
+pkgdesc="Number to number name and money text conversion library"
+arch=('x86_64')
+url="https://github.com/Numbertext/libnumbertext"
+license=('LGPL3' 'custom')
+depends=('gcc-libs')
+source=(${pkgname}-${pkgver}::https://github.com/Numbertext/libnumbertext/archive/$pkgver.tar.gz)
+sha256sums=('46a5ea59789ee683c14ceb5339d7fb7d4abd956b2b838ff13d7b8e0ed9af43f1')
+
+prepare() {
+  cd "$pkgname-$pkgver"
+  autoreconf -vfi
+}
+
+build() {
+  cd "$pkgname-$pkgver"
+  ./configure --prefix=/usr
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+  make
+}
+
+check() {
+  cd "$pkgname-$pkgver"
+  make -k check
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  make DESTDIR="$pkgdir/" install
+  # add dual license file
+  install -Dt "${pkgdir}"/usr/share/licenses/${pkgname} -m644 COPYING
+}

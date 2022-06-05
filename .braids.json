@@ -916,6 +916,11 @@
       "branch": "master",
       "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
     },
+    "libnumbertext": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnumbertext.git",
+      "branch": "master",
+      "revision": "7be77664a290696c62d2c095f928305df2233c26"
+    },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
