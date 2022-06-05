@@ -1716,6 +1716,11 @@
       "branch": "master",
       "revision": "aa52680fc01b3ceaae5955b1aa2308346a2a7113"
     },
+    "xorg-setxkbmap": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-setxkbmap.git",
+      "branch": "master",
+      "revision": "f005de53d2b063f4cb2537249818cd1ccb492e47"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
