@@ -5751,6 +5751,11 @@
       "branch": "master",
       "revision": "00847422d26f7d2e67e03a67dd357c4f35e83b8d"
     },
+    "rebar": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rebar.git",
+      "branch": "master",
+      "revision": "220ad4c77033238d4d9f4d613e689c046d5d2b15"
+    },
     "recode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/recode.git",
       "branch": "master",
