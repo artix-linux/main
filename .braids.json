@@ -216,6 +216,11 @@
       "branch": "master",
       "revision": "97b738a2c921ce2cf27e99c11b398567be0dee0b"
     },
+    "artix-keyring": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/artix-keyring.git",
+      "branch": "master",
+      "revision": "52d82716e5c088a0b5de802c8bc7ae50c4b09de4"
+    },
     "artixnews": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artixnews.git",
       "branch": "master",
