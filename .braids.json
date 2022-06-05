@@ -476,6 +476,11 @@
       "branch": "master",
       "revision": "b5f37291ade0c26c7e5330ccc06e71de9dbc8c73"
     },
+    "liquidctl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
+      "branch": "master",
+      "revision": "9f821c16051740bca07ff53f1dbe6b09d4e71883"
+    },
     "log4cplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
       "branch": "master",
