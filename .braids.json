@@ -4791,6 +4791,11 @@
       "branch": "master",
       "revision": "3e49cc34a21ea0b1ca01540b92c801c8b7be4f55"
     },
+    "licenses": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/licenses.git",
+      "branch": "master",
+      "revision": "5bce5bf218a2d7802843fe51deac5407275d586e"
+    },
     "light-locker": {
       "url": "gitea@gitea.artixlinux.org:packagesL/light-locker.git",
       "branch": "master",
