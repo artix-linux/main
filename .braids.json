@@ -1406,6 +1406,11 @@
       "branch": "master",
       "revision": "ac635574094c6da56131bce7138b38d2eaa7ff22"
     },
+    "netpbm": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/netpbm.git",
+      "branch": "master",
+      "revision": "c076935a35660d3654491197e77d435342b67f05"
+    },
     "networkmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager.git",
       "branch": "master",
