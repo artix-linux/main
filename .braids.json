@@ -76,6 +76,11 @@
       "branch": "master",
       "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
     },
+    "aria2": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aria2.git",
+      "branch": "master",
+      "revision": "0e942489ff7a7ee46fb7b0e9242e88f4b4e7e3d1"
+    },
     "arrow": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arrow.git",
       "branch": "master",
