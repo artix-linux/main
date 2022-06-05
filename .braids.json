@@ -1501,6 +1501,11 @@
       "branch": "master",
       "revision": "d116afcdf6f9033fa55867f62b71470f1f365bdc"
     },
+    "expect": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/expect.git",
+      "branch": "master",
+      "revision": "791c28aa7941b884b805edd57e1ae0024e61acf3"
+    },
     "faac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faac.git",
       "branch": "master",
