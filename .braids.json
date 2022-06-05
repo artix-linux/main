@@ -771,6 +771,11 @@
       "branch": "master",
       "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
     },
+    "haproxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
+      "branch": "master",
+      "revision": "1408b2231b55a45bb49f88567ed2b8e1f342cd26"
+    },
     "harfbuzz": {
       "url": "gitea@gitea.artixlinux.org:packagesH/harfbuzz.git",
       "branch": "master",
