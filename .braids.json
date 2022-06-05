@@ -6691,6 +6691,11 @@
       "branch": "master",
       "revision": "11bcef9407e49176cfaee69c641b21e9cd24d938"
     },
+    "pyxdg": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
+      "branch": "master",
+      "revision": "686d6aaba0582bedc282daf21c77e512a2f11c27"
+    },
     "qcoro": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qcoro.git",
       "branch": "master",
