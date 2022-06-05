@@ -1826,6 +1826,11 @@
       "branch": "master",
       "revision": "1e50bedb08f7795dfa410db1790a7ebe40e2dbab"
     },
+    "mariadb": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mariadb.git",
+      "branch": "master",
+      "revision": "7a429cd7d6963f9903f170e1c64c744973247a63"
+    },
     "mat2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mat2.git",
       "branch": "master",
