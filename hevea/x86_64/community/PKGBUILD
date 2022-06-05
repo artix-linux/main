@@ -1,0 +1,28 @@
+# Maintainer: Konstantin Gizdov <arch at kge dot pw>
+# Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: Brian Nguyen <bhnguyen@gmail.com>
+# Original Packager: Tom K <tomk@runbox.com>
+
+pkgname=hevea
+pkgver=2.35
+pkgrel=1
+pkgdesc="A quite complete and fast LATEX to HTML translator"
+arch=(x86_64)
+depends=('texlive-bin')
+makedepends=('ocaml' 'ocamlbuild')
+license=('GPL')
+url="http://pauillac.inria.fr/~maranget/hevea/"
+source=(http://pauillac.inria.fr/~maranget/$pkgname/distri/$pkgname-$pkgver.tar.gz)
+sha256sums=('f189bada5d3e5b35855dfdfdb5b270c994fc7a2366b01250d761359ad66c9ecb')
+
+build() {
+  cd $pkgname-$pkgver
+  make PREFIX=/usr
+}
+
+package() {
+  cd $pkgname-$pkgver
+  DESTDIR="$pkgdir" make install
+  mkdir -p "$pkgdir"/usr/share/texmf/tex/latex
+  ln -s /usr/lib/hevea/hevea.sty "$pkgdir"/usr/share/texmf/tex/latex/hevea.sty
+}
