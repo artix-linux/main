@@ -1861,6 +1861,11 @@
       "branch": "master",
       "revision": "a750a01acd11493bd30c79cbbf91399e0da0742e"
     },
+    "gc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gc.git",
+      "branch": "master",
+      "revision": "986a47ecfa42314e5b0bc7ef226b0fe647fc07af"
+    },
     "gcc11": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
       "branch": "master",
