@@ -1571,6 +1571,11 @@
       "branch": "master",
       "revision": "37767a9ad22a69e77b75805802a2483ee6ede407"
     },
+    "xf86-input-elographics": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-elographics.git",
+      "branch": "master",
+      "revision": "c7167ace1f5b5cdde5727290db6dd96636249b72"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
