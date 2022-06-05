@@ -1136,6 +1136,11 @@
       "branch": "master",
       "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
     },
+    "rxvt-unicode": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
+      "branch": "master",
+      "revision": "4c7b23dcc63a7576e26554a52414996b03a0bca0"
+    },
     "s3cmd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
       "branch": "master",
