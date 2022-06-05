@@ -1776,6 +1776,11 @@
       "branch": "master",
       "revision": "48eb0e78eff1bd6a5eb7afaea49432b7d4b52d8f"
     },
+    "libisofs": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libisofs.git",
+      "branch": "master",
+      "revision": "dbc4ddbf7cd24fc3654f4c1a82a3ebcbf9dd2cb2"
+    },
     "libixion": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libixion.git",
       "branch": "master",
