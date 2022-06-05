@@ -4176,6 +4176,11 @@
       "branch": "master",
       "revision": "265b693a2a6b1bb3244421e550fecfc5cb22aa64"
     },
+    "vid.stab": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vid.stab.git",
+      "branch": "master",
+      "revision": "dbabe81c3203113027abb3f52e21ca7d993d0aa1"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
