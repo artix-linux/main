@@ -1376,6 +1376,11 @@
       "branch": "master",
       "revision": "65797db251a0565aa616c9caf8634ec9448d0032"
     },
+    "eclipse-ecj": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/eclipse-ecj.git",
+      "branch": "master",
+      "revision": "1d6c4da1778ce5bf61c6b48ae9f6fe5b66baf498"
+    },
     "ecryptfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ecryptfs-utils.git",
       "branch": "master",
