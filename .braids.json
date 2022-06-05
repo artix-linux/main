@@ -7066,6 +7066,11 @@
       "branch": "master",
       "revision": "1f73aa18b984515cd644844960e082541e36c282"
     },
+    "readline": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/readline.git",
+      "branch": "master",
+      "revision": "30de53b90461f5e2d71feec258f03d129960bab6"
+    },
     "rebar": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rebar.git",
       "branch": "master",
