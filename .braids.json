@@ -686,6 +686,11 @@
       "branch": "master",
       "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
     },
+    "s3cmd": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
+      "branch": "master",
+      "revision": "a1afc6911d32c5a9a0b6ba713b2f7cdcc9662ba8"
+    },
     "scim": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
