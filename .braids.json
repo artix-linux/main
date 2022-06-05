@@ -1471,6 +1471,11 @@
       "branch": "master",
       "revision": "7a2bf3a5e63db3afd4d4a05c59d4145bf34a7364"
     },
+    "opencv": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opencv.git",
+      "branch": "master",
+      "revision": "e574aca44dcdafe65779d1980e4a8829992a3e94"
+    },
     "opendoas": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendoas.git",
       "branch": "master",
