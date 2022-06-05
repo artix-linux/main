@@ -2131,6 +2131,11 @@
       "branch": "master",
       "revision": "13ad18b070024bec3f90c1a70c436f40f3940117"
     },
+    "openfire": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openfire.git",
+      "branch": "master",
+      "revision": "64aa29dfb0563b1564c4329bfc28f0dc6404c356"
+    },
     "openimagedenoise": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openimagedenoise.git",
       "branch": "master",
