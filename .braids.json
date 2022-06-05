@@ -1976,6 +1976,11 @@
       "branch": "master",
       "revision": "8dc165ae77dfd0580ce7a50b4a79f8592f1848d9"
     },
+    "hidapi": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hidapi.git",
+      "branch": "master",
+      "revision": "80d9eb1c9a74fd3b7d3eb13c1afb7479e9197ac9"
+    },
     "highway": {
       "url": "gitea@gitea.artixlinux.org:packagesH/highway.git",
       "branch": "master",
