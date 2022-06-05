@@ -1436,6 +1436,11 @@
       "branch": "master",
       "revision": "9ccfad82d04f1658f721267d64e18acb031da92d"
     },
+    "libsmbios": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsmbios.git",
+      "branch": "master",
+      "revision": "c028bd3bf282456dae1656e88b25a0cc705e1c3e"
+    },
     "libspectre": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libspectre.git",
       "branch": "master",
