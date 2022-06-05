@@ -1586,6 +1586,11 @@
       "branch": "master",
       "revision": "1621096d03822318057f96115073825fe689233e"
     },
+    "libdvdread": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdvdread.git",
+      "branch": "master",
+      "revision": "d02a8745ff31d410455e7fd45f86141350831b74"
+    },
     "libe-book": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libe-book.git",
       "branch": "master",
