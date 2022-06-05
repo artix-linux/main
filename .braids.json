@@ -175,6 +175,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
       "branch": "master",
       "revision": "827bf96d751afe04d0487657d2d91c657ec01e07"
+    },
+    "icmake": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
+      "branch": "master",
+      "revision": "57c5ab5e747bfb9e42cdc086d93e924b4d1ed91c"
     }
   }
 }
