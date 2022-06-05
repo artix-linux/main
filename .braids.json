@@ -31,6 +31,11 @@
       "branch": "master",
       "revision": "5bcd80316a58a2ef5334cf2a21ce9cc119d0a9d7"
     },
+    "alsa-firmware": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-firmware.git",
+      "branch": "master",
+      "revision": "2179339343fb2ebe3492259db17a8b08f38d6c36"
+    },
     "amdvlk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
       "branch": "master",
