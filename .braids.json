@@ -525,6 +525,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
       "branch": "master",
       "revision": "f3b22efe2902b64eb0a4f9acd1328972a289da94"
+    },
+    "yubikey-personalization": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yubikey-personalization.git",
+      "branch": "master",
+      "revision": "adbc514fb72b8cc5ded72aea4cafa76d00782f20"
     }
   }
 }
