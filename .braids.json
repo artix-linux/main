@@ -341,6 +341,11 @@
       "branch": "master",
       "revision": "414cc479bc7019f1ae18cf530823cb459895dba6"
     },
+    "flickcurl": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/flickcurl.git",
+      "branch": "master",
+      "revision": "9c4377b435c343f74f5022686f304dbfff31ae21"
+    },
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
       "branch": "master",
