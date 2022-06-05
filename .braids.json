@@ -1781,6 +1781,11 @@
       "branch": "master",
       "revision": "feefd667e1e22e8073fbe407c9403394280ef31a"
     },
+    "grunt-cli": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grunt-cli.git",
+      "branch": "master",
+      "revision": "1584929f4dc06957834940eae53c12bc21a2785b"
+    },
     "gsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsasl.git",
       "branch": "master",
