@@ -1571,6 +1571,11 @@
       "branch": "master",
       "revision": "ed5d3bed32824f8db68338221b52617040c63eec"
     },
+    "libdvbpsi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdvbpsi.git",
+      "branch": "master",
+      "revision": "cd7884dda11f9137ca63d9c85516a78090773089"
+    },
     "libe-book": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libe-book.git",
       "branch": "master",
