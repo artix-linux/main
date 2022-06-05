@@ -3086,6 +3086,11 @@
       "branch": "master",
       "revision": "680e7ca0c742c5f83d8ecf8c49a51ee728a95258"
     },
+    "libaio": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libaio.git",
+      "branch": "master",
+      "revision": "c0c135abf92a8ea772af32a80ec55cddb5f3a989"
+    },
     "libao": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libao.git",
       "branch": "master",
