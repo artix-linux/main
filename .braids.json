@@ -226,6 +226,11 @@
       "branch": "master",
       "revision": "dcce07c0fcf81e89817a50599b942e80900e03f4"
     },
+    "bcunit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bcunit.git",
+      "branch": "master",
+      "revision": "fd8a231642ce2e2b744ab905e789be7ed939ac6f"
+    },
     "bftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd.git",
       "branch": "master",
