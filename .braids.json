@@ -1931,6 +1931,11 @@
       "branch": "master",
       "revision": "93226dd2474d7e7aa974c068c0247eb475feda35"
     },
+    "libmysofa": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmysofa.git",
+      "branch": "master",
+      "revision": "93160f4295ec64bed00f2b2595d788f80c348b1b"
+    },
     "libnatpmp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnatpmp.git",
       "branch": "master",
