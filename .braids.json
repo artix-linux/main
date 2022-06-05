@@ -896,6 +896,11 @@
       "branch": "master",
       "revision": "a0cab0bf49d9f1879bdf8da6b59cda5e8b5c0734"
     },
+    "libmypaint": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmypaint.git",
+      "branch": "master",
+      "revision": "93226dd2474d7e7aa974c068c0247eb475feda35"
+    },
     "libndp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libndp.git",
       "branch": "master",
