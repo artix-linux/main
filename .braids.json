@@ -1516,6 +1516,11 @@
       "branch": "master",
       "revision": "5e70b16259b7acb2ce4a8d6dfc350811a0b25ef5"
     },
+    "optipng": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/optipng.git",
+      "branch": "master",
+      "revision": "e8602696c322cdec97db67a2741098795efc7be2"
+    },
     "ospray": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",
