@@ -131,6 +131,11 @@
       "branch": "master",
       "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
     },
+    "ardour": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
+      "branch": "master",
+      "revision": "80dae12d5d3e96fb2a377dac07f64b80dfa0a44a"
+    },
     "aria2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aria2.git",
       "branch": "master",
