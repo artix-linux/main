@@ -3441,6 +3441,11 @@
       "branch": "master",
       "revision": "694d9f21de0df1ed165136db62f788547d1eac00"
     },
+    "rnnoise": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rnnoise.git",
+      "branch": "master",
+      "revision": "4bae4d3511afc786f8ca86a9a01b473a1b601ad4"
+    },
     "ropgadget": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
       "branch": "master",
