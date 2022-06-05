@@ -4166,6 +4166,11 @@
       "branch": "master",
       "revision": "417bc3a2e6f34ac75065ed68b18c284ac1486746"
     },
+    "vapoursynth": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vapoursynth.git",
+      "branch": "master",
+      "revision": "ccc8297b00795121c82f90a12b9e619b9926417c"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
