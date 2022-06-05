@@ -1711,6 +1711,11 @@
       "branch": "master",
       "revision": "df457dcb8d089250e037e149be3f479b279acca5"
     },
+    "xorg-sessreg": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-sessreg.git",
+      "branch": "master",
+      "revision": "aa52680fc01b3ceaae5955b1aa2308346a2a7113"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
