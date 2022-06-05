@@ -4006,6 +4006,11 @@
       "branch": "master",
       "revision": "ea27348740b954f18eab147c37625cb085859d34"
     },
+    "qt5-webglplugin": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webglplugin.git",
+      "branch": "master",
+      "revision": "b2f5ba2afaf9004382d196da3f86359e083b26dd"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
