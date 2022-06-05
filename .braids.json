@@ -3791,6 +3791,11 @@
       "branch": "master",
       "revision": "c065474fe95c20980512c7576fa697682f4afac3"
     },
+    "pygobject": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pygobject.git",
+      "branch": "master",
+      "revision": "ee3ed3489a4ffec9af7092fd53301388d26dd82a"
+    },
     "pylama": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pylama.git",
       "branch": "master",
