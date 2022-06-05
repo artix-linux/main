@@ -2061,6 +2061,11 @@
       "branch": "master",
       "revision": "cbf5e8fcfe74a202404ccf3941d0881b2b216989"
     },
+    "libproxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libproxy.git",
+      "branch": "master",
+      "revision": "ba8b36e694db3edfc7543255aab61ddc4a1257bf"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
