@@ -3096,6 +3096,11 @@
       "branch": "master",
       "revision": "d115d57d45599a6053bcc46be8b0c54410db90f9"
     },
+    "webfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webfs.git",
+      "branch": "master",
+      "revision": "d11e052ff790b4cedf8ea88a73b5f32a81ca5792"
+    },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
