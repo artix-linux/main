@@ -1466,6 +1466,11 @@
       "branch": "master",
       "revision": "dba77f53023fda032a5d89bc15d5322307de8f84"
     },
+    "igsc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/igsc.git",
+      "branch": "master",
+      "revision": "39b29aa79f8d1ca65107a696b788d6074b6e3cc3"
+    },
     "ijs": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ijs.git",
       "branch": "master",
