@@ -270,6 +270,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhich.git",
       "branch": "master",
       "revision": "b5f37291ade0c26c7e5330ccc06e71de9dbc8c73"
+    },
+    "log4cplus": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
+      "branch": "master",
+      "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
     }
   }
 }
