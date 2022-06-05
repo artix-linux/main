@@ -1626,6 +1626,11 @@
       "branch": "master",
       "revision": "b10a01240089a132902f4f7d9e1ded6f99cb3785"
     },
+    "xf86-video-nouveau": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-nouveau.git",
+      "branch": "master",
+      "revision": "592c059670295869ac47dfea511e6551c37620cd"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
