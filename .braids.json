@@ -6091,6 +6091,11 @@
       "branch": "master",
       "revision": "a6754dbb3dad9eccd6b58d49e0f0cf9ab6c31569"
     },
+    "p11-kit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/p11-kit.git",
+      "branch": "master",
+      "revision": "c4a1ad702a2a0204cb944f717de0a286a30953bf"
+    },
     "packagekit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/packagekit.git",
       "branch": "master",
