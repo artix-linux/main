@@ -141,6 +141,11 @@
       "branch": "master",
       "revision": "106449f17574738e90af17b419e444a8d317cab1"
     },
+    "bind": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bind.git",
+      "branch": "master",
+      "revision": "96ac0ab30d1fd1eda768701900679dc45685ad94"
+    },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
