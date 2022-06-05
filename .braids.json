@@ -5871,6 +5871,11 @@
       "branch": "master",
       "revision": "1d9a5732a183c1d58f909467508be8ca8b3f758b"
     },
+    "rust-bindgen": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rust-bindgen.git",
+      "branch": "master",
+      "revision": "ad0cbedfec87ce9d78b48daf4c01abb92244298a"
+    },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",
