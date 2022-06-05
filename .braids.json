@@ -2711,6 +2711,11 @@
       "branch": "master",
       "revision": "20782b65ae4bc8ef29f0384a276f3720f27a5ffa"
     },
+    "iputils": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iputils.git",
+      "branch": "master",
+      "revision": "a6ee06c39387020720804d48f5b4aba6208d63ca"
+    },
     "ipw2100-fw": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipw2100-fw.git",
       "branch": "master",
