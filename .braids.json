@@ -5921,6 +5921,11 @@
       "branch": "master",
       "revision": "07d02d87c6b16100ffdd4b1683483e3671f3a8cc"
     },
+    "schedtool": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/schedtool.git",
+      "branch": "master",
+      "revision": "09c1da2e2af8cdef292a519cbe727c743dc94ad2"
+    },
     "schroedinger": {
       "url": "gitea@gitea.artixlinux.org:packagesS/schroedinger.git",
       "branch": "master",
