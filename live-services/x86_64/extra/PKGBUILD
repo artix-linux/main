@@ -1,0 +1,83 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: nous <nous@artixlinux.org>
+# Contributor: dudemanguy <dudemanguy@artixlinux.org>
+
+pkgbase=live-services
+pkgname=('artix-live-base'
+        'artix-live-openrc'
+        'artix-live-runit'
+        'artix-live-s6'
+        'artix-live-suite66'
+        'artix-live-dinit')
+pkgver=0.13.6
+pkgrel=1
+pkgdesc='Artix live session'
+arch=('any')
+url="https://gitea.artixlinux.org/artix/live-services"
+license=('GPL')
+makedepends=('git')
+# Build a commit point
+#_commit=91b23a52650c592c2f2596e9a2fb350d8a5c4aa6 # 0.11.1
+#source=("git+$url.git#commit=$_commit")
+source=("${pkgbase}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('334534d331ad1914b94e3d7c82d2efd3ceaf51a69a596427187a4ae32cc54ff6')
+
+build() {
+    cd ${pkgbase}
+    make
+}
+
+package_artix-live-base() {
+    pkgdesc='Artix live base scripts'
+    depends=('artools-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_base install_xdg
+}
+
+package_artix-live-openrc() {
+    pkgdesc='Artix live openrc init scripts'
+    depends=('openrc' 'artix-live-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_rc
+
+    install -d "${pkgdir}"/etc/runlevels/default
+    ln -sf /etc/init.d/pacman-init "${pkgdir}"/etc/runlevels/default/pacman-init
+    ln -sf /etc/init.d/artix-live "${pkgdir}"/etc/runlevels/default/artix-live
+}
+
+package_artix-live-runit() {
+    pkgdesc='Artix live runit init scripts'
+    depends=('runit' 'artix-live-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_runit
+
+    install -d "${pkgdir}"/etc/runit/runsvdir/default
+    ln -sf /etc/runit/sv/pacman-init "${pkgdir}"/etc/runit/runsvdir/default/pacman-init
+}
+
+package_artix-live-s6() {
+    pkgdesc='Artix live s6 init scripts'
+    depends=('s6-base' 'artix-live-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_s6
+}
+
+package_artix-live-suite66() {
+    pkgdesc='Artix live suite66 init scripts'
+    depends=('suite66-base' 'artix-live-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_66
+}
+
+package_artix-live-dinit() {
+    pkgdesc='Artix live dinit init scripts'
+    depends=('dinit' 'artix-live-base')
+
+    cd ${pkgbase}
+    make DESTDIR=${pkgdir} install_dinit
+}

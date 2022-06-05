@@ -4941,6 +4941,11 @@
       "branch": "master",
       "revision": "4355284fb51d4df4264c2a3349c34df698a81890"
     },
+    "live-services": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/live-services.git",
+      "branch": "master",
+      "revision": "b1ca6db92d68aab6d463bdfc14511107f34e25de"
+    },
     "lksctp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lksctp-tools.git",
       "branch": "master",
