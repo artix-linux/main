@@ -1641,6 +1641,11 @@
       "branch": "master",
       "revision": "a5f951808f25e8cea30aba9a8d04c7a63df65a07"
     },
+    "iucode-tool": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iucode-tool.git",
+      "branch": "master",
+      "revision": "38de0b18ae116e6e3718861213dc5eb13ef54970"
+    },
     "iwd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
       "branch": "master",
