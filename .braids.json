@@ -4336,6 +4336,11 @@
       "branch": "master",
       "revision": "2153d506d8aa579d556eafd198f46e216675327c"
     },
+    "wireplumber": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireplumber.git",
+      "branch": "master",
+      "revision": "c8544991f024313cd48370500d2755bea572fa21"
+    },
     "wolfssl": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wolfssl.git",
       "branch": "master",
