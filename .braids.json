@@ -1681,6 +1681,11 @@
       "branch": "master",
       "revision": "d5287097c60b46a02c31fc6de12a79d50a697e65"
     },
+    "libgme": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgme.git",
+      "branch": "master",
+      "revision": "25e7b1e55b2520ad97bba7086742c4043acc25af"
+    },
     "libgnt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
       "branch": "master",
