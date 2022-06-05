@@ -3346,6 +3346,11 @@
       "branch": "master",
       "revision": "785c76965d9976b98e1bc6e6c74a9fcaf8293d2e"
     },
+    "mkinitcpio": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio.git",
+      "branch": "master",
+      "revision": "73099d7c689fe61a289bbb9d22fff95c33defb32"
+    },
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
