@@ -6266,6 +6266,11 @@
       "branch": "master",
       "revision": "615ec3a1fc5bfd423c9a344a7b1e56ae2f9e96bd"
     },
+    "strip-nondeterminism": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strip-nondeterminism.git",
+      "branch": "master",
+      "revision": "416843a5ee4926e27222b83440d2126fbee2c5e8"
+    },
     "strongswan": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan.git",
       "branch": "master",
