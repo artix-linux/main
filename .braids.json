@@ -1781,6 +1781,11 @@
       "branch": "master",
       "revision": "8ee6cc3245ff4bc8ceea4511c3ea742b536f8493"
     },
+    "texlive-core": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/texlive-core.git",
+      "branch": "master",
+      "revision": "1eda64058f0934f27225ecc2032641e82a2b9427"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
