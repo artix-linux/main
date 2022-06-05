@@ -6311,6 +6311,11 @@
       "branch": "master",
       "revision": "ab9f11b3136975e7cc7ccc3cd8beba8566eda8d9"
     },
+    "pkcs11-helper": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pkcs11-helper.git",
+      "branch": "master",
+      "revision": "458e67bb6f099056a4932589ab4f89f2a480e35e"
+    },
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
       "branch": "master",
