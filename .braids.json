@@ -336,6 +336,11 @@
       "branch": "master",
       "revision": "48ca42c641db91d1e3cc5455972be25b80005eb4"
     },
+    "automake": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/automake.git",
+      "branch": "master",
+      "revision": "a8bb0f9294bc21d43a583041b4e748bd7215e530"
+    },
     "autopep8": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autopep8.git",
       "branch": "master",
