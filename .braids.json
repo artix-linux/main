@@ -4816,6 +4816,11 @@
       "branch": "master",
       "revision": "f97aec7ebaa53172901d1f71640a90e7bdd58386"
     },
+    "links": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/links.git",
+      "branch": "master",
+      "revision": "04f0e5aac02bb2cab89f5f61b6aad61175a5c4cf"
+    },
     "linux": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux.git",
       "branch": "master",
