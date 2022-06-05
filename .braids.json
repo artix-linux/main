@@ -1356,6 +1356,11 @@
       "branch": "master",
       "revision": "a92570367563cf99ff28de7fd28dd87f8664eed5"
     },
+    "lame": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lame.git",
+      "branch": "master",
+      "revision": "e537926ebeedac6cf67bcf157f332622d3df0f37"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
