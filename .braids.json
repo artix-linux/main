@@ -211,6 +211,11 @@
       "branch": "master",
       "revision": "aaabe36ed9ea4b2321570f14201489c961fa876c"
     },
+    "asciidoc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/asciidoc.git",
+      "branch": "master",
+      "revision": "e5cf3e80087e2d1f7d39549d2a7451dac31a64a6"
+    },
     "asio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asio.git",
       "branch": "master",
