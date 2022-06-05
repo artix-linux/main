@@ -2396,6 +2396,11 @@
       "branch": "master",
       "revision": "6fcde885f6a3e1174d96c48264234c133d46ba59"
     },
+    "gyp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gyp.git",
+      "branch": "master",
+      "revision": "2c260a365382cd279e8cb8fa4d8410cdc91221bb"
+    },
     "haproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
       "branch": "master",
