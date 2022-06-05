@@ -1201,6 +1201,11 @@
       "branch": "master",
       "revision": "38c73c865e325cc2fdb5fdade7a97b7e652b7a63"
     },
+    "exfat-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exfat-utils.git",
+      "branch": "master",
+      "revision": "125e69aaaa6041dbbcfe6b18e9f3d1769c89d17d"
+    },
     "exim": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim.git",
       "branch": "master",
