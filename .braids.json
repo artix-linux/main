@@ -2756,6 +2756,11 @@
       "branch": "master",
       "revision": "020ae4125aa442cac69e3eda524d11e87a22dc5f"
     },
+    "libfakekey": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfakekey.git",
+      "branch": "master",
+      "revision": "ff70b1dc7068b11ce5ecf58ca2f80ad9be5fc6fe"
+    },
     "libfbclient": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfbclient.git",
       "branch": "master",
