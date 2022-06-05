@@ -5541,6 +5541,11 @@
       "branch": "master",
       "revision": "ad62931e3518f5ca7b8bf6f02acfd87b7e503548"
     },
+    "ncurses": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ncurses.git",
+      "branch": "master",
+      "revision": "3b06668deadca3ab849cd7c3c7f980040ae0039c"
+    },
     "ndisc6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
       "branch": "master",
