@@ -6491,6 +6491,11 @@
       "branch": "master",
       "revision": "2b602decc2bce55c6f670970eaec88a3f1af14be"
     },
+    "psmisc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/psmisc.git",
+      "branch": "master",
+      "revision": "ca08b08ecd444e97a0474913959b11291990d8b9"
+    },
     "pugixml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
       "branch": "master",
