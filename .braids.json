@@ -325,6 +325,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openimagedenoise.git",
       "branch": "master",
       "revision": "2239beaa4138acf03ba4cc813fdf5e99386c5be7"
+    },
+    "openpmix": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openpmix.git",
+      "branch": "master",
+      "revision": "3d3658d871fd684592c97bd62871b4e1921f05c3"
     }
   }
 }
