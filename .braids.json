@@ -141,6 +141,11 @@
       "branch": "master",
       "revision": "c5f2341fe4656ed4ef954c3681c4a68f7841a3f9"
     },
+    "cogl": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cogl.git",
+      "branch": "master",
+      "revision": "acd1ecd056cb5cf87f4a83ca9dcffb4a6d6e14d6"
+    },
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
