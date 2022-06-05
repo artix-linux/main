@@ -526,6 +526,11 @@
       "branch": "master",
       "revision": "f9fceae13b0ebf5b37fc435d78a4004d4b0cf4c9"
     },
+    "libfontenc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
+      "branch": "master",
+      "revision": "d5ff8e6528f969af0d49bc88046e0a10ca7f0c94"
+    },
     "libgnt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
       "branch": "master",
