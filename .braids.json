@@ -3966,6 +3966,11 @@
       "branch": "master",
       "revision": "04ec8bf2e19eca56b9baefce768a8dc24d26ac64"
     },
+    "libnsl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnsl.git",
+      "branch": "master",
+      "revision": "812ced0aff5da444b806e0c22012ca3768780e8a"
+    },
     "libnumbertext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnumbertext.git",
       "branch": "master",
