@@ -46,6 +46,11 @@
       "branch": "master",
       "revision": "22afdabff9a16a147848cd8eadee86cadc7f4cd5"
     },
+    "autopep8": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/autopep8.git",
+      "branch": "master",
+      "revision": "efcaec1997714f8c77e62de850d27b24b6ad0494"
+    },
     "awesome-terminal-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/awesome-terminal-fonts.git",
       "branch": "master",
