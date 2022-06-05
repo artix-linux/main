@@ -3241,6 +3241,11 @@
       "branch": "master",
       "revision": "040b7e9bbc5ea9d15fbb0e7df568f14442688435"
     },
+    "portsmf": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/portsmf.git",
+      "branch": "master",
+      "revision": "6b8306650b2ab3c77ad9c8bba4450fb46558da3e"
+    },
     "postfix": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix.git",
       "branch": "master",
