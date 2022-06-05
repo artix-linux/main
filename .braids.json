@@ -3951,6 +3951,11 @@
       "branch": "master",
       "revision": "80f0a41ebd1f0094aac1ead1a2a4e7dd5375fbe0"
     },
+    "qt5-serialbus": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-serialbus.git",
+      "branch": "master",
+      "revision": "aaefbfdc832d53b04e2299f84b1db5204ce3dbd7"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
