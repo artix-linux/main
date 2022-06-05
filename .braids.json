@@ -761,6 +761,11 @@
       "branch": "master",
       "revision": "0bec7d008f6fecf89ab0bd1e57cd7399d8d24a6b"
     },
+    "gumbo-parser": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gumbo-parser.git",
+      "branch": "master",
+      "revision": "fb2a8fde2f1d560cbdcaf2b80c3039297d2b3104"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
