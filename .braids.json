@@ -456,6 +456,11 @@
       "branch": "master",
       "revision": "86f5a4ad3afa5e1596001041ee32c9a9393a0acc"
     },
+    "graphicsmagick": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/graphicsmagick.git",
+      "branch": "master",
+      "revision": "c40d2ed8e64fccfeea5348494fc56ff912bf181f"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
