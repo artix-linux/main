@@ -4306,6 +4306,11 @@
       "branch": "master",
       "revision": "076d59fac341b4db2b9cd6a49c7cb2c9a485c849"
     },
+    "libtasn1": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtasn1.git",
+      "branch": "master",
+      "revision": "940461e5b28c12e23200db4bc320031dfb291717"
+    },
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
