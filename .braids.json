@@ -7561,6 +7561,11 @@
       "branch": "master",
       "revision": "7da977b59dd4a49f07848ab89a20408b2a3d3d09"
     },
+    "yara": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yara.git",
+      "branch": "master",
+      "revision": "a87c76f6eb68aa358a32c0a863cf49339b15d6ee"
+    },
     "yelp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-tools.git",
       "branch": "master",
