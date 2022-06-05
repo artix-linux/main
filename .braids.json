@@ -1366,6 +1366,11 @@
       "branch": "master",
       "revision": "805fcd8f196f440fb0b566b9fb24ce355ea1cc96"
     },
+    "lcms2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lcms2.git",
+      "branch": "master",
+      "revision": "2d1948e53da9aa6bcf5a9b22aeb546707072aae8"
+    },
     "ldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldb.git",
       "branch": "master",
