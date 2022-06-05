@@ -5741,6 +5741,11 @@
       "branch": "master",
       "revision": "e4780c6518158c0f13f2cd892b53ce0d8ed74871"
     },
+    "nss": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nss.git",
+      "branch": "master",
+      "revision": "ae61967519ae26918ca650adeb4ce4cdf8440b33"
+    },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
