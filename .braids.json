@@ -896,6 +896,11 @@
       "branch": "master",
       "revision": "b852e3324b3ee1602ba5173382edc83dbc84181d"
     },
+    "mobile-broadband-provider-info": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
+      "branch": "master",
+      "revision": "53a59547e663412bbadd38f931b0bf4764f04cb5"
+    },
     "msgpack-cxx": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
       "branch": "master",
