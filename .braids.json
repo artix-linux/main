@@ -291,6 +291,11 @@
       "branch": "master",
       "revision": "c5e8353b4806b62af713cd3df86b3c9f4758d157"
     },
+    "feh": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/feh.git",
+      "branch": "master",
+      "revision": "60ba47a61ad877cc3642664a5c620258b4b92c37"
+    },
     "figlet": {
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
       "branch": "master",
