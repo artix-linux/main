@@ -5751,6 +5751,11 @@
       "branch": "master",
       "revision": "e5e78edd3da9317065f827d6c3be1cae5ab66907"
     },
+    "nss-myhostname": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nss-myhostname.git",
+      "branch": "master",
+      "revision": "78a7da204993b960aea3455eae74f3f96d0e7dc8"
+    },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
