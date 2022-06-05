@@ -1496,6 +1496,11 @@
       "branch": "master",
       "revision": "f552a4dc6e8e29baf82bffb882f1ef218ba3e840"
     },
+    "expat": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/expat.git",
+      "branch": "master",
+      "revision": "d116afcdf6f9033fa55867f62b71470f1f365bdc"
+    },
     "faac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faac.git",
       "branch": "master",
