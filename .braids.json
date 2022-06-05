@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "95f5f1deacc63532f19095f96b02c322a4f5fc0b"
     },
+    "libwacom": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwacom.git",
+      "branch": "master",
+      "revision": "bcfa8f2e47cdfbcccbab7a5a9492fb6e9a891944"
+    },
     "libwhereami": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhereami.git",
       "branch": "master",
