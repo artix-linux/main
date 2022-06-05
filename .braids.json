@@ -1721,6 +1721,11 @@
       "branch": "master",
       "revision": "f005de53d2b063f4cb2537249818cd1ccb492e47"
     },
+    "xorg-twm": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-twm.git",
+      "branch": "master",
+      "revision": "fd5aae1379e82528173f0446af571d1003ab6d59"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
