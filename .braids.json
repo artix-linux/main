@@ -901,6 +901,11 @@
       "branch": "master",
       "revision": "53a59547e663412bbadd38f931b0bf4764f04cb5"
     },
+    "modemmanager": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager.git",
+      "branch": "master",
+      "revision": "effe08f85ebcac1acd6be9e82e53fbd5faaf45dc"
+    },
     "msgpack-cxx": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
       "branch": "master",

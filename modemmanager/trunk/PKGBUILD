@@ -1,0 +1,87 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Ionut Biru <ibiru@archlinux.org>
+
+pkgbase=modemmanager
+pkgname=(modemmanager libmm-glib)
+pkgver=1.18.8
+pkgrel=1
+pkgdesc="Mobile broadband modem management service"
+url="https://www.freedesktop.org/wiki/Software/ModemManager/"
+arch=(x86_64)
+license=(GPL2 LGPL2.1)
+depends=(libgudev polkit ppp libqmi libmbim
+         mobile-broadband-provider-info)
+makedepends=(gtk-doc gobject-introspection vala meson git bash-completion)
+checkdepends=(python-gobject python-dbus)
+options=(debug)
+_commit=0d8b5e93fc62eb0f41e18a2d9d845331d7af36ec  # tags/1.18.8^0
+source=("git+https://gitlab.freedesktop.org/mobile-broadband/ModemManager.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd ModemManager
+  git describe --tags | sed 's/-rc/rc/;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd ModemManager
+}
+
+build() {
+  local meson_options=(
+    -D dbus_policy_dir=/usr/share/dbus-1/system.d
+    -D dist_version="\"$pkgver-$pkgrel\""
+    -D gtk_doc=true
+    -D systemd_journal=false
+    -D systemd_suspend_resume=false
+    -D systemdsystemunitdir=no
+    -D plugin_qcom_soc=disabled
+    -D polkit=permissive
+    -D vapi=true
+  )
+
+  artix-meson ModemManager build "${meson_options[@]}"
+  meson compile -C build
+}
+
+check() {
+  # Tests don't work yet
+  : meson test -C build --print-errorlogs
+}
+
+_pick() {
+  local p="$1" f d; shift
+  for f; do
+    d="$srcdir/$p/${f#$pkgdir/}"
+    mkdir -p "$(dirname "$d")"
+    mv "$f" "$d"
+    rmdir -p --ignore-fail-on-non-empty "$(dirname "$f")"
+  done
+}
+
+package_modemmanager() {
+  depends+=(libmm-glib.so libg{lib,object,io,module}-2.0.so libgudev-1.0.so
+            libqmi-glib.so libmbim-glib.so)
+  optdepends=('usb_modeswitch: install if your modem shows up as a storage drive')
+
+  meson install -C build --destdir "$pkgdir"
+
+  cd "$pkgdir"
+  _pick libmm usr/include
+  _pick libmm usr/lib/girepository-1.0
+  _pick libmm usr/lib/libmm-glib.so*
+  _pick libmm usr/lib/pkgconfig
+  _pick libmm usr/share/gir-1.0
+  _pick libmm usr/share/gtk-doc/html/libmm-glib
+  _pick libmm usr/share/vala
+}
+
+package_libmm-glib() {
+  pkgdesc="ModemManager library"
+  depends=(libg{lib,object,io}-2.0.so)
+  provides=(libmm-glib.so)
+
+  mv libmm/* "$pkgdir"
+}
+
+# vim:set sw=2 et:
