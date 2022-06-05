@@ -2016,6 +2016,11 @@
       "branch": "master",
       "revision": "0b074090ace27734ec47ff58d028a6be0c199c17"
     },
+    "libotr": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libotr.git",
+      "branch": "master",
+      "revision": "07b53f81dd26b4b687a4a9320f17d672c44f3ece"
+    },
     "libpagemaker": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpagemaker.git",
       "branch": "master",
