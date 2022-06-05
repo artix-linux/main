@@ -2816,6 +2816,11 @@
       "branch": "master",
       "revision": "02fb13888074a45c65d10b79d37911390dbaf398"
     },
+    "tre": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tre.git",
+      "branch": "master",
+      "revision": "6ce4e798a90ec0fd5fdb1d70fa69529bedb07304"
+    },
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
