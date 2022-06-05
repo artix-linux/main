@@ -4816,6 +4816,11 @@
       "branch": "master",
       "revision": "deb2e3fd85ed9c8e685841bb544b60cc05bf931b"
     },
+    "zita-alsa-pcmi": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zita-alsa-pcmi.git",
+      "branch": "master",
+      "revision": "62196cb4a86508f07c83228a1013e20dbd30c688"
+    },
     "znc": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
       "branch": "master",
