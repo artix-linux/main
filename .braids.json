@@ -546,6 +546,11 @@
       "branch": "master",
       "revision": "651db5fb774b1d5742a48433b21dc2184507299f"
     },
+    "imlib2": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/imlib2.git",
+      "branch": "master",
+      "revision": "2458baf75eb976bbd86bb2dba59559cbe03852b6"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
