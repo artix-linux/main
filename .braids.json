@@ -6106,6 +6106,11 @@
       "branch": "master",
       "revision": "b34e1bd1ca9a6a7c017f715f742bf8851de9ece6"
     },
+    "pacman": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pacman.git",
+      "branch": "master",
+      "revision": "bc5ebee94a5d388e82a10e71db56edef9993eeb7"
+    },
     "pacman-contrib": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pacman-contrib.git",
       "branch": "master",

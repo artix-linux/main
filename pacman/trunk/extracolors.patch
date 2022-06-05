@@ -1,0 +1,26 @@
+diff -Naur pacman-5.1.2-orig/scripts/libmakepkg/util/message.sh.in pacman-5.1.2/scripts/libmakepkg/util/message.sh.in
+--- pacman-5.1.2-orig/scripts/libmakepkg/util/message.sh.in	2018-12-25 07:22:03.000000000 -0300
++++ pacman-5.1.2/scripts/libmakepkg/util/message.sh.in	2019-01-30 16:21:46.246666555 -0300
+@@ -32,6 +32,9 @@
+ 		GREEN="${BOLD}$(tput setaf 2)"
+ 		RED="${BOLD}$(tput setaf 1)"
+ 		YELLOW="${BOLD}$(tput setaf 3)"
++		MAGENTA="${BOLD}$(tput setaf 5)"
++		CYAN="${BOLD}$(tput setaf 6)"
++		WHITE="${BOLD}$(tput setaf 7)"
+ 	else
+ 		ALL_OFF="\e[0m"
+ 		BOLD="\e[1m"
+@@ -39,8 +42,11 @@
+ 		GREEN="${BOLD}\e[32m"
+ 		RED="${BOLD}\e[31m"
+ 		YELLOW="${BOLD}\e[33m"
++		MAGENTA="${BOLD}\e[35m"
++		CYAN="${BOLD}\e[36m"
++		WHITE="${BOLD}\e[37m"
+ 	fi
+-	readonly ALL_OFF BOLD BLUE GREEN RED YELLOW
++	readonly ALL_OFF BOLD BLUE GREEN RED YELLOW MAGENTA CYAN WHITE
+ }
+ 
+ plain() {
