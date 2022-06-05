@@ -5026,6 +5026,11 @@
       "branch": "master",
       "revision": "d2aee72b8c43ca342f47718617cd5e1eeb7b3691"
     },
+    "lz4": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lz4.git",
+      "branch": "master",
+      "revision": "a4656c2b0f8c42a7ce07cc7b74bd7e99a58e6b7d"
+    },
     "lzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lzip.git",
       "branch": "master",
