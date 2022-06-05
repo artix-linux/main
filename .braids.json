@@ -641,6 +641,11 @@
       "branch": "master",
       "revision": "14202318eecfb845e579ba76a118cc74f44c5189"
     },
+    "pypy": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pypy.git",
+      "branch": "master",
+      "revision": "5ded4cdd713b42be0344df8c8733b7494836a8b2"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
