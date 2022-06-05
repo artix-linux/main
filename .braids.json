@@ -4736,6 +4736,11 @@
       "branch": "master",
       "revision": "9ca215581845a6b304447ea7228a28a2c8abb1f3"
     },
+    "oniguruma": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/oniguruma.git",
+      "branch": "master",
+      "revision": "1ea575f44c358ba5f2a4625886ee7d3cf67cd256"
+    },
     "onionshare": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onionshare.git",
       "branch": "master",
