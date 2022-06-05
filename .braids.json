@@ -4586,6 +4586,11 @@
       "branch": "master",
       "revision": "ecbf9766d19a0bd5860bfc2b3eb7b0c298be77c7"
     },
+    "uhttpmock": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uhttpmock.git",
+      "branch": "master",
+      "revision": "64d5f52c87419228924c4e2fa0f6bc079a9e6b00"
+    },
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
       "branch": "master",
