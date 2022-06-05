@@ -1681,6 +1681,11 @@
       "branch": "master",
       "revision": "f6987d50472b803d3971e818951634878d8fcd58"
     },
+    "scrot": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/scrot.git",
+      "branch": "master",
+      "revision": "e7ad2a6946398d3d5fb27c7dd7ad7f904925aa5f"
+    },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",

@@ -1,0 +1,39 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: Daniel Wallace <danielwallace at gtmanfred dot com>
+# Contributor: Giovanni Scafora <giovanni@archlinux.org>
+
+pkgname=scrot
+pkgver=1.7
+pkgrel=1
+pkgdesc='Simple command-line screenshot utility for X'
+url='https://github.com/resurrecting-open-source-projects/scrot'
+arch=('x86_64')
+license=('MIT')
+depends=('imlib2' 'libxext' 'libxfixes' 'libxcomposite' 'libbsd')
+makedepends=('autoconf-archive')
+source=("${url}/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('9f9a29b69e9c216bad7c6028fe0043b2729393a716dccc1389665cf1e9496a6f1d370b97a7c8432b31af7d69477b4fc1d41dffd4ca2a78a49bb98e908975612f')
+b2sums=('60105771994f2005983a887486c4025d1f99ebc7cfb0b1cf2b9389298561efc430e445151eeb9ff783627f540a456d335947a979a549d09729d36de1293c83e4')
+
+prepare(){
+  cd ${pkgname}-${pkgver}
+  autoreconf -fiv
+}
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure \
+    --prefix=/usr \
+    --mandir=/usr/share/man
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" install
+  install -Dm 644 README.md ChangeLog -t "${pkgdir}"/usr/share/doc/${pkgname}
+  install -Dm 644 COPYING -t "${pkgdir}"/usr/share/licenses/${pkgname}
+}
+
+# vim: ts=2 sw=2 et:
