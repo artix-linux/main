@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "c440124801183be29261c0303c390091f2b753c1"
     },
+    "containerd": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/containerd.git",
+      "branch": "master",
+      "revision": "8edb174dbe1317f3e00e3f1bd5302e633a50b731"
+    },
     "convertlit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
       "branch": "master",
