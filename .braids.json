@@ -971,6 +971,11 @@
       "branch": "master",
       "revision": "6b88fa93096e508dbc88089a9fbe7da11f973e8f"
     },
+    "noto-fonts-emoji": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts-emoji.git",
+      "branch": "master",
+      "revision": "71b0c60057e2c069084525c4ca888db5fa2d1a2f"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
