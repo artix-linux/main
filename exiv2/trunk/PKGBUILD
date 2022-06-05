@@ -1,0 +1,49 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: tobias <tobias@arhlinux.org>
+
+pkgname=exiv2
+pkgver=0.27.5
+pkgrel=3
+pkgdesc="Exif, Iptc and XMP metadata manipulation library and tools"
+url="https://exiv2.org"
+arch=('x86_64')
+license=('GPL2')
+depends=('gcc-libs' 'zlib' 'expat' 'libexpat.so' 'gettext' 'curl' 'libcurl.so')
+makedepends=('cmake' 'gtest' 'ninja')
+checkdepends=('python')
+provides=('libexiv2.so')
+source=(https://github.com/Exiv2/exiv2/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
+sha512sums=('fb7153c141502de4a3446abb49d991735aa034ef30d0ee2050cffc6c73778faa8ba2a666797565d45c11f9ae1130544b6ed854570d38351505dbb3c1610c4b7c')
+b2sums=('97eab9341e039f11a09630f428dee77bcda699451507076f78012dc84bd57f3aa9b47ee7346aebf809788917754be0ff83b5d624ee18759155c2585026b76f1b')
+
+build() {
+  cd ${pkgname}-${pkgver}
+  cmake -B build \
+    -GNinja \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_CXX_FLAGS="$CXXFLAGS -ffat-lto-objects" \
+    -DCMAKE_SKIP_RPATH=ON \
+    -DEXIV2_BUILD_SAMPLES=ON \
+    -DEXIV2_BUILD_UNIT_TESTS=ON \
+    -DEXIV2_ENABLE_VIDEO=ON \
+    -DEXIV2_ENABLE_NLS=ON \
+    -DEXIV2_ENABLE_XMP=ON \
+    -DEXIV2_ENABLE_CURL=ON \
+    -DEXIV2_ENABLE_WEBREADY=ON \
+    -DEXIV2_ENABLE_BMFF=ON
+  ninja -C build
+}
+
+check() {
+  cd ${pkgname}-${pkgver}
+  ninja -C build tests
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  # remove samples instal which are only needed for unit tests
+  sed '/samples\/cmake_install.cmake/d' -i build/cmake_install.cmake
+  DESTDIR="${pkgdir}" ninja -C build install
+}
+
+# vim: ts=2 sw=2 et:

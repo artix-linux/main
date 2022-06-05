@@ -271,6 +271,11 @@
       "branch": "master",
       "revision": "a3565e0a5a1fb05fe46807cc5276f4b0947db2f2"
     },
+    "exiv2": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exiv2.git",
+      "branch": "master",
+      "revision": "3d3c42e8b67c674af961ef500fa5c0288abb82e7"
+    },
     "expac": {
       "url": "gitea@gitea.artixlinux.org:packagesE/expac.git",
       "branch": "master",
