@@ -3306,6 +3306,11 @@
       "branch": "master",
       "revision": "57780ac63601bcad9d8c9b4b95dd0359b55b0799"
     },
+    "xl2tpd": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd.git",
+      "branch": "master",
+      "revision": "025f0478042bc4a80bca40a71796661b8ef47e17"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
