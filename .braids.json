@@ -4666,6 +4666,11 @@
       "branch": "master",
       "revision": "417bc3a2e6f34ac75065ed68b18c284ac1486746"
     },
+    "vala": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vala.git",
+      "branch": "master",
+      "revision": "38a8c812c32c1caa36b0e9d33ff635693af522f6"
+    },
     "vapoursynth": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vapoursynth.git",
       "branch": "master",
