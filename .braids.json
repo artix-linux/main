@@ -2001,6 +2001,11 @@
       "branch": "master",
       "revision": "599bcfaca767cf3289297083a477164e540d7bd4"
     },
+    "hotdoc": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hotdoc.git",
+      "branch": "master",
+      "revision": "733e8705f6bce746c40e0e1c8918b2f31f80ac5e"
+    },
     "hplip": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hplip.git",
       "branch": "master",
