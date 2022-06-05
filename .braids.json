@@ -3611,6 +3611,11 @@
       "branch": "master",
       "revision": "39b311b7fe074721bb527aac0764dd14697bcbcf"
     },
+    "libidn": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libidn.git",
+      "branch": "master",
+      "revision": "01df89d40149ffba9d53f8de0ea0b0d3944f0e41"
+    },
     "libiec61883": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libiec61883.git",
       "branch": "master",
