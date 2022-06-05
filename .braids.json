@@ -191,6 +191,11 @@
       "branch": "master",
       "revision": "ae55127c37f18ab47ccc63f004394fcf113ab326"
     },
+    "ccache": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/ccache.git",
+      "branch": "master",
+      "revision": "42c72e219763ef4a683d6b035391c429839a73ef"
+    },
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",

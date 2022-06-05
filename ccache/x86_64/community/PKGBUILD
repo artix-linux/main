@@ -1,0 +1,56 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Giovanni Scafora <giovanni@archlinux.org>
+# Contributor: Tom Newsom <Jeepster@gmx.co.uk>
+
+pkgname=ccache
+pkgver=4.6.1
+pkgrel=1
+pkgdesc='Compiler cache that speeds up recompilation by caching previous compilations'
+url='https://ccache.dev/'
+arch=('x86_64')
+license=('GPL3')
+depends=('glibc' 'gcc-libs' 'hiredis' 'zstd' 'libzstd.so')
+makedepends=('cmake' 'asciidoctor' 'perl')
+source=(https://github.com/ccache/ccache/releases/download/v${pkgver}/ccache-${pkgver}.tar.xz{,.asc})
+validpgpkeys=('5A939A71A46792CF57866A51996DDA075594ADB8') # Joel Rosdahl <joel@rosdahl.net>
+sha512sums=('361427ccecd74e8c25ca6a98ef3d3c125d81862196767eb383f6f8159fed8e1695cd5bc8731cb591c23c55352f0114a088b32a673717711efbfbb178a6c08c82'
+            'SKIP')
+b2sums=('b4c1cae8b0c836c9e562488c79524ddbba4c995946e16f87c9b856e32961b454dd205bacdb030c283477be66d357b0fb5e67c9ad38715359b73f714aa73baee9'
+        'SKIP')
+
+build() {
+  cd ${pkgname}-${pkgver}
+  cmake \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=None \
+    -Wno-dev \
+    -B build \
+    -S .
+  make VERBOSE=1 -C build
+}
+
+check() {
+  cd ${pkgname}-${pkgver}
+  make VERBOSE=1 check -C build
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+
+  make DESTDIR="${pkgdir}" install -C build
+  make DESTDIR="${pkgdir}" install -C build/doc
+
+  install -Dm 644 doc/*.md doc/*.adoc -t "${pkgdir}/usr/share/doc/${pkgname}"
+
+  install -d "${pkgdir}/usr/lib/ccache/bin"
+  local _prog
+  for _prog in gcc g++ c++; do
+    ln -s /usr/bin/ccache "${pkgdir}/usr/lib/ccache/bin/$_prog"
+    ln -s /usr/bin/ccache "${pkgdir}/usr/lib/ccache/bin/${CHOST}-$_prog"
+  done
+  for _prog in cc clang clang++; do
+    ln -s /usr/bin/ccache "${pkgdir}/usr/lib/ccache/bin/$_prog"
+  done
+}
+
+# vim: ts=2 sw=2 et:
