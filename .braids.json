@@ -381,6 +381,11 @@
       "branch": "master",
       "revision": "b77a0e3854c9f37088dd26d91661ee3633a717d4"
     },
+    "dnsmasq": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq.git",
+      "branch": "master",
+      "revision": "e02c80a71c2e083266bfa871ac2ca724bc8ebaa0"
+    },
     "double-conversion": {
       "url": "gitea@gitea.artixlinux.org:packagesD/double-conversion.git",
       "branch": "master",
