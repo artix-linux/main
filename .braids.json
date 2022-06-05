@@ -475,6 +475,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
       "branch": "master",
       "revision": "9dff59ea7eefa39aaaf4c488bd9df91dbfcf174c"
+    },
+    "utf8cpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
+      "branch": "master",
+      "revision": "1821e16967eee06eb1a285f9ccb1c2b2b9f1cdbd"
     }
   }
 }
