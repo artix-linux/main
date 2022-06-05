@@ -4031,6 +4031,11 @@
       "branch": "master",
       "revision": "2ea870fe388e61f0be0897ecac0332a6f56fc959"
     },
+    "lua-filesystem": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lua-filesystem.git",
+      "branch": "master",
+      "revision": "c1afa43324fea16642a211b441cbc01effb3fea0"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
