@@ -1626,6 +1626,11 @@
       "branch": "master",
       "revision": "7842c347b69c915d2c0b87ad93c4ee62d1183f02"
     },
+    "rasqal": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rasqal.git",
+      "branch": "master",
+      "revision": "a02e9d6d671d27239faf6bf9bccf69100b6d9fc8"
+    },
     "redshift": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
       "branch": "master",
