@@ -1986,6 +1986,11 @@
       "branch": "master",
       "revision": "2854841cafb57fc2caf59c71b91baf23d2852056"
     },
+    "libomxil-bellagio": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libomxil-bellagio.git",
+      "branch": "master",
+      "revision": "83c76bac1907d54fd34a40bedfebd1a1ae877adc"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
