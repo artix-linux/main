@@ -110,6 +110,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
       "branch": "master",
       "revision": "6c4a3856f3e8ed119e1cb8b5b7e706efe9b85e98"
+    },
+    "fira-code": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fira-code.git",
+      "branch": "master",
+      "revision": "48ec0f56bdd62943c3942ada1d49d9a84a570343"
     }
   }
 }
