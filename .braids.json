@@ -1811,6 +1811,11 @@
       "branch": "master",
       "revision": "bb1687cc52bf581adbfba9009e17d53bd358d1ec"
     },
+    "mailgraph": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailgraph.git",
+      "branch": "master",
+      "revision": "0098f0d8ff1e75059d86c7a822ba0c937c5a6c7e"
+    },
     "maim": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maim.git",
       "branch": "master",
