@@ -2211,6 +2211,11 @@
       "branch": "master",
       "revision": "0413768f61fc2da24e77a2f29879192dd8ca9ce7"
     },
+    "ispc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/ispc.git",
+      "branch": "master",
+      "revision": "0c1445ebd06246a8ea70663176b1837f653baf12"
+    },
     "isync": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isync.git",
       "branch": "master",
