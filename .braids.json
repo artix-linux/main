@@ -931,6 +931,11 @@
       "branch": "master",
       "revision": "3fc2c088ab2875a16f0cb30f58e9baf8ff1c6e41"
     },
+    "jose": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jose.git",
+      "branch": "master",
+      "revision": "2c11fb9287d5040811d3d1b9ee5983c7783f2c2e"
+    },
     "jrnl": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jrnl.git",
       "branch": "master",
