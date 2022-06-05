@@ -7406,6 +7406,11 @@
       "branch": "master",
       "revision": "a8de6ca8446d865f30cf0de21c9ca4432e197962"
     },
+    "rhino": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rhino.git",
+      "branch": "master",
+      "revision": "c160bb23ef074e6bf20796a898956f2d9846ecbc"
+    },
     "ripgrep": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ripgrep.git",
       "branch": "master",
