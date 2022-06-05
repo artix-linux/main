@@ -291,6 +291,11 @@
       "branch": "master",
       "revision": "fa4b269d4eb6d65f4a8a3949ee95d5262a430c87"
     },
+    "gendesk": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gendesk.git",
+      "branch": "master",
+      "revision": "c63e22d8b55bc9dbf8dbfc71d4df5ca0e16a2f7a"
+    },
     "gl2ps": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gl2ps.git",
       "branch": "master",
