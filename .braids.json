@@ -1776,6 +1776,11 @@
       "branch": "master",
       "revision": "0f294cdcc238def2937f904830f79225e0054e5e"
     },
+    "xorg-xmessage": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmessage.git",
+      "branch": "master",
+      "revision": "5c354be489ca7b5a5e4f4e90b5554f1d95e45838"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
