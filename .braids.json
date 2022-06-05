@@ -95,6 +95,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/expac.git",
       "branch": "master",
       "revision": "f552a4dc6e8e29baf82bffb882f1ef218ba3e840"
+    },
+    "facter": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/facter.git",
+      "branch": "master",
+      "revision": "271ce488a45ca779bd708bc08d495318e8018dc1"
     }
   }
 }
