@@ -1471,6 +1471,11 @@
       "branch": "master",
       "revision": "d837e2241a705ed889d11b0d11798d5c7c2e463f"
     },
+    "enscript": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/enscript.git",
+      "branch": "master",
+      "revision": "eb68475e82a12f6550ccd0e05f8ffeaf92af1148"
+    },
     "entr": {
       "url": "gitea@gitea.artixlinux.org:packagesE/entr.git",
       "branch": "master",
