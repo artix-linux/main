@@ -1306,6 +1306,11 @@
       "branch": "master",
       "revision": "00173ac3e7b623b7ac038e4d3300a54eca69317f"
     },
+    "ttf-liberation": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-liberation.git",
+      "branch": "master",
+      "revision": "28edba9022a0f86b118691d4862b8ab268385b92"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
