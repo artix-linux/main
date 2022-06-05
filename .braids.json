@@ -8181,6 +8181,11 @@
       "branch": "master",
       "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
     },
+    "tzdata": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tzdata.git",
+      "branch": "master",
+      "revision": "ab55b8fd377a6559260e34a5086291249dd58e69"
+    },
     "uchardet": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uchardet.git",
       "branch": "master",
