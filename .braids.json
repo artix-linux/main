@@ -5221,6 +5221,11 @@
       "branch": "master",
       "revision": "41316362730cccc5573628c80aa3d18f0e6064ed"
     },
+    "memtest86+": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/memtest86plus.git",
+      "branch": "master",
+      "revision": "efec0768dd62d5f4517141605f0c536647c8185b"
+    },
     "mesa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
       "branch": "master",
