@@ -2961,6 +2961,11 @@
       "branch": "master",
       "revision": "6168fc84cce119e0892705332b2fdf3da1ea1261"
     },
+    "kmod": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/kmod.git",
+      "branch": "master",
+      "revision": "67a443c56456dda5f621f3294320ae4a281a125e"
+    },
     "knot": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
       "branch": "master",
