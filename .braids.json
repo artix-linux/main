@@ -4961,6 +4961,11 @@
       "branch": "master",
       "revision": "583319e19bc951ab0e2e6ada06d56ad528f0d448"
     },
+    "lua52": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lua52.git",
+      "branch": "master",
+      "revision": "830145e98f5ca56f7fdb75aa97405655ad5a306c"
+    },
     "luajit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luajit.git",
       "branch": "master",
