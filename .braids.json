@@ -1281,6 +1281,11 @@
       "branch": "master",
       "revision": "bed0754264982ba157d3a5ae1e814188a0000679"
     },
+    "libzmf": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libzmf.git",
+      "branch": "master",
+      "revision": "3e49cc34a21ea0b1ca01540b92c801c8b7be4f55"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
