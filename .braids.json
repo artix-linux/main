@@ -250,6 +250,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
       "revision": "041b09cdb5800aae422920013610e44ef59b4764"
+    },
+    "libpwquality": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
+      "branch": "master",
+      "revision": "4a6e1fed55ab05d3e5f7628f109a637bc8d3c993"
     }
   }
 }
