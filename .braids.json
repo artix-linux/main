@@ -2261,6 +2261,11 @@
       "branch": "master",
       "revision": "bc468862877d7036a9f22fbd735b45b97edfccc6"
     },
+    "jbigkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jbigkit.git",
+      "branch": "master",
+      "revision": "8815f6f04de0e17c2f3422135ed1494986c5030d"
+    },
     "jemalloc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
       "branch": "master",
