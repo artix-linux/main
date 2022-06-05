@@ -1641,6 +1641,11 @@
       "branch": "master",
       "revision": "f9fceae13b0ebf5b37fc435d78a4004d4b0cf4c9"
     },
+    "libfdk-aac": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfdk-aac.git",
+      "branch": "master",
+      "revision": "a9b0d8de9a62888f51865faf887360fc9757f837"
+    },
     "libfontenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
       "branch": "master",
