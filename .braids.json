@@ -1496,6 +1496,11 @@
       "branch": "master",
       "revision": "0536bb4876ddc6d2c844086c2a1fbf44550f28d5"
     },
+    "libcacard": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcacard.git",
+      "branch": "master",
+      "revision": "fcf1cdc34534540443fcb7f40a2c6d395ea4a21d"
+    },
     "libcdr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdr.git",
       "branch": "master",
