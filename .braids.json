@@ -151,6 +151,11 @@
       "branch": "master",
       "revision": "df58eec93e9de610a0a66b74700de48ff4123fe0"
     },
+    "clisp": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clisp.git",
+      "branch": "master",
+      "revision": "f4fa170218c7f4453fcf86da9855771df1e976ef"
+    },
     "cln": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cln.git",
       "branch": "master",
