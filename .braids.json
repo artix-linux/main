@@ -8891,6 +8891,11 @@
       "branch": "master",
       "revision": "07d676cd297f8cf28b19d4bf28956fdb4bc22d49"
     },
+    "xinetd": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xinetd.git",
+      "branch": "master",
+      "revision": "db20fc0023f023288b95c41a0dc4278989ba47de"
+    },
     "xkeyboard-config": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xkeyboard-config.git",
       "branch": "master",
