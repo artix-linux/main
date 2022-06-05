@@ -5896,6 +5896,11 @@
       "branch": "master",
       "revision": "8d02767c30c7bcb40a8c907eab35d6b12b88389e"
     },
+    "samurai": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/samurai.git",
+      "branch": "master",
+      "revision": "fe16997967965a298990869cf0c49a90776ebf16"
+    },
     "sane": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sane.git",
       "branch": "master",
