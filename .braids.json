@@ -1546,6 +1546,11 @@
       "branch": "master",
       "revision": "9d7694989c85440907579e628e71ec62b3c2e749"
     },
+    "libde265": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libde265.git",
+      "branch": "master",
+      "revision": "0c85868c0e9ea46ee4a74eecb70eeef84d1fa185"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
