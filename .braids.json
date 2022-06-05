@@ -551,6 +551,11 @@
       "branch": "master",
       "revision": "520271a3c8db9d7bdbcd65d1e11a3ee3f7a1abda"
     },
+    "ca-certificates": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/ca-certificates.git",
+      "branch": "master",
+      "revision": "bb62422858241bce541822db5260d515d7326aee"
+    },
     "cabextract": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cabextract.git",
       "branch": "master",
