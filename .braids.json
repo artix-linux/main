@@ -1196,6 +1196,11 @@
       "branch": "master",
       "revision": "13aa9c952108f5d59b39d8dec944e91d449d1ca3"
     },
+    "t1utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/t1utils.git",
+      "branch": "master",
+      "revision": "8486307a9e4d3788ea4b9f69f0e06dd82a7e45f2"
+    },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
