@@ -941,6 +941,11 @@
       "branch": "master",
       "revision": "6844708e3792147309548f20e7c9adcc71a25de1"
     },
+    "libpano13": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpano13.git",
+      "branch": "master",
+      "revision": "713eb67514962354946fc7f53964ed176da57b10"
+    },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
