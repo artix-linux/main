@@ -4171,6 +4171,11 @@
       "branch": "master",
       "revision": "ccc8297b00795121c82f90a12b9e619b9926417c"
     },
+    "vcdimager": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vcdimager.git",
+      "branch": "master",
+      "revision": "265b693a2a6b1bb3244421e550fecfc5cb22aa64"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
