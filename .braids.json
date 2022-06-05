@@ -5,6 +5,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/adios2.git",
       "branch": "master",
       "revision": "5bcd80316a58a2ef5334cf2a21ce9cc119d0a9d7"
+    },
+    "amfora": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/amfora.git",
+      "branch": "master",
+      "revision": "fcf4af5c052c751ac61b8992d358caa692effb1a"
     }
   }
 }
