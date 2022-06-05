@@ -4046,6 +4046,11 @@
       "branch": "master",
       "revision": "183d247e5596774fefa35f97d93cf2ed438c21d8"
     },
+    "luasec": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/luasec.git",
+      "branch": "master",
+      "revision": "482a6182305e935a1dff06ceb8ed823be41e1d8f"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
