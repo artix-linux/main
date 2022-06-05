@@ -1106,6 +1106,11 @@
       "branch": "master",
       "revision": "c910c2355a92127b31942f65ff2b517495dafdd7"
     },
+    "dhcpcd": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd.git",
+      "branch": "master",
+      "revision": "9432d35d6b567e2ab53da3990ade56d856032d2a"
+    },
     "dht": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dht.git",
       "branch": "master",
