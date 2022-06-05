@@ -1,0 +1,25 @@
+From 8e7b1fc9f70746a9ee22ac2ac42207fbe0820675 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Sun, 5 Dec 2021 12:15:05 -0600
+Subject: [PATCH] remove arch release
+
+---
+ src/ph_pacman.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/ph_pacman.ml b/src/ph_pacman.ml
+index 376b14b..c7a8a6a 100644
+--- a/src/ph_pacman.ml
++++ b/src/ph_pacman.ml
+@@ -26,7 +26,7 @@ open Package_handler
+ let pacman_detect () =
+   Config.pacman <> "no" && Config.fakeroot <> "no" &&
+     (Os_release.get_id () = "arch" ||
+-     ((stat "/etc/arch-release").st_kind = S_REG &&
++     ((stat "/etc/artix-release").st_kind = S_REG &&
+       Config.pacman_g2 = "no")) (* not Frugalware with pacman-g2 *)
+ 
+ let settings = ref no_settings
+-- 
+2.34.1
+

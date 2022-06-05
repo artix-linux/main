@@ -6296,6 +6296,11 @@
       "branch": "master",
       "revision": "25bdcceb33b91924c1d50b079aabad07fe486a80"
     },
+    "supermin": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/supermin.git",
+      "branch": "master",
+      "revision": "2fb64ee5f683ce581a42bf2161d5aec7799f6b5e"
+    },
     "svt-av1": {
       "url": "gitea@gitea.artixlinux.org:packagesS/svt-av1.git",
       "branch": "master",
