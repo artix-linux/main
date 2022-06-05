@@ -1341,6 +1341,11 @@
       "branch": "master",
       "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
     },
+    "udisks2": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udisks2.git",
+      "branch": "master",
+      "revision": "6efd505055e8abb53c7be735e2f28c6916ddabe4"
+    },
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
       "branch": "master",
