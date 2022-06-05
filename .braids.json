@@ -2206,6 +2206,11 @@
       "branch": "master",
       "revision": "249c708d895a27e245ff036e8b6b6f988b9abef3"
     },
+    "groff": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/groff.git",
+      "branch": "master",
+      "revision": "2142abdeb64d2003976a62fd3a77f35651fce490"
+    },
     "grpc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
       "branch": "master",
