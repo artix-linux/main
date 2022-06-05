@@ -2021,6 +2021,11 @@
       "branch": "master",
       "revision": "9c3ef8d45979794209bb92181655f2bb7c28324d"
     },
+    "hub": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hub.git",
+      "branch": "master",
+      "revision": "e1742bd101807917969032d0ac085ce410ccf462"
+    },
     "hugin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hugin.git",
       "branch": "master",
