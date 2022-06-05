@@ -1346,6 +1346,11 @@
       "branch": "master",
       "revision": "6efd505055e8abb53c7be735e2f28c6916ddabe4"
     },
+    "unicode-cldr": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unicode-cldr.git",
+      "branch": "master",
+      "revision": "f6e8ca525a119984e68d9da6bdce494820c15896"
+    },
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
       "branch": "master",
