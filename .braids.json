@@ -1911,6 +1911,11 @@
       "branch": "master",
       "revision": "0bec7d008f6fecf89ab0bd1e57cd7399d8d24a6b"
     },
+    "guile1.8": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/guile1.8.git",
+      "branch": "master",
+      "revision": "21012087f9a00683bf6b448513d6ce1247c69b81"
+    },
     "gumbo-parser": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gumbo-parser.git",
       "branch": "master",
