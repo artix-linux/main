@@ -391,6 +391,11 @@
       "branch": "master",
       "revision": "89f14afc7d0e583be56cbf861e9bac16ade2897a"
     },
+    "bash-completion": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bash-completion.git",
+      "branch": "master",
+      "revision": "e9a2f6937a6597bee851f32c7e00a637949accb4"
+    },
     "bbswitch": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bbswitch.git",
       "branch": "master",
