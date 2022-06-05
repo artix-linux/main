@@ -3661,6 +3661,11 @@
       "branch": "master",
       "revision": "fd7133768777d4a6665b8622702f0a53d8f3def1"
     },
+    "libisl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libisl.git",
+      "branch": "master",
+      "revision": "83e5da8135424a0483dac828a066e3b44b2cb842"
+    },
     "libisoburn": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libisoburn.git",
       "branch": "master",
