@@ -445,6 +445,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
       "branch": "master",
       "revision": "b9b9fa57264b277fad33d37da05b3eabffc1fe60"
+    },
+    "tree": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
+      "branch": "master",
+      "revision": "c72760933f0f4d1c7e5bc0e78d358982b00f79fb"
     }
   }
 }
