@@ -4216,6 +4216,11 @@
       "branch": "master",
       "revision": "a0adca614bac8229aabff338c0f6f9c4f9327edd"
     },
+    "vmaf": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vmaf.git",
+      "branch": "master",
+      "revision": "cd5f2485c867c272369b0f0f8f47cd373f04097b"
+    },
     "vncdotool": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vncdotool.git",
       "branch": "master",
