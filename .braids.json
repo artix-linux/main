@@ -1976,6 +1976,11 @@
       "branch": "master",
       "revision": "b29ddd6ced82a0db2bc1a4fe1acd4190a2cc5f5f"
     },
+    "libgdata": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgdata.git",
+      "branch": "master",
+      "revision": "2e96d22c2c630fa59a69e242c3793617a80b133d"
+    },
     "libgdiplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdiplus.git",
       "branch": "master",
