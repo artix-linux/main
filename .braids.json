@@ -3511,6 +3511,11 @@
       "branch": "master",
       "revision": "426cf9653c0a4ff50b7cfd2e07cd5d7863345dbb"
     },
+    "ocaml-findlib": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-findlib.git",
+      "branch": "master",
+      "revision": "967ecc298aa6e18de874bbc290c5e174a1c6357a"
+    },
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
       "branch": "master",

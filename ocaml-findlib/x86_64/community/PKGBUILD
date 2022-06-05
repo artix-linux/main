@@ -1,0 +1,35 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Thomas S Hatch <thatch45@gmail.com>
+# Contributor: Sebastian Wiesner <lunaryorn@googlemail.com>
+# Contributor: Benjamin Andresen <benny@klapmuetz.org>
+# Contributor: scj <scj@archlinux.us>
+# Contributor: Alif <alive4ever@live.com>
+
+pkgname=ocaml-findlib
+pkgver=1.9.1
+pkgrel=4
+pkgdesc='OCaml package manager'
+arch=(x86_64)
+url='http://projects.camlcity.org/projects/findlib.html'
+license=(MIT)
+depends=(ocaml-compiler-libs 'ocaml=4.13.1')
+source=("http://download.camlcity.org/download/findlib-$pkgver.tar.gz")
+b2sums=('8b51e3ca3dde04e77e225638f9d45166acf42fb1e3321aa5ce6e66fcddcfb978a301f2fa22a26172e1a8c2f8a879c5d1d10e8c984994d6b2879c21c4392955ce')
+options=(!makeflags !strip staticlibs zipman)
+
+build() {
+  cd findlib-$pkgver
+  ./configure \
+    -config /etc/findlib.conf \
+    -mandir /usr/share/man \
+    -sitelib /usr/lib/ocaml
+  make all opt
+}
+
+package () {
+  cd findlib-$pkgver
+  make prefix="$pkgdir" install
+  install -Dm755 src/findlib/ocamlfind_opt "$pkgdir/usr/bin/ocamlfind_opt"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
