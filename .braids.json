@@ -1716,6 +1716,11 @@
       "branch": "master",
       "revision": "24e6b62c131af252a997fe1425bb8ad7462cab0b"
     },
+    "go-md2man": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/go-md2man.git",
+      "branch": "master",
+      "revision": "ef77731e6d5d93316ef5e7684fd3bdf4cb42742c"
+    },
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
       "branch": "master",
