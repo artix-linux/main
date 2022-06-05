@@ -781,6 +781,11 @@
       "branch": "master",
       "revision": "2bec005bf0c05e01ee35c7b3e2ad01812f729e59"
     },
+    "hiawatha": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha.git",
+      "branch": "master",
+      "revision": "0219cb308bbb12582221132f9890615b4f572dda"
+    },
     "hicolor-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hicolor-icon-theme.git",
       "branch": "master",
