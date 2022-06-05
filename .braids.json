@@ -681,6 +681,11 @@
       "branch": "master",
       "revision": "a21d7f1df211b48a6aa03fd06eb47e9b7a2933a5"
     },
+    "farstream": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/farstream.git",
+      "branch": "master",
+      "revision": "d196f5e1012fe505f16a5923cacb07b75c69b66e"
+    },
     "fcgi": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgi.git",
       "branch": "master",
