@@ -1161,6 +1161,11 @@
       "branch": "master",
       "revision": "45fd8d7cf47ef2fb496b1ad1b0def0d9c9e3d6d8"
     },
+    "shared-mime-info": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shared-mime-info.git",
+      "branch": "master",
+      "revision": "03341a7f7eb86b7fba15a0439e0bb18e68ae026d"
+    },
     "shhmsg": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shhmsg.git",
       "branch": "master",
