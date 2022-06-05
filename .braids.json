@@ -2026,6 +2026,11 @@
       "branch": "master",
       "revision": "664b1c528bfc067b9758c8189eaec682b2fba651"
     },
+    "nginx": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nginx.git",
+      "branch": "master",
+      "revision": "738e846254c91f76e635080a3f30beead5c2b7ef"
+    },
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
