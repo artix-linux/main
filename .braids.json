@@ -326,6 +326,11 @@
       "branch": "master",
       "revision": "c14775c096cc6c40fb780a8a1f92dce3a7a9073b"
     },
+    "broadcom-wl-dkms": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/broadcom-wl-dkms.git",
+      "branch": "master",
+      "revision": "3ef1d87b736026da63afc51cd2bb33b685b10e1e"
+    },
     "bubblewrap": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bubblewrap.git",
       "branch": "master",
