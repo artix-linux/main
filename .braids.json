@@ -831,6 +831,11 @@
       "branch": "master",
       "revision": "64ba7568e95eca4c1b54f136929f20bb5302dbac"
     },
+    "virt-manager": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/virt-manager.git",
+      "branch": "master",
+      "revision": "23cd6ff92f08f6f12cce7bb78c2525e712ccd2a6"
+    },
     "virt-what": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
       "branch": "master",
