@@ -45,6 +45,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
       "branch": "master",
       "revision": "ae55127c37f18ab47ccc63f004394fcf113ab326"
+    },
+    "cgns": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
+      "branch": "master",
+      "revision": "13aac7367d6cdabd4c836af27db8bee94092725e"
     }
   }
 }
