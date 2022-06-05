@@ -3556,6 +3556,11 @@
       "branch": "master",
       "revision": "deb2e3fd85ed9c8e685841bb544b60cc05bf931b"
     },
+    "znc": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
+      "branch": "master",
+      "revision": "ca66dc78b0098a7ead5af9560edff57a82a51469"
+    },
     "zziplib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zziplib.git",
       "branch": "master",
