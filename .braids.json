@@ -496,6 +496,11 @@
       "branch": "master",
       "revision": "3251346b8df486feb4019b9db74e7501b0b50fab"
     },
+    "maturin": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/maturin.git",
+      "branch": "master",
+      "revision": "5f922fbf174e557a52b19836593e4fa891530c44"
+    },
     "mgard": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mgard.git",
       "branch": "master",
