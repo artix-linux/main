@@ -1,0 +1,44 @@
+# Maintainer: Johannes Löthberg <johannes@kyriasis.com>
+# Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor:  hydro <hydro@freenet.de>
+# Contributor: George Rawlinson <grawlinson@archlinux.org>
+
+pkgname=libmediainfo
+pkgver=22.03
+pkgrel=1
+
+pkgdesc="shared library for mediainfo"
+url="https://mediaarea.net"
+arch=('x86_64')
+license=('BSD')
+
+depends=('curl' 'glib2' 'libmms' 'libzen' 'tinyxml2' 'graphviz')
+
+source=("https://mediaarea.net/download/source/libmediainfo/$pkgver/libmediainfo_$pkgver.tar.xz")
+
+sha512sums=('cae1df09f38e60363ef3c1d0f7324301b701f21c3fde84318f6389f91311b706037699fe83448f8e5b4d1f8af81ddf357b1630fe5f03aeccfa90fe0f9ae86477')
+b2sums=('1dd1a1a04adf98dbb3c28cc6fb43e393a4fd32fbc42d110e61d8a72ec8c5603570629e4a756606ccb548873b450944e642b9422f8b00703c91c2832c635e3bd9')
+
+build() {
+  cd MediaInfoLib/Project/GNU/Library
+
+  ./autogen.sh
+  ./configure \
+    --prefix=/usr \
+    --enable-shared \
+    --disable-static \
+    --with-libcurl \
+    --with-libmms \
+    --with-libtinyxml2 \
+    --with-graphviz
+
+  make
+}
+
+package() {
+  cd MediaInfoLib/Project/GNU/Library
+
+  make DESTDIR="$pkgdir" install
+
+  install -D -m 644 "$srcdir"/MediaInfoLib/LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
