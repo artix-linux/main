@@ -7771,6 +7771,11 @@
       "branch": "master",
       "revision": "3148655cd128d27157fff75053163a106bb52bf2"
     },
+    "syslog-ng": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng.git",
+      "branch": "master",
+      "revision": "96b220ab2bdf329cdb731608a40aa04a344b72c5"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
