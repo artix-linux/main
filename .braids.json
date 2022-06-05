@@ -1791,6 +1791,11 @@
       "branch": "master",
       "revision": "f44e987f54d6b495479a8b27d6409a3d78729c6d"
     },
+    "xorg-xrandr": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrandr.git",
+      "branch": "master",
+      "revision": "1c01abf4b37f402bc47fb4c8b77b74e89bb53dda"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
