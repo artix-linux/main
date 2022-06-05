@@ -395,6 +395,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
       "revision": "f6987d50472b803d3971e818951634878d8fcd58"
+    },
+    "sequoia-sqv": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
+      "branch": "master",
+      "revision": "6c79efaacd56821a302343eff302c7f6f89a2bd5"
     }
   }
 }
