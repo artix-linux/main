@@ -4671,6 +4671,11 @@
       "branch": "master",
       "revision": "8e8191c150ba41ed928b01654302bfbdd9637aa0"
     },
+    "oath-toolkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/oath-toolkit.git",
+      "branch": "master",
+      "revision": "70be97aba441a550d425b1f5971c28dba46c78dc"
+    },
     "ocaml": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml.git",
       "branch": "master",
