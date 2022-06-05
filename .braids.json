@@ -2661,6 +2661,11 @@
       "branch": "master",
       "revision": "27874ec14615b723a285308456104b6fe23f62fa"
     },
+    "telepathy-mission-control": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-mission-control.git",
+      "branch": "master",
+      "revision": "93559fff6b70f438faba5eb414d2fe414ec96076"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
