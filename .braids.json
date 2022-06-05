@@ -4286,6 +4286,11 @@
       "branch": "master",
       "revision": "b9d0be56e228709ab9eb925628a5112dc2636ef4"
     },
+    "wavpack": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wavpack.git",
+      "branch": "master",
+      "revision": "5d2736fa635a6d38a2dd769f1f5e31724089c3fc"
+    },
     "wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wayland.git",
       "branch": "master",
