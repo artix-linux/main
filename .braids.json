@@ -546,6 +546,11 @@
       "branch": "master",
       "revision": "78790a3ac5b2cf96260723877bc2a7afc3658643"
     },
+    "firewalld": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/firewalld.git",
+      "branch": "master",
+      "revision": "9aea4f9084e94e842f44d918126317b324f1107b"
+    },
     "fish": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fish.git",
       "branch": "master",
