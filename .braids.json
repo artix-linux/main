@@ -3501,6 +3501,11 @@
       "branch": "master",
       "revision": "f60e2c97ccd70c85d9dc1279a3fd43f3cdc4c213"
     },
+    "sbc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sbc.git",
+      "branch": "master",
+      "revision": "48894141b3299961775e78f0fa6e82c3059763f0"
+    },
     "scim": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
