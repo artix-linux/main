@@ -1,0 +1,21 @@
+# Maintainer: Eli Schwartz <eschwartz@archlinux.org>
+
+pkgname=checkbashisms
+pkgver=2.22.1
+pkgrel=1
+pkgdesc='Debian script that checks for bashisms'
+arch=('any')
+url="https://packages.qa.debian.org/d/devscripts.html"
+license=('GPL')
+depends=('perl')
+source=("https://snapshot.debian.org/archive/debian-debug/20220123T204811Z/pool/main/d/devscripts/devscripts_${pkgver}.tar.xz")
+sha256sums=('35dd5e6029d27be35b96e8c6e38b8aa6fba791a21371dac2de0f8cdee5fe33d5')
+b2sums=('2a2e3ca9757c710e181e807f0369c137f21070d86b4c51d8b5132ca4add33677edbd26e04a2faae93e9e4586080286888880ce450119579aa40ad205c8e5d857')
+
+package() {
+    cd "${srcdir}"/devscripts-${pkgver}/scripts
+
+    sed "s/###VERSION###/${pkgver}/g" checkbashisms.pl | install -Dm755 /dev/stdin "${pkgdir}"/usr/bin/checkbashisms
+    install -Dm644 checkbashisms.1 "${pkgdir}"/usr/share/man/man1/checkbashisms.1
+    install -Dm644 checkbashisms.bash_completion "${pkgdir}"/usr/share/bash-completion/completions/checkbashisms
+}

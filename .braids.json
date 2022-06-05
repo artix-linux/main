@@ -50,6 +50,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
       "revision": "13aac7367d6cdabd4c836af27db8bee94092725e"
+    },
+    "checkbashisms": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
+      "branch": "master",
+      "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
     }
   }
 }
