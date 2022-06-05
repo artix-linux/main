@@ -651,6 +651,11 @@
       "branch": "master",
       "revision": "666bbe3423967fadba31a586724bff8617019e0e"
     },
+    "geoip-database": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/geoip-database.git",
+      "branch": "master",
+      "revision": "e9dac1f40756e5586cdcfff26df31c0c54bb5c67"
+    },
     "ghostscript": {
       "url": "gitea@gitea.artixlinux.org:packagesG/ghostscript.git",
       "branch": "master",
