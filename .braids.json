@@ -3401,6 +3401,11 @@
       "branch": "master",
       "revision": "4d82732ee52e69c71409bd2679684e33d0a45180"
     },
+    "raw-thumbnailer": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/raw-thumbnailer.git",
+      "branch": "master",
+      "revision": "e8bf9e78522bbe89716b02f33e0d5369ca78359b"
+    },
     "rawtherapee": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rawtherapee.git",
       "branch": "master",
