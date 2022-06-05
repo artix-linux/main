@@ -70,6 +70,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cln.git",
       "branch": "master",
       "revision": "30634a416b6b0ea101c07e7a6bf8e6ab25f5cf5e"
+    },
+    "cpp-hocon": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
+      "branch": "master",
+      "revision": "9d313efee8b6ab8fd22f0d9bb936a8b27a5775ef"
     }
   }
 }
