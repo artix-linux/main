@@ -926,6 +926,11 @@
       "branch": "master",
       "revision": "774f6963039ead3cfe7c370a6f2ffafc247f66b5"
     },
+    "liborcus": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
+      "branch": "master",
+      "revision": "d30daf36dc72c3ec1eeed246c65528e7937daceb"
+    },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
