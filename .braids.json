@@ -2736,6 +2736,11 @@
       "branch": "master",
       "revision": "a2de951a5d68c23430d71492a55b256100eb83bc"
     },
+    "libewf": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libewf.git",
+      "branch": "master",
+      "revision": "751db58578d4b8fa1a6cd3f6850d2d48e4583613"
+    },
     "libexif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libexif.git",
       "branch": "master",
