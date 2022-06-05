@@ -626,6 +626,11 @@
       "branch": "master",
       "revision": "0ad5e6fbf9c028a2f42256c1321c5f391303f5ab"
     },
+    "enca": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/enca.git",
+      "branch": "master",
+      "revision": "2106d1e7fcfa67459fc050f1ce7b3628d80fe365"
+    },
     "enet": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enet.git",
       "branch": "master",
