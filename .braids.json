@@ -1041,6 +1041,11 @@
       "branch": "master",
       "revision": "f45e824c253950ebcc5579e0f27b4dab17b5879d"
     },
+    "gsm": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gsm.git",
+      "branch": "master",
+      "revision": "64d2621f677927ae2b7ca7f979b0ecf517f465bd"
+    },
     "gts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
       "branch": "master",
