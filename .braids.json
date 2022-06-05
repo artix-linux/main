@@ -16,6 +16,11 @@
       "branch": "master",
       "revision": "5bcd80316a58a2ef5334cf2a21ce9cc119d0a9d7"
     },
+    "amdvlk": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
+      "branch": "master",
+      "revision": "14a702874396a3abef59196b30851d8114c8c1d5"
+    },
     "amfora": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amfora.git",
       "branch": "master",
