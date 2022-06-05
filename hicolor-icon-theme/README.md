@@ -1,0 +1,2 @@
+# hicolor-icon-theme
+

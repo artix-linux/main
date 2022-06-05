@@ -341,6 +341,11 @@
       "branch": "master",
       "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
     },
+    "hicolor-icon-theme": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hicolor-icon-theme.git",
+      "branch": "master",
+      "revision": "8dc165ae77dfd0580ce7a50b4a79f8592f1848d9"
+    },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
