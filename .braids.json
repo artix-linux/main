@@ -281,6 +281,11 @@
       "branch": "master",
       "revision": "547b7689c787c740e365abd8d49fa7d4710eb662"
     },
+    "attr": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/attr.git",
+      "branch": "master",
+      "revision": "05e2c7649f990091da57b3f0a52998c37ad4a333"
+    },
     "aubio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aubio.git",
       "branch": "master",
