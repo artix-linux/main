@@ -341,6 +341,11 @@
       "branch": "master",
       "revision": "fec47f99321006e60529d8050156b24d0f5d6df5"
     },
+    "jupyter-notebook-shim": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-notebook-shim.git",
+      "branch": "master",
+      "revision": "d91fe109077e87c39a7e8d76ba39cfb83b072b52"
+    },
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
       "branch": "master",
