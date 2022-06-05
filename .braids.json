@@ -711,6 +711,11 @@
       "branch": "master",
       "revision": "60ba47a61ad877cc3642664a5c620258b4b92c37"
     },
+    "festival": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/festival.git",
+      "branch": "master",
+      "revision": "a78bf6449fec9538eebf0a3224b640a0772daac6"
+    },
     "ffcall": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffcall.git",
       "branch": "master",
