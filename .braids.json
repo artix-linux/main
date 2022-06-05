@@ -6211,6 +6211,11 @@
       "branch": "master",
       "revision": "50f21d4119b8ec8331af5b727efdabeeef9e571a"
     },
+    "sratom": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sratom.git",
+      "branch": "master",
+      "revision": "96191d9b21cd23892ed2acc9f9b23698601c7dd6"
+    },
     "srt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/srt.git",
       "branch": "master",
