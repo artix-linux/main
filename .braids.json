@@ -796,6 +796,11 @@
       "branch": "master",
       "revision": "479ed73621f98e0da8517707f7adc61e1d369416"
     },
+    "libxpresent": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxpresent.git",
+      "branch": "master",
+      "revision": "8ee2bab7fbdb7f60fd3407abd2e3eac0e3837810"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
