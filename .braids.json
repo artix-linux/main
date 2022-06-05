@@ -1956,6 +1956,11 @@
       "branch": "master",
       "revision": "2bec005bf0c05e01ee35c7b3e2ad01812f729e59"
     },
+    "hdf5": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hdf5.git",
+      "branch": "master",
+      "revision": "38922b5bdf8376acb97639bf8fe15cc56692bf2b"
+    },
     "hiawatha": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha.git",
       "branch": "master",
