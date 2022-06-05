@@ -4936,6 +4936,11 @@
       "branch": "master",
       "revision": "b34e1bd1ca9a6a7c017f715f742bf8851de9ece6"
     },
+    "pacman-contrib": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pacman-contrib.git",
+      "branch": "master",
+      "revision": "104f8c0a325d67a730c89786d1a297349bddb14c"
+    },
     "pahole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pahole.git",
       "branch": "master",
