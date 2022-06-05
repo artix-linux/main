@@ -3516,6 +3516,11 @@
       "branch": "master",
       "revision": "967ecc298aa6e18de874bbc290c5e174a1c6357a"
     },
+    "ocaml-integers": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-integers.git",
+      "branch": "master",
+      "revision": "26a03cada7eabb5f25f02772267b3de53f278107"
+    },
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
       "branch": "master",
