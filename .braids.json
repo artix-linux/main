@@ -461,6 +461,11 @@
       "branch": "master",
       "revision": "c40d2ed8e64fccfeea5348494fc56ff912bf181f"
     },
+    "graphite": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/graphite.git",
+      "branch": "master",
+      "revision": "d58af36785b06c154c60617543b14a6984b2a45a"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
