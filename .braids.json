@@ -505,6 +505,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
       "revision": "be62af110798a69e3c63272be8f4878011e6eb89"
+    },
+    "xerces-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
+      "branch": "master",
+      "revision": "37767a9ad22a69e77b75805802a2483ee6ede407"
     }
   }
 }
