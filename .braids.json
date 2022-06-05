@@ -3971,6 +3971,11 @@
       "branch": "master",
       "revision": "4355284fb51d4df4264c2a3349c34df698a81890"
     },
+    "lksctp-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lksctp-tools.git",
+      "branch": "master",
+      "revision": "945fe2543a0f39526af9b94675b38cdfa6ce0bb7"
+    },
     "lld": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lld.git",
       "branch": "master",
