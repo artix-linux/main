@@ -1211,6 +1211,11 @@
       "branch": "master",
       "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
     },
+    "terminus-font": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
+      "branch": "master",
+      "revision": "490c7d2a41fa7096c2ca97ccd55f5f19ef163180"
+    },
     "tesseract": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract.git",
       "branch": "master",
