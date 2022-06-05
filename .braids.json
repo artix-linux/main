@@ -1011,6 +1011,11 @@
       "branch": "master",
       "revision": "db05a109cf086041e374f1a8addecc64fb90f63b"
     },
+    "dos2unix": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dos2unix.git",
+      "branch": "master",
+      "revision": "1a5515d5f0242c7506cc356c989a8681c4d736a7"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
