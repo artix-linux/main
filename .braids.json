@@ -1426,6 +1426,11 @@
       "branch": "master",
       "revision": "d33df879d8660aa06af270eebcbde9f489f35b2f"
     },
+    "vulkan-docs": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-docs.git",
+      "branch": "master",
+      "revision": "c4336d653f021ea83c903789fac9c8f4ad2f68a1"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
