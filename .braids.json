@@ -376,6 +376,11 @@
       "branch": "master",
       "revision": "ef11a71b63c3e104b64c3f432b95fe70e33b2d7d"
     },
+    "dns-over-https": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
+      "branch": "master",
+      "revision": "e4a665db1d767506885b1ddf67fbf176821a08c4"
+    },
     "dnscrypt-proxy": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git",
       "branch": "master",
