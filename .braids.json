@@ -3451,6 +3451,11 @@
       "branch": "master",
       "revision": "5a05dd5c81fa477f945868de0b69cebbaa0484a0"
     },
+    "libffi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libffi.git",
+      "branch": "master",
+      "revision": "a24d39d5e25ba954ec47be19bb6df8ff805c00f2"
+    },
     "libfontenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
       "branch": "master",
