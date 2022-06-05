@@ -4736,6 +4736,11 @@
       "branch": "master",
       "revision": "bb26ebe5d070e8456153587876d323b90ef1f184"
     },
+    "volumeicon": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/volumeicon.git",
+      "branch": "master",
+      "revision": "c7b448cb839a522fcebd649e699b68699da15564"
+    },
     "vorbis-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vorbis-tools.git",
       "branch": "master",
