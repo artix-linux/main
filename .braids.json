@@ -5211,6 +5211,11 @@
       "branch": "master",
       "revision": "ff146b582a4d56e86ec1b610419f1d723d2d5190"
     },
+    "pugixml": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
+      "branch": "master",
+      "revision": "eb548cf57fa489738c59401beb4b1c65e813bd6e"
+    },
     "pulseaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pulseaudio.git",
       "branch": "master",
