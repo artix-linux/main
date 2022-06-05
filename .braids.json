@@ -3506,6 +3506,11 @@
       "branch": "master",
       "revision": "bd51c64c42b804a149e39e60054837263206b686"
     },
+    "libgit2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgit2.git",
+      "branch": "master",
+      "revision": "8870afeafdb875fdf7a9c461e839ed46a4296988"
+    },
     "libglvnd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libglvnd.git",
       "branch": "master",
