@@ -160,6 +160,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/gn.git",
       "branch": "master",
       "revision": "261e3415d8528b48b735db36e0a2c433114964cb"
+    },
+    "gnu-free-fonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gnu-free-fonts.git",
+      "branch": "master",
+      "revision": "021058db645f547768f9117a9e4d2a29fd26384e"
     }
   }
 }
