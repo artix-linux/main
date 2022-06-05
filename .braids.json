@@ -3216,6 +3216,11 @@
       "branch": "master",
       "revision": "39c979ae9bb257230d9a57e606ae38d6f3621917"
     },
+    "libcap-ng": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcap-ng.git",
+      "branch": "master",
+      "revision": "b89fb37e5ef10f7248bc86983a342d1c5df6cb7d"
+    },
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
       "branch": "master",
