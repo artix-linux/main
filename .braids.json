@@ -2246,6 +2246,11 @@
       "branch": "master",
       "revision": "42301ccf51ab8f877a211ce5d8df18da5d29881a"
     },
+    "jansson": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jansson.git",
+      "branch": "master",
+      "revision": "6006350e14e818d1d74b2de3d4a8ea90bdc665e6"
+    },
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
       "branch": "master",
