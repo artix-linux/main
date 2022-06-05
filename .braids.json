@@ -391,6 +391,11 @@
       "branch": "master",
       "revision": "fa4b269d4eb6d65f4a8a3949ee95d5262a430c87"
     },
+    "gd": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gd.git",
+      "branch": "master",
+      "revision": "f9d309040520ca225cfa542c0dc83dd6660c70b1"
+    },
     "gendesk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gendesk.git",
       "branch": "master",
