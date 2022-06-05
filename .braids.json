@@ -36,6 +36,11 @@
       "branch": "master",
       "revision": "81b8665779f2cd8c37e9a8dce54ecca043721b47"
     },
+    "arandr": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/arandr.git",
+      "branch": "master",
+      "revision": "f9b2f58a560a24af4cefc93fca9bd5fb0c8572f4"
+    },
     "archey3": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archey3.git",
       "branch": "master",
