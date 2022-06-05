@@ -6456,6 +6456,11 @@
       "branch": "master",
       "revision": "df1db888cf177b150c9df7b3213af1226f1f81ef"
     },
+    "procps-ng": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/procps-ng.git",
+      "branch": "master",
+      "revision": "81ce9803109b99c76f9810d8881593ee8997fdb8"
+    },
     "proj": {
       "url": "gitea@gitea.artixlinux.org:packagesP/proj.git",
       "branch": "master",
