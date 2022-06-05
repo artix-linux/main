@@ -3351,6 +3351,11 @@
       "branch": "master",
       "revision": "73099d7c689fe61a289bbb9d22fff95c33defb32"
     },
+    "mkinitcpio-busybox": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio-busybox.git",
+      "branch": "master",
+      "revision": "0384533b4636bde172eac66787bcfcc4d4fe7fe2"
+    },
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
