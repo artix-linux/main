@@ -736,6 +736,11 @@
       "branch": "master",
       "revision": "e21d2ba317c490bf00dbd908ff227005ffe0c103"
     },
+    "ffnvcodec-headers": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/ffnvcodec-headers.git",
+      "branch": "master",
+      "revision": "9eac058d81861435806a41f856887d62ebfafafb"
+    },
     "figlet": {
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
       "branch": "master",
