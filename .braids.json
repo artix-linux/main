@@ -2161,6 +2161,11 @@
       "branch": "master",
       "revision": "ba180b5779220ed9a6b1e3da29ba421379fea2b3"
     },
+    "gpm": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gpm.git",
+      "branch": "master",
+      "revision": "06dcde2dd4dc4dbbfeaec243e272857ea6172ac3"
+    },
     "grafana": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana.git",
       "branch": "master",
