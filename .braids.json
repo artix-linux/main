@@ -2641,6 +2641,11 @@
       "branch": "master",
       "revision": "609bc095fed4fb8dfa3aafd297b34d991f90ac90"
     },
+    "telepathy-accounts-signon": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-accounts-signon.git",
+      "branch": "master",
+      "revision": "15699af49fabe5d2d2ec020eaed80dd7ed02b40e"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
