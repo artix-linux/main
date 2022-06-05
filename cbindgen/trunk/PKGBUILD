@@ -1,0 +1,49 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+pkgname=cbindgen
+pkgver=0.23.0
+pkgrel=1
+pkgdesc="A tool for generating C bindings to Rust code"
+url="https://github.com/eqrion/cbindgen"
+arch=(x86_64)
+license=(MPL2)
+depends=(gcc-libs)
+makedepends=(cargo git)
+checkdepends=(cython)
+options=(debug)
+_commit=798cfab52bced65a749443faa16990ec3a8e0cfe  # tags/v0.23.0^0
+source=("git+https://github.com/eqrion/cbindgen#commit=$_commit")
+sha512sums=('SKIP')
+
+# Use LTO
+export CARGO_PROFILE_RELEASE_LTO=true CARGO_PROFILE_RELEASE_CODEGEN_UNITS=1
+
+# Use debug
+export CARGO_PROFILE_RELEASE_DEBUG=2
+
+pkgver() {
+  cd cbindgen
+  git describe --tags | sed 's/^v//;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd cbindgen
+  cargo fetch --locked --target x86_64-unknown-linux-gnu
+}
+
+build() {
+  cd cbindgen
+  cargo build --release --frozen --all-targets
+}
+
+check() {
+  cd cbindgen
+  # Tests need nightly features
+  RUSTC_BOOTSTRAP=1 cargo test --release --frozen
+}
+
+package() {
+  cd cbindgen
+  install -Dt "$pkgdir/usr/bin" target/release/cbindgen
+  install -Dt "$pkgdir/usr/share/doc/$pkgname" -m644 README.md
+}

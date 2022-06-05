@@ -351,6 +351,11 @@
       "branch": "master",
       "revision": "ae55127c37f18ab47ccc63f004394fcf113ab326"
     },
+    "cbindgen": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cbindgen.git",
+      "branch": "master",
+      "revision": "a4cde942ba8d38d433fbd3af21d7a284c2e2901a"
+    },
     "ccache": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ccache.git",
       "branch": "master",
