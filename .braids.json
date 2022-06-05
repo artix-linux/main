@@ -6616,6 +6616,11 @@
       "branch": "master",
       "revision": "7451422491e692c72c866d9426ee52e671d6b5bf"
     },
+    "pyqt5-datavisualization": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-datavisualization.git",
+      "branch": "master",
+      "revision": "3a107ec8a3c0acd14d11f2f963edf6667d2ca113"
+    },
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",
