@@ -1061,6 +1061,11 @@
       "branch": "master",
       "revision": "5bae489199f2f8fcbd02e1e38c582925a3cd76a5"
     },
+    "geocode-glib": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/geocode-glib.git",
+      "branch": "master",
+      "revision": "9dc2203727f660d96b6f100d51a36203a1596f1e"
+    },
     "geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip.git",
       "branch": "master",
