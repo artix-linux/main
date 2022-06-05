@@ -2041,6 +2041,11 @@
       "branch": "master",
       "revision": "2ea08f7826335fc5359d51762ee3844210f94979"
     },
+    "libhandy0": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libhandy0.git",
+      "branch": "master",
+      "revision": "479f22dc3697f17b4965c020930552078ab68aab"
+    },
     "libharu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libharu.git",
       "branch": "master",
