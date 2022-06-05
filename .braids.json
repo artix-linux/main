@@ -370,6 +370,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesQ/qrencode.git",
       "branch": "master",
       "revision": "a6d1447eb91c8d9f53416c6b70048de33c5141e7"
+    },
+    "radeontop": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radeontop.git",
+      "branch": "master",
+      "revision": "f8cec4fec87cd63b31e16b21ac9476f2b4cdcb66"
     }
   }
 }
