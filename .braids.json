@@ -9291,6 +9291,11 @@
       "branch": "master",
       "revision": "ca66dc78b0098a7ead5af9560edff57a82a51469"
     },
+    "zsh": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zsh.git",
+      "branch": "master",
+      "revision": "786c29ade0b8da003de3593da6fe0760cd32cc3d"
+    },
     "zvbi": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zvbi.git",
       "branch": "master",
