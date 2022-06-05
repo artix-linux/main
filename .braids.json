@@ -261,6 +261,11 @@
       "branch": "master",
       "revision": "acd1ecd056cb5cf87f4a83ca9dcffb4a6d6e14d6"
     },
+    "connman": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/connman.git",
+      "branch": "master",
+      "revision": "649ea95973caddf5dc8701795af9d4fc2ade0f20"
+    },
     "convertlit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
       "branch": "master",
