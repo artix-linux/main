@@ -3851,6 +3851,11 @@
       "branch": "master",
       "revision": "7f29da873cfec64b6182db60bec16a907dc38a3b"
     },
+    "qt5ct": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
+      "branch": "master",
+      "revision": "922a910fa40421556d7d1f5182411713a8d52df9"
+    },
     "rabbitmq": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rabbitmq.git",
       "branch": "master",
