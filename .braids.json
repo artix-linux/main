@@ -135,6 +135,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
       "revision": "029285b5e6f49857cc730944301d08523c5c8453"
+    },
+    "fzf": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
+      "branch": "master",
+      "revision": "804fc3f2eb689e6c8039e71a28be61d5ea209dff"
     }
   }
 }
