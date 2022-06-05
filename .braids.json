@@ -1561,6 +1561,11 @@
       "branch": "master",
       "revision": "ab9f11b3136975e7cc7ccc3cd8beba8566eda8d9"
     },
+    "poppler": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
+      "branch": "master",
+      "revision": "0d527e53c5b104936e5cd45b990faf348d97677f"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
