@@ -1876,6 +1876,11 @@
       "branch": "master",
       "revision": "73e7cbc950e305e786e0481fec7ce212bc21aad4"
     },
+    "libmodplug": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmodplug.git",
+      "branch": "master",
+      "revision": "c333c72378cebf9724896c4938a2e15208e1eacc"
+    },
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
