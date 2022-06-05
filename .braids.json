@@ -1751,6 +1751,11 @@
       "branch": "master",
       "revision": "ece73a37e84214e38d27327e7286f88016d4ffb2"
     },
+    "libb2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libb2.git",
+      "branch": "master",
+      "revision": "e91477cf3c492f909e1dcdc5039cdfc68507c491"
+    },
     "libb64": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libb64.git",
       "branch": "master",
