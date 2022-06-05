@@ -3116,6 +3116,11 @@
       "branch": "master",
       "revision": "2153d506d8aa579d556eafd198f46e216675327c"
     },
+    "wolfssl": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wolfssl.git",
+      "branch": "master",
+      "revision": "b7b0d09d86d0e0ccd49c9902318793de141f8aa1"
+    },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
