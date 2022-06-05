@@ -1531,6 +1531,11 @@
       "branch": "master",
       "revision": "262321acea9a0cacdcb1aa503a010aeeb1d2790f"
     },
+    "libcue": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcue.git",
+      "branch": "master",
+      "revision": "f991b96fac7e5b71eebbc3b957b1e4f490644e42"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
