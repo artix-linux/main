@@ -2366,6 +2366,11 @@
       "branch": "master",
       "revision": "42cbd8bc2ef305cff451e9cbf9381ddc0b9dc65d"
     },
+    "qpdf": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qpdf.git",
+      "branch": "master",
+      "revision": "8294091a76d0a5fb6a8821173db973cb87dd85cd"
+    },
     "qrencode": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qrencode.git",
       "branch": "master",
