@@ -5506,6 +5506,11 @@
       "branch": "master",
       "revision": "d63960aa6ee1d7fed12395c500e3554bdf179c67"
     },
+    "namcap": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/namcap.git",
+      "branch": "master",
+      "revision": "d2e4509a1bb4ebb5ee4701572d1c294bcacda28b"
+    },
     "nauty": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nauty.git",
       "branch": "master",
