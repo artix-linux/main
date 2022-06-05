@@ -2201,6 +2201,11 @@
       "branch": "master",
       "revision": "efd0ae813b7fd83e29b07193f6cd83c8d362a708"
     },
+    "grep": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grep.git",
+      "branch": "master",
+      "revision": "249c708d895a27e245ff036e8b6b6f988b9abef3"
+    },
     "grpc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
       "branch": "master",
