@@ -1,0 +1,38 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+pkgname=libqmi
+pkgver=1.30.6
+pkgrel=1
+pkgdesc="QMI modem protocol helper library"
+url="https://www.freedesktop.org/wiki/Software/libqmi/"
+arch=(x86_64)
+license=(GPL2)
+depends=(libmbim libqrtr-glib libgudev)
+makedepends=(gtk-doc meson git help2man gobject-introspection bash-completion)
+provides=(libqmi-glib.so)
+options=(debug)
+_commit=dc82a0ae42df0086fab0595690dd3bbd7a958773  # tags/1.30.6^0
+source=("git+https://gitlab.freedesktop.org/mobile-broadband/libqmi.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd libqmi
+  git describe --tags | sed 's/-rc/rc/;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd libqmi
+}
+
+build() {
+  artix-meson libqmi build -D gtk_doc=false  # Docs currently broken
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}
