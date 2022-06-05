@@ -520,6 +520,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
       "revision": "8a2bb872a238bd96ccc5e33bedde4082ca318038"
+    },
+    "yodl": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
+      "branch": "master",
+      "revision": "f3b22efe2902b64eb0a4f9acd1328972a289da94"
     }
   }
 }
