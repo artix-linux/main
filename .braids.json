@@ -346,6 +346,11 @@
       "branch": "master",
       "revision": "9c4377b435c343f74f5022686f304dbfff31ae21"
     },
+    "fltk": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fltk.git",
+      "branch": "master",
+      "revision": "ef0299d7437389118712baa5b710d688b5807fb1"
+    },
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
       "branch": "master",
