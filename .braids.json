@@ -1046,6 +1046,11 @@
       "branch": "master",
       "revision": "64d2621f677927ae2b7ca7f979b0ecf517f465bd"
     },
+    "gstreamer": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gstreamer.git",
+      "branch": "master",
+      "revision": "68bba3665cd28ba4a97793d013af1576a2af57b6"
+    },
     "gts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
       "branch": "master",
