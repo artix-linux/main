@@ -3486,6 +3486,11 @@
       "branch": "master",
       "revision": "b29ddd6ced82a0db2bc1a4fe1acd4190a2cc5f5f"
     },
+    "libgcrypt": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgcrypt.git",
+      "branch": "master",
+      "revision": "2d2b857210151392cda81671d47ae27dff56bf67"
+    },
     "libgdata": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdata.git",
       "branch": "master",
