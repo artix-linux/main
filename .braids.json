@@ -831,6 +831,11 @@
       "branch": "master",
       "revision": "827bf96d751afe04d0487657d2d91c657ec01e07"
     },
+    "i2pd": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/i2pd.git",
+      "branch": "master",
+      "revision": "3ca629fc06c4ebbf93f115f08b1dc49895d7ed8b"
+    },
     "icmake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
       "branch": "master",
