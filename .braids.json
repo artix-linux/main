@@ -271,6 +271,11 @@
       "branch": "master",
       "revision": "81a70d97bf7f14632ca8238b79eb2afe1721d516"
     },
+    "coturn": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coturn.git",
+      "branch": "master",
+      "revision": "f5b940410f2a71def799fa7d2043af9d27574480"
+    },
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
