@@ -1716,6 +1716,11 @@
       "branch": "master",
       "revision": "eea2c21f4d97f1f1abb5ab0e5211162ac82d62b4"
     },
+    "godot": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/godot.git",
+      "branch": "master",
+      "revision": "dac5fafff88614dfae5808cb318484b64ec5aae8"
+    },
     "google-glog": {
       "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
       "branch": "master",
