@@ -3866,6 +3866,11 @@
       "branch": "master",
       "revision": "a6754dbb3dad9eccd6b58d49e0f0cf9ab6c31569"
     },
+    "pahole": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pahole.git",
+      "branch": "master",
+      "revision": "75edb76ce8fa577ebc6cfbcb64ea256f0c912a30"
+    },
     "pam_rundir": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pam_rundir.git",
       "branch": "master",
