@@ -2426,6 +2426,11 @@
       "branch": "master",
       "revision": "38922b5bdf8376acb97639bf8fe15cc56692bf2b"
     },
+    "hdparm": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hdparm.git",
+      "branch": "master",
+      "revision": "eacb89baf1e5bd653acc76ed1143a16ccacad5d7"
+    },
     "hevea": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hevea.git",
       "branch": "master",
