@@ -1876,6 +1876,11 @@
       "branch": "master",
       "revision": "02c0fa8076554d5c9dc2a0850a11f8067dc3309d"
     },
+    "minio": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minio.git",
+      "branch": "master",
+      "revision": "e4104d8c69546581fd0da05a2274c13237de4858"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
