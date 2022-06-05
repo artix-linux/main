@@ -2541,6 +2541,11 @@
       "branch": "master",
       "revision": "f72103f48b24eedb416264e384285fafa12b96bd"
     },
+    "sqlcipher": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
+      "branch": "master",
+      "revision": "a312cc01b6d5ee3f0431ad9b2c5725d6b658a7b8"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
