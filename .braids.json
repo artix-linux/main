@@ -4571,6 +4571,11 @@
       "branch": "master",
       "revision": "f2dbb5536d675d1a70d1e3c845e3fb800433d27b"
     },
+    "node-gyp": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/node-gyp.git",
+      "branch": "master",
+      "revision": "edd52b35c9187378b62efe06b4412ed5fb00df98"
+    },
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
       "branch": "master",
