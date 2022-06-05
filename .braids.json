@@ -1411,6 +1411,11 @@
       "branch": "master",
       "revision": "8797ecc0368ab7e9bccdf9e4c74039dad3921d80"
     },
+    "hyphen": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hyphen.git",
+      "branch": "master",
+      "revision": "062d89630c60be9292cc65b255601b4cc312eef9"
+    },
     "i2c-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
       "branch": "master",
