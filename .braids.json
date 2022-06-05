@@ -666,6 +666,11 @@
       "branch": "master",
       "revision": "8a797079f7d9181376c9cf9bdb5d548c69f6498d"
     },
+    "gitea": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gitea.git",
+      "branch": "master",
+      "revision": "edf36118cc948f7ea0fa89a27e0618c853587087"
+    },
     "gl2ps": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gl2ps.git",
       "branch": "master",
