@@ -3501,6 +3501,11 @@
       "branch": "master",
       "revision": "11f283048b117bc2ae04fece5686bb192b5b522c"
     },
+    "ocamlbuild": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
+      "branch": "master",
+      "revision": "30f158befef6fd4bfcc4e624a697b909038bbf4e"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
