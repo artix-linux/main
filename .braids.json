@@ -2941,6 +2941,11 @@
       "branch": "master",
       "revision": "1a20d46152ce5ec7fec4764ca53165f7178bdaa5"
     },
+    "unrealircd": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
+      "branch": "master",
+      "revision": "d1bcd9077b89cbf4e18a9376a520f2108e0da90d"
+    },
     "upower": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upower.git",
       "branch": "master",
