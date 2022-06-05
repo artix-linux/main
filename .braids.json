@@ -211,6 +211,11 @@
       "branch": "master",
       "revision": "cf7c346707059ecc9cca8ea96aba2fb14bb17941"
     },
+    "devil": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/devil.git",
+      "branch": "master",
+      "revision": "26d2bc35e45127fa1ce3a8e8eac78915bdbca3dd"
+    },
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
