@@ -8621,6 +8621,11 @@
       "branch": "master",
       "revision": "186bfce7c410652493122f5dcd618687fd144694"
     },
+    "which": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/which.git",
+      "branch": "master",
+      "revision": "236df7555099246631154151354683c461830a5e"
+    },
     "wildmidi": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wildmidi.git",
       "branch": "master",
