@@ -1056,6 +1056,11 @@
       "branch": "master",
       "revision": "c63e22d8b55bc9dbf8dbfc71d4df5ca0e16a2f7a"
     },
+    "geoclue": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/geoclue.git",
+      "branch": "master",
+      "revision": "5bae489199f2f8fcbd02e1e38c582925a3cd76a5"
+    },
     "geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip.git",
       "branch": "master",
