@@ -1321,6 +1321,11 @@
       "branch": "master",
       "revision": "273a7ba793c22d84609a3d923cc6f848bb443345"
     },
+    "ttf-roboto": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-roboto.git",
+      "branch": "master",
+      "revision": "19dc66329210931094606507fc2e43f840deafb9"
+    },
     "twine": {
       "url": "gitea@gitea.artixlinux.org:packagesT/twine.git",
       "branch": "master",
