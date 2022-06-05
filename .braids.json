@@ -1416,6 +1416,11 @@
       "branch": "master",
       "revision": "96c4ddfa9d0dfb474b80d31819c61e6a347eb8ad"
     },
+    "volume_key": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/volume_key.git",
+      "branch": "master",
+      "revision": "bb26ebe5d070e8456153587876d323b90ef1f184"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
