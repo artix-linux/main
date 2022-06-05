@@ -4036,6 +4036,11 @@
       "branch": "master",
       "revision": "c1afa43324fea16642a211b441cbc01effb3fea0"
     },
+    "luajit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/luajit.git",
+      "branch": "master",
+      "revision": "7afc83c2af0e2d8df079b6e320db31f0fb78526f"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
