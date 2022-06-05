@@ -1576,6 +1576,11 @@
       "branch": "master",
       "revision": "c7167ace1f5b5cdde5727290db6dd96636249b72"
     },
+    "xf86-input-evdev": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-evdev.git",
+      "branch": "master",
+      "revision": "ab8eb430728ad07736c3cc4e2dcbd676eb30bcae"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
