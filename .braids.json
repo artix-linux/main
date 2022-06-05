@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "6760ff1617afc2b5497a457f9cd963e992c9a8f6"
     },
+    "pyprof2calltree": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyprof2calltree.git",
+      "branch": "master",
+      "revision": "14202318eecfb845e579ba76a118cc74f44c5189"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
