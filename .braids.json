@@ -3731,6 +3731,11 @@
       "branch": "master",
       "revision": "c4b553c0389e9221b7a10ed41e1e52b02b60d393"
     },
+    "pqiv": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pqiv.git",
+      "branch": "master",
+      "revision": "e0eba66ae7654692d57557117d3c0600af9feb2a"
+    },
     "privoxy": {
       "url": "gitea@gitea.artixlinux.org:packagesP/privoxy.git",
       "branch": "master",
