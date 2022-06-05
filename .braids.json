@@ -1696,6 +1696,11 @@
       "branch": "master",
       "revision": "993e7fe2a0b5ff52ab5e2dfa16eb50eea9f4a411"
     },
+    "libgpod": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgpod.git",
+      "branch": "master",
+      "revision": "61f604eb9e8409f1904272bdfa5728b80c602cce"
+    },
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",
