@@ -1,0 +1,39 @@
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: Daniel Micay <danielmicay@gmail.com>
+# Contributor: Henrik Nymann Jensen <h@henriknj.dk>
+
+pkgname=pdnsd
+pkgver=1.2.9.a
+_pkgver=${pkgver/.a/a}
+pkgrel=14.2
+pkgdesc="Proxy DNS server with permanent caching"
+arch=(x86_64)
+url="http://members.home.nl/p.a.rombouts/pdnsd/"
+license=('GPL')
+depends=('glibc')
+source=(https://fossies.org/linux/misc/dns/pdnsd-1.2.9a-par.tar.gz
+        pdnsd.sysusers
+        pdnsd.tmpfiles)
+sha512sums=('4fde296642306aa986ddb7cad0b5991bcd397656d93ef4962706276848c7fa62c664a40198e807d029637f116e8000c237d98b91cbbfec5c08b134d8bb3adf81'
+            '6ebedaa481a8b9f8a0263d42fba06a74933f23593dc9fc0745e4036e0cfe40e208a414fb92a32a15382aff572950e07e93dfa4b896600cebe10f70a15f4fc6f6'
+            'dbd30b02c8cc21531133573e10704e02ceea5d5cee18c96542398a815ea8b1292aa025664f0cd2c10d248578058e0afb9b0215f6c421a501c2555940d56d4373')
+validpgpkeys=(21EC7442EE80FB0594E317612C4C1357A484EE22)
+
+build() {
+  cd "$srcdir/$pkgname-$_pkgver"
+  ./configure --prefix=/usr --sysconfdir=/etc --sbindir=/usr/bin --enable-ipv6
+  make
+}
+
+package() {
+  cd "$srcdir/$pkgname-$_pkgver"
+  make DESTDIR="$pkgdir" install
+  install -Dm0644 ../pdnsd.sysusers "$pkgdir/usr/lib/sysusers.d/pdnsd.conf"
+  install -Dm0644 ../pdnsd.tmpfiles "$pkgdir/usr/lib/tmpfiles.d/pdnsd.conf"
+
+  install -dm0755 "$pkgdir/usr/share/doc/pdnsd"
+  sed -i 's/"nobody"/"pdnsd"/' "$pkgdir/etc/pdnsd.conf.sample"
+  mv "$pkgdir/etc/pdnsd.conf.sample" "$pkgdir/usr/share/doc/pdnsd/pdnsd.conf"
+
+  rm -r "$pkgdir"/{etc,var}
+}
