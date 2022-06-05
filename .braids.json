@@ -1211,6 +1211,11 @@
       "branch": "master",
       "revision": "bf0eb60c9107926d41aea0646494a3a3297b71e0"
     },
+    "iso-codes": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iso-codes.git",
+      "branch": "master",
+      "revision": "bc2167c0b37eae938b0a3901cd3d0721e8b81960"
+    },
     "isodate": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isodate.git",
       "branch": "master",
