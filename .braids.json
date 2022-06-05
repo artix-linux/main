@@ -6476,6 +6476,11 @@
       "branch": "master",
       "revision": "1478d686668e7f89c5a4dd9b20a536dd1bd54532"
     },
+    "thermald": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/thermald.git",
+      "branch": "master",
+      "revision": "c8515f3b76b4333ee925dfaa5cf07dad35083f99"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
