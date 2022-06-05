@@ -15,6 +15,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor.git",
       "branch": "master",
       "revision": "81b8665779f2cd8c37e9a8dce54ecca043721b47"
+    },
+    "auth-tarball-from-git": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
+      "branch": "master",
+      "revision": "22afdabff9a16a147848cd8eadee86cadc7f4cd5"
     }
   }
 }
