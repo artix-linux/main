@@ -1,0 +1,28 @@
+# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+
+pkgname=libuninameslist
+pkgver=20211114
+pkgrel=1
+pkgdesc='Large, sparse array mapping each unicode code point to the annotation data for it'
+url='https://github.com/fontforge/libuninameslist'
+license=('custom')
+arch=('x86_64')
+source=("https://github.com/fontforge/${pkgname}/releases/download/${pkgver}/${pkgname}-dist-${pkgver}.tar.gz")
+sha256sums=('f5f69090de4a483721207a9df7de5327c13c812a1d23de074d8f0496bc2b740d')
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  autoreconf -i
+  automake --foreign -Wall
+}
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" install
+}

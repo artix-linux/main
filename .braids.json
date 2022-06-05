@@ -2236,6 +2236,11 @@
       "branch": "master",
       "revision": "9987c46eadec7685438e6ace3e77fa67ac61215f"
     },
+    "libuninameslist": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libuninameslist.git",
+      "branch": "master",
+      "revision": "d8c83683fd1a93ca8cb8338fe987c13f4855a27f"
+    },
     "libunwind": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
       "branch": "master",
