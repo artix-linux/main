@@ -4826,6 +4826,11 @@
       "branch": "master",
       "revision": "74130716fc5affbaac53cdc8a383ddca21d30a8d"
     },
+    "linux-api-headers": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/linux-api-headers.git",
+      "branch": "master",
+      "revision": "338308e6160c0d389a7fc2b65c3d648ed0433bfc"
+    },
     "linux-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-firmware.git",
       "branch": "master",
