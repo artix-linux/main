@@ -435,6 +435,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract-data.git",
       "branch": "master",
       "revision": "db560af41a59cadee804fccb16600bfce7540b80"
+    },
+    "tinycdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
+      "branch": "master",
+      "revision": "a9fbfd22e12902921242929adb27f75e3f428a4c"
     }
   }
 }
