@@ -3061,6 +3061,11 @@
       "branch": "master",
       "revision": "4355284fb51d4df4264c2a3349c34df698a81890"
     },
+    "lld": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lld.git",
+      "branch": "master",
+      "revision": "1d15dc946ca8868be0632ff0649bba097c15c3b8"
+    },
     "lm_sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors.git",
       "branch": "master",
