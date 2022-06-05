@@ -1786,6 +1786,11 @@
       "branch": "master",
       "revision": "1eda64058f0934f27225ecc2032641e82a2b9427"
     },
+    "texlive-fontsextra": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/texlive-fontsextra.git",
+      "branch": "master",
+      "revision": "7b750c2b2739bdc06931df5144f1f12daf8e73d1"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
