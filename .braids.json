@@ -2486,6 +2486,11 @@
       "branch": "master",
       "revision": "e15735cef5b049909a42064c3ceb33f9be9414d9"
     },
+    "hspell": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hspell.git",
+      "branch": "master",
+      "revision": "1c3fe19ac3d3529737e6b00fa182aa0cd80b9c32"
+    },
     "http-parser": {
       "url": "gitea@gitea.artixlinux.org:packagesH/http-parser.git",
       "branch": "master",
