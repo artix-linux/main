@@ -111,6 +111,11 @@
       "branch": "master",
       "revision": "30634a416b6b0ea101c07e7a6bf8e6ab25f5cf5e"
     },
+    "cmark-gfm": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
+      "branch": "master",
+      "revision": "c5f2341fe4656ed4ef954c3681c4a68f7841a3f9"
+    },
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
