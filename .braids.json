@@ -6941,6 +6941,11 @@
       "branch": "master",
       "revision": "96c4ddfa9d0dfb474b80d31819c61e6a347eb8ad"
     },
+    "vnstat": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vnstat.git",
+      "branch": "master",
+      "revision": "9ff034ce9f168342d1578aaffeb3734c5a1e36db"
+    },
     "volume_key": {
       "url": "gitea@gitea.artixlinux.org:packagesV/volume_key.git",
       "branch": "master",
