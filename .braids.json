@@ -5906,6 +5906,11 @@
       "branch": "master",
       "revision": "f60e2c97ccd70c85d9dc1279a3fd43f3cdc4c213"
     },
+    "sassc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sassc.git",
+      "branch": "master",
+      "revision": "8f59e9a223d6627ecf9b6e24b17dbeab5daa847c"
+    },
     "sbc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sbc.git",
       "branch": "master",
