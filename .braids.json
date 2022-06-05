@@ -2451,6 +2451,11 @@
       "branch": "master",
       "revision": "36e144a054b9b852e8e95172b169a20782df46e6"
     },
+    "rtorrent": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rtorrent.git",
+      "branch": "master",
+      "revision": "5709d49f55e714f9244899afc8420ec00e36524c"
+    },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",
