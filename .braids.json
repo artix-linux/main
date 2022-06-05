@@ -3921,6 +3921,11 @@
       "branch": "master",
       "revision": "28e853f4aee454c6f3afc964b1004e006ea64456"
     },
+    "libnfnetlink": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnfnetlink.git",
+      "branch": "master",
+      "revision": "7e19507d8273adc9566d3a6468c28eec4b849ba1"
+    },
     "libnfs": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnfs.git",
       "branch": "master",
