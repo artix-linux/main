@@ -1656,6 +1656,11 @@
       "branch": "master",
       "revision": "d5ff8e6528f969af0d49bc88046e0a10ca7f0c94"
     },
+    "libfreeaptx": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfreeaptx.git",
+      "branch": "master",
+      "revision": "374881364827b45083506f3d8852274911ce092d"
+    },
     "libfreehand": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfreehand.git",
       "branch": "master",
