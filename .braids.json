@@ -1416,6 +1416,11 @@
       "branch": "master",
       "revision": "eb2d94fbe009275f2146097ec601b6916276c9dc"
     },
+    "libass": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libass.git",
+      "branch": "master",
+      "revision": "ca9aecbcc999fa796b4a08365fe546688ffe0094"
+    },
     "libatasmart": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatasmart.git",
       "branch": "master",
