@@ -3361,6 +3361,11 @@
       "branch": "master",
       "revision": "0ef624250970a6a4d4c54aa9369557ee3db3817f"
     },
+    "mkinitcpio-openswap": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio-openswap.git",
+      "branch": "master",
+      "revision": "035788bcd94ff114584dbace2598b1f862e098ff"
+    },
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
