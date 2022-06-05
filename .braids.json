@@ -2126,6 +2126,11 @@
       "branch": "master",
       "revision": "d82296dc8cf26d8ac0dd3a972b9878fba63c525e"
     },
+    "libsamplerate": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsamplerate.git",
+      "branch": "master",
+      "revision": "ed5f39a019023504958222df4e14bf196817e9da"
+    },
     "libsecp256k1": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsecp256k1.git",
       "branch": "master",
