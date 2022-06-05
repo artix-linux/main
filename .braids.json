@@ -6796,6 +6796,11 @@
       "branch": "master",
       "revision": "af58094314155232e371e600b9f26880cac58cac"
     },
+    "usb_modeswitch": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usb_modeswitch.git",
+      "branch": "master",
+      "revision": "ebdbb9825ba151d5dce3d273dcf80279c1260c10"
+    },
     "usbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbmuxd.git",
       "branch": "master",
