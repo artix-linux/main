@@ -6191,6 +6191,11 @@
       "branch": "master",
       "revision": "537ead5019f6d2a15eed7c2263f0e641bd760c02"
     },
+    "patch": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/patch.git",
+      "branch": "master",
+      "revision": "12959428c168ff19763638b7b0b9d229b65049e9"
+    },
     "patchelf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/patchelf.git",
       "branch": "master",
