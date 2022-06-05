@@ -3281,6 +3281,11 @@
       "branch": "master",
       "revision": "b66eab437d3d00c05e65ef9b116d073911b59f94"
     },
+    "libpgm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpgm.git",
+      "branch": "master",
+      "revision": "2b42eaf92a30c67f9dd87f7daa1fd0b745cffb3a"
+    },
     "libpipewire02": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpipewire02.git",
       "branch": "master",
