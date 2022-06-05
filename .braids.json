@@ -1756,6 +1756,11 @@
       "branch": "master",
       "revision": "812e0ccc82c05df2ca9afcdf6b099c2976b610b5"
     },
+    "xorg-xhost": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xhost.git",
+      "branch": "master",
+      "revision": "dca2bc0b696bdc2821041c03673382d801f638a1"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
