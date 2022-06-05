@@ -541,6 +541,11 @@
       "branch": "master",
       "revision": "cd19d2d483c214e9f922f2965968c781c536816c"
     },
+    "bzip2": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bzip2.git",
+      "branch": "master",
+      "revision": "4f15fe4b23c6edcbd561ae717267cffb4d4510c0"
+    },
     "bzrtp": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bzrtp.git",
       "branch": "master",
