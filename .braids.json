@@ -2746,6 +2746,11 @@
       "branch": "master",
       "revision": "04dc99764d5885ab79217df57b0e05bc339f358d"
     },
+    "tigervnc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc.git",
+      "branch": "master",
+      "revision": "e84c3fc81e4c0bfe19bf19776ef902861343e77c"
+    },
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
       "branch": "master",
