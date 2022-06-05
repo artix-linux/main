@@ -305,6 +305,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
       "revision": "9c3d63e04155632206d298ad028a89054e3a9aff"
+    },
+    "notmuch": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
+      "branch": "master",
+      "revision": "1d6146b62e86a1352ab9d2dbd835a7ebf4848896"
     }
   }
 }
