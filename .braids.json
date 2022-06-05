@@ -1271,6 +1271,11 @@
       "branch": "master",
       "revision": "113112b15e8b8d9bba191f796813a06eb83c3d40"
     },
+    "ttf-bitstream-vera": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-bitstream-vera.git",
+      "branch": "master",
+      "revision": "dd10d7c80cca95557825fd81d89a35f12d543a59"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
