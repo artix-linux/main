@@ -1996,6 +1996,11 @@
       "branch": "master",
       "revision": "c076935a35660d3654491197e77d435342b67f05"
     },
+    "netplan": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/netplan.git",
+      "branch": "master",
+      "revision": "1edf2bc2a64bb31970cae2a8b869d2a6fb8f7e11"
+    },
     "networkmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager.git",
       "branch": "master",
