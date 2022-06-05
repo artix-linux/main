@@ -376,6 +376,11 @@
       "branch": "master",
       "revision": "1b2ef32e5aa424a2ad854331a96a49e07d86dd87"
     },
+    "clutter-gst": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clutter-gst.git",
+      "branch": "master",
+      "revision": "fe2d541e31823045282fe980eebb1a6016655b32"
+    },
     "cmark-gfm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
       "branch": "master",
