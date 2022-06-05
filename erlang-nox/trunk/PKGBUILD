@@ -1,0 +1,57 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Vesa Kaihlavirta <vesa@archlinux.org>
+# Contributor: Sarah Hay <sarahhay@mb.sympatico.ca>
+# Contributor: Tom Burdick <thomas.burdick@wrightwoodtech.com>
+# Contributor: Ricardo Catalinas Jiménez <jimenezrick@gmail.com>
+
+pkgname=erlang-nox
+pkgver=24.3.2
+pkgrel=2
+_docver=24.2
+pkgdesc='General-purpose concurrent functional programming language (headless version)'
+arch=(x86_64)
+url='https://erlang.org/'
+license=(Apache)
+depends=(ncurses openssl)
+makedepends=(fop git java-environment libxslt lksctp-tools unixodbc)
+conflicts=(erlang)
+optdepends=('erlang-unixodbc: database support'
+            'java-environment: for Java support'
+            'lksctp-tools: for SCTP support')
+options=(staticlibs)
+source=("$url/download/otp_doc_man_$_docver.tar.gz"
+        "git+https://github.com/erlang/otp#commit=7bd6e24d3dded3a393f9bb774ccf98cc0af4d595") # tag: OTP-24.3.2
+b2sums=('17cf3c1e296c883e9c930cd540d439f7dd71a40048bbe80efd6f46dd5b4d9faf51177d2bb133f782742b0b367c8f54c27ed2b2cce277372a98dd55bb629f3b55'
+        'SKIP')
+
+build() {
+  cd otp
+  export CFLAGS+=' -ffat-lto-objects'
+  ./otp_build autoconf
+  ./configure \
+    --enable-builtin-zlib \
+    --enable-smp-support \
+    --prefix=/usr \
+    --with-odbc
+  make
+}
+
+package() {
+  make -C otp DESTDIR="$pkgdir" install
+
+
+  # readme and licenses
+  install -Dm644 otp/README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+  install -Dm644 otp/LICENSE.txt "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 otp/CONTRIBUTING.md "$pkgdir/usr/share/doc/$pkgname/CONTRIBUTING.md"
+  install -Dm644 otp/AUTHORS "$pkgdir/usr/share/doc/$pkgname/AUTHORS"
+
+  # man pages
+  cp -r man "$pkgdir/usr/lib/erlang/"
+
+  # remove files that are included in the erlang-unixodbc package
+  rm -rf "$pkgdir/usr/lib/erlang/"{lib/odbc*,man/man3/odbc.3}
+}
+
+# getver: raw.githubusercontent.com/erlang/otp/maint/OTP_VERSION

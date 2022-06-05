@@ -1176,6 +1176,11 @@
       "branch": "master",
       "revision": "195eaf42f2019b620579a9d5fef16af2baa79548"
     },
+    "erlang-nox": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/erlang-nox.git",
+      "branch": "master",
+      "revision": "2da8f7cbae80059de2aa47970659a114400abbd7"
+    },
     "etherwall": {
       "url": "gitea@gitea.artixlinux.org:packagesE/etherwall.git",
       "branch": "master",
