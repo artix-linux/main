@@ -420,6 +420,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
       "revision": "984d58858eb0c96fc49bdee630a2f0f3465b72ca"
+    },
+    "tcc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tcc.git",
+      "branch": "master",
+      "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
     }
   }
 }
