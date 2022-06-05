@@ -1951,6 +1951,11 @@
       "branch": "master",
       "revision": "28e853f4aee454c6f3afc964b1004e006ea64456"
     },
+    "libnfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnfs.git",
+      "branch": "master",
+      "revision": "2d2752852b8e65d002a4bbff981c784b9d832942"
+    },
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
