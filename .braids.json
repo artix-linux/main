@@ -2436,6 +2436,11 @@
       "branch": "master",
       "revision": "f1c868528c29f43588eeb91e8f7aaa34cabfc316"
     },
+    "level-zero": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/level-zero.git",
+      "branch": "master",
+      "revision": "a13d3e28b1eac6b83e570c90f841eed38a73c0fb"
+    },
     "leveldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leveldb.git",
       "branch": "master",
