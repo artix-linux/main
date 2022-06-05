@@ -2321,6 +2321,11 @@
       "branch": "master",
       "revision": "7be77664a290696c62d2c095f928305df2233c26"
     },
+    "liboauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liboauth.git",
+      "branch": "master",
+      "revision": "befb5aa5d2924f563565dc5d46b0947b9223cb9c"
+    },
     "libodfgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libodfgen.git",
       "branch": "master",
