@@ -2806,6 +2806,11 @@
       "branch": "master",
       "revision": "2a83c0d49dedfe1ce4b75a63905e584a5db28ff3"
     },
+    "transmission": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transmission.git",
+      "branch": "master",
+      "revision": "e757d1ce76967e13226053169498189ff67fdcc2"
+    },
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
