@@ -1,0 +1,54 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Jan de Groot <jgc@archlinux.org>
+
+pkgbase=pangomm-2.48
+pkgname=(pangomm-2.48 pangomm-2.48-docs)
+pkgver=2.50.0
+pkgrel=1
+pkgdesc="C++ bindings for Pango"
+url="https://www.gtkmm.org/"
+arch=(x86_64)
+license=(LGPL)
+depends=(pango glibmm-2.68 cairomm-1.16)
+makedepends=(git meson mm-common glibmm-2.68-docs cairomm-1.16-docs)
+options=(!emptydirs)
+_commit=cd00ba55a53b71a41fb566827db8b7d7c28c36b6  # tags/2.50.0^0
+source=("git+https://gitlab.gnome.org/GNOME/pangomm.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd pangomm
+  git describe --tags | sed 's/-/+/g'
+}
+
+prepare() {
+  cd pangomm
+}
+
+build() {
+  artix-meson pangomm build -D maintainer-mode=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package_pangomm-2.48() {
+  depends+=(libsigc-3.0.so libglibmm-2.68.so libcairomm-1.16.so)
+  provides=(libpangomm-2.48.so)
+
+  meson install -C build --destdir "$pkgdir"
+
+  # Split -docs
+  mkdir -p docs/usr/share
+  mv -t docs/usr/share "$pkgdir"/usr/share/{devhelp,doc}
+}
+
+package_pangomm-2.48-docs() {
+  pkgdesc+=" (documentation)"
+  depends=()
+  options=(!strip)
+
+  mv -t "$pkgdir" docs/*
+}

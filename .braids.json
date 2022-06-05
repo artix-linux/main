@@ -3581,6 +3581,11 @@
       "branch": "master",
       "revision": "57d6b552bbf2aaaef4914fb531717bb41d458c58"
     },
+    "pangomm-2.48": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pangomm-2.48.git",
+      "branch": "master",
+      "revision": "fb7ce1fc3a0859843220f0900f98b48fc95a8597"
+    },
     "paprefs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paprefs.git",
       "branch": "master",
