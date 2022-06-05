@@ -2826,6 +2826,11 @@
       "branch": "master",
       "revision": "24d54f8359f89507a531d7b27f1cd805ebefe895"
     },
+    "mujs": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mujs.git",
+      "branch": "master",
+      "revision": "ec6819cc235f7c3d177ec093c981e2c8e4fb5364"
+    },
     "mumble": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mumble.git",
       "branch": "master",
