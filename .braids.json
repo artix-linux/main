@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "496cc913b6f563956e3cb5814b15ebca59bd3902"
     },
+    "libunwind": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
+      "branch": "master",
+      "revision": "945e817b41358085a11e8106048ba60e04a83c70"
+    },
     "libusbsio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
       "branch": "master",
