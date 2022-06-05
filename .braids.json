@@ -1,6 +1,11 @@
 {
   "config_version": 1,
   "mirrors": {
+    "abseil-cpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/abseil-cpp.git",
+      "branch": "master",
+      "revision": "f7b4f0235259d5b9f80ad91b8e29b55b4876bde2"
+    },
     "accountsservice": {
       "url": "gitea@gitea.artixlinux.org:packagesA/accountsservice.git",
       "branch": "master",
