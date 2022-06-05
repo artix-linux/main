@@ -661,6 +661,11 @@
       "branch": "master",
       "revision": "1ffb7ba04c931a95d18ef5a0743d6e84fc5fd447"
     },
+    "leptonica": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/leptonica.git",
+      "branch": "master",
+      "revision": "f1c868528c29f43588eeb91e8f7aaa34cabfc316"
+    },
     "lgi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lgi.git",
       "branch": "master",
