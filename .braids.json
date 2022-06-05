@@ -2391,6 +2391,11 @@
       "branch": "master",
       "revision": "f80484d0fdca57f70f5f4c4fd4421cb458d09558"
     },
+    "raft": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/raft.git",
+      "branch": "master",
+      "revision": "08adba65daa4ce9041294f7689d8ed16b4a2c2be"
+    },
     "ranger": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ranger.git",
       "branch": "master",
