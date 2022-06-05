@@ -6221,6 +6221,11 @@
       "branch": "master",
       "revision": "0ab0b9de863cb974567b1fefdadaa8c9907e5c63"
     },
+    "sshfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshfs.git",
+      "branch": "master",
+      "revision": "e697594037be3cdf1b54a03e26eb1adedd32b622"
+    },
     "sshguard": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshguard.git",
       "branch": "master",
