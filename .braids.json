@@ -1471,6 +1471,11 @@
       "branch": "master",
       "revision": "3db54cc15fd4c9e52b1a08b2abfc09b558db22e1"
     },
+    "libbs2b": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libbs2b.git",
+      "branch": "master",
+      "revision": "4b35e4506906f5a5d19cf627a115e71b163ffc76"
+    },
     "libbsd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbsd.git",
       "branch": "master",
