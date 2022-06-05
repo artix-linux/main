@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "06f1c82f27e769937d01e2da4afcbe0936eb674f"
     },
+    "ddclient": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/ddclient.git",
+      "branch": "master",
+      "revision": "a6faa50147d1b938f6f1567fda21f741936e67a8"
+    },
     "desktop-file-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesD/desktop-file-utils.git",
       "branch": "master",
