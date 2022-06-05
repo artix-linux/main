@@ -186,6 +186,11 @@
       "branch": "master",
       "revision": "cf20debeee110e79116607cfcc34b2c9a88d38fe"
     },
+    "eglexternalplatform": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/eglexternalplatform.git",
+      "branch": "master",
+      "revision": "0c72feb9bf9e5894c6eb57d6f4080331bd8ce7a9"
+    },
     "electrum": {
       "url": "gitea@gitea.artixlinux.org:packagesE/electrum.git",
       "branch": "master",
