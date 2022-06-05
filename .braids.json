@@ -821,6 +821,11 @@
       "branch": "master",
       "revision": "491927064e7836f567fa19ace3940fc61181d12e"
     },
+    "fontforge": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fontforge.git",
+      "branch": "master",
+      "revision": "be480fe78634f48a1c8b2d94f6651780a2229133"
+    },
     "foomatic-db": {
       "url": "gitea@gitea.artixlinux.org:packagesF/foomatic-db.git",
       "branch": "master",
