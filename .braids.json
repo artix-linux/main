@@ -415,6 +415,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
       "revision": "13aa9c952108f5d59b39d8dec944e91d449d1ca3"
+    },
+    "tbb": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
+      "branch": "master",
+      "revision": "984d58858eb0c96fc49bdee630a2f0f3465b72ca"
     }
   }
 }
