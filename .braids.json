@@ -2161,6 +2161,11 @@
       "branch": "master",
       "revision": "d75fa45acd25197cd2504c4e1900641b6a764efa"
     },
+    "intel-undervolt": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt.git",
+      "branch": "master",
+      "revision": "da41e330d59dfe937398c2e25337bd00e263da1f"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
