@@ -446,6 +446,11 @@
       "branch": "master",
       "revision": "fe7d67726ffad82fe59c1c0fb28a72ee85d2401f"
     },
+    "blocaled": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/blocaled.git",
+      "branch": "master",
+      "revision": "aec292471a52b71df6f725f72d75ff742a5e258e"
+    },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
