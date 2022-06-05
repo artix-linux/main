@@ -6156,6 +6156,11 @@
       "branch": "master",
       "revision": "fb7ce1fc3a0859843220f0900f98b48fc95a8597"
     },
+    "paper": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/paper.git",
+      "branch": "master",
+      "revision": "3272501b2b3d07d8efa0dd72e0ab04765fdcd97e"
+    },
     "paprefs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paprefs.git",
       "branch": "master",
