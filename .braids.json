@@ -966,6 +966,11 @@
       "branch": "master",
       "revision": "15374fa61bf27b7964e90fdeec6103de835a8e5c"
     },
+    "libpng": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpng.git",
+      "branch": "master",
+      "revision": "cbf5e8fcfe74a202404ccf3941d0881b2b216989"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
