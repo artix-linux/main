@@ -6076,6 +6076,11 @@
       "branch": "master",
       "revision": "3d7de1bd8037938ee10254a9460fca16004340c8"
     },
+    "sleuthkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sleuthkit.git",
+      "branch": "master",
+      "revision": "d9f263467a43ed669e40b320247bf5361ea4a28c"
+    },
     "slirp4netns": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slirp4netns.git",
       "branch": "master",
