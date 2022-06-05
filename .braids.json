@@ -6251,6 +6251,11 @@
       "branch": "master",
       "revision": "31801e6d5d90244dda55cccbb83131bf044a8fed"
     },
+    "perl": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/perl.git",
+      "branch": "master",
+      "revision": "f1e6486d9d4bf45b8d03543033571a01999ccab7"
+    },
     "pgbouncer": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pgbouncer.git",
       "branch": "master",
