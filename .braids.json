@@ -1891,6 +1891,11 @@
       "branch": "master",
       "revision": "3c3f745113d2927d61f60eeeecbabe6cbd029657"
     },
+    "libmpdclient": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmpdclient.git",
+      "branch": "master",
+      "revision": "bd9a24b20bfdd97a893b13be8bd11dcef2e1b0b5"
+    },
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
