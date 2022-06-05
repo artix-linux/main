@@ -2101,6 +2101,11 @@
       "branch": "master",
       "revision": "402ff7b5267d3141121bf91dfbb1bbb0e2f47ceb"
     },
+    "libreplaygain": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libreplaygain.git",
+      "branch": "master",
+      "revision": "390390d720d9b1714f7d41a09c5c03c335e1d148"
+    },
     "libressl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libressl.git",
       "branch": "master",
