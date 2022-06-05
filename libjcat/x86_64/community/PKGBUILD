@@ -1,0 +1,29 @@
+# Maintainer: Bruno Pagani <archange@archlinux.org>
+
+pkgname=libjcat
+pkgver=0.1.11
+pkgrel=1
+pkgdesc="Library for reading and writing Jcat files"
+arch=(x86_64)
+url="https://github.com/hughsie/libjcat"
+license=(LGPL)
+depends=(gobject-introspection-runtime json-glib gnutls gpgme)
+makedepends=(meson gobject-introspection gtk-doc vala help2man)
+source=("https://people.freedesktop.org/~hughsient/releases/${pkgname}-${pkgver}.tar.xz"{,.asc})
+sha256sums=('305687815e97a384e2861a3038acadf11eb967402406799d17214be5dd4e1765'
+            'SKIP')
+validpgpkeys=(163EB50119225DB3DF8F49EA17ACBA8DFA970E17) # Richard Hughes <richard@hughsie.com>
+
+build() {
+  artix-meson ${pkgname}-${pkgver} build -D gtkdoc=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  DESTDIR="${pkgdir}" meson install -C build
+  rm -r "${pkgdir}"/usr/{lib,share}/installed-tests/
+}
