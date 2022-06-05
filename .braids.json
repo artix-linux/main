@@ -6291,6 +6291,11 @@
       "branch": "master",
       "revision": "f334e66718a1096e3cceaa52b4cf7704adc66526"
     },
+    "pinentry": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
+      "branch": "master",
+      "revision": "4e1d086323d59357bf698c344e9ed5b8494741c3"
+    },
     "pipewire": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire.git",
       "branch": "master",
