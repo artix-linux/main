@@ -2761,6 +2761,11 @@
       "branch": "master",
       "revision": "ff70b1dc7068b11ce5ecf58ca2f80ad9be5fc6fe"
     },
+    "libfaketime": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfaketime.git",
+      "branch": "master",
+      "revision": "fceceb6d91668c44f74f7f6568c70c3aa81bda6e"
+    },
     "libfbclient": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfbclient.git",
       "branch": "master",
