@@ -140,6 +140,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
       "revision": "804fc3f2eb689e6c8039e71a28be61d5ea209dff"
+    },
+    "gcc11": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
+      "branch": "master",
+      "revision": "fa4b269d4eb6d65f4a8a3949ee95d5262a430c87"
     }
   }
 }
