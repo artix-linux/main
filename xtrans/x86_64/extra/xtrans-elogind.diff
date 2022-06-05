@@ -1,0 +1,32 @@
+diff --git a/Xtrans.c b/Xtrans.c
+index 0e09b25bd64b8ceccccce71d599ce34ce80a515e..c22b842626fe5d08a8a757367f33e4939b3457f5 100644
+--- a/Xtrans.c
++++ b/Xtrans.c
+@@ -53,6 +53,9 @@ from The Open Group.
+ #ifdef HAVE_SYSTEMD_DAEMON
+ #include <systemd/sd-daemon.h>
+ #endif
++#ifdef HAVE_ELOGIND
++#include <elogind/sd-daemon.h>
++#endif
+ 
+ /*
+  * The transport table contains a definition for every transport (protocol)
+@@ -1042,7 +1045,7 @@ receive_listening_fds(const char* port, XtransConnInfo* temp_ciptrs,
+                       int* count_ret)
+ 
+ {
+-#ifdef HAVE_SYSTEMD_DAEMON
++#if defined(HAVE_SYSTEMD_DAEMON) || defined(HAVE_ELOGIND)
+     XtransConnInfo ciptr;
+     int i, systemd_listen_fds;
+ 
+@@ -1107,7 +1110,7 @@ receive_listening_fds(const char* port, XtransConnInfo* temp_ciptrs,
+         temp_ciptrs[(*count_ret)++] = ciptr;
+         TRANS(Received)(tn);
+     }
+-#endif /* HAVE_SYSTEMD_DAEMON */
++#endif /* HAVE_SYSTEMD_DAEMON || HAVE_ELOGIND */
+     return 0;
+ }
+ 

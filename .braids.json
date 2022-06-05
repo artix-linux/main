@@ -1846,6 +1846,11 @@
       "branch": "master",
       "revision": "6c23456cffda44d7df1927913913e7ec4f9f0e36"
     },
+    "xtrans": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xtrans.git",
+      "branch": "master",
+      "revision": "56db5a2ddd693cb640d06b2470bb0881c46789f5"
+    },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
