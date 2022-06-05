@@ -756,6 +756,11 @@
       "branch": "master",
       "revision": "e3e0fff9d97edf7169493758b784494d057ba949"
     },
+    "libxi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxi.git",
+      "branch": "master",
+      "revision": "cf3bda7b7a62e05493daa9974b0d84c8158f2b83"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
