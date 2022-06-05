@@ -2971,6 +2971,11 @@
       "branch": "master",
       "revision": "6258383b71a482e20c6a384ad14f24a3d7a21b48"
     },
+    "v2ray": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray.git",
+      "branch": "master",
+      "revision": "c7bda17e00fb24e8ccb20c0cfc68d9fb52c12fc5"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
