@@ -1666,6 +1666,11 @@
       "branch": "master",
       "revision": "857b8a4b0783402fb1c8e0d46e99dcb7c537967f"
     },
+    "xorg-appres": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-appres.git",
+      "branch": "master",
+      "revision": "5d31268333440b418fdca48fdaa51c958395f641"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
