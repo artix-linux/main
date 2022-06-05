@@ -485,6 +485,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
       "branch": "master",
       "revision": "cdc5680656deab9f7039792682ef0916d3c2de19"
+    },
+    "wasi-compiler-rt": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
+      "branch": "master",
+      "revision": "ee120eb474238bd7796355d503271f69561fa3f8"
     }
   }
 }
