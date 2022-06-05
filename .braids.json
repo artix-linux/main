@@ -2631,6 +2631,11 @@
       "branch": "master",
       "revision": "8e1e1ed1401b6b3020f7dfc4b078662ed80068cc"
     },
+    "iniparser": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iniparser.git",
+      "branch": "master",
+      "revision": "c91018b8e1a5a605fe67d25b65e57c7d0a322fd7"
+    },
     "intel-compute-runtime": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-compute-runtime.git",
       "branch": "master",
