@@ -1,0 +1,43 @@
+# Maintainer: Artoo <artoo@artixlinux.org>
+# Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Eli Schwartz <eschwartz@archlinux.org>
+
+pkgname=base
+pkgver=3
+pkgrel=1
+pkgdesc='Minimal package set to define a basic Artix Linux installation'
+url='https://www.artixlinux.org'
+arch=('any')
+license=('GPL')
+makedepends=('git')
+depends=(
+  # very very base
+  'filesystem' 'gcc-libs' 'glibc' 'bash'
+
+  # POSIX tools
+  'coreutils' 'file' 'findutils' 'gawk' 'grep' 'procps-ng' 'sed' 'tar'
+
+  # standard linux toolset
+  'gettext' 'pciutils' 'psmisc' 'shadow' 'util-linux' 'bzip2' 'gzip' 'xz'
+
+  # distro defined requirements
+  'licenses' 'pacman' 'artix-keyring' 'init-logind' 'esysusers' 'etmpfiles'
+
+  # networking, ping, etc
+  'iputils' 'iproute2'
+)
+optdepends=('linux: bare metal support')
+_commit=0d93c640ecd7724de8d5c4cfc60f644809117437
+source=("git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=$_commit")
+sha256sums=('SKIP')
+
+package() {
+    # pacman hooks
+    make -C alpm-hooks DESTDIR="${pkgdir}" install_base
+
+    # provide default symlink for PM file tracking
+    install -d "${pkgdir}"/usr/bin
+    ln -sf openrc-init "${pkgdir}"/usr/bin/init
+}
+
+# vim: ts=2 sw=2 et:
