@@ -7506,6 +7506,11 @@
       "branch": "master",
       "revision": "35f59de7f14bf3da12fc8c4d695de4ca4b1c5bba"
     },
+    "snappy": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/snappy.git",
+      "branch": "master",
+      "revision": "8fa7bdfe4ceb934e6df516bf3151c3faa6900a29"
+    },
     "sndio": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio.git",
       "branch": "master",
