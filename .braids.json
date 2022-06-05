@@ -861,6 +861,11 @@
       "branch": "master",
       "revision": "30d20825eb52daea7c1bd4a16973c9b8c4564ebc"
     },
+    "frei0r-plugins": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/frei0r-plugins.git",
+      "branch": "master",
+      "revision": "ebe95a16350ad29199f60f1917f4050e51ac2cc9"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",

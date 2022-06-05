@@ -1,0 +1,2 @@
+# frei0r-plugins
+
