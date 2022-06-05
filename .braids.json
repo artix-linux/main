@@ -2791,6 +2791,11 @@
       "branch": "master",
       "revision": "dde4b4113ba9b3292794b92beed00fd855b45d52"
     },
+    "mpg123": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpg123.git",
+      "branch": "master",
+      "revision": "4943d8d9279af8bde4f336755fb1011043f5c004"
+    },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
