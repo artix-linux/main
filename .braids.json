@@ -181,6 +181,11 @@
       "branch": "master",
       "revision": "a92e344f1ece8cb2553e1b488dc3883053e3aa8b"
     },
+    "atk": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atk.git",
+      "branch": "master",
+      "revision": "33d5b2be4273008f100ac1fd5f01b237ca4a386b"
+    },
     "audacity": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audacity.git",
       "branch": "master",
