@@ -396,6 +396,11 @@
       "branch": "master",
       "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
     },
+    "cherrytree": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cherrytree.git",
+      "branch": "master",
+      "revision": "ffa694c5079d677ebe1d44cfaf609273d047944d"
+    },
     "chromaprint": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
       "branch": "master",
