@@ -3971,6 +3971,11 @@
       "branch": "master",
       "revision": "6b220dda3c0612bd8d52b1001d84c4c36d8f1855"
     },
+    "qt5-svg": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-svg.git",
+      "branch": "master",
+      "revision": "b51c4cd382a6eba2ecc2711ecd3f76f65d5bd8b9"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
