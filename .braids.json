@@ -1646,6 +1646,11 @@
       "branch": "master",
       "revision": "a9b0d8de9a62888f51865faf887360fc9757f837"
     },
+    "libffado": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libffado.git",
+      "branch": "master",
+      "revision": "5a05dd5c81fa477f945868de0b69cebbaa0484a0"
+    },
     "libfontenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
       "branch": "master",
