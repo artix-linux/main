@@ -7461,6 +7461,11 @@
       "branch": "master",
       "revision": "3d7de1bd8037938ee10254a9460fca16004340c8"
     },
+    "slang": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/slang.git",
+      "branch": "master",
+      "revision": "c9632950b48ffb96dcdc86950785bfe4e0065f2c"
+    },
     "sleuthkit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sleuthkit.git",
       "branch": "master",
