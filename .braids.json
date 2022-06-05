@@ -3956,6 +3956,11 @@
       "branch": "master",
       "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
     },
+    "libnl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnl.git",
+      "branch": "master",
+      "revision": "7b6cd806143e245b41776bf4f2a84a1ccdac3af0"
+    },
     "libnotify": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnotify.git",
       "branch": "master",
