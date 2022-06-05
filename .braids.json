@@ -1851,6 +1851,11 @@
       "branch": "master",
       "revision": "88bf850c40caa8d5168c25456721a80668a4f7f6"
     },
+    "libmicrodns": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmicrodns.git",
+      "branch": "master",
+      "revision": "089229fbfa4120675f54a85c977311fa4359b205"
+    },
     "libmilter": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmilter.git",
       "branch": "master",
