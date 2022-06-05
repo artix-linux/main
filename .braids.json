@@ -1006,6 +1006,11 @@
       "branch": "master",
       "revision": "3909ded597ca538c13a5d0fe9d41fd804481415d"
     },
+    "docker": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docker.git",
+      "branch": "master",
+      "revision": "db05a109cf086041e374f1a8addecc64fb90f63b"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
