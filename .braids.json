@@ -1406,6 +1406,11 @@
       "branch": "master",
       "revision": "386cf3268b3cc52f51b61b7f577d03910b0c7872"
     },
+    "vkd3d": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vkd3d.git",
+      "branch": "master",
+      "revision": "a0adca614bac8229aabff338c0f6f9c4f9327edd"
+    },
     "vncdotool": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vncdotool.git",
       "branch": "master",
