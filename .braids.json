@@ -4301,6 +4301,11 @@
       "branch": "master",
       "revision": "eccbc5365d8f065f1e3950de01a4016547dc04ff"
     },
+    "libtar": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtar.git",
+      "branch": "master",
+      "revision": "076d59fac341b4db2b9cd6a49c7cb2c9a485c849"
+    },
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
