@@ -1391,6 +1391,11 @@
       "branch": "master",
       "revision": "d63960aa6ee1d7fed12395c500e3554bdf179c67"
     },
+    "nauty": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nauty.git",
+      "branch": "master",
+      "revision": "4552d3d1a847b786f7315a74dea86af8dc3e711d"
+    },
     "ncdu": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncdu.git",
       "branch": "master",

@@ -1,0 +1,37 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=nauty
+pkgver=27r3
+pkgrel=1
+pkgdesc='A program for computing automorphism groups of graphs and digraphs'
+arch=(x86_64)
+url='http://pallini.di.uniroma1.it/'
+license=(Apache)
+depends=(glibc)
+source=(http://pallini.di.uniroma1.it/nauty$pkgver.tar.gz)
+sha256sums=('4f0665b716a53f7a14ea2ae30059f23d064ce3fe4c12c013404ef6e1ee0b88c2')
+
+build() {
+  cd nauty$pkgver
+
+  export CFLAGS+=' -fPIC'
+  ./configure --enable-generic
+  make
+}
+
+package() {
+  cd nauty$pkgver
+
+  mkdir -p "$pkgdir"/usr/bin
+  for _program in addedgeg amtog biplabg catg complg converseg copyg countg cubhamg deledgeg delptg directg dreadnaut dretodot dretog \
+    genbg genbgL geng genquarticg genrang genspecialg gentourng gentreeg hamheuristic labelg linegraphg listg multig newedgeg \
+    pickg planarg ranlabg shortg showg subdivideg twohamg vcolg watercluster2 NRswitchg;
+  do
+   install -m755 $_program "$pkgdir"/usr/bin/$program
+  done
+  install -Dm644 nauty.a "$pkgdir"/usr/lib/libnauty.a
+  install -Dm644 *.h -t "$pkgdir"/usr/include/nauty
+
+  mkdir -p "$pkgdir"/usr/share/licenses/nauty
+  install COPYRIGHT "$pkgdir"/usr/share/licenses/nauty/LICENSE
+}
