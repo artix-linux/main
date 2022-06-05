@@ -916,6 +916,11 @@
       "branch": "master",
       "revision": "4bc014ccecd959828a87dca97399b67d48dbe64f"
     },
+    "mtdev": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mtdev.git",
+      "branch": "master",
+      "revision": "24d54f8359f89507a531d7b27f1cd805ebefe895"
+    },
     "muparser": {
       "url": "gitea@gitea.artixlinux.org:packagesM/muparser.git",
       "branch": "master",
