@@ -1331,6 +1331,11 @@
       "branch": "master",
       "revision": "8aa3ff8bdc2d1562165a1a1ea7e5fc5192ec085e"
     },
+    "ed": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ed.git",
+      "branch": "master",
+      "revision": "54dd27d9507a8aab918545b703ce944b0eb5e4e2"
+    },
     "editline": {
       "url": "gitea@gitea.artixlinux.org:packagesE/editline.git",
       "branch": "master",
