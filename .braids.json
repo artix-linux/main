@@ -4246,6 +4246,11 @@
       "branch": "master",
       "revision": "3c786942cd9f95364bc33fba85677e36e62aee2a"
     },
+    "mimetic": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mimetic.git",
+      "branch": "master",
+      "revision": "f967a0f22f0904d39bdd61b34eac5f8b28b3bf55"
+    },
     "minicom": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minicom.git",
       "branch": "master",
