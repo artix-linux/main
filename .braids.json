@@ -1441,6 +1441,11 @@
       "branch": "master",
       "revision": "c028bd3bf282456dae1656e88b25a0cc705e1c3e"
     },
+    "libsodium": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsodium.git",
+      "branch": "master",
+      "revision": "3cdff7ce8e4f3ccb46e06807df9aa1489fb43ccd"
+    },
     "libspectre": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libspectre.git",
       "branch": "master",
