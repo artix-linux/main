@@ -7826,6 +7826,11 @@
       "branch": "master",
       "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
     },
+    "tcl": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tcl.git",
+      "branch": "master",
+      "revision": "7ff5dff134fb4f11cddd58a7d1df106077833047"
+    },
     "tclap": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tclap.git",
       "branch": "master",
