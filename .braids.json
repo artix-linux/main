@@ -231,6 +231,11 @@
       "branch": "master",
       "revision": "ef11a71b63c3e104b64c3f432b95fe70e33b2d7d"
     },
+    "double-conversion": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/double-conversion.git",
+      "branch": "master",
+      "revision": "1013603a6c3c7478b2db8ccabc5ecbdb4ea381b8"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
