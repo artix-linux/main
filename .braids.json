@@ -245,6 +245,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libmilter.git",
       "branch": "master",
       "revision": "b48afe30307a287e3a817ffe196ff6301cc4d1a8"
+    },
+    "libmspack": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
+      "branch": "master",
+      "revision": "041b09cdb5800aae422920013610e44ef59b4764"
     }
   }
 }
