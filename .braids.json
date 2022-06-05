@@ -2631,6 +2631,11 @@
       "branch": "master",
       "revision": "9e57ff9fff66ca4d067cad4ca2c869cf9033f222"
     },
+    "libdbusmenu": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdbusmenu.git",
+      "branch": "master",
+      "revision": "8ffe061a7666a4041f132e964c7eec7dc35f8d6a"
+    },
     "libdc1394": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdc1394.git",
       "branch": "master",
