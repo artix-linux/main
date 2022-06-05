@@ -2156,6 +2156,11 @@
       "branch": "master",
       "revision": "3d3658d871fd684592c97bd62871b4e1921f05c3"
     },
+    "opensips": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensips.git",
+      "branch": "master",
+      "revision": "4e4729eece589cb82fea38b39e8d4916dcb3a8f5"
+    },
     "openvdb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
       "branch": "master",
