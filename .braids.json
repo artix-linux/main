@@ -2136,6 +2136,11 @@
       "branch": "master",
       "revision": "412388f9fe0c076749c7e0d24a93bc1a1c6f50b8"
     },
+    "libshout": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libshout.git",
+      "branch": "master",
+      "revision": "ac283b47b10bbde049dc22185c022eede8da6969"
+    },
     "libsigsegv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
       "branch": "master",
