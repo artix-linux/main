@@ -2171,6 +2171,11 @@
       "branch": "master",
       "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
     },
+    "inxi": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/inxi.git",
+      "branch": "master",
+      "revision": "3ace2db4922badc224810bbf8436adf5bfdc8029"
+    },
     "ipset": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipset.git",
       "branch": "master",
