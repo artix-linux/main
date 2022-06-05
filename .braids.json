@@ -1281,6 +1281,11 @@
       "branch": "master",
       "revision": "f15fa0bb75bda47312228b53266f20d740e4c6ee"
     },
+    "ttf-dejavu": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-dejavu.git",
+      "branch": "master",
+      "revision": "4f3202be0d7e8348fdd698cb34434e4d3a45692d"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
