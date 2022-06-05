@@ -1971,6 +1971,11 @@
       "branch": "master",
       "revision": "577d8fc05d2a76c398a0f943d5638fec575cd3ef"
     },
+    "ndisc6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
+      "branch": "master",
+      "revision": "1fc83a68accdea6fca6cd39956b2cf36b3d194b7"
+    },
     "neon": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neon.git",
       "branch": "master",
