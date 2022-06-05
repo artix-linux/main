@@ -5996,6 +5996,11 @@
       "branch": "master",
       "revision": "5da4d6ee88dd95d38a9665e78b94c42760373e18"
     },
+    "semver": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/semver.git",
+      "branch": "master",
+      "revision": "fb62a47487dc532c5ca955e85060d1799712bb2d"
+    },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",
