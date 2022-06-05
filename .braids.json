@@ -4121,6 +4121,11 @@
       "branch": "master",
       "revision": "fc6d5f512e44b196b0d15f7503cab1bc2d1dd31a"
     },
+    "qt6-networkauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-networkauth.git",
+      "branch": "master",
+      "revision": "c6776971ad8f01634dd3d7bd0a3edef0948e7234"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
