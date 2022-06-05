@@ -1881,6 +1881,11 @@
       "branch": "master",
       "revision": "c333c72378cebf9724896c4938a2e15208e1eacc"
     },
+    "libmp4v2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmp4v2.git",
+      "branch": "master",
+      "revision": "e1db8769cfea659998ef7f4fd225d76dd5819b2c"
+    },
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
