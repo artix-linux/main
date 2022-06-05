@@ -1371,6 +1371,11 @@
       "branch": "master",
       "revision": "0825695e0d00ce956c86daa9b2ca0731a83f870a"
     },
+    "flashrom": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/flashrom.git",
+      "branch": "master",
+      "revision": "e3041b6c1d3282f06364c83cc9bd54c93cc0c15a"
+    },
     "flatbuffers": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flatbuffers.git",
       "branch": "master",
