@@ -441,6 +441,11 @@
       "branch": "master",
       "revision": "3e8d1c26ae1c02cfd8353e7381a59d6a18d3ae59"
     },
+    "bison": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bison.git",
+      "branch": "master",
+      "revision": "fe7d67726ffad82fe59c1c0fb28a72ee85d2401f"
+    },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
