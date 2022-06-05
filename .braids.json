@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "32c68f68f4d75355ef38f4f3bd7111cf96b4b6ae"
     },
+    "coin-or-cbc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-cbc.git",
+      "branch": "master",
+      "revision": "e1e6ea85c8e03f22295f7b1cec008334b9be1723"
+    },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
       "branch": "master",
