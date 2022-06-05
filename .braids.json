@@ -3236,6 +3236,11 @@
       "branch": "master",
       "revision": "42222eeaaf3ec4d2772d28287020d18372763f17"
     },
+    "portmidi": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/portmidi.git",
+      "branch": "master",
+      "revision": "040b7e9bbc5ea9d15fbb0e7df568f14442688435"
+    },
     "postfix": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix.git",
       "branch": "master",
