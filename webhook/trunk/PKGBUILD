@@ -1,0 +1,47 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+
+pkgname=webhook
+pkgver=2.8.0
+pkgrel=2
+pkgdesc="A lightweight incoming webhook server to run shell commands"
+arch=('x86_64')
+url="https://github.com/adnanh/webhook"
+license=('MIT')
+depends=('glibc')
+makedepends=('go' 'git')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/adnanh/webhook/archive/$pkgver.tar.gz"
+       )
+sha512sums=('98a9e941687c1e679abd5cbd314dad28cb42383e483202698d386d9123d63a3f8f40bb97f3da2c644dfc3f79a8e7d7a6d28b5069c39c9ca114e7e101424481ca')
+
+prepare() {
+  cd webhook-$pkgver
+
+  mkdir -p .gopath/src/github.com/adnanh
+  ln -sf "$PWD" .gopath/src/github.com/adnanh/webhook
+  export GOPATH="$PWD/.gopath:/usr/share/gocode"
+
+  rm -r vendor
+
+  go get github.com/codegangsta/negroni github.com/gorilla/mux github.com/satori/go.uuid \
+         gopkg.in/fsnotify.v1 github.com/ghodss/yaml
+}
+
+build() {
+  export CGO_CPPFLAGS="${CPPFLAGS}"
+  export CGO_CFLAGS="${CFLAGS}"
+  export CGO_CXXFLAGS="${CXXFLAGS}"
+  export CGO_LDFLAGS="${LDFLAGS}"
+  export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+
+  cd "$srcdir"/webhook-$pkgver
+  go build -o build/webhook
+}
+
+package() {
+  cd webhook-$pkgver
+
+  install -Dm755 build/webhook "$pkgdir"/usr/bin/webhook
+  install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+
+  install -dm755 "$pkgdir"/etc/webhook
+}

@@ -3101,6 +3101,11 @@
       "branch": "master",
       "revision": "d11e052ff790b4cedf8ea88a73b5f32a81ca5792"
     },
+    "webhook": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webhook.git",
+      "branch": "master",
+      "revision": "e5bf95d36e7d8fe27d77c9d72f96bacb96ab713b"
+    },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
