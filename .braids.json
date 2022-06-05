@@ -6981,6 +6981,11 @@
       "branch": "master",
       "revision": "134c022ece047a7c1eb709184dd444b6fcdcdcb1"
     },
+    "quota-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/quota-tools.git",
+      "branch": "master",
+      "revision": "ac6cb9635c7b631ec8a8d5058649c8be02a6c82f"
+    },
     "r": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r.git",
       "branch": "master",
