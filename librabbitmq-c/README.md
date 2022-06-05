@@ -1,0 +1,2 @@
+# librabbitmq-c
+

@@ -3331,6 +3331,11 @@
       "branch": "master",
       "revision": "3a0718b1ba645873b8cb40c7b0bf579f884e3ab6"
     },
+    "librabbitmq-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/librabbitmq-c.git",
+      "branch": "master",
+      "revision": "8a0b15cd90fe63d9fce93d343fcabb7a025529fd"
+    },
     "libraqm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraqm.git",
       "branch": "master",
