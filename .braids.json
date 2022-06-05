@@ -2216,6 +2216,11 @@
       "branch": "master",
       "revision": "a9d5ea604102061b337c7d350f679891baf79e72"
     },
+    "libtiger": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtiger.git",
+      "branch": "master",
+      "revision": "dcab9d51627470a1a94de63151f4852a9aafcc1d"
+    },
     "libtomcrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtomcrypt.git",
       "branch": "master",
