@@ -1,0 +1,29 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Timothée Ravier <tim@siosm.fr>
+# Contributor: Blake Imsland <blake@retroco.de>
+
+pkgname=uchardet
+pkgver=0.0.7
+pkgrel=1
+pkgdesc='Encoding detector library ported from Mozilla'
+arch=('x86_64')
+url='https://www.freedesktop.org/wiki/Software/uchardet'
+license=('MPL')
+depends=('gcc-libs')
+makedepends=('cmake')
+source=("https://www.freedesktop.org/software/${pkgname}/releases/${pkgname}-${pkgver}.tar.xz")
+sha512sums=('ddb7b63dd09c1d9acbe620d86217e583d9aa5340780ab4010ec9faa4fd331498859d5efa7829bf8847da89325accf8f7304b51d410210178fc1ffa6658064a6f')
+
+build() {
+	cd ${pkgname}-${pkgver}
+	cmake \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_BUILD_TYPE=Release
+	make
+}
+
+package() {
+	cd ${pkgname}-${pkgver}
+	make DESTDIR="${pkgdir}/" install
+}

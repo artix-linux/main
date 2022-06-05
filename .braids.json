@@ -4076,6 +4076,11 @@
       "branch": "master",
       "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
     },
+    "uchardet": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uchardet.git",
+      "branch": "master",
+      "revision": "3d13c4fd73b2b1824ee5e766cf9bb013874fe42c"
+    },
     "udisks2": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udisks2.git",
       "branch": "master",
