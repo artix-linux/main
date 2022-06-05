@@ -1886,6 +1886,11 @@
       "branch": "master",
       "revision": "e1db8769cfea659998ef7f4fd225d76dd5819b2c"
     },
+    "libmpd": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmpd.git",
+      "branch": "master",
+      "revision": "3c3f745113d2927d61f60eeeecbabe6cbd029657"
+    },
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
