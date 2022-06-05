@@ -150,6 +150,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/gl2ps.git",
       "branch": "master",
       "revision": "58833070d40e293a493324ef62c4041673d53758"
+    },
+    "glfw": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glfw.git",
+      "branch": "master",
+      "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
     }
   }
 }
