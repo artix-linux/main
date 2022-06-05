@@ -4306,6 +4306,11 @@
       "branch": "master",
       "revision": "035788bcd94ff114584dbace2598b1f862e098ff"
     },
+    "mktorrent": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mktorrent.git",
+      "branch": "master",
+      "revision": "b008b757ddef2663f9880216b2b4c20b36d1b26d"
+    },
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
