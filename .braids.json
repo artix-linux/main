@@ -4026,6 +4026,11 @@
       "branch": "master",
       "revision": "d0e3f85e4653c03f47e675c5e58fc80667987934"
     },
+    "lsscsi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lsscsi.git",
+      "branch": "master",
+      "revision": "2ea870fe388e61f0be0897ecac0332a6f56fc959"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
