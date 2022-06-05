@@ -3816,6 +3816,11 @@
       "branch": "master",
       "revision": "5ded4cdd713b42be0344df8c8733b7494836a8b2"
     },
+    "pyside6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
+      "branch": "master",
+      "revision": "cf6a7fd575483d8c78730de68bc77f9ccf4e2264"
+    },
     "python2-gobject": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python2-gobject.git",
       "branch": "master",
