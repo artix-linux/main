@@ -5186,6 +5186,11 @@
       "branch": "master",
       "revision": "f751704564e86fdf8eb156a30b63811f3cb1b02c"
     },
+    "procinfo-ng": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/procinfo-ng.git",
+      "branch": "master",
+      "revision": "df1db888cf177b150c9df7b3213af1226f1f81ef"
+    },
     "proj": {
       "url": "gitea@gitea.artixlinux.org:packagesP/proj.git",
       "branch": "master",
