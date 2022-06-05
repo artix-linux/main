@@ -266,6 +266,11 @@
       "branch": "master",
       "revision": "f17c59f22c8f27f8eaa088a7dfdcd386404a2510"
     },
+    "bbswitch": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bbswitch.git",
+      "branch": "master",
+      "revision": "fb829ea73a51ab995d428832bea37e80a2d1656a"
+    },
     "bctoolbox": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bctoolbox.git",
       "branch": "master",
