@@ -2066,6 +2066,11 @@
       "branch": "master",
       "revision": "71b0c60057e2c069084525c4ca888db5fa2d1a2f"
     },
+    "nsd": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nsd.git",
+      "branch": "master",
+      "revision": "f2d3d0f5cf174e46be86473746b3de840a5a9ffc"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
