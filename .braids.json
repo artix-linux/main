@@ -9146,6 +9146,11 @@
       "branch": "master",
       "revision": "2e0a40ae77acf42ec78eeb5cfcef2ee36eccfc12"
     },
+    "xz": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xz.git",
+      "branch": "master",
+      "revision": "2a295074888f95b5b5698188000d60aab9e590e8"
+    },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
