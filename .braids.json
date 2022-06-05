@@ -1751,6 +1751,11 @@
       "branch": "master",
       "revision": "d0acea2d79724e78c619b48d0c88a0a05bc09727"
     },
+    "xorg-xeyes": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xeyes.git",
+      "branch": "master",
+      "revision": "812e0ccc82c05df2ca9afcdf6b099c2976b610b5"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
