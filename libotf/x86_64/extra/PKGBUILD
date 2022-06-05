@@ -1,0 +1,32 @@
+# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+# Contributor: Ashish Shukla <wahjava.ml@gmail.com>
+
+pkgname=libotf
+pkgver=0.9.16
+pkgrel=3.1
+pkgdesc='OpenType Font library'
+url='https://www.nongnu.org/m17n/'
+license=('LGPL')
+arch=('x86_64')
+depends=('libxaw' 'freetype2')
+source=("https://download.savannah.gnu.org/releases/m17n/${pkgname}-${pkgver}.tar.gz"
+        'replace-freetype-config.patch')
+sha256sums=('68db0ca3cda2d46a663a92ec26e6eb5adc392ea5191bcda74268f0aefa78066b'
+            'edd0f86332f4d809dfb0ab66da547c946e5d79a907a7eaddc4d2166c78205668')
+
+prepare() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	patch -p1 -i ${srcdir}/replace-freetype-config.patch
+}
+
+build() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	autoreconf -i
+	./configure --prefix=/usr
+	make
+}
+
+package() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	make DESTDIR="${pkgdir}" install
+}

@@ -931,6 +931,11 @@
       "branch": "master",
       "revision": "d30daf36dc72c3ec1eeed246c65528e7937daceb"
     },
+    "libotf": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libotf.git",
+      "branch": "master",
+      "revision": "0b074090ace27734ec47ff58d028a6be0c199c17"
+    },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
