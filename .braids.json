@@ -2076,6 +2076,11 @@
       "branch": "master",
       "revision": "57c5ab5e747bfb9e42cdc086d93e924b4d1ed91c"
     },
+    "icoutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/icoutils.git",
+      "branch": "master",
+      "revision": "dbecf065dadbf9414da0864a4ac518cbf1c50b81"
+    },
     "id3lib": {
       "url": "gitea@gitea.artixlinux.org:packagesI/id3lib.git",
       "branch": "master",
