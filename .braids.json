@@ -1021,6 +1021,11 @@
       "branch": "master",
       "revision": "bfe3d2fa975383ad06af0dd8be89a8585e334790"
     },
+    "dash": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dash.git",
+      "branch": "master",
+      "revision": "3e64f70a8ae23fd7c61cc6bee955e039a8df14d9"
+    },
     "dav1d": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dav1d.git",
       "branch": "master",
