@@ -806,6 +806,11 @@
       "branch": "master",
       "revision": "ef0299d7437389118712baa5b710d688b5807fb1"
     },
+    "fluidsynth": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fluidsynth.git",
+      "branch": "master",
+      "revision": "8bbaa17a238dd91d22976b0ee31ae5e2d4306df5"
+    },
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
       "branch": "master",
