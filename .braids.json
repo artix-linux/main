@@ -1436,6 +1436,11 @@
       "branch": "master",
       "revision": "198d6bbc85957d0cb993cab9956cc1ed41ac5cb7"
     },
+    "vulkan-icd-loader": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-icd-loader.git",
+      "branch": "master",
+      "revision": "376c6b94604e471582fc40c9488f905429c08d2b"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
