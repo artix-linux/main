@@ -1531,6 +1531,11 @@
       "branch": "master",
       "revision": "db521fe562116565e186e96ba04d313c3cd9c89c"
     },
+    "intel-opencl-clang": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-opencl-clang.git",
+      "branch": "master",
+      "revision": "dbbfdbbd3ea43bb06cd77f02b53cc86c7130fa5e"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
