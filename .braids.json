@@ -1506,6 +1506,11 @@
       "branch": "master",
       "revision": "e55268496c27fca5acb34bd2047d8eae7954e21c"
     },
+    "libcdio": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcdio.git",
+      "branch": "master",
+      "revision": "46db9f9df7a2d9818a370ec9d518b17a88071c57"
+    },
     "libcdr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdr.git",
       "branch": "master",
