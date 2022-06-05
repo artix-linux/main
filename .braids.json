@@ -2841,6 +2841,11 @@
       "branch": "master",
       "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
     },
+    "js68": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/js68.git",
+      "branch": "master",
+      "revision": "f9fbf39bd8fac061c9dd6565f9407af594fe4ba1"
+    },
     "jshon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jshon.git",
       "branch": "master",
