@@ -1766,6 +1766,11 @@
       "branch": "master",
       "revision": "9f821c16051740bca07ff53f1dbe6b09d4e71883"
     },
+    "lmdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lmdb.git",
+      "branch": "master",
+      "revision": "ba77192e34ca384aa99378ee103d2d770cd2d641"
+    },
     "log4cplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
       "branch": "master",
