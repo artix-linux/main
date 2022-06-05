@@ -996,6 +996,11 @@
       "branch": "master",
       "revision": "d20da9c229eaffe13350fe1cd1f6cec224f6ea95"
     },
+    "gnuplot": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gnuplot.git",
+      "branch": "master",
+      "revision": "ed86015d92a16f5655e56e5da6a8e3ead510b6cb"
+    },
     "google-glog": {
       "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
       "branch": "master",
