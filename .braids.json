@@ -1116,6 +1116,11 @@
       "branch": "master",
       "revision": "34fb97c8f71da3bb748b302f6dda2faca729d736"
     },
+    "dialog": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dialog.git",
+      "branch": "master",
+      "revision": "7bb8d2ebe009fa85f009f3c02430aa3948a2aad1"
+    },
     "diffstat": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffstat.git",
       "branch": "master",
