@@ -6566,6 +6566,11 @@
       "branch": "master",
       "revision": "cf6a7fd575483d8c78730de68bc77f9ccf4e2264"
     },
+    "python": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/python.git",
+      "branch": "master",
+      "revision": "f32e91b85b3127675deed095155a20934f5ca6ce"
+    },
     "python2-gobject": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python2-gobject.git",
       "branch": "master",
