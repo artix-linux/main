@@ -1636,6 +1636,11 @@
       "branch": "master",
       "revision": "3f5a617bc503b94541edf65a3ebb7b8636d9a6bc"
     },
+    "xf86-video-sisusb": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-sisusb.git",
+      "branch": "master",
+      "revision": "eb839ef2080c52a9007db35ed69bfb61174cf89a"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
