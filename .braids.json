@@ -4066,6 +4066,11 @@
       "branch": "master",
       "revision": "fa666cbce75957e064c86547129e7b2dd6f92e02"
     },
+    "twolame": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/twolame.git",
+      "branch": "master",
+      "revision": "2a0c3a0437086d139ee01c0cc32f0fbca5485f45"
+    },
     "typescript": {
       "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
       "branch": "master",
