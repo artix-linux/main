@@ -1841,6 +1841,11 @@
       "branch": "master",
       "revision": "6d81c2e52cc6a8810bd9434437c9d383eb584f1f"
     },
+    "lib32-nvidia-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lib32-nvidia-utils.git",
+      "branch": "master",
+      "revision": "531d76f3579ac611c7f413055f77cbe017a8bfc5"
+    },
     "libabw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libabw.git",
       "branch": "master",
