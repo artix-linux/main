@@ -346,6 +346,11 @@
       "branch": "master",
       "revision": "d91fe109077e87c39a7e8d76ba39cfb83b072b52"
     },
+    "jupyter-server": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server.git",
+      "branch": "master",
+      "revision": "84cc5b967a68cdd572a77da81e1adbf5db96071d"
+    },
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
       "branch": "master",

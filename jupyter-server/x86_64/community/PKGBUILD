@@ -1,0 +1,34 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=jupyter-server
+pkgver=1.17.0
+pkgrel=1
+pkgdesc='Provides the backend for Jupyter web applications like Jupyter notebook, JupyterLab, and Voila'
+arch=(any)
+url='https://jupyter.org/'
+license=(custom)
+depends=(python-jupyter_client jupyter-nbformat jupyter-nbconvert python-terminado python-prometheus_client python-traitlets python-tornado
+         python-jinja python-send2trash python-anyio python-jupyter_packaging python-websocket-client python-requests-unixsocket python-argon2_cffi)
+makedepends=(python-build python-installer python-pre-commit)
+checkdepends=(python-pytest-tornasync python-pytest-console-scripts)
+optdepends=('jupyter-server-mathjax: to use local MathJax')
+source=(https://pypi.io/packages/source/j/${pkgname/-/_}/${pkgname/-/_}-$pkgver.tar.gz)
+sha256sums=('7b3aa524790ab0da64f06dfe0b2af149d0a3f59aad71fdedcf1d8bae6508018c')
+
+build() {
+  cd ${pkgname/-/_}-$pkgver
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd ${pkgname/-/_}-$pkgver
+# tests fail on the build server, run them locally
+ # pytest -v
+}
+
+package() {
+  cd ${pkgname/-/_}-$pkgver
+  python -m installer --destdir="$pkgdir" dist/*.whl
+
+  install -Dm644 COPYING.md -t "$pkgdir"/usr/share/licenses/$pkgname
+}
