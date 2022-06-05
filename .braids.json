@@ -471,6 +471,11 @@
       "branch": "master",
       "revision": "efd0ae813b7fd83e29b07193f6cd83c8d362a708"
     },
+    "gsfonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gsfonts.git",
+      "branch": "master",
+      "revision": "5f76d63318e2e3cdc3d66dae8825cabae15db9a7"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
