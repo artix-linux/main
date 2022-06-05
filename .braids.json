@@ -4101,6 +4101,11 @@
       "branch": "master",
       "revision": "70b686d9d5c83876a0a800ae4fe0eda17e1c5bdd"
     },
+    "qt6-imageformats": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-imageformats.git",
+      "branch": "master",
+      "revision": "e0548d20696daa7229f6128d52f267b9b449210f"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
