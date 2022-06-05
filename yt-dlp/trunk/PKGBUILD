@@ -1,0 +1,38 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Stefan Tatschner <stefan@rumpelsepp.org>
+# Contributor: katt <magunasu.b97@gmail.com>
+
+pkgname=yt-dlp
+pkgver=2022.05.18
+pkgrel=1
+pkgdesc='A youtube-dl fork with additional features and fixes'
+arch=(any)
+url='https://github.com/yt-dlp/yt-dlp'
+license=(Unlicense)
+depends=(python-certifi)
+makedepends=(python-build python-installer python-setuptools python-wheel pandoc)
+checkdepends=(python-pytest)
+optdepends=('ffmpeg: for video post-processing'
+            'rtmpdump: for rtmp streams support'
+            'atomicparsley: for embedding thumbnails into m4a files'
+            'aria2: for using aria2 as external downloader'
+            'python-mutagen: For embedding thumbnail in certain formats'
+            'python-pycryptodomex: For decrypting AES-128 HLS streams and various other data'
+            'python-websockets: For downloading over websocket')
+source=($pkgname-$pkgver.tar.gz::https://github.com/yt-dlp/yt-dlp/releases/download/$pkgver/yt-dlp.tar.gz)
+sha256sums=('59a0e89d79018070844c6301f7848594b746ca4857e7da14a5e6938a24e63172')
+
+build() {
+  cd $pkgname
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd $pkgname
+  pytest -v -m "not download"
+}
+
+package() {
+  cd $pkgname
+  python -m installer --destdir="$pkgdir" dist/*.whl
+}
