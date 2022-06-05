@@ -3886,6 +3886,11 @@
       "branch": "master",
       "revision": "0b9654a5cd1f6a61dbc9bbc1e1d20a153c31494c"
     },
+    "qt5-location": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-location.git",
+      "branch": "master",
+      "revision": "5bac6d683e838686df1b1fc0a40687e4db7000a7"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
