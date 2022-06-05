@@ -2331,6 +2331,11 @@
       "branch": "master",
       "revision": "892a82ce7ac92be3247e1fd5e79d4e20b181caaa"
     },
+    "libvpx": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvpx.git",
+      "branch": "master",
+      "revision": "b0a9fcf0a89c5d99d27314877e1cd250f9f663c6"
+    },
     "libwacom": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwacom.git",
       "branch": "master",
