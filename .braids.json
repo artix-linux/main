@@ -606,6 +606,11 @@
       "branch": "master",
       "revision": "b66eab437d3d00c05e65ef9b116d073911b59f94"
     },
+    "libpipewire02": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpipewire02.git",
+      "branch": "master",
+      "revision": "3eefc9abfa1364274b0076321a3153b1484bd946"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
