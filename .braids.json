@@ -7386,6 +7386,11 @@
       "branch": "master",
       "revision": "9facffee136bedd97fdc7e1588b5f8137e283d91"
     },
+    "serf": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/serf.git",
+      "branch": "master",
+      "revision": "23195628fc1c11d92e337dc75fee98c03e14a8ed"
+    },
     "setconf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/setconf.git",
       "branch": "master",
