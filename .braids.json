@@ -1261,6 +1261,11 @@
       "branch": "master",
       "revision": "db05a109cf086041e374f1a8addecc64fb90f63b"
     },
+    "dontpanic": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dontpanic.git",
+      "branch": "master",
+      "revision": "9dc81968655990bae580c7087483cd0eae4bde55"
+    },
     "dos2unix": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dos2unix.git",
       "branch": "master",
