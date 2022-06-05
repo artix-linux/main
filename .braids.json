@@ -6531,6 +6531,11 @@
       "branch": "master",
       "revision": "201bd514ab7640c508abeacde06c5f86e6e3fec0"
     },
+    "tlp": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tlp.git",
+      "branch": "master",
+      "revision": "6f17b6fcfde1449a488cdf2f5f3e312f8cdfd8c1"
+    },
     "tor": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor.git",
       "branch": "master",
