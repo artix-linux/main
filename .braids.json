@@ -4161,6 +4161,11 @@
       "branch": "master",
       "revision": "e10841fcca6228b5652af4213b560f3279f5cffd"
     },
+    "qt6-serialport": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialport.git",
+      "branch": "master",
+      "revision": "e41ab9291c803d728a8705cf1c0d3e7cd9d3f199"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
