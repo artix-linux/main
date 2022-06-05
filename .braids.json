@@ -1276,6 +1276,11 @@
       "branch": "master",
       "revision": "dd10d7c80cca95557825fd81d89a35f12d543a59"
     },
+    "ttf-carlito": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-carlito.git",
+      "branch": "master",
+      "revision": "f15fa0bb75bda47312228b53266f20d740e4c6ee"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
