@@ -2686,6 +2686,11 @@
       "branch": "master",
       "revision": "db560af41a59cadee804fccb16600bfce7540b80"
     },
+    "tevent": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tevent.git",
+      "branch": "master",
+      "revision": "454c2eadc3acaba3e590aea9a3d489ed806e053d"
+    },
     "tex-gyre-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tex-gyre-fonts.git",
       "branch": "master",
