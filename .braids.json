@@ -4626,6 +4626,11 @@
       "branch": "master",
       "revision": "71b0c60057e2c069084525c4ca888db5fa2d1a2f"
     },
+    "npm": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/npm.git",
+      "branch": "master",
+      "revision": "0e92f6422de27ee9f6d12e1a71222a527ce4e1bb"
+    },
     "nsd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd.git",
       "branch": "master",
