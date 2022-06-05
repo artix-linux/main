@@ -235,6 +235,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libharu.git",
       "branch": "master",
       "revision": "5c88afa670b90fcd97e079935907a6e30f0680c2"
+    },
+    "liblas": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
+      "branch": "master",
+      "revision": "3b8a9f3498756f7c88f039697b7fdaa2a2a430ad"
     }
   }
 }
