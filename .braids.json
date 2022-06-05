@@ -4711,6 +4711,11 @@
       "branch": "master",
       "revision": "b87c59c100e285847d336c3a3fc5c806792635f5"
     },
+    "spirv-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spirv-tools.git",
+      "branch": "master",
+      "revision": "26eb66d380c92c458e4d6199c295ec862d528af7"
+    },
     "spotifyd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd.git",
       "branch": "master",
