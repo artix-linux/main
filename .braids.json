@@ -571,6 +571,11 @@
       "branch": "master",
       "revision": "0a9f89be56f522c1173e8dbc5736562cda4f8185"
     },
+    "libmbim": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
+      "branch": "master",
+      "revision": "82f5fd810d913742bd8ee69936fa2d5a5db2c550"
+    },
     "libmilter": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmilter.git",
       "branch": "master",

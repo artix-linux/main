@@ -1,0 +1,38 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+pkgname=libmbim
+pkgver=1.26.4
+pkgrel=1
+pkgdesc="MBIM modem protocol helper library"
+url="https://www.freedesktop.org/wiki/Software/libmbim/"
+arch=(x86_64)
+license=(GPL2)
+depends=(glib2 bash)
+makedepends=(gtk-doc meson git help2man gobject-introspection bash-completion)
+provides=(libmbim-glib.so)
+options=(debug)
+_commit=bcdbc8cba800137377048c2a5db7fe6d5996f48b  # tags/1.26.4^0
+source=("git+https://gitlab.freedesktop.org/mobile-broadband/libmbim.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd libmbim
+  git describe --tags | sed 's/-rc/rc/;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd libmbim
+}
+
+build() {
+  artix-meson libmbim build -D gtk_doc=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}
