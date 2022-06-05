@@ -311,6 +311,11 @@
       "branch": "master",
       "revision": "00b238c09205ecdb92b3cc1c26963b040ae7bceb"
     },
+    "cdrtools": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cdrtools.git",
+      "branch": "master",
+      "revision": "625a1254e340f7aa997b42a62383b9490e5cf0c8"
+    },
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
