@@ -846,6 +846,11 @@
       "branch": "master",
       "revision": "d3e39af90900ba370cda2ddc22c41eb484b144dd"
     },
+    "liblangtag": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liblangtag.git",
+      "branch": "master",
+      "revision": "8ee02b7eabec94dfad5109d4c64ecf7dfd2632a2"
+    },
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
       "branch": "master",
