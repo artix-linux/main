@@ -450,6 +450,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
       "revision": "c72760933f0f4d1c7e5bc0e78d358982b00f79fb"
+    },
+    "tslib": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tslib.git",
+      "branch": "master",
+      "revision": "113112b15e8b8d9bba191f796813a06eb83c3d40"
     }
   }
 }
