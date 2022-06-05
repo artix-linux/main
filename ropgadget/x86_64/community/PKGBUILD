@@ -1,0 +1,40 @@
+# Maintainer: Levente Polyak <levente[at]leventepolyak[dot]net>
+# Contributor: s1gma <s1gma@mindslicer.com>
+
+pkgname=ropgadget
+_pkgname=ROPgadget
+pkgver=6.7
+pkgrel=1
+pkgdesc='Search gadgets in binaries to facilitate ROP exploitation for several file formats and architectures'
+url='http://www.shell-storm.org/project/ROPgadget'
+arch=('any')
+license=('BSD')
+depends=('python' 'python-capstone')
+makedepends=('python-setuptools' 'python-build' 'python-installer' 'python-wheel')
+source=(https://github.com/JonathanSalwan/${_pkgname}/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
+sha512sums=('81bebafc1ba9cb18e017487395dacdaae044d6f1383604a0183b41d2210651c9a6870755f741cd7a3e2dc38ee5c004b0aeac52cc1082fa352c06c0598ac7e87b')
+b2sums=('004f28993e3567b8bf78853c83b60fa17ff7dc8eb82867eabec33aee247283938ed522883bcf62a11f27a70fa10c4afbdd2636d613770bc8fa0ee7dd3667e859')
+
+prepare() {
+  cd ${_pkgname}-${pkgver}
+  sed 's|python2|python|g' -i ropgadget/**/*.py ropgadget/*/*/*.py
+}
+
+build() {
+  cd ${_pkgname}-${pkgver}
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd ${_pkgname}-${pkgver}
+  ./ROPgadget.py --binary ./test-suite-binaries/elf-Linux-x86 --string "main"
+}
+
+package() {
+  cd ${_pkgname}-${pkgver}
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE_BSD.txt -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
+
+# vim:set ts=2 sw=2 et:

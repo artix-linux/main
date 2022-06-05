@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "694d9f21de0df1ed165136db62f788547d1eac00"
     },
+    "ropgadget": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
+      "branch": "master",
+      "revision": "30f9d84c08ddee57ed4e32a207ce6324f708c112"
+    },
     "scim": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
