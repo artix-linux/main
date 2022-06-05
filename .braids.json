@@ -3506,6 +3506,11 @@
       "branch": "master",
       "revision": "48894141b3299961775e78f0fa6e82c3059763f0"
     },
+    "schroedinger": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/schroedinger.git",
+      "branch": "master",
+      "revision": "12d8d6e091294f8eb5179b21b0571c8defeff1c4"
+    },
     "scim": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
       "branch": "master",
