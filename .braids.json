@@ -806,6 +806,11 @@
       "branch": "master",
       "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
     },
+    "unicorn": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
+      "branch": "master",
+      "revision": "1a20d46152ce5ec7fec4764ca53165f7178bdaa5"
+    },
     "uptimed": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
       "branch": "master",
