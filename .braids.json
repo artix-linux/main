@@ -255,6 +255,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
       "revision": "4a6e1fed55ab05d3e5f7628f109a637bc8d3c993"
+    },
+    "libvoikko": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
+      "branch": "master",
+      "revision": "95f5f1deacc63532f19095f96b02c322a4f5fc0b"
     }
   }
 }
