@@ -380,6 +380,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/ranger.git",
       "branch": "master",
       "revision": "7842c347b69c915d2c0b87ad93c4ee62d1183f02"
+    },
+    "redshift": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
+      "branch": "master",
+      "revision": "04b8bca8fdaaacec6640729a2a029dfa93349528"
     }
   }
 }
