@@ -876,6 +876,11 @@
       "branch": "master",
       "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
     },
+    "ipset": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/ipset.git",
+      "branch": "master",
+      "revision": "75618c90bcc1ddf9cb3763435eb8e73992ff7b4d"
+    },
     "ipython": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipython.git",
       "branch": "master",
