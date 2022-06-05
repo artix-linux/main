@@ -4051,6 +4051,11 @@
       "branch": "master",
       "revision": "b36b633b6f4bba13dc9ffeef3e6624e1b67fdd6b"
     },
+    "sgml-common": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sgml-common.git",
+      "branch": "master",
+      "revision": "f881f6be6ee1bf9ed381b37ea879e11a20c6edea"
+    },
     "shaderc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shaderc.git",
       "branch": "master",
