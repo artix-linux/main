@@ -3911,6 +3911,11 @@
       "branch": "master",
       "revision": "60d04b2e516d34ba9e2576cc0d1dc6a3baa2cf7e"
     },
+    "libnetfilter_conntrack": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnetfilter_conntrack.git",
+      "branch": "master",
+      "revision": "88acc2d367746a902f1171eb7043c2da3c9e3fe8"
+    },
     "libnewt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnewt.git",
       "branch": "master",
