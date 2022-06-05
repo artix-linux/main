@@ -786,6 +786,11 @@
       "branch": "master",
       "revision": "68fe31159a6f541a469b78901748c3855edaa270"
     },
+    "crun": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/crun.git",
+      "branch": "master",
+      "revision": "4308f38d1cc8848ddb263214572cfe0264cd6444"
+    },
     "ctpl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ctpl.git",
       "branch": "master",
