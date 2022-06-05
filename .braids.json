@@ -1806,6 +1806,11 @@
       "branch": "master",
       "revision": "64d2621f677927ae2b7ca7f979b0ecf517f465bd"
     },
+    "gsoap": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gsoap.git",
+      "branch": "master",
+      "revision": "4fe8982bb8af3da04c0aee507a70423de5b3d032"
+    },
     "gssdp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gssdp.git",
       "branch": "master",
