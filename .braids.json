@@ -181,6 +181,11 @@
       "branch": "master",
       "revision": "a5a4742ec506609aac862d84d28aa2c2fdbd3ad3"
     },
+    "catch2": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/catch2.git",
+      "branch": "master",
+      "revision": "439f68cca6d7db8d4fd29e82b31a25eaa18106f1"
+    },
     "catfish": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
       "branch": "master",
