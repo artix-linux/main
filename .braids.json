@@ -180,6 +180,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
       "branch": "master",
       "revision": "57c5ab5e747bfb9e42cdc086d93e924b4d1ed91c"
+    },
+    "interception-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
+      "branch": "master",
+      "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
     }
   }
 }
