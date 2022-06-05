@@ -2911,6 +2911,11 @@
       "branch": "master",
       "revision": "6efd505055e8abb53c7be735e2f28c6916ddabe4"
     },
+    "udpxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udpxy.git",
+      "branch": "master",
+      "revision": "560a8520cbdd2806a85a56d9c9f58c27f8969084"
+    },
     "unicode-cldr": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-cldr.git",
       "branch": "master",
