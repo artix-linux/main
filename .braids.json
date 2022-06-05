@@ -4231,6 +4231,11 @@
       "branch": "master",
       "revision": "bb26ebe5d070e8456153587876d323b90ef1f184"
     },
+    "vorbis-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vorbis-tools.git",
+      "branch": "master",
+      "revision": "ad462fbe68127087f8eb248c23edce1821cb14b3"
+    },
     "vpnc": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vpnc.git",
       "branch": "master",
