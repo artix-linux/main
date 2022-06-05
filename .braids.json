@@ -91,6 +91,11 @@
       "branch": "master",
       "revision": "aaabe36ed9ea4b2321570f14201489c961fa876c"
     },
+    "asio": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/asio.git",
+      "branch": "master",
+      "revision": "12f9fd56171c11b545c402512df970b459b90e79"
+    },
     "assimp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/assimp.git",
       "branch": "master",
