@@ -2611,6 +2611,11 @@
       "branch": "master",
       "revision": "8486307a9e4d3788ea4b9f69f0e06dd82a7e45f2"
     },
+    "tailscale": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tailscale.git",
+      "branch": "master",
+      "revision": "b2a00673575740aae9069565a3bd293e46a96223"
+    },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
