@@ -4196,6 +4196,11 @@
       "branch": "master",
       "revision": "412388f9fe0c076749c7e0d24a93bc1a1c6f50b8"
     },
+    "libsecret": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsecret.git",
+      "branch": "master",
+      "revision": "64fed83b8dffa5158bae6da61804c05c5cc435e3"
+    },
     "libshout": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libshout.git",
       "branch": "master",
