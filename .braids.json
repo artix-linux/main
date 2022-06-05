@@ -1001,6 +1001,11 @@
       "branch": "master",
       "revision": "ce8569bd07c965e429187b874872c8303da4ef93"
     },
+    "docbook2x": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docbook2x.git",
+      "branch": "master",
+      "revision": "3909ded597ca538c13a5d0fe9d41fd804481415d"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
