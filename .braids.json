@@ -796,6 +796,11 @@
       "branch": "master",
       "revision": "273a7ba793c22d84609a3d923cc6f848bb443345"
     },
+    "twine": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/twine.git",
+      "branch": "master",
+      "revision": "fa666cbce75957e064c86547129e7b2dd6f92e02"
+    },
     "typescript": {
       "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
       "branch": "master",
