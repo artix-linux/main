@@ -8046,6 +8046,11 @@
       "branch": "master",
       "revision": "bd34483430756d118a3932821e5a2f4b1e3b033e"
     },
+    "tpm2-tss": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tss.git",
+      "branch": "master",
+      "revision": "cba4c99528fce566edffb84bf4e399b108ae2428"
+    },
     "transcode": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transcode.git",
       "branch": "master",
