@@ -1706,6 +1706,11 @@
       "branch": "master",
       "revision": "d876770a846cb666ebd95627f7c0d64a0f32e891"
     },
+    "libaccounts-glib": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libaccounts-glib.git",
+      "branch": "master",
+      "revision": "ef5f8e8df4ac966840488431bf6aeaf7d4c1bc00"
+    },
     "libao": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libao.git",
       "branch": "master",
