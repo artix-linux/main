@@ -666,6 +666,11 @@
       "branch": "master",
       "revision": "17e3258c1f54a2c735dd28f58b10bfcb5f584982"
     },
+    "faad2": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/faad2.git",
+      "branch": "master",
+      "revision": "bdf6620c8f7af136adf89dfacb004b47125b83c4"
+    },
     "facter": {
       "url": "gitea@gitea.artixlinux.org:packagesF/facter.git",
       "branch": "master",
