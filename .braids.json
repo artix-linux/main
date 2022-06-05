@@ -1361,6 +1361,11 @@
       "branch": "master",
       "revision": "1a20d46152ce5ec7fec4764ca53165f7178bdaa5"
     },
+    "upower": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/upower.git",
+      "branch": "master",
+      "revision": "27febdc08f98f76d2223b52677e325fc9635aa05"
+    },
     "uptimed": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
       "branch": "master",
