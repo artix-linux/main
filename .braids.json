@@ -2326,6 +2326,11 @@
       "branch": "master",
       "revision": "ff146b582a4d56e86ec1b610419f1d723d2d5190"
     },
+    "pure-ftpd": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pure-ftpd.git",
+      "branch": "master",
+      "revision": "61e7f1bf01a19c0fd2f68b9ae4e2161a103029e5"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
