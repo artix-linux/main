@@ -1076,6 +1076,11 @@
       "branch": "master",
       "revision": "1746859788def9322282126b1dcb58fc68e2b639"
     },
+    "dzen2": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dzen2.git",
+      "branch": "master",
+      "revision": "103b9da89f8839784658bb2c6b13d4949a2cc3ea"
+    },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
