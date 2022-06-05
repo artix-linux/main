@@ -105,6 +105,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-mozc.git",
       "branch": "master",
       "revision": "c5e8353b4806b62af713cd3df86b3c9f4758d157"
+    },
+    "figlet": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
+      "branch": "master",
+      "revision": "6c4a3856f3e8ed119e1cb8b5b7e706efe9b85e98"
     }
   }
 }
