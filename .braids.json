@@ -8321,6 +8321,11 @@
       "branch": "master",
       "revision": "a667975df6a46d282b42c92650c829fee23e82b1"
     },
+    "usbutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbutils.git",
+      "branch": "master",
+      "revision": "e7837f3665bd82d6e5d00fbdede54dacbe3f5c33"
+    },
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
       "branch": "master",
