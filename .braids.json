@@ -1691,6 +1691,11 @@
       "branch": "master",
       "revision": "771d15a9d53257144be908fb19c03d4591c95ae2"
     },
+    "libgoom2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgoom2.git",
+      "branch": "master",
+      "revision": "993e7fe2a0b5ff52ab5e2dfa16eb50eea9f4a411"
+    },
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",
