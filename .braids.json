@@ -3906,6 +3906,11 @@
       "branch": "master",
       "revision": "3e49cc34a21ea0b1ca01540b92c801c8b7be4f55"
     },
+    "light-locker": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/light-locker.git",
+      "branch": "master",
+      "revision": "2685aaaf27d229fcb073e19898877baf0b878431"
+    },
     "lighttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd.git",
       "branch": "master",
