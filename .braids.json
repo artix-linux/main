@@ -5781,6 +5781,11 @@
       "branch": "master",
       "revision": "bccf3c49a884210bc4e306bf3001f885724cae15"
     },
+    "ripgrep": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/ripgrep.git",
+      "branch": "master",
+      "revision": "73b412856a4ba6ad1b71462b2b6760d8e5156560"
+    },
     "rkcommon": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rkcommon.git",
       "branch": "master",
