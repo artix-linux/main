@@ -1571,6 +1571,11 @@
       "branch": "master",
       "revision": "d473f499259b69ca3c18d55993dd2160c2019a2d"
     },
+    "gflags": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gflags.git",
+      "branch": "master",
+      "revision": "30036a2082d7583db3d92417ae298715fc58262f"
+    },
     "ghostscript": {
       "url": "gitea@gitea.artixlinux.org:packagesG/ghostscript.git",
       "branch": "master",
