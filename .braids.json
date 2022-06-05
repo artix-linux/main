@@ -6321,6 +6321,11 @@
       "branch": "master",
       "revision": "e2315091f1fb6877d23767c1b9fa64b6c5e6840e"
     },
+    "pkgfile": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pkgfile.git",
+      "branch": "master",
+      "revision": "25b92340042fd546af140698d8d20be09d2b1a41"
+    },
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
       "branch": "master",
