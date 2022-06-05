@@ -2136,6 +2136,11 @@
       "branch": "master",
       "revision": "1d86b02f6f8fe8a20e3cb7ccc83352811930725a"
     },
+    "libkeybinder3": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libkeybinder3.git",
+      "branch": "master",
+      "revision": "0c93e54177e5dea99cec420cfbd901119d81a298"
+    },
     "liblangtag": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblangtag.git",
       "branch": "master",
