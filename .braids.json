@@ -5096,6 +5096,11 @@
       "branch": "master",
       "revision": "1e50bedb08f7795dfa410db1790a7ebe40e2dbab"
     },
+    "make": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/make.git",
+      "branch": "master",
+      "revision": "01d496806c824fb0f1b82c10de75a110d05be498"
+    },
     "mandoc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mandoc.git",
       "branch": "master",
