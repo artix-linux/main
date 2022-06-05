@@ -591,6 +591,11 @@
       "branch": "master",
       "revision": "8ad7dd50f677328aafc8e8148445a5b248aae30c"
     },
+    "libnewt": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnewt.git",
+      "branch": "master",
+      "revision": "28e853f4aee454c6f3afc964b1004e006ea64456"
+    },
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
