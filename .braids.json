@@ -1061,6 +1061,11 @@
       "branch": "master",
       "revision": "87145931f4199aaeddbababb6dc44692541d5e58"
     },
+    "pixman": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pixman.git",
+      "branch": "master",
+      "revision": "ab9f11b3136975e7cc7ccc3cd8beba8566eda8d9"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
