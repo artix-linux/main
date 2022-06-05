@@ -4066,6 +4066,11 @@
       "branch": "master",
       "revision": "ae7cbe561d0e3bbf318c2b24bfe176c6b07ae31e"
     },
+    "lxc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxc.git",
+      "branch": "master",
+      "revision": "e3adf93058353f2d6b312ca8626bbf3a11561db1"
+    },
     "m17n-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
       "branch": "master",
