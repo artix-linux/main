@@ -3121,6 +3121,11 @@
       "branch": "master",
       "revision": "b7b0d09d86d0e0ccd49c9902318793de141f8aa1"
     },
+    "wpewebkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wpewebkit.git",
+      "branch": "master",
+      "revision": "633d1097a93bcae9ac6f78472a2f98ce0cb317f1"
+    },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
