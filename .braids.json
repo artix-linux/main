@@ -3101,6 +3101,11 @@
       "branch": "master",
       "revision": "a6c96adcc7016a20d652f3396f45cd56ab3be093"
     },
+    "libarchive": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libarchive.git",
+      "branch": "master",
+      "revision": "19798e07404613614236d6db975aaf9c076b73ec"
+    },
     "libass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libass.git",
       "branch": "master",
