@@ -2991,6 +2991,11 @@
       "branch": "master",
       "revision": "1c987f8a3a847c68f4fff51d1935eff26b57282f"
     },
+    "openal": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
+      "branch": "master",
+      "revision": "ac5b1635c5eeeafc9d526c17828d6b7ab106db20"
+    },
     "openbsd-netcat": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openbsd-netcat.git",
       "branch": "master",
