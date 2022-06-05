@@ -4751,6 +4751,11 @@
       "branch": "master",
       "revision": "56db5a2ddd693cb640d06b2470bb0881c46789f5"
     },
+    "xvidcore": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xvidcore.git",
+      "branch": "master",
+      "revision": "cec572abb60e56337648ea4d2bb80ec70ceb7fb5"
+    },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
