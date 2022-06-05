@@ -3871,6 +3871,11 @@
       "branch": "master",
       "revision": "b0e9a1227d062fa5ea3361fe9ddf5aff037f1359"
     },
+    "qt5-gamepad": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-gamepad.git",
+      "branch": "master",
+      "revision": "2535311180d1cc1b1d784b19a636ee72a00a0277"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
