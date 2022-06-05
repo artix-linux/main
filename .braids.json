@@ -2776,6 +2776,11 @@
       "branch": "master",
       "revision": "79d5da7be6867f284cf729e28b5c997f599a658e"
     },
+    "motion": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/motion.git",
+      "branch": "master",
+      "revision": "610cabff6c85e830cea60cc319f2c572517defa7"
+    },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
