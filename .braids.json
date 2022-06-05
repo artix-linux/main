@@ -2796,6 +2796,11 @@
       "branch": "master",
       "revision": "4943d8d9279af8bde4f336755fb1011043f5c004"
     },
+    "mplayer": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mplayer.git",
+      "branch": "master",
+      "revision": "8e2495a084d01a68fd4ac513d89eab76757a640a"
+    },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
