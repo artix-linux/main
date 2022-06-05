@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "5cb36645749f03fc75a11d6768df655165c59aab"
     },
+    "libetonyek": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libetonyek.git",
+      "branch": "master",
+      "revision": "8078119eb40776ba7470b794e64edb08c347fb0c"
+    },
     "libevdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevdev.git",
       "branch": "master",
