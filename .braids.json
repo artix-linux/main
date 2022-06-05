@@ -2746,6 +2746,11 @@
       "branch": "master",
       "revision": "61fd5400cad006c3c998ac0c7e599166fb7bddbd"
     },
+    "libwnck": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwnck.git",
+      "branch": "master",
+      "revision": "42719fe7b1b3fbfdcd8cc786ee24faa4f692bab4"
+    },
     "libwpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpd.git",
       "branch": "master",
