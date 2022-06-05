@@ -811,6 +811,11 @@
       "branch": "master",
       "revision": "6d3119a58053e57faa5a47a7c4f4803c2edcb4f0"
     },
+    "cunit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cunit.git",
+      "branch": "master",
+      "revision": "4c939ee8d1bc402a64e397d934ee5d9bdef98e93"
+    },
     "cups": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cups.git",
       "branch": "master",
