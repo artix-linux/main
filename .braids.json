@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "efd0ae813b7fd83e29b07193f6cd83c8d362a708"
     },
+    "gsasl": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gsasl.git",
+      "branch": "master",
+      "revision": "e7a9c0962cd013f59918e20f639e8946c757ee17"
+    },
     "gsfonts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsfonts.git",
       "branch": "master",
