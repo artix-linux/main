@@ -736,6 +736,11 @@
       "branch": "master",
       "revision": "649ea95973caddf5dc8701795af9d4fc2ade0f20"
     },
+    "consul": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/consul.git",
+      "branch": "master",
+      "revision": "c440124801183be29261c0303c390091f2b753c1"
+    },
     "convertlit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
       "branch": "master",
