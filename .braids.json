@@ -3371,6 +3371,11 @@
       "branch": "master",
       "revision": "56b11418cef562e643833503ce817ba5708a8b32"
     },
+    "libepoxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libepoxy.git",
+      "branch": "master",
+      "revision": "5a605eb61be2e0945cbd9928698e8675ab5fb413"
+    },
     "libepubgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepubgen.git",
       "branch": "master",
