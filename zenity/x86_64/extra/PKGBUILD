@@ -1,0 +1,40 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Jan de Groot <jgc@archlinux.org>
+
+pkgname=zenity
+pkgver=3.42.1
+pkgrel=1
+pkgdesc="Display graphical dialog boxes from shell scripts"
+url="https://gitlab.gnome.org/GNOME/zenity"
+arch=(x86_64)
+license=(LGPL)
+depends=(webkit2gtk libnotify)
+makedepends=(yelp-tools meson git)
+options=(debug)
+_commit=5aa43ab26e2f2ff5be16daabe15995799ffbaba2  # tags/3.42.1^0
+source=("git+https://gitlab.gnome.org/GNOME/zenity.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd zenity
+  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd zenity
+}
+
+build() {
+  artix-meson zenity build \
+    -D libnotify=true \
+    -D webkitgtk=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}
