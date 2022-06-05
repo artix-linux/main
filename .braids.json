@@ -211,6 +211,11 @@
       "branch": "master",
       "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
     },
+    "cifs-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cifs-utils.git",
+      "branch": "master",
+      "revision": "b68cbd58338c955fc2f18d56a53442df0e8590d5"
+    },
     "clamav": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav.git",
       "branch": "master",
