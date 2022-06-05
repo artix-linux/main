@@ -356,6 +356,11 @@
       "branch": "master",
       "revision": "106449f17574738e90af17b419e444a8d317cab1"
     },
+    "bin86": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bin86.git",
+      "branch": "master",
+      "revision": "461eeaa9a3338d212f6e90c9919a226d496fd9d0"
+    },
     "bind": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bind.git",
       "branch": "master",
