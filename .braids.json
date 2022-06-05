@@ -8286,6 +8286,11 @@
       "branch": "master",
       "revision": "d1bcd9077b89cbf4e18a9376a520f2108e0da90d"
     },
+    "unzip": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unzip.git",
+      "branch": "master",
+      "revision": "6c0eb5ff4d7e4a37cf241701c658d4a5f5d4bd47"
+    },
     "upower": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upower.git",
       "branch": "master",
