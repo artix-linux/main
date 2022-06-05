@@ -300,6 +300,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/neon.git",
       "branch": "master",
       "revision": "ac635574094c6da56131bce7138b38d2eaa7ff22"
+    },
+    "nlohmann-json": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
+      "branch": "master",
+      "revision": "9c3d63e04155632206d298ad028a89054e3a9aff"
     }
   }
 }
