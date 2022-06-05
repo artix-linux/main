@@ -21,6 +21,11 @@
       "branch": "master",
       "revision": "9ae339bde045fdd7f33c22ecfa1604290a49937d"
     },
+    "acpi": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acpi.git",
+      "branch": "master",
+      "revision": "ee2279b9328cd4ecef8fabebfcc8707dd37e186e"
+    },
     "acpi_call": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpi_call.git",
       "branch": "master",
