@@ -2976,6 +2976,11 @@
       "branch": "master",
       "revision": "c7bda17e00fb24e8ccb20c0cfc68d9fb52c12fc5"
     },
+    "v2ray-domain-list-community": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-domain-list-community.git",
+      "branch": "master",
+      "revision": "042823f2f84aa14c87b0e180fc384473ded8b3cc"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
