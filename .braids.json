@@ -796,6 +796,11 @@
       "branch": "master",
       "revision": "1d3ea080bab7df25c74d49b006220773a42a1363"
     },
+    "hostapd": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hostapd.git",
+      "branch": "master",
+      "revision": "599bcfaca767cf3289297083a477164e540d7bd4"
+    },
     "hugin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hugin.git",
       "branch": "master",
