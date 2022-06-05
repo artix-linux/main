@@ -6681,6 +6681,11 @@
       "branch": "master",
       "revision": "2a0c3a0437086d139ee01c0cc32f0fbca5485f45"
     },
+    "txt2man": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/txt2man.git",
+      "branch": "master",
+      "revision": "949abc572b832ce3d4626180c389e8e79ffd2e63"
+    },
     "typescript": {
       "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
       "branch": "master",
