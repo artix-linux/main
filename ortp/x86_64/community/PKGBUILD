@@ -1,0 +1,27 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Jaroslaw Swierczynski <swiergot@aur.archlinux.org>
+# Contributor: William Rea <sillywilly@gmail.com>
+
+pkgname=ortp
+pkgver=5.1.31
+pkgrel=1
+pkgdesc='A Real-time Transport Protocol (RTP) library'
+arch=(x86_64)
+url='https://gitlab.linphone.org/'
+license=(GPL3)
+depends=(bctoolbox)
+makedepends=(cmake doxygen)
+source=(https://gitlab.linphone.org/BC/public/$pkgname/-/archive/$pkgver/$pkgname-$pkgver.tar.bz2)
+sha256sums=('220f09fa805d20a1f2ffa2664ebddd44f622bcdef54db60fd37f30ef8e3ff84a')
+
+build() {
+  cmake -B build -S $pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DENABLE_STATIC=OFF
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+}

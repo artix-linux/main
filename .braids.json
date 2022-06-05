@@ -3126,6 +3126,11 @@
       "branch": "master",
       "revision": "cfc0b2baeee0ce742852ac5a567167ae9fdb5a76"
     },
+    "ortp": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ortp.git",
+      "branch": "master",
+      "revision": "5a38fa696036c1a37de4b5bc9646249dc1806f16"
+    },
     "ospray": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",
