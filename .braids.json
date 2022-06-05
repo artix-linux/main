@@ -530,6 +530,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesY/yubikey-personalization.git",
       "branch": "master",
       "revision": "adbc514fb72b8cc5ded72aea4cafa76d00782f20"
+    },
+    "zfp": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zfp.git",
+      "branch": "master",
+      "revision": "94cd89ada6f72d6ad2e16fe3442d6a72ff3fab8c"
     }
   }
 }
