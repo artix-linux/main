@@ -1,0 +1,2 @@
+# ttf-nerd-fonts-symbols
+

@@ -455,6 +455,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tslib.git",
       "branch": "master",
       "revision": "113112b15e8b8d9bba191f796813a06eb83c3d40"
+    },
+    "ttf-nerd-fonts-symbols": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
+      "branch": "master",
+      "revision": "9077f3e1bfa84fd2ca48858b9eb5b385217390ff"
     }
   }
 }
