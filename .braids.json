@@ -3416,6 +3416,11 @@
       "branch": "master",
       "revision": "00847422d26f7d2e67e03a67dd357c4f35e83b8d"
     },
+    "recode": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/recode.git",
+      "branch": "master",
+      "revision": "b43f569e04f36bd0dc0547538d4b5fb88e02b199"
+    },
     "redland": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redland.git",
       "branch": "master",
