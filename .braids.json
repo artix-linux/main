@@ -7331,6 +7331,11 @@
       "branch": "master",
       "revision": "570c7762fbb4dab44ab4e216ed3d22e1dd4cca05"
     },
+    "xmlstarlet": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xmlstarlet.git",
+      "branch": "master",
+      "revision": "c81b1431b627208894c11efc0c5a47a0f503bd0d"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
