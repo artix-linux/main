@@ -586,6 +586,11 @@
       "branch": "master",
       "revision": "041b09cdb5800aae422920013610e44ef59b4764"
     },
+    "libndp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libndp.git",
+      "branch": "master",
+      "revision": "8ad7dd50f677328aafc8e8148445a5b248aae30c"
+    },
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
