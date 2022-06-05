@@ -1386,6 +1386,11 @@
       "branch": "master",
       "revision": "9c4377b435c343f74f5022686f304dbfff31ae21"
     },
+    "flite": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/flite.git",
+      "branch": "master",
+      "revision": "6c378ff9a89f82c59305d90aeaf194577e1b4d5c"
+    },
     "fltk": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fltk.git",
       "branch": "master",
