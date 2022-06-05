@@ -4096,6 +4096,11 @@
       "branch": "master",
       "revision": "732def8055a78624df9c9a4d307274c282938db5"
     },
+    "qt6-doc": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-doc.git",
+      "branch": "master",
+      "revision": "70b686d9d5c83876a0a800ae4fe0eda17e1c5bdd"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
