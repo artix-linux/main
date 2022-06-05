@@ -291,6 +291,11 @@
       "branch": "master",
       "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
     },
+    "ipython": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/ipython.git",
+      "branch": "master",
+      "revision": "00f6e62b09ff8e3b32e32fb4c6c0df2e0c2a4c4d"
+    },
     "jemalloc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
       "branch": "master",
