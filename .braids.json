@@ -3016,6 +3016,11 @@
       "branch": "master",
       "revision": "4515205e5b5b115478c0b75ca5aabe45d06630e1"
     },
+    "ldns": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/ldns.git",
+      "branch": "master",
+      "revision": "efedee13866acf15a4951b42c8af9416e39f8de5"
+    },
     "leatherman": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leatherman.git",
       "branch": "master",
