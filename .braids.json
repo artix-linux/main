@@ -1591,6 +1591,11 @@
       "branch": "master",
       "revision": "3085cd2ab4e21f4d0b0e9f1aa1753d0497486a8c"
     },
+    "git-subrepo": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/git-subrepo.git",
+      "branch": "master",
+      "revision": "7a97378f6a8fceb990576b7b58ec3c1d0e49313c"
+    },
     "gitea": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gitea.git",
       "branch": "master",
