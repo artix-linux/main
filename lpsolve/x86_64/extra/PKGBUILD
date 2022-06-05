@@ -1,0 +1,42 @@
+# Maintainer: AndyRTR <andyrtr@archlinux.org>
+
+pkgname=lpsolve
+_origname=lp_solve
+pkgver=5.5.2.11
+_mainver=5.5
+pkgrel=1
+pkgdesc="a Mixed Integer Linear Programming (MILP) solver"
+arch=('x86_64')
+url="http://lpsolve.sourceforge.net/" # no https
+license=('LGPL2.1')
+depends=('glibc')
+source=(https://downloads.sourceforge.net/project/lpsolve/lpsolve/${pkgver}/lp_solve_${pkgver}_source.tar.gz
+        flags.patch)
+sha1sums=('c0ffa7b8d49938ba213b4d3e894d56b3aba4e983'
+          '6fb51fcc2d821f3ca16b0da9e93cf211abafcde2')
+
+prepare() {
+  cd ${_origname}_${_mainver}
+  # add CFLAGS/LDFLAGS
+  patch -Np1 -i "$srcdir"/flags.patch
+}
+
+build() {
+  cd ${_origname}_${_mainver}
+
+  # taken from Fedora spec
+  cd lpsolve55
+  sh -x ccc
+#  rm bin/ux*/liblpsolve55.a
+  cd ../lp_solve
+  sh -x ccc
+}
+
+package() {
+  cd ${_origname}_${_mainver}
+
+  install -dm755 "${pkgdir}"/usr/{bin,lib,include/lpsolve}
+  install -m755 lp_solve/bin/ux*/lp_solve "${pkgdir}"/usr/bin/
+  install -m755 lpsolve55/bin/ux*/liblpsolve55.so "${pkgdir}"/usr/lib/
+  install -m644 lp*.h "${pkgdir}"/usr/include/lpsolve/
+}

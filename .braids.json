@@ -1296,6 +1296,11 @@
       "branch": "master",
       "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
     },
+    "lpsolve": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lpsolve.git",
+      "branch": "master",
+      "revision": "ebec3dedbcbe1ff616dad86b18ea6ed28b99cab3"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
