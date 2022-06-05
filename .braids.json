@@ -101,6 +101,11 @@
       "branch": "master",
       "revision": "5ad0711b7ee780324b2f3a4c3e6af1d605dc5a3b"
     },
+    "box2d": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/box2d.git",
+      "branch": "master",
+      "revision": "eb9f600bb72baf32a7ef18abe68edb9ad9c788d3"
+    },
     "brightnessctl": {
       "url": "gitea@gitea.artixlinux.org:packagesB/brightnessctl.git",
       "branch": "master",
