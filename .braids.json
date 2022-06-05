@@ -2480,6 +2480,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesZ/zig.git",
       "branch": "master",
       "revision": "73a32921c8f5d436b3b079a81be9c7fe14ae1c09"
+    },
+    "zimg": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zimg.git",
+      "branch": "master",
+      "revision": "deb2e3fd85ed9c8e685841bb544b60cc05bf931b"
     }
   }
 }
