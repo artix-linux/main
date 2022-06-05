@@ -7681,6 +7681,11 @@
       "branch": "master",
       "revision": "9632fffddc8e18895ccde6abc1874db015bb617d"
     },
+    "strace": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strace.git",
+      "branch": "master",
+      "revision": "c0199297643ba50cdee6d59f4091416298ced85e"
+    },
     "strawberry": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strawberry.git",
       "branch": "master",
