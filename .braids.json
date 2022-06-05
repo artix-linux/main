@@ -471,6 +471,11 @@
       "branch": "master",
       "revision": "6a103d272726f4030397ebfa91a413395450212c"
     },
+    "libatasmart": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libatasmart.git",
+      "branch": "master",
+      "revision": "070b976fea7b48f5e93b2abc49157b702543e939"
+    },
     "libatomic_ops": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatomic_ops.git",
       "branch": "master",
