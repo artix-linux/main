@@ -2891,6 +2891,11 @@
       "branch": "master",
       "revision": "5232047e47d8fbfdcaf3f6931008438842e572d2"
     },
+    "java-avalon-framework": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/java-avalon-framework.git",
+      "branch": "master",
+      "revision": "dfdb5db086b116d7520510addd63bbd0ae4d3874"
+    },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
