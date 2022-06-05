@@ -3556,6 +3556,11 @@
       "branch": "master",
       "revision": "1c987f8a3a847c68f4fff51d1935eff26b57282f"
     },
+    "opam": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opam.git",
+      "branch": "master",
+      "revision": "4492e07dae5e2fd658a8a7382a92ac45f3536255"
+    },
     "openal": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
       "branch": "master",

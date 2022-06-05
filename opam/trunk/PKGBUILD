@@ -1,0 +1,29 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: Vincent B. <vb@luminar.eu.org>
+
+pkgname=opam
+pkgver=2.1.2
+pkgrel=1
+pkgdesc='OCaml package manager'
+arch=(x86_64)
+url='https://opam.ocaml.org/'
+license=(GPL)
+depends=(bubblewrap ocaml-compiler-libs unzip)
+optdepends=('darcs: For downloading packages with darcs'
+            'git: For downloading packages with git'
+            'mercurial: For downloading packages with mercurial'
+            'rsync: For downloading packages with rsync')
+source=("https://github.com/ocaml/opam/releases/download/$pkgver/opam-full-$pkgver.tar.gz")
+b2sums=('fe5447fe8f9bcedb30bf455e93b54a37e950e2944f6f501545bdccf6d989de2da90106938efb6a12c1b9454ecefed5be9906d65a15a4d0244302ad7ccff170db')
+
+build() {
+  cd opam-full-$pkgver
+  ./configure --prefix=/usr
+  make lib-ext all -j1 \
+    OCAMLC='ocamlc -unsafe-string' \
+    OCAMLOPT='ocamlopt -unsafe-string'
+}
+
+package() {
+  make -C opam-full-$pkgver DESTDIR="$pkgdir" install
+}
