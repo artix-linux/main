@@ -1,0 +1,39 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgbase=qcoro
+pkgname=(qcoro-qt5 qcoro-qt6)
+pkgver=0.5.1
+pkgrel=1
+pkgdesc='C++ Coroutines for Qt'
+arch=(x86_64)
+url='https://github.com/danvratil/qcoro'
+license=(MIT)
+makedepends=(cmake qt5-base qt6-base)
+source=(https://github.com/danvratil/qcoro/archive/v$pkgver/$pkgname-$pkgver.tar.gz)
+sha256sums=('49c996797d101d8152dcd5a35005c274770d75ef18eabff78c12cdfba36e6a8f')
+
+build() {
+  cmake -B build5 -S $pkgbase-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DUSE_QT_VERSION=5 \
+    -DBUILD_SHARED_LIBS=ON
+  cmake --build build5
+
+  cmake -B build6 -S $pkgbase-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DUSE_QT_VERSION=6 \
+    -DBUILD_SHARED_LIBS=ON
+  cmake --build build6
+}
+
+package_qcoro-qt5() {
+  depends=(qt5-base)
+  DESTDIR="$pkgdir" cmake --install build5
+  install -Dm644 $pkgbase-$pkgver/LICENSES/MIT.txt -t "$pkgdir"/usr/share/licenses/$pkgname
+}
+
+package_qcoro-qt6() {
+  depends=(qt6-base)
+  DESTDIR="$pkgdir" cmake --install build6
+  install -Dm644 $pkgbase-$pkgver/LICENSES/MIT.txt -t "$pkgdir"/usr/share/licenses/$pkgname
+}
