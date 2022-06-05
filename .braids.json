@@ -1601,6 +1601,11 @@
       "branch": "master",
       "revision": "ca7a5129825a40de7e791d3f491c184830c310ba"
     },
+    "libebur128": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libebur128.git",
+      "branch": "master",
+      "revision": "51bac6460a3e122438f51f4ac505707975e7875e"
+    },
     "libepubgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepubgen.git",
       "branch": "master",
