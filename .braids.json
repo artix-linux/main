@@ -1001,6 +1001,11 @@
       "branch": "master",
       "revision": "d82296dc8cf26d8ac0dd3a972b9878fba63c525e"
     },
+    "libsigsegv": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
+      "branch": "master",
+      "revision": "64e0f262eff95212a9ccab9fb47c79c1ce8400c9"
+    },
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
       "branch": "master",
