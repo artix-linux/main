@@ -2561,6 +2561,11 @@
       "branch": "master",
       "revision": "d911e6cdf5c0cc3e97d0ed80c800c801708783e9"
     },
+    "lilypond": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lilypond.git",
+      "branch": "master",
+      "revision": "f97aec7ebaa53172901d1f71640a90e7bdd58386"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
