@@ -6786,6 +6786,11 @@
       "branch": "master",
       "revision": "9dff59ea7eefa39aaaf4c488bd9df91dbfcf174c"
     },
+    "upx": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/upx.git",
+      "branch": "master",
+      "revision": "95d103a2b0a194f2eb51cb60d77b81e00b89310b"
+    },
     "usbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbmuxd.git",
       "branch": "master",
