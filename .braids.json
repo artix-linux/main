@@ -601,6 +601,11 @@
       "branch": "master",
       "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
     },
+    "libpciaccess": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
+      "branch": "master",
+      "revision": "b66eab437d3d00c05e65ef9b116d073911b59f94"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
