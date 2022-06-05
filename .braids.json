@@ -1,0 +1,10 @@
+{
+  "config_version": 1,
+  "mirrors": {
+    "adios2": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/adios2.git",
+      "branch": "master",
+      "revision": "5bcd80316a58a2ef5334cf2a21ce9cc119d0a9d7"
+    }
+  }
+}
