@@ -2791,6 +2791,11 @@
       "branch": "master",
       "revision": "bc2167c0b37eae938b0a3901cd3d0721e8b81960"
     },
+    "iso-initcpio": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iso-initcpio.git",
+      "branch": "master",
+      "revision": "972cc136e3ef493cd77870455a8274d8f43c52f1"
+    },
     "isodate": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isodate.git",
       "branch": "master",
