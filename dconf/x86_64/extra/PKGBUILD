@@ -1,0 +1,53 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Ionut Biru <ibiru@archlinux.org>
+
+pkgname=dconf
+pkgver=0.40.0
+pkgrel=1.1
+pkgdesc="Configuration database system"
+url="https://wiki.gnome.org/Projects/dconf"
+arch=(x86_64)
+license=(LGPL)
+depends=(glib2)
+makedepends=(vala dbus git gtk-doc python meson bash-completion)
+provides=(libdconf.so)
+install=dconf.install
+_commit=4c0a26052efafae923eba42d14c5cb88da745de2  # tags/0.40.0^0
+source=("git+https://gitlab.gnome.org/GNOME/dconf.git#commit=$_commit"
+        dconf-update dconf-update.hook)
+sha256sums=('SKIP'
+            '330142605370f82f4229e8a94b245f911407eb629b50f1497f415c70164a90ec'
+            '8d02176ff001a13d15a7ac087edd2502725494668933fa2c6e6f9cb21ae24e6b')
+
+pkgver() {
+  cd $pkgname
+  git describe --tags | sed 's/-/+/g'
+}
+
+prepare() {
+  cd $pkgname
+}
+
+build() {
+  arch-meson $pkgname build -D gtk_doc=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  DESTDIR="$pkgdir" meson install -C build
+  install -Dt "$pkgdir/usr/share/libalpm/hooks" -m644 *.hook
+  install -Dt "$pkgdir/usr/share/libalpm/scripts" dconf-update
+
+  # Prevent this directory from getting removed when other
+  # packages which install files there get uninstalled
+  install -Dm644 /dev/null "$pkgdir/etc/dconf/db/.placeholder"
+
+  # Remove system service file
+  rm -r "$pkgdir/usr/lib/systemd"
+}
+
+# vim:set sw=2 et:
