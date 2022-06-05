@@ -56,6 +56,11 @@
       "branch": "master",
       "revision": "aaabe36ed9ea4b2321570f14201489c961fa876c"
     },
+    "assimp": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/assimp.git",
+      "branch": "master",
+      "revision": "da4eaa4d4e3a9f00f19a710fad66859f42c7ab84"
+    },
     "auth-tarball-from-git": {
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
       "branch": "master",
