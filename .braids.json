@@ -1736,6 +1736,11 @@
       "branch": "master",
       "revision": "0d60c59811b3fab4ba54f46e263d0c83fc911f1f"
     },
+    "ldc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/ldc.git",
+      "branch": "master",
+      "revision": "4515205e5b5b115478c0b75ca5aabe45d06630e1"
+    },
     "leatherman": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leatherman.git",
       "branch": "master",
