@@ -1,0 +1,43 @@
+# Maintainer: Caleb Macalennan <caleb@alerque.com>
+# Maintainer: Justin Kromlinger <hashworks@archlinux.org>
+# Contributor: Bruno Pagani <archange@archlinux.org>
+
+pkgname=matterbridge
+pkgver=1.25.1
+pkgrel=1
+pkgdesc='Multi-protocols (IRC/XMPP/Mattermost/Slack/Matrix/etc) bridge'
+arch=(x86_64)
+url="https://github.com/42wim/$pkgname"
+license=(Apache GPL3)
+depends=(glibc
+         gcc-libs)
+makedepends=(go
+             git)
+backup=("etc/$pkgname.toml")
+_archive="$pkgname-$pkgver"
+source=("$url/archive/v$pkgver/$_archive.tar.gz"
+        "$_archive.tar.gz.asc::$url/releases/download/v$pkgver/v$pkgver.tar.gz.asc")
+sha256sums=('26fd8500334118c2eb3910ea9fa8fbd955aace59209cedf01179b29c072290fe'
+            'SKIP')
+validpgpkeys=(CC7D978417C1AEA1E4CDD7240E41AB4BF4C610B4) # wim <wim@42.be>
+
+prepare() {
+	cd "$_archive"
+	go mod vendor
+}
+
+build() {
+	cd "$_archive"
+	export CGO_CPPFLAGS="$CPPFLAGS"
+	export CGO_CFLAGS="$CFLAGS"
+	export CGO_CXXFLAGS="$CXXFLAGS"
+	export CGO_LDFLAGS="$LDFLAGS"
+	export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw -ldflags=-linkmode=external"
+	go build -tags whatsappmulti -v -o "$pkgname" .
+}
+
+package() {
+	cd "$_archive"
+	install -Dm0755 -t "$pkgdir/usr/bin/" "$pkgname"
+	install -Dm0600 matterbridge.toml.sample "$pkgdir/etc/$pkgname.toml"
+}

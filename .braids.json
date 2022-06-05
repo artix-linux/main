@@ -1841,6 +1841,11 @@
       "branch": "master",
       "revision": "6a99445bea97e1c04c0118064b547e856453a451"
     },
+    "matterbridge": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge.git",
+      "branch": "master",
+      "revision": "eab0b53e64640e382b9f34643cf8ed83e0ec6c97"
+    },
     "maturin": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maturin.git",
       "branch": "master",
