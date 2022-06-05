@@ -6111,6 +6111,11 @@
       "branch": "master",
       "revision": "ca2c12d08d6a16fa4f5af8c68ab5a72b8d9714e3"
     },
+    "snooze": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/snooze.git",
+      "branch": "master",
+      "revision": "6a71dd59d6e670f8e9f76894b66b04e320511992"
+    },
     "sof-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sof-bin.git",
       "branch": "master",
