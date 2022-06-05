@@ -351,6 +351,11 @@
       "branch": "master",
       "revision": "26d2bc35e45127fa1ce3a8e8eac78915bdbca3dd"
     },
+    "dhcp": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcp.git",
+      "branch": "master",
+      "revision": "c910c2355a92127b31942f65ff2b517495dafdd7"
+    },
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
