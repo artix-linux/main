@@ -2666,6 +2666,11 @@
       "branch": "master",
       "revision": "93559fff6b70f438faba5eb414d2fe414ec96076"
     },
+    "telepathy-salut": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-salut.git",
+      "branch": "master",
+      "revision": "c2a0293f3a0e76b353438c5839319146b2a4ad33"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
