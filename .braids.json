@@ -841,6 +841,11 @@
       "branch": "master",
       "revision": "cdc5680656deab9f7039792682ef0916d3c2de19"
     },
+    "vncdotool": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vncdotool.git",
+      "branch": "master",
+      "revision": "96c4ddfa9d0dfb474b80d31819c61e6a347eb8ad"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
