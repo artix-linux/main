@@ -2816,6 +2816,11 @@
       "branch": "master",
       "revision": "3fc2c088ab2875a16f0cb30f58e9baf8ff1c6e41"
     },
+    "jfsutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jfsutils.git",
+      "branch": "master",
+      "revision": "af6ab59c9d9efa19775ee33886a2f99cbb907bc3"
+    },
     "jitterentropy": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jitterentropy.git",
       "branch": "master",
