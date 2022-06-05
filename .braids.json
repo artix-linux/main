@@ -4186,6 +4186,11 @@
       "branch": "master",
       "revision": "3bdb14fb68d7710f79790c3efd5de01359a125d5"
     },
+    "mbedtls": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mbedtls.git",
+      "branch": "master",
+      "revision": "bf782daeee7b5af0f64495a3e65a91e91ea32765"
+    },
     "mcpp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mcpp.git",
       "branch": "master",
