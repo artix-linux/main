@@ -601,6 +601,11 @@
       "branch": "master",
       "revision": "55034244990e6198c67d2f7a35275a073f61ee62"
     },
+    "pelican": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pelican.git",
+      "branch": "master",
+      "revision": "919a0e9ec0d6de93047eba45a8cdc9d3d8895eab"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
