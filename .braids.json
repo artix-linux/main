@@ -3521,6 +3521,11 @@
       "branch": "master",
       "revision": "9987c46eadec7685438e6ace3e77fa67ac61215f"
     },
+    "libtpms": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtpms.git",
+      "branch": "master",
+      "revision": "519730de7c990085cb470ddd22da525917d408ef"
+    },
     "libuninameslist": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libuninameslist.git",
       "branch": "master",
