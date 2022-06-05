@@ -2741,6 +2741,11 @@
       "branch": "master",
       "revision": "073f16e3e1b0692baaa47fd33cc5f3409e4b9931"
     },
+    "tidy": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tidy.git",
+      "branch": "master",
+      "revision": "04dc99764d5885ab79217df57b0e05bc339f358d"
+    },
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
       "branch": "master",
