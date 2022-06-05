@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "507ec57ca99d90e1f31e47479dd95f600e345bfc"
     },
+    "cantarell-fonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cantarell-fonts.git",
+      "branch": "master",
+      "revision": "a0366708827b3dfa4b00b4b2683cae01c788e4d7"
+    },
     "capstone": {
       "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
       "branch": "master",
