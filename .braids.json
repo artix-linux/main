@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "e02c80a71c2e083266bfa871ac2ca724bc8ebaa0"
     },
+    "docbook-dsssl": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docbook-dsssl.git",
+      "branch": "master",
+      "revision": "45afa054629026277cf0071852809870bde8435e"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
