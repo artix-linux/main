@@ -1306,6 +1306,11 @@
       "branch": "master",
       "revision": "ffe302d13a8437386f1226d162d0507408c39cdb"
     },
+    "m17n-db": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
+      "branch": "master",
+      "revision": "3036906d037b62bbd00d65ffa6736a182a7994ae"
+    },
     "magic-wormhole": {
       "url": "gitea@gitea.artixlinux.org:packagesM/magic-wormhole.git",
       "branch": "master",
