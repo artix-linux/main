@@ -1636,6 +1636,11 @@
       "branch": "master",
       "revision": "df5e8b3cf177233cfe3a04cc243652551c28e9a3"
     },
+    "redland": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/redland.git",
+      "branch": "master",
+      "revision": "00ce58de53ecce5a9d2a9686fe684fba0536a17d"
+    },
     "redshift": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
       "branch": "master",
