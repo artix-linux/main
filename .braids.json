@@ -8376,6 +8376,11 @@
       "branch": "master",
       "revision": "38a8c812c32c1caa36b0e9d33ff635693af522f6"
     },
+    "valgrind": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/valgrind.git",
+      "branch": "master",
+      "revision": "0a550b2b2aa667a615a3a70e6e490ef220121b15"
+    },
     "vamp-plugin-sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vamp-plugin-sdk.git",
       "branch": "master",
