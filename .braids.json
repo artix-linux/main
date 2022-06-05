@@ -6211,6 +6211,11 @@
       "branch": "master",
       "revision": "5daad1c41015ebcfdd4269d519936552daa37a9d"
     },
+    "pciutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pciutils.git",
+      "branch": "master",
+      "revision": "63a54f8bdb44b12e6aedbecc5c39176416d74f8d"
+    },
     "pcsclite": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite.git",
       "branch": "master",
