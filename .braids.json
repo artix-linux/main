@@ -316,6 +316,11 @@
       "branch": "master",
       "revision": "625a1254e340f7aa997b42a62383b9490e5cf0c8"
     },
+    "celt": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/celt.git",
+      "branch": "master",
+      "revision": "f1cceedddd2f1b6d914875b7222079f8ecc5b7a0"
+    },
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
