@@ -2051,6 +2051,11 @@
       "branch": "master",
       "revision": "5942b523710e65ee344b73280b73c52edfbcf967"
     },
+    "gmp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gmp.git",
+      "branch": "master",
+      "revision": "52c6e4afd541e7ec774c7959bac4a6b0fc957009"
+    },
     "gn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gn.git",
       "branch": "master",
