@@ -491,6 +491,11 @@
       "branch": "master",
       "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
     },
+    "harfbuzz": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/harfbuzz.git",
+      "branch": "master",
+      "revision": "2bec005bf0c05e01ee35c7b3e2ad01812f729e59"
+    },
     "hicolor-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hicolor-icon-theme.git",
       "branch": "master",
