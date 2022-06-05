@@ -776,6 +776,11 @@
       "branch": "master",
       "revision": "81af4d456224aa7646a0f281bee004841bd38e04"
     },
+    "libxklavier": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxklavier.git",
+      "branch": "master",
+      "revision": "049befa16344bb774a9f9ab819b7dc5ca4716471"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
