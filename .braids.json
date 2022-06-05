@@ -5936,6 +5936,11 @@
       "branch": "master",
       "revision": "f6987d50472b803d3971e818951634878d8fcd58"
     },
+    "scons": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/scons.git",
+      "branch": "master",
+      "revision": "8e8bcb110a87a636756abcd8424bc52378202885"
+    },
     "scrot": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scrot.git",
       "branch": "master",
