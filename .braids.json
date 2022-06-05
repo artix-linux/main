@@ -3536,6 +3536,11 @@
       "branch": "master",
       "revision": "c5fcd2801198712e6069bd6d8c5bf277f1b37f40"
     },
+    "sdl2_mixer": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_mixer.git",
+      "branch": "master",
+      "revision": "e30d6c66a20fd2501fdd1eb22e2455824c9fc52c"
+    },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",
