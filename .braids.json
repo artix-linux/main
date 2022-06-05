@@ -2246,6 +2246,11 @@
       "branch": "master",
       "revision": "945e817b41358085a11e8106048ba60e04a83c70"
     },
+    "libupnp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libupnp.git",
+      "branch": "master",
+      "revision": "d1474a277bfb26c3e788a2e4ba80cbac78671fce"
+    },
     "liburing": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liburing.git",
       "branch": "master",
