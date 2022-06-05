@@ -3591,6 +3591,11 @@
       "branch": "master",
       "revision": "4a80d8f78ba106115967c39f4caf58c9ffacfe62"
     },
+    "shairport-sync": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync.git",
+      "branch": "master",
+      "revision": "d49f9b962516849e65b37d088326c445965ccc7c"
+    },
     "shared-mime-info": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shared-mime-info.git",
       "branch": "master",
