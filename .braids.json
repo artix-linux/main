@@ -3386,6 +3386,11 @@
       "branch": "master",
       "revision": "ed5f39a019023504958222df4e14bf196817e9da"
     },
+    "libsass": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsass.git",
+      "branch": "master",
+      "revision": "7ee534f245a0a91208826d26b520c9b50b8ef18e"
+    },
     "libsecp256k1": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsecp256k1.git",
       "branch": "master",
