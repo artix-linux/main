@@ -626,6 +626,11 @@
       "branch": "master",
       "revision": "f33e1b6cb35042437ad427fcc2c53041231706f7"
     },
+    "pybind11": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pybind11.git",
+      "branch": "master",
+      "revision": "c065474fe95c20980512c7576fa697682f4afac3"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
