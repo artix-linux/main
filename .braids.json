@@ -766,6 +766,11 @@
       "branch": "master",
       "revision": "fe2d541e31823045282fe980eebb1a6016655b32"
     },
+    "cmake": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cmake.git",
+      "branch": "master",
+      "revision": "7833c68cf3c73af82338f2f5c65b135fe0ff8e9c"
+    },
     "cmark-gfm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
       "branch": "master",
