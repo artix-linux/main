@@ -2576,6 +2576,11 @@
       "branch": "master",
       "revision": "422f2d40729b8361ef8f0d326a185ff3f9109313"
     },
+    "live-media": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/live-media.git",
+      "branch": "master",
+      "revision": "4355284fb51d4df4264c2a3349c34df698a81890"
+    },
     "lm_sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors.git",
       "branch": "master",
