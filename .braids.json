@@ -906,6 +906,11 @@
       "branch": "master",
       "revision": "d0af126ca43ad9727e0bd08f514f603e2a794fb2"
     },
+    "jami-daemon": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jami-daemon.git",
+      "branch": "master",
+      "revision": "42301ccf51ab8f877a211ce5d8df18da5d29881a"
+    },
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
       "branch": "master",
