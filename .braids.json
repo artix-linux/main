@@ -1546,6 +1546,11 @@
       "branch": "master",
       "revision": "7c4d2f6cdf68fae3af1d69377ba1a2f0d84ca1e9"
     },
+    "xclip": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xclip.git",
+      "branch": "master",
+      "revision": "eafa7494ffe19828a7835cc1be65ad2bb5789270"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
