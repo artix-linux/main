@@ -200,6 +200,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/leatherman.git",
       "branch": "master",
       "revision": "1ffb7ba04c931a95d18ef5a0743d6e84fc5fd447"
+    },
+    "lgi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lgi.git",
+      "branch": "master",
+      "revision": "6a103d272726f4030397ebfa91a413395450212c"
     }
   }
 }
