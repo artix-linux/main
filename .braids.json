@@ -651,6 +651,11 @@
       "branch": "master",
       "revision": "882537c04bb61df7a17696dad92b81173283578e"
     },
+    "libutempter": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libutempter.git",
+      "branch": "master",
+      "revision": "6b6c60db5832e22c767d9d5a87502e9f9b758789"
+    },
     "libvirt-python": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-python.git",
       "branch": "master",
