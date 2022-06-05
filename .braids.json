@@ -716,6 +716,11 @@
       "branch": "master",
       "revision": "8dd96588843ae7a6b02ae694181ff3a95b4cdc25"
     },
+    "libcmis": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcmis.git",
+      "branch": "master",
+      "revision": "262321acea9a0cacdcb1aa503a010aeeb1d2790f"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
