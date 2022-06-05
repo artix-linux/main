@@ -6481,6 +6481,11 @@
       "branch": "master",
       "revision": "ff146b582a4d56e86ec1b610419f1d723d2d5190"
     },
+    "protobuf": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/protobuf.git",
+      "branch": "master",
+      "revision": "53aa2e75a82aeb90b8f7bb0ab5b3c236b3319239"
+    },
     "pugixml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
       "branch": "master",
