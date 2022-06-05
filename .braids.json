@@ -1986,6 +1986,11 @@
       "branch": "master",
       "revision": "ac635574094c6da56131bce7138b38d2eaa7ff22"
     },
+    "netcf": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/netcf.git",
+      "branch": "master",
+      "revision": "cadedf9178cf3aada30f3ba84a9dc8f26dab5c15"
+    },
     "netpbm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netpbm.git",
       "branch": "master",
