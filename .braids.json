@@ -6501,6 +6501,11 @@
       "branch": "master",
       "revision": "65379302568816e73cfe1aebd8f2c30fda5c0508"
     },
+    "publicsuffix-list": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/publicsuffix-list.git",
+      "branch": "master",
+      "revision": "5b9311c8215212c10d43895ad59aedee6625e400"
+    },
     "pugixml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
       "branch": "master",
