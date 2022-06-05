@@ -1,0 +1,2 @@
+# fwupd-efi
+
