@@ -3141,6 +3141,11 @@
       "branch": "master",
       "revision": "30e1fc967b867d1870002821798798feca9cd920"
     },
+    "linux-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/linux-tools.git",
+      "branch": "master",
+      "revision": "8e4f8783235826caf2604a723740f9ddd2b37a6a"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
