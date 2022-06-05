@@ -751,6 +751,11 @@
       "branch": "master",
       "revision": "a2de951a5d68c23430d71492a55b256100eb83bc"
     },
+    "libexif": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libexif.git",
+      "branch": "master",
+      "revision": "bdccaa9e90aca8a35dda303b5eab2a84bfa7fd92"
+    },
     "libfabric": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfabric.git",
       "branch": "master",
