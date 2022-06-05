@@ -7546,6 +7546,11 @@
       "branch": "master",
       "revision": "8a2bb872a238bd96ccc5e33bedde4082ca318038"
     },
+    "yaml-cpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yaml-cpp.git",
+      "branch": "master",
+      "revision": "fd8255a15d87979b9fac632ba4e1be21d530b70f"
+    },
     "yamllint": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yamllint.git",
       "branch": "master",
