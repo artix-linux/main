@@ -8641,6 +8641,11 @@
       "branch": "master",
       "revision": "2153d506d8aa579d556eafd198f46e216675327c"
     },
+    "wireless-regdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireless-regdb.git",
+      "branch": "master",
+      "revision": "17256b2090a4b5d724ae32710446c69b2d770ff6"
+    },
     "wireplumber": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireplumber.git",
       "branch": "master",
