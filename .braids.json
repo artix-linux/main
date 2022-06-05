@@ -381,6 +381,11 @@
       "branch": "master",
       "revision": "c7d4ab67b368de2808fee1d1710d45cad39de51d"
     },
+    "bolt": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bolt.git",
+      "branch": "master",
+      "revision": "0d9d3683bc8f29cf66dc101f88f67ebd75c75790"
+    },
     "botan": {
       "url": "gitea@gitea.artixlinux.org:packagesB/botan.git",
       "branch": "master",
