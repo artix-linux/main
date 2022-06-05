@@ -1301,6 +1301,11 @@
       "branch": "master",
       "revision": "93226dd2474d7e7aa974c068c0247eb475feda35"
     },
+    "libnatpmp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnatpmp.git",
+      "branch": "master",
+      "revision": "3a7a4f5e8959f2c7653c5b5ef49d3bdc99dce5b5"
+    },
     "libndp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libndp.git",
       "branch": "master",
