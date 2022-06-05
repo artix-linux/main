@@ -1911,6 +1911,11 @@
       "branch": "master",
       "revision": "152bf9ebb7bc06f53d63a6bf5eaac9a60aeb1afc"
     },
+    "msgpack-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
+      "branch": "master",
+      "revision": "5fc553a892aaf931c17980e8caef06afa7f38865"
+    },
     "msgpack-cxx": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
       "branch": "master",
