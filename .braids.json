@@ -5401,6 +5401,11 @@
       "branch": "master",
       "revision": "dde4b4113ba9b3292794b92beed00fd855b45d52"
     },
+    "mpdecimal": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpdecimal.git",
+      "branch": "master",
+      "revision": "71987d180c86551b9d41d8b195eabda18d85d85d"
+    },
     "mpg123": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpg123.git",
       "branch": "master",
