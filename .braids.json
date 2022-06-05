@@ -2146,6 +2146,11 @@
       "branch": "master",
       "revision": "0d8ed2a9c04b378783c9b1db656383fe11022c25"
     },
+    "gperf": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gperf.git",
+      "branch": "master",
+      "revision": "8a457ed3d38e8aa8e13d683fff8c84d14729cc96"
+    },
     "grafana": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana.git",
       "branch": "master",
