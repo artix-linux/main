@@ -3261,6 +3261,11 @@
       "branch": "master",
       "revision": "3a037225bb2d0bcb9ed0d3192e3dc19cfe43240a"
     },
+    "libcroco": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcroco.git",
+      "branch": "master",
+      "revision": "87e6d7e59a16fab8cdf07a56923c091516fba55e"
+    },
     "libcue": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcue.git",
       "branch": "master",
