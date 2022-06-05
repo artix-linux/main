@@ -8086,6 +8086,11 @@
       "branch": "master",
       "revision": "0ad6c213c9e3193315e1163b5f6d0b4f478fffc6"
     },
+    "texi2html": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/texi2html.git",
+      "branch": "master",
+      "revision": "d0f4d4ca11554df05e06dc3158cafc73f261b929"
+    },
     "texinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texinfo.git",
       "branch": "master",
