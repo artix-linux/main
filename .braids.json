@@ -1531,6 +1531,11 @@
       "branch": "master",
       "revision": "a21d7f1df211b48a6aa03fd06eb47e9b7a2933a5"
     },
+    "fakechroot": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fakechroot.git",
+      "branch": "master",
+      "revision": "ea414bf1110bc2edb2895710c3bc9659bac75d9e"
+    },
     "farstream": {
       "url": "gitea@gitea.artixlinux.org:packagesF/farstream.git",
       "branch": "master",

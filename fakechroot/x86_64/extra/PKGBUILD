@@ -1,0 +1,75 @@
+# Maintainer:
+# Contributor: Allan McRae <allan@archlinux.org>
+# Contributor: Aaron Griffin <aaron@archlinux.org>
+
+_url=https://sources.debian.org/data/main/f/fakechroot/2.20.1%2Bds-1/debian/patches
+
+pkgname=fakechroot
+pkgver=2.20.1
+pkgrel=2.1
+pkgdesc="Gives a fake chroot environment"
+arch=('x86_64')
+url="https://github.com/dex4er/fakechroot/wiki"
+license=('LGPL')
+depends=('sh' 'perl')
+source=($pkgname-$pkgver.tar.gz::https://github.com/dex4er/fakechroot/archive/${pkgver}.tar.gz
+        $_url/0001-New-statx-function.patch
+        $_url/0002-tmpnam.c-fix-heap-overflow.patch
+        $_url/0003-declare-missing-bufs-remove-ver-from-lstat.patch
+        $_url/0004-fix-glibc-2.33-compatibility.patch
+        $_url/0005-wrap-fstatat-and-fstatat64.patch
+        $_url/0006-Wrap-__nss_files_fopen-for-getpwnam-in-glibc-2.32.patch
+        $_url/0007-src-lckpwdf.c-create-an-empty-etc-.pwd.lock.patch
+        $_url/0008-check-return-value-of-dladdr.patch)
+sha256sums=('7f9d60d0d48611969e195fadf84d05f6c74f71bbf8f41950ad8f5bf061773e18'
+            'ca9c6720111cf88940651aea51ac190da27e87f2112c785e6338fb5e7135a2b0'
+            '0f53e106955f03ed29af1f882570f40fef5457fd44d573b0e76ff1ebe5314ea6'
+            '517d6844884994b237b9b1de435f9539deb4f622ea36632de0ac74728e27291e'
+            '54f51f119c7fca37c8f741ac51066d70fb178f4ff1789012c6248320872e6292'
+            '28b82c5ca81e3cd056f8ec93a7f4ba6a15e3b2da3463d4e6a4b90d847583eca7'
+            '2f9fb6c0886937f53414ef4d6767b567c02b6f6fc27d9353749386c0439274d0'
+            '75a0483affd16c9cbe80dc8fe4c3d86a84010b090585445c7b0c6b7ffaaa4b6e'
+            'a417a17b14f9d3edf613f97d28a346e8bf7c1e0429d2bc6a287c7326ac3a2b03')
+b2sums=('56140ecedd852bb2889f34c5025eb4312299aace048acf5da5a55d520e227a0c7890c8d3355a54d01a20493fa6284bab1c542c910c6cb4fbd99e3154b7cc30ac'
+        '95bb05618781a87ea086ea4554177ff8fb0904db3fa2f67fbaeb12286f6670b7baf6d498dccdebcb88e21dbafa0fd0e1313cf1c112e87e6126f4a4388ed7f111'
+        '3eff5e11e7a527702917c3cca469fdbf26174b7637b81646866045d30181d49715b1acc4e8ac2c57a6ce043d363e1ad5e0821d9aacfd088415ad71d4dc1e4ecd'
+        '993cbc777b9d0e724df3c63fab3043d518fa7dbb52d91bbe69b457c2b69b4cc57de13b728f97fe4772e310424a405d3daa9bef34f0c6bfc71f52a96f080c4320'
+        'cecc6fc6a27df8564ec20bcf54b00fe67001184021d937d2a2a504e019bbdc1df3bc6b4f0a8aee6ec31a340cfaf5fe870a4a33ff238c178f9407e8f498834e06'
+        '9ee5f8772bcdbc86faaa12fa8cf2ca7d2bc888dc554ae673973762db9fc48bc6caaa4b3c74d90008463a9ebe24cd5981a2bf143918b3ac5920129d68be1ca11e'
+        '98ef6890002859f2ccb44db91374a25a1ac33b0c84e6772ce2cfbaf8f69120ee1c35d99062fed81a74faba47479ac368d1f20ad5ce9850e489dd844d34facc3a'
+        '4ed28e338af8be02227743588dfca7abb10a27f7738d2f25e4acaf885ebe782eefeec5f3ccaf2ddf56e486be211dac77d4faeb1aff93590402c849f58358d2c9'
+        '8a8e638451b86f11a5b2ce46248b5bb2ff3ad77ccd360f7bf5bc3228fb7f3ae7d15f32db42d119421ed16373e20f80f3db82211a33014752f3822330de50bfb0')
+
+prepare() {
+  cd $pkgname-$pkgver
+  patch -Np 1 -i ../0001-New-statx-function.patch
+  patch -Np 1 -i ../0002-tmpnam.c-fix-heap-overflow.patch
+  patch -Np 1 -i ../0003-declare-missing-bufs-remove-ver-from-lstat.patch
+  patch -Np 1 -i ../0004-fix-glibc-2.33-compatibility.patch
+  patch -Np 1 -i ../0005-wrap-fstatat-and-fstatat64.patch
+  patch -Np 1 -i ../0006-Wrap-__nss_files_fopen-for-getpwnam-in-glibc-2.32.patch
+  patch -Np 1 -i ../0007-src-lckpwdf.c-create-an-empty-etc-.pwd.lock.patch
+  patch -Np 1 -i ../0008-check-return-value-of-dladdr.patch
+}
+
+build() {
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr --sbindir=/usr/bin \
+    --libdir=/usr/lib/libfakeroot --sysconfdir=/etc
+  make
+}
+
+check() {
+  cd $pkgname-$pkgver
+
+  # t/fts.t fails when building on BTRFS...  (really!)
+  make -k check || :
+}
+
+package() {
+  cd $pkgname-$pkgver
+  make DESTDIR="${pkgdir}" install
+
+  install -dm755 "${pkgdir}"/etc/ld.so.conf.d/
+  echo '/usr/lib/libfakeroot/fakechroot/' > "${pkgdir}"/etc/ld.so.conf.d/fakechroot.conf
+}
