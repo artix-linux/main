@@ -476,6 +476,11 @@
       "branch": "master",
       "revision": "fe99329cbae882bf84eec829f1614b0997455ed8"
     },
+    "bootlogd": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd.git",
+      "branch": "master",
+      "revision": "a7da9fec89c853128cc9d1cd8649d355f11d2c9d"
+    },
     "botan": {
       "url": "gitea@gitea.artixlinux.org:packagesB/botan.git",
       "branch": "master",
