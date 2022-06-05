@@ -330,6 +330,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openpmix.git",
       "branch": "master",
       "revision": "3d3658d871fd684592c97bd62871b4e1921f05c3"
+    },
+    "openvdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
+      "branch": "master",
+      "revision": "4248ae8dbb9a86be9f477b263ee2b227f7ec1215"
     }
   }
 }
