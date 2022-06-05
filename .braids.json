@@ -5011,6 +5011,11 @@
       "branch": "master",
       "revision": "5daad1c41015ebcfdd4269d519936552daa37a9d"
     },
+    "pcsclite": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite.git",
+      "branch": "master",
+      "revision": "0844cd2cb54de9976790d0193dc984fc6d47fee8"
+    },
     "pdfjs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdfjs.git",
       "branch": "master",
