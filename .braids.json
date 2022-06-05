@@ -421,6 +421,11 @@
       "branch": "master",
       "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
     },
+    "glpk": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glpk.git",
+      "branch": "master",
+      "revision": "45e130ef19f750552b263cf5f3f19e1e19e5ba6f"
+    },
     "glslang": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glslang.git",
       "branch": "master",
