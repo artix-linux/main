@@ -1821,6 +1821,11 @@
       "branch": "master",
       "revision": "6c558d63e03df3ecafa7c57c83c7dc104e3cb8a7"
     },
+    "xosd": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xosd.git",
+      "branch": "master",
+      "revision": "42dfa8e0bc6103ae533a26252995cab66cfb77e2"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
