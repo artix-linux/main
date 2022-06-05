@@ -3996,6 +3996,11 @@
       "branch": "master",
       "revision": "18872b6218a3e72fa277c7440a2bc1c782dda668"
     },
+    "qt5-webchannel": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webchannel.git",
+      "branch": "master",
+      "revision": "47ab4cb29cf4a1362be15ef49aa3eb3ffb7de3f6"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
