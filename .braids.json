@@ -1811,6 +1811,11 @@
       "branch": "master",
       "revision": "3b8a9f3498756f7c88f039697b7fdaa2a2a430ad"
     },
+    "libldac": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libldac.git",
+      "branch": "master",
+      "revision": "8f738fe6867f8f8331ae55fdfb06e0c40b0be247"
+    },
     "liblqr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblqr.git",
       "branch": "master",
