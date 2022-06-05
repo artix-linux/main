@@ -5086,6 +5086,11 @@
       "branch": "master",
       "revision": "ab9f11b3136975e7cc7ccc3cd8beba8566eda8d9"
     },
+    "plocate": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
+      "branch": "master",
+      "revision": "0ccc69951d77b38c3d3b0685cf1c0870a01cfd0b"
+    },
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
       "branch": "master",
