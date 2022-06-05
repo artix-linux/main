@@ -5021,6 +5021,11 @@
       "branch": "master",
       "revision": "743b188de85fb0e50cc4fdb458a00421f27fd48e"
     },
+    "lynx": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lynx.git",
+      "branch": "master",
+      "revision": "d2aee72b8c43ca342f47718617cd5e1eeb7b3691"
+    },
     "lzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lzip.git",
       "branch": "master",
