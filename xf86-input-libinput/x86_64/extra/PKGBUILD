@@ -1,0 +1,34 @@
+# Maintainer: Laurent Carlier <lordheavym@gmail.com>
+
+pkgname=xf86-input-libinput
+pkgver=1.2.1
+pkgrel=1
+pkgdesc="Generic input driver for the X.Org server based on libinput"
+arch=('x86_64')
+license=('custom:MIT')
+url="http://xorg.freedesktop.org/"
+depends=('libinput')
+makedepends=('xorg-server-devel' 'X-ABI-XINPUT_VERSION=24.4' 'libxi' 'libx11' 'xorgproto')
+conflicts=('xorg-server<1.19.0' 'X-ABI-XINPUT_VERSION<24' 'X-ABI-XINPUT_VERSION>=25')
+groups=('xorg-drivers')
+source=(https://xorg.freedesktop.org/releases/individual/driver/${pkgname}-${pkgver}.tar.xz{,.sig})
+sha512sums=('3decf694861d1aa3c02d090e66c5ed5513818cb18e9863f1790e0c8122a972230fb903705062b8291e1709db9098623f1205c63ccfb68e552e104813414589c7'
+            'SKIP')
+validpgpkeys=('3C2C43D9447D5938EF4551EBE23B7E70B467F0BF') # Peter Hutterer (Who-T) <office@who-t.net>
+#validpgpkeys=('FD0004A26EADFE43A4C3F249C6F7AE200374452D') # "Povilas Kanapickas <povilas@radix.lt>"
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr \
+    --disable-static
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" install
+
+  install -m755 -d "${pkgdir}/usr/share/licenses/${pkgname}"
+  install -m644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/"
+}

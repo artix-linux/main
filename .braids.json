@@ -1581,6 +1581,11 @@
       "branch": "master",
       "revision": "ab8eb430728ad07736c3cc4e2dcbd676eb30bcae"
     },
+    "xf86-input-libinput": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-libinput.git",
+      "branch": "master",
+      "revision": "9d0a60821dcbf0bac5f00d8a46f79938d17efa26"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
