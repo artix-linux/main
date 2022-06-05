@@ -3036,6 +3036,11 @@
       "branch": "master",
       "revision": "d33df879d8660aa06af270eebcbde9f489f35b2f"
     },
+    "vsftpd": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd.git",
+      "branch": "master",
+      "revision": "8f64d6e8c8f2ceb0bffec8c6b7b9303cf99bf615"
+    },
     "vulkan-docs": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-docs.git",
       "branch": "master",
