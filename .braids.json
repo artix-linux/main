@@ -496,6 +496,11 @@
       "branch": "master",
       "revision": "a21d7f1df211b48a6aa03fd06eb47e9b7a2933a5"
     },
+    "fcgi": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcgi.git",
+      "branch": "master",
+      "revision": "fc9dbaee523d4ae41e7fdb79f08c8dce80d31d20"
+    },
     "fcitx-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-mozc.git",
       "branch": "master",
