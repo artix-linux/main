@@ -731,6 +731,11 @@
       "branch": "master",
       "revision": "0d19d2e977021919dee6a576db69895f1150ad73"
     },
+    "libe-book": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libe-book.git",
+      "branch": "master",
+      "revision": "ba5457416b5e534030925357b0a5613a8281ed78"
+    },
     "libevdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevdev.git",
       "branch": "master",
