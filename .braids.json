@@ -1341,6 +1341,11 @@
       "branch": "master",
       "revision": "ff33583d92288b554e5bc78320b87ec9d5b49f93"
     },
+    "efibootmgr": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/efibootmgr.git",
+      "branch": "master",
+      "revision": "bb7a244d9fc9aa384e9c24dfac812838bd9d396f"
+    },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
