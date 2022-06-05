@@ -3111,6 +3111,11 @@
       "branch": "master",
       "revision": "f3b87c0d3b7eacf17e96dcb00574d4fcd5aa7ea6"
     },
+    "opusfile": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opusfile.git",
+      "branch": "master",
+      "revision": "f9816ec4d783d12950f9b5a92f593df6fb3b1ed0"
+    },
     "ospray": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",
