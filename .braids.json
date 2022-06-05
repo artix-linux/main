@@ -6911,6 +6911,11 @@
       "branch": "master",
       "revision": "60fc89fb41f92a8f6861206164a7846f9e14b1e7"
     },
+    "virtualbox-guest-iso": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-guest-iso.git",
+      "branch": "master",
+      "revision": "331e8a2d2a0c0690d3f164d7ca2cf66d9dcadf72"
+    },
     "virtualbox-modules-artix": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-modules-artix.git",
       "branch": "master",
