@@ -6596,6 +6596,11 @@
       "branch": "master",
       "revision": "c72760933f0f4d1c7e5bc0e78d358982b00f79fb"
     },
+    "trizen": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trizen.git",
+      "branch": "master",
+      "revision": "55cbab5aa22841bc48a360c89692e213e0709810"
+    },
     "trojan": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan.git",
       "branch": "master",
