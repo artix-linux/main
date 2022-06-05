@@ -5916,6 +5916,11 @@
       "branch": "master",
       "revision": "48894141b3299961775e78f0fa6e82c3059763f0"
     },
+    "scdoc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
+      "branch": "master",
+      "revision": "07d02d87c6b16100ffdd4b1683483e3671f3a8cc"
+    },
     "schroedinger": {
       "url": "gitea@gitea.artixlinux.org:packagesS/schroedinger.git",
       "branch": "master",
