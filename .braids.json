@@ -1371,6 +1371,11 @@
       "branch": "master",
       "revision": "9dff59ea7eefa39aaaf4c488bd9df91dbfcf174c"
     },
+    "usbmuxd": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbmuxd.git",
+      "branch": "master",
+      "revision": "a667975df6a46d282b42c92650c829fee23e82b1"
+    },
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
       "branch": "master",
