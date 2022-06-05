@@ -226,6 +226,11 @@
       "branch": "master",
       "revision": "6dedd97fc047d087088fdd75d314f743d7211f32"
     },
+    "djvulibre": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/djvulibre.git",
+      "branch": "master",
+      "revision": "ef11a71b63c3e104b64c3f432b95fe70e33b2d7d"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
