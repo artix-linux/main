@@ -1811,6 +1811,11 @@
       "branch": "master",
       "revision": "32cc79b4550c0523d2c56ec1698910bca44b2b03"
     },
+    "xorg-xwayland": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwayland.git",
+      "branch": "master",
+      "revision": "00c45195c2d65743bd5d0450d373ed9f303e8ff0"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
