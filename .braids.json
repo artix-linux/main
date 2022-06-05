@@ -1256,6 +1256,11 @@
       "branch": "master",
       "revision": "17684e61e7c9382b7a8d270c5f14be2362269c95"
     },
+    "gtk-engine-murrine": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gtk-engine-murrine.git",
+      "branch": "master",
+      "revision": "8585b90c646e146d7607842598e1d81a58ade443"
+    },
     "gtk2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk2.git",
       "branch": "master",
