@@ -3461,6 +3461,11 @@
       "branch": "master",
       "revision": "36e144a054b9b852e8e95172b169a20782df46e6"
     },
+    "rtaudio": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rtaudio.git",
+      "branch": "master",
+      "revision": "e8a59779bdb81be230ab504152bacb5a4ff2e2c3"
+    },
     "rtorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtorrent.git",
       "branch": "master",
