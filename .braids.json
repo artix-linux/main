@@ -616,6 +616,11 @@
       "branch": "master",
       "revision": "ba6339a1b3b07d89e8621ebd29cb79d75f7c8e20"
     },
+    "emovix": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/emovix.git",
+      "branch": "master",
+      "revision": "0d3e102bcc01fd73dbce3bf93a8cdb643096ae2b"
+    },
     "enblend-enfuse": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enblend-enfuse.git",
       "branch": "master",
