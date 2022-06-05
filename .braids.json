@@ -8926,6 +8926,11 @@
       "branch": "master",
       "revision": "c81b1431b627208894c11efc0c5a47a0f503bd0d"
     },
+    "xmlto": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xmlto.git",
+      "branch": "master",
+      "revision": "2c8f7eb0c8c82d131ead52869e614ce721362566"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
