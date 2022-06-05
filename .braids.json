@@ -986,6 +986,11 @@
       "branch": "master",
       "revision": "1c987f8a3a847c68f4fff51d1935eff26b57282f"
     },
+    "opencl-headers": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opencl-headers.git",
+      "branch": "master",
+      "revision": "283fcdcfad8328794876513ddd80844687b6be85"
+    },
     "opendoas": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendoas.git",
       "branch": "master",
