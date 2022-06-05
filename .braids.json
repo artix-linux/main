@@ -2416,6 +2416,11 @@
       "branch": "master",
       "revision": "2bec005bf0c05e01ee35c7b3e2ad01812f729e59"
     },
+    "haveged": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haveged.git",
+      "branch": "master",
+      "revision": "32571410c81a914340c6253e157dec4879ccbbb1"
+    },
     "hdf5": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdf5.git",
       "branch": "master",
