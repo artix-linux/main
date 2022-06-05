@@ -2661,6 +2661,11 @@
       "branch": "master",
       "revision": "14a6ecc2c7c63469f54aacdd0b89be8bdd79b43f"
     },
+    "libdnet": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdnet.git",
+      "branch": "master",
+      "revision": "c64c74cab90fd8e29fa369ea9beaed67a2d9e4a1"
+    },
     "libdrm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdrm.git",
       "branch": "master",
