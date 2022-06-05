@@ -1,0 +1,85 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: loqs
+# Contributor: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Vesa Kaihlavirta <vesa@archlinux.org>
+# Contributor: Sarah Hay <sarahhay@mb.sympatico.ca>
+# Contributor: Tom Burdick <thomas.burdick@wrightwoodtech.com>
+# Contributor: Ricardo Catalinas Jiménez <jimenezrick@gmail.com>
+
+pkgbase=erlang
+pkgname=(erlang erlang-unixodbc)
+pkgver=24.3.2
+pkgrel=3
+_docver=24.2
+arch=(x86_64)
+url='https://erlang.org'
+license=(Apache)
+makedepends=(fop git glu java-environment libxslt lksctp-tools mesa perl unixodbc wxgtk3)
+options=(staticlibs)
+source=("$url/download/otp_doc_man_$_docver.tar.gz"
+        "git+https://github.com/erlang/otp#commit=7bd6e24d3dded3a393f9bb774ccf98cc0af4d595") # tag: OTP-24.3.2
+b2sums=('17cf3c1e296c883e9c930cd540d439f7dd71a40048bbe80efd6f46dd5b4d9faf51177d2bb133f782742b0b367c8f54c27ed2b2cce277372a98dd55bb629f3b55'
+        'SKIP')
+
+prepare() {
+  # use a hack so that erlang can find wx-config-gtk3 as wx-config in the $PATH
+  mkdir -p bin
+  ln -fs /usr/bin/wx-config-gtk3 bin/wx-config
+  export PATH="$srcdir/bin:$PATH"
+  # adjust how LDFLAGS are handled
+  sed -i 's/^LDFLAGS = /LDFLAGS += /g' \
+    otp/lib/{odbc/c_src,megaco/src/flex}/Makefile.in
+}
+
+build() {
+  export CFLAGS+=' -ffat-lto-objects'
+  export PATH="$srcdir/bin:$PATH"
+  export WX_GKT_VER="3.0"
+  cd otp
+  ./otp_build autoconf
+  ./configure \
+    --enable-builtin-zlib \
+    --enable-smp-support \
+    --prefix=/usr \
+    --with-odbc \
+    --with-wx-config=/usr/bin/wx-config-gtk3
+  make
+}
+
+package_erlang() {
+  pkgdesc='General-purpose concurrent functional programming language developed by Ericsson'
+  depends=(glu ncurses openssl webkit2gtk wxgtk3)
+  optdepends=('erlang-unixodbc: database support'
+              'java-environment: for Java support'
+              'lksctp-tools: for SCTP support')
+  provides=(erlang-nox)
+  conflicts=(erlang-nox)
+
+  export PATH="$srcdir/bin:$PATH"
+  make -C otp DESTDIR="$pkgdir" install
+
+  # move files that belong to the erlang-unixodbc package
+  mkdir -p unixodbc
+  mv "$pkgdir/usr/lib/erlang/lib/odbc"* "$srcdir/unixodbc/"
+
+  # readme and licenses
+  install -Dm644 otp/README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+  install -Dm644 otp/LICENSE.txt "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 otp/CONTRIBUTING.md "$pkgdir/usr/share/doc/$pkgname/CONTRIBUTING.md"
+  install -Dm644 otp/AUTHORS "$pkgdir/usr/share/doc/$pkgname/AUTHORS"
+
+  # man pages
+  cp -r man "$pkgdir/usr/lib/erlang/"
+}
+
+package_erlang-unixodbc() {
+  pkgdesc='Unixodbc support for Erlang'
+  depends=(erlang-nox unixodbc)
+
+  install -d "$pkgdir/usr/lib/erlang/lib"
+  mv unixodbc/* "$pkgdir/usr/lib/erlang/lib/"
+  install -Dm644 otp/LICENSE.txt \
+    "$pkgdir/usr/share/licenses/$pkgname/LICENCE.txt"
+}
+
+# getver: raw.githubusercontent.com/erlang/otp/maint/OTP_VERSION
