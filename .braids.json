@@ -7061,6 +7061,11 @@
       "branch": "master",
       "revision": "ddadf5df0131573400d1a8bb3ee0b77676ec0822"
     },
+    "re2c": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/re2c.git",
+      "branch": "master",
+      "revision": "1f73aa18b984515cd644844960e082541e36c282"
+    },
     "rebar": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rebar.git",
       "branch": "master",
