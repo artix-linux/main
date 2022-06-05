@@ -5571,6 +5571,11 @@
       "branch": "master",
       "revision": "cea58f2db4a2ec574d7fa76201b68398021f7340"
     },
+    "net-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/net-tools.git",
+      "branch": "master",
+      "revision": "ac3bfaebb7582a759caba1c033a16bccad235407"
+    },
     "netcdf": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcdf.git",
       "branch": "master",
