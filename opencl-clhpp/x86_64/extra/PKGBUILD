@@ -1,0 +1,34 @@
+# Maintainer: Laurent Carlier <lordheavym@gmail.com>
+
+pkgname=opencl-clhpp
+pkgver=2.0.16
+pkgrel=1
+pkgdesc='OpenCL C++ header files'
+arch=('any')
+url='https://github.com/KhronosGroup/OpenCL-CLHPP'
+license=('custom')
+makedepends=('cmake' 'doxygen' 'graphviz')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/KhronosGroup/OpenCL-CLHPP/archive/v${pkgver}.tar.gz")
+sha256sums=('869456032e60787eed9fceaeaf6c6cb4452bc0ff97e0f5a271510145a1c8f4d4')
+depends=('opencl-headers')
+
+build() {
+  cd "${srcdir}"/OpenCL-CLHPP*/
+
+  cmake -B build ./ \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DBUILD_DOCS=On \
+    -DBUILD_EXAMPLES=Off \
+    -DBUILD_TESTS=Off
+  make -C build docs
+}
+
+package() {
+  cd "${srcdir}"/OpenCL-CLHPP*/
+
+  DESTDIR="$pkgdir" make -C build install
+  
+  install -dm755 "${pkgdir}"/usr/share/doc/"${pkgname}"
+  cp -r build/docs/html/* "${pkgdir}"/usr/share/doc/"${pkgname}"/
+  install -D -m644 LICENSE.txt "${pkgdir}"/usr/share/licenses/"${pkgname}"/LICENSE
+}

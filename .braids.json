@@ -1456,6 +1456,11 @@
       "branch": "master",
       "revision": "1c987f8a3a847c68f4fff51d1935eff26b57282f"
     },
+    "opencl-clhpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opencl-clhpp.git",
+      "branch": "master",
+      "revision": "2ff779bc6dcfe31015e1c6ab5cab3ca03605495b"
+    },
     "opencl-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencl-headers.git",
       "branch": "master",
