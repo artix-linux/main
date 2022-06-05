@@ -1816,6 +1816,11 @@
       "branch": "master",
       "revision": "25d05796c842408f8adca7607f9c099a234a5a30"
     },
+    "fuse3": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fuse3.git",
+      "branch": "master",
+      "revision": "bfeb48b6df1e71ced9f9baba39c859da353a2ac2"
+    },
     "fwknop": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwknop.git",
       "branch": "master",
