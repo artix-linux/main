@@ -946,6 +946,11 @@
       "branch": "master",
       "revision": "b8aab42d242bb145fa6f0b5f29e1f9ef03be91aa"
     },
+    "networkmanager-openvpn": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-openvpn.git",
+      "branch": "master",
+      "revision": "da4f0693ccdc6225e437ce8e5e951be0117be25e"
+    },
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
