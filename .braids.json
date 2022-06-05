@@ -1296,6 +1296,11 @@
       "branch": "master",
       "revision": "99ec5e035dcdc2b2fb44bc9193888f30dc10100f"
     },
+    "ttf-inconsolata": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-inconsolata.git",
+      "branch": "master",
+      "revision": "9f6e12666de71fc56acfaf03f1ebefe6b91c3521"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
