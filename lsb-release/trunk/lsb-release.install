@@ -1,0 +1,12 @@
+post_install() {
+  echo "Artix Linux release" >> /etc/artix-release
+}
+
+post_upgrade() {
+  sed -e "/Artix Linux release/d" -i /etc/artix-release
+  echo "Artix Linux release" >> /etc/artix-release
+}
+
+pre_remove() {
+  sed -e "/Artix Linux release/d" -i /etc/artix-release
+}

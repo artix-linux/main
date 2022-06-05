@@ -4021,6 +4021,11 @@
       "branch": "master",
       "revision": "410301fd220b1b48345c5b3c677bb62a660c009e"
     },
+    "lsb-release": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lsb-release.git",
+      "branch": "master",
+      "revision": "d0e3f85e4653c03f47e675c5e58fc80667987934"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
