@@ -1,0 +1,29 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+
+pkgname=marked
+pkgver=4.0.2
+pkgrel=1
+pkgdesc="A markdown parser built for speed"
+arch=('any')
+url='https://github.com/chjj/marked'
+license=('MIT')
+depends=('nodejs')
+makedepends=('npm')
+source=(https://registry.npmjs.org/$pkgname/-/$pkgname-$pkgver.tgz)
+noextract=($pkgname-$pkgver.tgz)
+sha512sums=('cded8ddea6c15bf123aa3c3d15c4ab4a0b182491e3f2503893e558e9cc6d4e62b42f0e42265f778aa7516dde8e3e84cacd8d6a04461f396ba44bd16d4ad74175')
+
+package() {
+  npm install -g --prefix "$pkgdir"/usr "$srcdir"/$pkgname-$pkgver.tgz
+
+  # Non-deterministic race in npm gives 777 permissions to random directories.
+  # See https://github.com/npm/npm/issues/9359 for details.
+  chmod -R u=rwX,go=rX "$pkgdir"
+
+  # npm installs package.json owned by build user
+  # https://bugs.archlinux.org/task/63396
+  chown -R root:root "$pkgdir"
+
+  install -d "$pkgdir"/usr/share/licenses/$pkgname
+  ln -s ../../../lib/node_modules/marked/LICENSE.md "$pkgdir"/usr/share/licenses/$pkgname/LICENSE.md
+}

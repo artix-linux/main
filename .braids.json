@@ -4146,6 +4146,11 @@
       "branch": "master",
       "revision": "8f770240f5956e933199f89353776bed2a19dbc1"
     },
+    "marked": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/marked.git",
+      "branch": "master",
+      "revision": "5ff7c2267112b146ce2383853653ff85c8d1feee"
+    },
     "mat2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mat2.git",
       "branch": "master",
