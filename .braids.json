@@ -706,6 +706,11 @@
       "branch": "master",
       "revision": "c03d330defe904d61f8579cbe8ff3d798e35cab0"
     },
+    "libcdr": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcdr.git",
+      "branch": "master",
+      "revision": "9733dd3fd7879f53b85ddeb2278256ff12f741b8"
+    },
     "libclc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libclc.git",
       "branch": "master",
