@@ -611,6 +611,11 @@
       "branch": "master",
       "revision": "77cfae3ea42d90cc505081de9864f8bc5928d3d9"
     },
+    "pifpaf": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pifpaf.git",
+      "branch": "master",
+      "revision": "87145931f4199aaeddbababb6dc44692541d5e58"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
