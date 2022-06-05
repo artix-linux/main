@@ -606,6 +606,11 @@
       "branch": "master",
       "revision": "919a0e9ec0d6de93047eba45a8cdc9d3d8895eab"
     },
+    "picard": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
+      "branch": "master",
+      "revision": "77cfae3ea42d90cc505081de9864f8bc5928d3d9"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
