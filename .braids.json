@@ -781,6 +781,11 @@
       "branch": "master",
       "revision": "87dece281509ee341edd8a4d9f0916f6334af58e"
     },
+    "libgdiplus": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgdiplus.git",
+      "branch": "master",
+      "revision": "3abd5517f9807238e9bd9386c1ae23825aaa2ace"
+    },
     "libglvnd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libglvnd.git",
       "branch": "master",
