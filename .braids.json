@@ -1721,6 +1721,11 @@
       "branch": "master",
       "revision": "8bbaa17a238dd91d22976b0ee31ae5e2d4306df5"
     },
+    "fmt": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fmt.git",
+      "branch": "master",
+      "revision": "f76d403d35c4654dc588008fa29095fbb7467c51"
+    },
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
       "branch": "master",
