@@ -2811,6 +2811,11 @@
       "branch": "master",
       "revision": "e757d1ce76967e13226053169498189ff67fdcc2"
     },
+    "transmission-sequential": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transmission-sequential.git",
+      "branch": "master",
+      "revision": "02fb13888074a45c65d10b79d37911390dbaf398"
+    },
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
