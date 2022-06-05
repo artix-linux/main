@@ -2481,6 +2481,11 @@
       "branch": "master",
       "revision": "80d9eb1c9a74fd3b7d3eb13c1afb7479e9197ac9"
     },
+    "hiera": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hiera.git",
+      "branch": "master",
+      "revision": "347589a89ccf9f63dff73546b25ec79cc528bab6"
+    },
     "highway": {
       "url": "gitea@gitea.artixlinux.org:packagesH/highway.git",
       "branch": "master",
