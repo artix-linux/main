@@ -541,6 +541,11 @@
       "branch": "master",
       "revision": "e0007a2fa8e7fd9ab377432da78b7ca9ead6b579"
     },
+    "imath": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/imath.git",
+      "branch": "master",
+      "revision": "651db5fb774b1d5742a48433b21dc2184507299f"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
