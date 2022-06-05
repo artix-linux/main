@@ -1671,6 +1671,11 @@
       "branch": "master",
       "revision": "5d31268333440b418fdca48fdaa51c958395f641"
     },
+    "xorg-bdftopcf": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-bdftopcf.git",
+      "branch": "master",
+      "revision": "cbdb9816fa2ed52cb370aaf7a81329a473ee0ec0"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
