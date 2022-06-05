@@ -390,6 +390,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/rkcommon.git",
       "branch": "master",
       "revision": "694d9f21de0df1ed165136db62f788547d1eac00"
+    },
+    "scim": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/scim.git",
+      "branch": "master",
+      "revision": "f6987d50472b803d3971e818951634878d8fcd58"
     }
   }
 }
