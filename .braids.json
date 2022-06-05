@@ -241,6 +241,11 @@
       "branch": "master",
       "revision": "30634a416b6b0ea101c07e7a6bf8e6ab25f5cf5e"
     },
+    "cloud-init": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cloud-init.git",
+      "branch": "master",
+      "revision": "1b2ef32e5aa424a2ad854331a96a49e07d86dd87"
+    },
     "cmark-gfm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
       "branch": "master",
