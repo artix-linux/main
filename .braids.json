@@ -2761,6 +2761,11 @@
       "branch": "master",
       "revision": "48de90c2f4bc6b9e2d3840303f22c6ee028ad441"
     },
+    "libwpe": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwpe.git",
+      "branch": "master",
+      "revision": "df78754c2d6b9e1b7712b703c4f282b5f3cb2ef1"
+    },
     "libwpg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpg.git",
       "branch": "master",
