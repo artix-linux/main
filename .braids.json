@@ -896,6 +896,11 @@
       "branch": "master",
       "revision": "0413768f61fc2da24e77a2f29879192dd8ca9ce7"
     },
+    "isync": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/isync.git",
+      "branch": "master",
+      "revision": "3282895cc192b970a8f44f01e628d6cca8e4deeb"
+    },
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
       "branch": "master",
