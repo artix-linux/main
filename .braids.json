@@ -3621,6 +3621,11 @@
       "branch": "master",
       "revision": "8921bdf179d9f7b58b9391d67936f97e00f21efc"
     },
+    "nvidia-open": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-open.git",
+      "branch": "master",
+      "revision": "89f54590f832ac224d36ff9786e803ea44beeb37"
+    },
     "ocaml": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml.git",
       "branch": "master",
