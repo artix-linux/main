@@ -1186,6 +1186,11 @@
       "branch": "master",
       "revision": "154e87801d42beeae030194c5827ccec21222f78"
     },
+    "stoken": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
+      "branch": "master",
+      "revision": "9632fffddc8e18895ccde6abc1874db015bb617d"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
