@@ -1881,6 +1881,11 @@
       "branch": "master",
       "revision": "f9d309040520ca225cfa542c0dc83dd6660c70b1"
     },
+    "gdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gdb.git",
+      "branch": "master",
+      "revision": "9290f1ac40ddcfa2327048a873dab902d331bb0f"
+    },
     "gdk-pixbuf-xlib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdk-pixbuf-xlib.git",
       "branch": "master",
