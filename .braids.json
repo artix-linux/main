@@ -326,6 +326,11 @@
       "branch": "master",
       "revision": "76bb8272840ed4d7ed5f830357cfa8470a8cc012"
     },
+    "autoconf2.13": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/autoconf2.13.git",
+      "branch": "master",
+      "revision": "b1f88797a80b9b3c0d83e070e5e09fe3701bd413"
+    },
     "autopep8": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autopep8.git",
       "branch": "master",
