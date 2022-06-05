@@ -1941,6 +1941,11 @@
       "branch": "master",
       "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
     },
+    "mutt": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mutt.git",
+      "branch": "master",
+      "revision": "f15315b1214c1fd1ab637cdccaaac6cc669e65de"
+    },
     "mypaint-brushes1": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mypaint-brushes1.git",
       "branch": "master",
