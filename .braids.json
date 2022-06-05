@@ -6116,6 +6116,11 @@
       "branch": "master",
       "revision": "6a71dd59d6e670f8e9f76894b66b04e320511992"
     },
+    "socklog": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/socklog.git",
+      "branch": "master",
+      "revision": "b00dac8c25e37d09079df0f5814834916762a6f2"
+    },
     "sof-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sof-bin.git",
       "branch": "master",

@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ ! -d /var/log/socklog ]; then
+    for folder in cron daemon debug errors everything lpr \
+        mail messages remote-udp secure tty12 user ;do
+        mkdir -p /var/log/socklog/$folder
+    done
+fi
+exec chpst -uroot svlogd /var/log/socklog/*
