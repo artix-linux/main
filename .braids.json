@@ -1916,6 +1916,11 @@
       "branch": "master",
       "revision": "55f1c8b649255919097e99818fd4662fb63734ba"
     },
+    "libmusicbrainz5": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmusicbrainz5.git",
+      "branch": "master",
+      "revision": "6d4489ab0cdd80ed19832a13656a87c2eb7dc27c"
+    },
     "libmwaw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmwaw.git",
       "branch": "master",
