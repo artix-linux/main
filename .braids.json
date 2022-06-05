@@ -1801,6 +1801,11 @@
       "branch": "master",
       "revision": "06a6bf2e5a848872ba523b5a3e6e7777a9a834ff"
     },
+    "xorg-xset": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xset.git",
+      "branch": "master",
+      "revision": "df710fe1c1d551dbb80f07187eb3be0828df08e1"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
