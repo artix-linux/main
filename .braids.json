@@ -7206,6 +7206,11 @@
       "branch": "master",
       "revision": "df5e8b3cf177233cfe3a04cc243652551c28e9a3"
     },
+    "razor": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/razor.git",
+      "branch": "master",
+      "revision": "4fd825c4a986bc59915fdd7c31aeb451d7f9f722"
+    },
     "rclone": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rclone.git",
       "branch": "master",
