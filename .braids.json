@@ -746,6 +746,11 @@
       "branch": "master",
       "revision": "96390849b90ff8f9baf87704cf222bec5a1fa919"
     },
+    "libxfont2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxfont2.git",
+      "branch": "master",
+      "revision": "a82f7f44ccd387c87a6dc66948598b8ab63865ba"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
