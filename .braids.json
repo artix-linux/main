@@ -3191,6 +3191,11 @@
       "branch": "master",
       "revision": "29a38951e30b89d4211fb60ca17fb10b7cc4b126"
     },
+    "mesa": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
+      "branch": "master",
+      "revision": "f6b7156b5ba990334b0858330fb811887fee27a5"
+    },
     "mesa-demos": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa-demos.git",
       "branch": "master",
