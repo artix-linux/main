@@ -1711,6 +1711,11 @@
       "branch": "master",
       "revision": "af5dc89f6fcad67911e98f43d392d189b9382657"
     },
+    "go-ethereum": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/go-ethereum.git",
+      "branch": "master",
+      "revision": "24e6b62c131af252a997fe1425bb8ad7462cab0b"
+    },
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
       "branch": "master",
