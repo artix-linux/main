@@ -1016,6 +1016,11 @@
       "branch": "master",
       "revision": "1ec84dbd21d2e79fdc10d476f951a486380af044"
     },
+    "libstaroffice": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libstaroffice.git",
+      "branch": "master",
+      "revision": "eccbc5365d8f065f1e3950de01a4016547dc04ff"
+    },
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
