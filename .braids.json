@@ -1171,6 +1171,11 @@
       "branch": "master",
       "revision": "87dece281509ee341edd8a4d9f0916f6334af58e"
     },
+    "libgadu": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgadu.git",
+      "branch": "master",
+      "revision": "b29ddd6ced82a0db2bc1a4fe1acd4190a2cc5f5f"
+    },
     "libgdiplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdiplus.git",
       "branch": "master",
