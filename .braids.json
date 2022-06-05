@@ -1106,6 +1106,11 @@
       "branch": "master",
       "revision": "48de90c2f4bc6b9e2d3840303f22c6ee028ad441"
     },
+    "libwpg": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwpg.git",
+      "branch": "master",
+      "revision": "9db87336c0bcc644a90402db46ada9bed31f5f5b"
+    },
     "libx11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx11.git",
       "branch": "master",
