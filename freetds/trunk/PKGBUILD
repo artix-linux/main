@@ -1,0 +1,27 @@
+# Maintainer:
+
+pkgname=freetds
+pkgver=1.3.11
+pkgrel=1
+pkgdesc='Library for accessing Sybase and MS SQL Server databases'
+url='https://www.freetds.org'
+arch=(x86_64)
+license=(LGPL)
+depends=(openssl unixodbc)
+backup=(etc/freetds/freetds.conf
+        etc/freetds/locales.conf
+        etc/freetds/pool.conf)
+source=(ftp://ftp.freetds.org/pub/freetds/stable/$pkgname-$pkgver.tar.bz2)
+sha256sums=('31ab43617cb096788975eb2b5503b32893f1faca2dabe31543b8c09a8d9d1b8a')
+
+build() {
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr --sysconfdir=/etc/freetds --enable-msdblib \
+    --with-unixodbc=/usr --with-openssl
+  make 
+}
+
+package() {
+  cd $pkgname-$pkgver
+  make DESTDIR="$pkgdir" install
+}

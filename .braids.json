@@ -130,6 +130,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/firejail.git",
       "branch": "master",
       "revision": "78790a3ac5b2cf96260723877bc2a7afc3658643"
+    },
+    "freetds": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
+      "branch": "master",
+      "revision": "029285b5e6f49857cc730944301d08523c5c8453"
     }
   }
 }
