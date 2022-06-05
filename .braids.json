@@ -186,6 +186,11 @@
       "branch": "master",
       "revision": "410a729c5787a835987e53b367eda3b3c824c440"
     },
+    "cuda": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cuda.git",
+      "branch": "master",
+      "revision": "02d12302e69ef77a83ee2253a974f7afeb2ef41e"
+    },
     "cython": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
       "branch": "master",
