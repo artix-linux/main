@@ -1701,6 +1701,11 @@
       "branch": "master",
       "revision": "51507efc2082fcfa0c46949d6ba924b817921a40"
     },
+    "xorg-mkfontscale": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-mkfontscale.git",
+      "branch": "master",
+      "revision": "86117a0baece958f53b1176adc680e40c755028a"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
