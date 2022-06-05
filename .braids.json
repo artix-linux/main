@@ -336,6 +336,11 @@
       "branch": "master",
       "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
     },
+    "chromaprint": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
+      "branch": "master",
+      "revision": "04003c0dab2a65f2fb68f9a15d670bf7cca68f7c"
+    },
     "cifs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cifs-utils.git",
       "branch": "master",
