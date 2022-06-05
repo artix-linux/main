@@ -671,6 +671,11 @@
       "branch": "master",
       "revision": "6a103d272726f4030397ebfa91a413395450212c"
     },
+    "lib2geom": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lib2geom.git",
+      "branch": "master",
+      "revision": "6d81c2e52cc6a8810bd9434437c9d383eb584f1f"
+    },
     "libatasmart": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatasmart.git",
       "branch": "master",
