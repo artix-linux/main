@@ -2485,6 +2485,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesZ/zimg.git",
       "branch": "master",
       "revision": "deb2e3fd85ed9c8e685841bb544b60cc05bf931b"
+    },
+    "zziplib": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zziplib.git",
+      "branch": "master",
+      "revision": "ac915ac8f4892680bda77f3e4026c1e25d294629"
     }
   }
 }
