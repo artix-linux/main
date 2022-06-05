@@ -3401,6 +3401,11 @@
       "branch": "master",
       "revision": "1fa4016b0886e9a7680ca796352dc9557941e022"
     },
+    "onboard": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/onboard.git",
+      "branch": "master",
+      "revision": "9ca215581845a6b304447ea7228a28a2c8abb1f3"
+    },
     "onionshare": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onionshare.git",
       "branch": "master",
