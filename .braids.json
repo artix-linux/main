@@ -436,6 +436,11 @@
       "branch": "master",
       "revision": "fd8a231642ce2e2b744ab905e789be7ed939ac6f"
     },
+    "beanshell": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/beanshell.git",
+      "branch": "master",
+      "revision": "602bce2bf1a27b43d291e248ff7a12e9342a51de"
+    },
     "benchmark": {
       "url": "gitea@gitea.artixlinux.org:packagesB/benchmark.git",
       "branch": "master",
