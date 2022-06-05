@@ -4316,6 +4316,11 @@
       "branch": "master",
       "revision": "e5bf95d36e7d8fe27d77c9d72f96bacb96ab713b"
     },
+    "webrtc-audio-processing": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webrtc-audio-processing.git",
+      "branch": "master",
+      "revision": "d87b01c21834e5cebafd649ea3b32aa817ba2670"
+    },
     "weechat": {
       "url": "gitea@gitea.artixlinux.org:packagesW/weechat.git",
       "branch": "master",
