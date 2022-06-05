@@ -2621,6 +2621,11 @@
       "branch": "master",
       "revision": "5245d299bf6272be1e08afcf831b8ddd81c0fc0b"
     },
+    "tang": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tang.git",
+      "branch": "master",
+      "revision": "6faed6174ebd8989e86a5c77fc1227d3bb112273"
+    },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
