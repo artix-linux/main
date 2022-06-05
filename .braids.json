@@ -3571,6 +3571,11 @@
       "branch": "master",
       "revision": "91d1f45fe51a53dd441bda57cafc308cb9a56c66"
     },
+    "pango": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pango.git",
+      "branch": "master",
+      "revision": "37bb04639724c25e4f3c9e9eea136b062114b472"
+    },
     "paprefs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paprefs.git",
       "branch": "master",
