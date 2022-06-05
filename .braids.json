@@ -4941,6 +4941,11 @@
       "branch": "master",
       "revision": "104f8c0a325d67a730c89786d1a297349bddb14c"
     },
+    "pacutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pacutils.git",
+      "branch": "master",
+      "revision": "3201992049e71fe549ebc00c6d382c4ddebbf71d"
+    },
     "pahole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pahole.git",
       "branch": "master",
