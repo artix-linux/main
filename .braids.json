@@ -1526,6 +1526,11 @@
       "branch": "master",
       "revision": "759c65df1ce5136ba44602e4367c84c2746a0cd0"
     },
+    "intel-metee": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-metee.git",
+      "branch": "master",
+      "revision": "db521fe562116565e186e96ba04d313c3cd9c89c"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
