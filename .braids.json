@@ -356,6 +356,11 @@
       "branch": "master",
       "revision": "e9ef377e354d10ebc11c68df1c555698abcabb9e"
     },
+    "fontconfig": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fontconfig.git",
+      "branch": "master",
+      "revision": "491927064e7836f567fa19ace3940fc61181d12e"
+    },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
       "branch": "master",
