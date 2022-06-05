@@ -4751,6 +4751,11 @@
       "branch": "master",
       "revision": "4492e07dae5e2fd658a8a7382a92ac45f3536255"
     },
+    "open-iscsi": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/open-iscsi.git",
+      "branch": "master",
+      "revision": "d7e87562531bc346582b6d103117c124c56e51ab"
+    },
     "openal": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
       "branch": "master",
