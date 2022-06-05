@@ -2551,6 +2551,11 @@
       "branch": "master",
       "revision": "50f21d4119b8ec8331af5b727efdabeeef9e571a"
     },
+    "sshguard": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshguard.git",
+      "branch": "master",
+      "revision": "6fcabedd7b7ffa8bb8758473e1f1d3a33ec3bbf4"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",

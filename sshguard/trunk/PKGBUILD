@@ -1,0 +1,40 @@
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Maintainer: Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
+
+pkgname=sshguard
+pkgver=2.4.2
+pkgrel=2
+pkgdesc="Brute force detector for SSH, Exim, VSFTPD and more. Blocks by ip with iptables"
+arch=('x86_64')
+url="https://www.sshguard.net/"
+license=('GPL')
+optdepends=('iptables' 'nftables' 'firewalld' 'ipset')
+backup=('etc/sshguard.conf')
+source=("https://downloads.sourceforge.net/sourceforge/sshguard/sshguard-$pkgver.tar.gz"
+        "tmpfile.conf"
+        )
+sha256sums=('2770b776e5ea70a9bedfec4fd84d57400afa927f0f7522870d2dcbbe1ace37e8'
+            'cd2ba683f25a650a29dd465ec7eb507826af46822d1a1ea6116a052c77c4148f')
+
+build() {
+  cd "$srcdir/$pkgname-$pkgver"
+  ./configure \
+    --prefix=/usr \
+    --sbindir=/usr/bin \
+    --sysconfdir=/etc \
+    --libexecdir=/usr/lib/sshguard \
+    --with-firewall=iptables
+  make
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+  make DESTDIR="$pkgdir" install
+  install -Dm0644 "$srcdir/tmpfile.conf" "$pkgdir/usr/lib/tmpfiles.d/sshguard.conf"
+  install -dm0755 "$pkgdir/usr/share/doc/" "$pkgdir/etc"
+  cat <<EOF >"$pkgdir"/etc/sshguard.conf
+BLACKLIST_FILE=120:/var/db/sshguard/blacklist.db
+BACKEND="/usr/lib/sshguard/sshg-fw-iptables"
+EOF
+  cp -a examples "$pkgdir/usr/share/doc/sshguard"
+}
