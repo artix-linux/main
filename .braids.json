@@ -586,6 +586,11 @@
       "branch": "master",
       "revision": "491927064e7836f567fa19ace3940fc61181d12e"
     },
+    "foomatic-db": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/foomatic-db.git",
+      "branch": "master",
+      "revision": "03a5023d69ac167154df69f63a85cc442a65603b"
+    },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
       "branch": "master",
