@@ -4756,6 +4756,11 @@
       "branch": "master",
       "revision": "8f64d6e8c8f2ceb0bffec8c6b7b9303cf99bf615"
     },
+    "vte3": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vte3.git",
+      "branch": "master",
+      "revision": "105059cdfdb3aad51de548594189007274345111"
+    },
     "vulkan-docs": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-docs.git",
       "branch": "master",
