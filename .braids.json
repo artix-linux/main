@@ -921,6 +921,11 @@
       "branch": "master",
       "revision": "34fb97c8f71da3bb748b302f6dda2faca729d736"
     },
+    "diffstat": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/diffstat.git",
+      "branch": "master",
+      "revision": "bc599fd37647c4c969e6a75fdeef301746e197ee"
+    },
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
