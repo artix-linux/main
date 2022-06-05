@@ -3131,6 +3131,11 @@
       "branch": "master",
       "revision": "c44cbbcf4f85c0fdb516e3266dad0090ce859c96"
     },
+    "linux-hardened": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/linux-hardened.git",
+      "branch": "master",
+      "revision": "74560b05d5c1f4109cf506e3bd00649dced6c157"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
