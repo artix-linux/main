@@ -3151,6 +3151,11 @@
       "branch": "master",
       "revision": "537ead5019f6d2a15eed7c2263f0e641bd760c02"
     },
+    "pcaudiolib": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pcaudiolib.git",
+      "branch": "master",
+      "revision": "5daad1c41015ebcfdd4269d519936552daa37a9d"
+    },
     "pdfjs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdfjs.git",
       "branch": "master",
