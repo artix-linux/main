@@ -1621,6 +1621,11 @@
       "branch": "master",
       "revision": "9b1805fde53d7921830859cd79789fc8d2ce3e27"
     },
+    "xf86-video-intel": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-intel.git",
+      "branch": "master",
+      "revision": "b10a01240089a132902f4f7d9e1ded6f99cb3785"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
