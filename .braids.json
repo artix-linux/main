@@ -1186,6 +1186,11 @@
       "branch": "master",
       "revision": "ed86015d92a16f5655e56e5da6a8e3ead510b6cb"
     },
+    "gobject-introspection": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
+      "branch": "master",
+      "revision": "eea2c21f4d97f1f1abb5ab0e5211162ac82d62b4"
+    },
     "google-glog": {
       "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
       "branch": "master",
