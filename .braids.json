@@ -821,6 +821,11 @@
       "branch": "master",
       "revision": "1821e16967eee06eb1a285f9ccb1c2b2b9f1cdbd"
     },
+    "uvicorn": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uvicorn.git",
+      "branch": "master",
+      "revision": "6258383b71a482e20c6a384ad14f24a3d7a21b48"
+    },
     "virt-what": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
       "branch": "master",
