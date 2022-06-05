@@ -3811,6 +3811,11 @@
       "branch": "master",
       "revision": "5ded4cdd713b42be0344df8c8733b7494836a8b2"
     },
+    "python2-gobject": {
+      "url": "gitea@gitea.artixlinux.org:packagesPython/python2-gobject.git",
+      "branch": "master",
+      "revision": "11bcef9407e49176cfaee69c641b21e9cd24d938"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
