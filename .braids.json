@@ -1976,6 +1976,11 @@
       "branch": "master",
       "revision": "774f6963039ead3cfe7c370a6f2ffafc247f66b5"
     },
+    "libofa": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libofa.git",
+      "branch": "master",
+      "revision": "2c19481328119520e32f6afae5e78760bb950917"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
