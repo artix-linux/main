@@ -1,0 +1,35 @@
+# Maintainer: Filipe Laíns (FFY00) <lains@archlinux.org>
+# Contributor: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Stefan Husmann <stefan-husmann@t-online.de>
+# Contributor: Simon Lipp <sloonz+aur@gmail.com>
+
+pkgname=java-batik
+pkgver=1.14
+pkgrel=1
+pkgdesc='SVG library for Java.'
+arch=('any')
+url='https://xmlgraphics.apache.org/batik/'
+license=('APACHE')
+depends=('java-runtime' 'java-commons-io' 'java-commons-logging' 'java-xmlgraphics-commons')
+makedepends=('java-environment' 'apache-ant' 'unzip')
+source=("https://www.apache.org/dist/xmlgraphics/batik/source/batik-src-$pkgver.tar.gz"{,.asc})
+sha512sums=('689c52f58f8f0456c89bd18745d2d92e7590b9054bea71b96be87d44977057d583e78504cbf14afc3e0c585d2383dac3009c7c421de868c847db045e921da8fb'
+            'SKIP')
+validpgpkeys=('9D5F9D9B3E21B585E8F4551082036989D56B5F17'  # Luis Bernardo
+              '5C9A30FF22B2C02F30261C305B93F1DF7CDB6DEA') # Simon Steiner
+
+build() {
+  cd batik-$pkgver
+
+  ant all-jar
+}
+
+package() {
+  install -d "$pkgdir"/usr/share/java/batik
+  install -m 644 "$srcdir"/batik-$pkgver/batik-$pkgver/lib/batik-all-$pkgver.jar "$pkgdir"/usr/share/java/batik/batik-all-$pkgver.jar
+
+  ln -s batik-all-$pkgver.jar "$pkgdir"/usr/share/java/batik/batik-all.jar
+
+  cp --no-preserve=ownership "$srcdir/batik-$pkgver/lib"/*.jar "$pkgdir"/usr/share/java/batik/
+}
+

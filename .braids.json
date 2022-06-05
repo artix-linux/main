@@ -2896,6 +2896,11 @@
       "branch": "master",
       "revision": "dfdb5db086b116d7520510addd63bbd0ae4d3874"
     },
+    "java-batik": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/java-batik.git",
+      "branch": "master",
+      "revision": "28e7ee74d708dba91a2a12c9484516b4f0481f1e"
+    },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
