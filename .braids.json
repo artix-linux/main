@@ -4341,6 +4341,11 @@
       "branch": "master",
       "revision": "c8544991f024313cd48370500d2755bea572fa21"
     },
+    "woff2": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/woff2.git",
+      "branch": "master",
+      "revision": "0cdb7226e8df38d1cfbe9b49ef28809c2cabaad9"
+    },
     "wolfssl": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wolfssl.git",
       "branch": "master",
