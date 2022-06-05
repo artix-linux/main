@@ -596,6 +596,11 @@
       "branch": "master",
       "revision": "537ead5019f6d2a15eed7c2263f0e641bd760c02"
     },
+    "pdfjs": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pdfjs.git",
+      "branch": "master",
+      "revision": "55034244990e6198c67d2f7a35275a073f61ee62"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
