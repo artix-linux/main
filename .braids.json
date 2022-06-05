@@ -2646,6 +2646,11 @@
       "branch": "master",
       "revision": "15699af49fabe5d2d2ec020eaed80dd7ed02b40e"
     },
+    "telepathy-gabble": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-gabble.git",
+      "branch": "master",
+      "revision": "d4e34efc339e172d6092aac68d57633db096868d"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
