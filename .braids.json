@@ -3646,6 +3646,11 @@
       "branch": "master",
       "revision": "943ce5736914a20e6e5441ff7a5aca82bcb2f74d"
     },
+    "sox": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sox.git",
+      "branch": "master",
+      "revision": "fe232b24d6c1a90f5f1c5876891725c9d128b753"
+    },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
