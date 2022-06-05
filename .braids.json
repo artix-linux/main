@@ -656,6 +656,11 @@
       "branch": "master",
       "revision": "1374ea5f4c3db86fa35a060a691dd429a7c5d1b3"
     },
+    "docbook-xml": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docbook-xml.git",
+      "branch": "master",
+      "revision": "01bc1de4eb987eeeca88d645dbb717e41d74c001"
+    },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
