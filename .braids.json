@@ -936,6 +936,11 @@
       "branch": "master",
       "revision": "6dedd97fc047d087088fdd75d314f743d7211f32"
     },
+    "distcc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/distcc.git",
+      "branch": "master",
+      "revision": "a21d2a6316e40e1f7c50b9bff723bea541fe26a6"
+    },
     "djvulibre": {
       "url": "gitea@gitea.artixlinux.org:packagesD/djvulibre.git",
       "branch": "master",
