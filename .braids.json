@@ -1396,6 +1396,11 @@
       "branch": "master",
       "revision": "ba6339a1b3b07d89e8621ebd29cb79d75f7c8e20"
     },
+    "elogind": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/elogind.git",
+      "branch": "master",
+      "revision": "797a26916987b953cd38a6382cbe65122a6ebd1c"
+    },
     "emacs-nox": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emacs-nox.git",
       "branch": "master",
