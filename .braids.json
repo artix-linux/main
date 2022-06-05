@@ -2736,6 +2736,11 @@
       "branch": "master",
       "revision": "1f0afb77642deaaa59ecea741839985783d3df02"
     },
+    "mjpegtools": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mjpegtools.git",
+      "branch": "master",
+      "revision": "785c76965d9976b98e1bc6e6c74a9fcaf8293d2e"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
