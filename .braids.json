@@ -5856,6 +5856,11 @@
       "branch": "master",
       "revision": "5709d49f55e714f9244899afc8420ec00e36524c"
     },
+    "rubberband": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rubberband.git",
+      "branch": "master",
+      "revision": "e987960fafb975f9909b223c4a2a7544f3b899af"
+    },
     "rust": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rust.git",
       "branch": "master",
