@@ -306,6 +306,11 @@
       "branch": "master",
       "revision": "8524da8898defc46637c50f95ca9c8f968f21f41"
     },
+    "cdrdao": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cdrdao.git",
+      "branch": "master",
+      "revision": "00b238c09205ecdb92b3cc1c26963b040ae7bceb"
+    },
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
