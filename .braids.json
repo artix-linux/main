@@ -846,6 +846,11 @@
       "branch": "master",
       "revision": "e240ebc4ba90ee6294236c7131b9e591a4072b30"
     },
+    "libxxf86vm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxxf86vm.git",
+      "branch": "master",
+      "revision": "db7bc43fd7d7c15be6fff9dd1d92f38b481e4e80"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
