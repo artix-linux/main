@@ -496,6 +496,11 @@
       "branch": "master",
       "revision": "c03d330defe904d61f8579cbe8ff3d798e35cab0"
     },
+    "libclc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libclc.git",
+      "branch": "master",
+      "revision": "8dd96588843ae7a6b02ae694181ff3a95b4cdc25"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
