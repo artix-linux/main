@@ -806,6 +806,11 @@
       "branch": "master",
       "revision": "e15735cef5b049909a42064c3ceb33f9be9414d9"
     },
+    "http-parser": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/http-parser.git",
+      "branch": "master",
+      "revision": "fca2f3c50399de13da8af9f948f8576409af70c6"
+    },
     "httpbin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/httpbin.git",
       "branch": "master",
