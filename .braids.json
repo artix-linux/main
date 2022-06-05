@@ -60,6 +60,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav.git",
       "branch": "master",
       "revision": "599dda15098ff660aca24016b4dcae197956a7cb"
+    },
+    "cli11": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cli11.git",
+      "branch": "master",
+      "revision": "df58eec93e9de610a0a66b74700de48ff4123fe0"
     }
   }
 }
