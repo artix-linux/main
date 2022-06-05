@@ -5106,6 +5106,11 @@
       "branch": "master",
       "revision": "09e7c96bb2e5f06199bafebb3f50041c51a8aa19"
     },
+    "man-pages": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/man-pages.git",
+      "branch": "master",
+      "revision": "05a9236975e432b0d5a7f701d03712c85c638ad8"
+    },
     "man2html": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man2html.git",
       "branch": "master",
