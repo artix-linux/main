@@ -1,0 +1,28 @@
+# Maintainer: Jaroslav Lichtblau <svetlemodry@archlinux.org>
+# Contributor: Evert Vorster <evorster@gmail.com>
+# Contributor: Martin Sandsmark <martin.sandsmark@kde.org>
+
+pkgname=movit
+pkgver=1.6.3
+pkgrel=2
+pkgdesc="The modern video toolkit"
+arch=('x86_64')
+url="https://movit.sesse.net/"
+license=('GPL')
+depends=('fftw' 'libepoxy')
+makedepends=('eigen' 'gtest' 'sdl2')
+source=(https://movit.sesse.net/$pkgname-$pkgver.tar.gz)
+sha256sums=('eb19f109ec99d6050de5267d059c7b351d3d5e39c77d43ca348a95f474a99498')
+
+build() {
+  cd $pkgname-$pkgver
+
+  ./configure --prefix=/usr
+  make GTEST_DIR=/usr/src/googletest
+}
+
+package() {
+  cd $pkgname-$pkgver
+
+  make DESTDIR="$pkgdir" install
+}

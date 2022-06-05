@@ -2781,6 +2781,11 @@
       "branch": "master",
       "revision": "610cabff6c85e830cea60cc319f2c572517defa7"
     },
+    "movit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/movit.git",
+      "branch": "master",
+      "revision": "0a45fdf85eeef106fa29982a554cb6fb83d0e08a"
+    },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
