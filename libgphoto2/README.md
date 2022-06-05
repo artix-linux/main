@@ -1,0 +1,2 @@
+# libgphoto2
+
