@@ -275,6 +275,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
       "branch": "master",
       "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
+    },
+    "mgard": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mgard.git",
+      "branch": "master",
+      "revision": "b852e3324b3ee1602ba5173382edc83dbc84181d"
     }
   }
 }
