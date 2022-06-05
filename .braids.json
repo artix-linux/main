@@ -1136,6 +1136,11 @@
       "branch": "master",
       "revision": "3635b11ba44fd25594947139e3660216263be5f4"
     },
+    "ding-libs": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/ding-libs.git",
+      "branch": "master",
+      "revision": "ece728b6359e22d27bac1f8462ff2f9431d5ac95"
+    },
     "directx-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesD/directx-headers.git",
       "branch": "master",
