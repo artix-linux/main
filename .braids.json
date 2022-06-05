@@ -521,6 +521,11 @@
       "branch": "master",
       "revision": "020ae4125aa442cac69e3eda524d11e87a22dc5f"
     },
+    "libfbclient": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfbclient.git",
+      "branch": "master",
+      "revision": "f9fceae13b0ebf5b37fc435d78a4004d4b0cf4c9"
+    },
     "libgnt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
       "branch": "master",
