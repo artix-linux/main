@@ -2326,6 +2326,11 @@
       "branch": "master",
       "revision": "95f5f1deacc63532f19095f96b02c322a4f5fc0b"
     },
+    "libvorbis": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvorbis.git",
+      "branch": "master",
+      "revision": "892a82ce7ac92be3247e1fd5e79d4e20b181caaa"
+    },
     "libwacom": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwacom.git",
       "branch": "master",
