@@ -1301,6 +1301,11 @@
       "branch": "master",
       "revision": "9f6e12666de71fc56acfaf03f1ebefe6b91c3521"
     },
+    "ttf-indic-otf": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-indic-otf.git",
+      "branch": "master",
+      "revision": "00173ac3e7b623b7ac038e4d3300a54eca69317f"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
