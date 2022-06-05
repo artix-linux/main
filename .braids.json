@@ -1446,6 +1446,11 @@
       "branch": "master",
       "revision": "2948143e851d0cb9709237eeed11599592f1b69c"
     },
+    "vulkan-validation-layers": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-validation-layers.git",
+      "branch": "master",
+      "revision": "3d61df5dabf39a34e031be54ff297abadf0e09ad"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
