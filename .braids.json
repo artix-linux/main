@@ -1801,6 +1801,11 @@
       "branch": "master",
       "revision": "fcf1cdc34534540443fcb7f40a2c6d395ea4a21d"
     },
+    "libcanberra": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcanberra.git",
+      "branch": "master",
+      "revision": "eb8866870bc42302140e108219fd89a96589801a"
+    },
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
       "branch": "master",
