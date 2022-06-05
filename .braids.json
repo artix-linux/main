@@ -556,6 +556,11 @@
       "branch": "master",
       "revision": "3f045da665f76bfe0008a18b658864ab084cf3b6"
     },
+    "dblatex": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dblatex.git",
+      "branch": "master",
+      "revision": "5af7182114dd32051a9882783e91a6547d38136a"
+    },
     "ddclient": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient.git",
       "branch": "master",
