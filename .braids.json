@@ -516,6 +516,11 @@
       "branch": "master",
       "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
     },
+    "mypy": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mypy.git",
+      "branch": "master",
+      "revision": "d63960aa6ee1d7fed12395c500e3554bdf179c67"
+    },
     "ncdu": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncdu.git",
       "branch": "master",
