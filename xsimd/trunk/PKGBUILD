@@ -1,0 +1,26 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Alexander Susha <isushik94@gmail.com>
+# Contributor: Fredrik Tegenfeldt <tegenf@gmail.com>
+
+pkgname=xsimd
+pkgver=8.1.0
+pkgrel=1
+pkgdesc='QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing'
+arch=(any)
+url='https://github.com/QuantStack/xsimd'
+license=(BSD)
+depends=()
+makedepends=(cmake gtest)
+source=(https://github.com/QuantStack/$pkgname/archive/$pkgver/$pkgname-$pkgver.tar.gz)
+sha512sums=('539f7b565b45e8225c6476ca1becc8243a84ae7fb51b45a584231e7d36aee10a09d7d30fb87d89cb77813fb063a7b7617bcf01fdf996f59d99e8d474d2a044ee')
+
+build() {
+  cmake -B build -S $pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+  install -Dm644 $pkgname-$pkgver/LICENSE -t "$pkgdir"/usr/share/licenses/$pkgname
+}

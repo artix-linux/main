@@ -510,6 +510,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
       "revision": "37767a9ad22a69e77b75805802a2483ee6ede407"
+    },
+    "xsimd": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
+      "branch": "master",
+      "revision": "7f807019ad681df4f53ecf42c2b046c14fddea63"
     }
   }
 }
