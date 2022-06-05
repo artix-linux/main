@@ -4191,6 +4191,11 @@
       "branch": "master",
       "revision": "ad1a7fd66f266e4d891ef2ec512fedd1807f9ce4"
     },
+    "qt6-wayland": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-wayland.git",
+      "branch": "master",
+      "revision": "73251a4e433d340cabd2708833d7fcf69f1dd733"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
