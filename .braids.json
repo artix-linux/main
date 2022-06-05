@@ -481,6 +481,11 @@
       "branch": "master",
       "revision": "959f70248c43743f10b3edcfdda993509a412a03"
     },
+    "catatonit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/catatonit.git",
+      "branch": "master",
+      "revision": "322c2f461736ddd7f77f845e81888f867cf916f5"
+    },
     "catch2": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catch2.git",
       "branch": "master",
