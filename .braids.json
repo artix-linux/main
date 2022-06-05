@@ -921,6 +921,11 @@
       "branch": "master",
       "revision": "410a729c5787a835987e53b367eda3b3c824c440"
     },
+    "cppunit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cppunit.git",
+      "branch": "master",
+      "revision": "4ad5dc68010e995a15af9440388a68d4b9cb7580"
+    },
     "criu": {
       "url": "gitea@gitea.artixlinux.org:packagesC/criu.git",
       "branch": "master",
