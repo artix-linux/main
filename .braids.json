@@ -1986,6 +1986,11 @@
       "branch": "master",
       "revision": "ac635574094c6da56131bce7138b38d2eaa7ff22"
     },
+    "net-snmp": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/net-snmp.git",
+      "branch": "master",
+      "revision": "cea58f2db4a2ec574d7fa76201b68398021f7340"
+    },
     "netcf": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcf.git",
       "branch": "master",
