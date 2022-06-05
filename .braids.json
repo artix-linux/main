@@ -66,6 +66,11 @@
       "branch": "master",
       "revision": "efcaec1997714f8c77e62de850d27b24b6ad0494"
     },
+    "avahi": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avahi.git",
+      "branch": "master",
+      "revision": "379340301cf6213c0a1bff25f7705cf9c6467bc9"
+    },
     "awesome-terminal-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/awesome-terminal-fonts.git",
       "branch": "master",
