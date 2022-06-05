@@ -431,6 +431,11 @@
       "branch": "master",
       "revision": "0c77f83df38249150bf3a24222db1aff95acc735"
     },
+    "gmic": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gmic.git",
+      "branch": "master",
+      "revision": "5942b523710e65ee344b73280b73c52edfbcf967"
+    },
     "gn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gn.git",
       "branch": "master",
