@@ -2581,6 +2581,11 @@
       "branch": "master",
       "revision": "c3c1f3900262373a0ce1b31d7832a7314dc0f1c4"
     },
+    "stubby": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stubby.git",
+      "branch": "master",
+      "revision": "6b71c2db210aa5b03f99cf589343b507c889f3cd"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
