@@ -2776,6 +2776,11 @@
       "branch": "master",
       "revision": "201bd514ab7640c508abeacde06c5f86e6e3fec0"
     },
+    "tor": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tor.git",
+      "branch": "master",
+      "revision": "ec4a03653b5f94cefd032b78174e809465093e40"
+    },
     "towncrier": {
       "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
       "branch": "master",
