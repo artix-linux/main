@@ -3836,6 +3836,11 @@
       "branch": "master",
       "revision": "a20f0df1d5207a4ce22d1cc47050411100ebd763"
     },
+    "qt5-base": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-base.git",
+      "branch": "master",
+      "revision": "9241979756038b7a2603845408e9e0beed0e4c7b"
+    },
     "rabbitmq": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rabbitmq.git",
       "branch": "master",
