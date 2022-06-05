@@ -1,0 +1,137 @@
+# Maintainer: Dan Printzell <wild@archlinux.org>
+# Maintainer: Filipe Laíns (FFY00) <lains@archlinux.org>
+# Contributor: Mihails Strasunse <public@dicebot.lv>
+# Contributor: Sven-Hendrik Haase <sh@lutzhaase.com>
+# Contributor: Chris Brannon <cmbrannon79@gmail.com>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Anders Bergh <anders1@gmail.com>
+# Contributor: Alexander Fehr <pizzapunk gmail com>
+
+pkgname=('dmd' 'dmd-docs' 'libphobos')
+pkgdesc='D programming language compiler and standard library'
+groups=('dlang' 'dlang-dmd')
+pkgbase=dmd
+pkgver=2.100.0
+pkgrel=1
+epoch=1
+arch=('x86_64')
+url='https://www.dlang.org'
+makedepends=('git' 'ldc')
+source=("git+https://github.com/dlang/dmd.git#tag=v$pkgver"
+        "git+https://github.com/dlang/druntime.git#tag=v$pkgver"
+        "git+https://github.com/dlang/phobos.git#tag=v$pkgver"
+        "http://downloads.dlang.org/releases/2.x/$pkgver/dmd.$pkgver.linux.tar.xz"
+        "http://downloads.dlang.org/releases/2.x/$pkgver/dmd.$pkgver.linux.tar.xz.sig"
+        'dmd.conf'
+        'dmd-doc.desktop')
+sha256sums=('SKIP'
+            'SKIP'
+            'SKIP'
+            '84672e81d24e4aea62fc8693bd4260bcf35a04ad6124b2707d40b11c67502302'
+            'SKIP'
+            '3d639e89528fed1da90006f4dfb2b0fdc41308da5a96d953381ff4ccf257c035'
+            '4b7b8722b3fa11082f0f332397b1b66c85b30ce773c43c3fedcba5768a1484b1')
+# Key from https://dlang.org/gpg_keys.html
+validpgpkeys=('F8A26D5D7572ECA06EC7973182C52E37A8BC8393') # Martin Nowak <code@dawg.eu>
+noextract=("dmd.$pkgver.linux.tar.xz")
+
+prepare() {
+    # We only want to extract the docs & samples, not the prebuild executables
+    tar xfJ "dmd.$pkgver.linux.tar.xz" dmd2/html
+
+    # Make sure the version is not -dirty
+    sed -i "s/\.git/.nope/" "$srcdir"/dmd/src/build.d
+}
+
+build() {
+    export DFLAGS="-link-defaultlib-shared=false $(echo -ne $LDFLAGS | cut -d\" -f2 | tail -c+4 | sed -e "s/,/ -L=/g" -e "s/-flto=auto/--flto=full/")"
+    export HOST_DMD=ldmd2
+
+    cd "$srcdir"/dmd
+    # Make the build tool. Instructions from src/posix.mak
+    mkdir generated
+    $HOST_DMD -ofgenerated/build -g src/build.d -release -O
+    # Actually build dmd
+    generated/build BUILD=release HOST_DMD="$HOST_DMD" CXX="c++" ENABLE_RELEASE=1 DFLAGS="$DFLAGS" dmd -v $MAKEFLAGS
+
+    cd "$srcdir"/druntime
+    make -f posix.mak DMD="$srcdir"/dmd/generated/linux/release/*/dmd BUILD=release ENABLE_RELEASE=1 PIC=1
+
+    cd "$srcdir"/phobos
+    make -f posix.mak DMD="$srcdir"/dmd/generated/linux/release/*/dmd BUILD=release ENABLE_RELEASE=1 PIC=1
+
+    # This requires object.d to compile, thus need to be after druntime is built
+    cd "$srcdir"/dmd
+    make -C docs DMD=$HOST_DMD
+}
+
+package_dmd() {
+    pkgdesc="The D programming language reference compiler"
+    backup=('etc/dmd.conf')
+    depends=('gcc' 'libphobos')
+    optdepends=(
+        'dtools: collection of useful utilities for development in D'
+        'gcc-multilib: to cross-compile 32-bit applications'
+        'dmd-docs: documentation and sample code for D'
+    )
+    provides=("d-compiler=$pkgver")
+    license=('Boost')
+
+    cd "$srcdir"/dmd
+
+    install -Dm755 "$srcdir"/dmd/generated/linux/release/*/dmd "$pkgdir"/usr/bin/dmd
+
+    mkdir -p "$pkgdir"/etc
+    install -Dm644 "$srcdir"/dmd.conf "$pkgdir"/etc/dmd.conf
+
+    mkdir -p "$pkgdir"/usr/share/man/man1
+    mkdir -p "$pkgdir"/usr/share/man/man5
+    cp generated/docs/man/man1/dmd.1 "$pkgdir"/usr/share/man/man1/
+    cp -r generated/docs/man/man5/* "$pkgdir"/usr/share/man/man5/
+
+    install -Dm644 LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+
+    find "$pkgdir"/usr -type f | xargs chmod 0644
+    chmod 755 "$pkgdir"/usr/bin/*
+}
+
+package_dmd-docs() {
+    pkgdesc="Documentation and sample code for D programming language"
+    depends=('dmd')
+    license=('Boost')
+
+    cd "$srcdir"/dmd
+
+    mkdir -p "$pkgdir"/usr/share/applications
+    install -Dm644 "$srcdir"/dmd-doc.desktop "$pkgdir"/usr/share/applications/dmd-doc.desktop
+
+    mkdir -p "$pkgdir"/usr/share/d/samples/
+    cp -r samples/* "$pkgdir"/usr/share/d/samples/
+
+    mkdir -p "$pkgdir"/usr/share/d/html
+    cp -r "$srcdir"/dmd2/html/* "$pkgdir"/usr/share/d/html/
+
+    install -Dm644 LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
+
+package_libphobos() {
+    pkgdesc="The Phobos standard library for D programming language"
+    options=('staticlibs' '!strip')
+    depends=('gcc-libs')
+    conflicts=('libphobos-devel')
+    provides=("d-runtime=$pkgver" "d-stdlib=$pkgver" "libphobos-devel=$pkgver")
+    replaces=('libphobos-devel')
+    license=('Boost')
+
+    mkdir -p "$pkgdir"/usr/lib
+    cp -P $(find "$srcdir"/{druntime,phobos}/generated/linux/release/ \( -iname "*.a" -a \! -iname "*.so.a" \) -o \( -iname "*.so*" -a \! -iname "*.o" -a \! -iname "*.a" \) ) "$pkgdir"/usr/lib
+
+    mkdir -p "$pkgdir"/usr/include/dlang/dmd
+    cp -r "$srcdir"/phobos/{*.d,etc,std} "$pkgdir"/usr/include/dlang/dmd
+    cp -r "$srcdir"/druntime/import/* "$pkgdir"/usr/include/dlang/dmd/
+
+    find "$pkgdir"/usr -type f | xargs chmod 0644
+
+    install -Dm644 "$srcdir"/druntime/LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE-druntime
+    install -Dm644 "$srcdir"/phobos/LICENSE_1_0.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
