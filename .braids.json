@@ -1981,6 +1981,11 @@
       "branch": "master",
       "revision": "2c19481328119520e32f6afae5e78760bb950917"
     },
+    "libogg": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libogg.git",
+      "branch": "master",
+      "revision": "2854841cafb57fc2caf59c71b91baf23d2852056"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
