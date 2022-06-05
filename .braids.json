@@ -506,6 +506,11 @@
       "branch": "master",
       "revision": "1d3ea080bab7df25c74d49b006220773a42a1363"
     },
+    "hugin": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hugin.git",
+      "branch": "master",
+      "revision": "00c7f5f52f7873390597d70f99c386baccd63955"
+    },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
