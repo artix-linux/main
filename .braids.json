@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "a6faa50147d1b938f6f1567fda21f741936e67a8"
     },
+    "debootstrap": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/debootstrap.git",
+      "branch": "master",
+      "revision": "59f1bd6be2864953ddf446530e5a09d9c814bdc3"
+    },
     "deluge": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge.git",
       "branch": "master",
