@@ -766,6 +766,11 @@
       "branch": "master",
       "revision": "201bd514ab7640c508abeacde06c5f86e6e3fec0"
     },
+    "towncrier": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
+      "branch": "master",
+      "revision": "1e8f7f97143caed2e4a97c0363ca188ed5a067ad"
+    },
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
