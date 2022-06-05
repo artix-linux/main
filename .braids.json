@@ -320,6 +320,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/opendoas.git",
       "branch": "master",
       "revision": "fbeac2c228faf13753cdc15176a26710b3b87bd6"
+    },
+    "openimagedenoise": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openimagedenoise.git",
+      "branch": "master",
+      "revision": "2239beaa4138acf03ba4cc813fdf5e99386c5be7"
     }
   }
 }
