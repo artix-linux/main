@@ -3576,6 +3576,11 @@
       "branch": "master",
       "revision": "6c79efaacd56821a302343eff302c7f6f89a2bd5"
     },
+    "sg3_utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sg3_utils.git",
+      "branch": "master",
+      "revision": "b36b633b6f4bba13dc9ffeef3e6624e1b67fdd6b"
+    },
     "shaderc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shaderc.git",
       "branch": "master",
