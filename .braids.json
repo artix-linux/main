@@ -6626,6 +6626,11 @@
       "branch": "master",
       "revision": "abd42fa67ff644c928af3b26a726b5e37ee8fe63"
     },
+    "pyqt5-purchasing": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-purchasing.git",
+      "branch": "master",
+      "revision": "02f76bf241352294d41b57fa1c0f1f1d13e05b16"
+    },
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",
