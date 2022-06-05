@@ -1171,6 +1171,11 @@
       "branch": "master",
       "revision": "15c6d198d24470cba28f01856c124615a7f8f805"
     },
+    "dmraid": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dmraid.git",
+      "branch": "master",
+      "revision": "b7a7f0f3cb0cc467204cde817b2b783724d8af5d"
+    },
     "dns-over-https": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
       "branch": "master",
