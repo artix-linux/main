@@ -2436,6 +2436,11 @@
       "branch": "master",
       "revision": "f1c868528c29f43588eeb91e8f7aaa34cabfc316"
     },
+    "leveldb": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/leveldb.git",
+      "branch": "master",
+      "revision": "add0223a3435dd66bc098769993376aa6a70eb64"
+    },
     "lftp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lftp.git",
       "branch": "master",
