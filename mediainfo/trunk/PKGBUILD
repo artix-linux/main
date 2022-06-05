@@ -1,0 +1,52 @@
+# Maintainer: Johannes Löthberg <johannes@kyriasis.com>
+# Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: hydro <hydro@freenet.de>
+
+pkgbase=mediainfo
+pkgname=(mediainfo mediainfo-gui)
+pkgver=22.03
+pkgrel=1
+
+pkgdesc="Supplies technical and tag information about a video or audio file"
+url="https://mediaarea.net/"
+arch=('x86_64')
+license=('BSD')
+
+depends=('libmediainfo')
+makedepends=('wxgtk3')
+
+source=(https://mediaarea.net/download/source/mediainfo/$pkgver/mediainfo_$pkgver.tar.xz)
+
+sha512sums=('981c9fe410cf6fff1a87ecfe250216977e036e8606034621c18bbf66cc75261c2e0f411bbbf298a409b5b306f7f7ee993a1e24e70040cf48a7728550ef7d830b')
+b2sums=('232f077a1e202271de8c0d07f1f2a27efac38c998cb5b7f465bf5e8e44c24d6dad9fcafc1a6d981863c13822bd8cbe921b4a06adf3b1f3ac7c8690de4026b597')
+
+build() {
+  cd MediaInfo/Project/GNU/CLI
+  ./autogen.sh
+  ./configure --prefix=/usr
+  make
+
+  cd "$srcdir/MediaInfo/Project/GNU/GUI"
+  ./autogen.sh
+  ./configure --prefix=/usr --with-wx-config=/usr/bin/wx-config-gtk3
+  make
+}
+
+package_mediainfo() {
+  pkgdesc+=" (CLI interface)"
+
+  cd MediaInfo/Project/GNU/CLI
+  make DESTDIR="$pkgdir" install
+
+  install -D -m 644 "$srcdir"/MediaInfo/LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
+
+package_mediainfo-gui() {
+  pkgdesc+=" (GUI interface)"
+  depends+=('wxgtk3' 'hicolor-icon-theme')
+
+  cd MediaInfo/Project/GNU/GUI
+  make DESTDIR="$pkgdir" install
+
+  install -D -m 644 "$srcdir"/MediaInfo/LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
