@@ -421,6 +421,11 @@
       "branch": "master",
       "revision": "599dda15098ff660aca24016b4dcae197956a7cb"
     },
+    "clang": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clang.git",
+      "branch": "master",
+      "revision": "23e7672f5a489b81187cb604c1a3171d505900f2"
+    },
     "clevis": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clevis.git",
       "branch": "master",
