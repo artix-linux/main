@@ -971,6 +971,11 @@
       "branch": "master",
       "revision": "0c77f83df38249150bf3a24222db1aff95acc735"
     },
+    "glu": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glu.git",
+      "branch": "master",
+      "revision": "1f2dbc168bd0d9d2e1cd0ab6155818a9d006d320"
+    },
     "gmic": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gmic.git",
       "branch": "master",
