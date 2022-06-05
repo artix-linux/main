@@ -2296,6 +2296,11 @@
       "branch": "master",
       "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
     },
+    "jshon": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jshon.git",
+      "branch": "master",
+      "revision": "146c6b4e575c6e1aa55c532e75e75763264cbb55"
+    },
     "json-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/json-glib.git",
       "branch": "master",
