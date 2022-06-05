@@ -1146,6 +1146,11 @@
       "branch": "master",
       "revision": "3ca629fc06c4ebbf93f115f08b1dc49895d7ed8b"
     },
+    "ibus": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/ibus.git",
+      "branch": "master",
+      "revision": "c979c912ddbfc79e45e6a5b337dc5feeca8617f4"
+    },
     "icmake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
       "branch": "master",
