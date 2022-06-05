@@ -711,6 +711,11 @@
       "branch": "master",
       "revision": "021058db645f547768f9117a9e4d2a29fd26384e"
     },
+    "gnu-netcat": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gnu-netcat.git",
+      "branch": "master",
+      "revision": "d20da9c229eaffe13350fe1cd1f6cec224f6ea95"
+    },
     "google-glog": {
       "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
       "branch": "master",
