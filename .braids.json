@@ -4096,6 +4096,11 @@
       "branch": "master",
       "revision": "ba8b36e694db3edfc7543255aab61ddc4a1257bf"
     },
+    "libpsl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpsl.git",
+      "branch": "master",
+      "revision": "e04a3996a6d9f4aee35c772b20aa46816109041a"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
