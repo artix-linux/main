@@ -7996,6 +7996,11 @@
       "branch": "master",
       "revision": "165aca75f30433bfd6efe67fe63ac075b2bd4bc7"
     },
+    "tk": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tk.git",
+      "branch": "master",
+      "revision": "d6fc41dcffaa13689b9f9f900c035cde7ced64e5"
+    },
     "tldp-howtos-txt": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
       "branch": "master",
