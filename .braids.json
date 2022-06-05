@@ -1821,6 +1821,11 @@
       "branch": "master",
       "revision": "33ea21ab8e0991f94565a050af6e386eafece856"
     },
+    "liblrdf": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liblrdf.git",
+      "branch": "master",
+      "revision": "83d96c624e9a9ce3850167e46dc3af382e715916"
+    },
     "liblzf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblzf.git",
       "branch": "master",
