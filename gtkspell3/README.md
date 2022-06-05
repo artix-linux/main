@@ -1,0 +1,2 @@
+# gtkspell3
+

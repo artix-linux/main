@@ -1326,6 +1326,11 @@
       "branch": "master",
       "revision": "42acdc3f03ee4e920b067d14650b95517dc1c932"
     },
+    "gtkspell3": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gtkspell3.git",
+      "branch": "master",
+      "revision": "982e36b1bad06f812bcfae13ee20358878ce278c"
+    },
     "gts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
       "branch": "master",
