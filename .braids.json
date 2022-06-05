@@ -215,6 +215,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libblastrampoline.git",
       "branch": "master",
       "revision": "08d2739b64a037fdf822f006d7e884b47c5f78b0"
+    },
+    "libdmtx": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
+      "branch": "master",
+      "revision": "14a6ecc2c7c63469f54aacdd0b89be8bdd79b43f"
     }
   }
 }

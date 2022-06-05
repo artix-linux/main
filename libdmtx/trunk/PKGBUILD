@@ -1,0 +1,27 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: jose <jose1711 [at] gmail (dot) com>
+
+pkgname=libdmtx
+pkgver=0.7.5
+pkgrel=2.1
+pkgdesc="A software for reading and writing Data Matrix 2D barcodes"
+url="https://libdmtx.sourceforge.net/"
+arch=(x86_64)
+license=(GPL2)
+depends=(glibc)
+makedepends=(git)
+source=("git+https://github.com/dmtx/libdmtx.git#tag=v${pkgver}")
+sha256sums=('SKIP')
+
+build() {
+  cd $pkgname
+  ./autogen.sh
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  cd $pkgname
+  make DESTDIR="$pkgdir" install
+}
