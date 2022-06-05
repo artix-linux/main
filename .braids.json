@@ -2616,6 +2616,11 @@
       "branch": "master",
       "revision": "262321acea9a0cacdcb1aa503a010aeeb1d2790f"
     },
+    "libconfig": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libconfig.git",
+      "branch": "master",
+      "revision": "3a037225bb2d0bcb9ed0d3192e3dc19cfe43240a"
+    },
     "libcue": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcue.git",
       "branch": "master",
