@@ -7591,6 +7591,11 @@
       "branch": "master",
       "revision": "8497a570ac30084a37069a995878ad7d6b622ee4"
     },
+    "sip4": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sip4.git",
+      "branch": "master",
+      "revision": "59355c239de92a6f3f1edebc6eb7e4d3bd4d6f7b"
+    },
     "slang": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slang.git",
       "branch": "master",
