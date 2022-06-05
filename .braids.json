@@ -470,6 +470,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
       "branch": "master",
       "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
+    },
+    "uptimed": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
+      "branch": "master",
+      "revision": "9dff59ea7eefa39aaaf4c488bd9df91dbfcf174c"
     }
   }
 }
