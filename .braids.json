@@ -781,6 +781,11 @@
       "branch": "master",
       "revision": "049befa16344bb774a9f9ab819b7dc5ca4716471"
     },
+    "libxmu": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxmu.git",
+      "branch": "master",
+      "revision": "ca6819c2e7568f0ec228fde153149a50b8972374"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
