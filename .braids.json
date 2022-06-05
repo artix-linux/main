@@ -1231,6 +1231,11 @@
       "branch": "master",
       "revision": "d0af126ca43ad9727e0bd08f514f603e2a794fb2"
     },
+    "jack2": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jack2.git",
+      "branch": "master",
+      "revision": "b704bdbd487064b137a32243c4aade47de051a64"
+    },
     "jami-daemon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jami-daemon.git",
       "branch": "master",
