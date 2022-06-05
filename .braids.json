@@ -4476,6 +4476,11 @@
       "branch": "master",
       "revision": "577d8fc05d2a76c398a0f943d5638fec575cd3ef"
     },
+    "ncompress": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ncompress.git",
+      "branch": "master",
+      "revision": "ad62931e3518f5ca7b8bf6f02acfd87b7e503548"
+    },
     "ndisc6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
       "branch": "master",
