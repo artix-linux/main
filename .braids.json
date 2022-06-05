@@ -1771,6 +1771,11 @@
       "branch": "master",
       "revision": "fd7133768777d4a6665b8622702f0a53d8f3def1"
     },
+    "libisoburn": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libisoburn.git",
+      "branch": "master",
+      "revision": "48eb0e78eff1bd6a5eb7afaea49432b7d4b52d8f"
+    },
     "libixion": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libixion.git",
       "branch": "master",
