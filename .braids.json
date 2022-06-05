@@ -4496,6 +4496,11 @@
       "branch": "master",
       "revision": "5709d49f55e714f9244899afc8420ec00e36524c"
     },
+    "rust": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rust.git",
+      "branch": "master",
+      "revision": "1d9a5732a183c1d58f909467508be8ca8b3f758b"
+    },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",
