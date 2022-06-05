@@ -4791,6 +4791,11 @@
       "branch": "master",
       "revision": "adbc514fb72b8cc5ded72aea4cafa76d00782f20"
     },
+    "zbar": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
+      "branch": "master",
+      "revision": "9193b9682bd1ee3132353dd4d5b81a3bcfb3af56"
+    },
     "zeroc-ice": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeroc-ice.git",
       "branch": "master",
