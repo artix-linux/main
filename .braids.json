@@ -4041,6 +4041,11 @@
       "branch": "master",
       "revision": "7afc83c2af0e2d8df079b6e320db31f0fb78526f"
     },
+    "luarocks": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/luarocks.git",
+      "branch": "master",
+      "revision": "183d247e5596774fefa35f97d93cf2ed438c21d8"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
