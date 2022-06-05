@@ -6556,6 +6556,11 @@
       "branch": "master",
       "revision": "f33e1b6cb35042437ad427fcc2c53041231706f7"
     },
+    "pyalpm": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyalpm.git",
+      "branch": "master",
+      "revision": "f9394cb8fd5a6107ca955f720633373251fb60fb"
+    },
     "pyatspi": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyatspi.git",
       "branch": "master",
