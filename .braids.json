@@ -6021,6 +6021,11 @@
       "branch": "master",
       "revision": "0cb341c025042e007171b8ef19b7be77c505972e"
     },
+    "sfml": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sfml.git",
+      "branch": "master",
+      "revision": "f5acb589ee602ef32170af146dd41a56f034e1d8"
+    },
     "sg3_utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sg3_utils.git",
       "branch": "master",
