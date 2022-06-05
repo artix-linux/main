@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "5eb0314aff04ab898f5e78d7450f2debb65252e5"
     },
+    "backuppc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backuppc.git",
+      "branch": "master",
+      "revision": "bb21830cd9e9a3715132a51fce0a08fa751b6c55"
+    },
     "banner": {
       "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
       "branch": "master",
