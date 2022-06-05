@@ -1,0 +1,41 @@
+# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Contributor: Kaiting Chen <kaitocracy@gmail.com>
+# Contributor: Gergely Imreh <imrehg@gmail.com>
+# Contributor: champus
+# Contributor: madeye
+# Contributor: ranguvar
+# Contributor: ninja_pt
+
+pkgname=hwinfo
+pkgver=21.80
+pkgrel=2
+pkgdesc='Hardware detection tool from openSUSE'
+arch=(x86_64)
+url='https://github.com/openSUSE/hwinfo'
+license=(GPL2)
+depends=('libx86emu=3.5' perl-xml-parser perl-xml-writer)
+makedepends=(flex git sysfsutils)
+options=(!emptydirs)
+source=(custom_ioctl.patch
+        "git+$url#commit=f0c3415c6356432f0ed08eac1fc7b1d316b41603") # tag: 21.80
+b2sums=('f54d3b7332a887d60ea259c4d00b258c9ea5a00de3a7103f750e5794e4d52f2dff9047ef2b0685cc5a76cbe2b6acaf7e08e559083332cd033193681da24e5ec3'
+        'SKIP')
+
+prepare() {
+  cd $pkgname
+  patch -p0 -i ../custom_ioctl.patch
+  echo touch changelog > git2log
+}
+
+build() {
+  make -C $pkgname -j1 \
+    CFLAGS+="-fPIC -I$srcdir/$pkgname/src/hd -w" \
+    HWINFO_VERSION="$pkgver" \
+    LIBDIR=/usr/lib
+}
+
+package() {
+  make -C $pkgname DESTDIR="$pkgdir" LIBDIR=/usr/lib install
+  mv "$pkgdir/usr/sbin" "$pkgdir/usr/bin"
+  rmdir "$pkgdir/sbin"
+}

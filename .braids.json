@@ -2031,6 +2031,11 @@
       "branch": "master",
       "revision": "00c7f5f52f7873390597d70f99c386baccd63955"
     },
+    "hwinfo": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hwinfo.git",
+      "branch": "master",
+      "revision": "7a7453d64f43b79b38fe29aea86b5354a082bd20"
+    },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
