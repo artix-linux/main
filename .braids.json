@@ -226,6 +226,11 @@
       "branch": "master",
       "revision": "ffc37964d56476f79054fa331369ce8d9b2d32cc"
     },
+    "artix-rebuild-order": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/artix-rebuild-order.git",
+      "branch": "master",
+      "revision": "fb40d1f992d6e97f000a7772d0ed2e4bd911f70c"
+    },
     "artixnews": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artixnews.git",
       "branch": "master",

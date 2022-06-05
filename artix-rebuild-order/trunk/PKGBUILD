@@ -1,0 +1,47 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+
+_upstream=arch-rebuild-order
+
+pkgname=artix-rebuild-order
+pkgver=0.3
+pkgrel=2
+pkgdesc="CLI tool to determine the rebuild order of provided package(s)"
+arch=('x86_64')
+url="https://gitlab.archlinux.org/archlinux/arch-rebuild-order"
+license=('MIT')
+groups=('artools')
+depends=('glibc' 'libalpm.so')
+makedepends=('cargo' 'mandown' 'git')
+source=(git+https://gitlab.archlinux.org/archlinux/arch-rebuild-order.git#tag=v$pkgver
+        arch-rebuild-order-artix.patch::https://gitea.artixlinux.org/artix/artix-rebuild-order/commit/47753d266890e476a746129269978f4228a83bcf.patch)
+sha256sums=('SKIP'
+            'afd2133c895d8eff216f6e8b45abdcde1d4ccd92db7e71310bfac6f997185eac')
+b2sums=('SKIP'
+        'cd30b9d297a34753bf7c904246e7cd55a8f084f4852a17de865a83fd8ad175647cb853f84854cc0bc9c34b855a33fb3266157645660890b9353c23412f77c7eb')
+
+prepare() {
+    cd "${_upstream}"
+    patch -Np1 -i ../arch-rebuild-order-artix.patch
+    cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+    cd "${_upstream}"
+    cargo build --frozen --release --all-features
+}
+
+check() {
+    cd "${_upstream}"
+    cargo test --frozen --all-features
+}
+
+package() {
+    cd "${_upstream}"
+
+    make DESTDIR="${pkgdir}" PREFIX=/usr install
+
+    ln -sfv arch-rebuild-order "${pkgdir}"/usr/bin/artix-rebuild-order
+
+    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
