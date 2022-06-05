@@ -1276,6 +1276,11 @@
       "branch": "master",
       "revision": "c5e8353b4806b62af713cd3df86b3c9f4758d157"
     },
+    "fcitx5": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5.git",
+      "branch": "master",
+      "revision": "dde5bf52372e7b27da713d62e798e30ff97b1c8f"
+    },
     "feh": {
       "url": "gitea@gitea.artixlinux.org:packagesF/feh.git",
       "branch": "master",
