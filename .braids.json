@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "ef11a71b63c3e104b64c3f432b95fe70e33b2d7d"
     },
+    "dkms": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dkms.git",
+      "branch": "master",
+      "revision": "41954d3532d668cb24eb6a0fb0f8ead97c2064e7"
+    },
     "dns-over-https": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
       "branch": "master",
