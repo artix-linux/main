@@ -1126,6 +1126,11 @@
       "branch": "master",
       "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
     },
+    "glibmm": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
+      "branch": "master",
+      "revision": "f1eacf2abc89ee25ec4c9d8a4a2e9e4b2a8df856"
+    },
     "glm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glm.git",
       "branch": "master",
