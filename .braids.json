@@ -126,6 +126,11 @@
       "branch": "master",
       "revision": "410a729c5787a835987e53b367eda3b3c824c440"
     },
+    "cython": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
+      "branch": "master",
+      "revision": "57bad9e8eabcf733126dcd39c848fa07cb255d31"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
