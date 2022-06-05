@@ -1466,6 +1466,11 @@
       "branch": "master",
       "revision": "4031eece42cdc1c8b63bf0b15f80ca090f548af1"
     },
+    "fstrm": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fstrm.git",
+      "branch": "master",
+      "revision": "19b2a9dfc1f5e041329f274ed3458c77c8fa3d58"
+    },
     "ftgl": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ftgl.git",
       "branch": "master",
