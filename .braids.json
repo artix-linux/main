@@ -1,6 +1,11 @@
 {
   "config_version": 1,
   "mirrors": {
+    "acpilight": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acpilight.git",
+      "branch": "master",
+      "revision": "13126a3fa2cb7881c0a2599cbebee1feab92e1df"
+    },
     "adios2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adios2.git",
       "branch": "master",
