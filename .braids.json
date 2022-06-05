@@ -3106,6 +3106,11 @@
       "branch": "master",
       "revision": "abc5e279fc255848e1cf0bec34d019058603a23b"
     },
+    "metis": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/metis.git",
+      "branch": "master",
+      "revision": "48ce581c4df157ba837445d60d643310943f813a"
+    },
     "mgard": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mgard.git",
       "branch": "master",
