@@ -501,6 +501,11 @@
       "branch": "master",
       "revision": "fc9dbaee523d4ae41e7fdb79f08c8dce80d31d20"
     },
+    "fcgiwrap": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap.git",
+      "branch": "master",
+      "revision": "8aff4435ad2adf85fdf3eb4fcc7776603d31281d"
+    },
     "fcitx-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-mozc.git",
       "branch": "master",
