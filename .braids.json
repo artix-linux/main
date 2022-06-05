@@ -4166,6 +4166,11 @@
       "branch": "master",
       "revision": "e41ab9291c803d728a8705cf1c0d3e7cd9d3f199"
     },
+    "qt6-shadertools": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-shadertools.git",
+      "branch": "master",
+      "revision": "c4310874aad14a14ced1c802a51b0a5afe1b0bdc"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
