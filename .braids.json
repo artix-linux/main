@@ -661,6 +661,11 @@
       "branch": "master",
       "revision": "839f0b2e956b9066ede3845b28be7a4e7acbec33"
     },
+    "coffeescript": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coffeescript.git",
+      "branch": "master",
+      "revision": "cf1a1e2a8e8c30bdf95616c3061a750ad000a427"
+    },
     "cogl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cogl.git",
       "branch": "master",
