@@ -7596,6 +7596,11 @@
       "branch": "master",
       "revision": "12fc299bbcd95eefdc2b8731f9986d96be6f171f"
     },
+    "yubico-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yubico-c.git",
+      "branch": "master",
+      "revision": "1b9c12578a40164950b7dc1dbe86ee7cb644c030"
+    },
     "yubikey-personalization": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yubikey-personalization.git",
       "branch": "master",
