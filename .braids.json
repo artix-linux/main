@@ -1041,6 +1041,11 @@
       "branch": "master",
       "revision": "f1c868528c29f43588eeb91e8f7aaa34cabfc316"
     },
+    "lftp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lftp.git",
+      "branch": "master",
+      "revision": "bdf8646c13ba7c845524e2878ecac4337141b9ab"
+    },
     "lgi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lgi.git",
       "branch": "master",
