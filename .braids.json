@@ -486,6 +486,11 @@
       "branch": "master",
       "revision": "efb6e65322d4c77d028d7affddf19e2a5b1d12ff"
     },
+    "compiler-rt": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt.git",
+      "branch": "master",
+      "revision": "847373e07ccbf718a0f88bc62c2af4cc3104874a"
+    },
     "connman": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman.git",
       "branch": "master",
