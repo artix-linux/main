@@ -1526,6 +1526,11 @@
       "branch": "master",
       "revision": "017da8345f4bfe4baaa28633cf5af35f16f6f2f4"
     },
+    "xcb-util-keysyms": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-keysyms.git",
+      "branch": "master",
+      "revision": "3460267ef73aff90a0495d02f04490d4a78220a5"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
