@@ -4436,6 +4436,11 @@
       "branch": "master",
       "revision": "f0095eeae72e69e8741f315f203e69623399f6fc"
     },
+    "libuv": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libuv.git",
+      "branch": "master",
+      "revision": "4e2885a0fa2439b7ce4ee339c02139eb57c6fac8"
+    },
     "libva": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva.git",
       "branch": "master",
