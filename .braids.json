@@ -3466,6 +3466,11 @@
       "branch": "master",
       "revision": "e8a59779bdb81be230ab504152bacb5a4ff2e2c3"
     },
+    "rtkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rtkit.git",
+      "branch": "master",
+      "revision": "558899bd43e6e54c66136229c3fb17f5ab6f055c"
+    },
     "rtorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtorrent.git",
       "branch": "master",
