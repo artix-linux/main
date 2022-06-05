@@ -1766,6 +1766,11 @@
       "branch": "master",
       "revision": "c3568a4b2af2ecadefbd6af49944062b3148f2a7"
     },
+    "libinstpatch": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libinstpatch.git",
+      "branch": "master",
+      "revision": "fd7133768777d4a6665b8622702f0a53d8f3def1"
+    },
     "libixion": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libixion.git",
       "branch": "master",
