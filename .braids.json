@@ -260,6 +260,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
       "branch": "master",
       "revision": "95f5f1deacc63532f19095f96b02c322a4f5fc0b"
+    },
+    "libwhereami": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwhereami.git",
+      "branch": "master",
+      "revision": "ae319d846719c0a440036679f07924b95035d3c5"
     }
   }
 }
