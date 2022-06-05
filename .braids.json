@@ -3956,6 +3956,11 @@
       "branch": "master",
       "revision": "aaefbfdc832d53b04e2299f84b1db5204ce3dbd7"
     },
+    "qt5-serialport": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-serialport.git",
+      "branch": "master",
+      "revision": "b8205b4fae3210b838ebd9f0d6a7eff884f6f679"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
