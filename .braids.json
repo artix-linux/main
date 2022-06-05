@@ -1481,6 +1481,11 @@
       "branch": "master",
       "revision": "65d6a616617111113cbb559a0bfc1a8e292aa636"
     },
+    "fuse-overlayfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fuse-overlayfs.git",
+      "branch": "master",
+      "revision": "63bfc450a7dd3bc367c68e4d97fe4cb0142b852a"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
