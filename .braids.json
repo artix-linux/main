@@ -866,6 +866,11 @@
       "branch": "master",
       "revision": "ebe95a16350ad29199f60f1917f4050e51ac2cc9"
     },
+    "fribidi": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fribidi.git",
+      "branch": "master",
+      "revision": "4031eece42cdc1c8b63bf0b15f80ca090f548af1"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
