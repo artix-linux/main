@@ -3906,6 +3906,11 @@
       "branch": "master",
       "revision": "8ad7dd50f677328aafc8e8148445a5b248aae30c"
     },
+    "libnet": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnet.git",
+      "branch": "master",
+      "revision": "60d04b2e516d34ba9e2576cc0d1dc6a3baa2cf7e"
+    },
     "libnewt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnewt.git",
       "branch": "master",
