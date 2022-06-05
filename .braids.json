@@ -721,6 +721,11 @@
       "branch": "master",
       "revision": "6610678972bf24f2a547bd59f8a0e78a59847368"
     },
+    "ffmpeg": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/ffmpeg.git",
+      "branch": "master",
+      "revision": "501951c940014d12b54b5f6337b4f95ab62dfe35"
+    },
     "figlet": {
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
       "branch": "master",
