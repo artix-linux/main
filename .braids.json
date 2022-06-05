@@ -2686,6 +2686,11 @@
       "branch": "master",
       "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
     },
+    "intltool": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intltool.git",
+      "branch": "master",
+      "revision": "0c9a463a1c214a36c0c2912d4435a11fc25db970"
+    },
     "inxi": {
       "url": "gitea@gitea.artixlinux.org:packagesI/inxi.git",
       "branch": "master",
