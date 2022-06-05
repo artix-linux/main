@@ -7361,6 +7361,11 @@
       "branch": "master",
       "revision": "bdb66c721ccbb5f26da54d5640eb8fa164c4ec90"
     },
+    "sed": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sed.git",
+      "branch": "master",
+      "revision": "3c8521df1be1c36f422fd9eec4d4d8f9f7295916"
+    },
     "semver": {
       "url": "gitea@gitea.artixlinux.org:packagesS/semver.git",
       "branch": "master",
