@@ -2786,6 +2786,11 @@
       "branch": "master",
       "revision": "1e8f7f97143caed2e4a97c0363ca188ed5a067ad"
     },
+    "toxcore": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/toxcore.git",
+      "branch": "master",
+      "revision": "0e572a12d934fa079f20f3e0e96012a0eb7d6c7d"
+    },
     "transmageddon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmageddon.git",
       "branch": "master",
