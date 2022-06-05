@@ -5191,6 +5191,11 @@
       "branch": "master",
       "revision": "23cf5d169eb6bd5e6e4adbbf0c958ed18c5d38dd"
     },
+    "mdadm": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mdadm.git",
+      "branch": "master",
+      "revision": "eebfc9c4e6450ef0ecd56359adef0245ed3615ff"
+    },
     "mdds": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdds.git",
       "branch": "master",
