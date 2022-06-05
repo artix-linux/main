@@ -3496,6 +3496,11 @@
       "branch": "master",
       "revision": "4d73d0a6f941a8be8379ae0a8fd0e42533586d1d"
     },
+    "ocaml-bigarray-compat": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-bigarray-compat.git",
+      "branch": "master",
+      "revision": "11f283048b117bc2ae04fece5686bb192b5b522c"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
