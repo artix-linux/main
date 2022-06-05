@@ -261,6 +261,11 @@
       "branch": "master",
       "revision": "561ee93bad3ec14dcd39eb877a7b4c96f51561b8"
     },
+    "enblend-enfuse": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/enblend-enfuse.git",
+      "branch": "master",
+      "revision": "0ad5e6fbf9c028a2f42256c1321c5f391303f5ab"
+    },
     "entr": {
       "url": "gitea@gitea.artixlinux.org:packagesE/entr.git",
       "branch": "master",
