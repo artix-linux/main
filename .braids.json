@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "9eac058d81861435806a41f856887d62ebfafafb"
     },
+    "fftw": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fftw.git",
+      "branch": "master",
+      "revision": "b4864dbd593dedb56bcec37cee0d8e858a41b109"
+    },
     "figlet": {
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
       "branch": "master",
