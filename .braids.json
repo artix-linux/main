@@ -506,6 +506,11 @@
       "branch": "master",
       "revision": "410a729c5787a835987e53b367eda3b3c824c440"
     },
+    "ctpl": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/ctpl.git",
+      "branch": "master",
+      "revision": "745d6aea141b70ebaed4500de64d4b7f215969c6"
+    },
     "cuda": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cuda.git",
       "branch": "master",
