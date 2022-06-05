@@ -3671,6 +3671,11 @@
       "branch": "master",
       "revision": "b1ea1b09d337f0b887074d1d7f41a782f17b5352"
     },
+    "speexdsp": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/speexdsp.git",
+      "branch": "master",
+      "revision": "ef574b0eafea36b1a2f04281453cdca846da0c9e"
+    },
     "sqlcipher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
       "branch": "master",
