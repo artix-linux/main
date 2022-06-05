@@ -1381,6 +1381,11 @@
       "branch": "master",
       "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
     },
+    "mypaint-brushes1": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mypaint-brushes1.git",
+      "branch": "master",
+      "revision": "80d00de3da41dfcfd7f8092532b9a995ad2111e7"
+    },
     "mypy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mypy.git",
       "branch": "master",
