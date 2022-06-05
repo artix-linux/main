@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "507ec57ca99d90e1f31e47479dd95f600e345bfc"
     },
+    "camlp4": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/camlp4.git",
+      "branch": "master",
+      "revision": "21c3d05b84e4ee628fd98715f27592c8d78251b6"
+    },
     "cantarell-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cantarell-fonts.git",
       "branch": "master",
