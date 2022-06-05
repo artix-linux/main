@@ -1511,6 +1511,11 @@
       "branch": "master",
       "revision": "089ccc3d39255aada088924b4f23927f29e9881d"
     },
+    "gamemode": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gamemode.git",
+      "branch": "master",
+      "revision": "eb4eb26cdce5dce01c0b99d73b8bdd75b70ab77c"
+    },
     "gavl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gavl.git",
       "branch": "master",
