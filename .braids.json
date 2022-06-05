@@ -3551,6 +3551,11 @@
       "branch": "master",
       "revision": "ea99315345eb47f93a4218affd7c559391652442"
     },
+    "libgssglue": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgssglue.git",
+      "branch": "master",
+      "revision": "9008bcae66442daef5783ef95473af80d0f54fda"
+    },
     "libgudev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgudev.git",
       "branch": "master",
