@@ -671,6 +671,11 @@
       "branch": "master",
       "revision": "de4acbf838dc331f233cf909ff6b07dedacfb56d"
     },
+    "check": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/check.git",
+      "branch": "master",
+      "revision": "3980942bb94645946d94ec340d4db782b381eb2a"
+    },
     "checkbashisms": {
       "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
       "branch": "master",
