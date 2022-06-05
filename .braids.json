@@ -3961,6 +3961,11 @@
       "branch": "master",
       "revision": "bd34483430756d118a3932821e5a2f4b1e3b033e"
     },
+    "transcode": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transcode.git",
+      "branch": "master",
+      "revision": "4e2b2afc584f63e67e6501e54b595d336325705c"
+    },
     "transmageddon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmageddon.git",
       "branch": "master",
