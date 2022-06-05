@@ -8886,6 +8886,11 @@
       "branch": "master",
       "revision": "8badb45d6cf3538691a306e46c10e6460379719a"
     },
+    "xfsprogs": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xfsprogs.git",
+      "branch": "master",
+      "revision": "07d676cd297f8cf28b19d4bf28956fdb4bc22d49"
+    },
     "xkeyboard-config": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xkeyboard-config.git",
       "branch": "master",
