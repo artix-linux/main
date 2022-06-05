@@ -756,6 +756,11 @@
       "branch": "master",
       "revision": "bdccaa9e90aca8a35dda303b5eab2a84bfa7fd92"
     },
+    "libexttextcat": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libexttextcat.git",
+      "branch": "master",
+      "revision": "d04709c7a32a08f5d391d713b8dc0086c4802b88"
+    },
     "libfabric": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfabric.git",
       "branch": "master",
