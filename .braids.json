@@ -5216,6 +5216,11 @@
       "branch": "master",
       "revision": "29a38951e30b89d4211fb60ca17fb10b7cc4b126"
     },
+    "memcached": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/memcached.git",
+      "branch": "master",
+      "revision": "41316362730cccc5573628c80aa3d18f0e6064ed"
+    },
     "mesa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
       "branch": "master",
