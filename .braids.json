@@ -266,6 +266,11 @@
       "branch": "master",
       "revision": "e9ef377e354d10ebc11c68df1c555698abcabb9e"
     },
+    "freeglut": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
+      "branch": "master",
+      "revision": "e40b56deb18e79c1d115005c5c124fef201cc505"
+    },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
