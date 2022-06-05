@@ -5096,6 +5096,11 @@
       "branch": "master",
       "revision": "0834283b7ab747e2a7e753d1ff60ab52c7d37804"
     },
+    "poco": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/poco.git",
+      "branch": "master",
+      "revision": "bd893fa0129c47858254643e205f37a6de440bec"
+    },
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
       "branch": "master",
