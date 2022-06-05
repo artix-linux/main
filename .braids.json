@@ -466,6 +466,11 @@
       "branch": "master",
       "revision": "a3565e0a5a1fb05fe46807cc5276f4b0947db2f2"
     },
+    "etherwall": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/etherwall.git",
+      "branch": "master",
+      "revision": "7c6f7b599d1c1b6c5c94aeb0edc6ed5e23c06a4b"
+    },
     "exiv2": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exiv2.git",
       "branch": "master",
