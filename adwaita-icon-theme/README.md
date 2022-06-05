@@ -1,0 +1,2 @@
+# adwaita-icon-theme
+

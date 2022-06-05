@@ -31,6 +31,11 @@
       "branch": "master",
       "revision": "5bcd80316a58a2ef5334cf2a21ce9cc119d0a9d7"
     },
+    "adwaita-icon-theme": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/adwaita-icon-theme.git",
+      "branch": "master",
+      "revision": "263a4423c746085d91db9b917768537454284eee"
+    },
     "alsa-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-firmware.git",
       "branch": "master",
