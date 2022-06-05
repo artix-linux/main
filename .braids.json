@@ -401,6 +401,11 @@
       "branch": "master",
       "revision": "0e4e97001d1f5cdebb015e207b79c8f6f1aa9d91"
     },
+    "dqlite": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dqlite.git",
+      "branch": "master",
+      "revision": "5178cf17f19b317cdd2c5c58273109b2e6758570"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
