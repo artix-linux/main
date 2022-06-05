@@ -5311,6 +5311,11 @@
       "branch": "master",
       "revision": "af4cf83ff94b893cce674d0545ad0d9b5e4510b1"
     },
+    "yelp-xsl": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yelp-xsl.git",
+      "branch": "master",
+      "revision": "7d66971dcfab279a392c717c31e554a9b30c610d"
+    },
     "yodl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
       "branch": "master",
