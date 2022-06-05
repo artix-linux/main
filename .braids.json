@@ -1071,6 +1071,11 @@
       "branch": "master",
       "revision": "9c53123c1ee5281c419e953036bb906a05c18cca"
     },
+    "libb64": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libb64.git",
+      "branch": "master",
+      "revision": "0bd219653972faf8d0a635e584fb16d4c3e3a05b"
+    },
     "libblastrampoline": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libblastrampoline.git",
       "branch": "master",
