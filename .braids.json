@@ -56,6 +56,11 @@
       "branch": "master",
       "revision": "6fad0cf19d6a5333189f4693d0d1a7d94a7c3766"
     },
+    "aws-cli": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aws-cli.git",
+      "branch": "master",
+      "revision": "55da2c383fb1b73d6c8ba2c2ff2d37cbb5a16d80"
+    },
     "banner": {
       "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
       "branch": "master",
