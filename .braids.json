@@ -4141,6 +4141,11 @@
       "branch": "master",
       "revision": "7a429cd7d6963f9903f170e1c64c744973247a63"
     },
+    "marisa": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/marisa.git",
+      "branch": "master",
+      "revision": "8f770240f5956e933199f89353776bed2a19dbc1"
+    },
     "mat2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mat2.git",
       "branch": "master",
