@@ -7111,6 +7111,11 @@
       "branch": "master",
       "revision": "bccf3c49a884210bc4e306bf3001f885724cae15"
     },
+    "rhash": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rhash.git",
+      "branch": "master",
+      "revision": "a8de6ca8446d865f30cf0de21c9ca4432e197962"
+    },
     "ripgrep": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ripgrep.git",
       "branch": "master",
