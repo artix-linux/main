@@ -2576,6 +2576,11 @@
       "branch": "master",
       "revision": "9632fffddc8e18895ccde6abc1874db015bb617d"
     },
+    "strongswan": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strongswan.git",
+      "branch": "master",
+      "revision": "c3c1f3900262373a0ce1b31d7832a7314dc0f1c4"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
