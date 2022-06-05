@@ -7096,6 +7096,11 @@
       "branch": "master",
       "revision": "04b8bca8fdaaacec6640729a2a029dfa93349528"
     },
+    "reiserfsprogs": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/reiserfsprogs.git",
+      "branch": "master",
+      "revision": "aa8ebab469927a53e36563d83339eeb8db2b4aa6"
+    },
     "restinio": {
       "url": "gitea@gitea.artixlinux.org:packagesR/restinio.git",
       "branch": "master",
