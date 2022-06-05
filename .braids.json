@@ -5341,6 +5341,11 @@
       "branch": "master",
       "revision": "9193b9682bd1ee3132353dd4d5b81a3bcfb3af56"
     },
+    "zeitgeist": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zeitgeist.git",
+      "branch": "master",
+      "revision": "b6e9da3728a937a71984777161a7bb757c859294"
+    },
     "zeroc-ice": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeroc-ice.git",
       "branch": "master",
