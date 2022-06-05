@@ -340,6 +340,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openvkl.git",
       "branch": "master",
       "revision": "c7a22103c3751d5acf866ccabd866d8a0adc16bb"
+    },
+    "openvr": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openvr.git",
+      "branch": "master",
+      "revision": "5e70b16259b7acb2ce4a8d6dfc350811a0b25ef5"
     }
   }
 }
