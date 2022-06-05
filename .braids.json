@@ -4596,6 +4596,11 @@
       "branch": "master",
       "revision": "bc1019d05cc406ab4eff79a4960dd20dc67b2637"
     },
+    "unicode-character-database": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unicode-character-database.git",
+      "branch": "master",
+      "revision": "a3368bbafa4c1ceb9549261112291c73dce9a703"
+    },
     "unicode-cldr": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-cldr.git",
       "branch": "master",
