@@ -256,6 +256,11 @@
       "branch": "master",
       "revision": "021058db645f547768f9117a9e4d2a29fd26384e"
     },
+    "google-glog": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
+      "branch": "master",
+      "revision": "f8221312c3ddd2a10ad451cb8e3d6b443dbcc1fb"
+    },
     "grantlee": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grantlee.git",
       "branch": "master",
