@@ -721,6 +721,11 @@
       "branch": "master",
       "revision": "847373e07ccbf718a0f88bc62c2af4cc3104874a"
     },
+    "confuse": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/confuse.git",
+      "branch": "master",
+      "revision": "e3589d0d6ee89babe04aedf299d703049fd520fd"
+    },
     "connman": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman.git",
       "branch": "master",
