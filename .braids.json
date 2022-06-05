@@ -3626,6 +3626,11 @@
       "branch": "master",
       "revision": "89f54590f832ac224d36ff9786e803ea44beeb37"
     },
+    "nvidia-settings": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-settings.git",
+      "branch": "master",
+      "revision": "c09ed822596cf2235f39db102b4578fb6c743afb"
+    },
     "ocaml": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml.git",
       "branch": "master",
