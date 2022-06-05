@@ -1,0 +1,24 @@
+From 035ced607fa4693614309f623d1ed78d12d1c905 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Mon, 1 Nov 2021 14:01:13 -0500
+Subject: [PATCH] add missing header
+
+---
+ include/cpptoml.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/cpptoml.h b/include/cpptoml.h
+index 5a00da3..9ed2314 100644
+--- a/include/cpptoml.h
++++ b/include/cpptoml.h
+@@ -21,6 +21,7 @@
+ #include <string>
+ #include <unordered_map>
+ #include <vector>
++#include <limits>
+ 
+ #if __cplusplus > 201103L
+ #define CPPTOML_DEPRECATED(reason) [[deprecated(reason)]]
+-- 
+2.33.1
+

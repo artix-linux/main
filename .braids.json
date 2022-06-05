@@ -75,6 +75,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
       "revision": "9d313efee8b6ab8fd22f0d9bb936a8b27a5775ef"
+    },
+    "cpptoml": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpptoml.git",
+      "branch": "master",
+      "revision": "410a729c5787a835987e53b367eda3b3c824c440"
     }
   }
 }
