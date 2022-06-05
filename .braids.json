@@ -831,6 +831,11 @@
       "branch": "master",
       "revision": "c3568a4b2af2ecadefbd6af49944062b3148f2a7"
     },
+    "libixion": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libixion.git",
+      "branch": "master",
+      "revision": "6076d8bc66609f1290b932c7a5119efa67552a7d"
+    },
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
       "branch": "master",
