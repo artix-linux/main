@@ -5746,6 +5746,11 @@
       "branch": "master",
       "revision": "ae61967519ae26918ca650adeb4ce4cdf8440b33"
     },
+    "nss-mdns": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nss-mdns.git",
+      "branch": "master",
+      "revision": "e5e78edd3da9317065f827d6c3be1cae5ab66907"
+    },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
