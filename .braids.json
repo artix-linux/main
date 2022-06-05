@@ -2286,6 +2286,11 @@
       "branch": "master",
       "revision": "2142abdeb64d2003976a62fd3a77f35651fce490"
     },
+    "groovy": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/groovy.git",
+      "branch": "master",
+      "revision": "94a38f734e16688f8bf5df1c359c71551f465aff"
+    },
     "grpc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
       "branch": "master",
