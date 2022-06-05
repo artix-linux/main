@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "3539a6c3698de9cbf78e9fc2e3fa33454b6a576a"
     },
+    "broadcom-wl": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/broadcom-wl.git",
+      "branch": "master",
+      "revision": "c14775c096cc6c40fb780a8a1f92dce3a7a9073b"
+    },
     "bubblewrap": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bubblewrap.git",
       "branch": "master",
