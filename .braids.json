@@ -7486,6 +7486,11 @@
       "branch": "master",
       "revision": "154e87801d42beeae030194c5827ccec21222f78"
     },
+    "smartmontools": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/smartmontools.git",
+      "branch": "master",
+      "revision": "38aad75340491704f7f85e3e7644eea9e947e499"
+    },
     "smpeg": {
       "url": "gitea@gitea.artixlinux.org:packagesS/smpeg.git",
       "branch": "master",
