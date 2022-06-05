@@ -1191,6 +1191,11 @@
       "branch": "master",
       "revision": "e02c80a71c2e083266bfa871ac2ca724bc8ebaa0"
     },
+    "dnssec-anchors": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnssec-anchors.git",
+      "branch": "master",
+      "revision": "98fc79829f63f7c00091ba2a5920c1773afe0431"
+    },
     "docbook-dsssl": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docbook-dsssl.git",
       "branch": "master",
