@@ -1241,6 +1241,11 @@
       "branch": "master",
       "revision": "64d2621f677927ae2b7ca7f979b0ecf517f465bd"
     },
+    "gssdp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gssdp.git",
+      "branch": "master",
+      "revision": "e73cd3402f8d511821e9d439b4a7ad43fd44313f"
+    },
     "gstreamer": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gstreamer.git",
       "branch": "master",
