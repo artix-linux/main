@@ -1136,6 +1136,11 @@
       "branch": "master",
       "revision": "ba6339a1b3b07d89e8621ebd29cb79d75f7c8e20"
     },
+    "emacs-nox": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/emacs-nox.git",
+      "branch": "master",
+      "revision": "37fc7e0b092f637afe3212263a14eee973ba9c4c"
+    },
     "emovix": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emovix.git",
       "branch": "master",
