@@ -1351,6 +1351,11 @@
       "branch": "master",
       "revision": "dedc5f88f21fa27cb3ff5224c4f90e3ce9d9bc53"
     },
+    "ladspa": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/ladspa.git",
+      "branch": "master",
+      "revision": "a92570367563cf99ff28de7fd28dd87f8664eed5"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
