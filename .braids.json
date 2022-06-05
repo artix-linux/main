@@ -3706,6 +3706,11 @@
       "branch": "master",
       "revision": "1428e7390e08473c66eb390b622900ebe11e8e17"
     },
+    "libwslay": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwslay.git",
+      "branch": "master",
+      "revision": "c16f5abfb0477737cb9d2cb5994ca123dabacfd4"
+    },
     "libx11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx11.git",
       "branch": "master",
