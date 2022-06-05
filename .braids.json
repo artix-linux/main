@@ -3231,6 +3231,11 @@
       "branch": "master",
       "revision": "4351764a18ac88c07a4c5bb11711125e916509f2"
     },
+    "portaudio": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/portaudio.git",
+      "branch": "master",
+      "revision": "42222eeaaf3ec4d2772d28287020d18372763f17"
+    },
     "postfix": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix.git",
       "branch": "master",
