@@ -6006,6 +6006,11 @@
       "branch": "master",
       "revision": "fe1f24fa380bfa9a7d7d0b70d08d29e45788c7ca"
     },
+    "opensp": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensp.git",
+      "branch": "master",
+      "revision": "4d9ece9c114aab0a09d29e0db0bdd1f431a4cd4f"
+    },
     "openvdb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
       "branch": "master",
