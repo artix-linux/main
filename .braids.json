@@ -936,6 +936,11 @@
       "branch": "master",
       "revision": "68fe31159a6f541a469b78901748c3855edaa270"
     },
+    "cronie": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cronie.git",
+      "branch": "master",
+      "revision": "e12587f9370b3ef4f19dab261d01c9edffba5159"
+    },
     "crun": {
       "url": "gitea@gitea.artixlinux.org:packagesC/crun.git",
       "branch": "master",
