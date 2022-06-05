@@ -1836,6 +1836,11 @@
       "branch": "master",
       "revision": "3251346b8df486feb4019b9db74e7501b0b50fab"
     },
+    "matrix-synapse": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse.git",
+      "branch": "master",
+      "revision": "6a99445bea97e1c04c0118064b547e856453a451"
+    },
     "maturin": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maturin.git",
       "branch": "master",
