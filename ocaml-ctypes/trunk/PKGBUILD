@@ -1,0 +1,33 @@
+# Maintainer: Evangelos Foutras <evangelos@foutrelis.com>
+# Contributor: Armin K. <krejzi at email dot com>
+
+pkgname=ocaml-ctypes
+pkgver=0.20.0
+pkgrel=2
+pkgdesc="Library for binding to C libraries using pure OCaml"
+arch=('x86_64')
+url="https://github.com/ocamllabs/ocaml-ctypes"
+license=('MIT')
+depends=('ocaml>=4.13.1' 'libffi' 'ocaml-integers' 'ocaml-bigarray-compat')
+makedepends=('ocaml-findlib' 'ocaml-compiler-libs')
+options=('!strip' '!makeflags')
+source=($pkgname-$pkgver.tar.gz::https://github.com/ocamllabs/ocaml-ctypes/archive/$pkgver.tar.gz)
+sha512sums=('605ae95b0233f1157749475526ef00ade2f97649d06a782e8fcf97b604cb86a0dcc8f27c4ac6baec11a41b9ef5becb0e5ae55e30f1ee61b30d4ae17a0d1545c2')
+
+build() {
+  cd "$srcdir/$pkgname-$pkgver"
+  make
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+  local _destdir="$pkgdir$(ocamlfind printconf destdir)"
+  install -d "$_destdir/stublibs"
+
+  make OCAMLFIND_DESTDIR="$_destdir" install
+
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
+
+# vim:set ts=2 sw=2 et:
