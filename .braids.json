@@ -1976,6 +1976,11 @@
       "branch": "master",
       "revision": "1fc83a68accdea6fca6cd39956b2cf36b3d194b7"
     },
+    "neomutt": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/neomutt.git",
+      "branch": "master",
+      "revision": "8eaced4ce7dc4cd187dfa1cc0494e08a90c5d991"
+    },
     "neon": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neon.git",
       "branch": "master",
