@@ -4096,6 +4096,11 @@
       "branch": "master",
       "revision": "02aa3a4752c8f41d775895515cbdd2abda5b6692"
     },
+    "m2r": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/m2r.git",
+      "branch": "master",
+      "revision": "350b86823429dd6d763d50b08bf6b8e88cdf2dae"
+    },
     "mac": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mac.git",
       "branch": "master",
