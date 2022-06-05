@@ -801,6 +801,11 @@
       "branch": "master",
       "revision": "8ee2bab7fbdb7f60fd3407abd2e3eac0e3837810"
     },
+    "libxrandr": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxrandr.git",
+      "branch": "master",
+      "revision": "8bd761a94bc19b4eb70ea67549dcf695f39c6dc5"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
