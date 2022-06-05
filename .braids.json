@@ -7631,6 +7631,11 @@
       "branch": "master",
       "revision": "131d8f7f68d1d73025ba56a2fe842fecc8404d84"
     },
+    "zeromq": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zeromq.git",
+      "branch": "master",
+      "revision": "2a421a0bd36d61e9042a1b33695ba27aa1a8fae1"
+    },
     "zfp": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zfp.git",
       "branch": "master",
