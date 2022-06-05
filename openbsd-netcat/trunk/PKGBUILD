@@ -1,0 +1,37 @@
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: Andrej Gelenberg <andrej.gelenberg@udo.edu>
+
+pkgname="openbsd-netcat"
+pkgver=1.218_5
+pkgrel=1
+pkgdesc="TCP/IP swiss army knife. OpenBSD variant."
+arch=('x86_64')
+url="https://salsa.debian.org/debian/netcat-openbsd"
+license=('BSD')
+depends=('libbsd')
+makedepends=('gcc' 'make')
+provides=('netcat')
+conflicts=('gnu-netcat')
+source=("https://salsa.debian.org/debian/netcat-openbsd/-/archive/debian/${pkgver/_/-}/netcat-openbsd-debian-${pkgver/_/-}.tar.gz")
+sha512sums=('c6dd057fbd6bff4a98c75f11a83ea330593c80f0ff796187eee2c32b4fd451a743372d144043a33bb59e8077cd50f5ed69dba3a487203c024771d8658ab2db5b')
+b2sums=('457ae2dd3bb0da31cd7fc94b7f4c00cf1021b6d9237ad3ea24437fdad1d4f6bd97f292d7915c0eccc6e905ac5c7270d1917f2ef547996a8930560a78589be2a3')
+
+build() {
+  cd netcat-openbsd-debian-${pkgver/_/-}
+  for i in `cat debian/patches/series`; do
+	echo "** patch $i" 1>&2
+	cat "debian/patches/$i"
+  done | patch -p1
+  make \
+	CFLAGS="$CFLAGS -DDEBIAN_VERSION=\"\\\"${pkgrel}\\\"\" -I/usr/include/libbsd" \
+	LDFLAGS="$LDFLAGS -lbsd"
+}
+
+package() {
+  cd netcat-openbsd-debian-${pkgver/_/-}
+  install -Dm0755 nc "$pkgdir"/usr/bin/nc
+  ln -s nc "$pkgdir"/usr/bin/netcat
+  install -Dm0644 nc.1 "$pkgdir"/usr/share/man/man1/nc.1
+  install -dm0755 "$pkgdir"/usr/share/licenses/$pkgname/
+  head -n28 netcat.c | tail -n+2 >"$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}

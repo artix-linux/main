@@ -2086,6 +2086,11 @@
       "branch": "master",
       "revision": "1c987f8a3a847c68f4fff51d1935eff26b57282f"
     },
+    "openbsd-netcat": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openbsd-netcat.git",
+      "branch": "master",
+      "revision": "3b373846d76855adf44d0f45e61ec4997f57e8c4"
+    },
     "opencl-clhpp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencl-clhpp.git",
       "branch": "master",
