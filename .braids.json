@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "2a2b7f75e99c006724508adf7fef1ff9916834a4"
     },
+    "jupyterlab": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab.git",
+      "branch": "master",
+      "revision": "c562f8925a2cef6d18441b6db16d7b7c6fc7a2fa"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
