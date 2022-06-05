@@ -306,6 +306,11 @@
       "branch": "master",
       "revision": "c52746dd66b32ad2a3e48a7020de420cc08b8de3"
     },
+    "jrnl": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jrnl.git",
+      "branch": "master",
+      "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
