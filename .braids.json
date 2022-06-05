@@ -806,6 +806,11 @@
       "branch": "master",
       "revision": "5c88afa670b90fcd97e079935907a6e30f0680c2"
     },
+    "libheif": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libheif.git",
+      "branch": "master",
+      "revision": "5c6d4801f842a85603511c5e92afae9df71d3d06"
+    },
     "libice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libice.git",
       "branch": "master",
