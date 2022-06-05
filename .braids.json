@@ -476,6 +476,11 @@
       "branch": "master",
       "revision": "a5a4742ec506609aac862d84d28aa2c2fdbd3ad3"
     },
+    "cargo-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cargo-c.git",
+      "branch": "master",
+      "revision": "959f70248c43743f10b3edcfdda993509a412a03"
+    },
     "catch2": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catch2.git",
       "branch": "master",
