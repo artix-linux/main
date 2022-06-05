@@ -2696,6 +2696,11 @@
       "branch": "master",
       "revision": "7a4fc9b20114dab47acd14e14145d3447680e9f5"
     },
+    "mediastreamer": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mediastreamer.git",
+      "branch": "master",
+      "revision": "29a38951e30b89d4211fb60ca17fb10b7cc4b126"
+    },
     "mesa-demos": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa-demos.git",
       "branch": "master",
