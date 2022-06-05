@@ -425,6 +425,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tcc.git",
       "branch": "master",
       "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
+    },
+    "tesseract": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tesseract.git",
+      "branch": "master",
+      "revision": "c0c7c8a38c73aa46c68fb16346ea2f35089a9a9d"
     }
   }
 }
