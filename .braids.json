@@ -6766,6 +6766,11 @@
       "branch": "master",
       "revision": "1a20d46152ce5ec7fec4764ca53165f7178bdaa5"
     },
+    "unittestpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unittestpp.git",
+      "branch": "master",
+      "revision": "01049850d99dc72a074a72b88656c493fae9b480"
+    },
     "unrealircd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
       "branch": "master",
