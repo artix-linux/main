@@ -80,6 +80,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cpptoml.git",
       "branch": "master",
       "revision": "410a729c5787a835987e53b367eda3b3c824c440"
+    },
+    "duktape": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
+      "branch": "master",
+      "revision": "cf20debeee110e79116607cfcc34b2c9a88d38fe"
     }
   }
 }
