@@ -1,0 +1,80 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Llewelyn Trahaearn <WoefulDerelict at GMail dot com>
+# Contributor: FadeMind <fademind at gmail dot com>
+# Contributor: Maxime Gauduin <alucryd at archlinux dot org>
+# Contributor: bitwave <aur at oomlu dot de>
+# Contributor: willemw <willemw12 at gmail dot com>
+# Contributor: Balló György <ballogyor+arch at gmail dot com>
+
+pkgbase=libappindicator
+pkgname=("${pkgbase}-gtk"{2,3})
+_bzrtag=12.10.0
+_bzrrev=296
+pkgver=${_bzrtag}.r${_bzrrev}
+pkgrel=2
+pkgdesc='Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray'
+url='https://launchpad.net/libappindicator'
+arch=('x86_64')
+license=('LGPL2.1' 'LGPL3')
+makedepends=('bzr' 'dbus-glib' 'gnome-common' 'gobject-introspection' 'gtk-doc' 'libdbusmenu-gtk'{2,3} 'libindicator-gtk'{2,3} 'vala' ''elogind)
+options=('!emptydirs')
+source=(bzr+lp:libappindicator#revision=$_bzrrev
+        no-host.patch)
+sha512sums=('SKIP'
+            'cfc9481ad26712063f9d1bfdd1f94327f579c0c58385cec8adb4e5f12398ef2eb4427a62e6580cda75434d967623235940562f826a909501ee52eef8135703fa')
+validpgpkeys=('6FC05581A37D71FCECE165DB5BE41E162CD6358E')  # Charles Kerr <charles.kerr@canonical.com>
+
+prepare() {
+  (cd ${pkgbase}
+
+    # Fall back to tray icon when StatusNotifierHost is not available.
+    # https://code.launchpad.net/~muktupavels/libappindicator/no-host/+merge/386817
+    patch -p0 < "${srcdir}/no-host.patch"
+
+    sed -i 's/-Werror//' src/Makefile.am
+    ./autogen.sh
+  )
+  cp -ra ${pkgbase}{,-gtk2}
+}
+
+build() {
+  msg2 'Building gtk3...'
+  (cd ${pkgbase}
+    ./configure --prefix=/usr \
+      --sysconfdir=/etc \
+      --localstatedir=/var \
+      --with-gtk=3 \
+      --enable-gtk-doc
+    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+    make -j1
+  )
+
+  msg2 'Building gtk2...'
+  (cd ${pkgbase}-gtk2
+    ./configure --prefix=/usr \
+      --sysconfdir=/etc \
+      --localstatedir=/var \
+      --with-gtk=2 \
+      --disable-introspection
+    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+    make -j1
+  )
+}
+
+package_libappindicator-gtk2() {
+  pkgdesc+=' (GTK+ 2 library)'
+  depends=('libdbusmenu-gtk2' 'libindicator-gtk2' 'elogind')
+
+  cd ${pkgbase}-gtk2
+  make DESTDIR="${pkgdir}" install
+}
+
+package_libappindicator-gtk3() {
+  pkgdesc+=' (GTK+ 3 library)'
+  depends=('libdbusmenu-gtk3' 'libindicator-gtk3' 'elogind')
+
+  cd ${pkgbase}
+  make DESTDIR="${pkgdir}" install
+}
+
+# vim: ts=2 sw=2 et:

@@ -2486,6 +2486,11 @@
       "branch": "master",
       "revision": "eb2d94fbe009275f2146097ec601b6916276c9dc"
     },
+    "libappindicator": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libappindicator.git",
+      "branch": "master",
+      "revision": "a6c96adcc7016a20d652f3396f45cd56ab3be093"
+    },
     "libass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libass.git",
       "branch": "master",
