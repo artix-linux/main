@@ -3676,6 +3676,11 @@
       "branch": "master",
       "revision": "ef574b0eafea36b1a2f04281453cdca846da0c9e"
     },
+    "spotifyd": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd.git",
+      "branch": "master",
+      "revision": "e40e0f6ade23670c2982f87abfaacbc4255fb653"
+    },
     "sqlcipher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
       "branch": "master",
