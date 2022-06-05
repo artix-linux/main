@@ -301,6 +301,11 @@
       "branch": "master",
       "revision": "6d3119a58053e57faa5a47a7c4f4803c2edcb4f0"
     },
+    "cups": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cups.git",
+      "branch": "master",
+      "revision": "4d2a1f3884f22dfd4ece2de2c66da7b218eae8c4"
+    },
     "cython": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
       "branch": "master",
