@@ -405,6 +405,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/shhmsg.git",
       "branch": "master",
       "revision": "992c42a5b043069ab280489b0be0d4b77721a4e9"
+    },
+    "shhopt": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shhopt.git",
+      "branch": "master",
+      "revision": "395f62e3122ebe06f0da295844a02263e4559cb1"
     }
   }
 }
