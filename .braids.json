@@ -1091,6 +1091,11 @@
       "branch": "master",
       "revision": "8aa3ff8bdc2d1562165a1a1ea7e5fc5192ec085e"
     },
+    "editline": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/editline.git",
+      "branch": "master",
+      "revision": "ff33583d92288b554e5bc78320b87ec9d5b49f93"
+    },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
