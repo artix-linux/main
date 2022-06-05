@@ -1931,6 +1931,11 @@
       "branch": "master",
       "revision": "d473f499259b69ca3c18d55993dd2160c2019a2d"
     },
+    "gettext": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gettext.git",
+      "branch": "master",
+      "revision": "10c5d3c4a5ff8073828d7ac1de1afe38f688d608"
+    },
     "gflags": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gflags.git",
       "branch": "master",
