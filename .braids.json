@@ -244,7 +244,7 @@
     "artools": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artools.git",
       "branch": "master",
-      "revision": "113c32737de2bef1e345f43123d130f0e20308b4"
+      "revision": "1cebe99e91841bc69430e7d35bb345266b612cec"
     },
     "asciidoc": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asciidoc.git",
