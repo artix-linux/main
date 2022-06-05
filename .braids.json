@@ -5121,6 +5121,11 @@
       "branch": "master",
       "revision": "01d496806c824fb0f1b82c10de75a110d05be498"
     },
+    "mallard-ducktype": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mallard-ducktype.git",
+      "branch": "master",
+      "revision": "c08b1e7d2993fcb0bfc0b515098b6268fe8ec200"
+    },
     "man-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man-db.git",
       "branch": "master",
