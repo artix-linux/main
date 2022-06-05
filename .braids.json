@@ -706,6 +706,11 @@
       "branch": "master",
       "revision": "37c8b169628c47b13b071c5e3846eb5c939bc092"
     },
+    "libxcb": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxcb.git",
+      "branch": "master",
+      "revision": "76911e7d38ebe5c205afbf777318ead1e4482a94"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
