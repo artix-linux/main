@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Target = artix-archlinux-support
+
+[Action]
+Description = Show archlinux help...
+When = PostTransaction
+Depends = archlinux-keyring
+Depends = archlinux-mirrorlist
+Exec = /usr/share/libalpm/scripts/arch-repos-hook

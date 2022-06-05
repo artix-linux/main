@@ -1,0 +1,63 @@
+#!/bin/sh -e
+
+print_keyring_help() {
+    printf "==> run: 'pacman-key --populate archlinux'\n"
+    printf "\n"
+}
+
+add_repo() {
+    r="$1" c="$2"
+    printf "\n" #>> /etc/pacman.conf
+    printf "%s\n" "${c}[$r]" #>> /etc/pacman.conf
+    printf "%s\n" "${c}Include = /etc/pacman.d/mirrorlist-arch" #>> /etc/pacman.conf
+    printf "\n" #>> /etc/pacman.conf
+}
+
+has_testing=0
+has_stable=0
+has_multi_testing=0
+has_multi=0
+
+for repo in $(pacman-conf -l); do
+    case "$repo" in
+        testing|community-testing|gremlins|galaxy-gremlins) has_testing=1 ;;
+        extra|community) has_stable=1 ;;
+        multilib-testing|lib32-gremlins) has_multi_testing=1 ;;
+        multilib|lib32) has_multi=1 ;;
+    esac
+done
+
+print_repo_help() {
+    printf "==> Add the arch repos in pacman.conf:\n"
+
+    if [ "$has_testing" -eq 1 ]; then
+        add_repo 'testing'
+    else
+        add_repo 'testing' '#'
+    fi
+    if [ "$has_stable" -ne 1 ]; then
+        add_repo "extra"
+    fi
+    if [ "$has_testing" -eq 1 ]; then
+        add_repo 'community-testing'
+    else
+        add_repo 'community-testing' '#'
+    fi
+    if [ "$has_stable" -ne 1 ]; then
+        add_repo "community"
+    fi
+    if [ "$has_multi_testing" -eq 1 ]; then
+        add_repo "multilib-testing"
+    else
+        add_repo "multilib-testing" '#'
+    fi
+    if [ "$has_multi" -eq 1 ]; then
+        add_repo "multilib"
+    else
+        add_repo "multilib" '#'
+    fi
+}
+
+print_repo_help
+
+print_keyring_help

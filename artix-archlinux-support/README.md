@@ -1,0 +1,2 @@
+# artix-archlinux-support
+

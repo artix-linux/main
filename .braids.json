@@ -201,6 +201,11 @@
       "branch": "master",
       "revision": "81b90db857e9c0a8bbdb60cd36b24454c4b35dfd"
     },
+    "artix-archlinux-support": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/artix-archlinux-support.git",
+      "branch": "master",
+      "revision": "97b738a2c921ce2cf27e99c11b398567be0dee0b"
+    },
     "artixnews": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artixnews.git",
       "branch": "master",
