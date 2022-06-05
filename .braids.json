@@ -1476,6 +1476,11 @@
       "branch": "master",
       "revision": "7fd4ea6d2c88d2d6b879358be802d6988c832b79"
     },
+    "wayland-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wayland-utils.git",
+      "branch": "master",
+      "revision": "d115d57d45599a6053bcc46be8b0c54410db90f9"
+    },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
       "branch": "master",
