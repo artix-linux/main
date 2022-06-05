@@ -1421,6 +1421,11 @@
       "branch": "master",
       "revision": "bb26ebe5d070e8456153587876d323b90ef1f184"
     },
+    "vpnc": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vpnc.git",
+      "branch": "master",
+      "revision": "d33df879d8660aa06af270eebcbde9f489f35b2f"
+    },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
