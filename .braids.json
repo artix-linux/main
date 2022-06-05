@@ -2981,6 +2981,11 @@
       "branch": "master",
       "revision": "042823f2f84aa14c87b0e180fc384473ded8b3cc"
     },
+    "v2ray-geoip": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-geoip.git",
+      "branch": "master",
+      "revision": "be9556e33dacb69861d920c23c019be5743b7ea0"
+    },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
