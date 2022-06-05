@@ -46,6 +46,11 @@
       "branch": "master",
       "revision": "cfce90b6d993b1be1f385dcc00da83e21141e95f"
     },
+    "apcupsd": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd.git",
+      "branch": "master",
+      "revision": "d9631a3c24e7d3ffa08736fb498d4ab5a716dd47"
+    },
     "apparmor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor.git",
       "branch": "master",
