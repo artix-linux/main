@@ -6236,6 +6236,11 @@
       "branch": "master",
       "revision": "8863eca77d90f090494853a72ff6baf922f97492"
     },
+    "sssd": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sssd.git",
+      "branch": "master",
+      "revision": "f9520ce9291fcb669b032637f89b54331887c815"
+    },
     "startup-notification": {
       "url": "gitea@gitea.artixlinux.org:packagesS/startup-notification.git",
       "branch": "master",
