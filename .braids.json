@@ -1776,6 +1776,11 @@
       "branch": "master",
       "revision": "efd0ae813b7fd83e29b07193f6cd83c8d362a708"
     },
+    "grpc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
+      "branch": "master",
+      "revision": "feefd667e1e22e8073fbe407c9403394280ef31a"
+    },
     "gsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsasl.git",
       "branch": "master",
