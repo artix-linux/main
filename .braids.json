@@ -6136,6 +6136,11 @@
       "branch": "master",
       "revision": "91d1f45fe51a53dd441bda57cafc308cb9a56c66"
     },
+    "pambase": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pambase.git",
+      "branch": "master",
+      "revision": "dd007542596f44d5ec8d59081849e02175dd453b"
+    },
     "pango": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pango.git",
       "branch": "master",
