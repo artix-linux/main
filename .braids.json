@@ -176,6 +176,11 @@
       "branch": "master",
       "revision": "da4eaa4d4e3a9f00f19a710fad66859f42c7ab84"
     },
+    "at-spi2-atk": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/at-spi2-atk.git",
+      "branch": "master",
+      "revision": "f0af2c6bcf22ab08d6331259ec2b9261db8f357a"
+    },
     "atftp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atftp.git",
       "branch": "master",
