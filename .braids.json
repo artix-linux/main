@@ -35,6 +35,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
       "revision": "0b94539386bd52f7660ae3360c0e360f72a943ad"
+    },
+    "botan": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/botan.git",
+      "branch": "master",
+      "revision": "5ad0711b7ee780324b2f3a4c3e6af1d605dc5a3b"
     }
   }
 }
