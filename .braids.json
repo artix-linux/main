@@ -2796,6 +2796,11 @@
       "branch": "master",
       "revision": "87dece281509ee341edd8a4d9f0916f6334af58e"
     },
+    "libftdi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libftdi.git",
+      "branch": "master",
+      "revision": "697ff23c0cc9ff8062ef529c489aa27eadf509f5"
+    },
     "libgadu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgadu.git",
       "branch": "master",
