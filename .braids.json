@@ -40,6 +40,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/botan.git",
       "branch": "master",
       "revision": "5ad0711b7ee780324b2f3a4c3e6af1d605dc5a3b"
+    },
+    "catfish": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
+      "branch": "master",
+      "revision": "ae55127c37f18ab47ccc63f004394fcf113ab326"
     }
   }
 }
