@@ -1641,6 +1641,11 @@
       "branch": "master",
       "revision": "eb839ef2080c52a9007db35ed69bfb61174cf89a"
     },
+    "xf86-video-vesa": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-vesa.git",
+      "branch": "master",
+      "revision": "a67a885cbc581bf5cd6559b27e9cf8083f7376a8"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
