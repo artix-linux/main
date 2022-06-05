@@ -1,0 +1,29 @@
+# Maintainer: juergen <juergen@archlinux.org>
+# Contributor: Tom Newsom <Jeepster@gmx.co.uk>
+
+pkgname=metalog
+pkgver=20200113
+pkgrel=2
+pkgdesc="A modern replacement for syslogd and klogd"
+url="http://metalog.sourceforge.net"
+license=('GPL')
+arch=('x86_64')
+makedepends=('autoconf-archive')
+depends=('pcre')
+provides=('logger')
+backup=('etc/metalog.conf')
+source=("https://github.com/hvisage/metalog/archive/metalog-${pkgver}.tar.gz")
+sha256sums=('cf4b5601697145420af08633c873e1d4c3c437643b8fe3fb5dd8a30c1a20e73d')
+
+build() {
+  cd $pkgname-$pkgname-${pkgver}
+  ./autogen.sh
+  ./configure --prefix=/usr --sysconfdir=/etc --sbin=/usr/bin
+  make
+}
+
+package() {
+  cd $pkgname-$pkgname-${pkgver}
+  make DESTDIR="$pkgdir" install
+  install -D -m644 metalog.conf "$pkgdir/etc/metalog.conf"
+}

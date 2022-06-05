@@ -5246,6 +5246,11 @@
       "branch": "master",
       "revision": "0d7b6cf61a52fea9476a0ae5cb610907474ad730"
     },
+    "metalog": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/metalog.git",
+      "branch": "master",
+      "revision": "48f7a5277694da3a933d5240c50faff57bf913c8"
+    },
     "metis": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metis.git",
       "branch": "master",
