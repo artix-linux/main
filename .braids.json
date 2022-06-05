@@ -171,6 +171,11 @@
       "branch": "master",
       "revision": "acd1ecd056cb5cf87f4a83ca9dcffb4a6d6e14d6"
     },
+    "convertlit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
+      "branch": "master",
+      "revision": "81a70d97bf7f14632ca8238b79eb2afe1721d516"
+    },
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
