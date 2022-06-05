@@ -5596,6 +5596,11 @@
       "branch": "master",
       "revision": "1edf2bc2a64bb31970cae2a8b869d2a6fb8f7e11"
     },
+    "nettle": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nettle.git",
+      "branch": "master",
+      "revision": "020331fdce33f82a13c5a3c03c3997dddac3cece"
+    },
     "networkmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager.git",
       "branch": "master",
