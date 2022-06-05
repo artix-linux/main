@@ -2841,6 +2841,11 @@
       "branch": "master",
       "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
     },
+    "musepack": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/musepack.git",
+      "branch": "master",
+      "revision": "44aa86fb47f1bb698989323d8de5db2f75d7e019"
+    },
     "mutt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mutt.git",
       "branch": "master",
