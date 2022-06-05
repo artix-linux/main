@@ -2206,6 +2206,11 @@
       "branch": "master",
       "revision": "496cc913b6f563956e3cb5814b15ebca59bd3902"
     },
+    "libtheora": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtheora.git",
+      "branch": "master",
+      "revision": "227b47fa18876962d196dc3ebdf8c2307191cc60"
+    },
     "libtiff": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtiff.git",
       "branch": "master",
