@@ -726,6 +726,11 @@
       "branch": "master",
       "revision": "82b203389ece9e903450bad708aebc26c9bcb1fe"
     },
+    "libxdamage": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxdamage.git",
+      "branch": "master",
+      "revision": "8f0b81e202cb82d0cf5792a592a809b40eb99396"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
