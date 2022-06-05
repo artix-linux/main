@@ -4016,6 +4016,11 @@
       "branch": "master",
       "revision": "dff18e8604ce320986942f130596341ac0a2f39c"
     },
+    "qt5-websockets": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-websockets.git",
+      "branch": "master",
+      "revision": "08c32f611a00ab1d4508738013dc3295800ddabb"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
