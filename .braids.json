@@ -8916,6 +8916,11 @@
       "branch": "master",
       "revision": "570c7762fbb4dab44ab4e216ed3d22e1dd4cca05"
     },
+    "xmlsec": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xmlsec.git",
+      "branch": "master",
+      "revision": "b7d41879b6522454fee617d6f595ceba23d0016b"
+    },
     "xmlstarlet": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlstarlet.git",
       "branch": "master",
