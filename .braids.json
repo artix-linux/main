@@ -2506,6 +2506,11 @@
       "branch": "master",
       "revision": "b0dc25864ca84dfda0d2aeb0a98c6acea47cea9f"
     },
+    "libsigc++": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsigcplusplus.git",
+      "branch": "master",
+      "revision": "812ae52085c9f7d820c3d8f736c221edb033f6ae"
+    },
     "libsigsegv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
       "branch": "master",
