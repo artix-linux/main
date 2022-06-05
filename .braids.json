@@ -426,6 +426,11 @@
       "branch": "master",
       "revision": "d4a95624c93b5eb133f8d6c7f4149f1a4200d234"
     },
+    "bullet": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bullet.git",
+      "branch": "master",
+      "revision": "1447693b54a0dea2d7bfa4b8e4085efa7e28b303"
+    },
     "bumblebee": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee.git",
       "branch": "master",
