@@ -2411,6 +2411,11 @@
       "branch": "master",
       "revision": "df5e8b3cf177233cfe3a04cc243652551c28e9a3"
     },
+    "rclone": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rclone.git",
+      "branch": "master",
+      "revision": "00847422d26f7d2e67e03a67dd357c4f35e83b8d"
+    },
     "redland": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redland.git",
       "branch": "master",
