@@ -1411,6 +1411,11 @@
       "branch": "master",
       "revision": "55dc5043ab10b6a149a6a5327c3c4144282aef7e"
     },
+    "libretls": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libretls.git",
+      "branch": "master",
+      "revision": "2455c38f22fe13812aa798a9eed90488e09b2872"
+    },
     "librsvg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
       "branch": "master",
