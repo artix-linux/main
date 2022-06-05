@@ -316,6 +316,11 @@
       "branch": "master",
       "revision": "c75c79b6fe79318c9c713defc030537861636d47"
     },
+    "jupyter_console": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
+      "branch": "master",
+      "revision": "2a2b7f75e99c006724508adf7fef1ff9916834a4"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
