@@ -3221,6 +3221,11 @@
       "branch": "master",
       "revision": "b89fb37e5ef10f7248bc86983a342d1c5df6cb7d"
     },
+    "libcbor": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libcbor.git",
+      "branch": "master",
+      "revision": "48f8e0d4a923e8bca76bdc26132f7ca8887e1fd7"
+    },
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
       "branch": "master",
