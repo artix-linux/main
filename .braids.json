@@ -1531,6 +1531,11 @@
       "branch": "master",
       "revision": "3460267ef73aff90a0495d02f04490d4a78220a5"
     },
+    "xcb-util-renderutil": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-renderutil.git",
+      "branch": "master",
+      "revision": "a98550cd7e6ab98befa6b883d1c4c94745f06d72"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
