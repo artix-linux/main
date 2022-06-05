@@ -951,6 +951,11 @@
       "branch": "master",
       "revision": "224ed53e70a43708ff8006b3bcdd42c9d0099dce"
     },
+    "cryptsetup": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup.git",
+      "branch": "master",
+      "revision": "9821ce591077d17665b252911b3d8e983ad2ef29"
+    },
     "ctpl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ctpl.git",
       "branch": "master",
