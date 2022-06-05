@@ -3901,6 +3901,11 @@
       "branch": "master",
       "revision": "c697aca3081d8bc8715c499b2127e72d1ce23bd4"
     },
+    "qt5-networkauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-networkauth.git",
+      "branch": "master",
+      "revision": "f3b7d73c476a31a92a76c7b8b8cedd51ce6f83cc"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
