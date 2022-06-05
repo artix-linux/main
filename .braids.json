@@ -1801,6 +1801,11 @@
       "branch": "master",
       "revision": "5c7514e73695ab7daed9695e3fb96b67fe3d2891"
     },
+    "texlive-latexextra": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/texlive-latexextra.git",
+      "branch": "master",
+      "revision": "bc29855066eb1abe0e73ba04c922c32e1f7dde4f"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
