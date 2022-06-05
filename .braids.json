@@ -5766,6 +5766,11 @@
       "branch": "master",
       "revision": "c16a2ce543439f17af3c8a9bb25bd150c9b01270"
     },
+    "numactl": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/numactl.git",
+      "branch": "master",
+      "revision": "eb75111b1849cb94b89516aa8514ce3e583efc38"
+    },
     "nvidia": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia.git",
       "branch": "master",
