@@ -365,6 +365,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
       "revision": "42cbd8bc2ef305cff451e9cbf9381ddc0b9dc65d"
+    },
+    "qrencode": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qrencode.git",
+      "branch": "master",
+      "revision": "a6d1447eb91c8d9f53416c6b70048de33c5141e7"
     }
   }
 }
