@@ -591,6 +591,11 @@
       "branch": "master",
       "revision": "91d1f45fe51a53dd441bda57cafc308cb9a56c66"
     },
+    "pastebinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pastebinit.git",
+      "branch": "master",
+      "revision": "537ead5019f6d2a15eed7c2263f0e641bd760c02"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
