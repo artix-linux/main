@@ -706,6 +706,11 @@
       "branch": "master",
       "revision": "9521aa639d45c86d8fdd42452d7144803fbbec2b"
     },
+    "coin-or-osi": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-osi.git",
+      "branch": "master",
+      "revision": "2d8d84e54057141935ddaef5907a92c38575a52c"
+    },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
       "branch": "master",

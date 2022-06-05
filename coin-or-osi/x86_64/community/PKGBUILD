@@ -1,0 +1,27 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=coin-or-osi
+pkgver=0.108.7
+pkgrel=1
+pkgdesc='COIN-OR Open Solver Interface'
+arch=(x86_64)
+url='https://github.com/coin-or/Osi'
+license=(EPL)
+groups=(coin-or)
+depends=(coin-or-coinutils)
+makedepends=(gcc-fortran)
+source=($pkgname-$pkgver.tar.gz::https://github.com/coin-or/Osi/archive/refs/tags/releases/$pkgver.tar.gz)
+sha256sums=('f1bc53a498585f508d3f8d74792440a30a83c8bc934d0c8ecf8cd8bc0e486228')
+
+build() {
+  cd Osi-releases-$pkgver
+  ./configure --prefix=/usr --enable-dependency-linking \
+              --with-coinutils-lib="$(pkg-config --libs coinutils)" \
+              --with-coinutils-incdir="/usr/include/coin/"
+  make
+}
+
+package() {
+  cd Osi-releases-$pkgver
+  make DESTDIR="$pkgdir" install
+}
