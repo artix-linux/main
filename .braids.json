@@ -4001,6 +4001,11 @@
       "branch": "master",
       "revision": "47ab4cb29cf4a1362be15ef49aa3eb3ffb7de3f6"
     },
+    "qt5-webengine": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webengine.git",
+      "branch": "master",
+      "revision": "ea27348740b954f18eab147c37625cb085859d34"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
