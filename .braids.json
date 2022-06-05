@@ -996,6 +996,11 @@
       "branch": "master",
       "revision": "a85f072a5082d0b89c1bd06824bccfba76348206"
     },
+    "librsvg": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
+      "branch": "master",
+      "revision": "d82296dc8cf26d8ac0dd3a972b9878fba63c525e"
+    },
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
       "branch": "master",
