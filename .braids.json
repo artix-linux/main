@@ -6741,6 +6741,11 @@
       "branch": "master",
       "revision": "bc1019d05cc406ab4eff79a4960dd20dc67b2637"
     },
+    "unclutter": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unclutter.git",
+      "branch": "master",
+      "revision": "98e9d5d1b2b7fb6ca8cd7d527539384db47c61f0"
+    },
     "unicode-character-database": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-character-database.git",
       "branch": "master",
