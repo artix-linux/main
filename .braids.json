@@ -30,6 +30,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
       "branch": "master",
       "revision": "f17c59f22c8f27f8eaa088a7dfdcd386404a2510"
+    },
+    "blosc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
+      "branch": "master",
+      "revision": "0b94539386bd52f7660ae3360c0e360f72a943ad"
     }
   }
 }
