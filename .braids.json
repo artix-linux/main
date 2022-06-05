@@ -136,6 +136,11 @@
       "branch": "master",
       "revision": "06f1c82f27e769937d01e2da4afcbe0936eb674f"
     },
+    "diffuse": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
+      "branch": "master",
+      "revision": "334df00cf272ea828b316aab3e9e544a033f2bf9"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
