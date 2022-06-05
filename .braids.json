@@ -2826,6 +2826,11 @@
       "branch": "master",
       "revision": "c72760933f0f4d1c7e5bc0e78d358982b00f79fb"
     },
+    "trojan": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trojan.git",
+      "branch": "master",
+      "revision": "dc8cb01489300b7bb8ea1b4b9ebc1ab07149ac15"
+    },
     "tslib": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tslib.git",
       "branch": "master",
