@@ -2376,6 +2376,11 @@
       "branch": "master",
       "revision": "a6d1447eb91c8d9f53416c6b70048de33c5141e7"
     },
+    "rabbitmq": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rabbitmq.git",
+      "branch": "master",
+      "revision": "ce1a0ec1b397764cb67ec109aa1533cca5561d45"
+    },
     "radeontop": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radeontop.git",
       "branch": "master",
