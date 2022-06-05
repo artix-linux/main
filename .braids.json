@@ -986,6 +986,11 @@
       "branch": "master",
       "revision": "3a0718b1ba645873b8cb40c7b0bf579f884e3ab6"
     },
+    "libraqm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libraqm.git",
+      "branch": "master",
+      "revision": "042a2303937be7dbea4efea0e10ced72aeeb5aec"
+    },
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
       "branch": "master",
