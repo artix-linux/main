@@ -556,6 +556,11 @@
       "branch": "master",
       "revision": "0c1e039eefd5d96203c0e67f85f3b8099a1b4680"
     },
+    "libinput": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libinput.git",
+      "branch": "master",
+      "revision": "c3568a4b2af2ecadefbd6af49944062b3148f2a7"
+    },
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
       "branch": "master",
