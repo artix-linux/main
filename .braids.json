@@ -566,6 +566,11 @@
       "branch": "master",
       "revision": "d7a65c33c666af2534e40498c5874766561cb66e"
     },
+    "dbus-glib": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dbus-glib.git",
+      "branch": "master",
+      "revision": "0f4f1b053de0fa8d6c66c6474c49e25da06122d1"
+    },
     "ddclient": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient.git",
       "branch": "master",
