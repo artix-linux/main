@@ -3001,6 +3001,11 @@
       "branch": "master",
       "revision": "8f738fe6867f8f8331ae55fdfb06e0c40b0be247"
     },
+    "libldm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libldm.git",
+      "branch": "master",
+      "revision": "c9fbbf20991939006e16d3d43197bd11d2ae2491"
+    },
     "liblqr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblqr.git",
       "branch": "master",
