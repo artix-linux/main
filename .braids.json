@@ -3141,6 +3141,11 @@
       "branch": "master",
       "revision": "91d1f45fe51a53dd441bda57cafc308cb9a56c66"
     },
+    "paprefs": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/paprefs.git",
+      "branch": "master",
+      "revision": "010281fa7cfde25bfb6b562e467941d9412d36b8"
+    },
     "pastebinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pastebinit.git",
       "branch": "master",
