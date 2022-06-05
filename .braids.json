@@ -486,6 +486,11 @@
       "branch": "master",
       "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
     },
+    "magic-wormhole": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/magic-wormhole.git",
+      "branch": "master",
+      "revision": "bb1687cc52bf581adbfba9009e17d53bd358d1ec"
+    },
     "mgard": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mgard.git",
       "branch": "master",
