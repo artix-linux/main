@@ -8271,6 +8271,11 @@
       "branch": "master",
       "revision": "01049850d99dc72a074a72b88656c493fae9b480"
     },
+    "unixodbc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unixodbc.git",
+      "branch": "master",
+      "revision": "b4a41068d67427678ed793459533137432b97772"
+    },
     "unrealircd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
       "branch": "master",
