@@ -1551,6 +1551,11 @@
       "branch": "master",
       "revision": "0c85868c0e9ea46ee4a74eecb70eeef84d1fa185"
     },
+    "libdiscid": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdiscid.git",
+      "branch": "master",
+      "revision": "89534feb3c4ecbde1d5f3b662e93d09541abaf35"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
