@@ -1,0 +1,34 @@
+# Maintainer: Sergej Pupykin <arch+pub@sergej.pp.ru>
+# Maintainer: Daniel M. Capella <polyzen@archlinux.org>
+# Contributor: ajs124 < aur AT ajs124 DOT de >
+
+pkgname=firejail
+pkgver=0.9.68
+pkgrel=1
+pkgdesc='Linux namespaces sandbox program'
+arch=('x86_64')
+url=https://github.com/netblue30/firejail
+license=('GPL2')
+depends=('apparmor')
+optdepends=('xdg-dbus-proxy: for D-Bus filtering')
+backup=('etc/apparmor.d/local/firejail-default'
+        'etc/firejail/firejail.config'
+        'etc/firejail/login.users')
+install=firejail.install
+source=("$url/releases/download/$pkgver/$pkgname-$pkgver.tar.xz"{,.asc})
+sha256sums=('a322395597d89d2e5ea21fb11cb3f2afc44b00fca5439bf44c7636c5cffa652f'
+            'SKIP')
+b2sums=('4d995715caa81b69bb9a16f604a2463b2db48fad5ba869bb5f353973ce8ec273dbabe07ee340b40094d6fe15bcef7e356cd07e7e7dfd0491d2d1632f64878a0e'
+        'SKIP')
+validpgpkeys=('F951164995F5C4006A73411E2CCB36ADFC5849A7')
+
+build() {
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr --enable-apparmor
+  make
+}
+
+package() {
+  cd $pkgname-$pkgver
+  make DESTDIR="$pkgdir" install
+}

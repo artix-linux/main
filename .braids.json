@@ -125,6 +125,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fira-sans.git",
       "branch": "master",
       "revision": "8ee4719c1773a7832ef62688ebd956b8ee0ac0b7"
+    },
+    "firejail": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/firejail.git",
+      "branch": "master",
+      "revision": "78790a3ac5b2cf96260723877bc2a7afc3658643"
     }
   }
 }
