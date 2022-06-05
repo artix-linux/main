@@ -3891,6 +3891,11 @@
       "branch": "master",
       "revision": "5bac6d683e838686df1b1fc0a40687e4db7000a7"
     },
+    "qt5-lottie": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-lottie.git",
+      "branch": "master",
+      "revision": "638f6352028f5ef7e229033ba04851aa2a57b4e4"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
