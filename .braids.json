@@ -2071,6 +2071,11 @@
       "branch": "master",
       "revision": "f2d3d0f5cf174e46be86473746b3de840a5a9ffc"
     },
+    "ntp": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
+      "branch": "master",
+      "revision": "c16a2ce543439f17af3c8a9bb25bd150c9b01270"
+    },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
       "branch": "master",
