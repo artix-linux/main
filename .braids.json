@@ -266,6 +266,11 @@
       "branch": "master",
       "revision": "86f5a4ad3afa5e1596001041ee32c9a9393a0acc"
     },
+    "gunicorn": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
+      "branch": "master",
+      "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
+    },
     "i2c-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
       "branch": "master",
