@@ -4131,6 +4131,11 @@
       "branch": "master",
       "revision": "c9baf2468678548ae761398bc81814b3ca0af5eb"
     },
+    "qt6-quick3d": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-quick3d.git",
+      "branch": "master",
+      "revision": "a6d2a8018835a79dc1426f8ce7ea128ce5c8af6a"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
