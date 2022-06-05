@@ -6571,6 +6571,11 @@
       "branch": "master",
       "revision": "c065474fe95c20980512c7576fa697682f4afac3"
     },
+    "pycups": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pycups.git",
+      "branch": "master",
+      "revision": "4a4bd8fe82920a47685356693178c412b79a63f5"
+    },
     "pygobject": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pygobject.git",
       "branch": "master",
