@@ -5811,6 +5811,11 @@
       "branch": "master",
       "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
     },
+    "rpm-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rpm-tools.git",
+      "branch": "master",
+      "revision": "a1e5f7d7d2443e9261580ecf4fd44af1bb220e79"
+    },
     "rspamd": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd.git",
       "branch": "master",
