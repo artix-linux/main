@@ -2546,6 +2546,11 @@
       "branch": "master",
       "revision": "a312cc01b6d5ee3f0431ad9b2c5725d6b658a7b8"
     },
+    "squid": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/squid.git",
+      "branch": "master",
+      "revision": "50f21d4119b8ec8331af5b727efdabeeef9e571a"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
