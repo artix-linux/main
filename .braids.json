@@ -751,6 +751,11 @@
       "branch": "master",
       "revision": "a9fbfd22e12902921242929adb27f75e3f428a4c"
     },
+    "tinyprog": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinyprog.git",
+      "branch": "master",
+      "revision": "08e513de16b87efd067eff7f882103b5e3f9db46"
+    },
     "tldp-howtos-txt": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
       "branch": "master",
