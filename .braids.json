@@ -3536,6 +3536,11 @@
       "branch": "master",
       "revision": "adbc514fb72b8cc5ded72aea4cafa76d00782f20"
     },
+    "zeroc-ice": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zeroc-ice.git",
+      "branch": "master",
+      "revision": "131d8f7f68d1d73025ba56a2fe842fecc8404d84"
+    },
     "zfp": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zfp.git",
       "branch": "master",
