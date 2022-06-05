@@ -1591,6 +1591,11 @@
       "branch": "master",
       "revision": "b5bcd01b8ff29e8baf56d3802bbe9d220be98101"
     },
+    "xf86-input-vmmouse": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-vmmouse.git",
+      "branch": "master",
+      "revision": "28d1198d330f89bb427d87733347aadbadd36773"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
