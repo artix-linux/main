@@ -190,6 +190,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
       "branch": "master",
       "revision": "c52746dd66b32ad2a3e48a7020de420cc08b8de3"
+    },
+    "laszip2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
+      "branch": "master",
+      "revision": "805fcd8f196f440fb0b566b9fb24ce355ea1cc96"
     }
   }
 }
