@@ -806,6 +806,11 @@
       "branch": "master",
       "revision": "e15735cef5b049909a42064c3ceb33f9be9414d9"
     },
+    "httpbin": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/httpbin.git",
+      "branch": "master",
+      "revision": "9c3ef8d45979794209bb92181655f2bb7c28324d"
+    },
     "hugin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hugin.git",
       "branch": "master",
