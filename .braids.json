@@ -846,6 +846,11 @@
       "branch": "master",
       "revision": "06f1c82f27e769937d01e2da4afcbe0936eb674f"
     },
+    "darts": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/darts.git",
+      "branch": "master",
+      "revision": "bfe3d2fa975383ad06af0dd8be89a8585e334790"
+    },
     "dav1d": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dav1d.git",
       "branch": "master",
