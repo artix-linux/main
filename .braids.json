@@ -2026,6 +2026,11 @@
       "branch": "master",
       "revision": "6301e3d36196c35f125d932815f165fb8ea1c75c"
     },
+    "libgusb": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgusb.git",
+      "branch": "master",
+      "revision": "317a2b9ff2cda5aca532d7e04e5e1f77c2a8d3e8"
+    },
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",
