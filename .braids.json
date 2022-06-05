@@ -1831,6 +1831,11 @@
       "branch": "master",
       "revision": "0a9f89be56f522c1173e8dbc5736562cda4f8185"
     },
+    "libmad": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmad.git",
+      "branch": "master",
+      "revision": "17a85a428092de92bf37c85b745e5e3ff7cf523b"
+    },
     "libmbim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
       "branch": "master",
