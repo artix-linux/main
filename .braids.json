@@ -276,6 +276,11 @@
       "branch": "master",
       "revision": "cd19d2d483c214e9f922f2965968c781c536816c"
     },
+    "bzrtp": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bzrtp.git",
+      "branch": "master",
+      "revision": "520271a3c8db9d7bdbcd65d1e11a3ee3f7a1abda"
+    },
     "capstone": {
       "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
       "branch": "master",
