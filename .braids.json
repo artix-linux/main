@@ -1501,6 +1501,11 @@
       "branch": "master",
       "revision": "aab61cfb2182b0a584c1a2dac14b320f6ce0cb46"
     },
+    "xcb-proto": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcb-proto.git",
+      "branch": "master",
+      "revision": "5bacb5462c7f6dae0e88fc688f3b58e19eb0177a"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
