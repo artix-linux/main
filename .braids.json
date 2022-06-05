@@ -2871,6 +2871,11 @@
       "branch": "master",
       "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
     },
+    "jruby": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jruby.git",
+      "branch": "master",
+      "revision": "557fa4a85d59bdc04b132069110777fa791a39d0"
+    },
     "js68": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/js68.git",
       "branch": "master",
