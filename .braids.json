@@ -2316,6 +2316,11 @@
       "branch": "master",
       "revision": "d389b6c5fd5e2a1cd5ef5e41b437836252365a18"
     },
+    "prometheus": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prometheus.git",
+      "branch": "master",
+      "revision": "9d7806ab683d252ffacb28babf8c5653d6ac08de"
+    },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
       "branch": "master",
