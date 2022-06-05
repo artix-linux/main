@@ -251,6 +251,11 @@
       "branch": "master",
       "revision": "0c72feb9bf9e5894c6eb57d6f4080331bd8ce7a9"
     },
+    "eigen": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/eigen.git",
+      "branch": "master",
+      "revision": "cd59766b60a7c88a280efd25f4fcc9d3bea94ec0"
+    },
     "electrum": {
       "url": "gitea@gitea.artixlinux.org:packagesE/electrum.git",
       "branch": "master",
