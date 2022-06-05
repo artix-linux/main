@@ -4341,6 +4341,11 @@
       "branch": "master",
       "revision": "effe08f85ebcac1acd6be9e82e53fbd5faaf45dc"
     },
+    "mongo-c-driver": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mongo-c-driver.git",
+      "branch": "master",
+      "revision": "58cf094b0918ed37fbbc14ec141e66fc9650a1ad"
+    },
     "mopidy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy.git",
       "branch": "master",
