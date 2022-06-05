@@ -185,6 +185,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
       "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
+    },
+    "jemalloc": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
+      "branch": "master",
+      "revision": "c52746dd66b32ad2a3e48a7020de420cc08b8de3"
     }
   }
 }
