@@ -1081,6 +1081,11 @@
       "branch": "master",
       "revision": "bcfa8f2e47cdfbcccbab7a5a9492fb6e9a891944"
     },
+    "libwebp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwebp.git",
+      "branch": "master",
+      "revision": "4c783f8e6f9965191a3de0cb0ba6a97b992135ef"
+    },
     "libwhereami": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhereami.git",
       "branch": "master",
