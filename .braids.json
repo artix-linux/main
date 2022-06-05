@@ -56,6 +56,11 @@
       "branch": "master",
       "revision": "d1d8000c1adaeb91a0f44a3c39d8ef4a43ac6f77"
     },
+    "alsa-ucm-conf": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-ucm-conf.git",
+      "branch": "master",
+      "revision": "67b45a77549c7db12045145bef58a8d9baf43285"
+    },
     "amdvlk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
       "branch": "master",
