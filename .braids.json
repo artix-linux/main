@@ -1406,6 +1406,11 @@
       "branch": "master",
       "revision": "a85f072a5082d0b89c1bd06824bccfba76348206"
     },
+    "libressl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libressl.git",
+      "branch": "master",
+      "revision": "55dc5043ab10b6a149a6a5327c3c4144282aef7e"
+    },
     "librsvg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
       "branch": "master",
