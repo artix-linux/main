@@ -131,6 +131,11 @@
       "branch": "master",
       "revision": "57bad9e8eabcf733126dcd39c848fa07cb255d31"
     },
+    "dart": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dart.git",
+      "branch": "master",
+      "revision": "06f1c82f27e769937d01e2da4afcbe0936eb674f"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
