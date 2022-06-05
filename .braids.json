@@ -1586,6 +1586,11 @@
       "branch": "master",
       "revision": "9d0a60821dcbf0bac5f00d8a46f79938d17efa26"
     },
+    "xf86-input-synaptics": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-synaptics.git",
+      "branch": "master",
+      "revision": "b5bcd01b8ff29e8baf56d3802bbe9d220be98101"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
