@@ -1881,6 +1881,11 @@
       "branch": "master",
       "revision": "e4104d8c69546581fd0da05a2274c13237de4858"
     },
+    "miniupnpc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/miniupnpc.git",
+      "branch": "master",
+      "revision": "e35e5348b883e3b65726b623edec0fa02ea1fdd2"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
