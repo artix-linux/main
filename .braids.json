@@ -4241,6 +4241,11 @@
       "branch": "master",
       "revision": "b852e3324b3ee1602ba5173382edc83dbc84181d"
     },
+    "micro": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/micro.git",
+      "branch": "master",
+      "revision": "3c786942cd9f95364bc33fba85677e36e62aee2a"
+    },
     "minicom": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minicom.git",
       "branch": "master",
