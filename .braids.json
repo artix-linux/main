@@ -6176,6 +6176,11 @@
       "branch": "master",
       "revision": "3fdcdaa970e74e504f6d13318dd33433c9f8e646"
     },
+    "parted": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/parted.git",
+      "branch": "master",
+      "revision": "38354d1a2b389a111ad43d4b64d5321ab3750439"
+    },
     "pass": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pass.git",
       "branch": "master",
