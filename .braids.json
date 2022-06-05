@@ -4756,6 +4756,11 @@
       "branch": "master",
       "revision": "d7e87562531bc346582b6d103117c124c56e51ab"
     },
+    "open-isns": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/open-isns.git",
+      "branch": "master",
+      "revision": "82303f418f1d4fc362b115a5360a6807b20adb20"
+    },
     "openal": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
       "branch": "master",
