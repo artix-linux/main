@@ -4106,6 +4106,11 @@
       "branch": "master",
       "revision": "e0548d20696daa7229f6128d52f267b9b449210f"
     },
+    "qt6-languageserver": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-languageserver.git",
+      "branch": "master",
+      "revision": "09ad9f90f66c6659dda1703f31ff0751a0a9543e"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
