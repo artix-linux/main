@@ -1096,6 +1096,11 @@
       "branch": "master",
       "revision": "b5f37291ade0c26c7e5330ccc06e71de9dbc8c73"
     },
+    "libwmf": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libwmf.git",
+      "branch": "master",
+      "revision": "61fd5400cad006c3c998ac0c7e599166fb7bddbd"
+    },
     "libx11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx11.git",
       "branch": "master",
