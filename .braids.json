@@ -3626,6 +3626,11 @@
       "branch": "master",
       "revision": "154e87801d42beeae030194c5827ccec21222f78"
     },
+    "smpeg": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/smpeg.git",
+      "branch": "master",
+      "revision": "839cc6a5aa91de574d018be7e75cc6ebc98234c4"
+    },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
