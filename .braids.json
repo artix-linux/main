@@ -1871,6 +1871,11 @@
       "branch": "master",
       "revision": "b852e3324b3ee1602ba5173382edc83dbc84181d"
     },
+    "minicom": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minicom.git",
+      "branch": "master",
+      "revision": "02c0fa8076554d5c9dc2a0850a11f8067dc3309d"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",

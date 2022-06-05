@@ -1,0 +1,9 @@
+post_install() {
+	echo ""
+	echo "/usr/bin/runscript in minicom package has been renamed to /usr/bin/runscript-minicom"
+	echo "to avoid conflict with OpenRC's /usr/bin/runscript"
+	echo ""
+}
+post_upgrade(){
+	post_install
+}
