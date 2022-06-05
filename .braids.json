@@ -301,6 +301,11 @@
       "branch": "master",
       "revision": "3539a6c3698de9cbf78e9fc2e3fa33454b6a576a"
     },
+    "bubblewrap": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bubblewrap.git",
+      "branch": "master",
+      "revision": "d4a95624c93b5eb133f8d6c7f4149f1a4200d234"
+    },
     "bumblebee": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee.git",
       "branch": "master",
