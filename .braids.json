@@ -7206,6 +7206,11 @@
       "branch": "master",
       "revision": "ca729cf1aa0415ecc27409eae8e830816c900a8f"
     },
+    "xcursor-vanilla-dmz": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcursor-vanilla-dmz.git",
+      "branch": "master",
+      "revision": "c55ff29da6ff0d27ecb6d78eb16fe62d66e561dc"
+    },
     "xdg-user-dirs": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdg-user-dirs.git",
       "branch": "master",
