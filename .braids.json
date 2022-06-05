@@ -201,6 +201,11 @@
       "branch": "master",
       "revision": "379340301cf6213c0a1bff25f7705cf9c6467bc9"
     },
+    "avisynthplus": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avisynthplus.git",
+      "branch": "master",
+      "revision": "fd4e5aa3b33d33e060d4723dd7ca315726d3f888"
+    },
     "awesome-terminal-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/awesome-terminal-fonts.git",
       "branch": "master",
