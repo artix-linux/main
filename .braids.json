@@ -3526,6 +3526,11 @@
       "branch": "master",
       "revision": "adcfc366485a4abd754fee0439e6be3ec4c40d15"
     },
+    "ocaml-result": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-result.git",
+      "branch": "master",
+      "revision": "20ab96e20b62acb7d1d5188520403a2da0483e3c"
+    },
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
       "branch": "master",
