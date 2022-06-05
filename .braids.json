@@ -396,6 +396,11 @@
       "branch": "master",
       "revision": "1013603a6c3c7478b2db8ccabc5ecbdb4ea381b8"
     },
+    "dovecot": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dovecot.git",
+      "branch": "master",
+      "revision": "0e4e97001d1f5cdebb015e207b79c8f6f1aa9d91"
+    },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
