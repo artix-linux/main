@@ -4181,6 +4181,11 @@
       "branch": "master",
       "revision": "8863eca77d90f090494853a72ff6baf922f97492"
     },
+    "startup-notification": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/startup-notification.git",
+      "branch": "master",
+      "revision": "b8bc65d755a1fa9f9d6fcf4d8f861b9d758efb43"
+    },
     "stfl": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stfl.git",
       "branch": "master",
