@@ -1066,6 +1066,11 @@
       "branch": "master",
       "revision": "f948039aba44782b2fc44f44ef3cd6c4e6bab69c"
     },
+    "gupnp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gupnp.git",
+      "branch": "master",
+      "revision": "31c23ed6271b35d05fd84474290b92b362a6b303"
+    },
     "haproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
       "branch": "master",
