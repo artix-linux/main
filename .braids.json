@@ -776,6 +776,11 @@
       "branch": "master",
       "revision": "d5ff8e6528f969af0d49bc88046e0a10ca7f0c94"
     },
+    "libfreehand": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libfreehand.git",
+      "branch": "master",
+      "revision": "87dece281509ee341edd8a4d9f0916f6334af58e"
+    },
     "libglvnd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libglvnd.git",
       "branch": "master",
