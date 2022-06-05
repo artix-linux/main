@@ -5736,6 +5736,11 @@
       "branch": "master",
       "revision": "f2d3d0f5cf174e46be86473746b3de840a5a9ffc"
     },
+    "nspr": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nspr.git",
+      "branch": "master",
+      "revision": "e4780c6518158c0f13f2cd892b53ce0d8ed74871"
+    },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
