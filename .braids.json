@@ -6421,6 +6421,11 @@
       "branch": "master",
       "revision": "d59d8a5a298ea39a0a6d2d6085f1a66c7d27a72b"
     },
+    "ppp": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/ppp.git",
+      "branch": "master",
+      "revision": "3214e4c38f0ea9851d59cb32b2ae18e662667f21"
+    },
     "pps-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pps-tools.git",
       "branch": "master",
