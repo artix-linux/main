@@ -251,6 +251,11 @@
       "branch": "master",
       "revision": "c5f2341fe4656ed4ef954c3681c4a68f7841a3f9"
     },
+    "cni-plugins": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cni-plugins.git",
+      "branch": "master",
+      "revision": "839f0b2e956b9066ede3845b28be7a4e7acbec33"
+    },
     "cogl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cogl.git",
       "branch": "master",
