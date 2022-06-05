@@ -1,0 +1,28 @@
+# Maintainer: Daniel M. Capella <polyzen@archlinux.org>
+# Contributor: Carlo Teubner <carlo@cteubner.net>
+
+pkgname=wtype
+pkgver=0.4
+pkgrel=1
+pkgdesc='xdotool type for wayland'
+arch=('x86_64')
+url=https://github.com/atx/wtype
+license=('MIT')
+depends=('libxkbcommon' 'wayland')
+makedepends=('meson')
+source=("$url/archive/v$pkgver/wtype-v$pkgver.tar.gz")
+b2sums=('90973cf1373795004c7f5ec0f5d20b93896c2a9abab9037edc75b9d4af2a14d2acf8fa22df444ea8cbd6594af396522912dd87fa80dd96c04dbfb206ddec69d1')
+
+build() {
+  cd wtype-$pkgver
+  artix-meson build
+  ninja -C build
+}
+
+package() {
+  cd wtype-$pkgver
+  DESTDIR="$pkgdir" ninja -C build install
+  install -Dm644 -t "$pkgdir"/usr/share/licenses/$pkgname LICENSE
+}
+
+# vim:set ts=2 sw=2 et:
