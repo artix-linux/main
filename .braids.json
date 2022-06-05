@@ -1986,6 +1986,11 @@
       "branch": "master",
       "revision": "1d3ea080bab7df25c74d49b006220773a42a1363"
     },
+    "hiredis": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hiredis.git",
+      "branch": "master",
+      "revision": "dff5ca8aae8e6068d1228bcf2161baeaa4bf4aa5"
+    },
     "hostapd": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd.git",
       "branch": "master",
