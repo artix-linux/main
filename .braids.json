@@ -1266,6 +1266,11 @@
       "branch": "master",
       "revision": "9be202cc4e33ca074aed7de940e92fd0c64ff9f1"
     },
+    "gtk-sharp-2": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gtk-sharp-2.git",
+      "branch": "master",
+      "revision": "77c6a4cb06f208b185449f56a854ef256988ce3f"
+    },
     "gtk2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk2.git",
       "branch": "master",
