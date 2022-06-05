@@ -6001,6 +6001,11 @@
       "branch": "master",
       "revision": "fb62a47487dc532c5ca955e85060d1799712bb2d"
     },
+    "sequoia-sq": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sq.git",
+      "branch": "master",
+      "revision": "8d46144d6ad34f1c832ce66f5184eaa0796bdcd0"
+    },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",
