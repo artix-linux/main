@@ -2561,6 +2561,11 @@
       "branch": "master",
       "revision": "8863eca77d90f090494853a72ff6baf922f97492"
     },
+    "stfl": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stfl.git",
+      "branch": "master",
+      "revision": "d1f8610ad5733ccc818265faca3fe698bb22fd88"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
