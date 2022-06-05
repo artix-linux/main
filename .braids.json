@@ -1991,6 +1991,11 @@
       "branch": "master",
       "revision": "dff5ca8aae8e6068d1228bcf2161baeaa4bf4aa5"
     },
+    "hivex": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hivex.git",
+      "branch": "master",
+      "revision": "7d362aa31b4c2a6913a4509f3f4bf485a800a2d7"
+    },
     "hostapd": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd.git",
       "branch": "master",
