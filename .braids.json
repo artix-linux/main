@@ -4411,6 +4411,11 @@
       "branch": "master",
       "revision": "08e513de16b87efd067eff7f882103b5e3f9db46"
     },
+    "tinyxml2": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinyxml2.git",
+      "branch": "master",
+      "revision": "165aca75f30433bfd6efe67fe63ac075b2bd4bc7"
+    },
     "tldp-howtos-txt": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
       "branch": "master",
