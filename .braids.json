@@ -2446,6 +2446,11 @@
       "branch": "master",
       "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
     },
+    "rspamd": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rspamd.git",
+      "branch": "master",
+      "revision": "36e144a054b9b852e8e95172b169a20782df46e6"
+    },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",

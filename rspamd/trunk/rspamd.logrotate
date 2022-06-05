@@ -1,0 +1,7 @@
+/var/log/rspamd/*.log {
+  missingok
+  sharedscripts
+  postrotate
+    kill -HUP $(pidof rspamd) || true
+  endscript
+}
