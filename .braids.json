@@ -55,6 +55,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
       "branch": "master",
       "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
+    },
+    "clamav": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clamav.git",
+      "branch": "master",
+      "revision": "599dda15098ff660aca24016b4dcae197956a7cb"
     }
   }
 }
