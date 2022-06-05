@@ -1,0 +1,38 @@
+# Maintainer: Christian Rebischke <chris.rebischke@archlinux.org>
+
+pkgname=go-bindata-assetfs
+pkgver=1.0.1
+pkgrel=3
+pkgdesc="Serves embedded files from jteeuwen/go-bindata with net/http"
+arch=('x86_64')
+url="https://github.com/elazarl/go-bindata-assetfs"
+license=('BSD')
+depends=('glibc')
+makedepends=('go')
+source=(
+  "${pkgname}-${pkgver}.tar.gz::https://github.com/elazarl/go-bindata-assetfs/archive/v${pkgver}.tar.gz"
+)
+sha512sums=('fde5cd06393c82a8a1f9da5cc3054c1cc389328b5a232c5595a32755b2d613a83dc7777070152ad31ccbbbfbcf2419ad44bef89f88ceef4c6b7e5df8715309cf')
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  mkdir -p "${srcdir}/src/github.com/elazarl/"
+  mv "${srcdir}/${pkgname}-${pkgver}" "${srcdir}/src/github.com/elazarl/go-bindata-assetfs"
+}
+
+build() {
+  export GO111MODULE=off
+  cd "${srcdir}/src/github.com/elazarl/go-bindata-assetfs/"
+  export CGO_CPPFLAGS="${CPPFLAGS}"
+  export CGO_CFLAGS="${CFLAGS}"
+  export CGO_CXXFLAGS="${CXXFLAGS}"
+  export CGO_LDFLAGS="${LDFLAGS}"
+  export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+  GOPATH="${srcdir}" go build -o go-bindata-assetfs ./go-bindata-assetfs/
+}
+
+package() {
+  cd "${srcdir}/src/github.com/elazarl/go-bindata-assetfs/"
+  install -Dm755 "go-bindata-assetfs/go-bindata-assetfs" "${pkgdir}/usr/bin/go-bindata-assetfs"
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

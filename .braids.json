@@ -1701,6 +1701,11 @@
       "branch": "master",
       "revision": "a95f69df1d24ab5c2072f59a473805f69ba276d1"
     },
+    "go-bindata-assetfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/go-bindata-assetfs.git",
+      "branch": "master",
+      "revision": "a6a26e818f9d896616dc95a04781eb82552b8870"
+    },
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
       "branch": "master",
