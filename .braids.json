@@ -1086,6 +1086,11 @@
       "branch": "master",
       "revision": "8a797079f7d9181376c9cf9bdb5d548c69f6498d"
     },
+    "gi-docgen": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gi-docgen.git",
+      "branch": "master",
+      "revision": "8729a0d6538f71b225a9865d1936d38e7eb2aae8"
+    },
     "giflib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/giflib.git",
       "branch": "master",
