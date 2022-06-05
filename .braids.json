@@ -2651,6 +2651,11 @@
       "branch": "master",
       "revision": "d4e34efc339e172d6092aac68d57633db096868d"
     },
+    "telepathy-haze": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-haze.git",
+      "branch": "master",
+      "revision": "1a0aa9340e0a58501bcda874d2ba1088ffac2c81"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
