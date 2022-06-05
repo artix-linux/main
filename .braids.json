@@ -2426,6 +2426,11 @@
       "branch": "master",
       "revision": "04b8bca8fdaaacec6640729a2a029dfa93349528"
     },
+    "restinio": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/restinio.git",
+      "branch": "master",
+      "revision": "bccf3c49a884210bc4e306bf3001f885724cae15"
+    },
     "rkcommon": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rkcommon.git",
       "branch": "master",
