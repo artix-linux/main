@@ -115,6 +115,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fira-code.git",
       "branch": "master",
       "revision": "48ec0f56bdd62943c3942ada1d49d9a84a570343"
+    },
+    "fira-mono": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fira-mono.git",
+      "branch": "master",
+      "revision": "62a31809f05fd744c43b0a8293b15faf957f359f"
     }
   }
 }
