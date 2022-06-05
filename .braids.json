@@ -26,6 +26,11 @@
       "branch": "master",
       "revision": "a1edaf442071e35048b954e7b922602286573d9a"
     },
+    "acpi_call-dkms": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acpi_call-dkms.git",
+      "branch": "master",
+      "revision": "c0135035275e2d97c54e8b4291c237a94ae02d12"
+    },
     "acpilight": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpilight.git",
       "branch": "master",
