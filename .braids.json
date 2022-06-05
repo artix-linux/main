@@ -4061,6 +4061,11 @@
       "branch": "master",
       "revision": "4f85ff86aec2d2840ae520e9af10a22d9f6642d2"
     },
+    "lv2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lv2.git",
+      "branch": "master",
+      "revision": "ae7cbe561d0e3bbf318c2b24bfe176c6b07ae31e"
+    },
     "m17n-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
       "branch": "master",

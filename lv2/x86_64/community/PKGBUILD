@@ -1,0 +1,71 @@
+# Maintainer: David Runge <dvzrv@archlinux.org>
+# Contributor: Ray Rashif <schiv@archlinux.org>
+
+pkgname=lv2
+pkgver=1.18.2
+pkgrel=1
+pkgdesc="Plugin standard for audio systems"
+url="http://lv2plug.in/"
+license=('ISC')
+arch=('x86_64')
+makedepends=('asciidoc' 'doxygen' 'gtk2' 'libsndfile' 'pygmentize'
+'python-markdown' 'python-pygments' 'python-rdflib' 'waf')
+optdepends=('sord: for lv2_validate'
+            'libsndfile: for eg-sampler.lv2'
+            'atk: for eg-sampler.lv2 and eg-scope.lv2'
+            'cairo: for eg-sampler.lv2 and eg-scope.lv2'
+            'fontconfig: for eg-sampler.lv2 and eg-scope.lv2'
+            'freetype2: for eg-sampler.lv2 and eg-scope.lv2'
+            'glib2: for eg-sampler.lv2 and eg-scope.lv2'
+            'gtk2: for eg-sampler.lv2 and eg-scope.lv2'
+            'harfbuzz: for eg-sampler.lv2 and eg-scope.lv2'
+            'pango: for eg-sampler.lv2 and eg-scope.lv2'
+            'python-pygments: for lv2specgen.py'
+            'python-rdflib: for lv2specgen.py')
+source=("https://lv2plug.in/spec/${pkgname}-${pkgver}.tar.bz2"{,.asc})
+sha512sums=('d5bdcf94d3cf9a569e29964002a038ae73cd6ae7f09f7d973f8fd74858c8cf9d01bbed85ae8bf0a00efcb2b3611357a64571222a89972091941449c36d76b0ef'
+            'SKIP')
+b2sums=('824c7bc2ce62de858308d856d0f89c6285c183764be3727eba5074f42543a1bb8a5e1cdd8a85bf0a4ba1103e1243c843013bd516d2d6e7ade09c46380bca3cee'
+        'SKIP')
+validpgpkeys=('907D226E7E13FA337F014A083672782A9BF368F3') # David Robillard <d@drobilla.net>
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  # let wscript(s) find the custom waf scripts
+  mkdir -pv tools
+  touch __init__.py
+  cp -v waflib/extras/{autowaf,lv2}.py tools/
+  mkdir -pv plugins/tools/
+  cp -v waflib/extras/{autowaf,lv2}.py plugins/tools/
+  rm -rv waflib
+  sed -e 's/waflib.extras/tools/g' \
+      -e "s/load('autowaf'/load('autowaf', tooldir='tools'/g" \
+      -e "s/load('lv2'/load('lv2', tooldir='tools'/g" \
+      -i {,plugins/,plugins/*/}wscript
+}
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  waf configure --prefix=/usr \
+                --libdir=/usr/lib \
+                --docs \
+                --test
+  waf -v build $MAKEFLAGS
+}
+
+check() {
+  cd "${pkgname}-${pkgver}"
+  waf test
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  waf install --destdir="${pkgdir}"
+  # license
+  install -vDm 644 COPYING \
+    -t "${pkgdir}/usr/share/licenses/${pkgname}/"
+  # docs
+  install -vDm 644 {NEWS,README.md} \
+    -t "${pkgdir}/usr/share/doc/${pkgname}"
+}
+# vim:set ts=2 sw=2 et:
