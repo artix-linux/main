@@ -2046,6 +2046,11 @@
       "branch": "master",
       "revision": "3eefc9abfa1364274b0076321a3153b1484bd946"
     },
+    "libplacebo": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libplacebo.git",
+      "branch": "master",
+      "revision": "80af6a43e37a18a78660d4c438192202e47532be"
+    },
     "libplist": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libplist.git",
       "branch": "master",
