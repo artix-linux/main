@@ -285,6 +285,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
       "branch": "master",
       "revision": "4bc014ccecd959828a87dca97399b67d48dbe64f"
+    },
+    "muparser": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/muparser.git",
+      "branch": "master",
+      "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
     }
   }
 }
