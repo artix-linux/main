@@ -3006,6 +3006,11 @@
       "branch": "master",
       "revision": "c9fbbf20991939006e16d3d43197bd11d2ae2491"
     },
+    "liblo": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liblo.git",
+      "branch": "master",
+      "revision": "9631229f8a326b0db7623c7ec185f97d242e3db7"
+    },
     "liblqr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblqr.git",
       "branch": "master",
