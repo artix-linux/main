@@ -671,6 +671,11 @@
       "branch": "master",
       "revision": "acd1ecd056cb5cf87f4a83ca9dcffb4a6d6e14d6"
     },
+    "coin-or-asl": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-asl.git",
+      "branch": "master",
+      "revision": "32c68f68f4d75355ef38f4f3bd7111cf96b4b6ae"
+    },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
       "branch": "master",
