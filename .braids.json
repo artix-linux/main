@@ -3931,6 +3931,11 @@
       "branch": "master",
       "revision": "2d2752852b8e65d002a4bbff981c784b9d832942"
     },
+    "libnftnl": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnftnl.git",
+      "branch": "master",
+      "revision": "30659bf46c3cc1c3cfa5c5b16054b661b3b8b7ce"
+    },
     "libnice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnice.git",
       "branch": "master",
