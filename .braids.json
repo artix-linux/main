@@ -4186,6 +4186,11 @@
       "branch": "master",
       "revision": "8b6084e5e1800c672bed52ff541aa85b003b9695"
     },
+    "qt6-virtualkeyboard": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-virtualkeyboard.git",
+      "branch": "master",
+      "revision": "ad1a7fd66f266e4d891ef2ec512fedd1807f9ce4"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
