@@ -2706,6 +2706,11 @@
       "branch": "master",
       "revision": "75618c90bcc1ddf9cb3763435eb8e73992ff7b4d"
     },
+    "iptables": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iptables.git",
+      "branch": "master",
+      "revision": "20782b65ae4bc8ef29f0384a276f3720f27a5ffa"
+    },
     "ipw2100-fw": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipw2100-fw.git",
       "branch": "master",
