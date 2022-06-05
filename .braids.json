@@ -621,6 +621,11 @@
       "branch": "master",
       "revision": "ac54e3af31f80458acd02e8bd4c58f649cfa254d"
     },
+    "pwndbg": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pwndbg.git",
+      "branch": "master",
+      "revision": "f33e1b6cb35042437ad427fcc2c53041231706f7"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
