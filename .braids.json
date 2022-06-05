@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "041b09cdb5800aae422920013610e44ef59b4764"
     },
+    "libmspub": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmspub.git",
+      "branch": "master",
+      "revision": "50adc7d8d71b6434d2c88bfe0e1e91ef11921585"
+    },
     "libndp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libndp.git",
       "branch": "master",
