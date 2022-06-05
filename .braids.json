@@ -4701,6 +4701,11 @@
       "branch": "master",
       "revision": "ef574b0eafea36b1a2f04281453cdca846da0c9e"
     },
+    "spirv-headers": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spirv-headers.git",
+      "branch": "master",
+      "revision": "f01984eeb4c83f3cd4d47cf2ed292a6aff222b1c"
+    },
     "spotifyd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd.git",
       "branch": "master",
