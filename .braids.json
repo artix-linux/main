@@ -6011,6 +6011,11 @@
       "branch": "master",
       "revision": "4d9ece9c114aab0a09d29e0db0bdd1f431a4cd4f"
     },
+    "openssh": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openssh.git",
+      "branch": "master",
+      "revision": "27b329569c05ddfbee0275fa6bf721d5ba2ed906"
+    },
     "openvdb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
       "branch": "master",
