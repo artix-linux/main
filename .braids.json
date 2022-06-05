@@ -3991,6 +3991,11 @@
       "branch": "master",
       "revision": "0b10721427975898f1ba3d94d117d060b3da4cd2"
     },
+    "qt5-wayland": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-wayland.git",
+      "branch": "master",
+      "revision": "18872b6218a3e72fa277c7440a2bc1c782dda668"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
