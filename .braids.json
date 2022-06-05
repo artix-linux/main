@@ -1506,6 +1506,11 @@
       "branch": "master",
       "revision": "3282895cc192b970a8f44f01e628d6cca8e4deeb"
     },
+    "itstool": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/itstool.git",
+      "branch": "master",
+      "revision": "a5f951808f25e8cea30aba9a8d04c7a63df65a07"
+    },
     "iwd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
       "branch": "master",
