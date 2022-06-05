@@ -3476,6 +3476,11 @@
       "branch": "master",
       "revision": "2239beaa4138acf03ba4cc813fdf5e99386c5be7"
     },
+    "openjade": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openjade.git",
+      "branch": "master",
+      "revision": "ede4b133031e230b9b072ec69649eb70c8612f28"
+    },
     "openjpeg2": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openjpeg2.git",
       "branch": "master",
