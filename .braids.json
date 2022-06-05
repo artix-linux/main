@@ -36,6 +36,11 @@
       "branch": "master",
       "revision": "c0135035275e2d97c54e8b4291c237a94ae02d12"
     },
+    "acpica": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acpica.git",
+      "branch": "master",
+      "revision": "dde4cbd5d3f812dc829901f0002ca7f91746c6c1"
+    },
     "acpilight": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpilight.git",
       "branch": "master",
