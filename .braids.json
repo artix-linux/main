@@ -7136,6 +7136,11 @@
       "branch": "master",
       "revision": "e10bc210fd30325758a2e38146e1a49cab23ff4e"
     },
+    "xalan-c": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xalan-c.git",
+      "branch": "master",
+      "revision": "192cf85bf87b433b78828245938339a54643ad23"
+    },
     "xbitmaps": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xbitmaps.git",
       "branch": "master",
