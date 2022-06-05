@@ -1481,6 +1481,11 @@
       "branch": "master",
       "revision": "dbea4d5fa45c5471af1ea171c87d7bc5847a2af1"
     },
+    "libburn": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libburn.git",
+      "branch": "master",
+      "revision": "f7fc6c299ab5b64c5292a409972049a021a6b624"
+    },
     "libbytesize": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbytesize.git",
       "branch": "master",
