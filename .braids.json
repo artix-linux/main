@@ -1606,6 +1606,11 @@
       "branch": "master",
       "revision": "d196f5e1012fe505f16a5923cacb07b75c69b66e"
     },
+    "fastjar": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fastjar.git",
+      "branch": "master",
+      "revision": "846407febea195641d0bf333e8d78b64a08c10ba"
+    },
     "faudio": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faudio.git",
       "branch": "master",
