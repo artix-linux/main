@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "227d30d5df2622e72b8972ca0e85f0d1a06f9007"
     },
+    "jupyter-nbclient": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbclient.git",
+      "branch": "master",
+      "revision": "495473f4f84b25695ec6b2ade1eba14d5b1f9e03"
+    },
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
       "branch": "master",

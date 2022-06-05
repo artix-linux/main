@@ -1,0 +1,31 @@
+# Maintainer: Kyle Keen <keenerd@gmail.com>
+
+pkgname=jupyter-nbclient
+pkgver=0.6.4
+pkgrel=1
+pkgdesc="A tool for running Jupyter Notebooks in different execution contexts."
+arch=('any')
+url="https://github.com/jupyter/nbclient"
+license=('BSD')
+depends=('python-nest-asyncio' 'python-traitlets' 'python-async_generator' 'python-jupyter_client' 'jupyter-nbformat' 'python-testpath')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+checkdepends=('python-pytest-asyncio' 'python-xmltodict' 'jupyter-nbconvert' 'python-ipywidgets')
+source=("https://github.com/jupyter/nbclient/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('aa338d99582bc2de06d03cd57dbba920b798316062e4dd21fd21859fbf214201')
+
+build() {
+  cd nbclient-$pkgver
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd nbclient-$pkgver
+  pytest -v
+}
+
+package() {
+  cd nbclient-$pkgver
+  python -m installer --destdir="$pkgdir" dist/*.whl
+
+  install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+}
