@@ -1896,6 +1896,11 @@
       "branch": "master",
       "revision": "bd9a24b20bfdd97a893b13be8bd11dcef2e1b0b5"
     },
+    "libmpeg2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmpeg2.git",
+      "branch": "master",
+      "revision": "79004afadaa3d13df854230ebdc1834b4f7c168e"
+    },
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
