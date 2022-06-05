@@ -716,6 +716,11 @@
       "branch": "master",
       "revision": "f00c2662d41f7490551fd0993074344318efb678"
     },
+    "libxcursor": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxcursor.git",
+      "branch": "master",
+      "revision": "a493b1a84dc6aefb222cd48383a477fe40bc8fec"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
