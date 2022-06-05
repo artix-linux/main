@@ -1,6 +1,11 @@
 {
   "config_version": 1,
   "mirrors": {
+    "accountsservice": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/accountsservice.git",
+      "branch": "master",
+      "revision": "9ae339bde045fdd7f33c22ecfa1604290a49937d"
+    },
     "acpilight": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpilight.git",
       "branch": "master",
