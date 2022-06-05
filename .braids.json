@@ -5061,6 +5061,11 @@
       "branch": "master",
       "revision": "350b86823429dd6d763d50b08bf6b8e88cdf2dae"
     },
+    "m4": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/m4.git",
+      "branch": "master",
+      "revision": "6b452dd5bf4f493473b418eec81489dc8590ee9a"
+    },
     "mac": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mac.git",
       "branch": "master",
