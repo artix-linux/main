@@ -4141,6 +4141,11 @@
       "branch": "master",
       "revision": "42fbebde6a0f7ad49436ecaa50b7638d46b92964"
     },
+    "qt6-remoteobjects": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-remoteobjects.git",
+      "branch": "master",
+      "revision": "4f32247806e444a6ed49d898343e404544762721"
+    },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
