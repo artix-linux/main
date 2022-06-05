@@ -901,6 +901,11 @@
       "branch": "master",
       "revision": "53a59547e663412bbadd38f931b0bf4764f04cb5"
     },
+    "modem-manager-gui": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/modem-manager-gui.git",
+      "branch": "master",
+      "revision": "ec2b0ce82fb16272c061c6311983e504ca18f04a"
+    },
     "modemmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager.git",
       "branch": "master",
