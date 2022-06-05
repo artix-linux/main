@@ -2001,6 +2001,11 @@
       "branch": "master",
       "revision": "0ae9f4242e58816b9aa0f546d23f5e520f0bdeb5"
     },
+    "libopusenc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libopusenc.git",
+      "branch": "master",
+      "revision": "98b719cb6069cfb0f366183aa2d902e330945ca0"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
