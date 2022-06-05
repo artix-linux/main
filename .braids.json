@@ -1481,6 +1481,11 @@
       "branch": "master",
       "revision": "fbeac2c228faf13753cdc15176a26710b3b87bd6"
     },
+    "openexr": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openexr.git",
+      "branch": "master",
+      "revision": "13ad18b070024bec3f90c1a70c436f40f3940117"
+    },
     "openimagedenoise": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openimagedenoise.git",
       "branch": "master",
