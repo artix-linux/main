@@ -26,6 +26,11 @@
       "branch": "master",
       "revision": "81b8665779f2cd8c37e9a8dce54ecca043721b47"
     },
+    "archey3": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/archey3.git",
+      "branch": "master",
+      "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
+    },
     "auth-tarball-from-git": {
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
       "branch": "master",
