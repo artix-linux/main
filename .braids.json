@@ -1581,6 +1581,11 @@
       "branch": "master",
       "revision": "aa92edd86f930fde14d4536afa3aaa02ce576560"
     },
+    "libdvdnav": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdvdnav.git",
+      "branch": "master",
+      "revision": "1621096d03822318057f96115073825fe689233e"
+    },
     "libe-book": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libe-book.git",
       "branch": "master",
