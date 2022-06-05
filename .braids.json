@@ -436,6 +436,11 @@
       "branch": "master",
       "revision": "96ac0ab30d1fd1eda768701900679dc45685ad94"
     },
+    "binutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/binutils.git",
+      "branch": "master",
+      "revision": "3e8d1c26ae1c02cfd8353e7381a59d6a18d3ae59"
+    },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
