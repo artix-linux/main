@@ -571,6 +571,11 @@
       "branch": "master",
       "revision": "4f41a763d540424907c2a3774d036b8ed8b1b153"
     },
+    "dvdauthor": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dvdauthor.git",
+      "branch": "master",
+      "revision": "1746859788def9322282126b1dcb58fc68e2b639"
+    },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
