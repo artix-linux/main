@@ -1276,6 +1276,11 @@
       "branch": "master",
       "revision": "db7bc43fd7d7c15be6fff9dd1d92f38b481e4e80"
     },
+    "libyuv": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libyuv.git",
+      "branch": "master",
+      "revision": "bed0754264982ba157d3a5ae1e814188a0000679"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
