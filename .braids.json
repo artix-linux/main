@@ -6811,6 +6811,11 @@
       "branch": "master",
       "revision": "1821e16967eee06eb1a285f9ccb1c2b2b9f1cdbd"
     },
+    "uthash": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uthash.git",
+      "branch": "master",
+      "revision": "90ca7d6c732908ab5ec1f21cb301cf5ffafa05a6"
+    },
     "uvicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uvicorn.git",
       "branch": "master",
