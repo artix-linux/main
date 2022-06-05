@@ -1836,6 +1836,11 @@
       "branch": "master",
       "revision": "17a85a428092de92bf37c85b745e5e3ff7cf523b"
     },
+    "libmatroska": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmatroska.git",
+      "branch": "master",
+      "revision": "5f5f48f1ac2680d7aecb2081398adb30b9d1d982"
+    },
     "libmbim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
       "branch": "master",
