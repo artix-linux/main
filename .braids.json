@@ -1266,6 +1266,11 @@
       "branch": "master",
       "revision": "0e4e97001d1f5cdebb015e207b79c8f6f1aa9d91"
     },
+    "doxygen": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/doxygen.git",
+      "branch": "master",
+      "revision": "a823e30b2a133d9f6e1691f101ffca206ed48b40"
+    },
     "dqlite": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dqlite.git",
       "branch": "master",
