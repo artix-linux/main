@@ -5676,6 +5676,11 @@
       "branch": "master",
       "revision": "964c20ff35871982b031d9600d0002383a882b2b"
     },
+    "quilt": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/quilt.git",
+      "branch": "master",
+      "revision": "134c022ece047a7c1eb709184dd444b6fcdcdcb1"
+    },
     "r8168": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r8168.git",
       "branch": "master",
