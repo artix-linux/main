@@ -4596,6 +4596,11 @@
       "branch": "master",
       "revision": "9632fffddc8e18895ccde6abc1874db015bb617d"
     },
+    "strawberry": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strawberry.git",
+      "branch": "master",
+      "revision": "615ec3a1fc5bfd423c9a344a7b1e56ae2f9e96bd"
+    },
     "strongswan": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan.git",
       "branch": "master",
