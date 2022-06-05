@@ -2001,6 +2001,11 @@
       "branch": "master",
       "revision": "ee332c549f1bbf3ad642ada9182e153683d79757"
     },
+    "glib2": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glib2.git",
+      "branch": "master",
+      "revision": "fd4769fa1d3de5c29795a53e5e1fff824ae46a09"
+    },
     "glibmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
       "branch": "master",
