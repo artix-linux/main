@@ -2756,6 +2756,11 @@
       "branch": "master",
       "revision": "a9fbfd22e12902921242929adb27f75e3f428a4c"
     },
+    "tinydns": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinydns.git",
+      "branch": "master",
+      "revision": "5e205078299f7fe4b72860bf0b7d25dc6804046b"
+    },
     "tinyprog": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinyprog.git",
       "branch": "master",
