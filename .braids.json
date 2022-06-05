@@ -3661,6 +3661,11 @@
       "branch": "master",
       "revision": "9210859a5ddac2faf7090b47f7a49c14301c99f2"
     },
+    "speech-dispatcher": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/speech-dispatcher.git",
+      "branch": "master",
+      "revision": "b4cebe85507f20b3d232a00eaf5b75f4234cca35"
+    },
     "sqlcipher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
       "branch": "master",
