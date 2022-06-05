@@ -901,6 +901,11 @@
       "branch": "master",
       "revision": "cf7c346707059ecc9cca8ea96aba2fb14bb17941"
     },
+    "dev86": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dev86.git",
+      "branch": "master",
+      "revision": "696148209693441582583795248e093adacf9153"
+    },
     "devil": {
       "url": "gitea@gitea.artixlinux.org:packagesD/devil.git",
       "branch": "master",
