@@ -1826,6 +1826,11 @@
       "branch": "master",
       "revision": "42dfa8e0bc6103ae533a26252995cab66cfb77e2"
     },
+    "xscreensaver": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xscreensaver.git",
+      "branch": "master",
+      "revision": "1714606be87cd2214a4e1e7e5519a1c47c5faef9"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
