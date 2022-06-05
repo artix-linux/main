@@ -626,6 +626,11 @@
       "branch": "master",
       "revision": "a259500108e56c7d4bd7478c349e39295b1bef4b"
     },
+    "libsm": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
+      "branch": "master",
+      "revision": "9ccfad82d04f1658f721267d64e18acb031da92d"
+    },
     "libusbsio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
       "branch": "master",
