@@ -145,6 +145,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
       "branch": "master",
       "revision": "fa4b269d4eb6d65f4a8a3949ee95d5262a430c87"
+    },
+    "gl2ps": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gl2ps.git",
+      "branch": "master",
+      "revision": "58833070d40e293a493324ef62c4041673d53758"
     }
   }
 }
