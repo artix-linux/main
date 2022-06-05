@@ -4366,6 +4366,11 @@
       "branch": "master",
       "revision": "6fe0c36d06185872b4f51f8c44f132e37e4605f3"
     },
+    "x264": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/x264.git",
+      "branch": "master",
+      "revision": "b37a7d05bf106f1a2afe826854cce730351146f3"
+    },
     "xbitmaps": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xbitmaps.git",
       "branch": "master",
