@@ -2096,6 +2096,11 @@
       "branch": "master",
       "revision": "a85f072a5082d0b89c1bd06824bccfba76348206"
     },
+    "libraw1394": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libraw1394.git",
+      "branch": "master",
+      "revision": "402ff7b5267d3141121bf91dfbb1bbb0e2f47ceb"
+    },
     "libressl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libressl.git",
       "branch": "master",
