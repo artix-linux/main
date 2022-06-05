@@ -2086,6 +2086,11 @@
       "branch": "master",
       "revision": "ed86015d92a16f5655e56e5da6a8e3ead510b6cb"
     },
+    "gnutls": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gnutls.git",
+      "branch": "master",
+      "revision": "d6d290b8941af40082f23f013a6e55ce9a859bcf"
+    },
     "go": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go.git",
       "branch": "master",
