@@ -261,6 +261,11 @@
       "branch": "master",
       "revision": "547b7689c787c740e365abd8d49fa7d4710eb662"
     },
+    "aubio": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aubio.git",
+      "branch": "master",
+      "revision": "59bab7e3ec19095d3bcc855458e4227f069f0f8a"
+    },
     "audacity": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audacity.git",
       "branch": "master",
