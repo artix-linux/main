@@ -1496,6 +1496,11 @@
       "branch": "master",
       "revision": "9f38d739998efec64cbbbb5e691e3754cc4341ad"
     },
+    "xcb-imdkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcb-imdkit.git",
+      "branch": "master",
+      "revision": "aab61cfb2182b0a584c1a2dac14b320f6ce0cb46"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
