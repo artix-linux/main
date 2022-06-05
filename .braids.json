@@ -651,6 +651,11 @@
       "branch": "master",
       "revision": "c8bd388e9cf06e56dcc0bed369db9cd8227576b6"
     },
+    "cmus": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cmus.git",
+      "branch": "master",
+      "revision": "ba4268b4fd487a0bacfe98f4d60cabf6b8bd4975"
+    },
     "cni-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cni-plugins.git",
       "branch": "master",
