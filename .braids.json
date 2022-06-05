@@ -301,6 +301,11 @@
       "branch": "master",
       "revision": "dab0f92a2d5bf1651e2a1f5c9882eb1c3da39c0a"
     },
+    "audit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/audit.git",
+      "branch": "master",
+      "revision": "e74e4cec49736a1911106391c496c0956938086c"
+    },
     "augeas": {
       "url": "gitea@gitea.artixlinux.org:packagesA/augeas.git",
       "branch": "master",
