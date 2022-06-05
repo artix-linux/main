@@ -441,6 +441,11 @@
       "branch": "master",
       "revision": "041b09cdb5800aae422920013610e44ef59b4764"
     },
+    "libnitrokey": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
+      "branch": "master",
+      "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
