@@ -3896,6 +3896,11 @@
       "branch": "master",
       "revision": "638f6352028f5ef7e229033ba04851aa2a57b4e4"
     },
+    "qt5-multimedia": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-multimedia.git",
+      "branch": "master",
+      "revision": "c697aca3081d8bc8715c499b2127e72d1ce23bd4"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
