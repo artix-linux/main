@@ -2221,6 +2221,11 @@
       "branch": "master",
       "revision": "919a0e9ec0d6de93047eba45a8cdc9d3d8895eab"
     },
+    "percona-server": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/percona-server.git",
+      "branch": "master",
+      "revision": "31801e6d5d90244dda55cccbb83131bf044a8fed"
+    },
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
       "branch": "master",
