@@ -2041,6 +2041,11 @@
       "branch": "master",
       "revision": "9c3d63e04155632206d298ad028a89054e3a9aff"
     },
+    "nmap": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nmap.git",
+      "branch": "master",
+      "revision": "f2dbb5536d675d1a70d1e3c845e3fb800433d27b"
+    },
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
       "branch": "master",
