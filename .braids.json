@@ -6346,6 +6346,11 @@
       "branch": "master",
       "revision": "025930fe8761882e0d4661b652cf9a89ea68932a"
     },
+    "polkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/polkit.git",
+      "branch": "master",
+      "revision": "26be89b5a7109762ee976fb1f8ddf20504327ddf"
+    },
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
       "branch": "master",
