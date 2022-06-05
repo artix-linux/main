@@ -4376,6 +4376,11 @@
       "branch": "master",
       "revision": "3d50c261acbd8122e1bfa59f6ad87357003a2876"
     },
+    "xa": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xa.git",
+      "branch": "master",
+      "revision": "e10bc210fd30325758a2e38146e1a49cab23ff4e"
+    },
     "xbitmaps": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xbitmaps.git",
       "branch": "master",
