@@ -491,6 +491,11 @@
       "branch": "master",
       "revision": "7024be14630c8bec60c4d76323888a7338e0ae48"
     },
+    "libbytesize": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libbytesize.git",
+      "branch": "master",
+      "revision": "c03d330defe904d61f8579cbe8ff3d798e35cab0"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
