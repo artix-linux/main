@@ -4931,6 +4931,11 @@
       "branch": "master",
       "revision": "a6754dbb3dad9eccd6b58d49e0f0cf9ab6c31569"
     },
+    "packagekit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/packagekit.git",
+      "branch": "master",
+      "revision": "b34e1bd1ca9a6a7c017f715f742bf8851de9ece6"
+    },
     "pahole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pahole.git",
       "branch": "master",
