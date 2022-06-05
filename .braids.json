@@ -2636,6 +2636,11 @@
       "branch": "master",
       "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
     },
+    "tdb": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tdb.git",
+      "branch": "master",
+      "revision": "609bc095fed4fb8dfa3aafd297b34d991f90ac90"
+    },
     "terminus-font": {
       "url": "gitea@gitea.artixlinux.org:packagesT/terminus-font.git",
       "branch": "master",
