@@ -2911,6 +2911,11 @@
       "branch": "master",
       "revision": "c9b73f51049a9670521925c7397698bca1d38dcf"
     },
+    "java-commons-logging": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/java-commons-logging.git",
+      "branch": "master",
+      "revision": "3854a9b8ce51fc4b6ab7ba765bfb2cd75399daec"
+    },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
