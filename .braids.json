@@ -8276,6 +8276,11 @@
       "branch": "master",
       "revision": "b4a41068d67427678ed793459533137432b97772"
     },
+    "unrar": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrar.git",
+      "branch": "master",
+      "revision": "f13f956ee0dda8bb8f678c0287700de5f6b0c4cf"
+    },
     "unrealircd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
       "branch": "master",
