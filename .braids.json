@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "8a2bb872a238bd96ccc5e33bedde4082ca318038"
     },
+    "yapf": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yapf.git",
+      "branch": "master",
+      "revision": "7da977b59dd4a49f07848ab89a20408b2a3d3d09"
+    },
     "yodl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
       "branch": "master",
