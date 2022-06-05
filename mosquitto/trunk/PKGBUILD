@@ -1,0 +1,48 @@
+# Maintainer: Jelle van der Waa <jelle@archlinux.org>
+# Contributor: David Runge <dvzrv@archlinux.org>
+# Contributor: Radek Podgorny <radek@podgorny.cz>
+# Contributor: Dan Anderson <dan-anderson at cox dptnet>
+
+pkgname=mosquitto
+pkgver=2.0.14
+pkgrel=3
+pkgdesc="An Open Source MQTT Broker"
+arch=(x86_64)
+url="https://mosquitto.org/"
+license=(BSD)
+depends=(cjson openssl util-linux-libs)
+makedepends=(c-ares cmake docbook-xsl libwebsockets uthash)
+options=(debug)
+source=(
+  https://mosquitto.org/files/source/mosquitto-$pkgver.tar.gz{,.asc}
+  "sysusers_mosquitto.conf"
+)
+backup=("etc/$pkgname/$pkgname.conf")
+sha512sums=('a9e4f41b9af679b30318570e86a465546024651373df10e3b132f4593b89d22d0dbac01bb7371a57132ba030a2e73971c612acb5c9ac12f5ccd06aa38d9444c2'
+            'SKIP'
+            '21848b890c2db258138795ec21a009e022b6a8369217eb31939f976ad434229dd9f61d33e8109ade7bc001e8668e9d42b59c1ab079753860417961e102356f0e')
+validpgpkeys=('A0D6EEA1DCAE49A635A3B2F0779B22DFB3E717B7')
+
+build() {
+  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_SBINDIR=bin \
+        -DCMAKE_INSTALL_SYSCONFDIR=/etc \
+        -DCMAKE_BUILD_TYPE=None \
+        -DWITH_BUNDLED_DEPS=OFF \
+        -DWITH_SRV=ON \
+        -DWITH_SYSTEMD=OFF \
+        -DWITH_WEBSOCKETS=ON \
+        -Wno-dev \
+        -B build \
+        -S "$pkgname-$pkgver"
+  make VERBOSE=1 -C build
+}
+
+package() {
+  depends+=(libcares.so libwebsockets.so)
+
+  make DESTDIR="$pkgdir/" install -C build
+
+  install -vDm 644 "$pkgname-$pkgver/LICENSE.txt" -t "$pkgdir/usr/share/licenses/$pkgname/"
+  install -vDm 644 sysusers_mosquitto.conf "${pkgdir}"/usr/lib/sysusers.d/mosquitto.conf
+}

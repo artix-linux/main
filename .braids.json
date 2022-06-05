@@ -2771,6 +2771,11 @@
       "branch": "master",
       "revision": "152bf9ebb7bc06f53d63a6bf5eaac9a60aeb1afc"
     },
+    "mosquitto": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mosquitto.git",
+      "branch": "master",
+      "revision": "79d5da7be6867f284cf729e28b5c997f599a658e"
+    },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
