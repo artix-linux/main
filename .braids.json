@@ -871,6 +871,11 @@
       "branch": "master",
       "revision": "4031eece42cdc1c8b63bf0b15f80ca090f548af1"
     },
+    "ftgl": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/ftgl.git",
+      "branch": "master",
+      "revision": "66ff770c7f79a68021660d4ed1db69d70a1aeeeb"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
