@@ -2616,6 +2616,11 @@
       "branch": "master",
       "revision": "b2a00673575740aae9069565a3bd293e46a96223"
     },
+    "talloc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/talloc.git",
+      "branch": "master",
+      "revision": "5245d299bf6272be1e08afcf831b8ddd81c0fc0b"
+    },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
