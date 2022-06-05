@@ -1,0 +1,19 @@
+# Maintainer: Nathan <ndowens@artixlinux.org>
+
+pkgbase=shellcheck-bin
+pkgname=('shellcheck')
+pkgver=0.8.0
+pkgrel=1
+pkgdesc='Shell script analysis tool (binary release)'
+license=(AGPL3)
+arch=(x86_64)
+url='https://shellcheck.net'
+conflicts=('shellcheck')
+provides=('shellcheck')
+source_x86_64=(https://github.com/koalaman/"${pkgname%-bin}"/releases/download/v"$pkgver"/"${pkgname%-bin}"-v"${pkgver}".linux.x86_64.tar.xz)
+sha512sums_x86_64=('89317d97adb341e627b709e86477734ce236e9fb290de8a8c41cdc62769a3225622fa609deffebeabe9edb71f5639a086f61b677947e3ec4bc07c540fcbd0973')
+
+
+package_shellcheck() {
+    install -Dm755 "${pkgname%-bin}-v${pkgver}/${pkgname%-bin}" -t "${pkgdir}/usr/bin"
+}
