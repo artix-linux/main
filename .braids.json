@@ -206,6 +206,11 @@
       "branch": "master",
       "revision": "0825695e0d00ce956c86daa9b2ca0731a83f870a"
     },
+    "flatbuffers": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/flatbuffers.git",
+      "branch": "master",
+      "revision": "414cc479bc7019f1ae18cf530823cb459895dba6"
+    },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
