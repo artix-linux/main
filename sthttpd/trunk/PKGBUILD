@@ -1,0 +1,58 @@
+# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+# Contributor: Damir Perisa <damir.perisa@bluewin.ch>
+# Contributor: Stewart Starbuck <stewart@stewartstarbuck.co.uk>
+
+pkgname=sthttpd
+pkgver=2.27.1
+pkgrel=4
+pkgdesc='Supported fork of the thttpd web server'
+url='https://github.com/blueness/sthttpd'
+license=('custom:BSD')
+arch=('x86_64')
+depends=('libxcrypt')
+backup=('etc/thttpd.conf')
+validpgpkeys=('1FEDFAD9D82C52A53BABDC799384FA6EF52D4BBA')
+source=("$pkgname-$pkgver.tgz::https://github.com/blueness/sthttpd/archive/v2.27.1.tar.gz"
+        'sysusers'
+        'discreet.patch'
+        'config')
+sha256sums=('a1ee2806432eaf5b5dd267a0523701f9f1fa00fefd499d5bec42165a41e05846'
+            'a04d9c74b5cf6ef0ab241b3228bb9fc7fbccd129ae766642abaea840778e2db3'
+            'be953777f2b5b860f1c5a8c96d8478535fe517d76bd4b76597d743a96c2659cf'
+            '1f42c7625422944bd035731d264a711f50b47f4e4f58b6c67693f09fabb76350')
+
+conflicts=('thttpd')
+provides=('thttpd')
+replaces=('thttpd')
+
+prepare() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	patch -p1 -i ../discreet.patch
+	./autogen.sh
+}
+
+build() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	export WEBDIR=/srv/http
+	export WEBGROUP=http
+	./configure \
+		--prefix=/usr \
+		--sbindir=/usr/bin \
+		--mandir=/usr/share/man \
+
+	make
+}
+
+package() {
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	make DESTDIR="${pkgdir}" install
+	rm -fr "${pkgdir}"/srv
+
+	install -Dm644 ../config "${pkgdir}"/etc/thttpd.conf
+	install -Dm644 README.md "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 ../sysusers "${pkgdir}/usr/lib/sysusers.d/${pkgname}.conf"
+
+	# Avoid conflicts with Apache
+	mv "${pkgdir}"/usr/bin/htpasswd{,-thttpd}
+	mv "${pkgdir}"/usr/share/man/man1/htpasswd{,-thttpd}.1
+}

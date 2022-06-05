@@ -2566,6 +2566,11 @@
       "branch": "master",
       "revision": "d1f8610ad5733ccc818265faca3fe698bb22fd88"
     },
+    "sthttpd": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd.git",
+      "branch": "master",
+      "revision": "5eb5c91dbb7c015bd3c1756b9984e38c5e00521c"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
