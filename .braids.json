@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "00f6e62b09ff8e3b32e32fb4c6c0df2e0c2a4c4d"
     },
+    "irssi": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/irssi.git",
+      "branch": "master",
+      "revision": "bf0eb60c9107926d41aea0646494a3a3297b71e0"
+    },
     "isodate": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isodate.git",
       "branch": "master",
