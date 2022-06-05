@@ -1126,6 +1126,11 @@
       "branch": "master",
       "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
     },
+    "glib-networking": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glib-networking.git",
+      "branch": "master",
+      "revision": "ee332c549f1bbf3ad642ada9182e153683d79757"
+    },
     "glibmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
       "branch": "master",
