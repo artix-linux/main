@@ -1841,6 +1841,11 @@
       "branch": "master",
       "revision": "7f807019ad681df4f53ecf42c2b046c14fddea63"
     },
+    "xterm": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xterm.git",
+      "branch": "master",
+      "revision": "6c23456cffda44d7df1927913913e7ec4f9f0e36"
+    },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
