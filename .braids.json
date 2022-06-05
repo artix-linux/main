@@ -1491,6 +1491,11 @@
       "branch": "master",
       "revision": "2fe215b3119d399bfadebd85a1ca191c31324c72"
     },
+    "fwupd": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwupd.git",
+      "branch": "master",
+      "revision": "529a5a3bb4230923e310264793e8fe2253478ef6"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
