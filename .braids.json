@@ -5166,6 +5166,11 @@
       "branch": "master",
       "revision": "d59d8a5a298ea39a0a6d2d6085f1a66c7d27a72b"
     },
+    "pps-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pps-tools.git",
+      "branch": "master",
+      "revision": "191621ba7e4073b50402bd801d1e016ada839388"
+    },
     "pptpd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpd.git",
       "branch": "master",
