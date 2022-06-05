@@ -2536,6 +2536,11 @@
       "branch": "master",
       "revision": "154e87801d42beeae030194c5827ccec21222f78"
     },
+    "spamassassin": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
+      "branch": "master",
+      "revision": "f72103f48b24eedb416264e384285fafa12b96bd"
+    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
