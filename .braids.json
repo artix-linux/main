@@ -4181,6 +4181,11 @@
       "branch": "master",
       "revision": "5f922fbf174e557a52b19836593e4fa891530c44"
     },
+    "maven": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/maven.git",
+      "branch": "master",
+      "revision": "3bdb14fb68d7710f79790c3efd5de01359a125d5"
+    },
     "mcpp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mcpp.git",
       "branch": "master",
