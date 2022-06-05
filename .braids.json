@@ -3641,6 +3641,11 @@
       "branch": "master",
       "revision": "b0dcf9324d7c009f249d720e916a7760ce008dee"
     },
+    "soundtouch": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/soundtouch.git",
+      "branch": "master",
+      "revision": "943ce5736914a20e6e5441ff7a5aca82bcb2f74d"
+    },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
