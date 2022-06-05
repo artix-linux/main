@@ -4596,6 +4596,11 @@
       "branch": "master",
       "revision": "f50b8e82c4e7a99d83cc127e6bafbdc308eb94e8"
     },
+    "nodejs-nopt": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-nopt.git",
+      "branch": "master",
+      "revision": "90de3283d93046c885046294480fceba7ba2db48"
+    },
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
       "branch": "master",
