@@ -221,6 +221,11 @@
       "branch": "master",
       "revision": "804fc3f2eb689e6c8039e71a28be61d5ea209dff"
     },
+    "gajim": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gajim.git",
+      "branch": "master",
+      "revision": "089ccc3d39255aada088924b4f23927f29e9881d"
+    },
     "gcc11": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
       "branch": "master",
