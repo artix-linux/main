@@ -141,6 +141,11 @@
       "branch": "master",
       "revision": "0e942489ff7a7ee46fb7b0e9242e88f4b4e7e3d1"
     },
+    "aribb24": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aribb24.git",
+      "branch": "master",
+      "revision": "a26ed602f1da5d747d91084d19b7be115f1fb38e"
+    },
     "arrow": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arrow.git",
       "branch": "master",
