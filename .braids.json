@@ -36,6 +36,11 @@
       "branch": "master",
       "revision": "2179339343fb2ebe3492259db17a8b08f38d6c36"
     },
+    "alsa-lib": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-lib.git",
+      "branch": "master",
+      "revision": "9ceb03cd9c33f1a913e656e770b780d783162b06"
+    },
     "amdvlk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
       "branch": "master",
