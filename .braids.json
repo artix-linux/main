@@ -1796,6 +1796,11 @@
       "branch": "master",
       "revision": "fe81d37c78b74b812af71e1b388b7053014a8c39"
     },
+    "texlive-langcyrillic": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/texlive-langcyrillic.git",
+      "branch": "master",
+      "revision": "5c7514e73695ab7daed9695e3fb96b67fe3d2891"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
