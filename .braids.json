@@ -816,6 +816,11 @@
       "branch": "master",
       "revision": "da94b138a0a4991e871acfa0232c05a9c823c992"
     },
+    "libxshmfence": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libxshmfence.git",
+      "branch": "master",
+      "revision": "6ee93d2b595868ae5f1e2d3927a6e5a0e36dd541"
+    },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
