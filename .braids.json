@@ -376,6 +376,11 @@
       "branch": "master",
       "revision": "ef11a71b63c3e104b64c3f432b95fe70e33b2d7d"
     },
+    "dnscrypt-proxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git",
+      "branch": "master",
+      "revision": "b77a0e3854c9f37088dd26d91661ee3633a717d4"
+    },
     "double-conversion": {
       "url": "gitea@gitea.artixlinux.org:packagesD/double-conversion.git",
       "branch": "master",
