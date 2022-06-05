@@ -826,6 +826,11 @@
       "branch": "master",
       "revision": "6258383b71a482e20c6a384ad14f24a3d7a21b48"
     },
+    "vimiv": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vimiv.git",
+      "branch": "master",
+      "revision": "64ba7568e95eca4c1b54f136929f20bb5302dbac"
+    },
     "virt-what": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
       "branch": "master",
