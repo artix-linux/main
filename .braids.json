@@ -2796,6 +2796,11 @@
       "branch": "master",
       "revision": "a1448a6ad22e0fe22a540fb28355e4232e0876e7"
     },
+    "tpm2-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tools.git",
+      "branch": "master",
+      "revision": "bd34483430756d118a3932821e5a2f4b1e3b033e"
+    },
     "transmageddon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmageddon.git",
       "branch": "master",
