@@ -1616,6 +1616,11 @@
       "branch": "master",
       "revision": "86206ea9c998e633d7242786e4aa05d741bf1ef9"
     },
+    "xf86-video-fbdev": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-fbdev.git",
+      "branch": "master",
+      "revision": "9b1805fde53d7921830859cd79789fc8d2ce3e27"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
