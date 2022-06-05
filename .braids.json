@@ -4936,6 +4936,11 @@
       "branch": "master",
       "revision": "d0e3f85e4653c03f47e675c5e58fc80667987934"
     },
+    "lsof": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lsof.git",
+      "branch": "master",
+      "revision": "6d2f891ac25fb1bdfad6e87ed49542979b9c2633"
+    },
     "lsscsi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lsscsi.git",
       "branch": "master",
