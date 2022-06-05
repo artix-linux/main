@@ -4006,6 +4006,11 @@
       "branch": "master",
       "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
     },
+    "lowdown": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lowdown.git",
+      "branch": "master",
+      "revision": "ff603898354869ee02e6456eb0054bd465bff2df"
+    },
     "lpsolve": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lpsolve.git",
       "branch": "master",

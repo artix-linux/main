@@ -1,0 +1,55 @@
+# Maintainer: George Rawlinson <grawlinson@archlinux.org>
+# Contributor: Adrián Pérez de Castro <aperez@igalia.com>
+
+pkgname=lowdown
+pkgver=1.0.0
+pkgrel=1
+pkgdesc='A simple Markdown translator'
+arch=('x86_64')
+url='https://kristaps.bsd.lv/lowdown'
+license=('ISC')
+depends=('glibc' 'libmd')
+makedepends=('git')
+_commit='edca6ce6d5336efb147321a43c47a698de41bb7c'
+source=("$pkgname::git+https://github.com/kristapsdz/lowdown.git#commit=$_commit")
+b2sums=('SKIP')
+
+pkgver() {
+  cd "$pkgname"
+
+  git describe --tags | sed -e 's/^VERSION_//' -e 's/_/./g'
+}
+
+build () {
+  cd "$pkgname"
+
+	./configure \
+    PREFIX=/usr \
+    MANDIR=/usr/share/man
+
+  # ensure LDFLAGS is passed correctly
+  sed -i "s/^LDFLAGS.*/LDFLAGS = $LDFLAGS/" Makefile.configure
+
+	make
+}
+
+check () {
+	make -C "$pkgname" regress
+}
+
+package () {
+  cd "$pkgname"
+
+  # package
+	make DESTDIR="$pkgdir" \
+    install \
+    install_lib_common \
+    install_shared
+
+  # symlink unversioned to versioned shared library
+  local LIBVER=$(grep "^LIBVER" Makefile | sed "s/.*= //")
+  ln -sf "/usr/lib/liblowdown.so.$LIBVER" "$pkgdir/usr/lib/liblowdown.so"
+
+  # license
+	install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE.md
+}
