@@ -4326,6 +4326,11 @@
       "branch": "master",
       "revision": "61008da9011fd46ab3e0ecd58480264307f03f81"
     },
+    "wildmidi": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wildmidi.git",
+      "branch": "master",
+      "revision": "a1ffb06e103f3cce322bf3466b1f88339cb126d8"
+    },
     "wireguard-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-tools.git",
       "branch": "master",
