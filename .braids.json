@@ -2626,6 +2626,11 @@
       "branch": "master",
       "revision": "2458baf75eb976bbd86bb2dba59559cbe03852b6"
     },
+    "inetutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/inetutils.git",
+      "branch": "master",
+      "revision": "8e1e1ed1401b6b3020f7dfc4b078662ed80068cc"
+    },
     "intel-compute-runtime": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-compute-runtime.git",
       "branch": "master",
