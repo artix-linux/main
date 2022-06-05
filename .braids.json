@@ -221,6 +221,11 @@
       "branch": "master",
       "revision": "f17c59f22c8f27f8eaa088a7dfdcd386404a2510"
     },
+    "bctoolbox": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bctoolbox.git",
+      "branch": "master",
+      "revision": "dcce07c0fcf81e89817a50599b942e80900e03f4"
+    },
     "bftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd.git",
       "branch": "master",
