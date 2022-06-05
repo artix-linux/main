@@ -121,6 +121,11 @@
       "branch": "master",
       "revision": "4b3e32543b189c8696d70906bf99aa06fef34343"
     },
+    "ant": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/ant.git",
+      "branch": "master",
+      "revision": "09e049fe3cf547de8faedb92539051dd623ec02d"
+    },
     "aom": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aom.git",
       "branch": "master",
