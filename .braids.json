@@ -1686,6 +1686,11 @@
       "branch": "master",
       "revision": "af7cadd31bad46da0a386f2332e97139fd542eb1"
     },
+    "xorg-fonts-misc": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-misc.git",
+      "branch": "master",
+      "revision": "64eec2180e3a8d28add7c6deef6e51f71fc0b84e"
+    },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
