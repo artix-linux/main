@@ -1166,6 +1166,11 @@
       "branch": "master",
       "revision": "20dd279ca60a1051a84ceb0dd7f08c6996f32fb8"
     },
+    "dmidecode": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dmidecode.git",
+      "branch": "master",
+      "revision": "15c6d198d24470cba28f01856c124615a7f8f805"
+    },
     "dns-over-https": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
       "branch": "master",
