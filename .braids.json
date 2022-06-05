@@ -3511,6 +3511,11 @@
       "branch": "master",
       "revision": "8a2bb872a238bd96ccc5e33bedde4082ca318038"
     },
+    "yamllint": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yamllint.git",
+      "branch": "master",
+      "revision": "20836c091f026b0ce19fcdee22f31da0e8dd2d99"
+    },
     "yapf": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yapf.git",
       "branch": "master",
