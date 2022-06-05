@@ -385,6 +385,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
       "branch": "master",
       "revision": "04b8bca8fdaaacec6640729a2a029dfa93349528"
+    },
+    "rkcommon": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rkcommon.git",
+      "branch": "master",
+      "revision": "694d9f21de0df1ed165136db62f788547d1eac00"
     }
   }
 }
