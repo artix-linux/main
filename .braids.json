@@ -6871,6 +6871,11 @@
       "branch": "master",
       "revision": "265b693a2a6b1bb3244421e550fecfc5cb22aa64"
     },
+    "veracrypt": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/veracrypt.git",
+      "branch": "master",
+      "revision": "0675b7b9385da0dc131371968baab696bdff1cd5"
+    },
     "vid.stab": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vid.stab.git",
       "branch": "master",
