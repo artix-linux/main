@@ -8406,6 +8406,11 @@
       "branch": "master",
       "revision": "0675b7b9385da0dc131371968baab696bdff1cd5"
     },
+    "vi": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vi.git",
+      "branch": "master",
+      "revision": "d5b84ddaa50b527e7b5df2f659e6f1722a7510df"
+    },
     "vid.stab": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vid.stab.git",
       "branch": "master",
