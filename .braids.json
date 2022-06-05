@@ -3471,6 +3471,11 @@
       "branch": "master",
       "revision": "558899bd43e6e54c66136229c3fb17f5ab6f055c"
     },
+    "rtmpdump": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rtmpdump.git",
+      "branch": "master",
+      "revision": "440e003d2545ea5ce3937d36b30984a92ae665e9"
+    },
     "rtorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtorrent.git",
       "branch": "master",
