@@ -496,6 +496,11 @@
       "branch": "master",
       "revision": "eb9f600bb72baf32a7ef18abe68edb9ad9c788d3"
     },
+    "bridge-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bridge-utils.git",
+      "branch": "master",
+      "revision": "5bc63e1d888a5e969f11a8dbfc83cd9b36897acf"
+    },
     "brightnessctl": {
       "url": "gitea@gitea.artixlinux.org:packagesB/brightnessctl.git",
       "branch": "master",
