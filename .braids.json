@@ -2226,6 +2226,11 @@
       "branch": "master",
       "revision": "31801e6d5d90244dda55cccbb83131bf044a8fed"
     },
+    "pgbouncer": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pgbouncer.git",
+      "branch": "master",
+      "revision": "52e6f7b714df2de3ad6d3d259b705e4b49b7c5bb"
+    },
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
       "branch": "master",
