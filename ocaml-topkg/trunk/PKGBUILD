@@ -1,0 +1,29 @@
+# Maintainer:  Jürgen Hötzel <juergen@archlinux.org>
+pkgname=ocaml-topkg
+pkgver=1.0.4
+pkgrel=2
+pkgdesc="A packager for distributing OCaml software"
+arch=('x86_64')
+url="https://erratique.ch/software/topkg"
+license=('BSD')
+depends=('ocaml>=4.13.1' 'ocaml-result')
+makedepends=('ocaml-findlib' 'ocamlbuild' 'opam' 'ocaml-compiler-libs')
+source=("https://erratique.ch/software/topkg/releases/topkg-${pkgver}.tbz")
+sha512sums=('5baa1bf0105397589b741acd0195069823548b2051e453dffd641e5d00536b7a5f41b38d005b2b063f9e7cfb9a3b627bec3e6ad48e56769cc35a71f97a897f1b')
+
+
+build() {
+  cd "${srcdir}/topkg-${pkgver}"
+
+  pkg/pkg.ml build --pkg-name topkg
+}
+
+package() {
+  cd "${srcdir}/topkg-${pkgver}"
+
+  opam-installer --prefix="${pkgdir}/usr" \
+    --libdir="${pkgdir}$(ocamlc -where)" \
+    --docdir="${pkgdir}/usr/share/doc"
+  install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
+  mv "${pkgdir}/usr/share/doc/topkg/LICENSE.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.md"
+}
