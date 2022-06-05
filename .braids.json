@@ -5756,6 +5756,11 @@
       "branch": "master",
       "revision": "78a7da204993b960aea3455eae74f3f96d0e7dc8"
     },
+    "ntfs-3g": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ntfs-3g.git",
+      "branch": "master",
+      "revision": "50b683238f2e2dc11bfb07b0f4f428c4ec876104"
+    },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
