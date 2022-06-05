@@ -5001,6 +5001,11 @@
       "branch": "master",
       "revision": "ae7cbe561d0e3bbf318c2b24bfe176c6b07ae31e"
     },
+    "lvm2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lvm2.git",
+      "branch": "master",
+      "revision": "35022eedcfe89b0ebca2f0b916ae78dc508bbfec"
+    },
     "lxc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxc.git",
       "branch": "master",
