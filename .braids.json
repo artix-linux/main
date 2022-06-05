@@ -440,6 +440,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
       "branch": "master",
       "revision": "a9fbfd22e12902921242929adb27f75e3f428a4c"
+    },
+    "tldp-howtos-txt": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
+      "branch": "master",
+      "revision": "b9b9fa57264b277fad33d37da05b3eabffc1fe60"
     }
   }
 }
