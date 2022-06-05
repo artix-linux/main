@@ -3626,6 +3626,11 @@
       "branch": "master",
       "revision": "52e6f7b714df2de3ad6d3d259b705e4b49b7c5bb"
     },
+    "phodav": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/phodav.git",
+      "branch": "master",
+      "revision": "3ec80da9c208b40f0792bab1fc9514cb0ea59071"
+    },
     "php": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php.git",
       "branch": "master",
