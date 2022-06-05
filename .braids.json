@@ -1556,6 +1556,11 @@
       "branch": "master",
       "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
     },
+    "json-glib": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/json-glib.git",
+      "branch": "master",
+      "revision": "e915c529240e8af6f4d2b86bc157df718428d7c4"
+    },
     "judy": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/judy.git",
       "branch": "master",
