@@ -2021,6 +2021,11 @@
       "branch": "master",
       "revision": "ea99315345eb47f93a4218affd7c559391652442"
     },
+    "libgudev": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libgudev.git",
+      "branch": "master",
+      "revision": "6301e3d36196c35f125d932815f165fb8ea1c75c"
+    },
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",

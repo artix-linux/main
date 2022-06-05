@@ -1,0 +1,47 @@
+# Maintainer: Evangelos Foutras <evangelos@foutrelis.com>
+
+pkgname=libgudev
+pkgver=237
+pkgrel=2
+pkgdesc="GObject bindings for libudev"
+url="https://wiki.gnome.org/Projects/libgudev"
+arch=(x86_64)
+license=(LGPL2.1)
+depends=(udev glib2)
+makedepends=(gobject-introspection gtk-doc git meson umockdev vala)
+options=(debug)
+_commit=dff7a794e55d6ad7a10e8edacd73aa047593e74c  # tags/237^0
+source=("git+https://gitlab.gnome.org/GNOME/libgudev.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd libgudev
+  git describe --tags | sed 's/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd libgudev
+
+  # Use a locale with "," decimal separator that we
+  # actually have available in the build environments
+  sed -e 's/fr_FR\.UTF-8/de_DE.UTF-8/g' \
+      -i tests/meson.build tests/test-double.c
+}
+
+build() {
+  artix-meson libgudev build -D gtk_doc=true
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  depends+=(libg{lib,object}-2.0.so libudev.so)
+  provides+=(libgudev-1.0.so)
+
+  meson install -C build --destdir "$pkgdir"
+}
+
+# vim:set ts=2 sw=2 et:
