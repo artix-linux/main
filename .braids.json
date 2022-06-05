@@ -486,6 +486,11 @@
       "branch": "master",
       "revision": "08d2739b64a037fdf822f006d7e884b47c5f78b0"
     },
+    "libblockdev": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libblockdev.git",
+      "branch": "master",
+      "revision": "7024be14630c8bec60c4d76323888a7338e0ae48"
+    },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
