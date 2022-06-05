@@ -4831,6 +4831,11 @@
       "branch": "master",
       "revision": "ca66dc78b0098a7ead5af9560edff57a82a51469"
     },
+    "zvbi": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zvbi.git",
+      "branch": "master",
+      "revision": "968910b5657449dc2d30e38b0034622ff88149c1"
+    },
     "zziplib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zziplib.git",
       "branch": "master",
