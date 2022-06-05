@@ -2936,6 +2936,11 @@
       "branch": "master",
       "revision": "2ee0be190510caa4b42e842737b2956acb350353"
     },
+    "kbd": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/kbd.git",
+      "branch": "master",
+      "revision": "353d3f7681c062e8ca1117a40b628d15d898e317"
+    },
     "keystone": {
       "url": "gitea@gitea.artixlinux.org:packagesK/keystone.git",
       "branch": "master",
