@@ -4891,6 +4891,11 @@
       "branch": "master",
       "revision": "be62af110798a69e3c63272be8f4878011e6eb89"
     },
+    "wxgtk": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wxgtk.git",
+      "branch": "master",
+      "revision": "935e6e020e9d1f7229dae3ed170558844183f7ec"
+    },
     "x11-ssh-askpass": {
       "url": "gitea@gitea.artixlinux.org:packagesX/x11-ssh-askpass.git",
       "branch": "master",
