@@ -2146,6 +2146,11 @@
       "branch": "master",
       "revision": "819d96b78223f4a11923aca75fbdb25ba00cac2e"
     },
+    "libsidplayfp": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsidplayfp.git",
+      "branch": "master",
+      "revision": "b0dc25864ca84dfda0d2aeb0a98c6acea47cea9f"
+    },
     "libsigsegv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
       "branch": "master",
