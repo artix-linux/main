@@ -971,6 +971,11 @@
       "branch": "master",
       "revision": "1a7477e6fd6118d61cb8a3b815d2e75577fc2987"
     },
+    "fractal": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fractal.git",
+      "branch": "master",
+      "revision": "d5a3e447ebb5dcb0e9e2a5ce682b37bac13ac713"
+    },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
       "branch": "master",
