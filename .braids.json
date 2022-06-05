@@ -166,6 +166,11 @@
       "branch": "master",
       "revision": "16dab8ac521c1a7e22d518b909d8a760dcfe45ac"
     },
+    "archlinux-mirrorlist": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/archlinux-mirrorlist.git",
+      "branch": "master",
+      "revision": "2ac0ee1806029a6b18c03588e46bd4e7f446e42d"
+    },
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
       "branch": "master",
