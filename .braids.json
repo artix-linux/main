@@ -1646,6 +1646,11 @@
       "branch": "master",
       "revision": "a67a885cbc581bf5cd6559b27e9cf8083f7376a8"
     },
+    "xf86-video-vmware": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-vmware.git",
+      "branch": "master",
+      "revision": "2296205a1812257d6516d46c66514ba84a52fa58"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
