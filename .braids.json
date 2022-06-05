@@ -4981,6 +4981,11 @@
       "branch": "master",
       "revision": "cf5f59ec2e6a02ea8243ca104f983d12d6a8ed91"
     },
+    "parallel": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/parallel.git",
+      "branch": "master",
+      "revision": "3fdcdaa970e74e504f6d13318dd33433c9f8e646"
+    },
     "pastebinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pastebinit.git",
       "branch": "master",
