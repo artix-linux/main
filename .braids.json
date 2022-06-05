@@ -681,6 +681,11 @@
       "branch": "master",
       "revision": "e1e6ea85c8e03f22295f7b1cec008334b9be1723"
     },
+    "coin-or-cgl": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-cgl.git",
+      "branch": "master",
+      "revision": "b9ed5f9eedee04f3c44e3e282959b76b3be27870"
+    },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
       "branch": "master",
