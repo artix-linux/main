@@ -3556,6 +3556,11 @@
       "branch": "master",
       "revision": "5a38fa696036c1a37de4b5bc9646249dc1806f16"
     },
+    "osm-gps-map": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/osm-gps-map.git",
+      "branch": "master",
+      "revision": "cde8063b6087836e7caf2054b25782aba57c3c65"
+    },
     "ospray": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",

@@ -1,0 +1,24 @@
+# Maintainer: Bruno Pagani <archange@archlinux.org>
+
+pkgname=osm-gps-map
+pkgver=1.2.0
+pkgrel=1.1
+pkgdesc="Gtk+ Widget for Displaying OpenStreetMap tiles"
+arch=(x86_64)
+url="https://nzjrs.github.com/osm-gps-map/"
+license=(GPL2)
+depends=(gtk3 libsoup)
+makedepends=(gtk-doc gobject-introspection)
+source=(https://github.com/nzjrs/osm-gps-map/releases/download/${pkgver}/${pkgname}-${pkgver}.tar.gz)
+sha256sums=('ddec11449f37b5dffb4bca134d024623897c6140af1f9981a8acc512dbf6a7a5')
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr --enable-gtk-doc
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" install
+}
