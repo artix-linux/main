@@ -3556,6 +3556,11 @@
       "branch": "master",
       "revision": "0fdba03441315017fb62a4b9ac33ff356ee41d7d"
     },
+    "sdl_net": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sdl_net.git",
+      "branch": "master",
+      "revision": "e0ef1aca30d112b2fee5e7bd68e9c70dc2e10a23"
+    },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",
