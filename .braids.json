@@ -2741,6 +2741,11 @@
       "branch": "master",
       "revision": "785c76965d9976b98e1bc6e6c74a9fcaf8293d2e"
     },
+    "mlt": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
+      "branch": "master",
+      "revision": "b7d9b400fc468ecc6cf140808f984e08dd4dbc99"
+    },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
