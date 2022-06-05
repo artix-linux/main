@@ -3501,6 +3501,11 @@
       "branch": "master",
       "revision": "11f283048b117bc2ae04fece5686bb192b5b522c"
     },
+    "ocaml-csexp": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-csexp.git",
+      "branch": "master",
+      "revision": "fc08074697c3b261ecc1f5ab803a4a9475b3cf01"
+    },
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
       "branch": "master",
