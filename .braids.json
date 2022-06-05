@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "500892416018ef9033184968433453db52be3591"
     },
+    "cairomm": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cairomm.git",
+      "branch": "master",
+      "revision": "6ea460d6dfa3364de4155869e5bb1bc1835f8187"
+    },
     "capstone": {
       "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
       "branch": "master",
