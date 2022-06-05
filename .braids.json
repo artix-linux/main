@@ -9181,6 +9181,11 @@
       "branch": "master",
       "revision": "3612bb1115c9bbaa19b9b8ad14096c98eaf94ff4"
     },
+    "yasm": {
+      "url": "gitea@gitea.artixlinux.org:packagesY/yasm.git",
+      "branch": "master",
+      "revision": "b555e9ec947691332448fd61a3b5f7dc8538d54b"
+    },
     "yelp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-tools.git",
       "branch": "master",
