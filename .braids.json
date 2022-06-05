@@ -1551,6 +1551,11 @@
       "branch": "master",
       "revision": "eafa7494ffe19828a7835cc1be65ad2bb5789270"
     },
+    "xcursor-premium": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xcursor-premium.git",
+      "branch": "master",
+      "revision": "ca729cf1aa0415ecc27409eae8e830816c900a8f"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
