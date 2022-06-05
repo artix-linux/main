@@ -356,6 +356,11 @@
       "branch": "master",
       "revision": "c910c2355a92127b31942f65ff2b517495dafdd7"
     },
+    "dht": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dht.git",
+      "branch": "master",
+      "revision": "34fb97c8f71da3bb748b302f6dda2faca729d736"
+    },
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
