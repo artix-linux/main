@@ -1956,6 +1956,11 @@
       "branch": "master",
       "revision": "2d2752852b8e65d002a4bbff981c784b9d832942"
     },
+    "libnice": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libnice.git",
+      "branch": "master",
+      "revision": "b2f49b3527fe0daa98e5332de74a73b66d39fc3f"
+    },
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
