@@ -31,6 +31,11 @@
       "branch": "master",
       "revision": "fcf4af5c052c751ac61b8992d358caa692effb1a"
     },
+    "amule": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/amule.git",
+      "branch": "master",
+      "revision": "4b3e32543b189c8696d70906bf99aa06fef34343"
+    },
     "apache-orc": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-orc.git",
       "branch": "master",
