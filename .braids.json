@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "81a70d97bf7f14632ca8238b79eb2afe1721d516"
     },
+    "coreutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coreutils.git",
+      "branch": "master",
+      "revision": "1966ae2f70efda0f0544f7568004db3c535a4f1d"
+    },
     "coturn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn.git",
       "branch": "master",
