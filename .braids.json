@@ -131,6 +131,11 @@
       "branch": "master",
       "revision": "13aac7367d6cdabd4c836af27db8bee94092725e"
     },
+    "chafa": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chafa.git",
+      "branch": "master",
+      "revision": "de4acbf838dc331f233cf909ff6b07dedacfb56d"
+    },
     "checkbashisms": {
       "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
       "branch": "master",
