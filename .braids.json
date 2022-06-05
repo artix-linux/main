@@ -1991,6 +1991,11 @@
       "branch": "master",
       "revision": "83c76bac1907d54fd34a40bedfebd1a1ae877adc"
     },
+    "libopenmpt": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libopenmpt.git",
+      "branch": "master",
+      "revision": "9d50e145995259d999a4d4c91a97fc955c56136e"
+    },
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
