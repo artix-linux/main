@@ -7216,6 +7216,11 @@
       "branch": "master",
       "revision": "e987960fafb975f9909b223c4a2a7544f3b899af"
     },
+    "run-parts": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/run-parts.git",
+      "branch": "master",
+      "revision": "caebe8c309bc0ed87a0a9f4a9fb5bc2e18a552f5"
+    },
     "runc": {
       "url": "gitea@gitea.artixlinux.org:packagesR/runc.git",
       "branch": "master",
