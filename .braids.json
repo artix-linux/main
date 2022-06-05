@@ -991,6 +991,11 @@
       "branch": "master",
       "revision": "042a2303937be7dbea4efea0e10ced72aeeb5aec"
     },
+    "libraw": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libraw.git",
+      "branch": "master",
+      "revision": "a85f072a5082d0b89c1bd06824bccfba76348206"
+    },
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
       "branch": "master",
