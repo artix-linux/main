@@ -1631,6 +1631,11 @@
       "branch": "master",
       "revision": "a02e9d6d671d27239faf6bf9bccf69100b6d9fc8"
     },
+    "rawtherapee": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rawtherapee.git",
+      "branch": "master",
+      "revision": "df5e8b3cf177233cfe3a04cc243652551c28e9a3"
+    },
     "redshift": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
       "branch": "master",
