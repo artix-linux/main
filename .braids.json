@@ -646,6 +646,11 @@
       "branch": "master",
       "revision": "c5f2341fe4656ed4ef954c3681c4a68f7841a3f9"
     },
+    "cmocka": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cmocka.git",
+      "branch": "master",
+      "revision": "c8bd388e9cf06e56dcc0bed369db9cd8227576b6"
+    },
     "cni-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cni-plugins.git",
       "branch": "master",
