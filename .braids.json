@@ -941,6 +941,11 @@
       "branch": "master",
       "revision": "d4a925cdfff5aa244153330382c14325353c2c5e"
     },
+    "judy": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/judy.git",
+      "branch": "master",
+      "revision": "d5b9de7e9dad608b5857975f8059be87656c52d9"
+    },
     "jupyter": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter.git",
       "branch": "master",
