@@ -3941,6 +3941,11 @@
       "branch": "master",
       "revision": "61ac26cd87f2ca10fb9fe97f195a3279bb1cf3b8"
     },
+    "qt5-scxml": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-scxml.git",
+      "branch": "master",
+      "revision": "0ddd4f3bcdae40877291c8d5e6ab98babd12e017"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
