@@ -1156,6 +1156,11 @@
       "branch": "master",
       "revision": "6c79efaacd56821a302343eff302c7f6f89a2bd5"
     },
+    "shaderc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shaderc.git",
+      "branch": "master",
+      "revision": "45fd8d7cf47ef2fb496b1ad1b0def0d9c9e3d6d8"
+    },
     "shhmsg": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shhmsg.git",
       "branch": "master",
