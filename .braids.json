@@ -2076,6 +2076,11 @@
       "branch": "master",
       "revision": "d20da9c229eaffe13350fe1cd1f6cec224f6ea95"
     },
+    "gnupg": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gnupg.git",
+      "branch": "master",
+      "revision": "bdee0fab31bde6bc6f8dbc0a358a2ba37006c95f"
+    },
     "gnuplot": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnuplot.git",
       "branch": "master",
