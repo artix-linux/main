@@ -936,6 +936,11 @@
       "branch": "master",
       "revision": "0b074090ace27734ec47ff58d028a6be0c199c17"
     },
+    "libpagemaker": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpagemaker.git",
+      "branch": "master",
+      "revision": "6844708e3792147309548f20e7c9adcc71a25de1"
+    },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
