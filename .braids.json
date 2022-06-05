@@ -7151,6 +7151,11 @@
       "branch": "master",
       "revision": "bfe5cdd54875101fe6af5fd0031f4851daefb4fb"
     },
+    "rpcsvc-proto": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rpcsvc-proto.git",
+      "branch": "master",
+      "revision": "8577b2ab88202115dd906951f428cd9ce5d0b3a2"
+    },
     "rpm-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpm-tools.git",
       "branch": "master",
