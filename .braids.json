@@ -3366,6 +3366,11 @@
       "branch": "master",
       "revision": "51bac6460a3e122438f51f4ac505707975e7875e"
     },
+    "libedit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libedit.git",
+      "branch": "master",
+      "revision": "56b11418cef562e643833503ce817ba5708a8b32"
+    },
     "libepubgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepubgen.git",
       "branch": "master",
