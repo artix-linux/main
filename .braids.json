@@ -631,6 +631,11 @@
       "branch": "master",
       "revision": "9ccfad82d04f1658f721267d64e18acb031da92d"
     },
+    "libteam": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
+      "branch": "master",
+      "revision": "496cc913b6f563956e3cb5814b15ebca59bd3902"
+    },
     "libusbsio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
       "branch": "master",
