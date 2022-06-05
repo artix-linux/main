@@ -1651,6 +1651,11 @@
       "branch": "master",
       "revision": "2296205a1812257d6516d46c66514ba84a52fa58"
     },
+    "xf86-video-voodoo": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-voodoo.git",
+      "branch": "master",
+      "revision": "8badb45d6cf3538691a306e46c10e6460379719a"
+    },
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
