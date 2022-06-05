@@ -1,0 +1,38 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+pkgname=libqrtr-glib
+pkgver=1.2.2
+pkgrel=2
+pkgdesc="Qualcomm IPC Router protocol helper library"
+url="https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib"
+arch=(x86_64)
+license=(GPL2)
+depends=(glib2)
+makedepends=(gtk-doc meson git gobject-introspection)
+provides=(libqrtr-glib.so)
+options=(debug)
+_commit=8991f0e93713ebf4da48ae4f23940ead42f64c8c  # tags/1.2.2^0
+source=("git+https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib.git#commit=$_commit")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd libqrtr-glib
+  git describe --tags | sed 's/-rc/rc/;s/[^-]*-g/r&/;s/-/+/g'
+}
+
+prepare() {
+  cd libqrtr-glib
+}
+
+build() {
+  artix-meson libqrtr-glib build
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}

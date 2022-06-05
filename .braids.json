@@ -1386,6 +1386,11 @@
       "branch": "master",
       "revision": "a259500108e56c7d4bd7478c349e39295b1bef4b"
     },
+    "libqrtr-glib": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libqrtr-glib.git",
+      "branch": "master",
+      "revision": "b93da082e7ffee0d7c21b16cd836c2fc9889c596"
+    },
     "libqxp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libqxp.git",
       "branch": "master",
