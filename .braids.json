@@ -3386,6 +3386,11 @@
       "branch": "master",
       "revision": "7842c347b69c915d2c0b87ad93c4ee62d1183f02"
     },
+    "raptor": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/raptor.git",
+      "branch": "master",
+      "revision": "24393fc2bcb2f0e1509dc5bd1505a5bd658f1556"
+    },
     "rasqal": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rasqal.git",
       "branch": "master",
