@@ -8646,6 +8646,11 @@
       "branch": "master",
       "revision": "17256b2090a4b5d724ae32710446c69b2d770ff6"
     },
+    "wireless_tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireless_tools.git",
+      "branch": "master",
+      "revision": "ec04afba2fbaa7b2514a80dcb50b466a75f885d9"
+    },
     "wireplumber": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireplumber.git",
       "branch": "master",
