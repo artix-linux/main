@@ -1941,6 +1941,11 @@
       "branch": "master",
       "revision": "3e420a5e24fa0865d72c81d7d21a20431fae3901"
     },
+    "gv": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gv.git",
+      "branch": "master",
+      "revision": "6fcde885f6a3e1174d96c48264234c133d46ba59"
+    },
     "haproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
       "branch": "master",
