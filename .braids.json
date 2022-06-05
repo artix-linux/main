@@ -696,6 +696,11 @@
       "branch": "master",
       "revision": "d6bd120d442a153396e4081b2a8295ba405b003d"
     },
+    "coin-or-data-sample": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-data-sample.git",
+      "branch": "master",
+      "revision": "db597f98fa65f3bb2c0703d17c6be5c7a52c3106"
+    },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
       "branch": "master",
