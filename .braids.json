@@ -1251,6 +1251,11 @@
       "branch": "master",
       "revision": "68bba3665cd28ba4a97793d013af1576a2af57b6"
     },
+    "gtk2": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gtk2.git",
+      "branch": "master",
+      "revision": "bfeeff8e056419b46b124ab10fe2d49b38c18b1c"
+    },
     "gts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
       "branch": "master",
