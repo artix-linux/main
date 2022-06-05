@@ -3056,6 +3056,11 @@
       "branch": "master",
       "revision": "82f5fd810d913742bd8ee69936fa2d5a5db2c550"
     },
+    "libmd": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmd.git",
+      "branch": "master",
+      "revision": "0c685a260ae2a69d76ed571f6717383ef952d416"
+    },
     "libmediainfo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmediainfo.git",
       "branch": "master",
