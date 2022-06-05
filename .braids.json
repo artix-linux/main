@@ -1771,6 +1771,11 @@
       "branch": "master",
       "revision": "db560af41a59cadee804fccb16600bfce7540b80"
     },
+    "tex-gyre-fonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tex-gyre-fonts.git",
+      "branch": "master",
+      "revision": "0ad6c213c9e3193315e1163b5f6d0b4f478fffc6"
+    },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
