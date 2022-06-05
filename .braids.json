@@ -5041,6 +5041,11 @@
       "branch": "master",
       "revision": "a06b36fca841896d77c5b04d1d0025ef092fb505"
     },
+    "lzop": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lzop.git",
+      "branch": "master",
+      "revision": "a80ea7a36484117df730bc55e0bdcb2c0b5ddd46"
+    },
     "m17n-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
       "branch": "master",
