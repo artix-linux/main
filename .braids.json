@@ -6401,6 +6401,11 @@
       "branch": "master",
       "revision": "e8e332b34bca0e45c700197ed4f7763176e4c91f"
     },
+    "potrace": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/potrace.git",
+      "branch": "master",
+      "revision": "48ce3141af46e5cd8691c716f8d33a23891abd91"
+    },
     "powerdns": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powerdns.git",
       "branch": "master",
