@@ -3926,6 +3926,11 @@
       "branch": "master",
       "revision": "89f8a44fdfe029a459abe1dd580cb5559ede337a"
     },
+    "qt5-quicktimeline": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-quicktimeline.git",
+      "branch": "master",
+      "revision": "a465e787f38bd69f33272995e108a9e51c304f8f"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
