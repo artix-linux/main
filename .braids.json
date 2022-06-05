@@ -7146,6 +7146,11 @@
       "branch": "master",
       "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
     },
+    "rpcbind": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind.git",
+      "branch": "master",
+      "revision": "bfe5cdd54875101fe6af5fd0031f4851daefb4fb"
+    },
     "rpm-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpm-tools.git",
       "branch": "master",
