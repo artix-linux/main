@@ -476,6 +476,11 @@
       "branch": "master",
       "revision": "5f76d63318e2e3cdc3d66dae8825cabae15db9a7"
     },
+    "gsl": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gsl.git",
+      "branch": "master",
+      "revision": "f45e824c253950ebcc5579e0f27b4dab17b5879d"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
