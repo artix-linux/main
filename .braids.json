@@ -6506,6 +6506,11 @@
       "branch": "master",
       "revision": "25b92340042fd546af140698d8d20be09d2b1a41"
     },
+    "plantuml": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/plantuml.git",
+      "branch": "master",
+      "revision": "057b752f966ac4645c85add541ec04b4fc488de2"
+    },
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
       "branch": "master",

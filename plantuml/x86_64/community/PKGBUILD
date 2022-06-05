@@ -1,0 +1,39 @@
+# Maintainer: Jiachen YANG <farseerfc@gmail.com>
+# AUR Contributor: juantascon <juantascon.aur@horlux.org>
+# Contributor : Jingbei Li <i@jingbei.li>
+
+pkgname=plantuml
+pkgver=1.2022.4
+pkgrel=2
+pkgdesc="Component that allows to quickly write uml diagrams"
+arch=(any)
+url="https://plantuml.com/"
+license=('GPL')
+depends=("java-runtime>=8" "bash")
+makedepends=("apache-ant" "java-environment>=8")
+source=("https://downloads.sourceforge.net/project/$pkgname/$pkgver/$pkgname-$pkgver.tar.gz"
+        "$pkgname.run")
+sha256sums=('288fb22c46fb24342633e5064a0be0a66e1530a1cec99457655cd31ce8f5f37b'
+            'a3fb528f4c719cfd0ff6154c60fd54ce341011d132caf950cc30af4989f6aac8')
+optdepends=('plantuml-ascii-math: allow use AsciiMath or JLaTeXMath notation'
+            'ditaa: allow use ditaa notation'
+            'graphviz: allow use Graphviz/DOT notation')
+
+prepare(){
+  cd "$srcdir/$pkgname-$pkgver"
+    sed 's/target="1.6"/target="1.7"/g;s/source="1.6"/source="1.7"/g' -i build.xml
+}
+
+build() {
+  cd "$srcdir/$pkgname-$pkgver"
+  # assume ant defaults to UTF8 encoding.
+  ant dist
+}
+
+package() {
+  depends+=("java-runtime")
+  install -m 755 -D "$pkgname.run" "$pkgdir/usr/bin/$pkgname"
+
+  cd "$srcdir/$pkgname-$pkgver"
+  install -m 644 -D "$pkgname.jar" "$pkgdir/usr/share/java/$pkgname/$pkgname.jar"
+}
