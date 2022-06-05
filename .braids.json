@@ -2251,6 +2251,11 @@
       "branch": "master",
       "revision": "87145931f4199aaeddbababb6dc44692541d5e58"
     },
+    "pigeonhole": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pigeonhole.git",
+      "branch": "master",
+      "revision": "f334e66718a1096e3cceaa52b4cf7704adc66526"
+    },
     "pixman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pixman.git",
       "branch": "master",
