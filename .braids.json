@@ -761,6 +761,11 @@
       "branch": "master",
       "revision": "b9b9fa57264b277fad33d37da05b3eabffc1fe60"
     },
+    "tldr": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tldr.git",
+      "branch": "master",
+      "revision": "201bd514ab7640c508abeacde06c5f86e6e3fec0"
+    },
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
