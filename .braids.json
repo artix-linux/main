@@ -1351,6 +1351,11 @@
       "branch": "master",
       "revision": "f6e8ca525a119984e68d9da6bdce494820c15896"
     },
+    "unicode-emoji": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unicode-emoji.git",
+      "branch": "master",
+      "revision": "4f2a15f73a40c55cb8059108ec5d1c6cf2202d3b"
+    },
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
       "branch": "master",
