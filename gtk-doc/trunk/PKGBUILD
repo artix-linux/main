@@ -1,0 +1,45 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Contributor: Jan de Groot <jgc@archlinux.org>
+
+pkgname=gtk-doc
+pkgver=1.33.2
+pkgrel=1
+pkgdesc="Documentation tool for public library API"
+url="https://www.gtk.org/gtk-doc/"
+arch=(any)
+license=(GPL FDL)
+depends=(docbook-xsl docbook-xml glib2-docs python-lxml python-pygments
+         python-anytree)
+makedepends=(dblatex git yelp-tools meson)
+checkdepends=(bc gtk3 python-six python-parameterized)
+optdepends=('dblatex: PDF support')
+_commit=14391142ee9d43da116f0f530746ae34cc46930a  # tags/1.33.2^0
+source=("git+https://gitlab.gnome.org/GNOME/gtk-doc.git#commit=$_commit"
+        fix.diff)
+sha256sums=('SKIP'
+            '120d6d92fe2040b3500fee17a9c52e3f427cec70637d7aa71dbd561226103237')
+
+pkgver() {
+  cd $pkgname
+  git describe --tags | sed 's/GTK_DOC_//;s/_/\./g;s/-/+/g'
+}
+
+prepare() {
+  cd $pkgname
+  patch -Np1 -i ../fix.diff
+}
+
+build() {
+  arch-meson $pkgname build
+  meson compile -C build
+}
+
+check() {
+  meson test -C build --print-errorlogs
+}
+
+package() {
+  DESTDIR="$pkgdir" meson install -C build
+  python -m compileall -d /usr/lib "$pkgdir/usr/lib"
+  python -O -m compileall -d /usr/lib "$pkgdir/usr/lib"
+}
