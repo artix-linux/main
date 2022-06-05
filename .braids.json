@@ -4291,6 +4291,11 @@
       "branch": "master",
       "revision": "fa98576f8c9f25444b163db9164db24343da00b4"
     },
+    "libssh2": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libssh2.git",
+      "branch": "master",
+      "revision": "fcff4786296d9fb970f77e9a9d8102bcb661939f"
+    },
     "libstaroffice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libstaroffice.git",
       "branch": "master",
