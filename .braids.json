@@ -2586,6 +2586,11 @@
       "branch": "master",
       "revision": "6b71c2db210aa5b03f99cf589343b507c889f3cd"
     },
+    "stunnel": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stunnel.git",
+      "branch": "master",
+      "revision": "c49ea6849818fda7a9bf389c3b42f678acf382ef"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
