@@ -6366,6 +6366,11 @@
       "branch": "master",
       "revision": "eba5db56b4f61a103ae936e60a9581f9fea605ac"
     },
+    "tclap": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tclap.git",
+      "branch": "master",
+      "revision": "a6c60d6fc993cf6b77409303ae9d6ff76bacb262"
+    },
     "tdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tdb.git",
       "branch": "master",
