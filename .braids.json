@@ -7811,6 +7811,11 @@
       "branch": "master",
       "revision": "6faed6174ebd8989e86a5c77fc1227d3bb112273"
     },
+    "tar": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tar.git",
+      "branch": "master",
+      "revision": "1501170fd8d781705fbb6fce71c1e3f92a865d05"
+    },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
