@@ -3741,6 +3741,11 @@
       "branch": "master",
       "revision": "75ee8e9fc2e7d39c7a8b1c5cd81b7b1857849c82"
     },
+    "svt-hevc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/svt-hevc.git",
+      "branch": "master",
+      "revision": "3dd1d89f10e9c762e5f8b16ab50c532192681378"
+    },
     "syncthing": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing.git",
       "branch": "master",
