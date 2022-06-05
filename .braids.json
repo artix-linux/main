@@ -481,6 +481,11 @@
       "branch": "master",
       "revision": "f45e824c253950ebcc5579e0f27b4dab17b5879d"
     },
+    "gts": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gts.git",
+      "branch": "master",
+      "revision": "0bec7d008f6fecf89ab0bd1e57cd7399d8d24a6b"
+    },
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
