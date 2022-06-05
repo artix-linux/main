@@ -831,6 +831,11 @@
       "branch": "master",
       "revision": "8aff4435ad2adf85fdf3eb4fcc7776603d31281d"
     },
+    "fcitx-configtool": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-configtool.git",
+      "branch": "master",
+      "revision": "78056947cd847a7dffcb58a6966524d0229a7bac"
+    },
     "fcitx-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-mozc.git",
       "branch": "master",
