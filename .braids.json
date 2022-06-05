@@ -5241,6 +5241,11 @@
       "branch": "master",
       "revision": "abc5e279fc255848e1cf0bec34d019058603a23b"
     },
+    "meson": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/meson.git",
+      "branch": "master",
+      "revision": "0d7b6cf61a52fea9476a0ae5cb610907474ad730"
+    },
     "metis": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metis.git",
       "branch": "master",

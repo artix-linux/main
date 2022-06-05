@@ -1,0 +1,60 @@
+# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Anatol Pomozov <anatol dot pomozov at gmail>
+
+pkgname=meson
+pkgver=0.62.2
+pkgrel=1
+pkgdesc='High productivity build system'
+url='https://mesonbuild.com/'
+arch=('any')
+license=('Apache')
+depends=('python-setuptools' 'ninja')
+checkdepends=('gcc-objc' 'vala' 'rust' 'gcc-fortran' 'mono' 'boost' 'qt5-base' 'git' 'cython'
+              'gtkmm3' 'gtest' 'gmock' 'protobuf' 'wxgtk3' 'python-gobject' 'gobject-introspection'
+              'itstool' 'gtk3' 'java-environment=8' 'gtk-doc' 'llvm' 'clang' 'sdl2' 'graphviz'
+              'doxygen' 'vulkan-validation-layers' 'openssh' 'mercurial' 'gtk-sharp-2' 'qt5-tools'
+              'libwmf' 'valgrind' 'cmake' 'netcdf-fortran' 'openmpi' 'nasm' 'gnustep-base' 'libelf'
+              'python-pytest-xdist' 'python2-setuptools' 'ldc' 'rust-bindgen' 'cuda' 'hotdoc')
+source=(https://github.com/mesonbuild/meson/releases/download/${pkgver}/meson-${pkgver}.tar.gz{,.asc}
+        0001-Skip-broken-tests.patch
+        artix-meson)
+sha512sums=('4089588701f0f702eb3b794e0ede78b99f13ec7545d1a7470c7bfd6a857de59673684a543928dd578402578c53f38365a3a59e3e29022fd30a525353818a4195'
+            'SKIP'
+            'd94c5b102835704e38ae778f0d420b30b4acf64f4321304ad63472a3fb044fcdc2fcb18edf47e239678534e107b6b892ee5328f0840d6649e10201bcf072e8f8'
+            'f451f8a7ef9cf1dd724c2ce20bb85a3f1611b87b2e7a17ef0fdbe8ab82a67389f818ea30a5adfe8413143e4eac77ea2e0b8234b5b2466b41a892e2bd0435376c')
+validpgpkeys=('19E2D6D9B46D8DAA6288F877C24E631BABB1FE70') # Jussi Pakkanen <jpakkane@gmail.com>
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  patch -Np1 -i ../0001-Skip-broken-tests.patch
+}
+
+build() {
+  cd ${pkgname}-${pkgver}
+  python setup.py build
+}
+
+check() (
+  cd ${pkgname}-${pkgver}
+  export LC_CTYPE=en_US.UTF-8 CPPFLAGS= CFLAGS= CXXFLAGS= LDFLAGS=
+  ./run_tests.py || :
+)
+
+package() {
+  cd ${pkgname}-${pkgver}
+  python setup.py install --root="${pkgdir}" --optimize=1 --skip-build
+
+  install -d "${pkgdir}/usr/share/vim/vimfiles"
+  cp -rt "${pkgdir}/usr/share/vim/vimfiles" data/syntax-highlighting/vim/*/
+
+  install -Dt "${pkgdir}/usr/share/bash-completion/completions" -m644 data/shell-completions/bash/*
+  install -Dt "${pkgdir}/usr/share/zsh/site-functions" -m644 data/shell-completions/zsh/*
+
+  # Artix packaging helper
+  install -D ../artix-meson -t "${pkgdir}/usr/bin"
+  # compat symlink Arch packaging helper
+  ln -sfv artix-meson "${pkgdir}"/usr/bin/arch-meson
+}
+
+# vim:set sw=2 et:
