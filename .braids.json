@@ -4016,6 +4016,11 @@
       "branch": "master",
       "revision": "ebec3dedbcbe1ff616dad86b18ea6ed28b99cab3"
     },
+    "lrzip": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lrzip.git",
+      "branch": "master",
+      "revision": "410301fd220b1b48345c5b3c677bb62a660c009e"
+    },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
