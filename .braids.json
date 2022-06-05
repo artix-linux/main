@@ -371,6 +371,11 @@
       "branch": "master",
       "revision": "029285b5e6f49857cc730944301d08523c5c8453"
     },
+    "freetype2": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freetype2.git",
+      "branch": "master",
+      "revision": "30d20825eb52daea7c1bd4a16973c9b8c4564ebc"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
