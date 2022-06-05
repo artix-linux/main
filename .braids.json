@@ -20,6 +20,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
       "branch": "master",
       "revision": "22afdabff9a16a147848cd8eadee86cadc7f4cd5"
+    },
+    "awesome-terminal-fonts": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/awesome-terminal-fonts.git",
+      "branch": "master",
+      "revision": "6fad0cf19d6a5333189f4693d0d1a7d94a7c3766"
     }
   }
 }
