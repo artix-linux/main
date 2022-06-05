@@ -230,6 +230,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
       "branch": "master",
       "revision": "771d15a9d53257144be908fb19c03d4591c95ae2"
+    },
+    "libharu": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libharu.git",
+      "branch": "master",
+      "revision": "5c88afa670b90fcd97e079935907a6e30f0680c2"
     }
   }
 }
