@@ -1011,6 +1011,11 @@
       "branch": "master",
       "revision": "9ccfad82d04f1658f721267d64e18acb031da92d"
     },
+    "libspectre": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libspectre.git",
+      "branch": "master",
+      "revision": "1ec84dbd21d2e79fdc10d476f951a486380af044"
+    },
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
