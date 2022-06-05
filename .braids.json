@@ -6011,6 +6011,11 @@
       "branch": "master",
       "revision": "6c79efaacd56821a302343eff302c7f6f89a2bd5"
     },
+    "serd": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/serd.git",
+      "branch": "master",
+      "revision": "9facffee136bedd97fdc7e1588b5f8137e283d91"
+    },
     "sg3_utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sg3_utils.git",
       "branch": "master",
