@@ -581,6 +581,11 @@
       "branch": "master",
       "revision": "b68cbd58338c955fc2f18d56a53442df0e8590d5"
     },
+    "cjson": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cjson.git",
+      "branch": "master",
+      "revision": "5eff3276687835941afe55aabb6b1ebf004c13a0"
+    },
     "clamav": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav.git",
       "branch": "master",
