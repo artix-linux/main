@@ -1721,6 +1721,11 @@
       "branch": "master",
       "revision": "5c6d4801f842a85603511c5e92afae9df71d3d06"
     },
+    "libical": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libical.git",
+      "branch": "master",
+      "revision": "31726bf24f232828df56354a2d38dd4fa9b57eb7"
+    },
     "libice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libice.git",
       "branch": "master",
