@@ -256,6 +256,11 @@
       "branch": "master",
       "revision": "55da2c383fb1b73d6c8ba2c2ff2d37cbb5a16d80"
     },
+    "b43-fwcutter": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/b43-fwcutter.git",
+      "branch": "master",
+      "revision": "5eb0314aff04ab898f5e78d7450f2debb65252e5"
+    },
     "banner": {
       "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
       "branch": "master",
