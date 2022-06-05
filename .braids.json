@@ -4066,6 +4066,11 @@
       "branch": "master",
       "revision": "2b42eaf92a30c67f9dd87f7daa1fd0b745cffb3a"
     },
+    "libpipeline": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpipeline.git",
+      "branch": "master",
+      "revision": "6bb503c0b7d5ce6ffebf4e970f44bb890813017c"
+    },
     "libpipewire02": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpipewire02.git",
       "branch": "master",
