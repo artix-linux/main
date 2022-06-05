@@ -611,6 +611,11 @@
       "branch": "master",
       "revision": "3eefc9abfa1364274b0076321a3153b1484bd946"
     },
+    "libplist": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libplist.git",
+      "branch": "master",
+      "revision": "15374fa61bf27b7964e90fdeec6103de835a8e5c"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
