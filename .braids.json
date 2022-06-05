@@ -1351,6 +1351,11 @@
       "branch": "master",
       "revision": "dedc5f88f21fa27cb3ff5224c4f90e3ce9d9bc53"
     },
+    "l-smash": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/l-smash.git",
+      "branch": "master",
+      "revision": "3a61a3e43c091969ecf36a2365e06d37b3f6223c"
+    },
     "ladspa": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ladspa.git",
       "branch": "master",
