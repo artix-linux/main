@@ -155,6 +155,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/glfw.git",
       "branch": "master",
       "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
+    },
+    "gn": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gn.git",
+      "branch": "master",
+      "revision": "261e3415d8528b48b735db36e0a2c433114964cb"
     }
   }
 }
