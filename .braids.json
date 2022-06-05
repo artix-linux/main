@@ -6641,6 +6641,11 @@
       "branch": "master",
       "revision": "830c36c076756e62e51a1896e7cd6d863f0e9e60"
     },
+    "pyqt6-3d": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-3d.git",
+      "branch": "master",
+      "revision": "ae75d9bc41fed3b1690048fbfb9d6d4dfa42c520"
+    },
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",
