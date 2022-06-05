@@ -1916,6 +1916,11 @@
       "branch": "master",
       "revision": "21012087f9a00683bf6b448513d6ce1247c69b81"
     },
+    "gulp": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gulp.git",
+      "branch": "master",
+      "revision": "ef2cbd0ec86fe25d4fb8bee2dbcf2440108d9621"
+    },
     "gumbo-parser": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gumbo-parser.git",
       "branch": "master",
