@@ -3876,6 +3876,11 @@
       "branch": "master",
       "revision": "2535311180d1cc1b1d784b19a636ee72a00a0277"
     },
+    "qt5-graphicaleffects": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-graphicaleffects.git",
+      "branch": "master",
+      "revision": "8d503dff9c24df2cf920933ffb0cc97a4b1d7142"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
