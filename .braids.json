@@ -2866,6 +2866,11 @@
       "branch": "master",
       "revision": "e915c529240e8af6f4d2b86bc157df718428d7c4"
     },
+    "jsoncpp": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jsoncpp.git",
+      "branch": "master",
+      "revision": "98392fc54f768528651e203930795705bdfa9d29"
+    },
     "judy": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/judy.git",
       "branch": "master",
