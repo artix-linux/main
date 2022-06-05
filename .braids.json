@@ -856,6 +856,11 @@
       "branch": "master",
       "revision": "3b8a9f3498756f7c88f039697b7fdaa2a2a430ad"
     },
+    "liblqr": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/liblqr.git",
+      "branch": "master",
+      "revision": "33ea21ab8e0991f94565a050af6e386eafece856"
+    },
     "liblzf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblzf.git",
       "branch": "master",
