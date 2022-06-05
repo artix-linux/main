@@ -400,6 +400,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
       "branch": "master",
       "revision": "6c79efaacd56821a302343eff302c7f6f89a2bd5"
+    },
+    "shhmsg": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shhmsg.git",
+      "branch": "master",
+      "revision": "992c42a5b043069ab280489b0be0d4b77721a4e9"
     }
   }
 }
