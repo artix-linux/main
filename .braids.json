@@ -465,6 +465,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-opensans.git",
       "branch": "master",
       "revision": "273a7ba793c22d84609a3d923cc6f848bb443345"
+    },
+    "typescript": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
+      "branch": "master",
+      "revision": "56308f509d65053a7738e5c0ba63e7a3db6d8773"
     }
   }
 }
