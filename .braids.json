@@ -926,6 +926,11 @@
       "branch": "master",
       "revision": "c52746dd66b32ad2a3e48a7020de420cc08b8de3"
     },
+    "jenkins": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins.git",
+      "branch": "master",
+      "revision": "3fc2c088ab2875a16f0cb30f58e9baf8ff1c6e41"
+    },
     "jrnl": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jrnl.git",
       "branch": "master",

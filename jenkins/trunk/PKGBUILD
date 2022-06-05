@@ -1,0 +1,36 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Alexander Rødseth <rodseth@gmail.com>
+# Contributor: Marcel Huber <marcelhuberfoo at gmail dott com>
+# Contributor: Illarion Kovalchuk <illarion.kovalchuk at gmail dot com>
+
+pkgname=jenkins
+pkgver=2.350
+pkgrel=1
+pkgdesc='Extendable continuous integration server (latest)'
+arch=('any')
+url='https://jenkins.io'
+license=('MIT')
+depends=('java-runtime=11' 'ttf-dejavu')
+provides=('jenkins-ci')
+conflicts=('jenkins-ci')
+replaces=('jenkins-ci')
+install='jenkins.install'
+noextract=("jenkins-${pkgver}.war")
+source=("jenkins-${pkgver}.war::http://mirrors.jenkins-ci.org/war/${pkgver}/jenkins.war"
+        # Rename to force re-download on new version
+        'jenkins.tmpfiles'
+        'jenkins.sysusers'
+        'LICENSE')
+sha512sums=('e822b1d226387e2ed419b2ab5acfc37a7eb94a11e8ed413d093e4e03084e19117b10800d5741a0b6228c8f147d7379f70aa978c7b80ff3aa62bbdfb5e93e1ac5'
+            'a845a7147be54affc586dfce9a188ec24c92e673e88dec0b62da386d2e597de6ecda103429008562abd897f179a52c37cf2188ebc65b8c636efd07d707e18f90'
+            '896cbc64eadb2f3bb9fa7fc26dbfc527b1823d8bff3158be7f1936cc250f55eeafe89079e1ceb8f3d269041662573ccbbb36248140b4ba24144a564366f8847a'
+            '0df6479a600db395c12ad29ebda3120d00460338b9a6b15913e2245aa29212a3798c32e664ca70c8034146e2e0b573066deec9e3210198202f753994e1b83efa')
+
+package() {
+  install -Dm444 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm444 "jenkins-${pkgver}.war" "$pkgdir/usr/share/java/jenkins/jenkins.war"
+  install -Dm644 jenkins.tmpfiles "$pkgdir/usr/lib/tmpfiles.d/jenkins.conf"
+  install -Dm644 jenkins.sysusers "$pkgdir/usr/lib/sysusers.d/jenkins.conf"
+}
+
+# vim:set ts=2 sw=2 et:
