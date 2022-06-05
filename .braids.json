@@ -4556,6 +4556,11 @@
       "branch": "master",
       "revision": "570d436eeb41724de45bc2e06621bf3340624161"
     },
+    "ninja": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ninja.git",
+      "branch": "master",
+      "revision": "1251f63ee5eef1214d1be2572b064d871d668333"
+    },
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
