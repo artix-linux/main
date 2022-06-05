@@ -5886,6 +5886,11 @@
       "branch": "master",
       "revision": "a1afc6911d32c5a9a0b6ba713b2f7cdcc9662ba8"
     },
+    "salt": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/salt.git",
+      "branch": "master",
+      "revision": "787f5143463c417df3ab9d36d73f921b510ac5e0"
+    },
     "samba": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba.git",
       "branch": "master",
