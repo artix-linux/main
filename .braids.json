@@ -7161,6 +7161,11 @@
       "branch": "master",
       "revision": "a1e5f7d7d2443e9261580ecf4fd44af1bb220e79"
     },
+    "rrdtool": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rrdtool.git",
+      "branch": "master",
+      "revision": "85a368235e52df1cb53c633b3601bbdd9d160e94"
+    },
     "rsm": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsm.git",
       "branch": "master",
