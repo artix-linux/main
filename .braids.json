@@ -1486,6 +1486,11 @@
       "branch": "master",
       "revision": "63bfc450a7dd3bc367c68e4d97fe4cb0142b852a"
     },
+    "fwknop": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwknop.git",
+      "branch": "master",
+      "revision": "2fe215b3119d399bfadebd85a1ca191c31324c72"
+    },
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
