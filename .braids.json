@@ -3866,6 +3866,11 @@
       "branch": "master",
       "revision": "327b2ae2bd9deb90d8a91594725c261d271ecccb"
     },
+    "qt5-feedback": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-feedback.git",
+      "branch": "master",
+      "revision": "b0e9a1227d062fa5ea3361fe9ddf5aff037f1359"
+    },
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
