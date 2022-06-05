@@ -446,6 +446,11 @@
       "branch": "master",
       "revision": "561ee93bad3ec14dcd39eb877a7b4c96f51561b8"
     },
+    "elinks": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/elinks.git",
+      "branch": "master",
+      "revision": "6e60a329072cc4ac5e8f59a477f7ae30e20490be"
+    },
     "enblend-enfuse": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enblend-enfuse.git",
       "branch": "master",
