@@ -7536,6 +7536,11 @@
       "branch": "master",
       "revision": "e00d2697528935a05f0be8a1db5cd35114e117b5"
     },
+    "xxhash": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xxhash.git",
+      "branch": "master",
+      "revision": "2e0a40ae77acf42ec78eeb5cfcef2ee36eccfc12"
+    },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
       "branch": "master",
