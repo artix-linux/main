@@ -101,6 +101,11 @@
       "branch": "master",
       "revision": "da4eaa4d4e3a9f00f19a710fad66859f42c7ab84"
     },
+    "atftp": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atftp.git",
+      "branch": "master",
+      "revision": "a92e344f1ece8cb2553e1b488dc3883053e3aa8b"
+    },
     "auth-tarball-from-git": {
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
       "branch": "master",
