@@ -326,6 +326,11 @@
       "branch": "master",
       "revision": "c562f8925a2cef6d18441b6db16d7b7c6fc7a2fa"
     },
+    "jupyterlab_pygments": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab_pygments.git",
+      "branch": "master",
+      "revision": "2ee0be190510caa4b42e842737b2956acb350353"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
