@@ -326,6 +326,11 @@
       "branch": "master",
       "revision": "495473f4f84b25695ec6b2ade1eba14d5b1f9e03"
     },
+    "jupyter-nbconvert": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbconvert.git",
+      "branch": "master",
+      "revision": "128b3ba2b0a1ee85aacfedd6e28aefbffce87ed6"
+    },
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
       "branch": "master",

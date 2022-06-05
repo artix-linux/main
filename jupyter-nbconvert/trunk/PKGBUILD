@@ -1,0 +1,58 @@
+# Maintainer: Kyle Keen <keenerd@gmail.com>
+
+pkgname=jupyter-nbconvert
+_name=nbconvert
+pkgver=6.5.0
+pkgrel=3
+pkgdesc="Jupyter Notebook Conversion"
+arch=('any')
+url="https://pypi.python.org/pypi/nbconvert"
+license=('BSD')
+depends=(
+  'jupyter-nbformat'
+  'jupyter-nbclient'
+  'jupyterlab_pygments'
+  'python-beautifulsoup4'
+  'python-bleach'
+  'python-defusedxml'
+  'python-entrypoints'
+  'python-jinja'
+  'python-pandocfilters'
+  'python-mistune1'
+  'python-pygments'
+  'python-traitlets'
+  'python-tinycss2'
+)
+makedepends=('python-pyppeteer')
+checkdepends=('python-pytest' 'python-ipywidgets')
+optdepends=('pandoc: non-html conversion output'
+            'python-pyppeteer: for webPDF conversion support')
+source=("https://github.com/jupyter/nbconvert/archive/$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('548bfb47a15ab12b7c68e6be7c702db791effa8d524707152249a562a019b8f5')
+
+prepare() {
+  cd nbconvert-$pkgver
+  sed -e 's|setuptools>=60.0|setuptools|' -i pyproject.toml
+}
+
+build() {
+  cd nbconvert-$pkgver
+  python setup.py build
+}
+
+check() {
+  cd nbconvert-$pkgver
+  export PYTHONPATH="$PWD" # Make sure system nbconvert is not used
+  # disable tests that download chromium and (probably) require a graphical session
+  pytest -v -k 'TestWebPDFExporter and not (test_export or test_webpdf_without_pyppeteer)' -W ignore::DeprecationWarning
+  pytest -v -k 'TestNbConvertApp and not test_webpdf_with_chromium' -W ignore::DeprecationWarning
+  # run all remaining tests
+  pytest -v -k 'not TestWebPDFExporter and not TestNbConvertApp' -W ignore::DeprecationWarning
+}
+
+package() {
+  cd nbconvert-$pkgver
+  python setup.py install --skip-build --optimize=1 --root="$pkgdir"
+
+  install -Dm644 LICENSE -t "$pkgdir"/usr/share/licenses/$pkgname
+}
