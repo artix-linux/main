@@ -350,6 +350,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",
       "revision": "a6754dbb3dad9eccd6b58d49e0f0cf9ab6c31569"
+    },
+    "pam_rundir": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pam_rundir.git",
+      "branch": "master",
+      "revision": "91d1f45fe51a53dd441bda57cafc308cb9a56c66"
     }
   }
 }
