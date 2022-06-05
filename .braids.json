@@ -1511,6 +1511,11 @@
       "branch": "master",
       "revision": "6f1f64af200f647374a7c40501705b9c70334dbd"
     },
+    "intel-graphics-compiler": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-graphics-compiler.git",
+      "branch": "master",
+      "revision": "8849a51ae5be9284f66461d0a732cf95f1ef696a"
+    },
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
