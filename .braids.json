@@ -1291,6 +1291,11 @@
       "branch": "master",
       "revision": "260a1c764354787fda7408284b76bda7142a8701"
     },
+    "ttf-hack": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/ttf-hack.git",
+      "branch": "master",
+      "revision": "99ec5e035dcdc2b2fb44bc9193888f30dc10100f"
+    },
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
