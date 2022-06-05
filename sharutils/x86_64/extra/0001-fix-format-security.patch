@@ -1,0 +1,43 @@
+From 16c17f3271fc46d90e038358599b1bd0ad972972 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Wed, 25 Aug 2021 18:37:23 -0500
+Subject: [PATCH] fix format security
+
+---
+ src/shar.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/shar.c b/src/shar.c
+index 11cbada..f301223 100644
+--- a/src/shar.c
++++ b/src/shar.c
+@@ -931,7 +931,7 @@ print_header_stamp (FILE * fp)
+         free (c_dir);
+       }
+     else
+-      error (0, errno, _("Cannot get current directory name"));
++      error (0, errno, "%s", _("Cannot get current directory name"));
+   }
+ }
+ 
+@@ -2155,7 +2155,7 @@ configure_shar (int * argc_p, char *** argv_p)
+       FILE * fp = freopen ("/dev/null", "w" FOPEN_BINARY, stderr);
+       if (fp != stderr)
+         error (SHAR_EXIT_FAILED, errno,
+-               _("reopening stderr to /dev/null"));
++              "%s",  _("reopening stderr to /dev/null"));
+     }
+ 
+   memset ((char *) byte_is_binary, 1, sizeof (byte_is_binary));
+@@ -2225,7 +2225,7 @@ configure_shar (int * argc_p, char *** argv_p)
+   if (HAVE_OPT(QUERY_USER))
+     {
+       if (HAVE_OPT(NET_HEADERS))
+-	error (0, 0, _("PLEASE avoid -X shars on Usenet or public networks"));
++	error (0, 0, "%s",  _("PLEASE avoid -X shars on Usenet or public networks"));
+ 
+       fputs ("shar_wish=\n", output);
+     }
+-- 
+2.33.0
+

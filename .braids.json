@@ -7436,6 +7436,11 @@
       "branch": "master",
       "revision": "03341a7f7eb86b7fba15a0439e0bb18e68ae026d"
     },
+    "sharutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sharutils.git",
+      "branch": "master",
+      "revision": "8277a664f6bfc48952fbc327de3b62bfe849785e"
+    },
     "shellcheck-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shellcheck-bin.git",
       "branch": "master",
