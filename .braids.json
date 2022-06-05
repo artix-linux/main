@@ -1016,6 +1016,11 @@
       "branch": "master",
       "revision": "6168fc84cce119e0892705332b2fdf3da1ea1261"
     },
+    "knot": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
+      "branch": "master",
+      "revision": "dedc5f88f21fa27cb3ff5224c4f90e3ce9d9bc53"
+    },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
       "branch": "master",
