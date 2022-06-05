@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "6d81c2e52cc6a8810bd9434437c9d383eb584f1f"
     },
+    "libabw": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libabw.git",
+      "branch": "master",
+      "revision": "d876770a846cb666ebd95627f7c0d64a0f32e891"
+    },
     "libatasmart": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatasmart.git",
       "branch": "master",
