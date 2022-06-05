@@ -2306,6 +2306,11 @@
       "branch": "master",
       "revision": "c4b553c0389e9221b7a10ed41e1e52b02b60d393"
     },
+    "privoxy": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/privoxy.git",
+      "branch": "master",
+      "revision": "f751704564e86fdf8eb156a30b63811f3cb1b02c"
+    },
     "proj": {
       "url": "gitea@gitea.artixlinux.org:packagesP/proj.git",
       "branch": "master",
