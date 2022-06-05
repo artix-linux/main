@@ -8336,6 +8336,11 @@
       "branch": "master",
       "revision": "90ca7d6c732908ab5ec1f21cb301cf5ffafa05a6"
     },
+    "util-linux": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/util-linux.git",
+      "branch": "master",
+      "revision": "bc70964c111b428ebc3872bfe4a9b1f4cfced2ea"
+    },
     "uvicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uvicorn.git",
       "branch": "master",
