@@ -861,6 +861,11 @@
       "branch": "master",
       "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
     },
+    "luit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
+      "branch": "master",
+      "revision": "ffe302d13a8437386f1226d162d0507408c39cdb"
+    },
     "magic-wormhole": {
       "url": "gitea@gitea.artixlinux.org:packagesM/magic-wormhole.git",
       "branch": "master",
