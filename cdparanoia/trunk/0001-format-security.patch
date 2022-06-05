@@ -1,0 +1,29 @@
+From a9b6c28e799c190501bb86e31bb6dd62b9281ce9 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Sat, 28 Aug 2021 19:10:02 -0500
+Subject: [PATCH] format security
+
+---
+ main.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/main.c b/main.c
+index 664acac..4b32be9 100644
+--- a/main.c
++++ b/main.c
+@@ -588,10 +588,10 @@ static void callback(long inpos, int function){
+ 	    buffer[aheadposition+19]='>';
+ 	}
+    
+-	fprintf(stderr,buffer);
++	fprintf(stderr, "%s",buffer);
+        
+ 	if (logfile != NULL && function==-1) {
+-	  fprintf(logfile,buffer+1);
++	  fprintf(logfile, "%s",  buffer+1);
+ 	  fprintf(logfile,"\n\n");
+ 	  fflush(logfile);
+ 	}
+-- 
+2.33.0
+

@@ -1,0 +1,36 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Eric Bélanger <eric@archlinux.org>
+
+pkgname=cdparanoia
+pkgver=10.2
+pkgrel=8.2
+pkgdesc="Compact Disc Digital Audio extraction tool"
+arch=('x86_64')
+url="https://www.xiph.org/paranoia/"
+license=('GPL')
+depends=('glibc')
+options=('!makeflags' '!staticlibs')
+source=("https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-$pkgver.src.tgz"
+        gcc.patch
+        0001-format-security.patch)
+sha512sums=('4ab0a0f5ef44d56c1af72d1fc1035566a1a89c4eeddb9e8baea675fe51c06138d913342afc8bed167d9fa55672fa25a2763ce21f7e24c1232e4739aff20733a7'
+            '4d86fccc0967dd8d568b97a5b5b92dbe830a7227bee3167371ffc8e7d7f0b99aa0ad4116539c3414f2cc4a600c9bc3fcf06b5d8e4d2fe531dd9d6781736bd1a8'
+            '475ff65ad1cb8873e275c2c07a076e15d839a8679b1053e8fdd324c01bd364911a3063ad1a5cedca78ef7bf3cd052e78773e852658d0e5ff526b4b2e214bf81c')
+
+prepare() {
+  cd cdparanoia-III-$pkgver
+  patch -p0 -i "$srcdir"/gcc.patch
+  patch -Np1 -i ../0001-format-security.patch
+}
+
+build() {
+#  export CFLAGS="$CFLAGS -Wno-format -Wno-format-security"
+  cd cdparanoia-III-$pkgver
+  ./configure --prefix=/usr --mandir=/usr/share/man
+  make
+}
+
+package() {
+  cd cdparanoia-III-$pkgver
+  make prefix="$pkgdir"/usr MANDIR="$pkgdir"/usr/share/man install
+}
