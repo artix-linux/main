@@ -4071,6 +4071,11 @@
       "branch": "master",
       "revision": "e3adf93058353f2d6b312ca8626bbf3a11561db1"
     },
+    "lxcfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxcfs.git",
+      "branch": "master",
+      "revision": "2687350c468ae4734096cdb8ba6341c4fcccb1bc"
+    },
     "m17n-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
       "branch": "master",
