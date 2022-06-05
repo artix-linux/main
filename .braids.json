@@ -1181,6 +1181,11 @@
       "branch": "master",
       "revision": "3d7de1bd8037938ee10254a9460fca16004340c8"
     },
+    "slop": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/slop.git",
+      "branch": "master",
+      "revision": "154e87801d42beeae030194c5827ccec21222f78"
+    },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
