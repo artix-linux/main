@@ -56,6 +56,11 @@
       "branch": "master",
       "revision": "81b8665779f2cd8c37e9a8dce54ecca043721b47"
     },
+    "apr": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apr.git",
+      "branch": "master",
+      "revision": "5c86ebd880aa3f1651b1c30d02c69fc3e837823b"
+    },
     "arandr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arandr.git",
       "branch": "master",
