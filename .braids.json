@@ -1736,6 +1736,11 @@
       "branch": "master",
       "revision": "13aa9c952108f5d59b39d8dec944e91d449d1ca3"
     },
+    "t1lib": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/t1lib.git",
+      "branch": "master",
+      "revision": "73f3631ce53fcaede2c034d6ebac32636e7173d2"
+    },
     "t1utils": {
       "url": "gitea@gitea.artixlinux.org:packagesT/t1utils.git",
       "branch": "master",
