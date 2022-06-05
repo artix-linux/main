@@ -491,6 +491,11 @@
       "branch": "master",
       "revision": "271ce488a45ca779bd708bc08d495318e8018dc1"
     },
+    "fail2ban": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban.git",
+      "branch": "master",
+      "revision": "a21d7f1df211b48a6aa03fd06eb47e9b7a2933a5"
+    },
     "fcitx-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx-mozc.git",
       "branch": "master",
