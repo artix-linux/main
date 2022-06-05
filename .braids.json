@@ -2931,6 +2931,11 @@
       "branch": "master",
       "revision": "0c1e039eefd5d96203c0e67f85f3b8099a1b4680"
     },
+    "libindicator": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libindicator.git",
+      "branch": "master",
+      "revision": "d92f18110b591c5bba8c4121a77e68f83c2b6183"
+    },
     "libinput": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinput.git",
       "branch": "master",
