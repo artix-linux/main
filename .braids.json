@@ -4591,6 +4591,11 @@
       "branch": "master",
       "revision": "ee5befccf67fd9bcd9c1ba94cf5906428e6abc58"
     },
+    "nodejs-lts-gallium": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-lts-gallium.git",
+      "branch": "master",
+      "revision": "f50b8e82c4e7a99d83cc127e6bafbdc308eb94e8"
+    },
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
       "branch": "master",
