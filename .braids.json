@@ -2931,6 +2931,11 @@
       "branch": "master",
       "revision": "8a3b21145458f00e28b34b628d4573c3bc9e4520"
     },
+    "java-xmlgraphics-commons": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/java-xmlgraphics-commons.git",
+      "branch": "master",
+      "revision": "c648750f60176ffc14540dc6ed32868cd66574a7"
+    },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
