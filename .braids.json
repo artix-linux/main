@@ -2626,6 +2626,11 @@
       "branch": "master",
       "revision": "f991b96fac7e5b71eebbc3b957b1e4f490644e42"
     },
+    "libdbi": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libdbi.git",
+      "branch": "master",
+      "revision": "9e57ff9fff66ca4d067cad4ca2c869cf9033f222"
+    },
     "libdc1394": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdc1394.git",
       "branch": "master",
