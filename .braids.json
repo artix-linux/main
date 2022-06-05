@@ -6131,6 +6131,11 @@
       "branch": "master",
       "revision": "314168855d7fa04cc84b8da493b56934db7b8a81"
     },
+    "sord": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sord.git",
+      "branch": "master",
+      "revision": "0e0d960da3d318f6d2d35967feff7fb113284c79"
+    },
     "soundtouch": {
       "url": "gitea@gitea.artixlinux.org:packagesS/soundtouch.git",
       "branch": "master",
