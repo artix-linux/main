@@ -85,6 +85,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
       "revision": "cf20debeee110e79116607cfcc34b2c9a88d38fe"
+    },
+    "entr": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/entr.git",
+      "branch": "master",
+      "revision": "a3565e0a5a1fb05fe46807cc5276f4b0947db2f2"
     }
   }
 }
