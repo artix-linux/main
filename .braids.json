@@ -6696,6 +6696,11 @@
       "branch": "master",
       "revision": "3d13c4fd73b2b1824ee5e766cf9bb013874fe42c"
     },
+    "ucl": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ucl.git",
+      "branch": "master",
+      "revision": "ac3b2c8dc9de239b942d759a107d37354f1c61b3"
+    },
     "udisks2": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udisks2.git",
       "branch": "master",
