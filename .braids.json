@@ -1026,6 +1026,11 @@
       "branch": "master",
       "revision": "496cc913b6f563956e3cb5814b15ebca59bd3902"
     },
+    "libtiff": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtiff.git",
+      "branch": "master",
+      "revision": "a9d5ea604102061b337c7d350f679891baf79e72"
+    },
     "libunwind": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
       "branch": "master",
