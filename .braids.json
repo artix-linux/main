@@ -1741,6 +1741,11 @@
       "branch": "master",
       "revision": "f8221312c3ddd2a10ad451cb8e3d6b443dbcc1fb"
     },
+    "gox": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gox.git",
+      "branch": "master",
+      "revision": "0d8ed2a9c04b378783c9b1db656383fe11022c25"
+    },
     "grantlee": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grantlee.git",
       "branch": "master",
