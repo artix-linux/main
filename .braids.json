@@ -1866,6 +1866,11 @@
       "branch": "master",
       "revision": "b48afe30307a287e3a817ffe196ff6301cc4d1a8"
     },
+    "libmms": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmms.git",
+      "branch": "master",
+      "revision": "48adb72c5e4bd124b3ad5c43d7ce75cf81de87c6"
+    },
     "libmng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmng.git",
       "branch": "master",
