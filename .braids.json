@@ -3841,6 +3841,11 @@
       "branch": "master",
       "revision": "e1db8769cfea659998ef7f4fd225d76dd5819b2c"
     },
+    "libmpc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libmpc.git",
+      "branch": "master",
+      "revision": "af4c140505c854f1ab2ea76ca0649f178228a2de"
+    },
     "libmpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmpd.git",
       "branch": "master",
