@@ -5001,6 +5001,11 @@
       "branch": "master",
       "revision": "95e44af5fbe70ba1214a3c22685822887ca0fb03"
     },
+    "patchutils": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/patchutils.git",
+      "branch": "master",
+      "revision": "a937d2ab0eb766fefb20db7a43493f249f497e8e"
+    },
     "pcaudiolib": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcaudiolib.git",
       "branch": "master",
