@@ -4951,6 +4951,11 @@
       "branch": "master",
       "revision": "1e7e5eb276f22aee3c1f3a9fa4dd56150edb1d6d"
     },
+    "lolcat": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lolcat.git",
+      "branch": "master",
+      "revision": "5cb9e78bfe6c4d68bb96d024b936c6e931f9712c"
+    },
     "lowdown": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lowdown.git",
       "branch": "master",
