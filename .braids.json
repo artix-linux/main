@@ -3021,6 +3021,11 @@
       "branch": "master",
       "revision": "83d96c624e9a9ce3850167e46dc3af382e715916"
     },
+    "libltc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libltc.git",
+      "branch": "master",
+      "revision": "efe3a62c3e8eea273be99ecc6aa3edeedea95f93"
+    },
     "liblzf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblzf.git",
       "branch": "master",
