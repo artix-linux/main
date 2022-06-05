@@ -6656,6 +6656,11 @@
       "branch": "master",
       "revision": "f70a58ea8106a54e789f7a3f4c3a0492967c50d4"
     },
+    "pyqt6-networkauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-networkauth.git",
+      "branch": "master",
+      "revision": "21f04a10c1ce49296c8ccc989ba61894e85ce991"
+    },
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",

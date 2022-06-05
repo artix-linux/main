@@ -1,0 +1,31 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+#
+
+pkgbase=pyqt6-networkauth
+pkgname=(python-pyqt6-networkauth)
+pkgver=6.3.0
+pkgrel=1
+pkgdesc='Python bindings for QtNetworkAuth'
+arch=(x86_64)
+url='https://www.riverbankcomputing.com/software/pyqtnetworkauth/intro'
+license=(GPL3)
+groups=(pyqt6)
+depends=(qt6-networkauth python-pyqt6)
+makedepends=(sip pyqt-builder)
+source=(https://pypi.python.org/packages/source/P/PyQt6-NetworkAuth/PyQt6_NetworkAuth-$pkgver.tar.gz)
+sha256sums=('b1434b349e0820649341accf78689e9efd2c73543ed7d5474f660aaea2708454')
+options=(debug)
+
+build() {
+  cd PyQt6_NetworkAuth-$pkgver
+  sip-build \
+    --no-make \
+    --qmake=/usr/bin/qmake6
+  cd build
+  make
+}
+
+package_python-pyqt6-networkauth(){
+  cd PyQt6_NetworkAuth-$pkgver/build
+  make INSTALL_ROOT="$pkgdir" install
+}
