@@ -3396,6 +3396,11 @@
       "branch": "master",
       "revision": "a02e9d6d671d27239faf6bf9bccf69100b6d9fc8"
     },
+    "rav1e": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rav1e.git",
+      "branch": "master",
+      "revision": "4d82732ee52e69c71409bd2679684e33d0a45180"
+    },
     "rawtherapee": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rawtherapee.git",
       "branch": "master",
