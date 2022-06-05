@@ -5841,6 +5841,11 @@
       "branch": "master",
       "revision": "558899bd43e6e54c66136229c3fb17f5ab6f055c"
     },
+    "rtl-sdr": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rtl-sdr.git",
+      "branch": "master",
+      "revision": "0fd6d3c881d9b5ecdfbd6117a69a018001a86bfe"
+    },
     "rtmpdump": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtmpdump.git",
       "branch": "master",
