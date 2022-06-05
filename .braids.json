@@ -6016,6 +6016,11 @@
       "branch": "master",
       "revision": "9facffee136bedd97fdc7e1588b5f8137e283d91"
     },
+    "setconf": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/setconf.git",
+      "branch": "master",
+      "revision": "0cb341c025042e007171b8ef19b7be77c505972e"
+    },
     "sg3_utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sg3_utils.git",
       "branch": "master",
