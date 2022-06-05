@@ -1471,6 +1471,11 @@
       "branch": "master",
       "revision": "a9d5ea604102061b337c7d350f679891baf79e72"
     },
+    "libtomcrypt": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtomcrypt.git",
+      "branch": "master",
+      "revision": "1ef1261152475da365e21d79021d2382ca3353ab"
+    },
     "libunwind": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
       "branch": "master",
