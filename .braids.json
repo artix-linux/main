@@ -346,6 +346,11 @@
       "branch": "master",
       "revision": "fd8a231642ce2e2b744ab905e789be7ed939ac6f"
     },
+    "benchmark": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/benchmark.git",
+      "branch": "master",
+      "revision": "d4fa08b0ffffd049697d77f58adcc4dcc9b9094a"
+    },
     "bftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd.git",
       "branch": "master",
