@@ -1731,6 +1731,11 @@
       "branch": "master",
       "revision": "8393c8e7194249b92e3d98bd16bb5adb84f06ffc"
     },
+    "xorg-xauth": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xauth.git",
+      "branch": "master",
+      "revision": "5d05706af5f507737db315794d9dc47e5b5c80b1"
+    },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
