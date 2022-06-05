@@ -631,6 +631,11 @@
       "branch": "master",
       "revision": "c065474fe95c20980512c7576fa697682f4afac3"
     },
+    "pylama": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pylama.git",
+      "branch": "master",
+      "revision": "6760ff1617afc2b5497a457f9cd963e992c9a8f6"
+    },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
       "branch": "master",
