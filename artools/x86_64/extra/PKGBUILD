@@ -2,8 +2,8 @@
 
 pkgbase=artools
 pkgname=('artools-base' 'artools-pkg' 'artools-iso')
-pkgver=0.27.3
-pkgrel=2
+pkgver=0.28.1
+pkgrel=1
 arch=('any')
 pkgdesc='Development tools for Artix'
 license=('GPL')
@@ -14,7 +14,6 @@ source=("git+${url}.git#tag=${pkgver}")
 sha256sums=('SKIP')
 
 _patches=(
-    f7ebc6bd1118c089c54e65be865e984275ffad05
 )
 
 prepare() {
@@ -43,7 +42,7 @@ package_artools-base() {
 
 package_artools-pkg() {
     pkgdesc='Development tools for Artix (packaging tools)'
-    depends=('artools-base' 'namcap' 'git-subrepo' 'rsync')
+    depends=('artools-base' 'namcap' 'ruby-braid' 'rsync')
     optdepends=('pacman-contrib: mkdepgraph support'
                 'artix-rebuild-order: mkdepgraph support'
                 'graphviz: mkdepgraph support')
