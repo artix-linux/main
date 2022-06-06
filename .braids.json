@@ -2079,7 +2079,7 @@
     "glibc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibc.git",
       "branch": "master",
-      "revision": "ed4ff1631644d09d31b387faaf98a2800a29d485"
+      "revision": "95efe56c770584be3cb075cbbc88598283a0e265"
     },
     "glibmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
