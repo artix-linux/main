@@ -5,21 +5,25 @@
 
 pkgname=('libvirt-python')
 epoch=1
-pkgver=8.2.0
+pkgver=8.4.0
 pkgrel=1
 pkgdesc="libvirt python binding"
 arch=('x86_64')
 url="https://pypi.python.org/pypi/libvirt-python"
 license=('LGPL')
-makedepends=('python' 'libvirt')
+makedepends=('python' 'python-setuptools' 'libvirt')
 depends=('python' 'libvirt')
 options=('emptydirs')
 source=("https://libvirt.org/sources/python/libvirt-python-${pkgver}.tar.gz")
-sha512sums=('8d3eceb36651dbb903f51ec198dcf6bcd4dc3d3b31ce6a41df10928bbbf43b32a2f80c006c1fb9fc3e1cf2d7ffed95efc1209e0d20018135fb32c50876987d58')
+sha512sums=('6c831ae45549ab0c4d720826e2f5cb219eaab0943b8c71fe70c02fd49097fb5565ee6f651b19e34f72d6b0133bf3b4bb8bfe56b37723b24eaf336f65ab0a5865')
 validpgpkeys=('C74415BA7C9C7F78F02E1DC34606B8A5DE95BC1F')
+
+build() {
+  cd "${srcdir}/${pkgbase}-${pkgver}"
+  python setup.py build
+}
 
 package() {
   cd "${srcdir}/${pkgbase}-${pkgver}"
-  python setup.py clean
   python setup.py install --root="${pkgdir}" --optimize=1
 }
