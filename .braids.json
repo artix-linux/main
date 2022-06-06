@@ -2339,7 +2339,7 @@
     "gssproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gssproxy.git",
       "branch": "master",
-      "revision": "09f7764284b560e446fbda9733986fcb44136e70"
+      "revision": "794885dd3584c22304ec3898d1b9c2fdde33af96"
     },
     "gstreamer": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gstreamer.git",
