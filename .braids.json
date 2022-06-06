@@ -1289,7 +1289,7 @@
     "dos2unix": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dos2unix.git",
       "branch": "master",
-      "revision": "1a5515d5f0242c7506cc356c989a8681c4d736a7"
+      "revision": "25f4fa89f1f72c765fa6538ba72d739295463639"
     },
     "dosbox": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dosbox.git",
