@@ -4634,7 +4634,7 @@
     "libverto": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libverto.git",
       "branch": "master",
-      "revision": "4128c3e576e4c25f34d49acc500aec033c4592cf"
+      "revision": "690d6382d00a56bdc3aeab6f804a02ebb1317e29"
     },
     "libvirt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt.git",
