@@ -6514,7 +6514,7 @@
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
       "branch": "master",
-      "revision": "0ccc69951d77b38c3d3b0685cf1c0870a01cfd0b"
+      "revision": "851dc6c0cbe8b6e7a90262619e58d7dcb6395b60"
     },
     "po4a": {
       "url": "gitea@gitea.artixlinux.org:packagesP/po4a.git",
