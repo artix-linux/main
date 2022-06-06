@@ -1,19 +1,15 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: artoo <artoo@artixlinux.org>
 
 pkgname=krb5
 _pkgvermajor=1.19
 pkgver=1.19.3
-pkgrel=1.1
-# 1.1 mit intern virto / files removed
-# 1.2 external virto
+pkgrel=2
 pkgdesc='The Kerberos network authentication system'
 url='https://web.mit.edu/kerberos/'
 arch=('x86_64')
 license=('custom')
-#depends=('glibc' 'e2fsprogs' 'libldap' 'keyutils' 'libverto-module-base'
-#         libkeyutils.so libss.so libcom_err.so libverto.so)
-depends=('glibc' 'e2fsprogs' 'libldap' 'keyutils'
-         libkeyutils.so libss.so libcom_err.so)
+depends=('glibc' 'e2fsprogs' 'libldap' 'keyutils' # 'libverto-module-base'
+         libkeyutils.so libss.so libcom_err.so)  # libverto.so)
 makedepends=('perl')
 provides=(
   libgssapi_krb5.so
@@ -32,18 +28,20 @@ backup=(
   'var/lib/krb5kdc/kdc.conf'
 )
 options=('!emptydirs')
-source=(https://web.mit.edu/kerberos/dist/krb5/${_pkgvermajor}/${pkgname}-${pkgver}.tar.gz #{,.asc}
-        krb5-config_LDFLAGS.patch)
+source=(https://web.mit.edu/kerberos/dist/krb5/${_pkgvermajor}/${pkgname}-${pkgver}.tar.gz{,.asc}
+        0001-krb5-config_LDFLAGS.patch::https://github.com/krb5/krb5/commit/0bfd22feb6493f34fdc894daaf680c3a2f2e7784.patch)
 sha512sums=('18235440d6f7d8a72c5d7ca5cd8c6465e8adf091d85c483225c7b00d64b4688c1c7924cb800c2fc17e590b2709f1a9de48e6ec79f6debd11dcb7d6fa16c6f351'
-            '5a3782ff17b383f8cd0415fd13538ab56afd788130d6ad640e9f2682b7deaae7f25713ce358058ed771091040dccf62a3bc87e6fd473d505ec189a95debcc801')
-#validpgpkeys=('2C732B1C0DBEF678AB3AF606A32F17FD0055C305'  # Tom Yu <tlyu@mit.edu>
-#               'C4493CB739F4A89F9852CBC20CBA08575F8372DF') # Greg Hudson <ghudson@mit.edu>
+            'SKIP'
+            '5debf9dd2d0da84ff6a9e18887fc1bbd0530cc131ac2292ea725f89da8cc84c4b864ebbd1c92eff11d63b98643bff910da3dda40ddc9e1c43f4ce7bd2b6f54dd')
+validpgpkeys=('2C732B1C0DBEF678AB3AF606A32F17FD0055C305'  # Tom Yu <tlyu@mit.edu>
+              'C4493CB739F4A89F9852CBC20CBA08575F8372DF') # Greg Hudson <ghudson@mit.edu>
 
 prepare() {
   cd ${pkgname}-${pkgver}
 
-  # cf https://bugs.gentoo.org/show_bug.cgi?id=448778
-  patch -Np1 < "${srcdir}"/krb5-config_LDFLAGS.patch
+  # https://github.com/krb5/krb5/commit/0bfd22feb6493f34fdc894daaf680c3a2f2e7784
+  # https://krbdev.mit.edu/rt/Ticket/Display.html?id=9057
+  patch -Np1 < "${srcdir}"/0001-krb5-config_LDFLAGS.patch
 
   # FS#25384
   sed -i "/KRB5ROOT=/s/\/local//" src/util/ac_check_krb5.m4
@@ -84,10 +82,9 @@ package() {
    install -Dm 644 "${srcdir}"/${pkgname}-${pkgver}/NOTICE \
      "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
-rm ${pkgdir}/usr/include/verto-module.h
-rm ${pkgdir}/usr/include/verto.h
-rm ${pkgdir}/usr/lib/libverto.so*
-
+  rm ${pkgdir}/usr/include/verto-module.h
+  rm ${pkgdir}/usr/include/verto.h
+  rm ${pkgdir}/usr/lib/libverto.so*
 }
 
 # vim: ts=2 sw=2 et:
