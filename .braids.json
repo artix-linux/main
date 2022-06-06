@@ -3139,7 +3139,7 @@
     "krb5": {
       "url": "gitea@gitea.artixlinux.org:packagesK/krb5.git",
       "branch": "master",
-      "revision": "e899a4f19f8a40f2c0208b2b890fe0ee938cea5c"
+      "revision": "2200d305d93c252145a26bd386f81df164de34f0"
     },
     "l-smash": {
       "url": "gitea@gitea.artixlinux.org:packagesL/l-smash.git",
