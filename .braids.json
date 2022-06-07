@@ -5174,7 +5174,7 @@
     "lv2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lv2.git",
       "branch": "master",
-      "revision": "ae7cbe561d0e3bbf318c2b24bfe176c6b07ae31e"
+      "revision": "d5d352d28ab8896803676d093e1d37a83ffdc43c"
     },
     "lvm2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lvm2.git",
