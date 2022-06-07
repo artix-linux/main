@@ -4629,7 +4629,7 @@
     "libverto": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libverto.git",
       "branch": "master",
-      "revision": "690d6382d00a56bdc3aeab6f804a02ebb1317e29"
+      "revision": "33b6183ed78a8cfea1af39868a43b943323fdc73"
     },
     "libvirt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt.git",
