@@ -4094,7 +4094,7 @@
     "libnftnl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnftnl.git",
       "branch": "master",
-      "revision": "30659bf46c3cc1c3cfa5c5b16054b661b3b8b7ce"
+      "revision": "545e1c1f1eac5992576feba0dbce818ea74ae0ab"
     },
     "libnghttp2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnghttp2.git",
