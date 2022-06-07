@@ -6159,7 +6159,7 @@
     "openmpi": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openmpi.git",
       "branch": "master",
-      "revision": "e16d166a9b00c26148fff178d4a62fd9f58c58f2"
+      "revision": "8523101df6a00c5fa2b61863f4614a9ca03eaf55"
     },
     "openntpd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openntpd.git",
