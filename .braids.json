@@ -5629,7 +5629,7 @@
     "mtools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtools.git",
       "branch": "master",
-      "revision": "1a03205eab31db1d00d6ea3c30c7ad7f02aa3740"
+      "revision": "5f68faf60d3a58f38f0dcb438fcf2d6b8bfa89a3"
     },
     "mtr": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtr.git",
