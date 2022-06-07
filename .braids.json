@@ -5044,7 +5044,7 @@
     "live-services": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-services.git",
       "branch": "master",
-      "revision": "b1ca6db92d68aab6d463bdfc14511107f34e25de"
+      "revision": "276ce56f508f55ab6b4271f09764c05e66483d9b"
     },
     "lksctp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lksctp-tools.git",
