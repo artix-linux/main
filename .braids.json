@@ -6859,7 +6859,7 @@
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
       "branch": "master",
-      "revision": "686d6aaba0582bedc282daf21c77e512a2f11c27"
+      "revision": "cdb4f9e8fa0d0ca8bc57151fa6a5f439d3b1b9f2"
     },
     "qcoro": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qcoro.git",
