@@ -8039,7 +8039,7 @@
     "sudo": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sudo.git",
       "branch": "master",
-      "revision": "3dc4020f9717279b7ce75fa661e2817b43c624bc"
+      "revision": "70114afc7c62a8dc868f92f44ce3ab0dcc090481"
     },
     "suil": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suil.git",
