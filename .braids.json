@@ -1659,7 +1659,7 @@
     "fcitx5-qt": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-qt.git",
       "branch": "master",
-      "revision": "ba65027c7c6833001e66c38b8c8a0d63026c4a59"
+      "revision": "55f305e2c108f9773ebe7476b6a07f845d2ebb06"
     },
     "fcron": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcron.git",
