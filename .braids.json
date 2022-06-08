@@ -1649,7 +1649,7 @@
     "fcitx5-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-mozc.git",
       "branch": "master",
-      "revision": "c3ab736a87d80017eff905eef523c2bbdd9624f4"
+      "revision": "18deb9386fd78df9a0d2b3b4d83141effdf66204"
     },
     "fcron": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcron.git",
