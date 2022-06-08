@@ -1,6 +1,6 @@
 ##
 ## Artix Linux repository mirrorlist
-## Generated on 2022-05-30
+## Generated on 2022-06-08
 ##
 
 # Artix mirrors
@@ -32,7 +32,6 @@ Server = https://ftp.uni-bayreuth.de/linux/artix-linux/$repo/os/$arch
 Server = https://ftp.halifax.rwth-aachen.de/artixlinux/$repo/os/$arch
 Server = https://mirror.linux.pizza/artix-linux/$repo/os/$arch
 Server = https://artix.unixpeople.org/repos/$repo/os/$arch
-Server = https://mirror.theanonymouse.xyz/artix-linux/$repo/os/$arch
 Server = https://mirror1.artixlinux.org/repos/$repo/os/$arch
 Server = https://eu-mirror.artixlinux.org/repos/$repo/os/$arch
 # Greece
