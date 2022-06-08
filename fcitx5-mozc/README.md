@@ -1,0 +1,2 @@
+# fcitx5-mozc
+
