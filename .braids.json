@@ -99,7 +99,7 @@
     "alsa-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils.git",
       "branch": "master",
-      "revision": "99d31e6636981b80e35a93026a0b355d73f8c226"
+      "revision": "dcf3018663b252c37bd626a2c130bc202abbc21e"
     },
     "amdvlk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
