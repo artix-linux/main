@@ -1,0 +1,29 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: csslayer <wengxt AT gmail com>
+
+pkgname=fcitx5-qt
+pkgver=5.0.13
+pkgrel=1
+pkgdesc="Fcitx5 Qt Library"
+arch=('x86_64')
+url="https://github.com/fcitx/fcitx5-qt"
+license=('GPL')
+groups=('fcitx5-im')
+depends=('fcitx5' 'qt5-base')
+makedepends=('extra-cmake-modules' 'ninja' 'qt6-base')
+source=("https://download.fcitx-im.org/fcitx5/$pkgname/$pkgname-$pkgver.tar.xz"{,.sig})
+sha512sums=('748a97cc5dfbe179b1f31110a63ebdc7f8b475c82740a641a7e51485dbf8338c1fa7d6cff4d02fe2ff3d762925ddba0fa859a95af333abac5c3f46e862e6dbc2'
+            'SKIP')
+validpgpkeys=('2CC8A0609AD2A479C65B6D5C8E8B898CBF2412F9') # Weng Xuetian <wengxt@gmail.com>
+
+build(){
+  cd $pkgname-$pkgver
+
+  cmake -GNinja -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=/usr/lib -DCMAKE_INSTALL_LIBEXECDIR=/usr/lib -DENABLE_QT4=0 -DENABLE_QT6=1 .
+  ninja
+}
+
+package() {
+  cd $pkgname-$pkgver
+  DESTDIR="$pkgdir" ninja install
+}
