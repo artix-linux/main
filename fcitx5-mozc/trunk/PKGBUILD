@@ -32,8 +32,8 @@ makedepends=('pkg-config' 'python' 'curl' 'gtk2' 'mesa' 'subversion' 'bazel' 'gi
 replaces=('mozc-fcitx')
 conflicts=('mozc' 'mozc-server' 'mozc-utils-gui' 'mozc-fcitx' 'fcitx-mozc')
 source=(git+https://github.com/fcitx/mozc.git#commit=${_mozc_commit}
-        "jigyosyo-${_zipcode_rel}.zip::https://osdn.net/frs/redir.php?m=rwthaachen&f=%2Fstorage%2Fg%2Fp%2Fpo%2Fponsfoot-aur%2Fmozc%2Fjigyosyo-${_zipcode_rel}.zip"
-        "x-ken-all-${_zipcode_rel}.zip::https://osdn.net/frs/redir.php?m=nchc&f=%2Fstorage%2Fg%2Fp%2Fpo%2Fponsfoot-aur%2Fmozc%2Fx-ken-all-${_zipcode_rel}.zip"
+        jigyosyo-${_zipcode_rel}.zip
+        x-ken-all-${_zipcode_rel}.zip
         git+https://chromium.googlesource.com/breakpad/breakpad#commit=${_breakpad_commit}
         git+https://github.com/google/googletest.git#commit=${_gtest_commit}
         git+https://chromium.googlesource.com/external/gyp#commit=${_gyp_commit}
