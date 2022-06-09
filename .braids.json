@@ -8069,7 +8069,7 @@
     "suil": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suil.git",
       "branch": "master",
-      "revision": "71eeffd53e0886e0bed429999d0bca3080e3e8d3"
+      "revision": "058b06dd55a1941f3758879eae54ae43c99546e9"
     },
     "suitesparse": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suitesparse.git",
