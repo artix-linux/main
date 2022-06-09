@@ -7309,7 +7309,7 @@
     "rabbitmq": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rabbitmq.git",
       "branch": "master",
-      "revision": "ce1a0ec1b397764cb67ec109aa1533cca5561d45"
+      "revision": "38f9e4ca280a1e6088317b934bae9b582c1de0eb"
     },
     "radeontop": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radeontop.git",
