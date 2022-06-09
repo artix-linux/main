@@ -7579,7 +7579,7 @@
     "s-nail": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s-nail.git",
       "branch": "master",
-      "revision": "ddfa34e1a6eed8f779e6c6d0a5b1970a42304d24"
+      "revision": "788bd9f108111a7919c91effed947e1e5d6326d7"
     },
     "s3cmd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
