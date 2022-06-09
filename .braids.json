@@ -9649,7 +9649,7 @@
     "zstd": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zstd.git",
       "branch": "master",
-      "revision": "a7fb28fd4524d6adf8db8a97afbad9bbaee49f0e"
+      "revision": "9d40da888ef96597035b8c203a9c8d361b2972d5"
     },
     "zvbi": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zvbi.git",
