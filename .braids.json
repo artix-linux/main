@@ -1754,7 +1754,7 @@
     "firejail": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firejail.git",
       "branch": "master",
-      "revision": "ed970858cb4a9d30d4d34d669e8c6edfb9736caf"
+      "revision": "a322b1c406e50372f69dfa860392233e3dddd6d7"
     },
     "firewalld": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld.git",
