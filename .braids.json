@@ -8189,7 +8189,7 @@
     "tdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tdb.git",
       "branch": "master",
-      "revision": "609bc095fed4fb8dfa3aafd297b34d991f90ac90"
+      "revision": "bec2fb727fb4d985c50bfd2eec61f729db0f9dd8"
     },
     "telepathy-accounts-signon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-accounts-signon.git",
