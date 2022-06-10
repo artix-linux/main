@@ -8994,7 +8994,7 @@
     "wireless-regdb": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireless-regdb.git",
       "branch": "master",
-      "revision": "f3825f323096b1ab960cf4d606f2617e4d0b10c0"
+      "revision": "d60b2a94adb09c9853220a6f7a1db043ee7ba6fb"
     },
     "wireless_tools": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireless_tools.git",
