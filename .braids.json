@@ -659,7 +659,7 @@
     "cbindgen": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cbindgen.git",
       "branch": "master",
-      "revision": "9901a45d77e7e3cb444d03c5333a94d6609cee2f"
+      "revision": "ed6fa344626650a484ad0937d09fa02386582c44"
     },
     "ccache": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ccache.git",
