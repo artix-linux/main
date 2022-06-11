@@ -1729,7 +1729,7 @@
     "file": {
       "url": "gitea@gitea.artixlinux.org:packagesF/file.git",
       "branch": "master",
-      "revision": "fd640c5cebc4621a3da1d1bbcf454c23213199f2"
+      "revision": "88d594b1d32ae515484bfa01e070b1d1d864a901"
     },
     "filesystem": {
       "url": "gitea@gitea.artixlinux.org:packagesF/filesystem.git",
