@@ -4666,6 +4666,11 @@
       "branch": "master",
       "revision": "349c5452f9d70562f81a0075c2fa4e4825be4175"
     },
+    "libvips": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvips.git",
+      "branch": "master",
+      "revision": "dd95b06a636307df5f68c724daf0cfcea2b98262"
+    },
     "libvirt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt.git",
       "branch": "master",
