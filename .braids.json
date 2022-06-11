@@ -454,7 +454,7 @@
     "bftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd.git",
       "branch": "master",
-      "revision": "106449f17574738e90af17b419e444a8d317cab1"
+      "revision": "7c96a2bc17117a4ff43c63f47217f79a8882902a"
     },
     "bin86": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bin86.git",
