@@ -3149,7 +3149,7 @@
     "kismet": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kismet.git",
       "branch": "master",
-      "revision": "6168fc84cce119e0892705332b2fdf3da1ea1261"
+      "revision": "16d03e272680e333f7d262b9273da61831ee4fa9"
     },
     "kmod": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kmod.git",
