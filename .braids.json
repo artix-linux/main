@@ -2061,6 +2061,11 @@
       "branch": "master",
       "revision": "575337b855094983a29e62765ff958f7148b4a61"
     },
+    "git-lfs": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/git-lfs.git",
+      "branch": "master",
+      "revision": "3901707ab7896fc6949342f30aa39cf8e302883c"
+    },
     "git-subrepo": {
       "url": "gitea@gitea.artixlinux.org:packagesG/git-subrepo.git",
       "branch": "master",
