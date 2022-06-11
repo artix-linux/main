@@ -3384,7 +3384,7 @@
     "libbytesize": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbytesize.git",
       "branch": "master",
-      "revision": "c03d330defe904d61f8579cbe8ff3d798e35cab0"
+      "revision": "3dadafe99f2864a263f18308164111cc2283b50f"
     },
     "libcaca": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcaca.git",
