@@ -4359,7 +4359,7 @@
     "librsvg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
       "branch": "master",
-      "revision": "d82296dc8cf26d8ac0dd3a972b9878fba63c525e"
+      "revision": "f6854e5640545cbeeb74181051588091f5117cea"
     },
     "libsamplerate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsamplerate.git",
