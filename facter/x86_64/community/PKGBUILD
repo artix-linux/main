@@ -10,13 +10,13 @@
 
 pkgname=facter
 pkgver=3.14.23
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Collect and display system facts"
 arch=('x86_64')
 url="https://puppetlabs.com/facter"
 license=('APACHE')
 depends=('yaml-cpp' 'boost-libs' 'curl' 'libwhereami' 'libwhereami.so' 'cpp-hocon' 'libcpp-hocon.so'
-         'systemd-libs' 'leatherman' 'leatherman_curl.so' 'leatherman_ruby.so' 'leatherman_execution.so'
+         'leatherman' 'leatherman_curl.so' 'leatherman_ruby.so' 'leatherman_execution.so'
          'leatherman_file_util.so' 'leatherman_util.so' 'leatherman_logging.so' 'leatherman_locale.so'
          'openssl' 'gcc-libs' 'glibc' 'util-linux-libs' 'ruby' 'libblkid.so' 'yaml-cpp' 'dmidecode' 'pciutils' 'virt-what')
 makedepends=('boost' 'cmake' 'java-environment>=10' 'python' 'rapidjson')
@@ -72,6 +72,7 @@ build() {
   cmake \
     -B build \
     -DCMAKE_BUILD_TYPE=None \
+    -DCMAKE_PREFIX_PATH=/usr \
     -DCMAKE_INSTALL_PREFIX:PATH=/usr \
     -DENABLE_CXX_WERROR=OFF \
     -DBUILD_SHARED_LIBS=ON
