@@ -139,7 +139,7 @@
     "apache-orc": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-orc.git",
       "branch": "master",
-      "revision": "95fb76078f71223ecdcad0ec96aaf729e4637c1c"
+      "revision": "47b2ef3f7c82eb0d2601bd6cc307cb20b39096a1"
     },
     "apcupsd": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd.git",
