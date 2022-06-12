@@ -1,10 +1,10 @@
-# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Aurélien Wailly <aurelien.wailly@gmail.com>
 
 pkgname=protobuf-c
 pkgver=1.4.0
-pkgrel=3
+pkgrel=4
 pkgdesc='Protocol Buffers implementation in C'
 arch=('x86_64')
 url='https://github.com/protobuf-c/protobuf-c'
