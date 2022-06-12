@@ -1,8 +1,8 @@
-# Maintainer: Bruno Pagani <archange@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 
 pkgname=libavif
 pkgver=0.10.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Library for encoding and decoding .avif files"
 arch=(x86_64)
 url="https://github.com/AOMediaCodec/libavif"
