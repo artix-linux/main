@@ -214,7 +214,7 @@
     "arrow": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arrow.git",
       "branch": "master",
-      "revision": "2b8d8ae4b485de2c6a5f7daa2dd6adf39eeb806b"
+      "revision": "b7e1aa40e5733c493ce45dd2b1335f4b7d2b6c98"
     },
     "artix-archlinux-support": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-archlinux-support.git",
