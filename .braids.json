@@ -1539,7 +1539,7 @@
     "etherwall": {
       "url": "gitea@gitea.artixlinux.org:packagesE/etherwall.git",
       "branch": "master",
-      "revision": "67045a15d3e3d95a060481b0e55603ccb36f7e04"
+      "revision": "8be564ac4708556c006fd1671603234558cde88a"
     },
     "ethtool": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ethtool.git",
