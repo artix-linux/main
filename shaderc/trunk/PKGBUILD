@@ -1,10 +1,10 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Daniel M. Capella <polycitizen@gmail.com>
 # Contributor: Bin Jin <bjin@ctrl-d.org>
 
 pkgname=shaderc
 pkgver=2022.1
-pkgrel=3
+pkgrel=4
 pkgdesc='Collection of tools, libraries and tests for shader compilation'
 url='https://github.com/google/shaderc'
 arch=('x86_64')
