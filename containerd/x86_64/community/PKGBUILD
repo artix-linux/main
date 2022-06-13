@@ -1,11 +1,11 @@
-# Maintainer: Morten Linderud <foxboron@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Santiago Torres-Arias <santiago@archlinux.org>
 # Contributor: Sébastien "Seblu" Luttringer
 # Contributor: Iwan Timmer <irtimmer@gmail.com>
 
 pkgname=containerd
-pkgver=1.6.5
-pkgrel=1.1
+pkgver=1.6.6
+pkgrel=1
 pkgdesc='An open and reliable container runtime'
 url='https://containerd.io/'
 depends=('runc')
