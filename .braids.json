@@ -504,7 +504,7 @@
     "boost": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boost.git",
       "branch": "master",
-      "revision": "72c8ca2640416a7d03f9be204394225db6928ac0"
+      "revision": "e22c01e8822e0b1ceee2aee9ead10f6c560c4121"
     },
     "bootlogd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd.git",
