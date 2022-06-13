@@ -1719,7 +1719,7 @@
     "fftw": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fftw.git",
       "branch": "master",
-      "revision": "b4864dbd593dedb56bcec37cee0d8e858a41b109"
+      "revision": "720e0cb7bad765e2f8c4d8caad3dbccaabb0fcc4"
     },
     "figlet": {
       "url": "gitea@gitea.artixlinux.org:packagesF/figlet.git",
