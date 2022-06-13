@@ -3919,7 +3919,7 @@
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
       "branch": "master",
-      "revision": "3b5e5958a860adb7cced788b91ba7161de4791c5"
+      "revision": "b2148770e43cdac42f24d606dbeb59086b80677d"
     },
     "libldac": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libldac.git",
