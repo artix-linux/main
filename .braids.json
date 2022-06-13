@@ -689,7 +689,7 @@
     "ceph": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ceph.git",
       "branch": "master",
-      "revision": "b82a1b657522c49c20ea4b1b1a85403205bde58c"
+      "revision": "87c366013cd5decff788c8aab5f8950d10625468"
     },
     "cgmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager.git",
