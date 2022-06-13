@@ -9659,7 +9659,7 @@
     "znc": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
       "branch": "master",
-      "revision": "2d0a3d13414aa15825ddb9fb84f7a81e2f326d2f"
+      "revision": "e7f21e73ba6485302c0f1e392928ae7dca15bd94"
     },
     "zsh": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh.git",
