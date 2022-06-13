@@ -6259,7 +6259,7 @@
     "openvkl": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvkl.git",
       "branch": "master",
-      "revision": "c7a22103c3751d5acf866ccabd866d8a0adc16bb"
+      "revision": "0db9f4d84929d3cf55a3093f0a5958c54533b039"
     },
     "openvpn": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvpn.git",
