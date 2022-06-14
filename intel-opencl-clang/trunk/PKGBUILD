@@ -24,6 +24,7 @@ pkgver() {
 build() {
   cmake -B build -S ${_srcname} \
     -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_PREFIX_PATH=/usr \
     -DLLVMSPIRV_INCLUDED_IN_LLVM=OFF \
     -DSPIRV_TRANSLATOR_DIR=/usr \
     -DLLVM_NO_DEAD_STRIP=ON \
