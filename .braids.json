@@ -2789,7 +2789,7 @@
     "intel-opencl-clang": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-opencl-clang.git",
       "branch": "master",
-      "revision": "c9a5f0d1d42e9165dde6005996c1dd2feb9481bb"
+      "revision": "e68144f1d69ce3923164aee1fc584a60c79769ca"
     },
     "intel-ucode": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-ucode.git",
