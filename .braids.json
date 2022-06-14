@@ -9639,7 +9639,7 @@
     "zimg": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zimg.git",
       "branch": "master",
-      "revision": "deb2e3fd85ed9c8e685841bb544b60cc05bf931b"
+      "revision": "0ad304b6e164857a43f2b7989121e3363bcb10ee"
     },
     "zip": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zip.git",
