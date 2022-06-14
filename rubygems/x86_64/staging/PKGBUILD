@@ -3,14 +3,14 @@
 pkgname=rubygems
 pkgdesc='Package management framework for Ruby'
 pkgver=3.3.15
-pkgrel=1.1
+pkgrel=1.2
 arch=(any)
 url='https://rubygems.org/'
 license=(MIT)
 # To avoid circular dependency with ruby, move it to makedepends
-makedepends=()
+makedepends=(ruby)
 backup=(etc/gemrc)
-checkdepends=()
+checkdepends=(rake)
 source=(rubygems-$pkgver.zip::https://github.com/rubygems/rubygems/archive/v${pkgver}.zip
         stop_so_duplication.patch
 	gemrc)
