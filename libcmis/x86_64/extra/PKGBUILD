@@ -1,8 +1,8 @@
-# Maintainer: AndyRTR <andyrtr@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 
 pkgname=libcmis
 pkgver=0.5.2
-pkgrel=9
+pkgrel=10
 pkgdesc="a C/C++ client library for the CMIS protocol"
 arch=('x86_64')
 url="https://github.com/tdf/libcmis"
