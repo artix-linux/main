@@ -9399,7 +9399,7 @@
     "xorg-xev": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xev.git",
       "branch": "master",
-      "revision": "32bbb0e77a96c9cc4e1249cd09802758978e7100"
+      "revision": "9d4dd01ca2be9f0fb12382065febd97a6e855451"
     },
     "xorg-xeyes": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xeyes.git",
