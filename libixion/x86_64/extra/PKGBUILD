@@ -1,9 +1,9 @@
-# Maintainer: AndyRTR <andyrtr@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: kusakata <shohei atmark kusakata period com>
 
 pkgname=libixion
 pkgver=0.17.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A general purpose formula parser & interpreter"
 arch=('x86_64')
 url="https://gitlab.com/ixion/ixion/blob/master/README.md"
