@@ -7569,7 +7569,7 @@
     "rubygems": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rubygems.git",
       "branch": "master",
-      "revision": "4e498420f26368a9ef71a9bd41cac50f1d88aa2f"
+      "revision": "d1672ec02f527210e345d9bb0359ea55b9dff452"
     },
     "run-parts": {
       "url": "gitea@gitea.artixlinux.org:packagesR/run-parts.git",
