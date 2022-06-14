@@ -10,7 +10,7 @@ license=(MIT)
 # To avoid circular dependency with ruby, move it to makedepends
 makedepends=()
 backup=(etc/gemrc)
-checkdepends=(rake)
+checkdepends=()
 source=(rubygems-$pkgver.zip::https://github.com/rubygems/rubygems/archive/v${pkgver}.zip
         stop_so_duplication.patch
 	gemrc)
