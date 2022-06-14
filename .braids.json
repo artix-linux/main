@@ -6439,7 +6439,7 @@
     "pciutils": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pciutils.git",
       "branch": "master",
-      "revision": "72fb2d476238cdc7df6c4da77fdab4843263a920"
+      "revision": "6a7a39a419824c8ed9e2bbce16d5765b2d52f59e"
     },
     "pcre": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcre.git",
