@@ -4624,7 +4624,7 @@
     "libutempter": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libutempter.git",
       "branch": "master",
-      "revision": "6b6c60db5832e22c767d9d5a87502e9f9b758789"
+      "revision": "42c4bb5620d5e8512cc805413b36ba7210d9b8a5"
     },
     "libutf8proc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libutf8proc.git",
