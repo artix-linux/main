@@ -1,4 +1,4 @@
-# Maintainer: Bruno Pagani <archange@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 # Contributor: Gaetan Bisson <bisson@archlinux.org>
 # Contributor: Tobias Kieslich <tobias@archlinux.org>
@@ -7,7 +7,7 @@
 
 pkgname=hugin
 pkgver=2021.0.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Panorama photo stitcher"
 arch=(x86_64)
 url="http://hugin.sourceforge.net/"
