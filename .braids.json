@@ -2259,7 +2259,7 @@
     "gperftools": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gperftools.git",
       "branch": "master",
-      "revision": "d4ff15a46811f8e0ac36422201319745678624eb"
+      "revision": "41b79eace051aeb17886f4228873b010a149073a"
     },
     "gpgme": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gpgme.git",
