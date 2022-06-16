@@ -171,11 +171,6 @@
       "branch": "master",
       "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
     },
-    "archlinux-keyring": {
-      "url": "gitea@gitea.artixlinux.org:packagesA/archlinux-keyring.git",
-      "branch": "master",
-      "revision": "badad11a9ddf10c974add6561e1a1e09f78974cb"
-    },
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
       "branch": "master",
