@@ -7244,7 +7244,7 @@
     "qt6-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-tools.git",
       "branch": "master",
-      "revision": "75be1610ef950f5c3987895e7a87550732621946"
+      "revision": "6debe9aec556046a3aaebce6b03ddc3316bc8065"
     },
     "qt6-translations": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-translations.git",
