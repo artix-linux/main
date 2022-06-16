@@ -8004,7 +8004,7 @@
     "srt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/srt.git",
       "branch": "master",
-      "revision": "461dc6dda31d34869226e15cea3fc4f3c3c79a88"
+      "revision": "1481ea474a9fa01149533aa9db8bbad3dbcfa67a"
     },
     "sshfs": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshfs.git",
