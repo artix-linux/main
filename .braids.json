@@ -7164,7 +7164,7 @@
     "qt6-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-doc.git",
       "branch": "master",
-      "revision": "3dc879acaca7c44d1fdbd52810a003fbf7c01bec"
+      "revision": "d067b7f4323d03ed336ec0ed9c1a66e576ba35d0"
     },
     "qt6-imageformats": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-imageformats.git",
