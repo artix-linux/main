@@ -219,7 +219,7 @@
     "artix-archlinux-support": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-archlinux-support.git",
       "branch": "master",
-      "revision": "97b738a2c921ce2cf27e99c11b398567be0dee0b"
+      "revision": "9e2988cdfacade9867938a5e08ccd2e1c65f499b"
     },
     "artix-keyring": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-keyring.git",
