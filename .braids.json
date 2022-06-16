@@ -2379,7 +2379,7 @@
     "gstreamer": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gstreamer.git",
       "branch": "master",
-      "revision": "d77d4befa39e95bc9f5236a352b3bd08a3533b76"
+      "revision": "5f567a0612ad851b86b1d184d5985908d34e9e52"
     },
     "gtest": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtest.git",
