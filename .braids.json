@@ -179,7 +179,7 @@
     "archlinux-mirrorlist": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archlinux-mirrorlist.git",
       "branch": "master",
-      "revision": "2ac0ee1806029a6b18c03588e46bd4e7f446e42d"
+      "revision": "1093a11e45323cbc85ed0721a128aca76ba8eb75"
     },
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
