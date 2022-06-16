@@ -7249,7 +7249,7 @@
     "qt6-shadertools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-shadertools.git",
       "branch": "master",
-      "revision": "c4310874aad14a14ced1c802a51b0a5afe1b0bdc"
+      "revision": "f9acaed0c59e1eb8a926e77b45f2cfebd94f898e"
     },
     "qt6-svg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-svg.git",
