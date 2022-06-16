@@ -1,4 +1,4 @@
-# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 
 pkgname=srt
 pkgver=1.5.0
