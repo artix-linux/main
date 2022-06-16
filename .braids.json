@@ -7989,7 +7989,7 @@
     "srt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/srt.git",
       "branch": "master",
-      "revision": "1481ea474a9fa01149533aa9db8bbad3dbcfa67a"
+      "revision": "47fc99a8548e88f4e9cb3c1858c37e150cde0368"
     },
     "sshfs": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshfs.git",
