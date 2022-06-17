@@ -11,7 +11,7 @@ pkgdesc='Userspace device file manager'
 _tag='615e67a0eeb479009f185d2526acf7cc1ed36e62' # git rev-parse v${_tag_name}
 _tag_name=251.2
 pkgver="${_tag_name/-/}"
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 url='https://www.github.com/systemd/systemd'
 license=('GPL2' 'LGPL2.1')
@@ -23,12 +23,12 @@ validpgpkeys=('63CDA1E5D3FC22B998D20DD6327F26951A015CC4'  # Lennart Poettering <
               'A9EA9081724FFAE0484C35A1A81CEA22BC8C7E2E'  # Luca Boccassi <luca.boccassi@gmail.com>
               '9A774DB5DB996C154EBBFBFDA0099A18E29326E1'  # Yu Watanabe <watanabe.yu+github@gmail.com>
               '5C251B5FC54EB2F80F407AAAC54CA336CFEB557E') # Zbigniew Jędrzejewski-Szmek <zbyszek@in.waw.pl>
-_commit=29cd296aa4635fe6f7b53bda2f2cb1648bdc0782
+_alpm=57bcc7fee22d75df96fd546ee7215166cdfb1233
 source=("git+https://github.com/systemd/systemd-stable#tag=${_tag}" #?signed
         "git+https://github.com/systemd/systemd#tag=v${_tag_name%.*}" #?signed
         '0001-Use-Arch-Linux-device-access-groups.patch'
         initcpio-{hook,install}-udev
-        "git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=$_commit"
+        "git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=${_alpm}"
         meson-install-tags.patch
         meson-artix.patch)
 sha512sums=('SKIP'
@@ -37,7 +37,7 @@ sha512sums=('SKIP'
             '32606b42856b5f3ea7f485143e532671f58986237e14c58ea5ab17383dc39a375cb6c738c8a2db9e4a8c8be88ea44a876d6bbed129cb2f5c9aa3f8228b04d927'
             '38eed28d42ac8f70bc8d1058ace35f137f7f5c972442ee14b98c2146202e0615aa584304edbd59e8608d1b6bec3cb391fc69b25393740f6eabd8fc5ad3bde64f'
             'SKIP'
-            '856bbb35d97e89307c75c2855389ae1de227badfc3bd561cc20846bd11439810d5f6a969c95d33e14699a2986894d8ab72288733209f984d750ae5f2d02c20dc'
+            '8ba2721a2a35afdddb6c35d3dddac606d087e4fce1d9c0f3cbf109661cb914e6d07fe4ae90c70d3a6033367deb1c84a986e3b8dd3ea23f2364e22385c4376d9f'
             'a26003ddcac5a83ec1fec040b36ff46816869028dc79aebb2646f9f2ed090e6358601f911c9d6a04b426c7f3367595e12716e411fca34ffce59d718b067e4e5c')
 
 _backports=(
@@ -218,7 +218,7 @@ check() {
         test-udev-netlink
         test-udev-node
         test-udev-util
-        udev-test
+#         udev-test
         test-libudev
         test-libudev-sym
         test-udev-device-thread
@@ -250,7 +250,7 @@ package_udev() {
             'util-linux' 'libblkid.so' 'libudev' 'hwdata' 'kbd')
     provides=("udev=$pkgver")
 
-    meson install -C build --destdir="$pkgdir" --no-rebuild --tags udev,udev-devel
+    meson install -C build --destdir="$pkgdir" --no-rebuild --tags udev,udev-devel,libudev-devel
 
     mv -v  "${pkgdir}"/usr/bin/systemd-hwdb "${pkgdir}"/usr/bin/udev-hwdb
 

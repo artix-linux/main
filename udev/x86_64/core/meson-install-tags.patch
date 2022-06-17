@@ -277,7 +277,7 @@ index 343fac6945..706d77b6d8 100644
          command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
          install : pkgconfiglibdir != 'no',
 -        install_tag : 'devel',
-+        install_tag : 'udev-devel',
++        install_tag : 'libudev-devel',
          install_dir : pkgconfiglibdir)
 
  ############################################################
