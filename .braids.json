@@ -2319,7 +2319,7 @@
     "grub": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grub.git",
       "branch": "master",
-      "revision": "2fda8eb3376fe6f5f435758cb8678fc057cbbc3b"
+      "revision": "856c3202871413e039966f4bd56613019aa99d35"
     },
     "grunt-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grunt-cli.git",
