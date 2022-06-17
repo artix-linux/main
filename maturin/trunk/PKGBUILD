@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: qontinuum <qontinuum@artixlinux.org>
 
 pkgname=maturin
 pkgver=0.12.20
