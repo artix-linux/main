@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: xduugu
 # Contributor: nh2
 # Contributor: Steven Davidovitz <steviedizzle ð gmail đ com>
@@ -9,7 +9,7 @@
 
 pkgname=tp_smapi
 pkgver=0.43
-pkgrel=397.1
+pkgrel=400
 pkgdesc="Modules for ThinkPad's SMAPI functionality"
 arch=('x86_64')
 url='https://github.com/evgeni/tp_smapi'
