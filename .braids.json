@@ -8374,7 +8374,7 @@
     "tor": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor.git",
       "branch": "master",
-      "revision": "ec4a03653b5f94cefd032b78174e809465093e40"
+      "revision": "cdb44720be0ed509db4ca7f15572a0b55fccd54f"
     },
     "towncrier": {
       "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
