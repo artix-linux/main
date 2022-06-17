@@ -2759,7 +2759,7 @@
     "intel-media-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-media-driver.git",
       "branch": "master",
-      "revision": "0cde659c001998718441af963a0c3b60af1fa57d"
+      "revision": "6a3902c4ea4da1af6efd80c4ae5fe772a334f9db"
     },
     "intel-media-sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-media-sdk.git",
