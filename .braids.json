@@ -884,7 +884,7 @@
     "conmon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/conmon.git",
       "branch": "master",
-      "revision": "8d66191117323ca1a5dd8fad20fb6657199b4d62"
+      "revision": "44b2dc37f5673bd15ba82884b933a727c3f13e22"
     },
     "connman": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman.git",
