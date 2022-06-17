@@ -8914,7 +8914,7 @@
     "wasi-libc": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-libc.git",
       "branch": "master",
-      "revision": "df3ca48f2ab1f8050afdce2dcb03e09e7035f7e8"
+      "revision": "366576938be2579f530da0bdea4ae75bdff9e89c"
     },
     "wasi-libc++": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-libcplusplus.git",
