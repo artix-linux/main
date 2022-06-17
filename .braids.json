@@ -3339,7 +3339,7 @@
     "libblastrampoline": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libblastrampoline.git",
       "branch": "master",
-      "revision": "08d2739b64a037fdf822f006d7e884b47c5f78b0"
+      "revision": "804270bfe8cbbfcc060e030f3aebfc38139230f8"
     },
     "libblockdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libblockdev.git",
