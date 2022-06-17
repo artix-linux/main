@@ -7309,7 +7309,7 @@
     "r8168": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r8168.git",
       "branch": "master",
-      "revision": "4da627b12490c2936b61c4e9aab338a2fc786910"
+      "revision": "d58e9ec7060968fa13e884b60e1120ba0813365f"
     },
     "rabbitmq": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rabbitmq.git",
