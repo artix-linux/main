@@ -6499,7 +6499,7 @@
     "pigeonhole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pigeonhole.git",
       "branch": "master",
-      "revision": "f334e66718a1096e3cceaa52b4cf7704adc66526"
+      "revision": "e76f6b4555efbb01278a86e9d7483297d95ec9f8"
     },
     "pinentry": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
