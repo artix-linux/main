@@ -1,8 +1,8 @@
 # Maintainer: Nathan Owens <ndowens@artixlinux.org>
 
 pkgname=go-ethereum
-pkgver=1.10.18
-_commit=de23cf910b814867d5c5d1ad6164835d79069638
+pkgver=1.10.19
+_commit=23bee16208718975f9b9e012949b8d4ee1223108
 pkgrel=1
 pkgdesc='Official Go implementation of the Ethereum protocol'
 arch=('x86_64')
@@ -13,10 +13,8 @@ makedepends=('git' 'go')
 provides=('geth')
 conflicts=('geth')
 replaces=('geth')
-source=("git+https://github.com/ethereum/go-ethereum.git#commit=${_commit}"
-        'geth-user.service')
-sha256sums=('SKIP'
-            '806ab43221f0c203e663a78afced694786a5adb033f06fab07d07904384d7645')
+source=("git+https://github.com/ethereum/go-ethereum.git#commit=${_commit}")
+sha256sums=('SKIP')
 
 build() {
     cd ${pkgname}
@@ -30,6 +28,4 @@ package() {
     cd ${pkgname}
 
     install -Dm755 -t "${pkgdir}"/usr/bin build/bin/*
-    install -Dm644 ../geth-user.service \
-        "${pkgdir}/usr/lib/systemd/user/geth.service"
 }
