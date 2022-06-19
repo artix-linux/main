@@ -6849,7 +6849,7 @@
     "pyqt5-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-webengine.git",
       "branch": "master",
-      "revision": "ab70e1601cf6c89cea2e35692dfe6d431cb2667c"
+      "revision": "12b78a45c13cf5bce2368f5a6157fef4f356f6b7"
     },
     "pyqt6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6.git",
