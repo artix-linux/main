@@ -6979,7 +6979,7 @@
     "qt5-imageformats": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-imageformats.git",
       "branch": "master",
-      "revision": "a50bc36852d69de293946bc34f5d59a6d933fd23"
+      "revision": "7d38c3246267cc28a83ebe89b4e4192b61a2a7b0"
     },
     "qt5-location": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-location.git",
