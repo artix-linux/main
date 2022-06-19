@@ -35,7 +35,8 @@ build() {
   sip-build \
     --confirm-license \
     --no-make \
-    --qmake=/usr/bin/qmake6
+    --qmake=/usr/bin/qmake6 \
+    --scripts-dir=/usr/bin
   cd build
   make
 }
