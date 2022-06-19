@@ -7119,7 +7119,7 @@
     "qt5-webview": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webview.git",
       "branch": "master",
-      "revision": "a18c6144499c0efd0aad066e885c5af38add67ae"
+      "revision": "3dfb6d9d3e294f020479367900ed4db81c3ffeef"
     },
     "qt5-x11extras": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-x11extras.git",
