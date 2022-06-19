@@ -6944,7 +6944,7 @@
     "qt5-connectivity": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-connectivity.git",
       "branch": "master",
-      "revision": "7f29da873cfec64b6182db60bec16a907dc38a3b"
+      "revision": "5f800d09659f491fe4bdd9f7c7c93edb6f986dbf"
     },
     "qt5-datavis3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-datavis3d.git",
