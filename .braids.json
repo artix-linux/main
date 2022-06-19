@@ -6819,7 +6819,7 @@
     "pyqt5": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5.git",
       "branch": "master",
-      "revision": "7443cf20a3e1d56fd268b17334e964cf7b79e978"
+      "revision": "fda7c542e322259fdf565f5eff863395d368d0ff"
     },
     "pyqt5-3d": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-3d.git",
