@@ -6849,7 +6849,7 @@
     "pyqt6-charts": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-charts.git",
       "branch": "master",
-      "revision": "d05311fb40960978a6d5dbae004f6e8879fad5c7"
+      "revision": "00af2c9a9129997b3ab1ecc12d778e2895ed3639"
     },
     "pyqt6-datavisualization": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-datavisualization.git",
