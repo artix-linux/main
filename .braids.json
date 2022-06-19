@@ -6989,7 +6989,7 @@
     "qt5-lottie": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-lottie.git",
       "branch": "master",
-      "revision": "39c8f46d0e13795acd542d6453aa77767aa885b3"
+      "revision": "0444ab68a4e1078c246622c901c54448ad1017b8"
     },
     "qt5-multimedia": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-multimedia.git",
