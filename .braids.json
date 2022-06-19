@@ -7044,7 +7044,7 @@
     "qt5-sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-sensors.git",
       "branch": "master",
-      "revision": "80f0a41ebd1f0094aac1ead1a2a4e7dd5375fbe0"
+      "revision": "d0f29ef706dfef27c1105a86db66a321d4b34dc1"
     },
     "qt5-serialbus": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-serialbus.git",
