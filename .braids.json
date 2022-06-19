@@ -6849,7 +6849,7 @@
     "pyqt6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6.git",
       "branch": "master",
-      "revision": "1eaa7ba38a7853c564f3e8e90c16591b4ee80d7e"
+      "revision": "f6e019640dd77b78832052638f7d7ed3cd527471"
     },
     "pyqt6-3d": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-3d.git",
