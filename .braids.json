@@ -4714,7 +4714,7 @@
     "libwacom": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwacom.git",
       "branch": "master",
-      "revision": "bcfa8f2e47cdfbcccbab7a5a9492fb6e9a891944"
+      "revision": "88845e3647108a3755b7792a8a9bbd437dcd9b41"
     },
     "libwebp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwebp.git",
