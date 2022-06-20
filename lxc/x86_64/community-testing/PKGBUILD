@@ -36,7 +36,7 @@ prepare() {
 
 build() {
   cd "$pkgname-${pkgver/_/-}"
-  meson --prefix=/usr --buildtype=plain . build
+  meson --prefix=/usr --buildtype=plain -Dinit-script=sysvinit . build
   meson compile -C build
 }
 
