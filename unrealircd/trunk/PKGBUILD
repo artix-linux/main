@@ -1,8 +1,8 @@
-# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Zerial <fernando@zerial.org>
 
 pkgname=unrealircd
-pkgver=6.0.3
+pkgver=6.0.4
 pkgrel=1
 pkgdesc="Open Source IRC Server"
 arch=('x86_64')
@@ -19,7 +19,7 @@ source=(https://www.unrealircd.org/unrealircd4/unrealircd-$pkgver.tar.gz{,.asc}
 	unrealircd.sysusers.d
 	install.pl
 	source-date-epoch.patch)
-sha256sums=('e7578509fdca39fea8e0dc5b53b1feb6c5a2f4c75c8d3ba516a12796bf7aedfe'
+sha256sums=('f8e4bec47c6690afddaf79dea22ceb695ea6b0cb261c133ae414f8d58cb1eb76'
             'SKIP'
             '75360541bc3aec9c1241c75e0ce60214c65cb618ffe5ca77144f01651ef5ab5b'
             '9e595176e63b301476982b1456d6ed065c479ff913b6743417ab8a9efdda0e3a'
