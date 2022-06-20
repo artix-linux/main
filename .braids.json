@@ -6139,7 +6139,7 @@
     "openconnect": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openconnect.git",
       "branch": "master",
-      "revision": "7a2bf3a5e63db3afd4d4a05c59d4145bf34a7364"
+      "revision": "737ddc276b8a2e1ff6c7aeb34603c8cd7d46c883"
     },
     "opencore-amr": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencore-amr.git",
