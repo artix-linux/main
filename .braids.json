@@ -5224,7 +5224,7 @@
     "lxc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxc.git",
       "branch": "master",
-      "revision": "2f1e14a2ac6a23e6aa3f5fff37f7ac6c293268e0"
+      "revision": "07a735ceaa4ec77fa5f6f1b6b4df061d866b1938"
     },
     "lxcfs": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxcfs.git",
