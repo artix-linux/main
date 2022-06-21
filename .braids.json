@@ -5729,7 +5729,7 @@
     "namcap": {
       "url": "gitea@gitea.artixlinux.org:packagesN/namcap.git",
       "branch": "master",
-      "revision": "d7772c3bffad84555b6bb7c34c4333b15d54676b"
+      "revision": "4094c833e3e1e01c10298305a5fb049157c17bc8"
     },
     "nano": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nano.git",
