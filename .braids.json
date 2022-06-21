@@ -7074,7 +7074,7 @@
     "qt5-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-tools.git",
       "branch": "master",
-      "revision": "d018c1c9748940fbeb9c47e39dae85c707cf4338"
+      "revision": "081943208216af7b3f34e4cd0af9cfd91feb8ce1"
     },
     "qt5-translations": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-translations.git",
