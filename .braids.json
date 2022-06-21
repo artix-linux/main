@@ -1519,7 +1519,7 @@
     "espeak-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeak-ng.git",
       "branch": "master",
-      "revision": "1fff2788c73513f5d6d578e57d22106f409a4802"
+      "revision": "d1cc0a9dafc1cc5e7f204ff1d736ac8a6021092e"
     },
     "espeakup": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeakup.git",
