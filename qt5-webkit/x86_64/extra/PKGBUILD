@@ -1,6 +1,7 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
+#
 
 pkgname=qt5-webkit
 _pkgver=5.212.0-alpha4
