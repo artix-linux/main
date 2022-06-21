@@ -8,16 +8,16 @@
 pkgname=lxc
 epoch=1
 pkgver=5.0.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Linux Containers"
 arch=('x86_64')
 url="https://linuxcontainers.org"
 depends=('bash' 'perl' 'libseccomp' 'libcap' 'python' 'rsync' 'wget')
-makedepends=('docbook2x' 'lua' 'python-setuptools' 'apparmor' 'meson')
-optdepends=(
-      'lua'
-      'lua-filesystem: lxc-top'
-      'lua-alt-getopt: lxc-top')
+makedepends=('docbook2x' 'meson' 'lua' 'python-setuptools' 'apparmor')
+optdepends=('dnsmasq'
+	    'lua'
+	    'lua-filesystem: lxc-top'
+	    'lua-alt-getopt: lxc-top')
 license=('LGPL')
 options=('emptydirs' 'debug')
 backup=('etc/lxc/default.conf'
@@ -29,6 +29,7 @@ sha256sums=('72a1a5feb05dba2ef04e696304aeefd7cc314477f1fff890f7a2b4cec63b6cbe'
             'SKIP'
             '10e4f661872f773bf3122a2f9f2cb13344fea86a4ab72beecb4213be4325c479')
 
+
 prepare() {
   cd "$pkgname-${pkgver/_/-}"
   sed -i "s|if sanitize == 'none'|if false|g" src/lxc/cmd/meson.build
@@ -36,8 +37,8 @@ prepare() {
 
 build() {
   cd "$pkgname-${pkgver/_/-}"
-  meson --prefix=/usr --libexecdir=/usr/lib --sbindir=/usr/bin --buildtype=plain -Dinit-script=sysvinit . build
-  meson compile -C build
+  artix-meson -Dinit-script=sysvinit build
+  meson compile -C build -v
 }
 
 package() {
