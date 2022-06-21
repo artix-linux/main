@@ -10,7 +10,7 @@ arch=('any')
 url='https://gitlab.archlinux.org/pacman/namcap'
 license=('GPL')
 depends=('python' 'pyalpm' 'licenses' 'binutils' 'elfutils' 'python-pyelftools')
-checkdepends=('python-pytest' 'python-six')
+checkdepends=('elogind' 'python-pytest' 'python-six')
 makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
 source=(https://gitlab.archlinux.org/pacman/namcap/-/archive/${pkgver}/namcap-${pkgver}.tar.bz2
 	missing-desktop-file-utils.patch)
