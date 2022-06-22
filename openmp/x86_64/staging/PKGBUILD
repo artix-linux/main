@@ -30,6 +30,7 @@ build() {
     -DCMAKE_BUILD_TYPE=Release
     -DCMAKE_INSTALL_PREFIX=/usr
     -DLIBOMP_INSTALL_ALIASES=OFF
+    -DCMAKE_PREFIX_PATH=/usr
   )
   cmake .. "${cmake_args[@]}"
   ninja
