@@ -7954,7 +7954,7 @@
     "speexdsp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speexdsp.git",
       "branch": "master",
-      "revision": "ef574b0eafea36b1a2f04281453cdca846da0c9e"
+      "revision": "bc8f848457464f022d8d6043c0eb1223f9f40049"
     },
     "spirv-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-headers.git",
