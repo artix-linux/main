@@ -7949,7 +7949,7 @@
     "speex": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speex.git",
       "branch": "master",
-      "revision": "b1ea1b09d337f0b887074d1d7f41a782f17b5352"
+      "revision": "4284aa3cb99ab78ddda2f9e884470837ad359dc1"
     },
     "speexdsp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speexdsp.git",
