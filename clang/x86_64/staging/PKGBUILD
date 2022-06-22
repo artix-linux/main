@@ -89,6 +89,7 @@ build() {
     -DLLVM_LINK_LLVM_DYLIB=ON
     -DLLVM_MAIN_SRC_DIR="$srcdir/llvm-$pkgver.src"
     -DSPHINX_WARNINGS_AS_ERRORS=OFF
+    -DCMAKE_PREFIX_PATH=/usr
   )
 
   cmake .. "${cmake_args[@]}"
