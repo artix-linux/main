@@ -14,7 +14,7 @@ pkgdesc="A D Compiler based on the LLVM Compiler Infrastructure including D runt
 arch=('x86_64')
 url="https://github.com/ldc-developers/ldc"
 license=('BSD')
-makedepends=('git' 'cmake' 'llvm' 'ldc' 'ninja')
+makedepends=('git' 'cmake' 'llvm' 'ldc' 'ninja' 'llvm13-libs')
 # Disable lto as linking the ldc2 binary fails
 options=(!lto)
 
@@ -58,6 +58,7 @@ build() {
     -DLDC_WITH_LLD=OFF \
     -DD_COMPILER_FLAGS="-link-defaultlib-shared=false -linker=gold --flto=thin" \
     -DADDITIONAL_DEFAULT_LDC_SWITCHES="\"-link-defaultlib-shared\"" \
+    -DCMAKE_PREFIX_PATH=/usr \
     ..
     ninja
 }
