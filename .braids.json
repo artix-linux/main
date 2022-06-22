@@ -874,7 +874,7 @@
     "compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt.git",
       "branch": "master",
-      "revision": "847373e07ccbf718a0f88bc62c2af4cc3104874a"
+      "revision": "0c48f7640d8e3798355f189962b1fbb7331f988b"
     },
     "confuse": {
       "url": "gitea@gitea.artixlinux.org:packagesC/confuse.git",
