@@ -34,6 +34,7 @@ build() {
     -DLLDB_USE_SYSTEM_SIX=1
     -DLLVM_ENABLE_SPHINX=ON
     -DLLVM_LINK_LLVM_DYLIB=ON
+    -DCMAKE_PREFIX_PATH=/usr
   )
   cmake .. "${cmake_args[@]}"
   ninja all docs-lldb-man
