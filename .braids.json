@@ -5399,7 +5399,7 @@
     "maven": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maven.git",
       "branch": "master",
-      "revision": "3bdb14fb68d7710f79790c3efd5de01359a125d5"
+      "revision": "e72b9296907dd4fbb5f19c271c39f35a4697d2a9"
     },
     "mbedtls": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mbedtls.git",
