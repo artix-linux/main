@@ -5044,7 +5044,7 @@
     "linux-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-firmware.git",
       "branch": "master",
-      "revision": "7edb7dcaa23a4e8933b298172e5f43222af96659"
+      "revision": "9e9c613a729ab1f8cb516e4435e5d27e5fa44a28"
     },
     "linux-hardened": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-hardened.git",
