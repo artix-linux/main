@@ -65,14 +65,14 @@ Server = https://mirror1.cl.netactuate.com/artix/repos/$repo/os/$arch
 Server = https://mirrors.tuna.tsinghua.edu.cn/artixlinux/$repo/os/$arch
 Server = https://mirrors.aliyun.com/artixlinux/$repo/os/$arch
 Server = https://mirror.nju.edu.cn/artixlinux/$repo/os/$arch
-# Iran
-Server = https://mobintestserver.ir/artix-linux/$repo/os/$arch
 # Korea, Republic of
 Server = https://mirror.funami.tech/artix/$repo/os/$arch
 # Singapore
 Server = https://mirror.freedif.org/Artix/$repo/os/$arch
 # Taiwan
 Server = https://mirrors.cloud.tencent.com/artixlinux/$repo/os/$arch
+# Vietnam
+Server = https://mirrors.42tm.tech/artix-linux/$repo/os/$arch
 
 ## Oceania
 # Australia
