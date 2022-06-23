@@ -5734,7 +5734,7 @@
     "namcap": {
       "url": "gitea@gitea.artixlinux.org:packagesN/namcap.git",
       "branch": "master",
-      "revision": "2fe0b8dca9f01258bbaec36422b5abd0e8399e9b"
+      "revision": "7fb678e9465bc981a9a7782942e4fbf29b5b3135"
     },
     "nano": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nano.git",
