@@ -5079,7 +5079,7 @@
     "litehtml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/litehtml.git",
       "branch": "master",
-      "revision": "7f2b6473a7235004fd9f459a0c568eb6daa470f4"
+      "revision": "eb26b7ed5688d6d22f1c8c85d184ed7ac884b767"
     },
     "live-media": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-media.git",
