@@ -5439,7 +5439,7 @@
     "mediainfo": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mediainfo.git",
       "branch": "master",
-      "revision": "7a4fc9b20114dab47acd14e14145d3447680e9f5"
+      "revision": "92a427f42caca2454ab45a5ee47750597c0223e3"
     },
     "mediastreamer": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mediastreamer.git",
