@@ -5114,7 +5114,7 @@
     "llvm13": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm13.git",
       "branch": "master",
-      "revision": "07a471637088d2f3e92095a18860c348803483d5"
+      "revision": "d423c81f6bb543fce95a4351df53e95d532ec343"
     },
     "lm_sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors.git",
