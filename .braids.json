@@ -5594,7 +5594,7 @@
     "modemmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager.git",
       "branch": "master",
-      "revision": "effe08f85ebcac1acd6be9e82e53fbd5faaf45dc"
+      "revision": "2244ff15c1b5c79dbb0a3273eda201b852598554"
     },
     "mongo-c-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mongo-c-driver.git",
