@@ -739,7 +739,7 @@
     "clang": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clang.git",
       "branch": "master",
-      "revision": "c3b048885a84d88c6de26e992df7f0040d96ee39"
+      "revision": "cb90a1c11fec7b3606fcd3041c8b73a84259387f"
     },
     "classpath": {
       "url": "gitea@gitea.artixlinux.org:packagesC/classpath.git",
