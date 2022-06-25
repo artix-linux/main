@@ -5099,7 +5099,7 @@
     "lld": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lld.git",
       "branch": "master",
-      "revision": "737ab5971f0cdd377f2bb6783471d786371d682f"
+      "revision": "f2983b9fc0df32125955b6f24a844e5c5afd3110"
     },
     "lldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lldb.git",
