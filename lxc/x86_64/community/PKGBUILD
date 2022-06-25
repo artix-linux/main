@@ -1,4 +1,4 @@
-# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Morten Linderud <foxboron@archlinux.org>
 # Contributor: Andrea Zucchelli <zukka77@gmail.com>
 # Contributor: Daniel Micay <danielmicay@gmail.com>
@@ -7,14 +7,15 @@
 
 pkgname=lxc
 epoch=1
-pkgver=4.0.12
-pkgrel=1
+pkgver=5.0.0
+pkgrel=4
 pkgdesc="Linux Containers"
 arch=('x86_64')
 url="https://linuxcontainers.org"
 depends=('bash' 'perl' 'libseccomp' 'libcap' 'python' 'rsync' 'wget')
-makedepends=('docbook2x' 'lua' 'python-setuptools' 'apparmor')
-optdepends=('lua'
+makedepends=('docbook2x' 'meson' 'lua' 'python-setuptools' 'apparmor')
+optdepends=('dnsmasq'
+	    'lua'
 	    'lua-filesystem: lxc-top'
 	    'lua-alt-getopt: lxc-top')
 license=('LGPL')
@@ -24,40 +25,27 @@ backup=('etc/lxc/default.conf'
 validpgpkeys=('602F567663E593BCBD14F338C638974D64792D67')
 source=("https://linuxcontainers.org/downloads/lxc/$pkgname-${pkgver}.tar.gz"{,.asc}
 	"lxc.tmpfiles.d")
-sha256sums=('db242f8366fc63e8c7588bb2017b354173cf3c4b20abc18780debdc48b14d3ef'
+sha256sums=('72a1a5feb05dba2ef04e696304aeefd7cc314477f1fff890f7a2b4cec63b6cbe'
             'SKIP'
             '10e4f661872f773bf3122a2f9f2cb13344fea86a4ab72beecb4213be4325c479')
 
+
 prepare() {
   cd "$pkgname-${pkgver/_/-}"
-  sed -i \
-    -e 's|"\\"-//Davenport//DTD DocBook V3.0//EN\\""|"\\"-//OASIS//DTD DocBook XML\\" \\"https://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd\\""|' \
-    configure.ac
+  sed -i "s|if sanitize == 'none'|if false|g" src/lxc/cmd/meson.build
 }
 
 build() {
   cd "$pkgname-${pkgver/_/-}"
-  ./autogen.sh
-  bashcompdir=/usr/share/bash-completion/completions ./configure \
-    --prefix=/usr \
-    --sbindir=/usr/bin \
-    --localstatedir=/var \
-    --libexecdir=/usr/lib \
-    --libdir=/usr/lib \
-    --sysconfdir=/etc \
-    --enable-apparmor \
-    --enable-seccomp \
-    --enable-capabilities \
-    --enable-pam \
-    --disable-werror \
-    --with-pamdir=/usr/lib/security
-  make
+  artix-meson -Dinit-script=sysvinit build
+  meson compile -C build -v
 }
 
 package() {
   cd "$pkgname-${pkgver/_/-}"
 
-  make DESTDIR="$pkgdir" install
+  meson install -C build --destdir "$pkgdir"
+
   install -d -m755 "$pkgdir/var/lib/lxc"
   install -d -m755 "$pkgdir/usr/lib/lxc/rootfs/dev"
   install -D -m644 "$srcdir"/lxc.tmpfiles.d "$pkgdir"/usr/lib/tmpfiles.d/lxc.conf
