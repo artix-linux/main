@@ -12,7 +12,7 @@ depends=('llvm13-libs' 'gcc')
 makedepends=('llvm13' 'cmake' 'ninja' 'python')
 optdepends=('openmp: OpenMP support in clang with -fopenmp'
             'llvm13: referenced by some clang headers')
-checkdepends=('llvm')
+#checkdepends=('llvm13')
 _source_base=https://github.com/llvm/llvm-project/releases/download/llvmorg-$pkgver
 source=($_source_base/clang-$pkgver.src.tar.xz{,.sig}
         $_source_base/llvm-$pkgver.src.tar.xz{,.sig}
@@ -89,10 +89,10 @@ build() {
   ninja
 }
 
-check() {
-  cd clang-$pkgver.src/build
-  LD_LIBRARY_PATH=$PWD/lib ninja check-clang
-}
+#check() {
+#  cd clang-$pkgver.src/build
+#  LD_LIBRARY_PATH=$PWD/lib ninja check-clang
+#}
 
 package() {
   cd clang-$pkgver.src/build
