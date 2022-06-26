@@ -369,7 +369,7 @@
     "aws-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-cli.git",
       "branch": "master",
-      "revision": "55da2c383fb1b73d6c8ba2c2ff2d37cbb5a16d80"
+      "revision": "954f03c45a240a3370b3e8289ae4b606b6a4fdd7"
     },
     "b43-fwcutter": {
       "url": "gitea@gitea.artixlinux.org:packagesB/b43-fwcutter.git",
