@@ -5109,7 +5109,7 @@
     "lld13": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lld13.git",
       "branch": "master",
-      "revision": "c2c3b867f49c86156eed736e5dd7f4b80c449fbc"
+      "revision": "90a5d13ab59b9b20c04059286cb93d949341f533"
     },
     "lldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lldb.git",
