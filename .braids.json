@@ -8159,7 +8159,7 @@
     "syslog-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng.git",
       "branch": "master",
-      "revision": "1eea911725362ff7678781666910da37dbf8f8b8"
+      "revision": "075b691cfa51b3d6ae6b6cac4aacd724ac99e85b"
     },
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
