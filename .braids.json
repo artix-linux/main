@@ -466,6 +466,11 @@
       "branch": "master",
       "revision": "aec292471a52b71df6f725f72d75ff742a5e258e"
     },
+    "blockdiag": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/blockdiag.git",
+      "branch": "master",
+      "revision": "9740b06a30dc7741b9521380182ed6f338c6ea27"
+    },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
