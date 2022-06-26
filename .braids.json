@@ -2646,6 +2646,11 @@
       "branch": "master",
       "revision": "ea46010d08c7e38bcaad6fa67788e4e5279086c3"
     },
+    "hy": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hy.git",
+      "branch": "master",
+      "revision": "4a0535fd7d5687e51fd5f65a686e05c0de3b1e12"
+    },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
