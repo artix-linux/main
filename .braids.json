@@ -3454,7 +3454,7 @@
     "libclc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libclc.git",
       "branch": "master",
-      "revision": "b22f3673441217e032028eb93c9d75d2991b1346"
+      "revision": "5ddf10c00d28b2ff9c7720d90a972a596ba35a72"
     },
     "libcmis": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcmis.git",
