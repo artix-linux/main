@@ -4609,7 +4609,7 @@
     "liburing": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liburing.git",
       "branch": "master",
-      "revision": "6b17ddf8d67365aea899a7d6ef6e7c16fd42d8df"
+      "revision": "f327eae714ab17352b1a4d8b2f86be4bf1b020f0"
     },
     "libusb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusb.git",
