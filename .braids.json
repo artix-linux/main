@@ -5874,7 +5874,7 @@
     "newsboat": {
       "url": "gitea@gitea.artixlinux.org:packagesN/newsboat.git",
       "branch": "master",
-      "revision": "5b134d921d28a29668f1d95cbd3c6363d5f579d9"
+      "revision": "d3a918cef80a85bdd982acf6f29d81ffcb6c27e6"
     },
     "nfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils.git",
