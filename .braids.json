@@ -171,6 +171,11 @@
       "branch": "master",
       "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
     },
+    "archivetools": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/archivetools.git",
+      "branch": "master",
+      "revision": "9fbc2c5330e218393902c8d307399ecd0f693526"
+    },
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
       "branch": "master",
