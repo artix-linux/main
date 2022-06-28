@@ -8214,7 +8214,7 @@
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
       "branch": "master",
-      "revision": "ecd754171e4404c252c7542c33720b87848b90c7"
+      "revision": "42cf2b3137c3673f04b904c2fa2c31786f8b3a88"
     },
     "tcc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tcc.git",
