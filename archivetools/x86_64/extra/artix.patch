@@ -1,0 +1,34 @@
+diff -ruN archivetools-arch/archive-cleaner archivetools/archive-cleaner
+--- archivetools-arch/archive-cleaner	2022-06-28 12:15:00.396977752 +0300
++++ archivetools/archive-cleaner	2022-06-28 12:18:11.926611550 +0300
+@@ -21,7 +21,7 @@
+ SIG_EXT = '.sig'
+ DEFAULT_ARCHIVE_DIR = '/srv/archive'
+ DEFAULT_SOURCE_DIR = '/srv/ftp'
+-SOURCE_WHITELIST = ['core', 'extra', 'staging', 'testing', 'community', 'community-staging', 'community-testing', 'multilib', 'multilib-staging', 'multilib-testing', 'gnome-unstable', 'kde-unstable']
++SOURCE_WHITELIST = ['system', 'world', 'goblins', 'gremlins', 'galaxy', 'galaxy-goblins', 'galaxy-gremlins', 'lib32', 'lib32-goblins', 'lib32-gremlins', 'gnome-wobble', 'kde-woble']
+ DEFAULT_KEEP_YEARS = 3
+ 
+ 
+diff -ruN archivetools-arch/archive.sh archivetools/archive.sh
+--- archivetools-arch/archive.sh	2022-06-28 12:15:00.396977752 +0300
++++ archivetools/archive.sh	2022-06-28 21:59:47.437501775 +0300
+@@ -67,11 +67,11 @@
+ # generate a temporary file with rsync filter list for repo sync
+ gen_repo_filter() {
+ 	local tmp_file="$(mktemp)"
+-	local _dir _dirs=(core extra testing staging
+-		community community-testing community-staging
+-		multilib multilib-testing multilib-staging
+-		kde-unstable gnome-unstable
+-		pool sources)
++        local _dir _dirs=(system world goblins gremlins
++                galaxy galaxy-gremlins galaxy-goblins
++                lib32 lib32-gremlins lib32-goblins
++                kde-wobble gnome-wobble
++                universe)
+ 	for _dir in "${_dirs[@]}"; do
+ 		echo "+ /$_dir/" >> "$tmp_file"
+ 	done
+ 
+ # vim:set ts=2 sw=2 et:
