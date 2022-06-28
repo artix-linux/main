@@ -1,8 +1,8 @@
-# Maintainer: Christian Hesse <mail@eworm.de>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Dan McGee <dan@archlinux.org>
 
 pkgname=git
-pkgver=2.36.1
+pkgver=2.37.0
 pkgrel=1
 pkgdesc='the fast distributed version control system'
 arch=('x86_64')
@@ -24,11 +24,12 @@ optdepends=('tk: gitk and git gui'
             'subversion: git svn'
             'org.freedesktop.secrets: keyring credential helper'
             'libsecret: libsecret credential helper')
+options=('debug')
 install=git.install
 validpgpkeys=('96E07AF25771955980DAD10020D04E5A713660A7') # Junio C Hamano
 source=("https://www.kernel.org/pub/software/scm/git/git-$pkgver.tar."{xz,sign}
         'git-sysusers.conf')
-sha256sums=('405d4a0ff6e818d1f12b3e92e1ac060f612adcb454f6299f70583058cb508370'
+sha256sums=('9f7fa1711bd00c4ec3dde2fe44407dc13f12e4772b5e3c72a58db4c07495411f'
             'SKIP'
             '7630e8245526ad80f703fac9900a1328588c503ce32b37b9f8811674fcda4a45')
 
@@ -84,7 +85,7 @@ check() {
 
 package() {
   cd "$srcdir/$pkgname-$pkgver"
-
+  
   make \
     "${_make_paths[@]}" \
     "${_make_options[@]}" \
