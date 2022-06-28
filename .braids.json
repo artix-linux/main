@@ -4044,7 +4044,7 @@
     "libmp4v2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmp4v2.git",
       "branch": "master",
-      "revision": "e1db8769cfea659998ef7f4fd225d76dd5819b2c"
+      "revision": "461f3d7864c1edbb296dbaf2aa9ab22c788da7e9"
     },
     "libmpc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmpc.git",
