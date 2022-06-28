@@ -174,7 +174,7 @@
     "archivetools": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archivetools.git",
       "branch": "master",
-      "revision": "9fbc2c5330e218393902c8d307399ecd0f693526"
+      "revision": "b0802733323112ab4e3ed99da6b358c198b2471f"
     },
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
