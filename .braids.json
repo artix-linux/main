@@ -5549,7 +5549,7 @@
     "mitmproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mitmproxy.git",
       "branch": "master",
-      "revision": "1f0afb77642deaaa59ecea741839985783d3df02"
+      "revision": "6ac5a83a9979221e992db1e0e8afd4d578df3ff5"
     },
     "mjpegtools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mjpegtools.git",
