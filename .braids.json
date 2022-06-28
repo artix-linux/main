@@ -8869,7 +8869,7 @@
     "vkd3d": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vkd3d.git",
       "branch": "master",
-      "revision": "a0adca614bac8229aabff338c0f6f9c4f9327edd"
+      "revision": "784234f76023334e4419f23242b3a520395c6db1"
     },
     "vmaf": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vmaf.git",
