@@ -9619,7 +9619,7 @@
     "yt-dlp": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yt-dlp.git",
       "branch": "master",
-      "revision": "64eb44b125198d0969ecd8f7d54c2a76b037cd0b"
+      "revision": "65b831c2a2c0d6dc4158c68996a15922b78412bc"
     },
     "yubico-c": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yubico-c.git",
