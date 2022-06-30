@@ -1,2 +1,0 @@
-# virtualbox-modules-artix
-
