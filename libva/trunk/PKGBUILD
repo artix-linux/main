@@ -1,9 +1,9 @@
-# Maintainer: Maxime Gauduin <alucryd@archlonux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 
 pkgname=libva
-pkgver=2.14.0
+pkgver=2.15.0
 pkgrel=1
 pkgdesc='Video Acceleration (VA) API for Linux'
 arch=(x86_64)
@@ -36,7 +36,7 @@ provides=(
   libva.so
 )
 backup=(etc/libva.conf)
-_tag=eec9f7132d4677575f929fc1dd3babc349cc56da
+_tag=b095d10bf355110352e75c22e581018a7ea7de5a
 source=(git+https://github.com/intel/libva.git#tag=${_tag})
 sha256sums=(SKIP)
 
