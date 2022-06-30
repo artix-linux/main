@@ -2109,7 +2109,7 @@
     "glib-networking": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glib-networking.git",
       "branch": "master",
-      "revision": "ee332c549f1bbf3ad642ada9182e153683d79757"
+      "revision": "7030dba6a6f00189298b038d09eb71e45393669e"
     },
     "glib2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glib2.git",
