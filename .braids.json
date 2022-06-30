@@ -6044,7 +6044,7 @@
     "nvidia-settings": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-settings.git",
       "branch": "master",
-      "revision": "2dd3b4da2c2ff0635e3efbb1889f9a82888bf3be"
+      "revision": "78caa3aa8072b9d1a8a6c1a12226398749c898ec"
     },
     "nvidia-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-utils.git",
