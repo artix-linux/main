@@ -2019,7 +2019,7 @@
     "geocode-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geocode-glib.git",
       "branch": "master",
-      "revision": "0ba23e2175638c996a6744e5a2c7ec069862f4a8"
+      "revision": "bbef0d0b3aca4256c4bc85ce27a21ca659d32af7"
     },
     "geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip.git",
