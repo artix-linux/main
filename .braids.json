@@ -1129,7 +1129,7 @@
     "deluge": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge.git",
       "branch": "master",
-      "revision": "67ba5072bd17c9c468283fe365bf317104be681c"
+      "revision": "e9e94c6c920f5d70f191ae5ed1d25c884b29fa01"
     },
     "desktop-file-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesD/desktop-file-utils.git",
