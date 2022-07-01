@@ -4409,7 +4409,7 @@
     "libsecp256k1": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsecp256k1.git",
       "branch": "master",
-      "revision": "412388f9fe0c076749c7e0d24a93bc1a1c6f50b8"
+      "revision": "f9d63697b1772177616f5c29a8f2ea3d2b56455a"
     },
     "libsecret": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsecret.git",
