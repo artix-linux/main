@@ -1,9 +1,9 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: André Klitzing <aklitzing () gmail () com>
 
 pkgname=clazy
 pkgver=1.11
-pkgrel=1
+pkgrel=2
 pkgdesc='Qt oriented code checker based on clang framework'
 url='https://www.kdab.com/'
 license=(GPL2)
