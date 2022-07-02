@@ -2769,7 +2769,7 @@
     "intel-compute-runtime": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-compute-runtime.git",
       "branch": "master",
-      "revision": "832f95f6de606374ff0353ec75c2d05a090ea5da"
+      "revision": "93b8359b3a31b28f2230ddf52fa7383f861a3a1f"
     },
     "intel-gmmlib": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-gmmlib.git",
