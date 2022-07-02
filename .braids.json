@@ -8426,6 +8426,11 @@
       "branch": "master",
       "revision": "cdb44720be0ed509db4ca7f15572a0b55fccd54f"
     },
+    "torsocks": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/torsocks.git",
+      "branch": "master",
+      "revision": "49067a23fe9ed989b6cc44225b6ec15f76706bda"
+    },
     "towncrier": {
       "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
       "branch": "master",
