@@ -3924,7 +3924,7 @@
     "liblangtag": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblangtag.git",
       "branch": "master",
-      "revision": "8ee02b7eabec94dfad5109d4c64ecf7dfd2632a2"
+      "revision": "38828d3f2bdd704442864f378816404393ed579a"
     },
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
