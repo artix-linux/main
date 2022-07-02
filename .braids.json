@@ -1209,7 +1209,7 @@
     "dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dkms.git",
       "branch": "master",
-      "revision": "41954d3532d668cb24eb6a0fb0f8ead97c2064e7"
+      "revision": "7708cd96cd493bba23542c23870fdfd52328f781"
     },
     "dmd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmd.git",
