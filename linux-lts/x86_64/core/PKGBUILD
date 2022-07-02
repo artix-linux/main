@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgbase=linux-lts
-pkgver=5.15.48
+pkgver=5.15.50
 pkgrel=1
 pkgdesc='LTS Linux'
 url="https://www.kernel.org/"
@@ -28,9 +28,9 @@ validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
 )
 # https://www.kernel.org/pub/linux/kernel/v5.x/sha256sums.asc
-sha256sums=('19f0075d1b94d6874a2af7127a59b6b6c423fc7d4a883a51415543e7ec1be2a6'
+sha256sums=('554d507d37a23810fe8c83912761e4a4f73c40794bc685ff7ca98042fe1bd70f'
             'SKIP'
-            'ef3457a3e240541ebc812cea71a2298de60f40aa6f47ea453075d52abaa961b4'
+            '3ea13c250bd11caade70a8e3a4017a7dea223d679c018189c3e2fbea68304347'
             '99df282c594cc269d9a5d19bb86ea887892d3654cfc53c4ce94a644cf3278423'
             'c35018601f04ae81e0a2018a8597595db6ae053158c206845399cdebb2d2b706'
             '7c7707c738983f3683d76295b496f578996b7341fa39ad334ec2833bfe4b966e'
@@ -74,8 +74,7 @@ prepare() {
 
 build() {
   cd $_srcname
-  make all
-  make htmldocs
+  make htmldocs all
 }
 
 _package() {
