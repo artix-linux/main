@@ -5779,7 +5779,7 @@
     "nauty": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nauty.git",
       "branch": "master",
-      "revision": "4552d3d1a847b786f7315a74dea86af8dc3e711d"
+      "revision": "543a4ab699fe7f7b79c441ec65721f4bcaabe52b"
     },
     "nbd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nbd.git",
