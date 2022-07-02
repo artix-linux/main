@@ -789,7 +789,7 @@
     "cloud-init": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cloud-init.git",
       "branch": "master",
-      "revision": "1b2ef32e5aa424a2ad854331a96a49e07d86dd87"
+      "revision": "0a63344fd4d4fe1dc93e51da1c5ad5b52ff98f22"
     },
     "clutter": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clutter.git",
