@@ -6659,7 +6659,7 @@
     "postgresql-old-upgrade": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-old-upgrade.git",
       "branch": "master",
-      "revision": "71a3dca648223c8b5cb10010178d1d7c1bec461f"
+      "revision": "fef2ccd63035c640db23be6154a615cde16b6192"
     },
     "postgrey": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey.git",
