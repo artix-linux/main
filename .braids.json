@@ -6404,7 +6404,7 @@
     "pango": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pango.git",
       "branch": "master",
-      "revision": "37bb04639724c25e4f3c9e9eea136b062114b472"
+      "revision": "dada7d71c10cd2da59c2b5629eef137ef38ea8ad"
     },
     "pangomm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pangomm.git",
