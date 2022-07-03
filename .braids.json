@@ -5009,7 +5009,7 @@
     "libzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libzip.git",
       "branch": "master",
-      "revision": "67068d07e7fba05df1f1a8ce0577ae794fc268ae"
+      "revision": "6cf42d49d311b12ea4e991693961d5c47c3d9fb1"
     },
     "libzmf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libzmf.git",
