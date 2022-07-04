@@ -5499,7 +5499,7 @@
     "meson": {
       "url": "gitea@gitea.artixlinux.org:packagesM/meson.git",
       "branch": "master",
-      "revision": "0d7b6cf61a52fea9476a0ae5cb610907474ad730"
+      "revision": "de398c680a00597fc7f3e022347f2be75949a48b"
     },
     "metalog": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog.git",
