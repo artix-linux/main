@@ -3524,7 +3524,7 @@
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
       "branch": "master",
-      "revision": "14a6ecc2c7c63469f54aacdd0b89be8bdd79b43f"
+      "revision": "3fdbc0d375f1f6685f5cce570b24bb56e181e793"
     },
     "libdnet": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdnet.git",
