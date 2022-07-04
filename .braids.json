@@ -4694,7 +4694,7 @@
     "libvirt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt.git",
       "branch": "master",
-      "revision": "e04cef646f9d1757c6e8393be764af87b4f54e1a"
+      "revision": "3cc90d9b513d05e1181adfe317c66e75ff1092ac"
     },
     "libvirt-python": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-python.git",
