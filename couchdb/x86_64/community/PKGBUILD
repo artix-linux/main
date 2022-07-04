@@ -1,11 +1,11 @@
-# Maintainer: Bruno Pagani <archange@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Vitaliy Berdinskikh ur6lad[at]i.ua
 # Contributor: Michael Fellinger <m.fellinger@gmail.com>
 
 pkgname=couchdb
 pkgver=3.2.2
-pkgrel=2.1
+pkgrel=3
 pkgdesc="Document-oriented database that can be queried and indexed in a MapReduce fashion using JSON"
 arch=(x86_64)
 url="https://couchdb.apache.org"
@@ -16,13 +16,16 @@ makedepends=(erlang-nox)
 backup=(etc/couchdb/local.ini
         etc/couchdb/vm.args
         etc/default/couchdb)
-source=("https://archive.apache.org/dist/${pkgname}/source/${pkgver}/apache-${pkgname}-${pkgver}.tar.gz"          couchdb.default
+source=("https://archive.apache.org/dist/${pkgname}/source/${pkgver}/apache-${pkgname}-${pkgver}.tar.gz"
+        couchdb.default
         couchdb.sysusers
         couchdb.tmpfiles)
-sha256sums=(69c9fd6f80133557f68a02e92dda72a4fd646d646f429f45bb8329a30f82f20e
-            0d21fdd7851b3a6fa099b030cab0e96705b1d5a3a83a4ff1c871814d8742cae9
-            3ed1ad2a37a068ce194b03fb72eb35285d60fa7faf2d2c2bb710703d229108a8
-            7331b9675e3668c5f0d632bee5d154c061cc3e60d451bef3dc0d0ab2dadfa006)
+options=(debug)
+sha256sums=('69c9fd6f80133557f68a02e92dda72a4fd646d646f429f45bb8329a30f82f20e'
+            '0d21fdd7851b3a6fa099b030cab0e96705b1d5a3a83a4ff1c871814d8742cae9'
+            '3ed1ad2a37a068ce194b03fb72eb35285d60fa7faf2d2c2bb710703d229108a8'
+            '7331b9675e3668c5f0d632bee5d154c061cc3e60d451bef3dc0d0ab2dadfa006')
+# https://downloads.apache.org/couchdb/KEYS
 validpgpkeys=(2EC788AE3F239FA13E82D215CDE711289384AE37  # Joan Touzet (CODE SIGNING KEY) <wohali@apache.org>
               D2B17F9DA23C0A10991AF2E3D9EE01E47852AEE4  # Jan Lehnardt <jan@apache.org>
               0BD7A98499C4AB41C910EE65FC04DFBC9657A78E) # Nick Vatamaniuc <vatamane@gmail.com>
