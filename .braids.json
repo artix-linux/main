@@ -1219,7 +1219,7 @@
     "dmidecode": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmidecode.git",
       "branch": "master",
-      "revision": "15c6d198d24470cba28f01856c124615a7f8f805"
+      "revision": "71a6101deced07e9298185f931ef26d9b057a511"
     },
     "dmraid": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmraid.git",
