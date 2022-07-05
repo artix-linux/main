@@ -1664,7 +1664,7 @@
     "fcitx5-configtool": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-configtool.git",
       "branch": "master",
-      "revision": "7bb611c63179e42a1bec88f422c499864ea6bca9"
+      "revision": "906f323dbf5a754c768b7322c086cef66bb8cb49"
     },
     "fcitx5-gtk": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-gtk.git",
