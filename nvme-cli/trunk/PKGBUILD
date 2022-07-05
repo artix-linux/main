@@ -1,4 +1,4 @@
-# Maintainer: Morten Linderud <foxboron@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Devin Cofer <ranguvar[at]ranguvar[dot]io>
 # Contributor: DriverX
 # Contributor: Nicolas Quiénot <niQo @ aur>
@@ -6,13 +6,13 @@
 
 pkgname=nvme-cli
 pkgver=2.0
-pkgrel=2
+pkgrel=3
 pkgdesc="NVM-Express user space tooling for Linux"
 arch=('i686' 'x86_64')
 url="https://github.com/linux-nvme/nvme-cli"
 license=('GPL')
-makedepends=('libeudev' 'meson' 'git')
 depends=('util-linux')
+makedepends=('libudev' 'meson' 'git')
 options=(debug strip)
 install=nvme-cli.install
 # checkdepends=('python2-nose' 'python-nose')
