@@ -9554,7 +9554,7 @@
     "xwallpaper": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xwallpaper.git",
       "branch": "master",
-      "revision": "e00d2697528935a05f0be8a1db5cd35114e117b5"
+      "revision": "06941636b46efdca050c5ba44fd535d7ef864808"
     },
     "xxhash": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xxhash.git",
