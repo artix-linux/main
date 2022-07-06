@@ -2389,7 +2389,7 @@
     "gtest": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtest.git",
       "branch": "master",
-      "revision": "6d252f9de1aff6ab7ce4177e1a78db9f6d44f88d"
+      "revision": "9a30cc621fa77158ef02d5e7fc9cbf9866f15258"
     },
     "gtk-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk-doc.git",
