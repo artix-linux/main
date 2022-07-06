@@ -7354,7 +7354,7 @@
     "r": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r.git",
       "branch": "master",
-      "revision": "6a84fa6968f407aab96eb68e3648ff86ee269d99"
+      "revision": "2fe83cf392c3d692547bb0bb3a684a38853f9199"
     },
     "r8168": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r8168.git",
