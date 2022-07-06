@@ -6349,7 +6349,7 @@
     "ospray": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ospray.git",
       "branch": "master",
-      "revision": "191e4467cf27cadcccf6487e12cf1d2706400906"
+      "revision": "1d9d84271cf3d688be5945b6ba3c4028009a8d24"
     },
     "p11-kit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/p11-kit.git",
