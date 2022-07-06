@@ -1,31 +1,32 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Torr <torr[at]artixlinux[dot]org>
+# Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Daniel Micay <danielmicay@gmail.com>
 # Contributor: Nicolas Pouillard <nicolas.pouillard@gmail.com>
 # Contributor: Rorschach <r0rschach@lavabit.com>
 
 pkgname=torsocks
 pkgver=2.3.0
-pkgrel=2
-pkgdesc='Wrapper to safely torify applications'
+pkgrel=2.1
+pkgdesc='Wrapper to transparently torify an application'
 url='https://gitweb.torproject.org/torsocks.git/'
 arch=('x86_64')
-license=('GPL2')
 depends=('tor')
-backup=("etc/tor/${pkgname}.conf")
-source=(https://people.torproject.org/~dgoulet/${pkgname}/${pkgname}-${pkgver}.tar.xz{,.asc})
+backup=("etc/tor/$pkgname.conf")
+source=(https://people.torproject.org/~dgoulet/$pkgname/$pkgname-$pkgver.tar.xz{,.asc})
 sha512sums=('4888caaffdcfebf3673e14f3491eae6aa84ca0a4a2a812ba7bdac2abb471307e89a3c5cffe7691fb6f190c7bd9ea455ee9a223d909a39152be8524f590be2031'
-            'SKIP')
+	'd9f611d338fb0fc1837e8aceb6f61ed3ed7430d26791827207f3c12b8ba6b54bae5806721d117d94cec76b230d31b67e331dfa30a10870e413d03f35cb70b39a')
 validpgpkeys=('B74417EDDF22AC9F9E90F49142E86A2A11F48D36')
+license=('GPL2')
+
 
 build() {
-  cd ${pkgname}-${pkgver}
-  ./configure \
-    --prefix=/usr \
-    --sysconfdir=/etc
-  make
+	cd $pkgname-$pkgver
+	./configure --prefix=/usr \
+		--sysconfdir=/etc
+	make
 }
 
 package() {
-  cd ${pkgname}-${pkgver}
-  make DESTDIR="${pkgdir}" install
+	cd $pkgname-$pkgver
+	make DESTDIR="$pkgdir" install
 }
