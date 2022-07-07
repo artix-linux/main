@@ -9104,7 +9104,7 @@
     "wxwidgets": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wxwidgets.git",
       "branch": "master",
-      "revision": "fd4a6d0b72cf67fa767dd42a72c34c10a1193667"
+      "revision": "01177c6e36d1e71999575dae73e65180be56760d"
     },
     "x11-ssh-askpass": {
       "url": "gitea@gitea.artixlinux.org:packagesX/x11-ssh-askpass.git",
