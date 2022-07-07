@@ -8429,7 +8429,7 @@
     "torsocks": {
       "url": "gitea@gitea.artixlinux.org:packagesT/torsocks.git",
       "branch": "master",
-      "revision": "8d35f4e674d92d21cd96d5c91534535ae1830782"
+      "revision": "ca2750a5b10c66b65b381223474c3d0a98dab890"
     },
     "towncrier": {
       "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
