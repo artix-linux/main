@@ -20,7 +20,7 @@ sha512sums=('0925adf973d642fd76d4089b61b3882babb0a85050c4c57d5f5f3bd6b17564a9feb
             '618a529fcd0a5029160fc6ef74439b7cb54ca74d13d52dd6cad005710bf1be263d0bf90bc4becc63a37929ac2f86c51278685e9da93fd82355ac646cb43b356f')
 
 prepare() {
-  patch -Np1 -i ../cmake-artix.patch
+  patch -d $pkgname-$pkgver -p1 -i "$srcdir"/cmake-artix.patch
   patch -d $pkgname-$pkgver -p1 < wxwidgets-3.2.patch # Support wxWidgets 3.2
 }
 
