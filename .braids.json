@@ -9584,7 +9584,7 @@
     "yamllint": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yamllint.git",
       "branch": "master",
-      "revision": "20836c091f026b0ce19fcdee22f31da0e8dd2d99"
+      "revision": "0bc3b8ad15747a413a5480fada679180bb76860e"
     },
     "yapf": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yapf.git",
