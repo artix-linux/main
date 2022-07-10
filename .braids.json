@@ -489,7 +489,7 @@
     "boinc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc.git",
       "branch": "master",
-      "revision": "d86d70f6663804d3c7f8a677fbb880b650267b9f"
+      "revision": "6e2dd95ff53395d298c71bef85b0bf3e96c484c4"
     },
     "bolt": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bolt.git",
