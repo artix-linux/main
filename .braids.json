@@ -9234,7 +9234,7 @@
     "xf86-input-synaptics": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-synaptics.git",
       "branch": "master",
-      "revision": "b5bcd01b8ff29e8baf56d3802bbe9d220be98101"
+      "revision": "a7facd480cc45275dcff971fe2fa17fae35b975a"
     },
     "xf86-input-vmmouse": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-vmmouse.git",
