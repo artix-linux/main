@@ -1,9 +1,9 @@
-# Maintainer: George Rawlinson <grawlinson@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Jelle van der Waa <jelle@archlinux.org>
 # Contributor: Stéphane Gaudreault <stephane@archlinux.org>
 
 pkgname=cppcheck
-pkgver=2.8
+pkgver=2.8.1
 pkgrel=1
 pkgdesc='A tool for static C/C++ code analysis'
 arch=('x86_64')
@@ -29,7 +29,7 @@ optdepends=(
   'clang: for cppcheck-gui integration'
 )
 options=('debug')
-_commit='61f846073d9c348b408b21230790007bc8a022c2'
+_commit='ac38e9fdb30f242f9bd66b9552db14561885931c'
 source=(
   "$pkgname::git+https://github.com/danmar/cppcheck.git#commit=$_commit"
   'translations-location.patch'
@@ -57,7 +57,7 @@ build() {
 
   # Manuals
   pushd "$pkgname"
-  xsversion=$(pacman -Qi docbook-xsl | grep ^Version | sed -e 's/.*: //' -e 's/-.*$//')
+  xsversion=$(pacman -Qi docbook-xsl | grep ^Version | sed -e 's/.*: //' -e 's/-[0-9]$//')
   make DB2MAN=/usr/share/xml/docbook/xsl-stylesheets-${xsversion}-nons/manpages/docbook.xsl man
   pandoc man/manual.md -o man/manual.html -s --number-sections --toc
   pandoc man/reference-cfg-format.md -o man/reference-cfg-format.html -s --number-sections --toc
