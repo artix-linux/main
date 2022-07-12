@@ -9479,7 +9479,7 @@
     "xorg-xmodmap": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmodmap.git",
       "branch": "master",
-      "revision": "5918d0857f6ba13ef0bbb755ec8258abe317a2d2"
+      "revision": "4c4812fda578584faac1b1e803af41615a712266"
     },
     "xorg-xprop": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xprop.git",
