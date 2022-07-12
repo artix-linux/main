@@ -9444,7 +9444,7 @@
     "xorg-xev": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xev.git",
       "branch": "master",
-      "revision": "b9b81b9f585a60273a5926da3de87b8ec71721af"
+      "revision": "bd7cba8e00bc9bc1329c88784feabe9f5abba6a2"
     },
     "xorg-xeyes": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xeyes.git",
