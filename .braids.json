@@ -9074,7 +9074,7 @@
     "wolfssl": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wolfssl.git",
       "branch": "master",
-      "revision": "b7b0d09d86d0e0ccd49c9902318793de141f8aa1"
+      "revision": "7a22612a287edd9cb1603061f1ff0c31bad73a1c"
     },
     "wpa_supplicant": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant.git",
