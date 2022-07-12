@@ -119,7 +119,7 @@
     "amule": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amule.git",
       "branch": "master",
-      "revision": "adb6b3a9c2c73af03788d8161bc077858e583548"
+      "revision": "b999fac8dd9b093c5764ad70f449024d216f2f60"
     },
     "ant": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ant.git",
