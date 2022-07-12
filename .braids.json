@@ -9474,7 +9474,7 @@
     "xorg-xmessage": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmessage.git",
       "branch": "master",
-      "revision": "5c354be489ca7b5a5e4f4e90b5554f1d95e45838"
+      "revision": "91523d6c83f703fcc6081688fe2b5273e7e84a65"
     },
     "xorg-xmodmap": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmodmap.git",
