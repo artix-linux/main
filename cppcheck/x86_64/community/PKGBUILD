@@ -55,13 +55,14 @@ prepare() {
 build() {
   export CXXFLAGS+=" -DNDEBUG"
 
+# Currently can not find manpage docs
   # Manuals
-  pushd "$pkgname"
-  xsversion=$(pacman -Qi docbook-xsl | grep ^Version | sed -e 's/.*: //' -e 's/-[0-9]$//')
-  make DB2MAN=/usr/share/xml/docbook/xsl-stylesheets-${xsversion}-nons/manpages/docbook.xsl man
-  pandoc man/manual.md -o man/manual.html -s --number-sections --toc
-  pandoc man/reference-cfg-format.md -o man/reference-cfg-format.html -s --number-sections --toc
-  popd
+#  pushd "$pkgname"
+#  xsversion=$(pacman -Qi docbook-xsl | grep ^Version | sed -e 's/.*: //' -e 's/-[0-9]$//')
+#  make man DB2MAN=/usr/share/xml/docbook/xsl-stylesheets-${xsversion}-nons/manpages/docbook.xsl man
+#  pandoc man/manual.md -o man/manual.html -s --number-sections --toc
+#  pandoc man/reference-cfg-format.md -o man/reference-cfg-format.html -s --number-sections --toc
+#  popd
 
   cmake \
     -B build \
@@ -89,7 +90,7 @@ package() {
 
   cd "$pkgname"
 
-  install -vDm644 -t "$pkgdir/usr/share/man/man1" cppcheck.1
+  #install -vDm644 -t "$pkgdir/usr/share/man/man1" cppcheck.1
   install -vDm755 -t "$pkgdir/usr/bin" htmlreport/cppcheck-htmlreport
 
   # Fix location of language files
