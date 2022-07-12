@@ -9369,7 +9369,7 @@
     "xorg-font-util": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-font-util.git",
       "branch": "master",
-      "revision": "a691cc5dd850272b104ad5e3659a1b94f623e223"
+      "revision": "644fc82b950f3dc634ce2f0af22ea31458dfcf18"
     },
     "xorg-fonts-alias": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-alias.git",
