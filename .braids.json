@@ -1094,7 +1094,7 @@
     "dbus-c++": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-cplusplus.git",
       "branch": "master",
-      "revision": "53ef744cb49868b57090eab36e8814a5373072df"
+      "revision": "cb992248ba6dc20811f84afd3cf11987191ae03c"
     },
     "dbus-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-glib.git",
