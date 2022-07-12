@@ -6614,7 +6614,7 @@
     "polkit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/polkit.git",
       "branch": "master",
-      "revision": "26be89b5a7109762ee976fb1f8ddf20504327ddf"
+      "revision": "d42105d35be529ebdc5a82c38ea0fa15c73da585"
     },
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
