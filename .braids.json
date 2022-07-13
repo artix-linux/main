@@ -5979,7 +5979,7 @@
     "npm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/npm.git",
       "branch": "master",
-      "revision": "d760ae771e50d7af45ca1ea8c1c781f262182b01"
+      "revision": "3e073834700ab69065bc41b0089e7b6babb47216"
     },
     "npth": {
       "url": "gitea@gitea.artixlinux.org:packagesN/npth.git",
