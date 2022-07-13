@@ -2204,7 +2204,7 @@
     "go": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go.git",
       "branch": "master",
-      "revision": "cae84f0f6bbc386489fd39e498d7ebc2a68bca47"
+      "revision": "0b59bca23dc4f79be246e5036db59caea598cd5e"
     },
     "go-bindata": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go-bindata.git",
