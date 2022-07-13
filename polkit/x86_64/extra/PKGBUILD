@@ -1,25 +1,26 @@
-# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 pkgname=polkit
-pkgver=0.120
-pkgrel=5
+pkgver=121
+pkgrel=1
 pkgdesc="Application development toolkit for controlling system-wide privileges"
+url="https://gitlab.freedesktop.org/polkit/polkit"
 arch=(x86_64)
 license=(LGPL)
-url="https://www.freedesktop.org/wiki/Software/polkit/"
-depends=(glib2 pam expat elogind js78)
+depends=(glib2 pam expat elogind js78 duktape)
 makedepends=(meson gtk-doc gobject-introspection git)
 checkdepends=(python-dbusmock)
 provides=(libpolkit-{agent,gobject}-1.so)
 backup=(etc/pam.d/polkit-1)
-_commit=92b910ce2273daf6a76038f6bd764fa6958d4e8e  # tags/0.120
+options=(debug)
+_commit=827b0ddac5b1ef00a47fca4526fcf057bee5f1db  # tags/121
 source=("git+https://gitlab.freedesktop.org/polkit/polkit.git#commit=$_commit"
         '99-artix.rules'
         meson-0.61.diff)
-sha256sums=('SKIP'
-            'd28d6ecaf7682860e2b3768bb266bd94313546b7cd0ef3c2eace7b1576c47adb'
-            '45d08bbb76e1e22ca8e698df04652b7aceaded34f9b76ce6b68152fb26b0de8d')
+b2sums=('SKIP'
+        'd320d928b5480b5b8143717e6f88101912709020efc9583fbb233a2cc11aff51d36226b94cf69104db06f330e04d4dcfd6e4c7b027df75a3c72c43adec625fb2'
+        '29cef1cf9265ec0b70bf5a46655ee51b9855ce64e47636809b9704ca80edaf5777060d7469eea15a4126791d9290d44901726b6496acf83e41f46a96fe137ead')
 
 pkgver() {
   cd polkit
@@ -28,26 +29,20 @@ pkgver() {
 
 prepare() {
   cd polkit
-
-  # CVE-2021-4034
-  git cherry-pick -n a2bf5c9c83b6ae46cbd5c779d3055bff81ded683
-
-  # CVE-2021-4115
-  git cherry-pick -n 41cb093f554da8772362654a128a84dd8a5542a7
-
-  # Fix build with Meson 0.61.0
-  git apply -3 ../meson-0.61.diff
 }
 
 build() {
-  artix-meson polkit build \
-    -D session_tracking=libelogind \
-    -D os_type=redhat \
-    -D examples=true \
-    -D tests=true \
-    -D gtk_doc=true \
-    -D systemdsystemunitdir=foo \
+  local meson_options=(
+    -D examples=true
+    -D gtk_doc=true
     -D man=true
+    -D os_type=redhat
+    -D session_tracking=libelogind
+    -D tests=true
+    -D systemdsystemunitdir=foo
+  )
+
+  artix-meson polkit build "${meson_options[@]}"
   meson compile -C build
 }
 
