@@ -15,8 +15,8 @@
 
 pkgname=go
 epoch=2
-pkgver=1.18.3
-pkgrel=1.1
+pkgver=1.18.4
+pkgrel=1.2
 pkgdesc='Core compiler tools for the Go programming language'
 arch=(x86_64)
 url='https://golang.org/'
@@ -25,6 +25,7 @@ makedepends=(
 	"go"
 	"git"
 	"gcc"
+	"iana-etc"  # For tests invoked on the <check> func.
 )
 replaces=(go-pie)
 provides=(go-pie)
@@ -35,7 +36,7 @@ source=(
 	"https://raw.githubusercontent.com/zsh-users/zsh-completions/$_zsh_complition_commit/src/_golang"
 )
 sha256sums=(
-	"0012386ddcbb5f3350e407c679923811dbd283fcdc421724931614a842ecbc2d"
+	"4525aa6b0e3cecb57845f4060a7075aafc9ab752bb7b6b4cf8a212d43078e1e4"
 	"a1af2f187b8e4cb4b66cc500884666f1763df74e3e6b50378725b8c2c871ce3d"
 )
 
