@@ -3759,7 +3759,7 @@
     "libgsf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgsf.git",
       "branch": "master",
-      "revision": "ea99315345eb47f93a4218affd7c559391652442"
+      "revision": "aa23833b2b7025afca5d348cbd4c05f85d7d8f6f"
     },
     "libgssglue": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgssglue.git",
