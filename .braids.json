@@ -2284,7 +2284,7 @@
     "gradle": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gradle.git",
       "branch": "master",
-      "revision": "2ea9f126ed602aa6847679a302d4aa9d247aafed"
+      "revision": "10f37e2cd014955bfa5de4ea79474bf0cefbcb3b"
     },
     "grafana": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana.git",
