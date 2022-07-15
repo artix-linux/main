@@ -5924,7 +5924,7 @@
     "node-gyp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/node-gyp.git",
       "branch": "master",
-      "revision": "edd52b35c9187378b62efe06b4412ed5fb00df98"
+      "revision": "9adafb039d59d6849dc015495d7b7aa2b629b55c"
     },
     "nodejs": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs.git",
