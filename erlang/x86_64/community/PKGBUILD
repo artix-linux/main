@@ -1,4 +1,4 @@
-# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: loqs
 # Contributor: Lukas Fleischer <lfleischer@archlinux.org>
 # Contributor: Vesa Kaihlavirta <vesa@archlinux.org>
@@ -8,24 +8,21 @@
 
 pkgbase=erlang
 pkgname=(erlang erlang-unixodbc)
-pkgver=24.3.2
-pkgrel=3
-_docver=24.2
+pkgver=25.0.2
+pkgrel=1
+_docver=25.0
 arch=(x86_64)
 url='https://erlang.org'
 license=(Apache)
-makedepends=(fop git glu java-environment libxslt lksctp-tools mesa perl unixodbc wxgtk3)
+makedepends=(fop git glu java-environment libxslt lksctp-tools mesa perl unixodbc wxwidgets-gtk3)
 options=(staticlibs)
-source=("$url/download/otp_doc_man_$_docver.tar.gz"
-        "git+https://github.com/erlang/otp#commit=7bd6e24d3dded3a393f9bb774ccf98cc0af4d595") # tag: OTP-24.3.2
-b2sums=('17cf3c1e296c883e9c930cd540d439f7dd71a40048bbe80efd6f46dd5b4d9faf51177d2bb133f782742b0b367c8f54c27ed2b2cce277372a98dd55bb629f3b55'
+source=(
+        "$url/download/otp_doc_man_$_docver.tar.gz"
+        "git+https://github.com/erlang/otp#commit=ac0c9879c68b23278178a7afe738285b33ff1832") # tag: OTP-24.3.2
+b2sums=('cb48044163b265fb339b774a854662705d1bdf52cfabf3d4a268538c5e53b984c3d26f05acea2f217a1bf6e838469564cef1a4c591d9af43980e1d8f422c43fd'
         'SKIP')
 
 prepare() {
-  # use a hack so that erlang can find wx-config-gtk3 as wx-config in the $PATH
-  mkdir -p bin
-  ln -fs /usr/bin/wx-config-gtk3 bin/wx-config
-  export PATH="$srcdir/bin:$PATH"
   # adjust how LDFLAGS are handled
   sed -i 's/^LDFLAGS = /LDFLAGS += /g' \
     otp/lib/{odbc/c_src,megaco/src/flex}/Makefile.in
@@ -33,22 +30,20 @@ prepare() {
 
 build() {
   export CFLAGS+=' -ffat-lto-objects'
-  export PATH="$srcdir/bin:$PATH"
-  export WX_GKT_VER="3.0"
+  export WX_GKT_VER="3.2"
   cd otp
   ./otp_build autoconf
   ./configure \
     --enable-builtin-zlib \
     --enable-smp-support \
     --prefix=/usr \
-    --with-odbc \
-    --with-wx-config=/usr/bin/wx-config-gtk3
+    --with-odbc
   make
 }
 
 package_erlang() {
   pkgdesc='General-purpose concurrent functional programming language developed by Ericsson'
-  depends=(glu ncurses openssl webkit2gtk wxgtk3)
+  depends=(glu ncurses openssl webkit2gtk wxwidgets-gtk3)
   optdepends=('erlang-unixodbc: database support'
               'java-environment: for Java support'
               'lksctp-tools: for SCTP support')
