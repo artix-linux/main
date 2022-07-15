@@ -2814,7 +2814,7 @@
     "interception-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools.git",
       "branch": "master",
-      "revision": "c1c63b10720af8ed3081e49b5b4ed16744159218"
+      "revision": "4df282c1fee116afcfe62ec0cd8f1092458567c8"
     },
     "intltool": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intltool.git",
