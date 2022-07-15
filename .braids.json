@@ -7674,7 +7674,7 @@
     "scdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
       "branch": "master",
-      "revision": "07d02d87c6b16100ffdd4b1683483e3671f3a8cc"
+      "revision": "58507ded497ec8018fe5b973d6df50b5b656c00f"
     },
     "schedtool": {
       "url": "gitea@gitea.artixlinux.org:packagesS/schedtool.git",
