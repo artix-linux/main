@@ -7969,7 +7969,7 @@
     "spdlog": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spdlog.git",
       "branch": "master",
-      "revision": "14f76a2638b30fa8c7146c37220f5bcef508dcba"
+      "revision": "8621a368b6431c9a173e1dbb9a3f0bb3d746aaa6"
     },
     "speakup-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speakup-utils.git",
