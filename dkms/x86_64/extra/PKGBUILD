@@ -3,7 +3,7 @@
 
 pkgname=dkms
 pkgver=3.0.5
-pkgrel=1.2
+pkgrel=2
 pkgdesc='Dynamic Kernel Modules System'
 arch=('any')
 url='https://github.com/dell/dkms'
@@ -21,34 +21,31 @@ source=("git+https://github.com/dell/dkms.git#tag=v$pkgver"
         'hook.remove'
         'hook.upgrade'
         'hook.sh'
-        fix-signing.patch::https://github.com/maxyz/dkms/commit/40a9472eeae0d00f6fb33b5339abc2fc21db0368.patch
-        delay-check.patch::https://github.com/maxyz/dkms/commit/34bd2326082e44d2cbb6a81a363d4c676540bc72.patch)
+        '01-fix-sign-file-path.patch')
 sha256sums=('SKIP'
             'acdc5b45cc018cea04ee1aec56fd8fc3a2de62cf7bc41acf53b3790872120998'
             '326515cc7d00f93760beb844434ca7442caf7a9424614aa95a8f6d1ab79e15df'
             '4f8dff7716e73a8bba885638f12e3cdc9e87daec1896f75e700b981527e43870'
             'c1b4a4e2e4e0e0e59ee0887403e79d60b209f3878dbbec6612573f13b90cce01'
-            'a494533c341cd85cbd7e5d6e1441837980bae5457c4cc1fee20a3963cbbc83ad'
-            'aad1b61aea4c7361801ecf959f12f64476985ef1c985fb51bd88f074223191ee')
+            'ce83bb1aac6d83dbd3ef73266913e38aa0e55740dc06075d4a40b8eff1079405')
 
 prepare() {
   cd dkms
-  patch -Np 1 -i ../fix-signing.patch
-  patch -Np 1 -i ../delay-check.patch
+
   # apply patch from the source array (should be a pacman feature)
-#   local filename
-#   for filename in "${source[@]}"; do
-#     if [[ "$filename" =~ \.patch$ ]]; then
-#       msg2 "Applying patch ${filename##*/}"
-#       patch -p1 -N -i "$srcdir/${filename##*/}"
-#     fi
-#   done
-#
-#   # /usr move
-#   msg2 '/usr move patching'
-#   for i in dkms{.in,.8.in,_framework.conf,.bash-completion,_common.postinst}; do
-#     sed -ri 's,/lib/modules,/usr/lib/modules,g' "$i"
-#   done
+  local filename
+  for filename in "${source[@]}"; do
+    if [[ "$filename" =~ \.patch$ ]]; then
+      msg2 "Applying patch ${filename##*/}"
+      patch -p1 -N -i "$srcdir/${filename##*/}"
+    fi
+  done
+
+  # /usr move
+  msg2 '/usr move patching'
+  for i in dkms{.in,.8.in,_framework.conf,.bash-completion,_common.postinst}; do
+    sed -ri 's,/lib/modules,/usr/lib/modules,g' "$i"
+  done
 }
 
 package() {
