@@ -6554,7 +6554,7 @@
     "pinentry": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
       "branch": "master",
-      "revision": "4e1d086323d59357bf698c344e9ed5b8494741c3"
+      "revision": "9d3133e5437a4b41da7b97faa77ac7108dc2ddc7"
     },
     "pipewire": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire.git",
