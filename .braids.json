@@ -5049,7 +5049,7 @@
     "linux": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux.git",
       "branch": "master",
-      "revision": "a1876bb1fc3dc161db298e4b60a96a23bdd86b04"
+      "revision": "49944a62e5b0efb24597cc526a3faf508944f8b7"
     },
     "linux-api-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-api-headers.git",
