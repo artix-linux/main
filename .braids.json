@@ -7669,7 +7669,7 @@
     "sbc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sbc.git",
       "branch": "master",
-      "revision": "48894141b3299961775e78f0fa6e82c3059763f0"
+      "revision": "1b83d8772ab6bb33f098a55c9edfc9dba94d5e4c"
     },
     "scdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
