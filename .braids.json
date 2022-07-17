@@ -8814,7 +8814,7 @@
     "veracrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesV/veracrypt.git",
       "branch": "master",
-      "revision": "9e4c530afce8f16b629e8fea35253b7f871f6466"
+      "revision": "f140abd3556827f69adc32eba9eea742d0b7a2b9"
     },
     "vi": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vi.git",
