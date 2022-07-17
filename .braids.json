@@ -6944,7 +6944,7 @@
     "qcoro": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qcoro.git",
       "branch": "master",
-      "revision": "5b12e6f60a57e9a5d4d72e1f9d33f9c1f924cd2d"
+      "revision": "8b12518ef9bc40270cd19334838c71f48ae15f72"
     },
     "qhull": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qhull.git",
