@@ -7649,7 +7649,7 @@
     "samba": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba.git",
       "branch": "master",
-      "revision": "47747a27f8b22793541736c8630b4a0dd3755910"
+      "revision": "439aaf6cb6621e36d469b6eaa867d953086e4998"
     },
     "samurai": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samurai.git",
