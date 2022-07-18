@@ -2234,7 +2234,7 @@
     "go-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go-tools.git",
       "branch": "master",
-      "revision": "2dc8e86a2498e1d3ef3820ec72fea651a95db777"
+      "revision": "3ad6c80a1cb5d7905fcbd164150b20c7185d4efb"
     },
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
