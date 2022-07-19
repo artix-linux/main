@@ -4311,6 +4311,11 @@
       "branch": "master",
       "revision": "e04a3996a6d9f4aee35c772b20aa46816109041a"
     },
+    "libptytty": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libptytty.git",
+      "branch": "master",
+      "revision": "ea97e9bf12f37b3899519912ca91f728e7626188"
+    },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
