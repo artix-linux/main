@@ -4019,7 +4019,7 @@
     "libmikmod": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmikmod.git",
       "branch": "master",
-      "revision": "05730fc9ae1284de3e33f38c650e8129acfe82e3"
+      "revision": "5a10fa2b36b31288ba3c172a8d3abf14411d9fb0"
     },
     "libmilter": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmilter.git",
