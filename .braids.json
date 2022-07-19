@@ -9069,7 +9069,7 @@
     "woff2": {
       "url": "gitea@gitea.artixlinux.org:packagesW/woff2.git",
       "branch": "master",
-      "revision": "0cdb7226e8df38d1cfbe9b49ef28809c2cabaad9"
+      "revision": "306b915f2bd1bc41061c3bb61a885e87094ad882"
     },
     "wolfssl": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wolfssl.git",
