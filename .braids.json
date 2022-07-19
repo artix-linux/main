@@ -4314,7 +4314,7 @@
     "libptytty": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libptytty.git",
       "branch": "master",
-      "revision": "ea97e9bf12f37b3899519912ca91f728e7626188"
+      "revision": "a4363b96be7fcc011d1d627ab46990fccb871a79"
     },
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
