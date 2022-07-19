@@ -4089,7 +4089,7 @@
     "libmusicbrainz5": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmusicbrainz5.git",
       "branch": "master",
-      "revision": "6d4489ab0cdd80ed19832a13656a87c2eb7dc27c"
+      "revision": "abbc576d2227d537601b905918b9f97f0de38c0a"
     },
     "libmwaw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmwaw.git",
