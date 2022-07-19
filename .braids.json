@@ -7569,7 +7569,7 @@
     "rtkit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtkit.git",
       "branch": "master",
-      "revision": "558899bd43e6e54c66136229c3fb17f5ab6f055c"
+      "revision": "106c5de292207213993d19d0c36a99076f4d47ca"
     },
     "rtl-sdr": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtl-sdr.git",
