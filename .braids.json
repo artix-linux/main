@@ -7629,7 +7629,7 @@
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",
-      "revision": "4c7b23dcc63a7576e26554a52414996b03a0bca0"
+      "revision": "8a876c1cffa04f587571045b4d1ac88b58877237"
     },
     "s-nail": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s-nail.git",
