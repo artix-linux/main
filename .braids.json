@@ -5674,7 +5674,7 @@
     "mpg123": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpg123.git",
       "branch": "master",
-      "revision": "4943d8d9279af8bde4f336755fb1011043f5c004"
+      "revision": "332a9191b365cc41152af7ecb0aed0696602e730"
     },
     "mplayer": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mplayer.git",
