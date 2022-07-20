@@ -9104,7 +9104,7 @@
     "wxgtk": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wxgtk.git",
       "branch": "master",
-      "revision": "935e6e020e9d1f7229dae3ed170558844183f7ec"
+      "revision": "62cd54dc6e02be337b7ba6b9fb9bddaabb5d8fcf"
     },
     "wxwidgets": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wxwidgets.git",
