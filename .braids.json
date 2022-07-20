@@ -2989,7 +2989,7 @@
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
       "branch": "master",
-      "revision": "059bfdbe831aa6f2fcd09688ae29b85e9d2e57f5"
+      "revision": "1d1ab8251ddbf1b83ed4d2d1b22c4fb6c1c98e15"
     },
     "java8-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java8-openjdk.git",
