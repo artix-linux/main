@@ -2339,7 +2339,7 @@
     "grpc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
       "branch": "master",
-      "revision": "e4de47f20d349ce067226591fbfb9f27f7e34df5"
+      "revision": "82b3680c27a642f4ca6213eabebd210d4ac04b40"
     },
     "grub": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grub.git",
