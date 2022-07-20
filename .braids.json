@@ -289,7 +289,7 @@
     "atkmm-2.36": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atkmm-2.36.git",
       "branch": "master",
-      "revision": "547b7689c787c740e365abd8d49fa7d4710eb662"
+      "revision": "f109c1387eabd5f875bae883cf5d11c1f84d8458"
     },
     "attr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/attr.git",
