@@ -6599,7 +6599,7 @@
     "plantuml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plantuml.git",
       "branch": "master",
-      "revision": "057b752f966ac4645c85add541ec04b4fc488de2"
+      "revision": "45a5025d6e3401f25df7029ed6fccf028a6f9039"
     },
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
