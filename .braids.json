@@ -3279,7 +3279,7 @@
     "lib2geom": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lib2geom.git",
       "branch": "master",
-      "revision": "6d81c2e52cc6a8810bd9434437c9d383eb584f1f"
+      "revision": "46b4c99154afc2a08343df2568854a029105fdac"
     },
     "libabw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libabw.git",
