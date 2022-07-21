@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Maintainer: Nathan Owens <ndowens@artixlinux.org>
+=======
+# Maintainer: artist <artist@artixlinux.org>
+>>>>>>> 5406f4bdb1921828004180ed5dc7b8812d428e52
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 
 pkgbase=virtualbox
