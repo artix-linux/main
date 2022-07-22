@@ -34,7 +34,8 @@ makedepends=(
   gradle
   gtk2
   gtk3
-  java-environment-openjdk=18
+  #java-environment-openjdk=18
+  jdk-openjdk
   libgl
   libx11
   libxtst
