@@ -7489,7 +7489,7 @@
     "restinio": {
       "url": "gitea@gitea.artixlinux.org:packagesR/restinio.git",
       "branch": "master",
-      "revision": "bccf3c49a884210bc4e306bf3001f885724cae15"
+      "revision": "e1964dc094a946697ffaf36fdfb3c9df77e9d7db"
     },
     "rhash": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rhash.git",
