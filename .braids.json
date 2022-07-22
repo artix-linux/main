@@ -2979,7 +2979,7 @@
     "java-openjfx": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-openjfx.git",
       "branch": "master",
-      "revision": "8a3b21145458f00e28b34b628d4573c3bc9e4520"
+      "revision": "be4a9c6c132b75c3fcb71946dd018a34646e8c4f"
     },
     "java-xmlgraphics-commons": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-xmlgraphics-commons.git",
