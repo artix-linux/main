@@ -6614,7 +6614,7 @@
     "poco": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poco.git",
       "branch": "master",
-      "revision": "6c679ca4ab6c6956c997170b93255010fa381d9d"
+      "revision": "123141739e6fa88fecea370f1b7024cd5ee86d92"
     },
     "podman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/podman.git",
