@@ -5734,7 +5734,7 @@
     "mumble": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mumble.git",
       "branch": "master",
-      "revision": "e009b4ec2b6a54b616b59aef7ffd50e94614b363"
+      "revision": "fe83be2f716509a74805e8b54e9f9d8dc1e6da35"
     },
     "muparser": {
       "url": "gitea@gitea.artixlinux.org:packagesM/muparser.git",
