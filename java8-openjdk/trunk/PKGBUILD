@@ -1,4 +1,4 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Frederik Schwan <freswa at archlinux dot org>
 # Maintainer: Guillaume ALAUX <guillaume@archlinux.org>
 # Contributor: Boyan Ding <stu_dby@126.com>
@@ -7,8 +7,8 @@ pkgname=('jre8-openjdk-headless' 'jre8-openjdk' 'jdk8-openjdk' 'openjdk8-src' 'o
 pkgbase=java8-openjdk
 
 _majorver=8
-_minorver=332
-_updatever=09
+_minorver=342
+_updatever=07
 pkgver=${_majorver}.${_minorver}.u${_updatever}
 pkgrel=1
 _git_tag=jdk${_majorver}u${_minorver}-b${_updatever}
