@@ -2109,7 +2109,7 @@
     "glfw": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glfw.git",
       "branch": "master",
-      "revision": "b3dfb0008c3e383ca295fb744101253c99c24944"
+      "revision": "ebd10187a7868a65441adb944384fecccc4b0f3b"
     },
     "glib-networking": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glib-networking.git",
