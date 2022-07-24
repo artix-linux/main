@@ -9474,7 +9474,7 @@
     "xorg-xinput": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xinput.git",
       "branch": "master",
-      "revision": "c5c0a3d6eb6e21d71791fece9fa88b0672ffe010"
+      "revision": "927c3695632ec083474e72ff8836f40751bf70d1"
     },
     "xorg-xkbcomp": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xkbcomp.git",
