@@ -5791,6 +5791,11 @@
       "branch": "master",
       "revision": "543a4ab699fe7f7b79c441ec65721f4bcaabe52b"
     },
+    "nawk": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nawk.git",
+      "branch": "master",
+      "revision": "d74b3a5b8d9d5818e40b9e32c816192989c1be6a"
+    },
     "nbd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nbd.git",
       "branch": "master",
