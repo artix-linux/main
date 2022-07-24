@@ -3204,7 +3204,7 @@
     "lame": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lame.git",
       "branch": "master",
-      "revision": "e537926ebeedac6cf67bcf157f332622d3df0f37"
+      "revision": "75e8ddbdb6b2586d8d339ab5df15652a4f3a48e5"
     },
     "lapack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lapack.git",
