@@ -5079,7 +5079,7 @@
     "linux-hardened": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-hardened.git",
       "branch": "master",
-      "revision": "7a09a5151c8e9f70cc86a766e5f45b74aa452b2a"
+      "revision": "ae63dbfc1ecd7efcf44073269ff199306a8ac6a0"
     },
     "linux-lts": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-lts.git",
