@@ -14,6 +14,7 @@ depends=("glibc")
 makedepends=(
 	"make"
 	"bison"
+	"diffutils"
 	"gcc"
 )
 source=(
