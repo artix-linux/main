@@ -21,9 +21,16 @@ makedepends=(
   'pandoc'
 )
 source=(
-  "https://github.com/CanonicalLtd/${pkgname}/archive/${pkgver}.tar.gz"
+  "${pkgname}-${pkgver}.tar.gz::https://github.com/CanonicalLtd/${pkgname}/archive/${pkgver}.tar.gz"
+  "0001-no-systemd.patch"
 )
-sha256sums=('930a43d8a0a9f5c61193ce2546cacf311c8a0d66003ad96a1e20fcc10a5fdbc9')
+sha256sums=('930a43d8a0a9f5c61193ce2546cacf311c8a0d66003ad96a1e20fcc10a5fdbc9'
+            '85b404c4f0a0090a4f42f55624089f57da5f539410bc2e477a86a9c70d411ba0')
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  patch -Np1 -i ../0001-no-systemd.patch
+}
 
 build() {
   cd "${pkgname}-${pkgver}"

@@ -1,0 +1,27 @@
+From 26eadd1e22083ecc5044a7d5aa2417368b7a717d Mon Sep 17 00:00:00 2001
+From: Nathan Owens <ndowens@artixlinux.org>
+Date: Mon, 25 Jul 2022 11:36:27 -0500
+Subject: [PATCH] no systemd
+
+---
+ src/dbus.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/dbus.c b/src/dbus.c
+index 4d9b17a..f6cd43e 100644
+--- a/src/dbus.c
++++ b/src/dbus.c
+@@ -11,8 +11,8 @@
+ #include <glib.h>
+ #include <glib/gstdio.h>
+ #include <gio/gio.h>
+-#include <systemd/sd-bus.h>
+-#include <systemd/sd-event.h>
++#include <elogind/sd-bus.h>
++#include <elogind/sd-event.h>
+ 
+ #include "_features.h"
+ #include "util-internal.h"
+-- 
+2.37.1
+
