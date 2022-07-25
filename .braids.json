@@ -1774,7 +1774,7 @@
     "firewalld": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld.git",
       "branch": "master",
-      "revision": "9aea4f9084e94e842f44d918126317b324f1107b"
+      "revision": "bf5c932e7b3005b6bd9917ff19c06d1a12c1d382"
     },
     "fish": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fish.git",
