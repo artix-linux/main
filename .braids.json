@@ -4411,6 +4411,11 @@
       "branch": "master",
       "revision": "7ee534f245a0a91208826d26b520c9b50b8ef18e"
     },
+    "libsbsms": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsbsms.git",
+      "branch": "master",
+      "revision": "2f3bd2b4a3a88c073bc7a1da66824b34644ece0f"
+    },
     "libseccomp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libseccomp.git",
       "branch": "master",
