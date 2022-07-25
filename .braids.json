@@ -2369,7 +2369,7 @@
     "gsm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsm.git",
       "branch": "master",
-      "revision": "64d2621f677927ae2b7ca7f979b0ecf517f465bd"
+      "revision": "433b47151bec6c73bd3e1f855fc7d3913739bfde"
     },
     "gsoap": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsoap.git",
