@@ -8644,7 +8644,7 @@
     "uglify-js": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uglify-js.git",
       "branch": "master",
-      "revision": "5ab4ca37b8eeed3937b0303cedc403a806158b68"
+      "revision": "c4f3bbd5ff45253536a74919bb2cbb8dc4ccbab0"
     },
     "uhttpmock": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uhttpmock.git",
