@@ -5874,7 +5874,7 @@
     "netplan": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netplan.git",
       "branch": "master",
-      "revision": "cd718fda7dceffa6dc85d969292c8c0f43dfff21"
+      "revision": "f7736ada6317b2629812758bed04942be392ac97"
     },
     "nettle": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nettle.git",
