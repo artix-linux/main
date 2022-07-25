@@ -1,5 +1,5 @@
 # Maintainer: artoo <artoo@artixlinux.org>
-# Maintainer: Frederik Schwan <freswa at archlinux dot org>
+# Contributor: Frederik Schwan <freswa at archlinux dot org>
 # Contributor:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 # Contributor: Daniel Kozak <kozzi11@gmail.com>
@@ -10,7 +10,7 @@
 pkgname=(gcc gcc-libs lib32-gcc-libs gcc-fortran gcc-objc gcc-ada gcc-go gcc-d lto-dump libgccjit)
 pkgver=12.1.0
 _majorver=${pkgver%%.*}
-pkgrel=2.91
+pkgrel=3
 pkgdesc='The GNU Compiler Collection'
 arch=(x86_64)
 license=(GPL3 LGPL FDL custom)
@@ -19,7 +19,7 @@ makedepends=(
   binutils
   doxygen
   gcc-ada
-  gcc11-d
+  gcc-d
   git
   lib32-glibc
   lib32-gcc-libs
