@@ -7799,7 +7799,7 @@
     "serd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/serd.git",
       "branch": "master",
-      "revision": "5f963fa829b1944ab558d8c26b7385f0c4b3a144"
+      "revision": "b563e50614ac67a25d69dc02f0e18ba32a6851f4"
     },
     "serf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/serf.git",
