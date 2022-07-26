@@ -7959,7 +7959,7 @@
     "sord": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sord.git",
       "branch": "master",
-      "revision": "f9c8963e7caf95e7a066aa684653ecec6e765432"
+      "revision": "77c86686ef4aef00f8d2d149bfe84ec8ddcfdaa4"
     },
     "soundtouch": {
       "url": "gitea@gitea.artixlinux.org:packagesS/soundtouch.git",
