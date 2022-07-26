@@ -8054,7 +8054,7 @@
     "sratom": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sratom.git",
       "branch": "master",
-      "revision": "28688c8ab315e96c907f0f75b0a63ac0390887b5"
+      "revision": "751bc5118f65a72b1213ecbf3391a804df3c08ba"
     },
     "srt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/srt.git",
