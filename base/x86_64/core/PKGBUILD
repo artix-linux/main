@@ -2,14 +2,16 @@
 # Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Eli Schwartz <eschwartz@archlinux.org>
 
+_v=1.1
+_url=https://gitea.artixlinux.org/artix/alpm-hooks
+
 pkgname=base
-pkgver=2
-pkgrel=2.11
+pkgver=3
+pkgrel=1
 pkgdesc='Minimal package set to define a basic Artix Linux installation'
 url='https://www.artixlinux.org'
 arch=('any')
 license=('GPL')
-makedepends=('git')
 depends=(
   # very very base
   'filesystem' 'gcc-libs' 'glibc' 'bash'
@@ -21,22 +23,22 @@ depends=(
   'gettext' 'pciutils' 'psmisc' 'shadow' 'util-linux' 'bzip2' 'gzip' 'xz'
 
   # distro defined requirements
-  'licenses' 'pacman' 'init-logind' 'esysusers' 'etmpfiles'
+  'licenses' 'pacman' 'artix-keyring' 'init-logind' 'esysusers' 'etmpfiles'
 
   # networking, ping, etc
   'iputils' 'iproute2'
 )
 optdepends=('linux: bare metal support')
-_commit=29cd296aa4635fe6f7b53bda2f2cb1648bdc0782
-source=("git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=$_commit")
-sha256sums=('SKIP')
+source=("alpm-hooks-$_v.tar.gz::$_url/archive/$_v.tar.gz")
+sha256sums=('6d08e6853a7b66f5bcfb5df9c37428f410981ed8ca52f65e2923f8f74276f327')
 
 package() {
-	# pacman hooks
-    cd alpm-hooks
-    make DESTDIR="${pkgdir}" install_base
+    # pacman hooks
+    make -C alpm-hooks DESTDIR="${pkgdir}" install_base
 
     # provide default symlink for PM file tracking
     install -d "${pkgdir}"/usr/bin
-    ln -sf openrc-init "${pkgdir}"/usr/bin/init
+    ln -svf openrc-init "${pkgdir}"/usr/bin/init
 }
+
+# vim: ts=2 sw=2 et:
