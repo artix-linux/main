@@ -8109,7 +8109,7 @@
     "strawberry": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strawberry.git",
       "branch": "master",
-      "revision": "1ac228a7374d3da3ee38ef17b8c3da38438c9e1e"
+      "revision": "c363594fb6dd2f236c9f838542409219a748f19d"
     },
     "strip-nondeterminism": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strip-nondeterminism.git",
