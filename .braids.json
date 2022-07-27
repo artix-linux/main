@@ -6354,7 +6354,7 @@
     "ortp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ortp.git",
       "branch": "master",
-      "revision": "e52e075188cba91012fee237c54a7e6bfadf7f51"
+      "revision": "0692b140096880a867fc706eb4fd42bee694bed6"
     },
     "os-prober": {
       "url": "gitea@gitea.artixlinux.org:packagesO/os-prober.git",
