@@ -394,7 +394,7 @@
     "base": {
       "url": "gitea@gitea.artixlinux.org:packagesB/base.git",
       "branch": "master",
-      "revision": "b007cfb08ccf45d93b749246a549cecb50be6900"
+      "revision": "6072a756cccd47c439866d15de5edd800800ea0a"
     },
     "bash": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash.git",
