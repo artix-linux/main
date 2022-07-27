@@ -424,7 +424,7 @@
     "bcg729": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bcg729.git",
       "branch": "master",
-      "revision": "e568e4f09d0ab3ab1487528fc773286d73a73f8e"
+      "revision": "cf62bfd292e61d9726ede431abf17e4ae7378f10"
     },
     "bctoolbox": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bctoolbox.git",
