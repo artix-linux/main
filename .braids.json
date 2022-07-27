@@ -4674,7 +4674,7 @@
     "libuv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libuv.git",
       "branch": "master",
-      "revision": "4e2885a0fa2439b7ce4ee339c02139eb57c6fac8"
+      "revision": "f1d49c4b14a82da10a33b3303898605d559688cf"
     },
     "libva": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva.git",
