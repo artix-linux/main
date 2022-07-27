@@ -2659,7 +2659,7 @@
     "hwloc": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwloc.git",
       "branch": "master",
-      "revision": "ea46010d08c7e38bcaad6fa67788e4e5279086c3"
+      "revision": "ebf1fa2475fad14b39e67c5d002c7e7aa59d420c"
     },
     "hy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hy.git",
