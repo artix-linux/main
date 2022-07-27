@@ -6389,7 +6389,7 @@
     "pacman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pacman.git",
       "branch": "master",
-      "revision": "05914dce0b6aa32f7b2e91af60fc45db2ff5807f"
+      "revision": "63d90639beb990bef0c55c9e4281fdea4f404d55"
     },
     "pacman-contrib": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pacman-contrib.git",
