@@ -1124,7 +1124,7 @@
     "debootstrap": {
       "url": "gitea@gitea.artixlinux.org:packagesD/debootstrap.git",
       "branch": "master",
-      "revision": "59f1bd6be2864953ddf446530e5a09d9c814bdc3"
+      "revision": "4d25f5936a77324005762237fdd79286d3268863"
     },
     "dejagnu": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dejagnu.git",
