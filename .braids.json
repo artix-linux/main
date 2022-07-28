@@ -1784,7 +1784,7 @@
     "fish": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fish.git",
       "branch": "master",
-      "revision": "d8b50b42c3cc40e200bafafe2826acd8aaab1ca7"
+      "revision": "3cf1a87f365ca99aa85f47c35081618c459a7df5"
     },
     "flac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flac.git",
