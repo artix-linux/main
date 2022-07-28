@@ -7939,7 +7939,7 @@
     "sndio": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio.git",
       "branch": "master",
-      "revision": "ca2c12d08d6a16fa4f5af8c68ab5a72b8d9714e3"
+      "revision": "7003fcd30f998d8dff6b7938cbe1c20c4eed5538"
     },
     "snooze": {
       "url": "gitea@gitea.artixlinux.org:packagesS/snooze.git",
