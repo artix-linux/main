@@ -6469,7 +6469,7 @@
     "pass": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pass.git",
       "branch": "master",
-      "revision": "53a2dfb5ee2a72a49ec29d70f599599374f09310"
+      "revision": "c1addaa878b6ad3ab1758d5a6cb04e3f264bac5c"
     },
     "pastebinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pastebinit.git",
