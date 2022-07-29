@@ -6966,6 +6966,11 @@
       "branch": "master",
       "revision": "cdb4f9e8fa0d0ca8bc57151fa6a5f439d3b1b9f2"
     },
+    "qbe": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qbe.git",
+      "branch": "master",
+      "revision": "6eb2ce05aa66e96f02e4f483cf5486f15f7c6ab5"
+    },
     "qcoro": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qcoro.git",
       "branch": "master",
