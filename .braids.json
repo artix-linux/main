@@ -1054,7 +1054,7 @@
     "cython": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
       "branch": "master",
-      "revision": "f5a8286b12fc69830f9310ca665c0d95cef06edb"
+      "revision": "d0c91b1137369dd2cdac671755c174bc5ac47f1e"
     },
     "darkhttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd.git",
