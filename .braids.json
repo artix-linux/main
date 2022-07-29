@@ -1179,7 +1179,7 @@
     "diffstat": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffstat.git",
       "branch": "master",
-      "revision": "bc599fd37647c4c969e6a75fdeef301746e197ee"
+      "revision": "2cd10d454dac9dcfb17cd55920a799a85e336da2"
     },
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
