@@ -8664,7 +8664,7 @@
     "uhttpmock": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uhttpmock.git",
       "branch": "master",
-      "revision": "64d5f52c87419228924c4e2fa0f6bc079a9e6b00"
+      "revision": "7e01090087f692f756ac98c2d538b4047be1e395"
     },
     "umockdev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/umockdev.git",
