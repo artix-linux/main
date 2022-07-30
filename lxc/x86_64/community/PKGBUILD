@@ -37,7 +37,12 @@ prepare() {
 
 build() {
   cd "$pkgname-${pkgver/_/-}"
-  artix-meson -Dinit-script=sysvinit build
+  local options=(
+  -Dinit-script=sysvinit
+  -Dsd-bus=disabled
+  )
+
+  artix-meson ${options[@]} build
 }
 
 package() {
