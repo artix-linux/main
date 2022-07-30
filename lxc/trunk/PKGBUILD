@@ -38,7 +38,6 @@ prepare() {
 build() {
   cd "$pkgname-${pkgver/_/-}"
   artix-meson -Dinit-script=sysvinit build
-  meson compile -C build -v
 }
 
 package() {
