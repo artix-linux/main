@@ -7704,7 +7704,7 @@
     "sbsigntools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sbsigntools.git",
       "branch": "master",
-      "revision": "132b0a8909f572b5077edb22e2ba784352afcae7"
+      "revision": "06a84fdd4b29d221b46366fa9ceb72df2b5d2206"
     },
     "scdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
