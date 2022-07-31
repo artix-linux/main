@@ -1,22 +1,22 @@
-# Maintainer:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 
 pkgname=expect
 pkgver=5.45.4
-pkgrel=2.2
+pkgrel=3
 pkgdesc='A tool for automating interactive applications'
 arch=(x86_64)
 url='https://www.nist.gov/el/msid/expect.cfm'
 license=(custom)
 depends=(tcl)
 source=(https://downloads.sourceforge.net/project/expect/Expect/$pkgver/expect${pkgver}.tar.gz
-        0001-fix-format-security.patch)
+	expect-5.45-format-security.patch)
 sha256sums=('49a7da83b0bdd9f46d04a04deec19c7767bb9a323e40c4781f89caf760b92c34'
-            'b03ece363658115d5fd1ddf1f74943666a520d401f389cfd42f9edf4be705ecb')
+            'b141e1a18186aaedb48ad503f34848413819f7a55789d86d04f14e8ae4cacc56')
 
 prepare() {
   cd expect${pkgver}
-  patch -Np1 -i ../0001-fix-format-security.patch
+  patch -Np0 -i ${srcdir}/expect-5.45-format-security.patch
 }
 
 build() {
