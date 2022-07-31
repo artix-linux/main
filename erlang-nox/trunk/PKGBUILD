@@ -1,4 +1,4 @@
-# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Lukas Fleischer <lfleischer@archlinux.org>
 # Contributor: Vesa Kaihlavirta <vesa@archlinux.org>
 # Contributor: Sarah Hay <sarahhay@mb.sympatico.ca>
@@ -6,9 +6,9 @@
 # Contributor: Ricardo Catalinas Jiménez <jimenezrick@gmail.com>
 
 pkgname=erlang-nox
-pkgver=24.3.2
-pkgrel=2
-_docver=24.2
+pkgver=25.0.3
+pkgrel=1
+_docver=25.0
 pkgdesc='General-purpose concurrent functional programming language (headless version)'
 arch=(x86_64)
 url='https://erlang.org/'
@@ -21,8 +21,8 @@ optdepends=('erlang-unixodbc: database support'
             'lksctp-tools: for SCTP support')
 options=(staticlibs)
 source=("$url/download/otp_doc_man_$_docver.tar.gz"
-        "git+https://github.com/erlang/otp#commit=7bd6e24d3dded3a393f9bb774ccf98cc0af4d595") # tag: OTP-24.3.2
-b2sums=('17cf3c1e296c883e9c930cd540d439f7dd71a40048bbe80efd6f46dd5b4d9faf51177d2bb133f782742b0b367c8f54c27ed2b2cce277372a98dd55bb629f3b55'
+        "git+https://github.com/erlang/otp#commit=89c04fb1836fb865565125a4d5880b93e784d856") # tag: OTP-25.0.3
+b2sums=('cb48044163b265fb339b774a854662705d1bdf52cfabf3d4a268538c5e53b984c3d26f05acea2f217a1bf6e838469564cef1a4c591d9af43980e1d8f422c43fd'
         'SKIP')
 
 build() {
@@ -48,7 +48,7 @@ package() {
   install -Dm644 otp/AUTHORS "$pkgdir/usr/share/doc/$pkgname/AUTHORS"
 
   # man pages
-  cp -r man "$pkgdir/usr/lib/erlang/"
+  cp -r -v man "$pkgdir/usr/lib/erlang/"
 
   # remove files that are included in the erlang-unixodbc package
   rm -rf "$pkgdir/usr/lib/erlang/"{lib/odbc*,man/man3/odbc.3}
