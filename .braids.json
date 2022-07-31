@@ -5329,7 +5329,7 @@
     "m2r": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m2r.git",
       "branch": "master",
-      "revision": "350b86823429dd6d763d50b08bf6b8e88cdf2dae"
+      "revision": "254d8bce87977b06b649221cb57fff18efa9fba0"
     },
     "m4": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m4.git",
