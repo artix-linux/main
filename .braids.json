@@ -5889,7 +5889,7 @@
     "nettle": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nettle.git",
       "branch": "master",
-      "revision": "a38667347125cc352af4645149483e298df07306"
+      "revision": "b1db4c9283049e2e0c5c729620a6e758542e3826"
     },
     "networkmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager.git",
