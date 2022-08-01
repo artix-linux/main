@@ -9019,7 +9019,7 @@
     "wavpack": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wavpack.git",
       "branch": "master",
-      "revision": "9d8d9cca56e944c8ebcd04cd61f801c6ce67696c"
+      "revision": "4905277e87a08373174afba963a5d32e12cb3adc"
     },
     "wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wayland.git",
