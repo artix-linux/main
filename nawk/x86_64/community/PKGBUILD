@@ -4,12 +4,11 @@
 pkgname=nawk
 provides=("awk")
 pkgver=20220122
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc="The one, true implementation of AWK"
 url="https://github.com/onetrueawk/awk"
 license=("custom")
 arch=("x86_64")
-options=(!makeflags)
 depends=("glibc")
 makedepends=(
 	"make"
@@ -25,6 +24,7 @@ sha256sums=(
 	"720a06ff8dcc12686a5176e8a4c74b1295753df816e38468a6cf077562d54042"
 	"fa1bade363896033a50fbdadc8fa2f490f85a044d11afcd537f317067c70d3b5"
 )
+install="setup.sh"
 
 prepare() {
 	cd "${provides[0]}-$pkgver"
