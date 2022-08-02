@@ -1459,7 +1459,7 @@
     "elfutils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elfutils.git",
       "branch": "master",
-      "revision": "a548c8c357733f3403fd7da38bae8ebf29e0e0b6"
+      "revision": "83c3a96599efe2fdaab229d5f2adccc0ac550499"
     },
     "elinks": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elinks.git",
