@@ -4719,7 +4719,7 @@
     "libvirt-python": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-python.git",
       "branch": "master",
-      "revision": "d3d64cef461219581fa19ed84c4c8add171d64bf"
+      "revision": "15e60535d3a60026fefae8750b73b0fa23a5869b"
     },
     "libvisio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvisio.git",
