@@ -1984,7 +1984,7 @@
     "gcc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc.git",
       "branch": "master",
-      "revision": "ea8284acfe4e38dc332426a3ca87a29c5532734c"
+      "revision": "f9eca597f143970f3e7f5ecb6c3b206753638b12"
     },
     "gcc11": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc11.git",
