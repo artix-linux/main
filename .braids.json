@@ -444,7 +444,7 @@
     "benchmark": {
       "url": "gitea@gitea.artixlinux.org:packagesB/benchmark.git",
       "branch": "master",
-      "revision": "3c3cbb7311aedc5e4d4d15ec7ff176bdec6841da"
+      "revision": "c8da6e31ca0cadc547a92ed8de8edefb425ca64a"
     },
     "bftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd.git",
