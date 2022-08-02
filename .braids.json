@@ -6494,7 +6494,7 @@
     "pc-ble-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pc-ble-driver.git",
       "branch": "master",
-      "revision": "bcdc420b20587a53f9815860ee7affab226df66f"
+      "revision": "4dce8714111c5e8e79e07d08445ec2d6020d4779"
     },
     "pcaudiolib": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcaudiolib.git",
