@@ -1344,7 +1344,7 @@
     "dqlite": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dqlite.git",
       "branch": "master",
-      "revision": "5178cf17f19b317cdd2c5c58273109b2e6758570"
+      "revision": "63db7c3957c228d2011ea1985333d48cf06c6b2d"
     },
     "dracut": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dracut.git",
