@@ -9049,7 +9049,7 @@
     "webkit2gtk": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webkit2gtk.git",
       "branch": "master",
-      "revision": "10cc77f0e304a66c43cc4b8b8884e030dff5c06f"
+      "revision": "b1f0ebff89156750ccff82dda61dae6db8704500"
     },
     "webkit2gtk-4.1": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webkit2gtk-4.1.git",
