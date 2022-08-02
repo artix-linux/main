@@ -6234,7 +6234,7 @@
     "openfire": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfire.git",
       "branch": "master",
-      "revision": "f2add3d663b1401fef8a9ded1085a4e997299bfa"
+      "revision": "252cc8e0b51685542e69367f51b66cf78a38689a"
     },
     "openimagedenoise": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openimagedenoise.git",
