@@ -8829,7 +8829,7 @@
     "valgrind": {
       "url": "gitea@gitea.artixlinux.org:packagesV/valgrind.git",
       "branch": "master",
-      "revision": "5a33e9d5e3ead406e2be19e4f4f4d26f791b54fa"
+      "revision": "bbe6523212faa85ec5bc5450c3e8c76b96ad1bdc"
     },
     "vamp-plugin-sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vamp-plugin-sdk.git",
