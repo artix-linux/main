@@ -5174,7 +5174,7 @@
     "log4cplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
       "branch": "master",
-      "revision": "db355efa532b8f505cf3fafed7f6195148baf488"
+      "revision": "7ad2683583976af7c0a00b20b0da11dab23ba0d7"
     },
     "logrotate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/logrotate.git",
