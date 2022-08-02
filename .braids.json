@@ -5939,7 +5939,7 @@
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
-      "revision": "9c3d63e04155632206d298ad028a89054e3a9aff"
+      "revision": "9b43fa428106d93498f2f07bf1b4c37373823764"
     },
     "nmap": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nmap.git",
