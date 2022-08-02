@@ -149,7 +149,7 @@
     "apparmor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor.git",
       "branch": "master",
-      "revision": "07722227802f511267a39177f70cf21dfaddbc62"
+      "revision": "50e7b2ed3f6a12a40ee7ff1fa4bb3783aa198b59"
     },
     "apr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apr.git",
