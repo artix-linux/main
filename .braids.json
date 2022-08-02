@@ -6204,7 +6204,7 @@
     "opencore-amr": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencore-amr.git",
       "branch": "master",
-      "revision": "9cf8ff990fa4f1080a62081947a17b97ae3691fa"
+      "revision": "29d021fc8b463f362eb7d4c0b5de04cb869636ba"
     },
     "opencv": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencv.git",
