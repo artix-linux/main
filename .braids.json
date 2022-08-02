@@ -1134,7 +1134,7 @@
     "dejagnu": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dejagnu.git",
       "branch": "master",
-      "revision": "2eb26709a560ef8bb330525575e8ffca4323d7cf"
+      "revision": "aa076b48a9057dcba5309755c39a2080e07c8ae6"
     },
     "deluge": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge.git",
