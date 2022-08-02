@@ -639,7 +639,7 @@
     "catatonit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catatonit.git",
       "branch": "master",
-      "revision": "e2b985bf57c4cd63a607ffee3b2f41856eb927a8"
+      "revision": "15bb3d9f48a52e4aec1ab4e79b92c5549adbfa78"
     },
     "catch2": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catch2.git",
