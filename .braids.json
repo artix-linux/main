@@ -5804,7 +5804,7 @@
     "nawk": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nawk.git",
       "branch": "master",
-      "revision": "9257d07a28894324c3b481ed8b19c4c0e525358c"
+      "revision": "804373d30c9c02ac87985ed853e396beb8370ea2"
     },
     "nbd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nbd.git",
