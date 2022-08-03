@@ -59,7 +59,7 @@
     "adios2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adios2.git",
       "branch": "master",
-      "revision": "3e5962cdcbb03d1bb127940d49672a09a93faa8a"
+      "revision": "b9df59c6f335e117409840e4cd6f443be3a4b48f"
     },
     "adwaita-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adwaita-icon-theme.git",
