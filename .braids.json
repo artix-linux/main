@@ -5869,7 +5869,7 @@
     "netcdf-fortran": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcdf-fortran.git",
       "branch": "master",
-      "revision": "a60fb3965042b34eb01492e05f1d66a82ea51fd2"
+      "revision": "024bab23a925548bfbf7c044730773eaa388678e"
     },
     "netcf": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcf.git",
