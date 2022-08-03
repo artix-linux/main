@@ -8339,7 +8339,7 @@
     "tevent": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tevent.git",
       "branch": "master",
-      "revision": "c75c4f48b747232913f916cc916ebb6dc962618c"
+      "revision": "02d490a40f284627ddab87897144fb3b9ca1d7dd"
     },
     "tex-gyre-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tex-gyre-fonts.git",
