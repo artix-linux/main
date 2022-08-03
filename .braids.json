@@ -5689,7 +5689,7 @@
     "mpg123": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpg123.git",
       "branch": "master",
-      "revision": "61c745b3070ee1cea2080f6181a335c1f1cd8384"
+      "revision": "353c32c0e82c775acfd50d7ac042f55718994a11"
     },
     "mplayer": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mplayer.git",
