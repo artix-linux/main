@@ -1329,7 +1329,7 @@
     "double-conversion": {
       "url": "gitea@gitea.artixlinux.org:packagesD/double-conversion.git",
       "branch": "master",
-      "revision": "1013603a6c3c7478b2db8ccabc5ecbdb4ea381b8"
+      "revision": "eea70e385d0d22f4350e448ccff6459e6e9f6ecf"
     },
     "dovecot": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dovecot.git",
