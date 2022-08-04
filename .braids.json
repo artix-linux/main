@@ -6959,7 +6959,7 @@
     "python": {
       "url": "gitea@gitea.artixlinux.org:packagesP/python.git",
       "branch": "master",
-      "revision": "fd21997102cd5f51de4446ea62d5b503bf6bed42"
+      "revision": "af86a464dc7fe15619ef804171decbd6a211a98b"
     },
     "python2-gobject": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python2-gobject.git",
