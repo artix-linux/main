@@ -1174,7 +1174,7 @@
     "dialog": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dialog.git",
       "branch": "master",
-      "revision": "6d87ca656fe0a8ca7dd7281a80e3c8941152f01b"
+      "revision": "5dd5c3cf4b95a661f55342d30cc712e05c028867"
     },
     "diffstat": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffstat.git",
