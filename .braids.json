@@ -754,7 +754,7 @@
     "clang": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clang.git",
       "branch": "master",
-      "revision": "6099c33d1164b7492d3911ccbae074a74a19bd8d"
+      "revision": "b99a5db72d50d80f24f7c757c8b30d7657c6c102"
     },
     "clang13": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clang13.git",
