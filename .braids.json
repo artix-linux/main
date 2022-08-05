@@ -6029,7 +6029,7 @@
     "nspr": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nspr.git",
       "branch": "master",
-      "revision": "e4780c6518158c0f13f2cd892b53ce0d8ed74871"
+      "revision": "18239609eb5deea3a956d3a942f6d1068aac3c18"
     },
     "nss": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss.git",
