@@ -9134,7 +9134,7 @@
     "wpa_supplicant": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant.git",
       "branch": "master",
-      "revision": "989be03da08246ff52292ba96c8351cc524827be"
+      "revision": "6207afe90d669eeaca7853b359aaf6b495b25423"
     },
     "wpebackend-fdo": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpebackend-fdo.git",
