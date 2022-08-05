@@ -5544,7 +5544,7 @@
     "micro": {
       "url": "gitea@gitea.artixlinux.org:packagesM/micro.git",
       "branch": "master",
-      "revision": "7a548862a3d13307e613706417a69c7ffd4c8908"
+      "revision": "c5ee7dfe418d9d4eb0ac1e1341c9a7ab1687cc8a"
     },
     "mimetic": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mimetic.git",
