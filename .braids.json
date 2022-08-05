@@ -6564,7 +6564,7 @@
     "php": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php.git",
       "branch": "master",
-      "revision": "a4efec44e5ceac6a1ac18eb01873ce0619b44c47"
+      "revision": "f6bc41e9846a7f3566ed1d4eb42432dfdd5262f9"
     },
     "php7": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php7.git",
