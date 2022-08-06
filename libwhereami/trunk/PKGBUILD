@@ -24,6 +24,7 @@ build() {
     -B build \
     -DCMAKE_BUILD_TYPE=None \
     -DENABLE_CXX_WERROR=OFF \
+    -DCMAKE_PREFIX_PATH=/usr \
     -DCMAKE_INSTALL_PREFIX:PATH=/usr \
     -DBUILD_SHARED_LIBS=ON
   make -C build
