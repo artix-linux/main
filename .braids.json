@@ -7384,7 +7384,7 @@
     "quilt": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quilt.git",
       "branch": "master",
-      "revision": "134c022ece047a7c1eb709184dd444b6fcdcdcb1"
+      "revision": "a2e1f7ba9ff3e84fbe736bc09492e4b02e8465ad"
     },
     "quota-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quota-tools.git",
