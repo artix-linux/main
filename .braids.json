@@ -2924,7 +2924,7 @@
     "iwd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
       "branch": "master",
-      "revision": "2d315cde012cf565e60c5f2d651a31215e3c20bb"
+      "revision": "ba8b06dd40f390dea4892cce05369c2c3a86c8b7"
     },
     "jack2": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jack2.git",
