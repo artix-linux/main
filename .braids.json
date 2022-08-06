@@ -2569,7 +2569,7 @@
     "hevea": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hevea.git",
       "branch": "master",
-      "revision": "691ae385439103c462a8c7c214fd25f15b49c0f6"
+      "revision": "d4e747cabb84f9c6ce5459842fdd964ccb426c00"
     },
     "hiawatha": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha.git",
