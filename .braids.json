@@ -4859,7 +4859,7 @@
     "libxcvt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcvt.git",
       "branch": "master",
-      "revision": "82b203389ece9e903450bad708aebc26c9bcb1fe"
+      "revision": "8bf0c317d4e13ddc8c4b8bf6866a779602921cd3"
     },
     "libxdamage": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxdamage.git",
