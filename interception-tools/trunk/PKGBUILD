@@ -3,7 +3,7 @@
 
 pkgname=interception-tools
 pkgver=0.6.8
-pkgrel=4
+pkgrel=5
 pkgdesc='A minimal composable infrastructure on top of libudev and libevdev'
 arch=('x86_64')
 license=('GPL3')
@@ -14,6 +14,7 @@ depends=(
     'libudev' 'libudev.so'
 )
 makedepends=('cmake' 'udev' 'boost')
+conflicts=('bear')  # Also has a /usr/bin/intercept
 options=(debug)
 source=(
     "$pkgname-$pkgver.tar.gz::https://gitlab.com/interception/linux/tools/-/archive/v$pkgver/tools-v$pkgver.tar.gz"
