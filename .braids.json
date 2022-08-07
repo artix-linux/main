@@ -9369,7 +9369,7 @@
     "xkeyboard-config": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xkeyboard-config.git",
       "branch": "master",
-      "revision": "3a0175e196d4081c87ea91642fa284c5e959bbfa"
+      "revision": "fa47d2a9076f072b698139392a9802e79ac22060"
     },
     "xl2tpd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd.git",
