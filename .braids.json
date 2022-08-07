@@ -5804,7 +5804,7 @@
     "nano": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nano.git",
       "branch": "master",
-      "revision": "0c09c2141c12d518b229479082495aed99d8012d"
+      "revision": "efe4245565c6c0f7522d601ec82c8d3c1e95f4ed"
     },
     "nasm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nasm.git",
