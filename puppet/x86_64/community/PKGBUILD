@@ -44,6 +44,7 @@ source=("https://github.com/puppetlabs/puppet/archive/${pkgver}/puppet-${pkgver}
         "yumrepo_core::git+https://github.com/puppetlabs/puppetlabs-yumrepo_core#commit=${_yumrepo_commit}"
         "zfs_core::git+https://github.com/puppetlabs/puppetlabs-zfs_core#commit=${_zfs_commit}"
         "zone_core::git+https://github.com/puppetlabs/puppetlabs-zone_core#commit=${_zone_commit}"
+        "artix.patch"
         )
 sha512sums=('bc599b4a874744e86d668762713dd7c9840a9dc9e02faa17e9a220c05b07bead561d18d9229cdf37410b7be7ee53294aafe85646ebabcc194c2a67259de71c8f'
             'SKIP'
@@ -54,7 +55,8 @@ sha512sums=('bc599b4a874744e86d668762713dd7c9840a9dc9e02faa17e9a220c05b07bead561
             'SKIP'
             'SKIP'
             'SKIP'
-            'SKIP')
+            'SKIP'
+            'b2e07fa78004dbf552a25443801a9a5fa0963318163fea821ef6fedb53e24cdedd38177c6f18af31708cda29d1a3ad8aa97bd1abefbaf1f82742c2b82e6a256f')
 conflicts=('puppet5' 'puppet6')
 provides=('puppet')
 
@@ -63,6 +65,7 @@ prepare() {
 
   # FS#45044: fix file location
   sed -i 's_/opt/puppetlabs/puppet_/usr_' ext/systemd/puppet.service
+  patch --strip=1 --input=../artix.patch
 }
 
 check() {
@@ -95,7 +98,7 @@ package() {
   echo "d /run/puppetlabs 0755 $pkgname $pkgname -" > "$pkgdir"/usr/lib/tmpfiles.d/$pkgname.conf
 
   # systemd
-  install -Dm644 "${srcdir}/$pkgname-${pkgver}/ext/systemd/${pkgname}.service" "${pkgdir}/usr/lib/systemd/system/${pkgname}.service"
+  # install -Dm644 "${srcdir}/$pkgname-${pkgver}/ext/systemd/${pkgname}.service" "${pkgdir}/usr/lib/systemd/system/${pkgname}.service"
 
   install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 
