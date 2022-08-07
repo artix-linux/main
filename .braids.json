@@ -506,6 +506,11 @@
       "branch": "master",
       "revision": "f47b6af51e4e3e411964e85e9751e109b718e257"
     },
+    "booster": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/booster.git",
+      "branch": "master",
+      "revision": "225110b3ec60798abc1bf3c2d5406c838ee46756"
+    },
     "bootlogd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd.git",
       "branch": "master",
