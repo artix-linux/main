@@ -1029,7 +1029,7 @@
     "cudnn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cudnn.git",
       "branch": "master",
-      "revision": "9110719990337e6609e6a02595ff243f2b1bb796"
+      "revision": "988428b4a3e59c7734736bfb1d55ddf9b692f127"
     },
     "cunit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cunit.git",
