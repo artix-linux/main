@@ -20,7 +20,6 @@ makedepends=('python' 'python-markdown' 'python-dnspython' 'docbook-xsl' 'pkg-co
              'udev' 'gnutls' 'talloc' 'tdb' 'dbus' 'libaio'
              'perl-parse-yapp' 'libnsl' 'libtirpc' 'rpcsvc-proto' 'jansson'
              'ceph-libs' 'liburing' 'perl-json' 'glusterfs')
-             'liburing' 'perl-json' 'glusterfs')
 optdepends=(
              'python-dnspython: samba_dnsupdate and samba_upgradedns in AD setup'
              'python-markdown: for samba-tool domain schemeupgrade'
