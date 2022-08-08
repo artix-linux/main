@@ -3864,7 +3864,7 @@
     "libimagequant": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libimagequant.git",
       "branch": "master",
-      "revision": "83ad2b0d2d636ca977497ee91f6c595941d3191b"
+      "revision": "226409438c0ecad31d105fbc64346e4471095773"
     },
     "libimobiledevice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libimobiledevice.git",
