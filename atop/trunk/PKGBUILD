@@ -33,7 +33,7 @@ build() {
 package() {
     cd "$pkgname-$pkgver"
 
-	DESTDIR="$pkgdir" \
+	make DESTDIR="$pkgdir" \
 	SBINPATH=/usr/bin \
-	make sysvinstall
+	 sysvinstall
 }
