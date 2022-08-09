@@ -294,7 +294,7 @@
     "atop": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atop.git",
       "branch": "master",
-      "revision": "b4d99b6f7d663767a5728bcb117053dbbe8fa28a"
+      "revision": "9c792b8f4e2a5e253fdda99bb05f8eea78ceaae1"
     },
     "attr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/attr.git",
