@@ -6154,7 +6154,7 @@
     "ocaml-stdlib-shims": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-stdlib-shims.git",
       "branch": "master",
-      "revision": "bdbaa2cc1f5e7435c4e2180430d74cf3fb535c27"
+      "revision": "9c4d51e8412acc94abcc6d030f38caeb8bf025b0"
     },
     "ocaml-topkg": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-topkg.git",
