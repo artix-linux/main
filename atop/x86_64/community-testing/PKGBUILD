@@ -1,0 +1,39 @@
+# Maintainer: Torr <torr[at]artixlinux[dot]org>
+
+pkgname=atop
+pkgver=2.7.1
+pkgrel=1
+pkgdesc="Advanced system and process monitor"
+arch=("x86_64")
+url="https://www.atoptool.nl"
+license=("GPL")
+depends=(
+	"ncurses"
+	"zlib"
+)
+makedepeneds=(
+	"make"
+	"gcc"
+)
+source=("https://www.atoptool.nl/download/atop-$pkgver.tar.gz")
+sha256sums=("ca48d2f17e071deead5e6e9cc9e388bf6a3270d695e61976b3794d4d927b5c4e")
+
+prepare(){
+    cd "$pkgname-$pkgver"
+	sed -i -e '/^CFLAGS/s/ = -O / += /' \
+		-e '/DEFPATH/d' \
+		-e '/^LDFLAGS/s/ = / += /' Makefile
+}
+
+build() {
+    cd "$pkgname-$pkgver"
+    make
+}
+
+package() {
+    cd "$pkgname-$pkgver"
+
+	DESTDIR="$pkgdir" \
+	SBINPATH=/usr/bin \
+	make sysvinstall
+}
