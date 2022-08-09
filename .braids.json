@@ -6149,7 +6149,7 @@
     "ocaml-result": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-result.git",
       "branch": "master",
-      "revision": "20ab96e20b62acb7d1d5188520403a2da0483e3c"
+      "revision": "681f6dc1fdacf5e5b1658011c8ceaa20158a1712"
     },
     "ocaml-topkg": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-topkg.git",
