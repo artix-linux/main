@@ -1009,7 +1009,7 @@
     "crypto++": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptoplusplus.git",
       "branch": "master",
-      "revision": "224ed53e70a43708ff8006b3bcdd42c9d0099dce"
+      "revision": "f68bf3bf57bf69bb5eeff7ed1b32efb4348416c0"
     },
     "cryptsetup": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup.git",
