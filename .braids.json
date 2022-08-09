@@ -6154,7 +6154,7 @@
     "ocaml-topkg": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-topkg.git",
       "branch": "master",
-      "revision": "04b2a6a288efa23de923996a4611e4bfc4f10867"
+      "revision": "e54b4e3f366e57e0d67873c3343af8f25c475cce"
     },
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
