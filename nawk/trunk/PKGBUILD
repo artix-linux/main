@@ -35,9 +35,9 @@ build() {
 	cd "${provides[0]}-$pkgver"
 	# the final linking step doesn't honor LDFLAGS, so let's just throw it all
 	# together into CFLAGS.
+	make \
 	CPPFLAGS="-DHAS_ISBLANK $CPPFLAGS" \
-	CFLAGS="$CFLAGS $LDFLAGS" \
-	make
+	CFLAGS="$CFLAGS $LDFLAGS"
 }
 
 check() {
