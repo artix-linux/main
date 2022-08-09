@@ -261,11 +261,6 @@
       "branch": "master",
       "revision": "5f3cdd6d8985e1e41142c271cacdcdea0e0d9ae1"
     },
-    "atop": {
-      "url": "gitea@gitea.artixlinux.org:packagesA/atop.git",
-      "branch": "master",
-      "revision": "86deb221e370752de4912033986c215551a11fff"
-    },
     "at-spi2-atk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-spi2-atk.git",
       "branch": "master",
@@ -295,6 +290,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/atkmm-2.36.git",
       "branch": "master",
       "revision": "f109c1387eabd5f875bae883cf5d11c1f84d8458"
+    },
+    "atop": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atop.git",
+      "branch": "master",
+      "revision": "b4d99b6f7d663767a5728bcb117053dbbe8fa28a"
     },
     "attr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/attr.git",
