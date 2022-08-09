@@ -4589,7 +4589,7 @@
     "libtirpc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtirpc.git",
       "branch": "master",
-      "revision": "428afd39010c647b149cc3360e27fc974ba46421"
+      "revision": "5c8fb875bf4b8e161d89f3193fe95d3c40ad4e74"
     },
     "libtomcrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtomcrypt.git",
