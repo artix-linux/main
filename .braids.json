@@ -1974,7 +1974,7 @@
     "gamemode": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gamemode.git",
       "branch": "master",
-      "revision": "eb4eb26cdce5dce01c0b99d73b8bdd75b70ab77c"
+      "revision": "32ee78d69ad52363222fa8e9e5ccb675cededdba"
     },
     "gavl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gavl.git",
