@@ -629,7 +629,7 @@
     "camlp4": {
       "url": "gitea@gitea.artixlinux.org:packagesC/camlp4.git",
       "branch": "master",
-      "revision": "21c3d05b84e4ee628fd98715f27592c8d78251b6"
+      "revision": "ea7aae0bd33b258b91bb31c6b3a935159b661660"
     },
     "cantarell-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cantarell-fonts.git",
