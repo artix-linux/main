@@ -6129,7 +6129,7 @@
     "ocaml-ctypes": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-ctypes.git",
       "branch": "master",
-      "revision": "426cf9653c0a4ff50b7cfd2e07cd5d7863345dbb"
+      "revision": "9418b1a939160bd6fd90ae06f62c7fcbd77486ed"
     },
     "ocaml-findlib": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-findlib.git",
