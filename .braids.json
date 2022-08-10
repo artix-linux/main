@@ -8779,7 +8779,7 @@
     "unzip": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unzip.git",
       "branch": "master",
-      "revision": "6c0eb5ff4d7e4a37cf241701c658d4a5f5d4bd47"
+      "revision": "d399ee437765bb1b622547d13867e6b4a8b917b8"
     },
     "upower": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upower.git",
