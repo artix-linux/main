@@ -5929,7 +5929,7 @@
     "nfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils.git",
       "branch": "master",
-      "revision": "066f0690974829f24ab922ffdcd53faca8ff44ee"
+      "revision": "1ba3424029404fffd812d01e45944321e176fd53"
     },
     "nftables": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables.git",
