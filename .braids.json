@@ -5524,7 +5524,7 @@
     "mesa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
       "branch": "master",
-      "revision": "e32c895bed3569eacb59eae52413300bb4339888"
+      "revision": "ecdf2ea90bfb0356ac56ae48b7929182dff6bf92"
     },
     "mesa-demos": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa-demos.git",
