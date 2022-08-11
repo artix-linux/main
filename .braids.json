@@ -9804,7 +9804,7 @@
     "zsh-autosuggestions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-autosuggestions.git",
       "branch": "master",
-      "revision": "dfa5f1820b7b61cbed9d65a57a292b26e2eddc5d"
+      "revision": "cacac44da00917c99e15c84a93653021fb1770c7"
     },
     "zsh-completions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-completions.git",
