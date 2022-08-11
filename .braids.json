@@ -3399,7 +3399,7 @@
     "libbluray": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbluray.git",
       "branch": "master",
-      "revision": "a0ecaf8bf6f5a9c60ff3bbc3cb6fac24110c02ef"
+      "revision": "87dffda76308798ca335e98acbea24509297fafe"
     },
     "libbpf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbpf.git",
