@@ -9284,7 +9284,7 @@
     "xdg-user-dirs": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdg-user-dirs.git",
       "branch": "master",
-      "revision": "4ea2d58477099c8cec0eac0a391e105c6ef7f519"
+      "revision": "d72d26bf4437030f7caf73ae82a05089acb9278b"
     },
     "xdg-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdg-utils.git",
