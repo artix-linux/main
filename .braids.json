@@ -9599,7 +9599,7 @@
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
       "branch": "master",
-      "revision": "6c558d63e03df3ecafa7c57c83c7dc104e3cb8a7"
+      "revision": "31125c1939136f14ab9048a1d65b1db83389f2bd"
     },
     "xosd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xosd.git",
