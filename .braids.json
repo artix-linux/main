@@ -9801,6 +9801,11 @@
       "branch": "master",
       "revision": "786c29ade0b8da003de3593da6fe0760cd32cc3d"
     },
+    "zsh-completions": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-completions.git",
+      "branch": "master",
+      "revision": "0fdfb3739d785e3ae79fca7b72494d0adf648c1c"
+    },
     "zstd": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zstd.git",
       "branch": "master",
