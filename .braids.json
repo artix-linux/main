@@ -9811,6 +9811,11 @@
       "branch": "master",
       "revision": "9dd072539e307dfe7edb3923d4f3e2f256a9405d"
     },
+    "zsh-syntax-highlighting": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-syntax-highlighting.git",
+      "branch": "master",
+      "revision": "869886cb3802454a609912b2019cb0a73e82b800"
+    },
     "zstd": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zstd.git",
       "branch": "master",
