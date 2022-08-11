@@ -1209,7 +1209,7 @@
     "directx-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesD/directx-headers.git",
       "branch": "master",
-      "revision": "2ce9fe4a516bfe58d96b3334bb3ef7cc5dd4dd6d"
+      "revision": "3a94dc95f39ffdb50891c80df1fec64cf6e97aad"
     },
     "distcc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc.git",
