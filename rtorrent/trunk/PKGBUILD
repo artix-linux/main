@@ -7,11 +7,11 @@
 
 pkgname=rtorrent
 pkgver=0.9.8
-pkgrel=3.1
-pkgdesc='Ncurses BitTorrent client based on libTorrent'
-url='https://rakshasa.github.io/rtorrent/'
-license=('GPL')
-arch=('x86_64')
+pkgrel=3.2
+pkgdesc="Ncurses BitTorrent client based on libTorrent"
+url="https://rakshasa.github.io/rtorrent/"
+license=("GPL")
+arch=("x86_64")
 depends=(
 	"libtorrent=0.13.${pkgver##*.}"
 	"curl"
@@ -32,17 +32,17 @@ source=(
 )
 sha256sums=(
 	"9edf0304bf142215d3bc85a0771446b6a72d0ad8218efbe184b41e4c9c7542af"
-	"562d02cbcb371f2fb9277a68e5a4ded30c1ce6b0f1a7aa50de8dd85b7a17c949"
+	"SKIP"
 )
 
 prepare() {
-	cd "${srcdir}/${pkgname}-${pkgver}"
+	cd "$srcdir/$pkgname-$pkgver"
 	./autogen.sh
 }
 
 build() {
-	cd "${srcdir}/${pkgname}-${pkgver}"
-	export CXXFLAGS+=' -fno-strict-aliasing'
+	cd "$srcdir/$pkgname-$pkgver"
+	export CXXFLAGS+=" -fno-strict-aliasing"
 	./configure \
 		--prefix=/usr \
 		--disable-debug \
@@ -52,8 +52,8 @@ build() {
 }
 
 package() {
-	cd "${srcdir}/${pkgname}-${pkgver}"
-	make DESTDIR="${pkgdir}" install
+	cd "$srcdir/$pkgname-$pkgver"
+	make DESTDIR="$pkgdir" install
 	install -D doc/rtorrent.rc "$pkgdir/usr/share/doc/rtorrent/rtorrent.rc"
-	install -D --mode 644 --target-directory "$pkgdir/usr/share/man/man1" ../rtorrent.1.en.gz
+	install -Dm 644 ../rtorrent.1.en.gz "$pkgdir/usr/share/man/man1/rtorrent.1"
 }
