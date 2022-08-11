@@ -4164,7 +4164,7 @@
     "libnfs": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnfs.git",
       "branch": "master",
-      "revision": "2d2752852b8e65d002a4bbff981c784b9d832942"
+      "revision": "ceacedac90cb639a74440c1ec287227d97573ea5"
     },
     "libnftnl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnftnl.git",
