@@ -3884,7 +3884,7 @@
     "libinih": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinih.git",
       "branch": "master",
-      "revision": "92d40488f382f41022276055cb1096daeffe4446"
+      "revision": "5e97db6ec6daec616c19b7bddbcb79e19da8bcc2"
     },
     "libinput": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinput.git",
