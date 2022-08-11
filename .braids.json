@@ -1169,7 +1169,7 @@
     "dhcp": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp.git",
       "branch": "master",
-      "revision": "bf515d339e861bf5734bc8ed70f78a355f96f894"
+      "revision": "ea4aa572f9f93b7b10710dca73f1068e0c9ded42"
     },
     "dhcpcd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd.git",
