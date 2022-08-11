@@ -9814,7 +9814,7 @@
     "zsh-syntax-highlighting": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-syntax-highlighting.git",
       "branch": "master",
-      "revision": "869886cb3802454a609912b2019cb0a73e82b800"
+      "revision": "a151625b48221f940cb86a21a99ffbe92ccf6b94"
     },
     "zstd": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zstd.git",
