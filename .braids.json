@@ -7659,7 +7659,7 @@
     "rtorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtorrent.git",
       "branch": "master",
-      "revision": "f5535cba902a3510bf258630e3ab4faee5147669"
+      "revision": "1a205ee83e687a1cb9fe62693af905b2553c4449"
     },
     "rubberband": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rubberband.git",
