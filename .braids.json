@@ -1649,7 +1649,7 @@
     "faudio": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faudio.git",
       "branch": "master",
-      "revision": "2c3bd080b0b14fa30691375ad71bf7f3809c7ee4"
+      "revision": "df0e384381ff3bdf8286e44e13f26d716455d291"
     },
     "fcgi": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgi.git",
