@@ -1,29 +1,28 @@
-# Maintainer: Torr <torr[at]artixlinux[dot]org>
+# Maintainer: qontinuum <qontinuum@artixlinux.org>
+# Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: John Gerritse <john.gerritse@gmail.com>
 
 pkgname=atop
 pkgver=2.7.1
-pkgrel=1
-pkgdesc="Advanced system and process monitor"
-arch=("x86_64")
-url="https://www.atoptool.nl"
-license=("GPL2")
-depends=(
-	"ncurses"
-	"zlib"
+pkgrel=2
+pkgdesc='A system and process level monitor'
+arch=('x86_64')
+url='https://www.atoptool.nl/'
+license=('GPL')
+depends=('ncurses' 'sh' 'zlib')
+optdepends=(
+    'python-pynvml: NVIDIA gpu reporting AUR'
 )
-makedepends=(
-	"make"
-	"gcc"
-)
-source=("https://www.atoptool.nl/download/atop-$pkgver.tar.gz")
-sha256sums=("ca48d2f17e071deead5e6e9cc9e388bf6a3270d695e61976b3794d4d927b5c4e")
+backup=('etc/default/atop')
+source=("https://www.atoptool.nl/download/atop-${pkgver/_/-}.tar.gz"
+        'atop.default')
+sha512sums=('f5013dbc25b86f07c9892555705bb3db2eeb949478f53e6e5545308b0c7c173c4c7a8ed0eae1f173e075210f81fceee09d7a9d90de76c4f011e38ad4a76b780b'
+            '3583738b48d9b5ed1ada323a753cd30bfd41a118d7f96ab9f536858ac356cdd5dd2acf30de5c000745c0b817e9e0ee115731fbe9828086488c3c9df773a05d08')
 
-prepare(){
-    cd "$pkgname-$pkgver"
-	sed -i -e '/^CFLAGS/s/ = -O / += /' \
-		-e '/DEFPATH/d' \
-		-e '/^LDFLAGS/s/ = / += /' Makefile
-}
+#prepare() {
+    #cd "$pkgname-$pkgver"
+    #patch -p1 -i "$srcdir/1e93ac6a8e486dfda633af049c950040020373c9.patch"
+#}
 
 build() {
     cd "$pkgname-$pkgver"
@@ -32,10 +31,14 @@ build() {
 
 package() {
     cd "$pkgname-$pkgver"
-
-	make DESTDIR="$pkgdir" \
-		SBINPATH=/usr/bin \
-		sysvinstall
-
-	rm -r "$pkgdir/etc/init.d"
+    ## default folder not properly created
+    mkdir -p "$pkgdir/etc/default"
+    make DESTDIR="$pkgdir" install \
+        SBINPATH=/usr/bin \
+        SYSDPATH=/usr/lib/systemd/system
+    install -Dm644 "$srcdir/atop.default" "$pkgdir/etc/default/atop"
+    # enable atop-rotate.timer by default
+    install -dm755 "$pkgdir/usr/lib/systemd/system/timers.target.wants"
+    ln -s ../atop-rotate.timer \
+        "$pkgdir/usr/lib/systemd/system/timers.target.wants/atop-rotate.timer"
 }
