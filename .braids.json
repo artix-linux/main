@@ -9654,7 +9654,7 @@
     "xz": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xz.git",
       "branch": "master",
-      "revision": "2a295074888f95b5b5698188000d60aab9e590e8"
+      "revision": "cde6c32afbbfcc2d78c4bc4501ac8ca4c8b442d1"
     },
     "yajl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yajl.git",
