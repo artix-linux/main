@@ -26,12 +26,13 @@ build() {
         '95-dm-notify.rules' \
         '/usr/lib/initcpio/udev/11-dm-initramfs.rules'
 
-    # this udev rule is specific
+    # this udev rule is specific for systemd and non-systemd systems
     add_udev_rule '/usr/lib/initcpio/udev/69-dm-lvm.rules'
 
     # config file
     add_file '/etc/lvm/lvm.conf'
-    sed -i '/^\smonitoring =/s/1/0/' "${BUILDROOT}/etc/lvm/lvm.conf"
+    sed -i -e 's/^[[:space:]#]*monitoring = [[:digit:]]\+\s*$/\tmonitoring = 0/' \
+        -e '/^$/d' -e '/^[[:space:]]*#/d' "${BUILDROOT}/etc/lvm/lvm.conf"
 }
 
 help() {
