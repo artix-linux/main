@@ -939,7 +939,7 @@
     "containers-common": {
       "url": "gitea@gitea.artixlinux.org:packagesC/containers-common.git",
       "branch": "master",
-      "revision": "179bd4cb10b2c8bc5ffad70802bb9c6acf930950"
+      "revision": "904a5ba7659b3b7654f26c35aadd233bf630a114"
     },
     "convertlit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
