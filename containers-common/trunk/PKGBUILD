@@ -1,8 +1,8 @@
-# Maintainer: qontinuum <qontinuum@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=containers-common
 pkgver=0.49.1
-pkgrel=1
+pkgrel=1.1
 epoch=1
 _image_pkgver=5.22.0
 _podman_pkgver=4.2.0
@@ -13,7 +13,7 @@ pkgdesc="Configuration files and manpages for containers"
 arch=(any)
 url="https://github.com/containers"
 license=(Apache)
-depends=('container-network-stack>1')
+depends=('container-network-stack')
 makedepends=(go-md2man)
 checkdepends=(ripgrep)
 backup=(
