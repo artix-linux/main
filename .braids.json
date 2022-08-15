@@ -3819,7 +3819,7 @@
     "libharu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libharu.git",
       "branch": "master",
-      "revision": "82a7af02861e593e3c3d078db94f319666b69b19"
+      "revision": "919a4a86958a74aec3bdd88c602f92c2834cad88"
     },
     "libheif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libheif.git",
