@@ -7634,7 +7634,7 @@
     "rsync": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsync.git",
       "branch": "master",
-      "revision": "7cfe01a054754743f7a4fbe98e39024c4915f604"
+      "revision": "9a26f869b536d133796cd88b325328e3f5c9d67b"
     },
     "rtaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtaudio.git",
