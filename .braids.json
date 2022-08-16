@@ -5734,7 +5734,7 @@
     "msmtp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msmtp.git",
       "branch": "master",
-      "revision": "a93f24719fb711493f8b6dc00199459cf88d840b"
+      "revision": "743d33bdb6e5e2ee85ddfb12dc148988bc06f04a"
     },
     "mtdev": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtdev.git",
