@@ -3029,7 +3029,7 @@
     "jenkins": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins.git",
       "branch": "master",
-      "revision": "841d83330e7210abaec02895a21d980346fc1bf9"
+      "revision": "c4557310cda61c37f56c5dfd078a0a88ecf661bf"
     },
     "jfsutils": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jfsutils.git",
