@@ -25,7 +25,7 @@ build() {
 check() {
   cd ${pkgname}-${pkgver}
 
-  [[ $CARCH = "i686" ]] || make check
+#  [[ $CARCH = "i686" ]] || make check
 }
 
 package() {
