@@ -7949,7 +7949,7 @@
     "slang": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slang.git",
       "branch": "master",
-      "revision": "e3684c3d62eafa8b14ad8fc20c582d4ba8384070"
+      "revision": "f8bae8f884079c7a13125a12e76c162ef19d40b1"
     },
     "sleuthkit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sleuthkit.git",
