@@ -3059,7 +3059,7 @@
     "jruby": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jruby.git",
       "branch": "master",
-      "revision": "621e6445f0373c3925d649f7ae92ba9ba9a41f73"
+      "revision": "cdce8b259a7b6bb5e5a156db39e41bcc84b6c7ea"
     },
     "js68": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/js68.git",
