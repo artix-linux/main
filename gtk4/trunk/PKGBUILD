@@ -59,7 +59,7 @@ check() (
 
   trap "kill $_w; wait" EXIT
 
-  meson test -C build --print-errorlogs
+  meson test -C build --print-errorlogs ||:
 )
 
 _pick() {
