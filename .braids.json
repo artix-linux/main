@@ -8759,7 +8759,7 @@
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
       "branch": "master",
-      "revision": "1a20d46152ce5ec7fec4764ca53165f7178bdaa5"
+      "revision": "57819e3b6d08d5669627c3fe3ab2f791fd8c1603"
     },
     "unittestpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unittestpp.git",
