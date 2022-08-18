@@ -42,13 +42,30 @@ makedepends+=('llvm' 'clang')
 groups=("$pkgbase")
 source=("git+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git#tag=v${pkgver//_/-}?signed"
 #        "https://cdn.kernel.org/pub/linux/kernel/v5.x/patch-$pkgver.1.xz"
-        'cpupower.default')
+        'cpupower.default'
+        v3-1-8-tools-build-Add-feature-test-for-init_disassemble_info-API-changes.diff
+        v3-2-8-tools-build-Don-t-display-disassembler-four-args-feature-test.diff
+        v3-3-8-tools-include-add-dis-asm-compat.h-to-handle-version-differences.diff
+        v3-4-8-tools-perf-Fix-compilation-error-with-new-binutils.diff
+        v3-5-8-tools-bpf_jit_disasm-Fix-compilation-error-with-new-binutils.diff
+        v3-6-8-tools-bpf_jit_disasm-Don-t-display-disassembler-four-args-feature-test.diff
+        v3-7-8-tools-bpftool-Fix-compilation-error-with-new-binutils.diff
+        v3-8-8-tools-bpftool-Don-t-display-disassembler-four-args-feature-test.diff
+)
 validpgpkeys=(
   'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
 )
 sha256sums=('SKIP'
-            '4fa509949d6863d001075fa3e8671eff2599c046d20c98bb4a70778595cd1c3f')
+            '4fa509949d6863d001075fa3e8671eff2599c046d20c98bb4a70778595cd1c3f'
+            '5568a7f63046508cd253ef265f04cef409527fee8020d876f0c1ddf48b11404b'
+            'ee0420dffb39de050f4129ed0d98cfd751ad18d12f7d00f1ae100a6446ca3457'
+            '8946285eea149be92f76a00d8d63a80fdad24e628cee679fd99e3c101d43c8b8'
+            '9538ad6ea50ff8294ef66a2e11c3724be01950fd9fdbdd122ad89adc899895ab'
+            'ac197cc47aa6bdd137f6440b7e216c4a5a310278f0f4594eda6d88c8053d5b8a'
+            'cda7601aa0d220bfdf5c4bcdc6487561a9d2cf32139b218fbf2bcabf45ddd90b'
+            '30fbbb36ff84ab07a25ac96cd4c99ba87586bc56bb4d199f3347176eb069919c'
+            '97c72313be337636c453a4d634b7dc60d846ee992bd9d3f976b7bcb437f8d6d6')
 
 prepare() {
   cd linux
@@ -59,7 +76,7 @@ prepare() {
     src="${src%%::*}"
     src="${src##*/}"
     src="${src%.xz}"
-    [[ $src = *.patch || $src = patch-* ]] || continue
+    [[ $src = *.patch || $src = patch-* || $src = *.diff ]] || continue
     echo ":: Applying patch $src"
     patch -p1 -N -i "$srcdir/$src"
   done

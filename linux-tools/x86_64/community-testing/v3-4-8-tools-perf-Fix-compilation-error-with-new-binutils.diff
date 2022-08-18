@@ -1,0 +1,65 @@
+diff --git a/tools/perf/Makefile.config b/tools/perf/Makefile.config
+index 73e0762092fe..ee417c321adb 100644
+--- a/tools/perf/Makefile.config
++++ b/tools/perf/Makefile.config
+@@ -298,6 +298,7 @@ FEATURE_CHECK_LDFLAGS-libpython := $(PYTHON_EMBED_LDOPTS)
+ FEATURE_CHECK_LDFLAGS-libaio = -lrt
+ 
+ FEATURE_CHECK_LDFLAGS-disassembler-four-args = -lbfd -lopcodes -ldl
++FEATURE_CHECK_LDFLAGS-disassembler-init-styled = -lbfd -lopcodes -ldl
+ 
+ CORE_CFLAGS += -fno-omit-frame-pointer
+ CORE_CFLAGS += -ggdb3
+@@ -905,13 +906,16 @@ ifndef NO_LIBBFD
+     ifeq ($(feature-libbfd-liberty), 1)
+       EXTLIBS += -lbfd -lopcodes -liberty
+       FEATURE_CHECK_LDFLAGS-disassembler-four-args += -liberty -ldl
++      FEATURE_CHECK_LDFLAGS-disassembler-init-styled += -liberty -ldl
+     else
+       ifeq ($(feature-libbfd-liberty-z), 1)
+         EXTLIBS += -lbfd -lopcodes -liberty -lz
+         FEATURE_CHECK_LDFLAGS-disassembler-four-args += -liberty -lz -ldl
++        FEATURE_CHECK_LDFLAGS-disassembler-init-styled += -liberty -lz -ldl
+       endif
+     endif
+     $(call feature_check,disassembler-four-args)
++    $(call feature_check,disassembler-init-styled)
+   endif
+ 
+   ifeq ($(feature-libbfd-buildid), 1)
+@@ -1025,6 +1029,10 @@ ifeq ($(feature-disassembler-four-args), 1)
+     CFLAGS += -DDISASM_FOUR_ARGS_SIGNATURE
+ endif
+ 
++ifeq ($(feature-disassembler-init-styled), 1)
++    CFLAGS += -DDISASM_INIT_STYLED
++endif
++
+ ifeq (${IS_64_BIT}, 1)
+   ifndef NO_PERF_READ_VDSO32
+     $(call feature_check,compile-32)
+diff --git a/tools/perf/util/annotate.c b/tools/perf/util/annotate.c
+index 82cc396ef516..2c6a485c3de5 100644
+--- a/tools/perf/util/annotate.c
++++ b/tools/perf/util/annotate.c
+@@ -1720,6 +1720,7 @@ static int dso__disassemble_filename(struct dso *dso, char *filename, size_t fil
+ #include <bpf/btf.h>
+ #include <bpf/libbpf.h>
+ #include <linux/btf.h>
++#include <tools/dis-asm-compat.h>
+ 
+ static int symbol__disassemble_bpf(struct symbol *sym,
+ 				   struct annotate_args *args)
+@@ -1762,9 +1763,9 @@ static int symbol__disassemble_bpf(struct symbol *sym,
+ 		ret = errno;
+ 		goto out;
+ 	}
+-	init_disassemble_info(&info, s,
+-			      (fprintf_ftype) fprintf);
+-
++	init_disassemble_info_compat(&info, s,
++				     (fprintf_ftype) fprintf,
++				     fprintf_styled);
+ 	info.arch = bfd_get_arch(bfdf);
+ 	info.mach = bfd_get_mach(bfdf);
+ 
