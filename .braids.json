@@ -5999,7 +5999,7 @@
     "nodejs-nopt": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-nopt.git",
       "branch": "master",
-      "revision": "90de3283d93046c885046294480fceba7ba2db48"
+      "revision": "5c30f91da80007b66a49d1a3d22cd28bdacab413"
     },
     "nodejs-yaml": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-yaml.git",
