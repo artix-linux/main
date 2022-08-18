@@ -5314,7 +5314,7 @@
     "lz4": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lz4.git",
       "branch": "master",
-      "revision": "a4656c2b0f8c42a7ce07cc7b74bd7e99a58e6b7d"
+      "revision": "b239827762ea42255a59f4422c09a8b9d8eacda9"
     },
     "lzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lzip.git",
