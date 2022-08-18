@@ -7479,7 +7479,7 @@
     "rav1e": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rav1e.git",
       "branch": "master",
-      "revision": "4d82732ee52e69c71409bd2679684e33d0a45180"
+      "revision": "3c47ef4d62293f12d85f8bc36d17533aa8d1b363"
     },
     "raw-thumbnailer": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raw-thumbnailer.git",
