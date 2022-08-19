@@ -9589,7 +9589,7 @@
     "xorg-xrefresh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrefresh.git",
       "branch": "master",
-      "revision": "80dff81348f85b246fabb8a8fe72bb9ab5282a3f"
+      "revision": "9663dd8a1ac5561f97e976d6fda647f54c5fcf15"
     },
     "xorg-xset": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xset.git",
