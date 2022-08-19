@@ -9586,6 +9586,11 @@
       "branch": "master",
       "revision": "06a6bf2e5a848872ba523b5a3e6e7777a9a834ff"
     },
+    "xorg-xrefresh": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrefresh.git",
+      "branch": "master",
+      "revision": "80dff81348f85b246fabb8a8fe72bb9ab5282a3f"
+    },
     "xorg-xset": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xset.git",
       "branch": "master",
