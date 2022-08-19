@@ -4,12 +4,12 @@
 
 pkgname=glew
 pkgver=2.2.0
-pkgrel=5
+pkgrel=4
 pkgdesc="The OpenGL Extension Wrangler Library"
 arch=('x86_64')
 url="https://github.com/nigels-com/glew"
 license=('BSD' 'MIT' 'GPL')
-depends=('glibc' 'libegl' 'libgl' 'glu')
+depends=('glibc' 'libegl' 'libgl')
 optdepends=('libx11: for glxewinfo and visualinfo')
 provides=('libGLEW.so')
 options=('debug')
