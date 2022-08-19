@@ -7599,7 +7599,7 @@
     "ropper": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropper.git",
       "branch": "master",
-      "revision": "9b83d57d79caeeb151792b5af2e83521c521435f"
+      "revision": "1f5a51e7ce426e97a0046bb89d29c47a5d8117cf"
     },
     "rpcbind": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind.git",
