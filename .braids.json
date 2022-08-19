@@ -2119,7 +2119,7 @@
     "glew": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glew.git",
       "branch": "master",
-      "revision": "b2a396122eafbc979ca4bb574bf2ddd2ffa5a633"
+      "revision": "7c52956eaef4570762fe938a94bc98a3eff325ba"
     },
     "glfw": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glfw.git",
