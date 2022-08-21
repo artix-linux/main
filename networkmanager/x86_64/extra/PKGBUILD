@@ -8,7 +8,7 @@
 pkgbase=networkmanager
 pkgname=(networkmanager libnm nm-cloud-setup)
 pkgver=1.38.4
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Network connection manager and user applications"
 url="https://networkmanager.dev/"
 arch=(x86_64)
@@ -121,7 +121,7 @@ package_networkmanager() {
 # See "man 5 NetworkManager.conf" for details.
 [main]
 plugins=keyfile
-hostname-node=none
+hostname-mode=none
 END
 
   # packaged configuration
