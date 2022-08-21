@@ -8024,7 +8024,7 @@
     "sonivox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sonivox.git",
       "branch": "master",
-      "revision": "b41b1f5e0b66f9a1749a55b592d107dd8b990c5c"
+      "revision": "17a1971f5498ff14b5e3759c6942c57a1b686310"
     },
     "sord": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sord.git",
