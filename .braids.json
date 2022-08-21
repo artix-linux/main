@@ -9746,6 +9746,11 @@
       "branch": "master",
       "revision": "adbc514fb72b8cc5ded72aea4cafa76d00782f20"
     },
+    "z3": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/z3.git",
+      "branch": "master",
+      "revision": "c0804294dea96172aea5fc3ef37874dba99d088a"
+    },
     "zbar": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
       "branch": "master",
