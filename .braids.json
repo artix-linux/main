@@ -9749,7 +9749,7 @@
     "z3": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/z3.git",
       "branch": "master",
-      "revision": "c0804294dea96172aea5fc3ef37874dba99d088a"
+      "revision": "2b377aca13c2a67fc54633e4adc2b422923322b0"
     },
     "zbar": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
