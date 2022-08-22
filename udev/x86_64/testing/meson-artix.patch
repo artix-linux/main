@@ -1,0 +1,51 @@
+diff --git a/rules.d/meson.build b/rules.d/meson.build
+index 8376da17e8..ed8f0c18e1 100644
+--- a/rules.d/meson.build
++++ b/rules.d/meson.build
+@@ -52,7 +52,6 @@ endforeach
+ rules_in = [
+         ['50-udev-default.rules'],
+         ['64-btrfs.rules'],
+-        ['99-systemd.rules'],
+
+         ['70-uaccess.rules',   enable_logind and conf.get('HAVE_ACL') == 1],
+         ['71-seat.rules',      enable_logind],
+diff --git a/sysusers.d/meson.build b/sysusers.d/meson.build
+index 687544da58..37bf31b4f1 100644
+--- a/sysusers.d/meson.build
++++ b/sysusers.d/meson.build
+@@ -22,7 +22,6 @@ endif
+
+
+ in_files = [['basic.conf',            enable_sysusers],
+-            ['systemd-journal.conf',  enable_sysusers],
+             ['systemd-network.conf',  enable_sysusers and conf.get('ENABLE_NETWORKD') == 1],
+             ['systemd-resolve.conf',  enable_sysusers and conf.get('ENABLE_RESOLVE') == 1],
+             ['systemd-timesync.conf', enable_sysusers and conf.get('ENABLE_TIMESYNCD') == 1]]
+diff --git a/tmpfiles.d/meson.build b/tmpfiles.d/meson.build
+index 17607b6c8b..7a53322329 100644
+--- a/tmpfiles.d/meson.build
++++ b/tmpfiles.d/meson.build
+@@ -4,14 +4,12 @@ enable_tmpfiles = conf.get('ENABLE_TMPFILES') == 1
+
+ files = [['README',               ''],
+          ['home.conf',            ''],
+-         ['journal-nocow.conf',   ''],
+          ['portables.conf',       'ENABLE_PORTABLED'],
+          ['systemd-network.conf', 'ENABLE_NETWORKD'],
+          ['systemd-nologin.conf', 'HAVE_PAM'],
+          ['systemd-nspawn.conf',  'ENABLE_MACHINED'],
+          ['systemd-pstore.conf',  'ENABLE_PSTORE'],
+          ['systemd-resolve.conf', 'ENABLE_RESOLVE'],
+-         ['systemd-tmp.conf',     ''],
+          ['tmp.conf',             ''],
+          ['x11.conf',             ''],
+         ]
+@@ -30,7 +28,6 @@ endforeach
+ in_files = [['etc.conf',                      ''],
+             ['legacy.conf',                   'HAVE_SYSV_COMPAT'],
+             ['static-nodes-permissions.conf', ''],
+-            ['systemd.conf',                  ''],
+             ['var.conf',                      ''],
+            ]
+
