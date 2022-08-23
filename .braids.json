@@ -4244,7 +4244,7 @@
     "libopenmpt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libopenmpt.git",
       "branch": "master",
-      "revision": "6687cc4c82bb7b66cc584272828d7607824dced1"
+      "revision": "b86cfb8bc38baccb488841b16caea96ecbde4136"
     },
     "libopenraw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libopenraw.git",
