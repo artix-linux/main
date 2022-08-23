@@ -4299,7 +4299,7 @@
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
       "branch": "master",
-      "revision": "b66eab437d3d00c05e65ef9b116d073911b59f94"
+      "revision": "3b0385ea77c4703bede6544e722fb44f9d69f2d8"
     },
     "libpgm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpgm.git",
