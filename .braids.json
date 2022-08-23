@@ -1814,7 +1814,7 @@
     "flatbuffers": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flatbuffers.git",
       "branch": "master",
-      "revision": "0ea52620c262e6ead46e39f04d6b530f39291cdb"
+      "revision": "7a7e81d6df5a11977105a5ae0c17dc6249d60326"
     },
     "flex": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flex.git",
