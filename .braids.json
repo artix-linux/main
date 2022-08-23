@@ -5419,7 +5419,7 @@
     "mariadb": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mariadb.git",
       "branch": "master",
-      "revision": "c58fe3858e92c38859b876760ffc1e49f9a6e42a"
+      "revision": "84a55b6c39e7eee593f8e194ef27ef67e5c345b6"
     },
     "marisa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marisa.git",
