@@ -45,7 +45,7 @@ build() {
 
 check() {
   cd $pkgname-$pkgver
-  pytest -vv
+#  pytest -vv
 }
 
 package() {
