@@ -9209,7 +9209,7 @@
     "x264": {
       "url": "gitea@gitea.artixlinux.org:packagesX/x264.git",
       "branch": "master",
-      "revision": "40b4a7359e36938da556f093112f86898a267396"
+      "revision": "9f5b7f3017e5314600e4da2c246bd63cdf821459"
     },
     "x265": {
       "url": "gitea@gitea.artixlinux.org:packagesX/x265.git",
