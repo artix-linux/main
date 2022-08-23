@@ -449,7 +449,7 @@
     "bearssl": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bearssl.git",
       "branch": "master",
-      "revision": "815b50cb9102cc1a641e1c90bf1344d7aa43dc5b"
+      "revision": "675498550b1517df1da3195731c671b87634944d"
     },
     "benchmark": {
       "url": "gitea@gitea.artixlinux.org:packagesB/benchmark.git",
