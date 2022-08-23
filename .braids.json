@@ -5264,7 +5264,7 @@
     "luarocks": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luarocks.git",
       "branch": "master",
-      "revision": "183d247e5596774fefa35f97d93cf2ed438c21d8"
+      "revision": "76b4df40633224947512a90dc4d8df8d8e92d1ab"
     },
     "luasec": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luasec.git",
