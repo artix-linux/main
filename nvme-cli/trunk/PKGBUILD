@@ -6,13 +6,13 @@
 
 pkgname=nvme-cli
 pkgver=2.1.2
-pkgrel=1
+pkgrel=1.1
 pkgdesc="NVM-Express user space tooling for Linux"
 arch=('i686' 'x86_64')
 url="https://github.com/linux-nvme/nvme-cli"
 license=('GPL')
-depends=('util-linux')
-makedepends=('libudev' 'meson' 'git' 'asciidoc')
+makedepends=('udev' 'meson' 'git' 'asciidoc' 'xmlto')
+depends=('util-linux' 'libudev')
 options=(debug strip)
 install=nvme-cli.install
 # checkdepends=('python2-nose' 'python-nose')
