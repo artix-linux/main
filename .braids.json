@@ -4564,7 +4564,7 @@
     "libtasn1": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtasn1.git",
       "branch": "master",
-      "revision": "940461e5b28c12e23200db4bc320031dfb291717"
+      "revision": "cbb32983405c0f2a1b1a35e51da45d9db83a2f50"
     },
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
