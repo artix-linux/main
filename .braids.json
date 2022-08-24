@@ -7679,7 +7679,7 @@
     "ruby": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ruby.git",
       "branch": "master",
-      "revision": "bed1561159692b56e6423a3bac18d0735a91f0fd"
+      "revision": "d5c3a8dab5f6245989fd224ae029323bb57a609c"
     },
     "ruby2.7": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ruby2.7.git",
