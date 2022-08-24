@@ -3749,7 +3749,7 @@
     "libgit2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgit2.git",
       "branch": "master",
-      "revision": "f5bb49c8205ad9acc903980d66c775be53e0c393"
+      "revision": "9e0f0236dbb59011ebc9377789f2e51ccd010954"
     },
     "libglvnd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libglvnd.git",
