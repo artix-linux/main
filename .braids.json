@@ -2249,7 +2249,7 @@
     "go-ethereum": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go-ethereum.git",
       "branch": "master",
-      "revision": "acdc346adbea6668333ec86522a46a7ec211a86a"
+      "revision": "8d86bd52952a16390079e3b606d4f27643217e46"
     },
     "go-md2man": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go-md2man.git",
