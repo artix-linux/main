@@ -7714,7 +7714,7 @@
     "rustup": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rustup.git",
       "branch": "master",
-      "revision": "a5d1ef7dde23abdd8a067e4c575332e4abe570ce"
+      "revision": "e86a394930e23a16c2ae749dc9268b78c54c06de"
     },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
