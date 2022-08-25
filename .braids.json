@@ -3259,7 +3259,7 @@
     "ldns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldns.git",
       "branch": "master",
-      "revision": "eebd6935d90e813e597d32aa675512a3e1186c6f"
+      "revision": "0edbf2ba4e0a7310c9326fa2e65122ef59d32265"
     },
     "leatherman": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leatherman.git",
