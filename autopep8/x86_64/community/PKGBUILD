@@ -12,6 +12,7 @@ url="https://github.com/hhatto/autopep8"
 license=('MIT')
 depends=('python-pycodestyle' 'python-toml')
 makedepends=('python-setuptools')
+checkdepends=('python-pip')
 source=("https://github.com/hhatto/autopep8/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
 sha512sums=('41bddd5c0cc93fd47dd01ba6b89f085fa7b3723abed9ac829e9f4d67a0587a7ee4457b23f16f223aaab18f33440166f402a567ca80d13535e85a6a3d4b968c0d')
 
