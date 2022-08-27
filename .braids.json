@@ -6314,7 +6314,7 @@
     "openpmix": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openpmix.git",
       "branch": "master",
-      "revision": "3d3658d871fd684592c97bd62871b4e1921f05c3"
+      "revision": "6e67389bd62c0683b6feb106af627ed030a9b64e"
     },
     "openresolv": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openresolv.git",
