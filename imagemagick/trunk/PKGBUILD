@@ -4,6 +4,7 @@
 pkgbase=imagemagick
 pkgname=(imagemagick imagemagick-doc)
 pkgver=7.1.0.46
+_pkgver=7.1.0-46
 pkgrel=1
 pkgdesc='An image viewing/manipulation program'
 url='https://www.imagemagick.org/'
@@ -14,10 +15,9 @@ makedepends=(ghostscript openexr libwmf librsvg libxml2 openjpeg2 libraw opencl-
 checkdepends=(gsfonts ttf-dejavu)
 _relname=ImageMagick-${pkgver%%.*}
 _tarname=ImageMagick-${pkgver%.*}-${pkgver##*.}
-source=(https://imagemagick.org/archive/$_tarname.tar.xz{,.asc}
+source=("$pkgbase-$pkgver.tar.gz::https://github.com/ImageMagick/ImageMagick/archive/$_pkgver.tar.gz"
         arch-fonts.diff)
-sha256sums=('f6b2f1a3e58b82c791d1b51719ecdec51018b51c7730b7221f1ddcb51aaaf9b1'
-            'SKIP'
+sha256sums=('51e9863ae4a52d6477da0aecc4f79ebccfc5da2721e7a0e63bf09f41700da43c'
             'a85b744c61b1b563743ecb7c7adad999d7ed9a8af816650e3ab9321b2b102e73')
 validpgpkeys=(D8272EF51DA223E4D05B466989AB63D48277377A)  # Lexie Parsimoniae
 options=(debug)
