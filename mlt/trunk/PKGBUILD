@@ -34,7 +34,7 @@ optdepends=('sdl_image: SDL1 plugin'
             'python: python bindings')
 makedepends=(cmake ladspa frei0r-plugins libdv sdl_image libsamplerate sox ffmpeg vid.stab qt5-svg
              jack libexif python swig movit eigen opencv rubberband gdk-pixbuf2 pango rtaudio imagemagick)
-source=(https://github.com/mltframework/mlt/releases/download/v$pkgver/mlt-$pkgver.tar.gz)
+source=(mlt_$pkgver.tar.gz::https://github.com/mltframework/mlt/releases/download/v$pkgver/mlt-$pkgver.tar.gz)
 sha256sums=('66606d79f91b400a4d9380a911a5d771a48bd6413447fa2f3713459eba70242d')
 
 build() {
