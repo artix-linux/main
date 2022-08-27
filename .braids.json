@@ -4414,7 +4414,7 @@
     "librsvg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
       "branch": "master",
-      "revision": "f6854e5640545cbeeb74181051588091f5117cea"
+      "revision": "6144a57a48c31b132a7b10969b1d2c7d4a2621da"
     },
     "librsync": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsync.git",
