@@ -8299,7 +8299,7 @@
     "taglib": {
       "url": "gitea@gitea.artixlinux.org:packagesT/taglib.git",
       "branch": "master",
-      "revision": "f1b868c45f05a48fa142dc491816177e333f0d41"
+      "revision": "0a7b0b48f45d235e2e140c44dd84b84d6c862378"
     },
     "tailscale": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale.git",
