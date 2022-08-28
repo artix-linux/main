@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: qontinuum <qontinuum@artixlinux.org>
 
 pkgname=jupyter-nbconvert
 _name=nbconvert
@@ -18,7 +18,7 @@ depends=(
   'python-entrypoints'
   'python-jinja'
   'python-pandocfilters'
-  'python-mistune'
+  'python-mistune>=2'
   'python-pygments'
   'python-traitlets'
   'python-tinycss2'
