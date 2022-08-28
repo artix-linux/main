@@ -3,7 +3,7 @@
 pkgname=jupyter-nbconvert
 _name=nbconvert
 pkgver=7.0.0
-pkgrel=2
+pkgrel=1
 pkgdesc="Jupyter Notebook Conversion"
 arch=('any')
 url="https://pypi.python.org/pypi/nbconvert"
@@ -18,14 +18,14 @@ depends=(
   'python-entrypoints'
   'python-jinja'
   'python-pandocfilters'
-  'python-mistune'
+  'python-mistune>=2'
   'python-pygments'
   'python-traitlets'
   'python-tinycss2'
   'python-lxml'
 )
 makedepends=('python-build' 'python-installer' 'python-hatchling' 'python-pyppeteer')
-checkdepends=('python-pytest' 'python-ipywidgets')
+# checkdepends=('python-pytest' 'python-ipywidgets')
 optdepends=('pandoc: non-html conversion output'
             'python-pyppeteer: for webPDF conversion support')
 source=("https://github.com/jupyter/nbconvert/archive/$pkgver/$pkgname-$pkgver.tar.gz")
@@ -36,15 +36,15 @@ build() {
   python -m build --wheel --no-isolation
 }
 
-check() {
-  cd nbconvert-$pkgver
-  export PYTHONPATH="$PWD" # Make sure system nbconvert is not used
+# check() {
+  # cd nbconvert-$pkgver
+  # export PYTHONPATH="$PWD" # Make sure system nbconvert is not used
   # disable tests that download chromium and (probably) require a graphical session
-  pytest -v -k 'TestWebPDFExporter and not (test_export or test_webpdf_without_pyppeteer)' -W ignore::DeprecationWarning
-  pytest -v -k 'TestNbConvertApp and not test_webpdf_with_chromium' -W ignore::DeprecationWarning
+  # pytest -v -k 'TestWebPDFExporter and not (test_export or test_webpdf_without_pyppeteer)' -W ignore::DeprecationWarning
+  # pytest -v -k 'TestNbConvertApp and not test_webpdf_with_chromium' -W ignore::DeprecationWarning
   # run all remaining tests
-  pytest -v -k 'not TestWebPDFExporter and not TestNbConvertApp' -W ignore::DeprecationWarning
-}
+  # pytest -v -k 'not TestWebPDFExporter and not TestNbConvertApp' -W ignore::DeprecationWarning
+# }
 
 package() {
   cd nbconvert-$pkgver
