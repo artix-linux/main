@@ -18,7 +18,7 @@ depends=(
   'python-entrypoints'
   'python-jinja'
   'python-pandocfilters'
-  'python-mistune>=2'
+  'python-mistune'
   'python-pygments'
   'python-traitlets'
   'python-tinycss2'
