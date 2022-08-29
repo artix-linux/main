@@ -1,10 +1,10 @@
-# Maintainer: Sergej Pupykin <arch+pub@sergej.pp.ru>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 # Contributor: ajs124 < aur AT ajs124 DOT de >
 
 pkgname=firejail
 pkgver=0.9.70
-pkgrel=2
+pkgrel=4
 pkgdesc='Linux namespaces sandbox program'
 arch=('x86_64')
 url=https://github.com/netblue30/firejail
