@@ -114,7 +114,7 @@
     "amfora": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amfora.git",
       "branch": "master",
-      "revision": "fcf4af5c052c751ac61b8992d358caa692effb1a"
+      "revision": "27f41424ed29618d71a82b088734b10c317a6aa2"
     },
     "amule": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amule.git",
