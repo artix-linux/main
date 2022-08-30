@@ -1,0 +1,27 @@
+From a3390ae633757587244fedd1c8f0ed88b8ecfc47 Mon Sep 17 00:00:00 2001
+From: Nathan Owens <ndowens@artixlinux.org>
+Date: Mon, 29 Aug 2022 19:36:25 -0500
+Subject: [PATCH] Set prefix path
+
+---
+ Modules/CMakeGenericSystem.cmake | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/Modules/CMakeGenericSystem.cmake b/Modules/CMakeGenericSystem.cmake
+index e2925dc9..52a091f2 100644
+--- a/Modules/CMakeGenericSystem.cmake
++++ b/Modules/CMakeGenericSystem.cmake
+@@ -177,8 +177,9 @@ endif()
+ 
+ # Choose a default install prefix for this platform.
+ if(CMAKE_HOST_UNIX)
+-  set(CMAKE_INSTALL_PREFIX "/usr/local"
++  set(CMAKE_INSTALL_PREFIX "/usr"
+     CACHE PATH "Install path prefix, prepended onto install directories.")
++  set(CMAKE_PREFIX_PATH "/usr")
+ else()
+   GetDefaultWindowsPrefixBase(CMAKE_GENERIC_PROGRAM_FILES)
+   set(CMAKE_INSTALL_PREFIX
+-- 
+2.37.2
+
