@@ -1,2 +1,0 @@
-# quazip-qt5
-
