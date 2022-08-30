@@ -4,7 +4,7 @@
 
 pkgname=cmake
 pkgver=3.24.1
-pkgrel=1.2
+pkgrel=1.3
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
 url="https://www.cmake.org/"
@@ -15,7 +15,7 @@ optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
 	"artix-cmake")
 sha512sums=('67bfafcf9ceba617d7ebbb0ac88b689a2d90ab51fea4a83bd073ee082fb55de8962ce7fb283f3db5f455d286f2199843ffa595a1de207d4fa3e4472d951eb289'
-            '3779c30e68189e8a3317234e8bbc98210849bb9255acdf4ac7bf6161dc270c69ef5dac8b4b926ccdbca6abaf627b0818739f7e150581ca4872a4697c57ccdf91')
+            '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7')
 
 build() {
   cd ${pkgname}-${pkgver}
