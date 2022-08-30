@@ -4,7 +4,7 @@
 
 pkgname=cmake
 pkgver=3.24.1
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
 url="https://www.cmake.org/"
@@ -13,13 +13,9 @@ depends=('curl' 'libarchive' 'hicolor-icon-theme' 'jsoncpp' 'libjsoncpp.so' 'lib
 makedepends=('qt6-base' 'python-sphinx' 'emacs')
 optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
-        '0001-set-prefix-path.patch')
+	"artix-cmake")
 sha512sums=('67bfafcf9ceba617d7ebbb0ac88b689a2d90ab51fea4a83bd073ee082fb55de8962ce7fb283f3db5f455d286f2199843ffa595a1de207d4fa3e4472d951eb289'
-            'a29c73c65ef3e9a0768e2a4382d2442e3d19acf24faec249a0c9cf29d6c8f01a6c1b576ea22bd2cd88ff5c463afb5d2baab14e0f6d2ff8aa97f6a760ac7d8d50')
-
-prepare() {
-  patch -d $pkgname-$pkgver -Np1 -i "$srcdir"/0001-set-prefix-path.patch
-}
+            '3779c30e68189e8a3317234e8bbc98210849bb9255acdf4ac7bf6161dc270c69ef5dac8b4b926ccdbca6abaf627b0818739f7e150581ca4872a4697c57ccdf91')
 
 build() {
   cd ${pkgname}-${pkgver}
@@ -42,4 +38,5 @@ package() {
   rm -r "$pkgdir"/usr/share/doc/cmake/html/_sources
   emacs -batch -f batch-byte-compile "${pkgdir}"/usr/share/emacs/site-lisp/cmake-mode.el
   install -Dm644 Copyright.txt "${pkgdir}"/usr/share/licenses/${pkgname}/LICENSE
+  install -Dm755 "$srcdir"/artix-cmake "$pkgdir"/usr/bin/artix-cmake
 }

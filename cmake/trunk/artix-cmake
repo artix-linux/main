@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+
+exec cmake \
+	-D CMAKE_PREFIX_PATH=/usr \
+	"$@"
