@@ -4904,7 +4904,7 @@
     "libxfont2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxfont2.git",
       "branch": "master",
-      "revision": "a82f7f44ccd387c87a6dc66948598b8ab63865ba"
+      "revision": "45797bcde159991ca0b554013c583f8a0f23d8ef"
     },
     "libxft": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxft.git",
