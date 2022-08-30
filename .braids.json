@@ -3704,7 +3704,7 @@
     "libfontenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
       "branch": "master",
-      "revision": "d5ff8e6528f969af0d49bc88046e0a10ca7f0c94"
+      "revision": "52802f09c94323aba67140d369eeb6a06319b101"
     },
     "libfreeaptx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfreeaptx.git",
