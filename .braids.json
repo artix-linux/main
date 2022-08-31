@@ -6844,7 +6844,7 @@
     "publicsuffix-list": {
       "url": "gitea@gitea.artixlinux.org:packagesP/publicsuffix-list.git",
       "branch": "master",
-      "revision": "5b9311c8215212c10d43895ad59aedee6625e400"
+      "revision": "48884adc8d914ca052e49094d01e6b3bb2890340"
     },
     "pugixml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
