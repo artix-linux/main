@@ -1484,7 +1484,7 @@
     "elixir": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elixir.git",
       "branch": "master",
-      "revision": "79835dde404e2f3f58773c839d5e6d96a5288694"
+      "revision": "8ae31b0c745614ca3e665cc32c5c2c77a2b2500a"
     },
     "ell": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ell.git",
