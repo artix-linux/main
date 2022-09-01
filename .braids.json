@@ -214,7 +214,7 @@
     "artix-keyring": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-keyring.git",
       "branch": "master",
-      "revision": "52d82716e5c088a0b5de802c8bc7ae50c4b09de4"
+      "revision": "90c7a8ae9487a2d37effac12cd3e547b9868f249"
     },
     "artix-mirrorlist": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-mirrorlist.git",
