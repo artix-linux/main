@@ -1849,7 +1849,7 @@
     "fmt": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fmt.git",
       "branch": "master",
-      "revision": "1e0f6339bea91030982f5bb391753fab36ffe526"
+      "revision": "ec4b650eafda4db120a712893212e09ed5b1e8f9"
     },
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
