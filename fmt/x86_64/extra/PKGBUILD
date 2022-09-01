@@ -1,9 +1,9 @@
-# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Mihai Bişog <mihai.bisog@gmail.com>
 
 pkgname=fmt
-pkgver=8.1.1
-pkgrel=2
+pkgver=9.1.0
+pkgrel=1
 pkgdesc='Open-source formatting library for C++'
 arch=(x86_64)
 url=https://fmt.dev
@@ -19,7 +19,7 @@ makedepends=(
   python-virtualenv
 )
 provides=(libfmt.so)
-_tag=b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9
+_tag=a33701196adfad74917046096bf5a2aa0ab0bb50
 source=(git+https://github.com/fmtlib/fmt.git#tag=${_tag})
 b2sums=(SKIP)
 
@@ -34,7 +34,7 @@ pkgver() {
 }
 
 build() {
-  cmake -S fmt -B build -G Ninja \
+  artix-cmake -S fmt -B build -G Ninja \
     -DCMAKE_BUILD_TYPE=None \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=/usr/lib \
