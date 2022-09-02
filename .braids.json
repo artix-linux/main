@@ -1079,7 +1079,7 @@
     "dart": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dart.git",
       "branch": "master",
-      "revision": "1a1360e4bd7b312156b27cfbc92f17ce7d4f5d9e"
+      "revision": "9bb319f3988f7ece2e0b3b958fa3e2d34104a0a1"
     },
     "darts": {
       "url": "gitea@gitea.artixlinux.org:packagesD/darts.git",
