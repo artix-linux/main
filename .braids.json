@@ -6549,7 +6549,7 @@
     "pcre": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcre.git",
       "branch": "master",
-      "revision": "1b3fa8dfd3764ae2d32ca7bbba072f8c9113d34c"
+      "revision": "264a932a2c032fe976d27bfc20a079c5b367ad56"
     },
     "pcre2": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcre2.git",
