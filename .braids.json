@@ -3279,7 +3279,7 @@
     "less": {
       "url": "gitea@gitea.artixlinux.org:packagesL/less.git",
       "branch": "master",
-      "revision": "6d503a8a7d0039f6ec44439a163bc9334bc39bb2"
+      "revision": "5338c18eb1faf9f58cbf525ded72bf14efac2e67"
     },
     "level-zero": {
       "url": "gitea@gitea.artixlinux.org:packagesL/level-zero.git",
