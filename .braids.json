@@ -8244,7 +8244,7 @@
     "suil": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suil.git",
       "branch": "master",
-      "revision": "50167bdaa935a30cd13eb57a5ddefe3c6a3333ce"
+      "revision": "fb59b0bad81266b507d03aa473e17e495f483a7e"
     },
     "suitesparse": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suitesparse.git",
