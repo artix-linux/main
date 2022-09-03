@@ -499,7 +499,7 @@
     "bluez": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bluez.git",
       "branch": "master",
-      "revision": "9ee6fefd0d54d7b3872ac92546f40bbee0246305"
+      "revision": "b854a09d77f84f43bf9a527712c2a492c359e942"
     },
     "boinc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc.git",
