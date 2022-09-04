@@ -8169,7 +8169,7 @@
     "sslh": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh.git",
       "branch": "master",
-      "revision": "8863eca77d90f090494853a72ff6baf922f97492"
+      "revision": "d0afa8189ef51f6acc070d0d8529ca5b0a9e42e2"
     },
     "sssd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sssd.git",
