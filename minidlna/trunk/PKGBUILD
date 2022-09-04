@@ -1,11 +1,11 @@
-# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer:Biginoz < biginoz AT free point fr>
 # Contributor: Ignacio Galmarino <igalmarino@gmail.com>
 # Contributor: Matthias Sobczyk <matthias.sobczyk@googlemail.com>
 # Contributor: Kamil Kaminski <kyle@kkaminsk.com>
 
 pkgname=minidlna
-pkgver=1.3.1
+pkgver=1.3.2
 pkgrel=1
 pkgdesc="A DLNA/UPnP-AV Media server (aka ReadyDLNA)"
 arch=('x86_64')
