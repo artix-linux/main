@@ -1544,7 +1544,7 @@
     "entr": {
       "url": "gitea@gitea.artixlinux.org:packagesE/entr.git",
       "branch": "master",
-      "revision": "a3565e0a5a1fb05fe46807cc5276f4b0947db2f2"
+      "revision": "b8b51204a92f639b814697f027e632e19487c1c0"
     },
     "erlang": {
       "url": "gitea@gitea.artixlinux.org:packagesE/erlang.git",
