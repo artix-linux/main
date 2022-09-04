@@ -1,4 +1,4 @@
-# Maintainer: Sébastien "Seblu" Luttringer
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Le_suisse <lesuisse.dev+aur at gmail dot com>
 # Contributor: Jason Rodriguez <jason-aur@catloaf.net>
 
@@ -6,12 +6,12 @@ pkgname=sslh
 _pkgver=1.22c
 # Remember: 1.22a < 1.22b < 1.22
 pkgver=1.22.c
-pkgrel=1
+pkgrel=2
 pkgdesc='SSL/SSH/OpenVPN/XMPP/tinc port multiplexer'
 arch=('x86_64')
 url='https://www.rutschle.net/tech/sslh/README.html'
 license=('GPL2')
-depends=('glibc' 'libcap' 'libconfig' 'pcre')
+depends=('glibc' 'libcap' 'libconfig' 'pcre2')
 backup=('etc/sslh.cfg')
 source=("https://www.rutschle.net/tech/sslh/$pkgname-v$_pkgver.tar.gz"{,.asc}
         'sslh.cfg')
