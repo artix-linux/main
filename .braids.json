@@ -3044,7 +3044,7 @@
     "jitterentropy": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jitterentropy.git",
       "branch": "master",
-      "revision": "1f78bc36fff45104611cf687ab7825260db4890c"
+      "revision": "9edfbc7001be213b0d2528b4fece60a93aa8bf4b"
     },
     "jose": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jose.git",
