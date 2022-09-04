@@ -719,7 +719,7 @@
     "chafa": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chafa.git",
       "branch": "master",
-      "revision": "ed669e5eec7a6a4a873e17734f8473e64f55c1dc"
+      "revision": "a6b6d47316261d94007a71b4318a5f1bf0c0ebe7"
     },
     "check": {
       "url": "gitea@gitea.artixlinux.org:packagesC/check.git",
