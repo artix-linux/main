@@ -994,7 +994,7 @@
     "cracklib": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cracklib.git",
       "branch": "master",
-      "revision": "44f08bfef1887c604a14bf157823fef37c1c71a0"
+      "revision": "270f02e8d88207a18bca5908bc36c6eb79306f78"
     },
     "criu": {
       "url": "gitea@gitea.artixlinux.org:packagesC/criu.git",
