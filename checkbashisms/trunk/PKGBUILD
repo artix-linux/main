@@ -1,21 +1,34 @@
-# Maintainer: Eli Schwartz <eschwartz@archlinux.org>
+# Maintainer: George Rawlinson <grawlinson@archlinux.org>
+# Contributor: Eli Schwartz <eschwartz@archlinux.org>
 
 pkgname=checkbashisms
-pkgver=2.22.1
+pkgver=2.22.2
 pkgrel=1
 pkgdesc='Debian script that checks for bashisms'
 arch=('any')
-url="https://packages.qa.debian.org/d/devscripts.html"
+url='https://tracker.debian.org/pkg/devscripts'
 license=('GPL')
 depends=('perl')
-source=("https://snapshot.debian.org/archive/debian-debug/20220123T204811Z/pool/main/d/devscripts/devscripts_${pkgver}.tar.xz")
-sha256sums=('35dd5e6029d27be35b96e8c6e38b8aa6fba791a21371dac2de0f8cdee5fe33d5')
-b2sums=('2a2e3ca9757c710e181e807f0369c137f21070d86b4c51d8b5132ca4add33677edbd26e04a2faae93e9e4586080286888880ce450119579aa40ad205c8e5d857')
+source=("https://salsa.debian.org/debian/devscripts/-/archive/v$pkgver/devscripts-v$pkgver.tar.gz")
+sha512sums=('9c08b7f2d4e386bafdab12443ba621204e2ee543f660bd574ad5f8dbfe33c889157dfa6fdf0616528f0735ee79885f67af5cea2da6e3aea6858ce945735251aa')
+b2sums=('c2e2d0cf322c3e31d3b4acc55683ed0a83d93ac8113de30d25f37a17700470d8ef1aeed00ad169ae4569f99bf4b710010e4ab4e06d4b9e198a1b42dfd9ebe9fd')
+
+prepare() {
+  cd "devscripts-v$pkgver/scripts"
+
+  sed "s/###VERSION###/$pkgver/g" checkbashisms.pl > checkbashisms
+}
+
 
 package() {
-    cd "${srcdir}"/devscripts-${pkgver}/scripts
+  cd "devscripts-v$pkgver/scripts"
 
-    sed "s/###VERSION###/${pkgver}/g" checkbashisms.pl | install -Dm755 /dev/stdin "${pkgdir}"/usr/bin/checkbashisms
-    install -Dm644 checkbashisms.1 "${pkgdir}"/usr/share/man/man1/checkbashisms.1
-    install -Dm644 checkbashisms.bash_completion "${pkgdir}"/usr/share/bash-completion/completions/checkbashisms
+  # binary
+  install -vDm755 -t "$pkgdir/usr/bin" "$pkgname"
+
+  # man page
+  install -vDm644 -t "$pkgdir/usr/share/man/man1" "$pkgname.1"
+
+  # bash completions
+  install -vDm644 "$pkgname.bash_completion" "$pkgdir/usr/share/bash-completion/completions/$pkgname"
 }
