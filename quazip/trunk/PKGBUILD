@@ -7,7 +7,7 @@
 pkgbase=quazip
 pkgname=(quazip-qt5 quazip-qt6)
 pkgver=1.3
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='C++ wrapper for the ZIP/UNZIP C package'
 url='https://stachenov.github.io/quazip/'
 license=(LGPL)
@@ -18,7 +18,8 @@ sha256sums=('c1239559cd6860cab80a0fd81f4204e606f9324f702dab6166b0960676ee1754')
 
 build() {
   cmake -B build5 -S $pkgbase-$pkgver \
-    -DCMAKE_INSTALL_PREFIX=/usr
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DQUAZIP_QT_MAJOR_VERSION=5
   cmake --build build5
 
   cmake -B build6 -S $pkgbase-$pkgver \
