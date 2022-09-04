@@ -729,7 +729,7 @@
     "checkbashisms": {
       "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
       "branch": "master",
-      "revision": "c2cfde9cd64d03b9a209f4a1b4458011e817c9e0"
+      "revision": "683129a0e5a39b992fd06d63f110e942ed7e249d"
     },
     "cherrytree": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cherrytree.git",
