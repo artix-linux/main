@@ -14,7 +14,7 @@
     "abseil-cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/abseil-cpp.git",
       "branch": "master",
-      "revision": "f94a95f419e4e65ca858f2fa7bcdf8c809c49410"
+      "revision": "10cb8806e66d385baddb68d0b15a40c91620a59b"
     },
     "accountsservice": {
       "url": "gitea@gitea.artixlinux.org:packagesA/accountsservice.git",
