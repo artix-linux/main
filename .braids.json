@@ -3989,7 +3989,7 @@
     "libltc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libltc.git",
       "branch": "master",
-      "revision": "efe3a62c3e8eea273be99ecc6aa3edeedea95f93"
+      "revision": "1b1c2276dcc836c914e09a4f19556ccd226bec59"
     },
     "liblzf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblzf.git",
