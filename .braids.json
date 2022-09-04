@@ -6629,7 +6629,7 @@
     "pipewire": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire.git",
       "branch": "master",
-      "revision": "f1a681ec455a2190b65990ae7fb2d493b7351cf4"
+      "revision": "c2377dd8f8510668bbfde040236e0de39d6a019c"
     },
     "pipewire-media-session": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire-media-session.git",
