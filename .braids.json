@@ -2404,7 +2404,7 @@
     "gsoap": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsoap.git",
       "branch": "master",
-      "revision": "4fe8982bb8af3da04c0aee507a70423de5b3d032"
+      "revision": "a88bd2cd0e46a3d252bd4b0ed25fc0815e2233b8"
     },
     "gssdp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gssdp.git",
