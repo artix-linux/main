@@ -3406,6 +3406,11 @@
       "branch": "master",
       "revision": "87dffda76308798ca335e98acbea24509297fafe"
     },
+    "libbobcat": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libbobcat.git",
+      "branch": "master",
+      "revision": "30e2e55dc56507419a724adfa63f0a921429a509"
+    },
     "libbpf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbpf.git",
       "branch": "master",
