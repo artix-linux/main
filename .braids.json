@@ -3989,7 +3989,7 @@
     "libliftoff": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libliftoff.git",
       "branch": "master",
-      "revision": "de0e0ea58e447ed9facd9a3c73bfa4bb2e86d6b1"
+      "revision": "ab2eca759fa65c98c0db60e89bffbb8d6809b72b"
     },
     "liblo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblo.git",
