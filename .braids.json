@@ -339,7 +339,7 @@
     "autoconf-archive": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autoconf-archive.git",
       "branch": "master",
-      "revision": "76bb8272840ed4d7ed5f830357cfa8470a8cc012"
+      "revision": "c8f573a0556874d40e4bfd5f4b5978691f0eb4c9"
     },
     "autoconf2.13": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autoconf2.13.git",
