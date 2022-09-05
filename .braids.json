@@ -639,7 +639,7 @@
     "calf": {
       "url": "gitea@gitea.artixlinux.org:packagesC/calf.git",
       "branch": "master",
-      "revision": "057fb6ce4bec3ff34bbe8a0f39ef32abe8180624"
+      "revision": "a8228a14279a23e83b19d8ed55386c178032566b"
     },
     "camlp4": {
       "url": "gitea@gitea.artixlinux.org:packagesC/camlp4.git",
