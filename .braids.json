@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "507ec57ca99d90e1f31e47479dd95f600e345bfc"
     },
+    "calf": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/calf.git",
+      "branch": "master",
+      "revision": "057fb6ce4bec3ff34bbe8a0f39ef32abe8180624"
+    },
     "camlp4": {
       "url": "gitea@gitea.artixlinux.org:packagesC/camlp4.git",
       "branch": "master",
