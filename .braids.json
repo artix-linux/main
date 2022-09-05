@@ -8759,7 +8759,7 @@
     "udpxy": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udpxy.git",
       "branch": "master",
-      "revision": "560a8520cbdd2806a85a56d9c9f58c27f8969084"
+      "revision": "517d5811de53d2a59dda201c95013895b1d158ea"
     },
     "ufw": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw.git",
