@@ -4354,7 +4354,7 @@
     "libpng12": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpng12.git",
       "branch": "master",
-      "revision": "8aff11f806e885724a8ff8ede546f084f77a5307"
+      "revision": "54b72ae6857338aaa381a692a74a0ae1c8c1f3b2"
     },
     "libproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libproxy.git",
