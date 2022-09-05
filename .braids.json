@@ -5904,7 +5904,7 @@
     "neon": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neon.git",
       "branch": "master",
-      "revision": "ac635574094c6da56131bce7138b38d2eaa7ff22"
+      "revision": "4af5b042db25042cc13be8345223d4ebef176d33"
     },
     "net-snmp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/net-snmp.git",
