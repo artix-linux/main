@@ -7964,7 +7964,7 @@
     "shared-mime-info": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shared-mime-info.git",
       "branch": "master",
-      "revision": "03341a7f7eb86b7fba15a0439e0bb18e68ae026d"
+      "revision": "6f7db6698ec082301e96463517028be1a1580b4a"
     },
     "sharutils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sharutils.git",
