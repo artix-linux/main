@@ -4351,6 +4351,11 @@
       "branch": "master",
       "revision": "cbf5e8fcfe74a202404ccf3941d0881b2b216989"
     },
+    "libpng12": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libpng12.git",
+      "branch": "master",
+      "revision": "8aff11f806e885724a8ff8ede546f084f77a5307"
+    },
     "libproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libproxy.git",
       "branch": "master",
