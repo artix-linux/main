@@ -9419,7 +9419,7 @@
     "xf86-video-openchrome": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-openchrome.git",
       "branch": "master",
-      "revision": "3f5a617bc503b94541edf65a3ebb7b8636d9a6bc"
+      "revision": "4a1aca83c05c84c643eb3636679214a0a1772727"
     },
     "xf86-video-sisusb": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-sisusb.git",
