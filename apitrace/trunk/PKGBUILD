@@ -3,17 +3,17 @@
 # Contributor: Glaucous <glakke1 at gmail dot com>
 
 pkgname=apitrace
-pkgver=10.0
+pkgver=11.1
 pkgrel=1
 pkgdesc="Graphics API Tracing"
 arch=('x86_64')
 url="https://github.com/apitrace/apitrace"
 license=('custom')
 makedepends=('cmake' 'mesa' 'qt5-base')
-depends=('python' 'libgl' 'procps-ng')
+depends=('python' 'libgl' 'procps-ng' 'gtest')
 optdepends=('qt5-base: GUI support')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/apitrace/apitrace/archive/${pkgver}.tar.gz")
-sha256sums=('2e57d37af39369d7ce78666acb8afb1a49ec758f683a21077ec39eb0befae4ad')
+sha256sums=('aae2d4bd1f8e9b78d82c665d7a54ba8020797a7db98d9913ad00e35f89c6b7e4')
 
 build() {
   cd apitrace-${pkgver}
