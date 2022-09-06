@@ -8299,7 +8299,7 @@
     "syncthing": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing.git",
       "branch": "master",
-      "revision": "831c5e661ef83f672836a50c740c93aaacb244c5"
+      "revision": "d7e95d319342aa3e9cbec9f4db1f1410de22872c"
     },
     "sysfsutils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sysfsutils.git",
