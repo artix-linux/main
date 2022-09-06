@@ -8994,7 +8994,7 @@
     "virt-what": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
       "branch": "master",
-      "revision": "b2d6d8d1ecba55d5d071d65bb1640249a4310c53"
+      "revision": "efa53d5149a51d4809ed915e9693f2b316a3ea8b"
     },
     "virtualbox": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox.git",
