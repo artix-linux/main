@@ -149,7 +149,7 @@
     "apitrace": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apitrace.git",
       "branch": "master",
-      "revision": "2fb292fb40a2a5a7958c02ba3251577c739af4be"
+      "revision": "5b544bb3ff0cc4a0e0eac60c43a7fbb51a3e99cc"
     },
     "apparmor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor.git",
