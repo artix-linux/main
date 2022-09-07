@@ -3,7 +3,7 @@
 
 pkgname=pacman-contrib
 pkgver=1.6.0
-pkgrel=1
+pkgrel=1.5
 pkgdesc='Contributed scripts and tools for pacman systems'
 arch=('x86_64')
 url=https://gitlab.archlinux.org/pacman/pacman-contrib
@@ -15,16 +15,13 @@ optdepends=('diffutils: for pacdiff'
             'mlocate: for pacdiff --locate'
             'sudo: privilege elevation for several scripts'
             'vim: default merge program for pacdiff')
-source=("$url/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz"
-        rankmirrors-artix.patch)
-b2sums=('cef246cb17fa2e2d70f3134b0f29e2424bccfb9ffeeb7e618977a5bedeaf01fc704bba9a5f6c0a08d9a885e5df53ea0f76740f0a49fdb7f7c5c88f8fd729d5ae'
-        'ca5d31cdd7a386241ba75a67e517bbd087f77f8740f0d7b5b53b26e2418516e395f01b7b43d09fff2430d214387e8386db679dfd2b226b1403d02135d349e469')
+source=("$url/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz")
+b2sums=('cef246cb17fa2e2d70f3134b0f29e2424bccfb9ffeeb7e618977a5bedeaf01fc704bba9a5f6c0a08d9a885e5df53ea0f76740f0a49fdb7f7c5c88f8fd729d5ae')
 #validpgpkeys=('5134EF9EAF65F95B6BB1608E50FB9B273A9D0BB5'  # Johannes Löthberg <johannes@kyriasis.com>
 #              '04DC3FB1445FECA813C27EFAEA4F7B321A906AD9') # Daniel M. Capella <polyzen@archlinux.org>
 
 prepare() {
   cd $pkgname-v$pkgver
-  patch -Np 1 -i ../rankmirrors-artix.patch
   ./autogen.sh
 }
 
@@ -46,8 +43,13 @@ package() {
   cd $pkgname-v$pkgver
   make DESTDIR="$pkgdir" install
 
-  # remove systemd unit (Artix)
+  # Modify for Artix and keep for Arch
   rm -fr ${pkgdir}/usr/lib/systemd
+  cd ${pkgdir}/usr/bin
+  sed s/core/system/g rankmirrors >rankmirrors-artix
+  chmod +x rankmirrors-artix
+  mv rankmirrors rankmirrors-arch
+  ln -s rankmirrors-artix rankmirrors
 }
 
 # vim:set ts=2 sw=2 et:
