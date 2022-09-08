@@ -7139,7 +7139,7 @@
     "qt5-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-networkauth.git",
       "branch": "master",
-      "revision": "dc4f5336374d0ec7cc3e055a812d29256bc9f594"
+      "revision": "1f642f0b8a6560676c87f1061101fb3e4f4f55af"
     },
     "qt5-purchasing": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-purchasing.git",
