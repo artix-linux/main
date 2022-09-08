@@ -7099,7 +7099,7 @@
     "qt5-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-doc.git",
       "branch": "master",
-      "revision": "01a6e7a5bf10eac9e4cc7369c1255c73363fc43e"
+      "revision": "355dcfd1e17bbad76d87660b09ea34894935861e"
     },
     "qt5-feedback": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-feedback.git",
