@@ -1,4 +1,4 @@
-# Maintainer: nous <nous@artixlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=pacman-contrib
@@ -15,8 +15,10 @@ optdepends=('diffutils: for pacdiff'
             'mlocate: for pacdiff --locate'
             'sudo: privilege elevation for several scripts'
             'vim: default merge program for pacdiff')
-source=("$url/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz")
-b2sums=('6c6710d55dce0f8189b3f821f50df25a312a2b05801fdfad23638422ea314156523349ffc0a9247f6a22ce618d0e45ccf551d2ae13de05a0a1c1366242313fb0')
+source=("$url/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz"
+        rankmirrors-artix.patch)
+b2sums=('6c6710d55dce0f8189b3f821f50df25a312a2b05801fdfad23638422ea314156523349ffc0a9247f6a22ce618d0e45ccf551d2ae13de05a0a1c1366242313fb0'
+        'ca5d31cdd7a386241ba75a67e517bbd087f77f8740f0d7b5b53b26e2418516e395f01b7b43d09fff2430d214387e8386db679dfd2b226b1403d02135d349e469')
 #validpgpkeys=('5134EF9EAF65F95B6BB1608E50FB9B273A9D0BB5'  # Johannes Löthberg <johannes@kyriasis.com>
 #              '04DC3FB1445FECA813C27EFAEA4F7B321A906AD9') # Daniel M. Capella <polyzen@archlinux.org>
 
