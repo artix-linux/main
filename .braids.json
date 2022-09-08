@@ -279,7 +279,7 @@
     "atftp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atftp.git",
       "branch": "master",
-      "revision": "ee4165345201ee9404832bc1eaf003d2e71afae3"
+      "revision": "cc93b2a7d3339d7ded5e221f5dc55e1893e015c4"
     },
     "atk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atk.git",
