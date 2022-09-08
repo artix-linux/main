@@ -614,7 +614,7 @@
     "ca-certificates": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ca-certificates.git",
       "branch": "master",
-      "revision": "bb62422858241bce541822db5260d515d7326aee"
+      "revision": "e20465d8e8623655390a991c6933d7e523c7fc5f"
     },
     "cabextract": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cabextract.git",
