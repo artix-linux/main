@@ -9084,7 +9084,7 @@
     "vulkan-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-tools.git",
       "branch": "master",
-      "revision": "aec700fdac693e3b9bfc63d9de121c0279976f21"
+      "revision": "5f9ffcfbdc1f724f3c85a8c2ab194dfb502a5226"
     },
     "vulkan-validation-layers": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-validation-layers.git",
