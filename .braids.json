@@ -7069,7 +7069,7 @@
     "qt5-3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-3d.git",
       "branch": "master",
-      "revision": "efe8bbbcf4b973b1e057a11693c611f688c6eee3"
+      "revision": "856f41f6d20a8e95075bbe2f9ecc54722e760a1d"
     },
     "qt5-base": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-base.git",
