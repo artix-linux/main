@@ -5,7 +5,7 @@
 pkgname=qt5-svg
 _basever=5.15.6
 pkgver=5.15.6+kde+r8
-pkgrel=1
+pkgrel=1.1
 _commit=8cebe1d49617370ea2f5daae68b41c5d45d606c3
 arch=('x86_64')
 url='https://www.qt.io'
