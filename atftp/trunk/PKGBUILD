@@ -11,8 +11,8 @@ license=('GPL')
 depends=('pcre2' 'readline')
 backup=('etc/conf.d/atftpd')
 source=("https://downloads.sf.net/sourceforge/atftp/atftp-${pkgver}.tar.gz"
-        'sysusers.conf'
-        'tmpfiles.conf')
+        "$pkgname".sysusers.conf
+        "$pkgname".tmpfiles.conf)
 sha256sums=('df2aa089c7670f9eab40e5598e5d2cb6a582dc5182926ea50b4d690e4e37f316'
             'e56f601bcdf0d64bf98813cd4a1be323541e33921c7d4f350168f62b56e66d11'
             '2096272445c736ba05529af628cc2d46d0236c8f1ecbd50bb1db6dc6c4a972c5')
@@ -40,8 +40,8 @@ package() {
 
   make DESTDIR="$pkgdir" install
 
-  install -D -m0644 ../sysusers.conf "$pkgdir"/usr/lib/sysusers.d/atftp.conf
-  install -D -m0644 ../tmpfiles.conf "$pkgdir"/usr/lib/tmpfiles.d/atftp.conf
+  install -D -m0644 ../"$pkgname".sysusers.conf "$pkgdir"/usr/lib/sysusers.d/atftp.conf
+  install -D -m0644 ../"$pkgname".tmpfiles.conf "$pkgdir"/usr/lib/tmpfiles.d/atftp.conf
 
   # remove in.tftpd link as it conflicts with extra/tftp-hpa
   rm "${pkgdir}/usr/share/man/man8/in.tftpd.8"
