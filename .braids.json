@@ -1499,7 +1499,7 @@
     "ell": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ell.git",
       "branch": "master",
-      "revision": "304fa3717ecadda55b8637df6491c157fc8e9f97"
+      "revision": "0bc16114d47a741081d1629dce8dd70e310a2fc0"
     },
     "elogind": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind.git",
