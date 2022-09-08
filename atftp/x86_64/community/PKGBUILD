@@ -10,7 +10,7 @@ url='https://sourceforge.net/projects/atftp/'
 license=('GPL')
 depends=('pcre2' 'readline')
 backup=('etc/conf.d/atftpd')
-source=("https://downloads.sf.net/sourceforge/atftp/atftp-${pkgver}.tar.gz"
+source=("$pkgname_$pkgname.tar.gz::https://downloads.sf.net/sourceforge/atftp/atftp-${pkgver}.tar.gz"
         "$pkgname".sysusers.conf
         "$pkgname".tmpfiles.conf)
 sha256sums=('df2aa089c7670f9eab40e5598e5d2cb6a582dc5182926ea50b4d690e4e37f316'
