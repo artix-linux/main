@@ -6109,7 +6109,7 @@
     "numactl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/numactl.git",
       "branch": "master",
-      "revision": "eb75111b1849cb94b89516aa8514ce3e583efc38"
+      "revision": "e2f6fbb7976d84bb1aca882512bcae87ba3f53c0"
     },
     "nvchecker": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvchecker.git",
