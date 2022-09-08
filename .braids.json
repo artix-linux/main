@@ -7254,7 +7254,7 @@
     "qt5-websockets": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-websockets.git",
       "branch": "master",
-      "revision": "88d6494153832e22f4cbc5060a392583f54add9f"
+      "revision": "d92dffc2311d1880f6606dbe126b18b68a925218"
     },
     "qt5-webview": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webview.git",
