@@ -4569,7 +4569,7 @@
     "libssh": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libssh.git",
       "branch": "master",
-      "revision": "facb95b5202e22522f4f3fc32ad63dd1566d50c1"
+      "revision": "acb231029bdbf358690dc72cfdc285529c72f04d"
     },
     "libssh2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libssh2.git",
