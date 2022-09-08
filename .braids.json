@@ -7264,7 +7264,7 @@
     "qt5-x11extras": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-x11extras.git",
       "branch": "master",
-      "revision": "4b1015355358030491538b67d173bd26b9f9dec2"
+      "revision": "4e176ea06e7f731fdafd24af262f225ab679e321"
     },
     "qt5-xmlpatterns": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-xmlpatterns.git",
