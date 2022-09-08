@@ -7219,7 +7219,7 @@
     "qt5-translations": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-translations.git",
       "branch": "master",
-      "revision": "cd1e599d792203329a22a685592470f1161cbdb5"
+      "revision": "645ebe9d2187390b5ef570a1caa806adc61105b3"
     },
     "qt5-virtualkeyboard": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-virtualkeyboard.git",
