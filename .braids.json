@@ -8694,7 +8694,7 @@
     "ttf-nerd-fonts-symbols": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-nerd-fonts-symbols.git",
       "branch": "master",
-      "revision": "2cb99eb60ccfcaf3f889fd7f2b528557f3e07c5a"
+      "revision": "907896ba58b56fc971066d8b4e8767ebaa4ffb5e"
     },
     "ttf-opensans": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-opensans.git",
