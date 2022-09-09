@@ -1,13 +1,12 @@
-# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: artist <artist@artixlinux.org>
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
-#
 
 pkgname=qt5-webkit
 _pkgver=5.212.0-alpha4
 _basever=5.15.3
 pkgver=${_pkgver/-/}
-pkgrel=15
+pkgrel=16
 arch=(x86_64)
 url='https://github.com/qtwebkit/qtwebkit'
 license=(GPL3 LGPL3 FDL custom)
