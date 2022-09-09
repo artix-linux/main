@@ -20,9 +20,13 @@ source=(https://download.qt.io/official_releases/qt/${pkgver%.*}/$_qtver/submodu
 sha256sums=('e5b07d2ffab68cebe935972506c88ffe1e4b7d24bdc28c67578dbc075799aed2')
 
 build() {
-  cmake -B build -S $_pkgfn -G Ninja \
-    -DINSTALL_PUBLICBINDIR=usr/bin \
-    -DCMAKE_INSTALL_PREFIX=/usr
+  CLANG_RESOURCE_DIR=/usr/include/clang
+  cmake -B build \
+        -S $_pkgfn \
+        -G Ninja \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_PREFIX_PATH=/usr \
+        -DINSTALL_PUBLICBINDIR=usr/bin
   cmake --build build
 }
 
