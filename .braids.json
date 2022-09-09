@@ -7089,7 +7089,7 @@
     "qt5-datavis3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-datavis3d.git",
       "branch": "master",
-      "revision": "d260c09faddfa22767d5b3324414e91aa731aa57"
+      "revision": "5050134dc0602ef6c152f4b122c308faa36c6de0"
     },
     "qt5-declarative": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-declarative.git",
