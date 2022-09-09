@@ -19,6 +19,7 @@ sha256sums=('b90524f686224a0e5a945c1d65307e16a375348dbe275c9ac11de171fe31374a')
 
 build() {
   cmake -B build -S $_pkgfn -G Ninja \
+    -DCMAKE_PREFIX_PATH=/usr \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DQT_HOST_PATH=/usr \
     -DINSTALL_BINDIR=lib/qt6/bin \
