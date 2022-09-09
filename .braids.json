@@ -7209,7 +7209,7 @@
     "qt5-svg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-svg.git",
       "branch": "master",
-      "revision": "65fefd3792a757af57a81d09505f3233d7d25d1b"
+      "revision": "15efb8cc7f3927e615c94e66b26fe6f75ecb99f9"
     },
     "qt5-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-tools.git",
