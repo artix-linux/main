@@ -7339,7 +7339,7 @@
     "qt6-multimedia": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-multimedia.git",
       "branch": "master",
-      "revision": "3c8bfc92a74d02afb77bcc8f4d02e621088b2fab"
+      "revision": "f759abdb47ee7ca6006605a8d97b237df75347e5"
     },
     "qt6-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-networkauth.git",
