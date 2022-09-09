@@ -7164,7 +7164,7 @@
     "qt5-quicktimeline": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-quicktimeline.git",
       "branch": "master",
-      "revision": "945b15aa3e10d82d465427a88f29664b873e62d8"
+      "revision": "e97e0a5d4ca90e90fd9a8e8412a72bad88d740a8"
     },
     "qt5-remoteobjects": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-remoteobjects.git",
