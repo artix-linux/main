@@ -7369,7 +7369,7 @@
     "qt6-scxml": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-scxml.git",
       "branch": "master",
-      "revision": "3386a68aa59ea36b46ec1300360602239991fb65"
+      "revision": "49c6fc7649fb0bf044410e9c67e9cd86e26c071b"
     },
     "qt6-sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-sensors.git",
