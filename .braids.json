@@ -7434,7 +7434,7 @@
     "qt6-webview": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-webview.git",
       "branch": "master",
-      "revision": "075aa1f80fc3f08b0bec381ce87a0c7733c7df27"
+      "revision": "b4ea9149348a1ffe4c79c2f4e1a4110a9615ac3a"
     },
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
