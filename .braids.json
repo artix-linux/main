@@ -2584,7 +2584,7 @@
     "hdparm": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm.git",
       "branch": "master",
-      "revision": "90c6315b6ea212efd9102a31c5e4d0fef5cedd7a"
+      "revision": "ad265502bd1c91669d18ab81c0aec31d1e7dc0ab"
     },
     "help2man": {
       "url": "gitea@gitea.artixlinux.org:packagesH/help2man.git",
