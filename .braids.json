@@ -8339,7 +8339,7 @@
     "tailscale": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale.git",
       "branch": "master",
-      "revision": "f7c388e77ba13f3ec5cbd7ec5f826d024d78716d"
+      "revision": "a799faa2774d3cb757333d8edcf73b430a1ab71e"
     },
     "talloc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/talloc.git",
