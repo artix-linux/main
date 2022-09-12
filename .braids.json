@@ -1864,7 +1864,7 @@
     "font-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesF/font-awesome.git",
       "branch": "master",
-      "revision": "bc12a2c2568ffb2115bfca335fdb29264bd1add1"
+      "revision": "c1b900725705c6c59c0b7368947a0b8e93f1e7e5"
     },
     "fontconfig": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fontconfig.git",
