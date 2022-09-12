@@ -2679,7 +2679,7 @@
     "hwdata": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwdata.git",
       "branch": "master",
-      "revision": "3de8b993258f57b15b4f4f007277cc359b22e7e0"
+      "revision": "86ac6737a882d7a283aef33045f777781a746bae"
     },
     "hwinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwinfo.git",
