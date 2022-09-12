@@ -1999,7 +1999,7 @@
     "gawk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gawk.git",
       "branch": "master",
-      "revision": "c13fbaf030b550dd1b4852d9e25f669f41868d13"
+      "revision": "dd78ca1a318fa787556d49cd61864848ba41fe47"
     },
     "gc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gc.git",
