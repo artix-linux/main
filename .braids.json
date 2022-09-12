@@ -8634,7 +8634,7 @@
     "tree": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tree.git",
       "branch": "master",
-      "revision": "f9dda07f80850c4163b34a9bc01133056cf861fc"
+      "revision": "d9bf6a5d9a69e80b9365afa1c90485cec84de70a"
     },
     "trizen": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trizen.git",
