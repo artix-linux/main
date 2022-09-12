@@ -2004,7 +2004,7 @@
     "gc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gc.git",
       "branch": "master",
-      "revision": "85b790d1fe7d01a5ad337e061e1380987960da42"
+      "revision": "a5741527e5fcc8f2027c8bca0956895603f69333"
     },
     "gcc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc.git",
