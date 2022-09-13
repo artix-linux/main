@@ -4989,7 +4989,7 @@
     "libxp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxp.git",
       "branch": "master",
-      "revision": "155b4cae7c743220af91ada967c7e00fd7e863b7"
+      "revision": "f7d328459ddab7d773668ccd51e7f4d7ed944237"
     },
     "libxpm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxpm.git",
