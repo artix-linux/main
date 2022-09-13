@@ -2114,7 +2114,7 @@
     "gitea": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gitea.git",
       "branch": "master",
-      "revision": "e2d58d42938cb2009efde6862e8522bec4ed755a"
+      "revision": "4c4eb2cf660486b7cb82e7fa7fc4b4fc041c4f34"
     },
     "gl2ps": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gl2ps.git",
