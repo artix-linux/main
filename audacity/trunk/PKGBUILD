@@ -79,7 +79,7 @@ build() {
     -D audacity_obey_system_dependencies=ON
   )
 
-  cmake "${cmake_options[@]}" -B build -S $_name-$pkgver-Source -Wno-dev
+  artix-cmake "${cmake_options[@]}" -B build -S $_name-$pkgver-Source -Wno-dev
   cmake --build build
 }
 
