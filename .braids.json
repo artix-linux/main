@@ -2904,7 +2904,7 @@
     "iso-codes": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-codes.git",
       "branch": "master",
-      "revision": "dc45b9e7b1ed3405945a659c9fce0cf624bfe0ae"
+      "revision": "f9a96df4bdc7c2b2837aaff1c31b66fe219a6a49"
     },
     "iso-initcpio": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-initcpio.git",
