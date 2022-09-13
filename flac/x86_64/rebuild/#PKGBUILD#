@@ -23,7 +23,7 @@ prepare() {
 }
 
 build() {
-  artix-cmake -S flac-${pkgver} -B build -G Ninja \
+  cmake -S flac-${pkgver} -B build -G Ninja \
     -DCMAKE_BUILD_TYPE=None \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_MANDIR=/usr/share/man/man1 \
