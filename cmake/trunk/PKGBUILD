@@ -4,7 +4,7 @@
 
 pkgname=cmake
 pkgver=3.24.2
-pkgrel=1
+pkgrel=1.1
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
 url="https://www.cmake.org/"
@@ -13,9 +13,15 @@ depends=('curl' 'libarchive' 'hicolor-icon-theme' 'jsoncpp' 'libjsoncpp.so' 'lib
 makedepends=('qt6-base' 'python-sphinx' 'emacs')
 optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
-        "artix-cmake")
+        "artix-cmake"{,.patch})
 sha512sums=('6f0e8e29bf0336f555ba72c4d83f35d820f8a5159cc999d48795dc57a6627b4ee3966dda84ca97d39906e35dd476ea00cf80023672cc0fad862e2996194c0674'
-            '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7')
+            '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7'
+            '8a838312162d7792d3a3c5168629191c5c6ae61095bec157c49528b393bf4fe1573567855efd5037675bf0d0837641ed45b26da65165e45ba711f123879b156c')
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  patch -Np1 -i ../artix-cmake.patch
+}
 
 build() {
   cd ${pkgname}-${pkgver}
