@@ -1814,7 +1814,7 @@
     "flac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flac.git",
       "branch": "master",
-      "revision": "d6df0b2680e4a642f271b8fb940ac206518d59b3"
+      "revision": "9027ff5b607c38c2b2144cce27df362c4ce62092"
     },
     "flake8": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flake8.git",
