@@ -259,7 +259,7 @@
     "assimp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/assimp.git",
       "branch": "master",
-      "revision": "4586bf32fdc20d54ec0dee13ce199116d7531628"
+      "revision": "6cdf45a4d5712b7106b37ac7eb83409e15d589b5"
     },
     "at": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at.git",
