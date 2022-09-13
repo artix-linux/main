@@ -319,7 +319,7 @@
     "audiofile": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audiofile.git",
       "branch": "master",
-      "revision": "dab0f92a2d5bf1651e2a1f5c9882eb1c3da39c0a"
+      "revision": "3e65d5358b4fc3378850f2b7130c1319e253523a"
     },
     "audit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audit.git",
