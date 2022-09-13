@@ -7874,7 +7874,7 @@
     "sdl_sound": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl_sound.git",
       "branch": "master",
-      "revision": "7ef41e6c59f18fc5631562562e8a78a13b47838d"
+      "revision": "3b31c2a3add9d878fc9ac961c03c5409265a822a"
     },
     "sdl_ttf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl_ttf.git",
