@@ -9049,7 +9049,7 @@
     "vorbis-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vorbis-tools.git",
       "branch": "master",
-      "revision": "ad462fbe68127087f8eb248c23edce1821cb14b3"
+      "revision": "74610b33f99d8d09d17e06b3bca63ebb8ea1d31d"
     },
     "vpnc": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vpnc.git",
