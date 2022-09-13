@@ -7924,7 +7924,7 @@
     "sfml": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sfml.git",
       "branch": "master",
-      "revision": "f5acb589ee602ef32170af146dd41a56f034e1d8"
+      "revision": "e0bb11ac91118dc9323d54e12595f08de68bff5a"
     },
     "sfsexp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sfsexp.git",
