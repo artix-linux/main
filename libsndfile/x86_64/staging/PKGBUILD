@@ -25,14 +25,14 @@ validpgpkeys=(
 
 build() {
   # tests can only be built with static libs
-  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+  artix-cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=None \
         -Wno-dev \
         -B build-test \
         -S $pkgname-$pkgver
   make VERBOSE=1 -C build-test
 
-  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+  artix-cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=None \
         -DBUILD_SHARED_LIBS=ON \
         -Wno-dev \
