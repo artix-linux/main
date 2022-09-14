@@ -1614,7 +1614,7 @@
     "expect": {
       "url": "gitea@gitea.artixlinux.org:packagesE/expect.git",
       "branch": "master",
-      "revision": "7b2d36adbf10b80afac05435e8ea9b40cd5ffb86"
+      "revision": "e2c578a31f118762bd69f8ce1819912f2b4dc330"
     },
     "f2fs-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesF/f2fs-tools.git",
