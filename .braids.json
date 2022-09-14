@@ -2479,7 +2479,7 @@
     "gtkmm3": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtkmm3.git",
       "branch": "master",
-      "revision": "4664306095967b611b5b9927be6e243cb5dd1697"
+      "revision": "44aac8b48d4516c2ea626937702d058cbd2883cc"
     },
     "gtksourceview3": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtksourceview3.git",
