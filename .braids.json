@@ -9134,7 +9134,7 @@
     "wayland-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wayland-utils.git",
       "branch": "master",
-      "revision": "d115d57d45599a6053bcc46be8b0c54410db90f9"
+      "revision": "c7c45ffbba7fb4c9c7e9fa1bed147ea2889f53e9"
     },
     "webfs": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs.git",
