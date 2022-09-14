@@ -5459,7 +5459,7 @@
     "marked": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marked.git",
       "branch": "master",
-      "revision": "26d34f067945a280fcec2c84d72c0d71c80ff7e9"
+      "revision": "fd87f76f3b170f0277aa7b9371e8422237c04569"
     },
     "marked-man": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marked-man.git",
