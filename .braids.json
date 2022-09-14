@@ -2384,7 +2384,7 @@
     "gsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsasl.git",
       "branch": "master",
-      "revision": "dfb15e437b1b9e81339326b791c13afffdbeea51"
+      "revision": "52e61d5fedf0265916d9f2e204523ba772e2e025"
     },
     "gsfonts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsfonts.git",
