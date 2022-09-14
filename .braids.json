@@ -5629,7 +5629,7 @@
     "minizip-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minizip-ng.git",
       "branch": "master",
-      "revision": "89215298b4604614ac86ed315f1606c017ee4a3c"
+      "revision": "18a3ed58a0e7f1723772d2a1ee28c251225585a0"
     },
     "mitmproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mitmproxy.git",
