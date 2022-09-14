@@ -3,7 +3,7 @@
 
 pkgname=assimp
 pkgver=5.2.5
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Library to import various well-known 3D model formats in an uniform manner"
 arch=('x86_64')
 license=('BSD')
@@ -16,7 +16,7 @@ sha512sums=('ac0dc4243f9d1ff077966f0037187b4374075ac97e75e1a3cd6bdc1caf5f8e4d409
 build() {
   cd ${pkgname}-${pkgver}
 
-  cmake \
+  artix-cmake \
     -Bbuild \
     -GNinja \
     -DCMAKE_INSTALL_PREFIX=/usr \
