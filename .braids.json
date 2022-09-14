@@ -9349,7 +9349,7 @@
     "xdg-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdg-utils.git",
       "branch": "master",
-      "revision": "17facf6c0d00742ff068976c4407a24cdacd2c91"
+      "revision": "1b708d712bd8e52d66cfa03f1e56d8816a5222e9"
     },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
