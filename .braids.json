@@ -8099,7 +8099,7 @@
     "sox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sox.git",
       "branch": "master",
-      "revision": "fe232b24d6c1a90f5f1c5876891725c9d128b753"
+      "revision": "5b45ae1eb9fc9bb5dd9ffd01fcc17f51154cd7a4"
     },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
