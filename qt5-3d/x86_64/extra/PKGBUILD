@@ -4,7 +4,7 @@
 pkgname=qt5-3d
 _basever=5.15.6
 pkgver=5.15.6+kde+r6
-pkgrel=1
+pkgrel=1.1
 _commit=fe5fca853c09c7e03a2ff66dac21584e3307984d
 arch=('x86_64')
 url='https://www.qt.io'
@@ -36,7 +36,7 @@ build() {
 
 package() {
   cd build
-  make INSTALL_ROOT="$pkgdir" install
+  make INSTALL_ROOT="$pkgdir" DESTDIR=/usr install
 
   # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
   find "$pkgdir/usr/lib" -type f -name '*.prl' \
