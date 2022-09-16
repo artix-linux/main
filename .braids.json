@@ -7064,7 +7064,7 @@
     "qpdf": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qpdf.git",
       "branch": "master",
-      "revision": "90687b0f42b3f37f59d287a38363da444514f769"
+      "revision": "f1882546a43c93413382aa0e330393293c522b5c"
     },
     "qrencode": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qrencode.git",
