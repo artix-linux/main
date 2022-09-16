@@ -7929,7 +7929,7 @@
     "sfml": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sfml.git",
       "branch": "master",
-      "revision": "e0bb11ac91118dc9323d54e12595f08de68bff5a"
+      "revision": "238236e22ab3866900f766e726a9587abe28d88e"
     },
     "sfsexp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sfsexp.git",
