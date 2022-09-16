@@ -8169,7 +8169,7 @@
     "squashfs-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squashfs-tools.git",
       "branch": "master",
-      "revision": "2575c080da1ab38f02414cb00d41759b7e17715e"
+      "revision": "2d23f8cbec4f1904129241d778f18e25027cc945"
     },
     "squid": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squid.git",
