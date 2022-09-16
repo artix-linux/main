@@ -4349,7 +4349,7 @@
     "libpng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpng.git",
       "branch": "master",
-      "revision": "18c5c604adce0e1477a6a93dfb84775b52fc696f"
+      "revision": "1303fbfd991ecb970756b424bf71ded1369f5991"
     },
     "libpng12": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpng12.git",
