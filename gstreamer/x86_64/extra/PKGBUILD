@@ -24,7 +24,7 @@ pkgname=(
   gstreamer-docs
 )
 pkgver=1.20.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Multimedia graph framework"
 url="https://gstreamer.freedesktop.org/"
 arch=(x86_64)
@@ -97,7 +97,7 @@ prepare() {
 
   # Disable broken tests
   git apply -3 ../0002-HACK-meson-Disable-broken-tests.patch
-
+  
   # Workaround broken detection of underscore prefixes
   # https://github.com/mesonbuild/meson/issues/5482
   git apply -3 ../0003-HACK-meson-Work-around-broken-detection-of-underscor.patch
