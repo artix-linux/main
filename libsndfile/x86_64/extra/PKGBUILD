@@ -1,8 +1,8 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 
 pkgname=libsndfile
 pkgver=1.1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="A C library for reading and writing files containing sampled audio data"
 arch=(x86_64)
 url="https://libsndfile.github.io/libsndfile/"
@@ -25,14 +25,14 @@ validpgpkeys=(
 
 build() {
   # tests can only be built with static libs
-  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+  artix-cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=None \
         -Wno-dev \
         -B build-test \
         -S $pkgname-$pkgver
   make VERBOSE=1 -C build-test
 
-  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+  artix-cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=None \
         -DBUILD_SHARED_LIBS=ON \
         -Wno-dev \
