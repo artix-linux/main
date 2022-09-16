@@ -5609,7 +5609,7 @@
     "minidlna": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minidlna.git",
       "branch": "master",
-      "revision": "9299233779624c1f8cb3517c78edfb5a8f1a1fa3"
+      "revision": "ad80bb3958b6afa00e7b147e14ae96d3e448b84d"
     },
     "minio": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minio.git",
