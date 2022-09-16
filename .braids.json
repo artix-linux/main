@@ -3409,7 +3409,7 @@
     "libblockdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libblockdev.git",
       "branch": "master",
-      "revision": "bf8560892d2a4e0afd2680017c6c960bf7da1992"
+      "revision": "357953152d443ebae24fabad65ed9499b53a47d0"
     },
     "libbluray": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbluray.git",
