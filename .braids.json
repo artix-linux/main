@@ -6414,7 +6414,7 @@
     "opus-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opus-tools.git",
       "branch": "master",
-      "revision": "3f5de9e73a2d930cdcee73e4d063a603a46ad89e"
+      "revision": "e056d16bd4773a1c6ceed92c9ed28479831b67dc"
     },
     "opusfile": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opusfile.git",
