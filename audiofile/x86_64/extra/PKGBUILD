@@ -1,10 +1,10 @@
-# Maintainer: David Runge <dave@sleepmap.de>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Ray Rashif <schiv@archlinux.org>
 # Contributor: dorphell <dorphell@archlinux.org>
 
 pkgname=audiofile
 pkgver=0.3.6
-pkgrel=6.1
+pkgrel=7
 pkgdesc="Silicon Graphics Audio File Library"
 arch=('x86_64')
 url="https://audiofile.68k.org/"
