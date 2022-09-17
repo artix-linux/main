@@ -27,7 +27,7 @@ prepare() {
 }
 
 build() {
-  artix-cmake -B build -S $pkgbase-$pkgver \
+  cmake -B build -S $pkgbase-$pkgver \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -Dprotobuf_USE_EXTERNAL_GTEST=ON \
     -Dprotobuf_BUILD_SHARED_LIBS=ON
