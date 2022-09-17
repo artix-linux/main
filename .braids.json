@@ -6859,7 +6859,7 @@
     "protobuf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/protobuf.git",
       "branch": "master",
-      "revision": "e0dc46816a3f207d4e237bb03eba269871620e07"
+      "revision": "d51b14fb73fdddb1b8e8af7240e3d8f89160d1e1"
     },
     "protobuf-c": {
       "url": "gitea@gitea.artixlinux.org:packagesP/protobuf-c.git",
