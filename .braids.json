@@ -1329,7 +1329,7 @@
     "docker-compose": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-compose.git",
       "branch": "master",
-      "revision": "bb79f60f64fd3c2df019912f1704cc2c26f54002"
+      "revision": "634cff5792ca08529124c323fb10c7c051df6fc5"
     },
     "dontpanic": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dontpanic.git",
