@@ -6094,7 +6094,7 @@
     "nss": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss.git",
       "branch": "master",
-      "revision": "8b3d377a95ad3dd16ea860395907d14bd2d6eb05"
+      "revision": "d6b7e506ca0d88cd598a55ad1ca7b55a24fefbf7"
     },
     "nss-mdns": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss-mdns.git",
