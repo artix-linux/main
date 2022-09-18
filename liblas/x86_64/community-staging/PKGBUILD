@@ -36,7 +36,7 @@ prepare() {
 
 build() {
   #cmake -B build -S libLAS-${pkgver} \
-  artix-cmake -B build -S libLAS \
+  cmake -B build -S libLAS \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DWITH_GDAL=ON \
     -DWITH_GEOTIFF=ON \
@@ -45,7 +45,8 @@ build() {
     -DCMAKE_INSTALL_RPATH=/usr/lib/laszip2 \
     -DLASZIP_INCLUDE_DIR=/usr/include \
     -DLASZIP_LIBRARY=/usr/lib/laszip2/liblaszip.so \
-    -DGDAL_LIBRARY=/usr \
+    -DGDAL_INCLUDE_DIR=/usr/include \
+    -DGDAL_LIBRARY=/usr/lib/libgdal.so \
     -G "Unix Makefiles"
   make -C build
 }
