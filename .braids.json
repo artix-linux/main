@@ -2724,7 +2724,7 @@
     "i2pd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd.git",
       "branch": "master",
-      "revision": "d849760e14bdf4b46f128e6cf4be9688ca1165bc"
+      "revision": "60391af1906e219f3f2341abab6b79eb8caadcc3"
     },
     "iana-etc": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iana-etc.git",
