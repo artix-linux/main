@@ -49,7 +49,7 @@
     "acpid": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpid.git",
       "branch": "master",
-      "revision": "acb93f3d076470caa97f14be812ba4fa3174c9cb"
+      "revision": "d456caabac2b6fd03659d468b3cf49a285b46ec9"
     },
     "acpilight": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpilight.git",
