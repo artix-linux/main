@@ -3,8 +3,8 @@
 _upstream=arch-rebuild-order
 
 pkgname=artix-rebuild-order
-pkgver=0.3
-pkgrel=2
+pkgver=0.3.1
+pkgrel=1
 pkgdesc="CLI tool to determine the rebuild order of provided package(s)"
 arch=('x86_64')
 url="https://gitlab.archlinux.org/archlinux/arch-rebuild-order"
@@ -12,6 +12,7 @@ license=('MIT')
 groups=('artools')
 depends=('glibc' 'libalpm.so')
 makedepends=('cargo' 'mandown' 'git')
+options=('debug')
 source=(git+https://gitlab.archlinux.org/archlinux/arch-rebuild-order.git#tag=v$pkgver
         arch-rebuild-order-artix.patch::https://gitea.artixlinux.org/artix/artix-rebuild-order/commit/47753d266890e476a746129269978f4228a83bcf.patch)
 sha256sums=('SKIP'
