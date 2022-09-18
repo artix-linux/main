@@ -2789,7 +2789,7 @@
     "imath": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imath.git",
       "branch": "master",
-      "revision": "831dcbc1981d962e25e7608b2fee51b7c4ddfd33"
+      "revision": "a0925822007c21392274d54ff3b63366e6ce3335"
     },
     "imlib2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imlib2.git",
