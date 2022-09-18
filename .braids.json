@@ -4824,7 +4824,7 @@
     "libwhereami": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhereami.git",
       "branch": "master",
-      "revision": "962a23162e48a1b97cd6daa439533a8d8a1832a6"
+      "revision": "013815ef3de8b30c63f894cdeb6fe35f377e50ff"
     },
     "libwhich": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhich.git",
