@@ -4541,6 +4541,11 @@
       "branch": "master",
       "revision": "3cdff7ce8e4f3ccb46e06807df9aa1489fb43ccd"
     },
+    "libsonic": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsonic.git",
+      "branch": "master",
+      "revision": "fe9d872cad528799ac5a86d6a5b4c6ba71685f8b"
+    },
     "libsoup": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoup.git",
       "branch": "master",
