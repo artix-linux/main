@@ -8099,7 +8099,7 @@
     "source-highlight": {
       "url": "gitea@gitea.artixlinux.org:packagesS/source-highlight.git",
       "branch": "master",
-      "revision": "bc6e70d0e09e09dd5e86fc20a25ff53b6655579d"
+      "revision": "84dd07bd696aa01369ed3e5202e0d5952c9180e6"
     },
     "sox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sox.git",
