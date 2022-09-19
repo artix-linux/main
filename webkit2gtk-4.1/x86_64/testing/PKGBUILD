@@ -81,7 +81,7 @@ build() {
   CFLAGS+=' -g1'
   CXXFLAGS+=' -g1'
 
-  cmake -S webkitgtk-$pkgver -B build -G Ninja \
+  artix-cmake -S webkitgtk-$pkgver -B build -G Ninja \
     -DPORT=GTK \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
@@ -89,7 +89,7 @@ build() {
     -DCMAKE_INSTALL_LIBEXECDIR=lib \
     -DCMAKE_SKIP_RPATH=ON \
     -DUSE_SYSTEMD=OFF \
-    -DENABLE_JOURNALD_LOG=OFF
+    -DENABLE_JOURNALD_LOG=OFF \
     -DUSE_SOUP2=OFF \
     -DENABLE_DOCUMENTATION=ON \
     -DENABLE_MINIBROWSER=ON
