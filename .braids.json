@@ -9819,7 +9819,7 @@
     "zbar": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
       "branch": "master",
-      "revision": "d5e23463e85e30a0d09b79eeb5fbd1da5800be4f"
+      "revision": "5a188bf239b3bf99a44563bfc61814d8d0cbfd86"
     },
     "zeitgeist": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeitgeist.git",
