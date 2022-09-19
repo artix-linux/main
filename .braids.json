@@ -3279,7 +3279,7 @@
     "leatherman": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leatherman.git",
       "branch": "master",
-      "revision": "41608daa09928d4b809ed2bdb67e9b48a6b9cbe7"
+      "revision": "813f4180c95915362064f1bd142a8adba956e467"
     },
     "lensfun": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lensfun.git",
