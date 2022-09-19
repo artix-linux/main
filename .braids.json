@@ -1964,7 +1964,7 @@
     "fuse3": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fuse3.git",
       "branch": "master",
-      "revision": "fa79d175863da373f60d1c30c164a7916338a185"
+      "revision": "737b4a35acf2cbca86e9e36c5d07227e80c44b63"
     },
     "fwknop": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwknop.git",
