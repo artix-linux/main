@@ -754,7 +754,7 @@
     "chrony": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony.git",
       "branch": "master",
-      "revision": "828b7e10af72d8ca8fa4f2957c1bba5930218ea4"
+      "revision": "7228cb691355b9437666c21fa7729e9879005520"
     },
     "chrpath": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrpath.git",
