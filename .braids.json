@@ -3514,7 +3514,7 @@
     "libcmis": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcmis.git",
       "branch": "master",
-      "revision": "bfc28d747f4956a6dfd0369ecfa2cc48085cdf16"
+      "revision": "a4ebd2a2188f9c786572244742f7a87453eaa565"
     },
     "libconfig": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libconfig.git",
