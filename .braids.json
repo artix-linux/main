@@ -6394,7 +6394,7 @@
     "openvdb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
       "branch": "master",
-      "revision": "1434a4369aa6d98609e8567513607f79e0a00226"
+      "revision": "b77b78a06c068d7d5ecdb586877771620c4c7059"
     },
     "openvkl": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvkl.git",
