@@ -3649,7 +3649,7 @@
     "libetonyek": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libetonyek.git",
       "branch": "master",
-      "revision": "8078119eb40776ba7470b794e64edb08c347fb0c"
+      "revision": "699308c41b000f6905b246f3fcb22e6fa5d886e6"
     },
     "libev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libev.git",
