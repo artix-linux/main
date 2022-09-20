@@ -1269,7 +1269,7 @@
     "dns-over-https": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
       "branch": "master",
-      "revision": "e4a665db1d767506885b1ddf67fbf176821a08c4"
+      "revision": "ac515de97aca1762f79a73a9a385f325618f4e74"
     },
     "dnscrypt-proxy": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git",
