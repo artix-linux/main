@@ -3714,7 +3714,7 @@
     "libffi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libffi.git",
       "branch": "master",
-      "revision": "a24d39d5e25ba954ec47be19bb6df8ff805c00f2"
+      "revision": "45537f7c5ba15fc1b554e703d86f372a8cfe764d"
     },
     "libfido2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfido2.git",
