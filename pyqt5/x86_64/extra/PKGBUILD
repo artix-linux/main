@@ -45,6 +45,7 @@ build() {
     --confirm-license \
     --no-make \
     --api-dir /usr/share/qt/qsci/api/python \
+    --scripts-dir=/usr/bin \
     --pep484-pyi
   cd build
   make
