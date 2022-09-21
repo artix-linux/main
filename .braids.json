@@ -8519,7 +8519,7 @@
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
-      "revision": "073f16e3e1b0692baaa47fd33cc5f3409e4b9931"
+      "revision": "da3ac97e38050ec5d73c50f8c108c49290a3a340"
     },
     "tidy": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tidy.git",
