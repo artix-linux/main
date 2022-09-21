@@ -1859,7 +1859,7 @@
     "fluidsynth": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fluidsynth.git",
       "branch": "master",
-      "revision": "ce7e03a5975e56a63a87cd7b097ce13824e6823a"
+      "revision": "8f080aa8e62ed81e268a601689fdf03c6a64ffaf"
     },
     "fmt": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fmt.git",
