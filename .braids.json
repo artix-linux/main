@@ -2774,7 +2774,7 @@
     "imagemagick": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imagemagick.git",
       "branch": "master",
-      "revision": "b90e01e4ca60e67126e934052f894b1895be7247"
+      "revision": "ec23f9ab9c866b31a4329c83222028d49f6ec372"
     },
     "imake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imake.git",
