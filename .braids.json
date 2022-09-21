@@ -6619,7 +6619,7 @@
     "percona-server": {
       "url": "gitea@gitea.artixlinux.org:packagesP/percona-server.git",
       "branch": "master",
-      "revision": "0d591b9be4e6bab8c2dd441038d88b9c6b73b595"
+      "revision": "479d2938e4cf9ee8c078d48c9419f8cf4f68936c"
     },
     "perl": {
       "url": "gitea@gitea.artixlinux.org:packagesP/perl.git",
