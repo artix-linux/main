@@ -2624,7 +2624,7 @@
     "highway": {
       "url": "gitea@gitea.artixlinux.org:packagesH/highway.git",
       "branch": "master",
-      "revision": "1d3ea080bab7df25c74d49b006220773a42a1363"
+      "revision": "b9191473a7fe4d427bf61097180d7e69cbf98243"
     },
     "hiredis": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiredis.git",
