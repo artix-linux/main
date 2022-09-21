@@ -5794,7 +5794,7 @@
     "mtools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtools.git",
       "branch": "master",
-      "revision": "5f68faf60d3a58f38f0dcb438fcf2d6b8bfa89a3"
+      "revision": "8a8d3a80cf698d94264072243912dbf301615171"
     },
     "mtr": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtr.git",
