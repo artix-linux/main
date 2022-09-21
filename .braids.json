@@ -9169,7 +9169,7 @@
     "webkit2gtk-4.1": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webkit2gtk-4.1.git",
       "branch": "master",
-      "revision": "85f2cdd7cd917ea7518935047cb02c2ed27ddf3d"
+      "revision": "3eb73e04d7608c886e2e7154cd1f3e629018f486"
     },
     "webrtc-audio-processing": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webrtc-audio-processing.git",
