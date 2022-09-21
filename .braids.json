@@ -419,7 +419,7 @@
     "bazel": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bazel.git",
       "branch": "master",
-      "revision": "16168b68d5b8549599ac6066ef4df222a315cc5e"
+      "revision": "970c671ddb625a715263ea0740db2b755a70f51e"
     },
     "bbswitch": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bbswitch.git",
