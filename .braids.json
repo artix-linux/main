@@ -7669,7 +7669,7 @@
     "rpm-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpm-tools.git",
       "branch": "master",
-      "revision": "f7f70f928abd63b181befb60e4ea2515b65ad869"
+      "revision": "ace77fa42f98f1a5c44e7b351a753e9531bc1bfd"
     },
     "rrdtool": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rrdtool.git",
