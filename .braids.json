@@ -3829,7 +3829,7 @@
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",
-      "revision": "69b3881067a462abbd15798eb39f1d598d4056b1"
+      "revision": "cd9c0d8825a88bd5147968a60a9ed0d015998dc4"
     },
     "libhandy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libhandy.git",
