@@ -4764,7 +4764,7 @@
     "libvips": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvips.git",
       "branch": "master",
-      "revision": "db2900d257c2dacf8e211b308e525b7cda58caf9"
+      "revision": "bb2ff15009064e8ed7d88208c2d42c0ac5cba4f6"
     },
     "libvirt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt.git",
