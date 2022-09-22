@@ -3419,7 +3419,7 @@
     "libbluray": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbluray.git",
       "branch": "master",
-      "revision": "87dffda76308798ca335e98acbea24509297fafe"
+      "revision": "9f080b1a4f1951513d0150ee2b616a57d14c9a32"
     },
     "libbobcat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbobcat.git",
