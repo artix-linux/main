@@ -2729,7 +2729,7 @@
     "iana-etc": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iana-etc.git",
       "branch": "master",
-      "revision": "fc00b495b9465dd4094e4226a1f36477546bc58f"
+      "revision": "f3f34ecd048de5f4ed6410ec4ab3709f41370521"
     },
     "ibm-sw-tpm2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ibm-sw-tpm2.git",
