@@ -7049,7 +7049,7 @@
     "python2-gobject": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python2-gobject.git",
       "branch": "master",
-      "revision": "11bcef9407e49176cfaee69c641b21e9cd24d938"
+      "revision": "a224a3361da77ceedfd30836272091eacb0aca0f"
     },
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
