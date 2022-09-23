@@ -6594,7 +6594,7 @@
     "pcre2": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcre2.git",
       "branch": "master",
-      "revision": "91afccc0dcdf2a125751ccca3e527d07c0a6e360"
+      "revision": "840734110073e42291ab5145f72154129a253275"
     },
     "pcsclite": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite.git",
