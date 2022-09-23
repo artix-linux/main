@@ -9244,7 +9244,7 @@
     "wpewebkit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpewebkit.git",
       "branch": "master",
-      "revision": "d34df3d15404bcf41c65ef3e2faba7bc4cf0fb25"
+      "revision": "5cd0b0d2591031267880fd2c356cf765d8b46e0c"
     },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
