@@ -5414,7 +5414,7 @@
     "mailman": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman.git",
       "branch": "master",
-      "revision": "64dcead32104c90c01552f2a88f4cf9c8baa8ee8"
+      "revision": "f2733da40bc9b7bb21a172c803d3498c87b699be"
     },
     "maim": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maim.git",
