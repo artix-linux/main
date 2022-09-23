@@ -7244,7 +7244,7 @@
     "qt5-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-wayland.git",
       "branch": "master",
-      "revision": "7a001a6a884abb6e4e5e0d57bfae51868ff8e60d"
+      "revision": "69aa6f4091aadc6d6f65956627ea63af0afa24a7"
     },
     "qt5-webchannel": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webchannel.git",
