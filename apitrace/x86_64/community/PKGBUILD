@@ -9,11 +9,25 @@ pkgdesc="Graphics API Tracing"
 arch=('x86_64')
 url="https://github.com/apitrace/apitrace"
 license=('custom')
-makedepends=('cmake' 'mesa' 'qt5-base')
+makedepends=('cmake' 'mesa' 'qt5-base' 'git')
 depends=('python' 'libgl' 'procps-ng' 'gtest')
 optdepends=('qt5-base: GUI support')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/apitrace/apitrace/archive/${pkgver}.tar.gz")
 sha256sums=('aae2d4bd1f8e9b78d82c665d7a54ba8020797a7db98d9913ad00e35f89c6b7e4')
+
+prepare() {
+  cd apitrace-${pkgver}/thirdparty
+  rm -rf {brotli,googletest,libbacktrace,libpng,snappy,zlib}
+  for i in brotli googletest; do
+  	git clone https://github.com/google/$i
+  done
+  mkdir gest
+  mv googletest gtest
+  git clone https://github.com/ianlancetaylor/libbacktrace
+  git clone https://github.com/glennrp/libpng
+  git clone https://github.com/google/snappy
+  git clone https://github.com/madler/zlib
+}	
 
 build() {
   cd apitrace-${pkgver}
