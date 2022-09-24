@@ -1,10 +1,10 @@
-# Maintainer: Jonathan Steel <jsteel at archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Phillip Smith <fukawi2@NO-SPAM.gmail.com>
 # Contributor: Dale Blount <dale@archlinux.org>
 
 pkgname=nrpe
-pkgver=4.0.3
-pkgrel=3
+pkgver=4.1.0
+pkgrel=1
 pkgdesc="Nagios Remote Plugin Executor"
 arch=('x86_64')
 license=('GPL')
@@ -16,7 +16,7 @@ backup=('etc/nrpe/nrpe.cfg' 'etc/xinetd.d/nrpe')
 url="https://github.com/NagiosEnterprises/nrpe"
 source=(https://github.com/NagiosEnterprises/nrpe/releases/download/$pkgname-$pkgver/$pkgname-$pkgver.tar.gz
         nrpe.sysusers)
-md5sums=('42252d3c721c87ebb5e38b748f187e8d'
+md5sums=('ace32f8d41e9b9138ea5d40b8beed274'
          '079d1f8c06598303be95151a8985927b')
 
 build() {
@@ -47,6 +47,8 @@ package() {
   install -Dm644 README.SSL.md "$pkgdir"/usr/share/doc/$pkgname/README.SSL.md
   install -Dm644 SECURITY.md "$pkgdir"/usr/share/doc/$pkgname/SECURITY.md
   install -Dm644 LEGAL "$pkgdir"/usr/share/licenses/$pkgname/LEGAL
+
+  # FS#52873
 
   # Tidy up
   chmod -R 755 "$pkgdir"/usr/lib/monitoring-plugins
