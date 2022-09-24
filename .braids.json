@@ -6084,7 +6084,7 @@
     "nrpe": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nrpe.git",
       "branch": "master",
-      "revision": "5d0e0c8700bec46daca1639f07d1b2346eb93282"
+      "revision": "2a4bb81410e48ebf2936a1da0f10596a2870dbe6"
     },
     "nsd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd.git",
