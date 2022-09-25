@@ -1,9 +1,9 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 pkgname=libspectre
 pkgver=0.2.10
-pkgrel=1
+pkgrel=2
 pkgdesc='Small library for rendering Postscript documents'
 arch=(x86_64)
 license=(GPL2)
