@@ -3719,7 +3719,7 @@
     "libfido2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfido2.git",
       "branch": "master",
-      "revision": "a2604d297aee58ffed59d3ea0462dd2a50193259"
+      "revision": "aad78924111212c65771797f56e8d4886945687f"
     },
     "libfontenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfontenc.git",
