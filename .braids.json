@@ -129,7 +129,7 @@
     "aom": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aom.git",
       "branch": "master",
-      "revision": "53dc458786241ec2bded27f5f39865b36b07fa17"
+      "revision": "6844fec7476133f801f354a52c19e083465ff1b1"
     },
     "apache": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache.git",
