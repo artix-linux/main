@@ -5299,7 +5299,7 @@
     "luajit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luajit.git",
       "branch": "master",
-      "revision": "ccc5e757624619110e10568735c29a86c594af89"
+      "revision": "7cda0e9a6507df50d2fb1f0ad3864ad7ed2b8aa6"
     },
     "luarocks": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luarocks.git",
