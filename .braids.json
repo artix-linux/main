@@ -2894,7 +2894,7 @@
     "ipw2200-fw": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipw2200-fw.git",
       "branch": "master",
-      "revision": "5cd6b96fe5fff5e4d6ec3adeecdc98f1cb1c1773"
+      "revision": "01959cf8113cf769e6681fed373a03a18790b171"
     },
     "ipython": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipython.git",
