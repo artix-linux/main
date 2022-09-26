@@ -1709,7 +1709,7 @@
     "fcitx5-gtk": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-gtk.git",
       "branch": "master",
-      "revision": "2f95efbf455af4f26d1417e35e1730ce62371c23"
+      "revision": "4209563c3233dcd3c098de6cc84138e3b8850af0"
     },
     "fcitx5-mozc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcitx5-mozc.git",
