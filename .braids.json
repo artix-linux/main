@@ -2909,7 +2909,7 @@
     "iso-profiles": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-profiles.git",
       "branch": "master",
-      "revision": "f9bafbb7c650448f990b0852e2d63ed10c7b75a2"
+      "revision": "b017bfbf904603dc98ef861a3e84e7861f07aad1"
     },
     "isodate": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isodate.git",
