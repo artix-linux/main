@@ -6059,7 +6059,7 @@
     "noto-fonts-emoji": {
       "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts-emoji.git",
       "branch": "master",
-      "revision": "8082decce3d49cd08dcfcf3f512987d813905df0"
+      "revision": "197a82a432ce9601ab9236023098f01bd2559433"
     },
     "npm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/npm.git",
