@@ -2464,7 +2464,7 @@
     "gtk3": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk3.git",
       "branch": "master",
-      "revision": "b460934855bb2c7a5d126e27a50529af7479bae8"
+      "revision": "8b77558eb70391747c7eb1af672e44c3b6ea2f39"
     },
     "gtk4": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk4.git",
