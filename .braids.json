@@ -2886,11 +2886,6 @@
       "branch": "master",
       "revision": "a6ee06c39387020720804d48f5b4aba6208d63ca"
     },
-    "ipw2100-fw": {
-      "url": "gitea@gitea.artixlinux.org:packagesI/ipw2100-fw.git",
-      "branch": "master",
-      "revision": "291e80335be80a17183f73168a0ff7ed8d352db7"
-    },
     "ipw2200-fw": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipw2200-fw.git",
       "branch": "master",
