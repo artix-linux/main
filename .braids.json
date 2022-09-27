@@ -5049,7 +5049,7 @@
     "libxxf86vm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxxf86vm.git",
       "branch": "master",
-      "revision": "db7bc43fd7d7c15be6fff9dd1d92f38b481e4e80"
+      "revision": "826d9c8cbaa0f5b0ca355a26628dd67c0ced5495"
     },
     "libyaml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libyaml.git",
