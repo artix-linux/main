@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 # Contributor: Marcel Huber <marcelhuberfoo at gmail dott com>
 # Contributor: Illarion Kovalchuk <illarion.kovalchuk at gmail dot com>
 
 pkgname=jenkins
-pkgver=2.370
+pkgver=2.371
 pkgrel=1
 pkgdesc='Extendable continuous integration server (latest)'
 arch=('any')
@@ -21,7 +21,7 @@ source=("jenkins-${pkgver}.war::http://mirrors.jenkins-ci.org/war/${pkgver}/jenk
         'jenkins.tmpfiles'
         'jenkins.sysusers'
         'LICENSE')
-sha512sums=('b92d7d1dbd8edeca3e7ef8dd13ce1da8d210fae6093e8b2e3a499fa0f993912b1e6cf4428757e5440136d4db8a15192b07d35b9d32b118a7ae063ff9dd009df2'
+sha512sums=('341e838ac523f46df3a5d7f4850a9a26e29d563803d92b2fcb7b2f95f2d6c710ae771207112a063a8bff665a881454f2b375431f779a6f50734b1ccf1e2451f3'
             'a845a7147be54affc586dfce9a188ec24c92e673e88dec0b62da386d2e597de6ecda103429008562abd897f179a52c37cf2188ebc65b8c636efd07d707e18f90'
             '896cbc64eadb2f3bb9fa7fc26dbfc527b1823d8bff3158be7f1936cc250f55eeafe89079e1ceb8f3d269041662573ccbbb36248140b4ba24144a564366f8847a'
             '0df6479a600db395c12ad29ebda3120d00460338b9a6b15913e2245aa29212a3798c32e664ca70c8034146e2e0b573066deec9e3210198202f753994e1b83efa')
