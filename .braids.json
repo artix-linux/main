@@ -6699,7 +6699,7 @@
     "po4a": {
       "url": "gitea@gitea.artixlinux.org:packagesP/po4a.git",
       "branch": "master",
-      "revision": "0834283b7ab747e2a7e753d1ff60ab52c7d37804"
+      "revision": "c265fb866edd4dab763cc383c8f8927e849e767a"
     },
     "poco": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poco.git",
