@@ -6784,7 +6784,7 @@
     "powertop": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powertop.git",
       "branch": "master",
-      "revision": "d59d8a5a298ea39a0a6d2d6085f1a66c7d27a72b"
+      "revision": "b440a20dd8d9e323c53e8e6112b82de38a09bc98"
     },
     "ppp": {
       "url": "gitea@gitea.artixlinux.org:packagesP/ppp.git",
