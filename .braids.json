@@ -8149,7 +8149,7 @@
     "sqlcipher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
       "branch": "master",
-      "revision": "f763eea31bc20d58c460778488aebdfaff6d106f"
+      "revision": "c58bb65129709d8cb5254192fa1423c58fb5b544"
     },
     "sqlite": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlite.git",
