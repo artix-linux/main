@@ -2969,7 +2969,7 @@
     "java-batik": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-batik.git",
       "branch": "master",
-      "revision": "28e7ee74d708dba91a2a12c9484516b4f0481f1e"
+      "revision": "f75ff37a2ed672cdcb622ecdc7f73904316bc270"
     },
     "java-common": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-common.git",
