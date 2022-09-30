@@ -7374,7 +7374,7 @@
     "qt6-serialbus": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialbus.git",
       "branch": "master",
-      "revision": "df0932d62661aee2d9e867388d154e1c28d2f42e"
+      "revision": "43b11940220a1fb8837a5b4734024b6fa177e960"
     },
     "qt6-serialport": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialport.git",
