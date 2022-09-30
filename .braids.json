@@ -7359,7 +7359,7 @@
     "qt6-remoteobjects": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-remoteobjects.git",
       "branch": "master",
-      "revision": "44b504bc38e4a39084ae41aa114cbe8e702fd86c"
+      "revision": "dca7cd0e14a654a61e86ca051ff1bfe5949b6921"
     },
     "qt6-scxml": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-scxml.git",
