@@ -9824,7 +9824,7 @@
     "zfp": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zfp.git",
       "branch": "master",
-      "revision": "791a0a6bb417edbb9f5368651e42f7b8cb0bad7a"
+      "revision": "485638c2a9b69b074aa4e5b6db76ff9874ca3698"
     },
     "zig": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zig.git",
