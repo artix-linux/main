@@ -439,7 +439,7 @@
     "bctoolbox": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bctoolbox.git",
       "branch": "master",
-      "revision": "083e94750131d4424bde79534c20720101898dab"
+      "revision": "244f7eb8682c02f6ffce6f4c78044ee2dcdf71cb"
     },
     "bcunit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bcunit.git",
