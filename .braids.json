@@ -1254,7 +1254,7 @@
     "dmd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmd.git",
       "branch": "master",
-      "revision": "3264747ee2aa2624af9fc5706e26fe3c7eda7dc5"
+      "revision": "200fb18736600dd0941613de19683b6dc1012256"
     },
     "dmidecode": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmidecode.git",
