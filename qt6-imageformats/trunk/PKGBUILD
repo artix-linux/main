@@ -19,7 +19,7 @@ source=(https://download.qt.io/official_releases/qt/${pkgver%.*}/$_qtver/submodu
 sha256sums=('1419a7b75d03c1f098a85ff772a6baad38d36be1fd75633905f043af6e945f3c')
 
 build() {
-  cmake -B build -S $_pkgfn -G Ninja \ -DCMAKE_INSTALL_PREFIX=/usr
+  cmake -B build -S $_pkgfn -G Ninja  -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS
   cmake --build build
 }
