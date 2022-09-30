@@ -9689,7 +9689,7 @@
     "xterm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xterm.git",
       "branch": "master",
-      "revision": "6c23456cffda44d7df1927913913e7ec4f9f0e36"
+      "revision": "e702a2f2d78ef15f01cdc9acddfb7b1ab74b2670"
     },
     "xtrans": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xtrans.git",
