@@ -7319,7 +7319,7 @@
     "qt6-imageformats": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-imageformats.git",
       "branch": "master",
-      "revision": "cf29faf25916c66c29b0fc191e4f7bd1de13f1ea"
+      "revision": "d34d8513346c39ee5ab0a6f9456537c619a39b47"
     },
     "qt6-languageserver": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-languageserver.git",
