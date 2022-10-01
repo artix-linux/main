@@ -7289,7 +7289,7 @@
     "qt6-base": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-base.git",
       "branch": "master",
-      "revision": "96ba90fb6668ee2c6ed623b208cac425a3dc46fc"
+      "revision": "25011cf999e5973470790bc64cb80877f6856ba6"
     },
     "qt6-charts": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-charts.git",
