@@ -1,11 +1,11 @@
-# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 # Contributor: Tom Gundersen <teg@jklm.no>
 # Contributor: Link Dupont <link@subpop.net>
 
 pkgbase=dbus
 pkgname=(dbus dbus-docs)
-pkgver=1.14.0
+pkgver=1.14.2
 pkgrel=1
 pkgdesc="Freedesktop.org message bus system"
 url="https://wiki.freedesktop.org/www/Software/dbus/"
@@ -13,6 +13,7 @@ arch=(x86_64)
 license=(GPL custom)
 depends=(libx11 libelogind expat audit)
 makedepends=(elogind xmlto docbook-xsl python yelp-tools doxygen git autoconf-archive)
+options=(debug)
 source=("git+https://gitlab.freedesktop.org/dbus/dbus.git?signed#tag=dbus-$pkgver"
         dbus-enable-elogind.patch
         no-fatal-warnings.diff)
@@ -92,4 +93,4 @@ package_dbus-docs() {
   install -Dt "$pkgdir/usr/share/licenses/$pkgname" -m644 dbus/COPYING
 }
 
-# vim:set sw=2 et:
+# vim:set sw=2 sts=-1 et:
