@@ -7434,7 +7434,7 @@
     "qt6ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6ct.git",
       "branch": "master",
-      "revision": "4d960591ccc71b751fb07aebf5fb742b0c5ce711"
+      "revision": "dfdac93ae871ba0b1e6cec31b16d4351d554f7c6"
     },
     "qtkeychain": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qtkeychain.git",
