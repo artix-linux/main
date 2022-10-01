@@ -4024,7 +4024,7 @@
     "libmaxminddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmaxminddb.git",
       "branch": "master",
-      "revision": "e1c4929f73f157807611d3d2e35466d5cf738b1c"
+      "revision": "3b0657c2819e6c740b0b9b90356b567b24df2619"
     },
     "libmbim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
