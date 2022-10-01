@@ -76,7 +76,8 @@ build() {
     -DLLVM_EXTERNAL_LIT=/usr/bin/lit
     -DLLVM_LINK_LLVM_DYLIB=ON
     -DLLVM_MAIN_SRC_DIR="$srcdir/llvm-$pkgver.src"
-    -DCMAKE_PREFIX_PATH=/usr
+    -DCMAKE_INSTALL_LIBDIR=/usr/lib/llvm13
+    -DCMAKE_LIBRARY_PATH=/usr/lib/llvm13
   )
 
   cmake .. "${cmake_args[@]}"
