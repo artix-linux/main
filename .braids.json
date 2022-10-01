@@ -7389,7 +7389,7 @@
     "qt6-svg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-svg.git",
       "branch": "master",
-      "revision": "86dd1add2cf9a7451e5512a4ec8e7baf9b78e7f0"
+      "revision": "f1b9b2942c602040bda3ff58b201add5d16de458"
     },
     "qt6-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-tools.git",
