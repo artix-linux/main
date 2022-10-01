@@ -7324,7 +7324,7 @@
     "qt6-languageserver": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-languageserver.git",
       "branch": "master",
-      "revision": "8baade6ac915f38bbc32d254fd5d61727b37c2f7"
+      "revision": "20ba24bd849bf547fc3323d41bc570080d4e9329"
     },
     "qt6-lottie": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-lottie.git",
