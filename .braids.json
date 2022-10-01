@@ -7419,7 +7419,7 @@
     "qt6-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-webengine.git",
       "branch": "master",
-      "revision": "49d71b9bdf471e092b4afc324d9a2e6e89758a26"
+      "revision": "46d86d68102a3108ed548f4f902eaaff0c8eaa06"
     },
     "qt6-websockets": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-websockets.git",
