@@ -8804,7 +8804,7 @@
     "unicode-emoji": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-emoji.git",
       "branch": "master",
-      "revision": "4f2a15f73a40c55cb8059108ec5d1c6cf2202d3b"
+      "revision": "e8b6ae91280520e960978f6e25a435ae7c462c35"
     },
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
