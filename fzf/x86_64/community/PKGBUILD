@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Morten Linderud <foxboron@archlinux.org>
 # Maintainer: Filipe Laíns (FFY00) <lains@archlinux.org>
 # Contributor: Pierre Neidhardt <ambrevar@gmail.com>
@@ -8,7 +8,7 @@
 # Contributor: jebaum <jebaum at ucla dot edu>
 
 pkgname=fzf
-pkgver=0.33.0
+pkgver=0.34.0
 pkgrel=1
 pkgdesc='Command-line fuzzy finder'
 arch=('x86_64')
