@@ -2229,7 +2229,7 @@
     "gnuplot": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnuplot.git",
       "branch": "master",
-      "revision": "60b395a6dc672784dac7bfa2f9c2927d7181ce68"
+      "revision": "ea5bca4b8547a9d47261ba369a38ea6aafe6ac54"
     },
     "gnutls": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnutls.git",
