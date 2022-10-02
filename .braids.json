@@ -4019,7 +4019,7 @@
     "libmatroska": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmatroska.git",
       "branch": "master",
-      "revision": "5f5f48f1ac2680d7aecb2081398adb30b9d1d982"
+      "revision": "dd7636d9132ee165b42a482f2109de7830a302b0"
     },
     "libmaxminddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmaxminddb.git",
