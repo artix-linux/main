@@ -3204,7 +3204,7 @@
     "knot": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
       "branch": "master",
-      "revision": "dedc5f88f21fa27cb3ff5224c4f90e3ce9d9bc53"
+      "revision": "922b278a52f7cde472d13582269f06602ee21458"
     },
     "kotlin": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kotlin.git",
