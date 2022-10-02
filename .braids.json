@@ -3604,7 +3604,7 @@
     "libebml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libebml.git",
       "branch": "master",
-      "revision": "ca7a5129825a40de7e791d3f491c184830c310ba"
+      "revision": "363a4c8243a8b971278610ea6f7845aaac47b12c"
     },
     "libebur128": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libebur128.git",
