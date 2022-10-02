@@ -9346,6 +9346,11 @@
       "branch": "master",
       "revision": "1b708d712bd8e52d66cfa03f1e56d8816a5222e9"
     },
+    "xdp-tools": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xdp-tools.git",
+      "branch": "master",
+      "revision": "8a1c9cfe6ba49f11451913a03b6fcfc988025b94"
+    },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
