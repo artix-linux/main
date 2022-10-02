@@ -1,10 +1,10 @@
-# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: naelstrof <naelstrof@gmail.com>
 
 pkgname=maim
 pkgver=5.7.4
-pkgrel=3
+pkgrel=4
 pkgdesc='Utility to take a screenshot using imlib2'
 arch=('x86_64')
 url='https://github.com/naelstrof/maim'
