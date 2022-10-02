@@ -6649,7 +6649,7 @@
     "pinentry": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
       "branch": "master",
-      "revision": "1b253e8915022188b5273ed1a3069ba4d0b044ff"
+      "revision": "a744e752bf8081ec0d294adf2875a419129c0970"
     },
     "pipewire": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire.git",
