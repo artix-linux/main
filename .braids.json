@@ -5404,7 +5404,7 @@
     "maim": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maim.git",
       "branch": "master",
-      "revision": "1e50bedb08f7795dfa410db1790a7ebe40e2dbab"
+      "revision": "5c5ba1af4bde98f3f9576484b5996a67f7c63a17"
     },
     "make": {
       "url": "gitea@gitea.artixlinux.org:packagesM/make.git",
