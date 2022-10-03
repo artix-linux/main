@@ -1,10 +1,10 @@
-# Maintainer: Jan de Groot <jgc@archlinux.org>
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=apache
 pkgver=2.4.54
-pkgrel=1
+pkgrel=2
 pkgdesc='A high performance Unix-based HTTP server'
 arch=('x86_64')
 url='https://www.apache.org/dist/httpd'
@@ -21,7 +21,7 @@ backup=(
 provides=('mod_proxy_uwsgi')
 conflicts=('mod_proxy_uwsgi')
 replaces=('mod_proxy_uwsgi')
-depends=('zlib' 'apr-util' 'pcre' 'libnghttp2' 'openssl' 'libxcrypt')
+depends=('zlib' 'apr-util' 'pcre2' 'libnghttp2' 'openssl' 'libxcrypt')
 makedepends=('libxml2' 'lua' 'curl' 'brotli' 'jansson')
 optdepends=(
     'lua: for mod_lua module'
@@ -35,14 +35,12 @@ optdepends=(
 )
 source=(
     https://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2{,.asc}
-    openssl-malloc-init.patch
     apache.tmpfiles.conf
     httpd.logrotate
     arch.layout
 )
 sha256sums=('eb397feeefccaf254f8d45de3768d9d68e8e73851c49afd5b7176d1ecf80c340'
             'SKIP'
-            'd305f8b52ac2a9bbda7bb0776496471e69e9d30642740f594d00086a8c7e344c'
             '63da1a420f4714a3e7af2672d28384419cc7eedbe7bf35baebd02938fabc15bf'
             'd8c5465ba6490e6ee3ddeb69285a0c6a4fca8130fc0f516f2f3563bc171c8929'
             'dda05c6e76f12624e418ca18a36f2e90ec1c5b1cc52fed7142fce6076ec413f3')
@@ -62,9 +60,6 @@ prepare() {
       -i docs/conf/httpd.conf.in
 
   cat "${srcdir}/arch.layout" >> config.layout
-
-  # https://github.com/openssl/openssl/issues/2865
-  patch -Np1 -i ../openssl-malloc-init.patch
 }
 
 build() {
@@ -93,7 +88,7 @@ build() {
       --enable-proxy-http2 --enable-md --enable-brotli \
       --with-apr=/usr/bin/apr-1-config \
       --with-apr-util=/usr/bin/apu-1-config \
-      --with-pcre=/usr
+      --with-pcre2
 
   make
 }
