@@ -8794,7 +8794,7 @@
     "unicode-character-database": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-character-database.git",
       "branch": "master",
-      "revision": "a3368bbafa4c1ceb9549261112291c73dce9a703"
+      "revision": "19a66da7b2b9c4b14e4ee29e8fb74ae9c0f26229"
     },
     "unicode-cldr": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-cldr.git",
