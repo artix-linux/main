@@ -9764,7 +9764,7 @@
     "yelp-xsl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-xsl.git",
       "branch": "master",
-      "revision": "7d66971dcfab279a392c717c31e554a9b30c610d"
+      "revision": "f83ace1bd1609a183498f370bafd5d477f8b5ca6"
     },
     "yodl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
