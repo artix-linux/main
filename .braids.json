@@ -6499,7 +6499,7 @@
     "pangomm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pangomm.git",
       "branch": "master",
-      "revision": "57d6b552bbf2aaaef4914fb531717bb41d458c58"
+      "revision": "ea447f5d2e8a58655305464d99c9661bd60f73ed"
     },
     "pangomm-2.48": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pangomm-2.48.git",
