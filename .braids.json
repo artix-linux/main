@@ -1909,7 +1909,7 @@
     "freeradius": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeradius.git",
       "branch": "master",
-      "revision": "52317c4856872e34f937fe40beeea7cd52ebd111"
+      "revision": "1b32e20b36095897b955686dd7e70c4898eb12a3"
     },
     "freerdp": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freerdp.git",
