@@ -1624,7 +1624,7 @@
     "f2fs-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesF/f2fs-tools.git",
       "branch": "master",
-      "revision": "7183dd595cb2d2e8d0784d3fb4093f7c64184027"
+      "revision": "5a66c31383cf782399c8db726c64400e209b80e1"
     },
     "faac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faac.git",
