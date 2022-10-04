@@ -6504,7 +6504,7 @@
     "pangomm-2.48": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pangomm-2.48.git",
       "branch": "master",
-      "revision": "fb7ce1fc3a0859843220f0900f98b48fc95a8597"
+      "revision": "9baf5c631f93d6515afc74c803721303ddc3381b"
     },
     "paper": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paper.git",
