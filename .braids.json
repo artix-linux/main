@@ -7004,7 +7004,7 @@
     "pyqt6-datavisualization": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-datavisualization.git",
       "branch": "master",
-      "revision": "403c8b8a3a25932683fb3cbae23d859c00e79cc7"
+      "revision": "0a95bcdbffa82a5cd234713c0e624e87bfdccf20"
     },
     "pyqt6-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-networkauth.git",
