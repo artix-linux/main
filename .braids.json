@@ -1084,7 +1084,7 @@
     "darkhttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd.git",
       "branch": "master",
-      "revision": "f8eb0d9e6e2b3a03f1c944174bc0cfe55b5df474"
+      "revision": "0284bb8e703e55a1cf39f96e4fac6b6bbcf1b0af"
     },
     "dart": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dart.git",
