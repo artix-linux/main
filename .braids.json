@@ -634,7 +634,7 @@
     "cairomm-1.16": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairomm-1.16.git",
       "branch": "master",
-      "revision": "507ec57ca99d90e1f31e47479dd95f600e345bfc"
+      "revision": "f293949919b39197f77dd2d8becf2144548839a6"
     },
     "calf": {
       "url": "gitea@gitea.artixlinux.org:packagesC/calf.git",
