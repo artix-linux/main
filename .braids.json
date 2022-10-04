@@ -629,7 +629,7 @@
     "cairomm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairomm.git",
       "branch": "master",
-      "revision": "6ea460d6dfa3364de4155869e5bb1bc1835f8187"
+      "revision": "79053cac53df1a03cd4157f2f7b6f7cf68dba8ca"
     },
     "cairomm-1.16": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairomm-1.16.git",
