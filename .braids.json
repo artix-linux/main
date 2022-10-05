@@ -8024,7 +8024,7 @@
     "slock": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slock.git",
       "branch": "master",
-      "revision": "4a06bed8e57cdb8c078a4e7da962b245022c4442"
+      "revision": "90b50d0d897d2539f25b8eeee1658bd0c0133b09"
     },
     "slop": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slop.git",
