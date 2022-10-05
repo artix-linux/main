@@ -6839,7 +6839,7 @@
     "prometheus": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prometheus.git",
       "branch": "master",
-      "revision": "d1d4f073440f0c4d9d11e241a44c69e05977d328"
+      "revision": "526bf3977eb3be4f09b726992292cf586dfe2a5a"
     },
     "prosody": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prosody.git",
