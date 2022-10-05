@@ -4039,7 +4039,7 @@
     "libmediainfo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmediainfo.git",
       "branch": "master",
-      "revision": "434d8b44b35f362a7d8b7a36a81611e4f189827a"
+      "revision": "cefdabff8ced599f1df7cadaed65a815f08ee7cb"
     },
     "libmemcached-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmemcached-awesome.git",
