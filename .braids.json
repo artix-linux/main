@@ -1044,7 +1044,7 @@
     "cuda": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cuda.git",
       "branch": "master",
-      "revision": "fb91c9f1558884814187b67f1c8a39c63a13dd23"
+      "revision": "15a7791313a5883031cbfeb4c22a86b322238205"
     },
     "cudnn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cudnn.git",
