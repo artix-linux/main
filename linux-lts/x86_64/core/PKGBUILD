@@ -1,8 +1,8 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgbase=linux-lts
-pkgver=5.15.70
-pkgrel=2
+pkgver=5.15.72
+pkgrel=1
 pkgdesc='LTS Linux'
 url="https://www.kernel.org/"
 arch=(x86_64)
@@ -28,9 +28,9 @@ validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
 )
 # https://www.kernel.org/pub/linux/kernel/v5.x/sha256sums.asc
-sha256sums=('1a7c26f0253407bb222786c8cbf2ee6235acebe8ea641fe0bc2360acce970d76'
+sha256sums=('6090323b5b471ae9d3bbc0058966113609f5bbd22fa19a76df32a8abc52f07ab'
             'SKIP'
-            '7e4871777b474cff175cd6ff3678c54657777c04c448482145a56d3461c36c87'
+            '213e82c8b55f66783e15a8338cb72b5941ae4dc42fa1db95f635ee896d335328'
             '7bd64ff894475b3415d792ba8466ba7e8f872af56dbf1aeed0d261fe4008b8b5'
             '39649dc1dfcb06b411ad124e123769e955a78961b4ea17538c0919a930925549'
             '56c12551e859cc67520909e64feecbf1b190cee8addef150c5b9d1bb1d40981e'
