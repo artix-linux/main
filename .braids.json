@@ -564,7 +564,7 @@
     "broadcom-wl": {
       "url": "gitea@gitea.artixlinux.org:packagesB/broadcom-wl.git",
       "branch": "master",
-      "revision": "0de2eb5b0302836019fa1a5ed94991afe04890e3"
+      "revision": "7f5e0a6b03ed2c5158e79895fbbcce82a79c3ad8"
     },
     "broadcom-wl-dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesB/broadcom-wl-dkms.git",
