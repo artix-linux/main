@@ -7899,7 +7899,7 @@
     "semver": {
       "url": "gitea@gitea.artixlinux.org:packagesS/semver.git",
       "branch": "master",
-      "revision": "fb62a47487dc532c5ca955e85060d1799712bb2d"
+      "revision": "2885470f078bedd18fba484b6a209594c476c9bf"
     },
     "sequoia-sq": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sq.git",
