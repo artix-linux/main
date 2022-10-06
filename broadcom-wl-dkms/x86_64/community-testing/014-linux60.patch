@@ -1,0 +1,28 @@
+From 0e980d8c189502230d72aa45f62f2eca7354a70c Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Thu, 6 Oct 2022 03:17:21 -0500
+Subject: [PATCH] 014-linux60
+
+---
+ build/src/wl/sys/wl_cfg80211_hybrid.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/build/src/wl/sys/wl_cfg80211_hybrid.c b/build/src/wl/sys/wl_cfg80211_hybrid.c
+index d815b33..65fdbce 100644
+--- a/src/wl/sys/wl_cfg80211_hybrid.c
++++ b/src/wl/sys/wl_cfg80211_hybrid.c
+@@ -2381,7 +2381,11 @@ wl_bss_roaming_done(struct wl_cfg80211_priv *wl, struct net_device *ndev,
+ 	bss = cfg80211_get_bss(wl_to_wiphy(wl), NULL, (s8 *)&wl->bssid,
+ 	ssid->SSID, ssid->SSID_len, WLAN_CAPABILITY_ESS, WLAN_CAPABILITY_ESS);
+ 	struct cfg80211_roam_info roam_info = {
++#if LINUX_VERSION_CODE < KERNEL_VERSION(6, 0, 0)
+ 		.bss = bss,
++#else
++		.links[0].bss = bss,
++#endif
+ 		.req_ie = conn_info->req_ie,
+ 		.req_ie_len = conn_info->req_ie_len,
+ 		.resp_ie = conn_info->resp_ie,
+-- 
+2.38.0
+
