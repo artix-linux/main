@@ -8864,7 +8864,7 @@
     "uriparser": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uriparser.git",
       "branch": "master",
-      "revision": "af58094314155232e371e600b9f26880cac58cac"
+      "revision": "8e27cf1b9bf4835baef695cf4ecf8f5f99a87418"
     },
     "usb_modeswitch": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usb_modeswitch.git",
