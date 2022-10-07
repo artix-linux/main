@@ -3489,7 +3489,7 @@
     "libcdio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdio.git",
       "branch": "master",
-      "revision": "46db9f9df7a2d9818a370ec9d518b17a88071c57"
+      "revision": "55e80ce15c4f20bd00f12f9abc9922dcae98d15d"
     },
     "libcdio-paranoia": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdio-paranoia.git",
