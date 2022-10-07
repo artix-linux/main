@@ -26,6 +26,11 @@
       "branch": "master",
       "revision": "0f70af45b2aa3110ddd5adbcbb05d4e095940717"
     },
+    "acme-tiny": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acme-tiny.git",
+      "branch": "master",
+      "revision": "3f0d7cf610f8eeb5b817a20ea09bfedfe282d7cf"
+    },
     "acpi": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpi.git",
       "branch": "master",
