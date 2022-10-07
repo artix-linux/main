@@ -29,7 +29,7 @@
     "acme-tiny": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acme-tiny.git",
       "branch": "master",
-      "revision": "3f0d7cf610f8eeb5b817a20ea09bfedfe282d7cf"
+      "revision": "ac88e8fa27e4e47862537ba8184c40cc425395f3"
     },
     "acpi": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpi.git",
