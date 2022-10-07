@@ -8196,6 +8196,11 @@
       "branch": "master",
       "revision": "6fcabedd7b7ffa8bb8758473e1f1d3a33ec3bbf4"
     },
+    "sshpass": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshpass.git",
+      "branch": "master",
+      "revision": "2845f7f35e6847e19662c95fe2b9913e1225f94f"
+    },
     "sslh": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh.git",
       "branch": "master",
