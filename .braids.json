@@ -9229,7 +9229,7 @@
     "wireplumber": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireplumber.git",
       "branch": "master",
-      "revision": "c3892eaa7bb143435e47438cba959b78bc8c0e3f"
+      "revision": "c8f97a0c060cdf890e3a4e315532649700202e02"
     },
     "woff2": {
       "url": "gitea@gitea.artixlinux.org:packagesW/woff2.git",
