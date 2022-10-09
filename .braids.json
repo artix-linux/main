@@ -8984,7 +8984,7 @@
     "vi": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vi.git",
       "branch": "master",
-      "revision": "e5ba03dad99d2e5f26fd9e92f4ee64482cdb8a15"
+      "revision": "2427d30b9c3e0de26a0dca1ae32f1d82ef1dfb0b"
     },
     "vid.stab": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vid.stab.git",
