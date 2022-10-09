@@ -1919,7 +1919,7 @@
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
       "branch": "master",
-      "revision": "e40b56deb18e79c1d115005c5c124fef201cc505"
+      "revision": "fd3f6c3af0c4e2921abbe9042ad77c21b0d7756b"
     },
     "freeradius": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeradius.git",
