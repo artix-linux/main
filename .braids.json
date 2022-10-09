@@ -3969,7 +3969,7 @@
     "libksba": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libksba.git",
       "branch": "master",
-      "revision": "a364ccd34586e2825e013d14c881610aed54b217"
+      "revision": "9f5f8e32c3befc1b7da56b3d6a7a628791a486fd"
     },
     "liblangtag": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblangtag.git",
