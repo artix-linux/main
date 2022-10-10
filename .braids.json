@@ -4159,7 +4159,7 @@
     "libmysofa": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmysofa.git",
       "branch": "master",
-      "revision": "12f1c3df57cd1f74e001bf6540501127636bd9ac"
+      "revision": "7fd0e8c3139a64a46d1703f33ac9a3eea160ebae"
     },
     "libnatpmp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnatpmp.git",
