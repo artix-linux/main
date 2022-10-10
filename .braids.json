@@ -3619,7 +3619,7 @@
     "libebml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libebml.git",
       "branch": "master",
-      "revision": "363a4c8243a8b971278610ea6f7845aaac47b12c"
+      "revision": "62fcca55a507b15bacabac0949f8be189575064c"
     },
     "libebur128": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libebur128.git",
