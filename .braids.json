@@ -9409,7 +9409,7 @@
     "xf86-input-vmmouse": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-vmmouse.git",
       "branch": "master",
-      "revision": "28d1198d330f89bb427d87733347aadbadd36773"
+      "revision": "b3b08e60e623fd9cf6ab13e3fc52766aebb5778e"
     },
     "xf86-input-wacom": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-wacom.git",
