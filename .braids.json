@@ -1279,7 +1279,7 @@
     "dmraid": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmraid.git",
       "branch": "master",
-      "revision": "b7a7f0f3cb0cc467204cde817b2b783724d8af5d"
+      "revision": "eef590ba15d3fb6886ba0440e8dd9b62785626b3"
     },
     "dns-over-https": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https.git",
