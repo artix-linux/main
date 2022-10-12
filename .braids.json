@@ -9724,7 +9724,7 @@
     "xterm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xterm.git",
       "branch": "master",
-      "revision": "e702a2f2d78ef15f01cdc9acddfb7b1ab74b2670"
+      "revision": "a36251c4e2ac85585fbf47385957786f5985c07e"
     },
     "xtrans": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xtrans.git",
