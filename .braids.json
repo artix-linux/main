@@ -7044,7 +7044,7 @@
     "python": {
       "url": "gitea@gitea.artixlinux.org:packagesP/python.git",
       "branch": "master",
-      "revision": "f8021b752f3d5f7af6bccab21279721548229401"
+      "revision": "769e116108565a92e9a10ebb4b9def610d0078cf"
     },
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
