@@ -6489,7 +6489,7 @@
     "pahole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pahole.git",
       "branch": "master",
-      "revision": "03c15c147617085159c8d7294b5e85031e8a9a54"
+      "revision": "94c8ea212944df4e3f843928da48485ac005e6bb"
     },
     "pam": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pam.git",
