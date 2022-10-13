@@ -1,11 +1,11 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Ray Rashif <schiv@archlinux.org>
 # Contributor: Tobias Powalowski <tpowa@archlinux.org>
 
 pkgbase=opencv
 pkgname=(opencv opencv-samples python-opencv opencv-cuda)
 pkgver=4.6.0
-pkgrel=4
+pkgrel=5
 pkgdesc='Open Source Computer Vision Library'
 arch=(x86_64)
 license=(BSD)
