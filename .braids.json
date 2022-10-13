@@ -8759,7 +8759,7 @@
     "tzdata": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tzdata.git",
       "branch": "master",
-      "revision": "be7e94a4bf937b29c14c298812ee9d09798d7fe0"
+      "revision": "e84194c702e12631d99ee7ceabbbf9182ee897ae"
     },
     "uchardet": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uchardet.git",
