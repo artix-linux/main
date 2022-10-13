@@ -1,6 +1,6 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
-_ver=6.0
+_ver=6.0.1
 _rel=1
 _tag=arch${_rel}
 _artix=artix${_rel}
@@ -30,7 +30,7 @@ validpgpkeys=(
   'C7E7849466FE2358343588377258734B41C31549'  # David Runge <dvzrv@archlinux.org>
 )
 sha256sums=('SKIP'
-            'c25c8c44a32139b4287fae810dc8ea3d1978a4dd27c92223d2801b3b9244c8bc')
+            '53d08c812db6cda509418a3ad714811788221a3d78ed7768e0960bf964317520')
 
 export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
