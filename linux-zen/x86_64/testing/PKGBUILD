@@ -1,7 +1,7 @@
-# Maintainer: qontinuum <qontinuum@artixlinux.org>
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
 
 pkgbase=linux-zen
-pkgver=6.0.zen1
+pkgver=6.0.1.zen1
 pkgrel=1
 pkgdesc='Linux ZEN'
 _srctag=v${pkgver%.*}-${pkgver##*.}
@@ -26,7 +26,7 @@ validpgpkeys=(
   'C5ADB4F3FEBBCE27A3E54D7D9AE4078033F8024D'  # Steven Barrett <steven@liquorix.net>
 )
 sha256sums=('SKIP'
-            '660ef911b679e76c0bb2b6cd6461dd64111a9e81a522a8a025b952a5064f1497')
+            '2e1617bf5bbb71c262480bdbb999ebb7709774f58577c97ec07711357bed0c3b')
 
 export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
