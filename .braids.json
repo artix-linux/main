@@ -9544,7 +9544,7 @@
     "xorg-bdftopcf": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-bdftopcf.git",
       "branch": "master",
-      "revision": "cbdb9816fa2ed52cb370aaf7a81329a473ee0ec0"
+      "revision": "f401ea987419f0d7d9a3b14cef9ba2f58a5d13d1"
     },
     "xorg-font-util": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-font-util.git",
