@@ -1,0 +1,60 @@
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+
+pkgname=molecule
+pkgver=4.0.1
+pkgrel=1
+pkgdesc="Aids in the development and testing of Ansible roles"
+arch=(any)
+url="https://github.com/ansible-community/molecule"
+license=(MIT)
+depends=(python-ansible-compat python-cerberus python-click
+python-click-help-colors python-cookiecutter python-enrich python-jinja
+python-packaging python-pluggy python-pyyaml python-rich)
+makedepends=(python-build python-setuptools-scm python-setuptools-scm-git-archive python-installer)
+checkdepends=(ansible python-ansi2html python-filelock python-pexpect
+python-pytest python-pytest-mock python-pytest-testinfra python-pytest-xdist
+yamllint)
+optdepends=(
+  'ansible: for the ansible verifier'
+  'molecule-docker: for the docker driver'
+  'molecule-podman: for the podman driver'
+  'molecule-vagrant: for the vagrant driver'
+  'python-pywinrm: for Windows support'
+  'python-pytest-testinfra: for the testinfra verifier'
+)
+source=(https://files.pythonhosted.org/packages/source/${pkgname::1}/$pkgname/$pkgname-$pkgver.tar.gz)
+sha512sums=('7515e07bf791d5586e1f5fb4ce0d2f731c94c8268c589155340b2bdc1528534084870e66e492b2d883f9e9764293c93799a4c75478523502a2f37ad0642a472d')
+b2sums=('73cf7a2257368c737b9003236bf77011de167dd6f692166702e7948c136202b33bcce1c70893b61a95af9baa90e7b5266a5fa889e3bba0e5a8c9c1e6f48fec9a')
+
+prepare() {
+  cd $pkgname-$pkgver
+  # allegedly cerberus is not compatible with py39, but we don't mind:
+  # https://github.com/pyeve/cerberus/issues/568
+  sed -e '/cerberus/ s/,.*//' -i setup.cfg
+}
+
+build() {
+  cd $pkgname-$pkgver
+  python -m build --wheel --skip-dependency-check --no-isolation
+}
+
+check() {
+  cd $pkgname-$pkgver
+  local _site_packages=$(python -c "import site; print(site.getsitepackages()[0])")
+  local _test_dir="$PWD/test_dir"
+
+  # install into test location
+  mkdir -vp "$_test_dir"
+  python -m installer --destdir="$_test_dir" dist/*.whl
+
+  export PYTHONPATH="$_test_dir/$_site_packages:$PYTHONPATH"
+  export PATH="$_test_dir/usr/bin:$PATH"
+  pytest -v "$_test_dir/$_site_packages/molecule/test/unit/" -c /dev/null
+}
+
+package() {
+  cd $pkgname-$pkgver
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -vDm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname/"
+  install -vDm 644 README.rst -t "$pkgdir/usr/share/doc/$pkgname/"
+}
