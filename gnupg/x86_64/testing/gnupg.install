@@ -1,0 +1,6 @@
+post_install() {
+  # run dirmngr once to create /root/.gnupg
+  # https://bugs.archlinux.org/task/47371
+  # https://bugs.archlinux.org/task/42798
+  dirmngr </dev/null &>/dev/null
+}
