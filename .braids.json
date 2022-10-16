@@ -229,7 +229,7 @@
     "arrow": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arrow.git",
       "branch": "master",
-      "revision": "6088348e848d844a369e7769cb13e7f4315cc40f"
+      "revision": "61a653912f6d7092297243e33b9f6ae4ecd8370d"
     },
     "artix-keyring": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-keyring.git",
