@@ -2239,7 +2239,7 @@
     "gnupg": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnupg.git",
       "branch": "master",
-      "revision": "ca06237868b79c13b84ec197924ad1948230f862"
+      "revision": "a77b0b051204962ae90012c707b76c8d43156f77"
     },
     "gnuplot": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnuplot.git",
