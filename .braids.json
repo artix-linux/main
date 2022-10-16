@@ -3439,7 +3439,7 @@
     "libbsd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbsd.git",
       "branch": "master",
-      "revision": "dbea4d5fa45c5471af1ea171c87d7bc5847a2af1"
+      "revision": "ff8c296735ee3b19e4722882a407dd437f48e6f3"
     },
     "libburn": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libburn.git",
