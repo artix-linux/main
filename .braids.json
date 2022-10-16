@@ -584,7 +584,7 @@
     "broadcom-wl-dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesB/broadcom-wl-dkms.git",
       "branch": "master",
-      "revision": "23c548f89bf246d4c16ee2423b18c1e050f86725"
+      "revision": "9dfa69c327e6d41b36e9a82392f3497c8057aa2d"
     },
     "brotli": {
       "url": "gitea@gitea.artixlinux.org:packagesB/brotli.git",
