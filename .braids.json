@@ -9899,7 +9899,7 @@
     "zlib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zlib.git",
       "branch": "master",
-      "revision": "719aafab5c1b6429176f3efddd1b51a399f16298"
+      "revision": "d326343bac807c4e1ec5f5839d831847c920cfad"
     },
     "znc": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
