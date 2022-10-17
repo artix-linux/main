@@ -3844,7 +3844,7 @@
     "libharu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libharu.git",
       "branch": "master",
-      "revision": "36b40e7e54afb98b0f6b409e6510b9d8eff0c834"
+      "revision": "a181fa241e63f8a65851cc77514030d7da26da95"
     },
     "libheif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libheif.git",
