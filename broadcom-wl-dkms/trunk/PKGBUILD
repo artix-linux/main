@@ -6,7 +6,7 @@
 
 pkgname=broadcom-wl-dkms
 pkgver=6.30.223.271
-pkgrel=35
+pkgrel=35.1
 pkgdesc='Broadcom 802.11 Linux STA wireless driver'
 arch=(x86_64)
 url='https://www.broadcom.com/site-search?filters[pages][content_type][type]=and&filters[pages][content_type][values][]=Downloads&page=1&per_page=10&q=802.11%20linux%20sta%20wireless%20driver'
