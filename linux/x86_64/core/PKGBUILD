@@ -6,7 +6,7 @@ _tag=arch${_rel}
 _artix=artix${_rel}
 pkgbase=linux
 pkgver=${_ver}.${_artix}
-pkgrel=1
+pkgrel=1.1
 pkgdesc='Linux'
 _srctag=v${pkgver%.*}-${_tag}
 url="https://github.com/archlinux/linux/commits/$_srctag"
@@ -52,6 +52,8 @@ prepare() {
     echo "Applying patch $src..."
     patch -Np1 < "../$src"
   done
+
+  sed -i -r "s|EXTRAVERSION = -${_tag}|EXTRAVERSION = -${_artix}|" "Makefile"
 
   echo "Setting config..."
   cp ../config .config
