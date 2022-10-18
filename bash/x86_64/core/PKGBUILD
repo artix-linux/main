@@ -8,7 +8,7 @@ pkgname=bash
 _basever=5.1
 _patchlevel=016
 pkgver=${_basever}.${_patchlevel}
-pkgrel=1
+pkgrel=1.1
 pkgdesc='The GNU Bourne Again shell'
 arch=(x86_64)
 license=(GPL)
@@ -86,7 +86,7 @@ sha256sums=('cc012bc860406dcf42f64431bcd3d2fa7560c02915a601aba9cd597a39329baa'
             '4330edf340394d0dae50afb04ac2a621f106fe67fb634ec81c4bfb98be2a1eb5'
             '6c4af5d9c12c5fb7dcc7e4c2848482f59fe2272ffdeabd7462ab861d2f5d2548'
             'd6030e415c64ab0133d9592250c05745435dabee29935b21a599c4215fab3ae0'
-            '2a31b6d1b161125222981f3d44f468ef2a73deee94c553f41480f4ae944bdcc5'
+            '8820bb40bcde649326b929ab4e596943c4cdd52e9750dab7950c4221dd453f26'
             'ebb07b3dbadd98598f078125d0ae0d699295978a5cdaef6282fe19adef45b5fa'
             'SKIP'
             '15ea6121a801e48e658ceee712ea9b88d4ded022046a6147550790caf04f5dbe'
