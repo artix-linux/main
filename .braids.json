@@ -1794,7 +1794,7 @@
     "filesystem": {
       "url": "gitea@gitea.artixlinux.org:packagesF/filesystem.git",
       "branch": "master",
-      "revision": "c011246aacdfcb9089f2c4309bbbe295f4fa6ff3"
+      "revision": "477f8ab558cbcf6193055c840bd313c553076274"
     },
     "findutils": {
       "url": "gitea@gitea.artixlinux.org:packagesF/findutils.git",
