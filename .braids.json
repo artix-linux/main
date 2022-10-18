@@ -3564,7 +3564,7 @@
     "libde265": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libde265.git",
       "branch": "master",
-      "revision": "0c85868c0e9ea46ee4a74eecb70eeef84d1fa185"
+      "revision": "75f8cdeb46f6f9f0afc0d8c8bcb82f458eb6aecb"
     },
     "libdiscid": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdiscid.git",
