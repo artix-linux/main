@@ -5029,7 +5029,7 @@
     "libxshmfence": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxshmfence.git",
       "branch": "master",
-      "revision": "6ee93d2b595868ae5f1e2d3927a6e5a0e36dd541"
+      "revision": "17a077f832d20b548072aeabfff06f1291b7c19d"
     },
     "libxslt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxslt.git",
