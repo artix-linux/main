@@ -4994,7 +4994,7 @@
     "libxmu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmu.git",
       "branch": "master",
-      "revision": "ca6819c2e7568f0ec228fde153149a50b8972374"
+      "revision": "8fee0b37409a2650f68ae4bdf7213c664ca788f9"
     },
     "libxp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxp.git",
