@@ -6684,7 +6684,7 @@
     "pixman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pixman.git",
       "branch": "master",
-      "revision": "ab9f11b3136975e7cc7ccc3cd8beba8566eda8d9"
+      "revision": "1387dfa1a073d24bdffb62abfc074aa731f30f40"
     },
     "pkcs11-helper": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pkcs11-helper.git",
