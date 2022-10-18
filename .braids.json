@@ -5009,7 +5009,7 @@
     "libxpresent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxpresent.git",
       "branch": "master",
-      "revision": "5d9d4367efe25342fc247c49143b6a4d3915c52b"
+      "revision": "7623c2fdc5e696985c8aa15b17e0d1f89f32d3a3"
     },
     "libxrandr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxrandr.git",
