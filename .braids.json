@@ -424,7 +424,7 @@
     "bash": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash.git",
       "branch": "master",
-      "revision": "89f14afc7d0e583be56cbf861e9bac16ade2897a"
+      "revision": "ff93ec3fa1d7628294e6188df4e3be6419d30c6a"
     },
     "bash-completion": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-completion.git",
