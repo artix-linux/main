@@ -4964,7 +4964,7 @@
     "libxkbfile": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxkbfile.git",
       "branch": "master",
-      "revision": "81af4d456224aa7646a0f281bee004841bd38e04"
+      "revision": "8551563881dd55644ae9f2d26f220cae3f15c2de"
     },
     "libxklavier": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxklavier.git",
