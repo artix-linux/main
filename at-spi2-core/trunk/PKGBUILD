@@ -4,7 +4,7 @@
 pkgbase=at-spi2-core
 pkgname=(at-spi2-core at-spi2-core-docs)
 pkgver=2.46.0
-pkgrel=2
+pkgrel=2.1
 pkgdesc="Protocol definitions and daemon for D-Bus at-spi"
 url="https://gitlab.gnome.org/GNOME/at-spi2-core"
 arch=(x86_64)
@@ -73,6 +73,9 @@ package_at-spi2-core() {
   )
 
   meson install -C build --destdir "$pkgdir"
+
+  # remove systemd service
+  rm -r "$pkgdir"/usr/lib/systemd
 
   mkdir -p doc/usr/share
   mv {"$pkgdir",doc}/usr/share/gtk-doc
