@@ -3,7 +3,7 @@
 
 pkgname=pacman-contrib
 pkgver=1.7.1
-pkgrel=1
+pkgrel=1.1
 pkgdesc='Contributed scripts and tools for pacman systems'
 arch=('x86_64')
 url=https://gitlab.archlinux.org/pacman/pacman-contrib
@@ -45,7 +45,7 @@ package() {
   cd $pkgname-v$pkgver
   make DESTDIR="$pkgdir" install
   # Modify for Artix keep for arch
-  rm -fr {$pkgdir}/usr/lib/systemd
+  rm -fr ${pkgdir}/usr/lib/systemd
   cd ${pkgdir}/usr/bin
   sed s/core/system/g rankmirrors >rankmirrors-artix
   chmod +x rankmirrors-artix
