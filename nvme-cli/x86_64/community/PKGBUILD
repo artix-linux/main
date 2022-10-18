@@ -6,7 +6,7 @@
 
 pkgname=nvme-cli
 pkgver=2.1.2
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc="NVM-Express user space tooling for Linux"
 arch=('i686' 'x86_64')
 url="https://github.com/linux-nvme/nvme-cli"
@@ -42,4 +42,7 @@ build() {
 package() {
 	cd "${pkgname}-${pkgver}"
 	DESTDIR="$pkgdir" meson install -C .build
+
+	# remove systemd service
+	rm -r "$pkgdir"/usr/lib/systemd
 }
