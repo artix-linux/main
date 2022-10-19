@@ -3,7 +3,7 @@
 
 pkgname=rtkit
 pkgver=0.13
-pkgrel=2
+pkgrel=2.1
 pkgdesc="Realtime Policy and Watchdog Daemon"
 url="https://github.com/heftig/rtkit"
 depends=(dbus polkit elogind)
@@ -35,6 +35,9 @@ check() {
 
 package() {
   meson install -C build --destdir "$pkgdir"
+
+  # remove systemd service
+  rm -r "$pkgdir"/usr/lib/systemd
 
   echo 'u rtkit 133 "RealtimeKit" /proc' |
     install -Dm644 /dev/stdin "$pkgdir/usr/lib/sysusers.d/rtkit.conf"
