@@ -859,7 +859,7 @@
     "cmark-gfm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
       "branch": "master",
-      "revision": "3bd85c96946f7192b36186e9f3cdcf71c42200d1"
+      "revision": "34b3941ff8c92c051d3b69e007e074391cb44cf3"
     },
     "cmocka": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmocka.git",
