@@ -3009,7 +3009,7 @@
     "java-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-openjdk.git",
       "branch": "master",
-      "revision": "2332dd1489d59cf2afebd462fca6efbc0cbaa55f"
+      "revision": "1b27affa5521bb81e656caa6cb013d45e3c6a955"
     },
     "java-openjfx": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-openjfx.git",
