@@ -3154,7 +3154,7 @@
     "jupyter-notebook-shim": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-notebook-shim.git",
       "branch": "master",
-      "revision": "d91fe109077e87c39a7e8d76ba39cfb83b072b52"
+      "revision": "c46c0e034c941beb80144b8c52b9400bf6b302c8"
     },
     "jupyter-server": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server.git",
