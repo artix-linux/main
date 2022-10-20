@@ -7,4 +7,5 @@ HOME_URL="https://www.artixlinux.org/"
 DOCUMENTATION_URL="https://wiki.artixlinux.org/"
 SUPPORT_URL="https://forum.artixlinux.org/"
 BUG_REPORT_URL="https://bugs.artixlinux.org/"
-LOGO=artixlinux
+PRIVACY_POLICY_URL="https://terms.artixlinux.org/docs/privacy-policy/"
+LOGO=artixlinux-logo
