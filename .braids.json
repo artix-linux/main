@@ -4779,7 +4779,7 @@
     "libvisio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvisio.git",
       "branch": "master",
-      "revision": "3b06859b662126d7358a645d82acb647edb0a3b8"
+      "revision": "fe9826bf931ad0e149b083d475962a931138d8d6"
     },
     "libvisual": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvisual.git",
