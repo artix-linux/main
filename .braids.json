@@ -9339,7 +9339,7 @@
     "xcb-util-image": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-image.git",
       "branch": "master",
-      "revision": "017da8345f4bfe4baaa28633cf5af35f16f6f2f4"
+      "revision": "81a1ebfd105895072e02f0a3612369d6a5364fb1"
     },
     "xcb-util-keysyms": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-keysyms.git",
