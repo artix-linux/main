@@ -4394,7 +4394,7 @@
     "libqxp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libqxp.git",
       "branch": "master",
-      "revision": "3a0718b1ba645873b8cb40c7b0bf579f884e3ab6"
+      "revision": "fe35e6b1a0ee672130ec05d7e196b20fcb6aeb0f"
     },
     "librabbitmq-c": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librabbitmq-c.git",
