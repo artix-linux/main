@@ -9334,7 +9334,7 @@
     "xcb-util-errors": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-errors.git",
       "branch": "master",
-      "revision": "37d0e1e4c0a6de23252fb95c7265ad89a75e0ebc"
+      "revision": "32b445c2836a6a7002d4b35c864871f8f145ce01"
     },
     "xcb-util-image": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-image.git",
