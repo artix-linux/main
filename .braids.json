@@ -6509,7 +6509,7 @@
     "pambase": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pambase.git",
       "branch": "master",
-      "revision": "14a5476e86fd16400d5b532ab44da59304df78bb"
+      "revision": "0f5a2d6d0997cd169154bf5dfaa2b403becd48fe"
     },
     "pango": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pango.git",
