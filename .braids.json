@@ -9354,7 +9354,7 @@
     "xcb-util-wm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-wm.git",
       "branch": "master",
-      "revision": "7741f0ff0dbc85ef0bcd9f2b30208815fa61fdc8"
+      "revision": "94b18b64de527b724edae3cfaf144318e4029333"
     },
     "xcb-util-xrm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-xrm.git",
