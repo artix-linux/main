@@ -9304,7 +9304,7 @@
     "xalan-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xalan-c.git",
       "branch": "master",
-      "revision": "192cf85bf87b433b78828245938339a54643ad23"
+      "revision": "b575f51dbae16714cfa34d420ade34aada9492bf"
     },
     "xbitmaps": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xbitmaps.git",
