@@ -3029,7 +3029,7 @@
     "java8-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java8-openjdk.git",
       "branch": "master",
-      "revision": "3c217ce91792010972359962c269d406c50e384a"
+      "revision": "384288e22e6fa8834982c23f9cb090602744a6b7"
     },
     "jbig2dec": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jbig2dec.git",
