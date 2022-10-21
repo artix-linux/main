@@ -9344,7 +9344,7 @@
     "xcb-util-keysyms": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-keysyms.git",
       "branch": "master",
-      "revision": "3460267ef73aff90a0495d02f04490d4a78220a5"
+      "revision": "be4545d67f6608e0b10d4755192770e2a3aa71e7"
     },
     "xcb-util-renderutil": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-renderutil.git",
