@@ -9349,7 +9349,7 @@
     "xcb-util-renderutil": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-renderutil.git",
       "branch": "master",
-      "revision": "a98550cd7e6ab98befa6b883d1c4c94745f06d72"
+      "revision": "a3ef7599e0e473d1838cd29b5c750e2014668dcd"
     },
     "xcb-util-wm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-wm.git",
