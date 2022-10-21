@@ -329,7 +329,7 @@
     "audacity": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audacity.git",
       "branch": "master",
-      "revision": "543195620522a56f44c7abafc56b08e3aa2d2f1d"
+      "revision": "b0dc39782a0c46f916574d195bd814cf6b4fecbb"
     },
     "audiofile": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audiofile.git",
