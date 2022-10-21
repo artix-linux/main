@@ -3614,7 +3614,7 @@
     "libe-book": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libe-book.git",
       "branch": "master",
-      "revision": "ba5457416b5e534030925357b0a5613a8281ed78"
+      "revision": "70b64f14527d9afbfb160f69db811472fd1fc75c"
     },
     "libebml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libebml.git",
