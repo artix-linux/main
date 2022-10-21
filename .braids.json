@@ -279,7 +279,7 @@
     "at": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at.git",
       "branch": "master",
-      "revision": "5f3cdd6d8985e1e41142c271cacdcdea0e0d9ae1"
+      "revision": "2abd129ded143deb7f26db27a7f8673fc05255a4"
     },
     "at-spi2-atk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-spi2-atk.git",
