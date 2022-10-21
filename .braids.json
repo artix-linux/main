@@ -8814,7 +8814,7 @@
     "unarchiver": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unarchiver.git",
       "branch": "master",
-      "revision": "411ce6ce870ef25ce398a5c17b2f53a38639c642"
+      "revision": "76570d5ff9d0ecfa35940f9246e40216e0d46dfd"
     },
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
