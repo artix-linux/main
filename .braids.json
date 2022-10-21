@@ -5089,7 +5089,7 @@
     "libzmf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libzmf.git",
       "branch": "master",
-      "revision": "3e49cc34a21ea0b1ca01540b92c801c8b7be4f55"
+      "revision": "9026f3451eeb991b2bf24662361f29c35c8fba0e"
     },
     "licenses": {
       "url": "gitea@gitea.artixlinux.org:packagesL/licenses.git",
