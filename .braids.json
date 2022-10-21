@@ -7734,7 +7734,7 @@
     "rubberband": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rubberband.git",
       "branch": "master",
-      "revision": "c0df0f51d74fb74cf12801e1d3499ca38956e053"
+      "revision": "4f7ad029a1401a76b0a6f134b9fc0796df6d4e92"
     },
     "ruby": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ruby.git",
