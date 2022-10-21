@@ -2,8 +2,8 @@
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 
 pkgname='virtualbox-host-modules-artix'
-pkgver=6.1.40
-pkgrel=3.1
+pkgver=7.0.2
+pkgrel=1
 pkgdesc='Virtualbox host kernel modules for Artix Kernel'
 arch=('x86_64')
 url='https://virtualbox.org/'
