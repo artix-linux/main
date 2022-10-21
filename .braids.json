@@ -9099,7 +9099,7 @@
     "vte3": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vte3.git",
       "branch": "master",
-      "revision": "105059cdfdb3aad51de548594189007274345111"
+      "revision": "a8c5e21aabce87064726eda5f71dd405abb9ce3e"
     },
     "vulkan-docs": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-docs.git",
