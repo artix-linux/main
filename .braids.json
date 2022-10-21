@@ -2789,7 +2789,7 @@
     "imake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imake.git",
       "branch": "master",
-      "revision": "1880564daea00fa6b1c08147e4ba9cac19aa700c"
+      "revision": "810cd6162d79a8193a6a85675512a40233278844"
     },
     "imap": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imap.git",
