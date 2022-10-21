@@ -7694,7 +7694,7 @@
     "rspamd": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd.git",
       "branch": "master",
-      "revision": "360eefc039404f4e3fd86176426f3396ea95dd5e"
+      "revision": "7d9eb190b27165b9822d91632c151f9e7ebb8b5f"
     },
     "rst2pdf": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rst2pdf.git",
