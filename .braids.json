@@ -4549,7 +4549,7 @@
     "libsoup": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoup.git",
       "branch": "master",
-      "revision": "ea4d7e131e5ccdee0ef416c09f59713f91206529"
+      "revision": "8fd6e17855a834fbb13819544822778085a96764"
     },
     "libsoup3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoup3.git",
