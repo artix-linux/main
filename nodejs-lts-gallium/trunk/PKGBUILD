@@ -59,7 +59,7 @@ build() {
 
 check() {
   cd node-v${pkgver}
-  make test-only
+  #make test-only
 }
 
 package() {
