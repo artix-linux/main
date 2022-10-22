@@ -17,7 +17,7 @@ backup=(etc/couchdb/local.ini
         etc/couchdb/vm.args
         etc/default/couchdb)
 options=(debug)
-source=("https://archive.apache.org/dist/${pkgname}/source/${pkgver}/apache-${pkgname}-${pkgver}.tar.gz"{,.asc}
+source=("https://archive.apache.org/dist/${pkgname}/source/${pkgver}/apache-${pkgname}-${pkgver}.tar.gz"
         https://github.com/davisp/jiffy/archive/1.1.1/jiffy-1.1.1.tar.gz
         erlang-25.patch
         erlang-25-snappy.patch
@@ -25,7 +25,6 @@ source=("https://archive.apache.org/dist/${pkgname}/source/${pkgver}/apache-${pk
         couchdb.sysusers
         couchdb.tmpfiles)
 sha256sums=('69c9fd6f80133557f68a02e92dda72a4fd646d646f429f45bb8329a30f82f20e'
-            'SKIP'
             'a999351d956d3ed10c33a6dd7e9435e674e519b5b82a46d60361afdb83062fd8'
             '59a8a92200321f670f20746848fcadae35d1818f6bdacbedaf49012866dcfc27'
             '8a74ae8cc5c5a54cd0a65f7aeed55af257eef8912630b953bfeb8d9329228b4b'
