@@ -1,6 +1,6 @@
 post_install() {
   printf '==> %s\n' "The example config chroots HAProxy, meaning that logging to journald won't work."
-  printf '    %s\n' "Either disable chrooting, use rsyslog, or bind /run/systemd/journal/dev-log into the chroot."
+  printf '    %s\n' "Either disable chrooting, use rsyslog."
 }
 
 post_upgrade() {
