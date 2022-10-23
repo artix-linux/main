@@ -8049,7 +8049,7 @@
     "slop": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slop.git",
       "branch": "master",
-      "revision": "57a15d8fee02881c13bf3a27cce49b873a4395a0"
+      "revision": "a5f46f0a3513534da218a6a0251f2eb61c9810c6"
     },
     "smartmontools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/smartmontools.git",
