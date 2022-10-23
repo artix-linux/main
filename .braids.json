@@ -299,7 +299,7 @@
     "atk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atk.git",
       "branch": "master",
-      "revision": "33d5b2be4273008f100ac1fd5f01b237ca4a386b"
+      "revision": "9adcc2e23e7bc36acc98e9604862924b26e03ed0"
     },
     "atkmm": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atkmm.git",
