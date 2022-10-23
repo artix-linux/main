@@ -3499,7 +3499,7 @@
     "libcdr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdr.git",
       "branch": "master",
-      "revision": "7085d1fb25bd0b1004b08b28897b563d110c1889"
+      "revision": "c239cee180696317ebe5d45719d450c1d2b69fe0"
     },
     "libcgif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcgif.git",
