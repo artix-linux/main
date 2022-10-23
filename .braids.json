@@ -4134,7 +4134,7 @@
     "libmspub": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspub.git",
       "branch": "master",
-      "revision": "ab1f16bb4c476a8878e89fbcdd0f78bf9529b4eb"
+      "revision": "ef1c259641223e4f31e2ad7359cf80f0a5145ba7"
     },
     "libmtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmtp.git",
