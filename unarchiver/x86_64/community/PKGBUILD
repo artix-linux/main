@@ -1,11 +1,11 @@
-# Maintainer: Anatol Pomozov <anatol.pomozov@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Cedric Girard <girard.cedric@gmail.com>
 # Contributor: N30N <archlinux@alunamation.com>
 
 pkgname=unarchiver
 pkgver=1.10.7
 _UniversalDetector_pkgver=1.1
-pkgrel=6
+pkgrel=7
 pkgdesc="unar and lsar: Objective-C tools for uncompressing archive files"
 arch=(x86_64)
 url="https://github.com/MacPaw/XADMaster"
