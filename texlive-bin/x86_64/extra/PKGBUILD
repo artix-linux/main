@@ -1,9 +1,9 @@
-# Maintainer: Rémy Oudompheng <remy@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: francois <francois.archlinux.org>
 
 pkgname=('texlive-bin' 'libsynctex')
 pkgver=2022.62885
-pkgrel=1
+pkgrel=2
 license=('GPL')
 arch=('x86_64')
 makedepends=('git' 'cairo' 'pixman' 'graphite' 't1lib' 'gd'
