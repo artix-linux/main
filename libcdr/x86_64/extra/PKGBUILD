@@ -1,10 +1,10 @@
-# Maintainer: AndyRTR <andyrtr@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: megadriver <megadriver at gmx dot com>
 # Contributor: Luca Bennati <lucak3 AT gmail DOT com>
 
 pkgname=libcdr
 pkgver=0.1.7
-pkgrel=4
+pkgrel=5
 pkgdesc="CorelDraw file format importer library for LibreOffice"
 arch=('x86_64')
 url="https://wiki.documentfoundation.org/DLP/Libraries/libcdr"
