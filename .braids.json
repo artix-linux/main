@@ -989,7 +989,7 @@
     "couchdb": {
       "url": "gitea@gitea.artixlinux.org:packagesC/couchdb.git",
       "branch": "master",
-      "revision": "677bffcd9fe61d6e6c0bc5f2a204eb0ffa406f60"
+      "revision": "b5e2f7c005642f4126eaed682ed2be83ac326b7f"
     },
     "cpio": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpio.git",
