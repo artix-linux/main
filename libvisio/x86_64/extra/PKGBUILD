@@ -1,11 +1,11 @@
-# Maintainer: AndyRTR <andyrtr@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: ponsfoot <cabezon dot hashimoto at gmail dot com>
 # Contributor: philacs
 
 pkgname=libvisio
 pkgver=0.1.7
-pkgrel=7
+pkgrel=8
 pkgdesc='Library providing ability to interpret and import visio diagrams'
 arch=('x86_64')
 url="https://wiki.documentfoundation.org/DLP/Libraries/libvisio"
