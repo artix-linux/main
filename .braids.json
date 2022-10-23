@@ -1889,7 +1889,7 @@
     "fontconfig": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fontconfig.git",
       "branch": "master",
-      "revision": "508b000ab92253daa187dc8c5fbecb5853be49ac"
+      "revision": "64164dad4a51176b36c33c9435921612bd864963"
     },
     "fontforge": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fontforge.git",
