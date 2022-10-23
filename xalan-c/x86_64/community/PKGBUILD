@@ -1,9 +1,9 @@
-# Maintainer: Roman Kyrylych <Roman.Kyrylych@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: William Rea <sillywilly@gmail.com>
 
 pkgname=xalan-c
 pkgver=1.12
-pkgrel=5
+pkgrel=6
 epoch=1
 pkgdesc="A XSLT processor for transforming XML documents"
 arch=('x86_64')
