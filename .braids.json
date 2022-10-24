@@ -3879,7 +3879,7 @@
     "libidn2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libidn2.git",
       "branch": "master",
-      "revision": "4180acc3e6fd51fddfb20b57f23d056415d938d0"
+      "revision": "3da2409940d93314464b18e6a36228a48bca3542"
     },
     "libiec61883": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libiec61883.git",
