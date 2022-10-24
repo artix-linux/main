@@ -8309,7 +8309,7 @@
     "svt-av1": {
       "url": "gitea@gitea.artixlinux.org:packagesS/svt-av1.git",
       "branch": "master",
-      "revision": "cdeda859a01296f9b6f04ce345f7630a8d62ffad"
+      "revision": "3cfcb318ee7cf4ad43938cbf5b4f84440dd3db2e"
     },
     "svt-hevc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/svt-hevc.git",
