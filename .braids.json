@@ -6049,7 +6049,7 @@
     "nginx": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nginx.git",
       "branch": "master",
-      "revision": "9a12aba32db17801c5e9722c7079b3bf17b43f23"
+      "revision": "473ddc3253eed7c2cf1eb43b0074a9f41bc36d3b"
     },
     "ngircd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd.git",
