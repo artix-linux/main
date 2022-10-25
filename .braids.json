@@ -9064,7 +9064,7 @@
     "vnstat": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat.git",
       "branch": "master",
-      "revision": "9ff034ce9f168342d1578aaffeb3734c5a1e36db"
+      "revision": "7ce4ef4889c400b761b80c6195f1a4ea56fbc9ea"
     },
     "volume_key": {
       "url": "gitea@gitea.artixlinux.org:packagesV/volume_key.git",
