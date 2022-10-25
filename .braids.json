@@ -2629,7 +2629,7 @@
     "hiera": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiera.git",
       "branch": "master",
-      "revision": "347589a89ccf9f63dff73546b25ec79cc528bab6"
+      "revision": "5f2aad75e447a4efd271c457faa56bf2958020a2"
     },
     "highway": {
       "url": "gitea@gitea.artixlinux.org:packagesH/highway.git",
