@@ -429,7 +429,7 @@
     "aws-c-mqtt": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-mqtt.git",
       "branch": "master",
-      "revision": "f360578eccf0850b45987cdec97b5b8fd931aae9"
+      "revision": "4057ece27bef0e4236c27e558e473207692a77dc"
     },
     "aws-checksums": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-checksums.git",
