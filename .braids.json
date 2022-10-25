@@ -1709,7 +1709,7 @@
     "facter": {
       "url": "gitea@gitea.artixlinux.org:packagesF/facter.git",
       "branch": "master",
-      "revision": "36f3a9b58061548d0635786ee2c43798ea11c1e3"
+      "revision": "ff1fb4ebaab9d33580024101a31c637fbcdedd78"
     },
     "fail2ban": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban.git",
