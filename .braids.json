@@ -8779,7 +8779,7 @@
     "udev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udev.git",
       "branch": "master",
-      "revision": "4a18a0daf47a151a56fbcea956a5ea7a326b6ee1"
+      "revision": "57e485fc8e3dccebbbe701bdcfc06fb61e0bcaea"
     },
     "udisks2": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udisks2.git",
