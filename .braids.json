@@ -426,6 +426,11 @@
       "branch": "master",
       "revision": "34b5992c4064a3108c7d1826925c62b3eb0292da"
     },
+    "aws-c-mqtt": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-mqtt.git",
+      "branch": "master",
+      "revision": "f360578eccf0850b45987cdec97b5b8fd931aae9"
+    },
     "aws-checksums": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-checksums.git",
       "branch": "master",
