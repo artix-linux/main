@@ -414,7 +414,7 @@
     "aws-checksums": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-checksums.git",
       "branch": "master",
-      "revision": "2508c494851741b31981530e3b7a298259650499"
+      "revision": "ccc93ef8142759834b2acf4b8eb0c5f166e30937"
     },
     "aws-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-cli.git",
