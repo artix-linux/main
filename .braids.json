@@ -79,7 +79,7 @@
     "alsa-lib": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-lib.git",
       "branch": "master",
-      "revision": "86a4c9ee062356596f4807447319552bd4169308"
+      "revision": "2c31cb2406797cc42c5b0f88c0a9bccbd491bf08"
     },
     "alsa-oss": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-oss.git",
