@@ -2219,7 +2219,7 @@
     "glib2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glib2.git",
       "branch": "master",
-      "revision": "b7ac157280af53eb05a08bf7ea0cda048c68b7d4"
+      "revision": "8f045058e3d2e2651a3743eeba003b876787b01c"
     },
     "glibc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibc.git",
