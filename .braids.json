@@ -7796,6 +7796,11 @@
       "branch": "master",
       "revision": "788bd9f108111a7919c91effed947e1e5d6326d7"
     },
+    "s2n-tls": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/s2n-tls.git",
+      "branch": "master",
+      "revision": "5fe806a14ee422a76c232e2f516b44848b073e82"
+    },
     "s3cmd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
       "branch": "master",
