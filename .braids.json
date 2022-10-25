@@ -2114,7 +2114,7 @@
     "gdk-pixbuf2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdk-pixbuf2.git",
       "branch": "master",
-      "revision": "d398025ad0bdc0b7c5725e7947e6347857ee59ab"
+      "revision": "10c38a72a6599cca71c539e0a641c5acd2240d7d"
     },
     "gendesk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gendesk.git",
