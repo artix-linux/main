@@ -396,6 +396,11 @@
       "branch": "master",
       "revision": "6fad0cf19d6a5333189f4693d0d1a7d94a7c3766"
     },
+    "aws-c-auth": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-auth.git",
+      "branch": "master",
+      "revision": "619c38e39ea5c54292049723da706be7373318ba"
+    },
     "aws-c-cal": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-cal.git",
       "branch": "master",
