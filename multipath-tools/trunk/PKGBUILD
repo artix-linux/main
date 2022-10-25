@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Michael Lass <bevan@bi-co.net>
 # Contributor: Justin Dray <justin@dray.be>
 # Contributor: Patrick McCarty <pnorcks at gmail dot com>
@@ -10,7 +10,7 @@
 pkgname=multipath-tools
 _tag='3db6872d9a418261b02be4755258a9928b6bb7ac' # git rev-parse ${pkgver}
 pkgver=0.9.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Multipath tools for Linux (including kpartx)'
 arch=('x86_64')
 url='http://christophe.varoqui.free.fr/'
