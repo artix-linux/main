@@ -9759,7 +9759,7 @@
     "xorg-xwayland": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwayland.git",
       "branch": "master",
-      "revision": "3d11e7e37752ae9d9ab1961616ae7ac76879f932"
+      "revision": "496bc54fb1f386f659930ecb8d2645d956596c76"
     },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
