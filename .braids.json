@@ -5944,7 +5944,7 @@
     "ncdu": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncdu.git",
       "branch": "master",
-      "revision": "577d8fc05d2a76c398a0f943d5638fec575cd3ef"
+      "revision": "7f2f6b4ff18927e6c75b3aea4eb5e97cda9e3cd6"
     },
     "ncftp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncftp.git",
