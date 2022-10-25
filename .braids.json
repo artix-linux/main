@@ -409,7 +409,7 @@
     "aws-c-io": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-io.git",
       "branch": "master",
-      "revision": "15f01a131a4dafae357cc732cbd2700e2abe1282"
+      "revision": "34b5992c4064a3108c7d1826925c62b3eb0292da"
     },
     "aws-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-cli.git",
