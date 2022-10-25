@@ -7799,7 +7799,7 @@
     "s2n-tls": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s2n-tls.git",
       "branch": "master",
-      "revision": "5fe806a14ee422a76c232e2f516b44848b073e82"
+      "revision": "9d0837fc004466c1df71d9d1f07ab378b91d0d49"
     },
     "s3cmd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
