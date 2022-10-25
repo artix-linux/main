@@ -406,6 +406,11 @@
       "branch": "master",
       "revision": "3a38257e003505cda4e02bc131cec8caca324e8d"
     },
+    "aws-c-compression": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-compression.git",
+      "branch": "master",
+      "revision": "35a4bb1914d33a6a61446b991a7b03b4ac1a09b8"
+    },
     "aws-c-event-stream": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-event-stream.git",
       "branch": "master",
