@@ -1,0 +1,32 @@
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+
+pkgname=aws-c-compression
+pkgver=0.2.15
+pkgrel=1
+pkgdesc='C99 implementation of huffman encoding/decoding'
+arch=(x86_64)
+url='https://github.com/awslabs/aws-c-compression'
+license=(Apache)
+depends=(aws-c-common)
+makedepends=(cmake)
+source=(aws-c-compression-$pkgver.zip::https://github.com/awslabs/aws-c-compression/archive/v$pkgver.zip)
+sha256sums=('949850cde6df3a4dc58aa8afb81283232a2670701c6260060fa819a66aed72b3')
+
+build() {
+  cd aws-c-compression-$pkgver
+
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS=ON -S . -B build
+  cmake --build build
+}
+
+check() {
+  cd aws-c-compression-$pkgver
+  cmake --build build --target test
+}
+
+package() {
+  cd aws-c-compression-$pkgver
+
+  cmake --build build --target install -- DESTDIR="$pkgdir/"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
