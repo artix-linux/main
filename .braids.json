@@ -2124,7 +2124,7 @@
     "geoclue": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoclue.git",
       "branch": "master",
-      "revision": "a8024713c5aa9761ffbe5cc6dd493c08c73be631"
+      "revision": "9de6988fe402b9eb72ec63c68d05ce0c0f2b6e9e"
     },
     "geocode-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geocode-glib.git",
