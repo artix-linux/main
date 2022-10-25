@@ -1,0 +1,32 @@
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+
+pkgname=aws-c-io
+pkgver=0.13.5
+pkgrel=1
+pkgdesc='AWS SDK module to handle all IO and TLS work for application protocols'
+arch=(x86_64)
+url='https://github.com/awslabs/aws-c-io'
+license=(Apache)
+depends=(aws-c-common aws-c-cal s2n-tls)
+makedepends=(cmake)
+source=(aws-c-io-$pkgver.zip::https://github.com/awslabs/aws-c-io/archive/v$pkgver.zip)
+sha256sums=('8881e58e385557ab626f74a574aa4f41011d0cb96242df5ec473e471df2976dc')
+
+build() {
+  cd aws-c-io-$pkgver
+
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS=ON -S . -B build
+  cmake --build build
+}
+
+check() {
+  cd aws-c-io-$pkgver
+  cmake --build build --target test
+}
+
+package() {
+  cd aws-c-io-$pkgver
+
+  cmake --build build --target install -- DESTDIR="$pkgdir/"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
