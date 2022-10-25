@@ -399,7 +399,7 @@
     "aws-c-common": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-common.git",
       "branch": "master",
-      "revision": "5af795a617b8c3396efabf569d7ee00c8534802d"
+      "revision": "3a38257e003505cda4e02bc131cec8caca324e8d"
     },
     "aws-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-cli.git",
