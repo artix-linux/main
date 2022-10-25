@@ -1,0 +1,377 @@
+d1a2464166bf56f37269e1c4fbd324bdd24bc248
+ factory/templates/meson.build  |  1 +
+ hwdb.d/meson.build             | 11 +++++++++++
+ meson.build                    | 29 +++++++++++++++++++++++++++++
+ meson_options.txt              |  7 +++++++
+ rules.d/meson.build            |  8 ++++++--
+ src/boot/efi/meson.build       |  4 ++--
+ src/kernel-install/meson.build |  7 +++++++
+ src/libudev/meson.build        | 10 +++++++++-
+ src/udev/meson.build           | 13 +++++++++++++
+ sysusers.d/meson.build         |  6 +++++-
+ tmpfiles.d/meson.build         | 12 +++++++++++-
+ 11 files changed, 101 insertions(+), 7 deletions(-)
+
+diff --git a/factory/templates/meson.build b/factory/templates/meson.build
+index ece2c644ff..43ddbd5158 100644
+--- a/factory/templates/meson.build
++++ b/factory/templates/meson.build
+@@ -8,4 +8,5 @@ custom_target(
+         output : 'locale.conf',
+         command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+         install : true,
++        install_tag : 'tmpfiles',
+         install_dir : factory_etc_dir)
+diff --git a/hwdb.d/meson.build b/hwdb.d/meson.build
+index 90b71916b7..093c5946ac 100644
+--- a/hwdb.d/meson.build
++++ b/hwdb.d/meson.build
+@@ -43,10 +43,12 @@ if conf.get('ENABLE_HWDB') == 1
+                 command : make_autosuspend_rules_py,
+                 capture : true,
+                 install : true,
++                install_tag : 'udev',
+                 install_dir: udevhwdbdir)
+
+         install_data(hwdb_files_notest,
+                      hwdb_files_test,
++                     install_tag : 'udev',
+                      install_dir : udevhwdbdir)
+
+         if install_sysconfdir
+@@ -57,6 +59,15 @@ if conf.get('ENABLE_HWDB') == 1
+                                          'test -n "$DESTDIR" || @0@/systemd-hwdb update'.format(rootbindir))
+         endif
+
++        if install_sysconfdir_standalone
++                install_emptydir(
++                        sysconfdir / 'udev/hwdb.d',
++                        install_tag : 'udev')
++
++                meson.add_install_script('sh', '-c',
++                                         'test -n "$DESTDIR" || @0@/systemd-hwdb update'.format(rootbindir))
++        endif
++
+         if want_tests != 'false'
+                 parse_hwdb_py = find_program('parse_hwdb.py')
+                 test('parse-hwdb',
+diff --git a/meson.build b/meson.build
+index 36cbfa4893..5b26f12649 100644
+--- a/meson.build
++++ b/meson.build
+@@ -149,6 +149,9 @@ endif
+
+ install_sysconfdir = get_option('install-sysconfdir') != 'false'
+ install_sysconfdir_samples = get_option('install-sysconfdir') == 'true'
++
++install_sysconfdir_standalone = get_option('install-sysconfdir-standalone')
++
+ # Dirs of external packages
+ pkgconfigdatadir = get_option('pkgconfigdatadir') != '' ? get_option('pkgconfigdatadir') : datadir / 'pkgconfig'
+ pkgconfiglibdir = get_option('pkgconfiglibdir') != '' ? get_option('pkgconfiglibdir') : libdir / 'pkgconfig'
+@@ -198,6 +201,16 @@ randomseeddir = localstatedir / 'lib/systemd'
+ profiledir = rootlibexecdir / 'portable' / 'profile'
+ ntpservicelistdir = rootprefixdir / 'lib/systemd/ntp-units.d'
+
++default_udevd_symlink = get_option('default-udevd-symlink')
++if default_udevd_symlink == ''
++        default_udevd_symlink = 'systemd-udevd'
++endif
++
++default_udevd_dir = get_option('default-udevd-dir')
++if default_udevd_dir == ''
++        default_udevd_dir = prefixdir / 'lib/systemd'
++endif
++
+ docdir = get_option('docdir')
+ if docdir == ''
+         docdir = datadir / 'doc/systemd'
+@@ -2446,6 +2459,7 @@ if conf.get('HAVE_BLKID') == 1 and conf.get('HAVE_GNU_EFI') == 1
+                 link_with : [boot_link_with],
+                 dependencies : [libblkid],
+                 install_rpath : rootlibexecdir,
++                install_tag : 'boot',
+                 install : true)
+
+         public_programs += executable(
+@@ -3446,6 +3460,7 @@ if enable_sysusers
+                                      libbasic_gcrypt,
+                                      libsystemd_static],
+                         install : true,
++                        install_tag : 'sysusers',
+                         install_dir : rootbindir)
+                 public_programs += exe
+
+@@ -3489,6 +3504,7 @@ if conf.get('ENABLE_TMPFILES') == 1
+                                      libsystemd_static],
+                         dependencies : [libacl],
+                         install : true,
++                        install_tag : 'tmpfiles',
+                         install_dir : rootbindir)
+                 public_programs += exe
+
+@@ -3509,6 +3525,7 @@ if conf.get('ENABLE_HWDB') == 1
+                 link_with : udev_link_with,
+                 install_rpath : udev_rpath,
+                 install : true,
++                install_tag : 'udev',
+                 install_dir : rootbindir)
+         public_programs += systemd_hwdb
+
+@@ -3555,9 +3572,18 @@ udevadm = executable(
+                         libblkid],
+         install_rpath : udev_rpath,
+         install : true,
++        install_tag : 'udev',
+         install_dir : rootbindir)
+ public_programs += udevadm
+
++if install_sysconfdir_standalone
++        install_symlink(
++                default_udevd_symlink,
++                install_dir : default_udevd_dir,
++                install_tag : 'udev',
++                pointing_to : rootbindir / 'udevadm')
++endif
++
+ if conf.get('ENABLE_REPART') == 1
+         exe = executable(
+                 'systemd-repart',
+@@ -3704,6 +3730,7 @@ public_programs += custom_target(
+         command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+         install : want_kernel_install,
+         install_mode : 'rwxr-xr-x',
++        install_tag : 'boot',
+         install_dir : bindir)
+
+ ############################################################
+@@ -4138,6 +4165,8 @@ summary({
+         'nobody user name' :                nobody_user,
+         'nobody group name' :               nobody_group,
+         'fallback hostname' :               get_option('fallback-hostname'),
++        'default udevd symlink name' :      default_udevd_symlink,
++        'default udevd symlink directory' : default_udevd_dir,
+         'default compression method' :      compression,
+         'default DNSSEC mode' :             default_dnssec,
+         'default DNS-over-TLS mode' :       default_dns_over_tls,
+diff --git a/meson_options.txt b/meson_options.txt
+index 26d1170c50..611b02c058 100644
+--- a/meson_options.txt
++++ b/meson_options.txt
+@@ -204,6 +204,13 @@ option('docdir', type : 'string',
+ option('install-sysconfdir', type : 'combo', choices : ['true', 'no-samples', 'false'], value : 'true',
+        description : 'install configuration files and directories to $sysconfdir')
+
++option('install-sysconfdir-standalone', type : 'boolean', value : false,
++       description : 'install configuration files and directories to $sysconfdir')
++option('default-udevd-symlink', type : 'string',
++       description : 'the udevd standalone symlink name')
++option('default-udevd-dir', type : 'string',
++       description : 'the udevd directory')
++
+ option('fallback-hostname', type : 'string', value : 'localhost',
+        description : 'the hostname used if none configured')
+ option('default-hierarchy', type : 'combo',
+diff --git a/rules.d/meson.build b/rules.d/meson.build
+index a582e4e922..945c3063bd 100644
+--- a/rules.d/meson.build
++++ b/rules.d/meson.build
+@@ -2,6 +2,7 @@
+
+ install_data(
+         'README',
++        install_tag : 'udev',
+         install_dir : udevrulesdir)
+
+ rules = [
+@@ -41,8 +42,10 @@ all_rules = []
+
+ foreach tuple : rules
+         if tuple.length() == 1 or tuple[1]
+-                install_data(tuple[0],
+-                             install_dir : udevrulesdir)
++                install_data(
++                        tuple[0],
++                        install_tag : 'udev',
++                        install_dir : udevrulesdir)
+                 all_rules += tuple[0]
+         endif
+ endforeach
+@@ -68,6 +71,7 @@ foreach tuple : rules_in
+                 output: tuple[0],
+                 command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+                 install : want,
++                install_tag : 'udev',
+                 install_dir : udevrulesdir)
+
+         if want
+diff --git a/src/boot/efi/meson.build b/src/boot/efi/meson.build
+index e0edbf18a2..3b626367a0 100644
+--- a/src/boot/efi/meson.build
++++ b/src/boot/efi/meson.build
+@@ -427,7 +427,7 @@ foreach tuple : [['systemd-boot@0@.@1@', systemd_boot_objects, false, 'systemd-b
+                            '-lgnuefi',
+                            '-lgcc'],
+                 install : tuple[2],
+-                install_tag: tuple[3],
++                install_tag: 'boot',
+                 install_dir : bootlibdir)
+
+         efi = custom_target(
+@@ -449,7 +449,7 @@ foreach tuple : [['systemd-boot@0@.@1@', systemd_boot_objects, false, 'systemd-b
+                            efi_format,
+                            '@INPUT@', '@OUTPUT@'],
+                 install : true,
+-                install_tag: tuple[3],
++                install_tag: 'boot',
+                 install_dir : bootlibdir)
+
+         alias_target(tuple[3], efi)
+diff --git a/src/kernel-install/meson.build b/src/kernel-install/meson.build
+index 06c1c3aafb..efaaedd136 100644
+--- a/src/kernel-install/meson.build
++++ b/src/kernel-install/meson.build
+@@ -6,9 +6,11 @@ if want_kernel_install
+         install_data('50-depmod.install',
+                      '90-loaderentry.install',
+                      install_mode : 'rwxr-xr-x',
++                     install_tag : 'boot',
+                      install_dir : kernelinstalldir)
+
+         install_data('install.conf',
++                     install_tag : 'boot',
+                      install_dir : kerneldir)
+
+         if install_sysconfdir
+@@ -16,4 +18,9 @@ if want_kernel_install
+                                          mkdir_p.format(sysconfdir / 'kernel/install.d'))
+         endif
+
++        if install_sysconfdir_standalone
++                install_emptydir(
++                        sysconfdir / 'kernel/install.d',
++                        install_tag : 'boot')
++        endif
+ endif
+diff --git a/src/libudev/meson.build b/src/libudev/meson.build
+index 343fac6945..706d77b6d8 100644
+--- a/src/libudev/meson.build
++++ b/src/libudev/meson.build
+@@ -24,6 +24,14 @@ libudev_sym_path = meson.current_source_dir() / 'libudev.sym'
+ install_headers('libudev.h')
+ libudev_h_path = meson.current_source_dir() / 'libudev.h'
+
++if install_sysconfdir_standalone
++        libudev_h_path = meson.current_source_dir() / 'libudev.h'
++        install_data(
++                libudev_h_path,
++                install_dir: includedir,
++                install_tag: 'udev-devel')
++endif
++
+ libudev_basic = static_library(
+         'udev-basic',
+         libudev_sources,
+@@ -40,7 +48,7 @@ custom_target(
+         output : 'libudev.pc',
+         command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+         install : pkgconfiglibdir != 'no',
+-        install_tag : 'devel',
++        install_tag : 'libudev-devel',
+         install_dir : pkgconfiglibdir)
+
+ ############################################################
+diff --git a/src/udev/meson.build b/src/udev/meson.build
+index 79964a7d8e..7d5e3d3c99 100644
+--- a/src/udev/meson.build
++++ b/src/udev/meson.build
+@@ -152,6 +152,7 @@ foreach prog : udev_progs
+                 link_with : udev_link_with,
+                 install_rpath : udev_rpath,
+                 install : true,
++                install_tag : 'udev',
+                 install_dir : udevlibexecdir)
+
+         udev_prog_paths += {name : exe}
+@@ -162,12 +163,24 @@ if install_sysconfdir_samples
+                      install_dir : sysconfdir / 'udev')
+ endif
+
++if install_sysconfdir_standalone
++        install_data(
++                'udev.conf',
++                install_tag : 'udev',
++                install_dir : sysconfdir / 'udev')
++
++        install_emptydir(
++                sysconfdir / 'udev/rules.d',
++                install_tag : 'udev')
++endif
++
+ custom_target(
+         'udev.pc',
+         input : 'udev.pc.in',
+         output : 'udev.pc',
+         command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+         install : pkgconfigdatadir != 'no',
++        install_tag : 'udev-devel',
+         install_dir : pkgconfigdatadir)
+
+ if install_sysconfdir
+diff --git a/sysusers.d/meson.build b/sysusers.d/meson.build
+index 608c4b744a..6a65cd654a 100644
+--- a/sysusers.d/meson.build
++++ b/sysusers.d/meson.build
+@@ -8,7 +8,10 @@ foreach pair : files
+         if not enable_sysusers
+                 # do nothing
+         elif pair[1] == '' or conf.get(pair[1]) == 1
+-                install_data(pair[0], install_dir : sysusersdir)
++                install_data(
++                        pair[0],
++                        install_tag : 'sysusers',
++                        install_dir : sysusersdir)
+         else
+                 message('Not installing sysusers.d/@0@ because @1@ is @2@'
+                         .format(pair[0], pair[1], conf.get(pair[1], 0)))
+@@ -35,5 +38,6 @@ foreach tuple : in_files
+                 output: file,
+                 command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+                 install : tuple[1],
++                install_tag : 'sysusers',
+                 install_dir : sysusersdir)
+ endforeach
+diff --git a/tmpfiles.d/meson.build b/tmpfiles.d/meson.build
+index 4546169694..f034b65612 100644
+--- a/tmpfiles.d/meson.build
++++ b/tmpfiles.d/meson.build
+@@ -20,7 +20,10 @@ foreach pair : files
+         if not enable_tmpfiles
+                 # do nothing
+         elif pair[1] == '' or conf.get(pair[1]) == 1
+-                install_data(pair[0], install_dir : tmpfilesdir)
++                install_data(
++                        pair[0],
++                        install_tag : 'tmpfiles',
++                        install_dir : tmpfilesdir)
+         else
+                 message('Not installing tmpfiles.d/@0@ because @1@ is @2@'
+                         .format(pair[0], pair[1], conf.get(pair[1], 0)))
+@@ -44,6 +47,7 @@ foreach pair : in_files
+                         output: pair[0],
+                         command : [jinja2_cmdline, '@INPUT@', '@OUTPUT@'],
+                         install : enable_tmpfiles,
++                        install_tag : 'tmpfiles',
+                         install_dir : tmpfilesdir)
+         else
+                 message('Not installing tmpfiles.d/@0@ because @1@ is @2@'
+@@ -55,3 +59,9 @@ if enable_tmpfiles and install_sysconfdir
+         meson.add_install_script(
+                 'sh', '-c', mkdir_p.format(sysconfdir / 'tmpfiles.d'))
+ endif
++
++if enable_tmpfiles and install_sysconfdir_standalone
++        install_emptydir(
++                sysconfdir / 'tmpfiles.d',
++                install_tag : 'tmpfiles')
++endif
