@@ -2109,7 +2109,7 @@
     "gdk-pixbuf-xlib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdk-pixbuf-xlib.git",
       "branch": "master",
-      "revision": "7bccd8239945793636c44909fba8c71ff04cd9a6"
+      "revision": "239ce6dafdf36d35215037f7d98f21189a6694db"
     },
     "gdk-pixbuf2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdk-pixbuf2.git",
