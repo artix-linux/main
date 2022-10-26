@@ -10,6 +10,7 @@ arch=(x86_64)
 license=(LGPL)
 depends=(
   duktape
+  elogind
   expat
   glib2
   pam
