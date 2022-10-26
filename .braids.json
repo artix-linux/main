@@ -9254,7 +9254,7 @@
     "webkit2gtk-5.0": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webkit2gtk-5.0.git",
       "branch": "master",
-      "revision": "db3a6afb82b7d5b7973f5e13e2b236761a5d3e49"
+      "revision": "86dac10c40a1f5221fda52c5c64b1498230e7840"
     },
     "webrtc-audio-processing": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webrtc-audio-processing.git",
