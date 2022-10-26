@@ -20,7 +20,7 @@ prepare() {
 build() {
   cp -a unrar libunrar
   export LDFLAGS+=' -pthread'
-  make -C libunrar lib
+  make -C libunrar lib -j1
   make -C unrar -j1
 }
 
