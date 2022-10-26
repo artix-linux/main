@@ -4099,7 +4099,7 @@
     "libmbim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
       "branch": "master",
-      "revision": "82f5fd810d913742bd8ee69936fa2d5a5db2c550"
+      "revision": "09fcb65488d10476640deba059499367dd100f6e"
     },
     "libmd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmd.git",
