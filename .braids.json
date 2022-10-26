@@ -1684,7 +1684,7 @@
     "expat": {
       "url": "gitea@gitea.artixlinux.org:packagesE/expat.git",
       "branch": "master",
-      "revision": "6b05d854ef2c9f75b13bb9391e0bd2552f5aad1d"
+      "revision": "f42cb5df430364f7c8abae61c0d69e979526a67b"
     },
     "expect": {
       "url": "gitea@gitea.artixlinux.org:packagesE/expect.git",
