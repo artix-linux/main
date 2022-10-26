@@ -4439,7 +4439,7 @@
     "libqmi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libqmi.git",
       "branch": "master",
-      "revision": "7d08a678aa4790c4993abb8f951f9e2e76a981bc"
+      "revision": "e4546d9cf1f9d732351ae3cf381d017f99467fc2"
     },
     "libqrtr-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libqrtr-glib.git",
