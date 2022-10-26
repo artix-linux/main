@@ -4299,7 +4299,7 @@
     "liboauth": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liboauth.git",
       "branch": "master",
-      "revision": "befb5aa5d2924f563565dc5d46b0947b9223cb9c"
+      "revision": "1f9990de362dc9cb86cb5b7fc5773c369d788fb2"
     },
     "libodfgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libodfgen.git",
