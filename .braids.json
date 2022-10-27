@@ -7854,7 +7854,7 @@
     "salt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt.git",
       "branch": "master",
-      "revision": "20ced39bbcdd84c9d1c9183ab0efb7f1c60e556f"
+      "revision": "0e17969608264cad117d3375da67cc2781b64d28"
     },
     "samba": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba.git",
