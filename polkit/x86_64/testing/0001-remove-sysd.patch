@@ -1,0 +1,62 @@
+From 3cd3b5e477811e8b604113d42cffa8ce6a29fec1 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Wed, 26 Oct 2022 20:53:44 -0500
+Subject: [PATCH] remove sysd
+
+---
+ data/meson.build | 10 ----------
+ meson.build      | 10 ----------
+ 2 files changed, 20 deletions(-)
+
+diff --git a/data/meson.build b/data/meson.build
+index 5889495..bbbc1f9 100644
+--- a/data/meson.build
++++ b/data/meson.build
+@@ -26,16 +26,6 @@ if enable_pam
+   )
+ endif
+ 
+-if enable_logind
+-  configure_file(
+-    input: 'polkit.service.in',
+-    output: '@BASENAME@',
+-    configuration: service_conf,
+-    install: true,
+-    install_dir: systemd_systemdsystemunitdir,
+-  )
+-endif
+-
+ install_data(
+   'policyconfig-1.dtd',
+   install_dir: pk_datadir / 'polkit-1'
+diff --git a/meson.build b/meson.build
+index 1da0e08..79be2cc 100644
+--- a/meson.build
++++ b/meson.build
+@@ -202,13 +202,6 @@ if enable_logind
+   func = 'sd_uid_get_display'
+   config_h.set10('HAVE_' + func.to_upper(), cc.has_function(func, dependencies: logind_dep))
+ 
+-  # systemd unit / service files
+-  systemd_systemdsystemunitdir = get_option('systemdsystemunitdir')
+-  if systemd_systemdsystemunitdir == ''
+-    systemd_dep = dependency('systemd', not_found_message: 'systemd required but not found, please provide a valid systemd user unit dir or disable it')
+-    # FIXME: systemd.pc file does not use variables with relative paths, so `define_variable` cannot be used
+-    systemd_systemdsystemunitdir = systemd_dep.get_pkgconfig_variable('systemdsystemunitdir')
+-  endif
+ endif
+ config_h.set('HAVE_LIBSYSTEMD', enable_logind)
+ 
+@@ -386,9 +379,6 @@ output += '        introspection:            ' + enable_introspection.to_string(
+ output += '        Distribution/OS:          ' + os_type + '\n'
+ output += '        Authentication framework: ' + auth_fw + '\n'
+ output += '        Session tracking:         ' + session_tracking + '\n'
+-if enable_logind
+-  output += '        systemdsystemunitdir:     ' + systemd_systemdsystemunitdir + '\n'
+-endif
+ output += '        polkitd user:             ' + polkitd_user + ' \n'
+ output += '        Javascript engine:        ' + js_engine + '\n'
+ output += '        PAM support:              ' + enable_pam.to_string() + '\n\n'
+-- 
+2.38.1
+
