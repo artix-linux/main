@@ -5599,7 +5599,7 @@
     "mediastreamer": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mediastreamer.git",
       "branch": "master",
-      "revision": "c30250d83c0211acc630438da26b885b6abfe6f1"
+      "revision": "57f71d38ea524bf05da4150009f1c5c84d3e1969"
     },
     "memcached": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memcached.git",
