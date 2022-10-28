@@ -6244,7 +6244,7 @@
     "ocaml-findlib": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-findlib.git",
       "branch": "master",
-      "revision": "e64bdcbb611f2d88290dda7acbf765c797b0fdbb"
+      "revision": "0170639d629a7af7db280361a55bbcc0bf731e3b"
     },
     "ocaml-integers": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-integers.git",
