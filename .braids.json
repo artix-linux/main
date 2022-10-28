@@ -5709,7 +5709,7 @@
     "mkinitcpio": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio.git",
       "branch": "master",
-      "revision": "6b72fe765e16dadbb7485fd6136b81de238e763b"
+      "revision": "0a0906961e2e939acd79d5560e7dcf3c2e255129"
     },
     "mkinitcpio-busybox": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio-busybox.git",
