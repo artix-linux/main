@@ -7249,7 +7249,7 @@
     "qt5-script": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-script.git",
       "branch": "master",
-      "revision": "84944eee5adb895dce4e64570bc48c9c68dbc630"
+      "revision": "d640df18cf6dcf16136f61c3201ddeae20a19354"
     },
     "qt5-scxml": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-scxml.git",
