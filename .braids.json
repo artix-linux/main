@@ -9764,7 +9764,7 @@
     "xorg-xsetroot": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xsetroot.git",
       "branch": "master",
-      "revision": "32cc79b4550c0523d2c56ec1698910bca44b2b03"
+      "revision": "2829158adc4bc1c89b9e828f0a63cfa9f7d6565a"
     },
     "xorg-xwayland": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwayland.git",
