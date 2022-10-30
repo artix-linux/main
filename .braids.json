@@ -9654,7 +9654,7 @@
     "xorg-sessreg": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-sessreg.git",
       "branch": "master",
-      "revision": "aa52680fc01b3ceaae5955b1aa2308346a2a7113"
+      "revision": "47c0cb54e1ed6875e9c2b26225262f4f86e73608"
     },
     "xorg-setxkbmap": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-setxkbmap.git",
