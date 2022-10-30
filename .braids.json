@@ -3129,7 +3129,7 @@
     "jrnl": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jrnl.git",
       "branch": "master",
-      "revision": "0844265b96f53798657e25f2f2789afcb31bdd97"
+      "revision": "914dc1e763af7afda136928dba6fc9d4536dbe83"
     },
     "jruby": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jruby.git",
