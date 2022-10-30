@@ -4989,7 +4989,7 @@
     "libxext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxext.git",
       "branch": "master",
-      "revision": "b3b0367772078aa562c2a4a44a955986f6aab53f"
+      "revision": "5295a90e7f7260dd5f59f094c862f20191edafc7"
     },
     "libxfixes": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxfixes.git",
