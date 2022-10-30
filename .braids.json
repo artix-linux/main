@@ -3519,7 +3519,7 @@
     "libcamera": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcamera.git",
       "branch": "master",
-      "revision": "e36994f0c50df35b43342d6c87cd82d4fda3fbe6"
+      "revision": "c19b76311237d669d9105beae6048c1f2def8a3c"
     },
     "libcanberra": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcanberra.git",
