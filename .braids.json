@@ -6219,7 +6219,7 @@
     "nvme-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvme-cli.git",
       "branch": "master",
-      "revision": "bbcf678d01ca122b4bf670690ec8a37a1b386540"
+      "revision": "dfed38e20fee2ea281009f64ea3be2bcba98c37e"
     },
     "oath-toolkit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/oath-toolkit.git",
