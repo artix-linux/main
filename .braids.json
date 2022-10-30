@@ -5184,7 +5184,7 @@
     "linux": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux.git",
       "branch": "master",
-      "revision": "c1faa77d10320832f27e1f66b14b0c9ead952d1f"
+      "revision": "18bc46160f82c163eee1f2ddb4fbe1a9b6b592e1"
     },
     "linux-api-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-api-headers.git",
