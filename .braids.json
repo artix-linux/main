@@ -7309,7 +7309,7 @@
     "qt5-webchannel": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webchannel.git",
       "branch": "master",
-      "revision": "80cbefabefd4ec857ac92b3a6b25c9c60ec72b17"
+      "revision": "06aefa6942068319c7abe18655ed278072252c7c"
     },
     "qt5-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webengine.git",
