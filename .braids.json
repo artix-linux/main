@@ -5014,7 +5014,7 @@
     "libxinerama": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxinerama.git",
       "branch": "master",
-      "revision": "892c4680151bc2b2454664327ace3b24598b4809"
+      "revision": "c161b768379078f8e45c54c07bc2f50bb114c22d"
     },
     "libxkbcommon": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxkbcommon.git",
