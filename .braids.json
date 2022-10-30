@@ -9584,7 +9584,7 @@
     "xmlsec": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlsec.git",
       "branch": "master",
-      "revision": "d6121eac6c8c7a9af4e89a834fc4d009ba6b1b79"
+      "revision": "17b2b621e7ebff8f15bd7df58c9004a583a9f94e"
     },
     "xmlstarlet": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlstarlet.git",
