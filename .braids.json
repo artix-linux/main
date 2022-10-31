@@ -7269,7 +7269,7 @@
     "qt5-serialport": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-serialport.git",
       "branch": "master",
-      "revision": "c2a092217f20434d4d7af9ae2d2270995d57511c"
+      "revision": "fffb632e272db46a091aaa7adb7c842a723d637b"
     },
     "qt5-speech": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-speech.git",
