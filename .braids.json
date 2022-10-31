@@ -5869,7 +5869,7 @@
     "mujs": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mujs.git",
       "branch": "master",
-      "revision": "0708a7592d45b4396c4acacbb37ec05e1f9bea92"
+      "revision": "58c834dbf70c4f0b787802ea76516b13c3239314"
     },
     "multipath-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/multipath-tools.git",
