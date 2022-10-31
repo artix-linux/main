@@ -8734,7 +8734,7 @@
     "trizen": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trizen.git",
       "branch": "master",
-      "revision": "8c59f67f79342e98e1307582f465eb90055823d4"
+      "revision": "eceeb95dc749e50665fa88a61a4b66617ba1f76f"
     },
     "trojan": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan.git",
