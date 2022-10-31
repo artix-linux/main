@@ -7184,7 +7184,7 @@
     "qt5-gamepad": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-gamepad.git",
       "branch": "master",
-      "revision": "a41128f59737fddabc6b32fd7d3538fd4b7906a6"
+      "revision": "5a77ffea9e65057c846a85cb20e346f1a222198f"
     },
     "qt5-graphicaleffects": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-graphicaleffects.git",
