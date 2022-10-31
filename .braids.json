@@ -264,7 +264,7 @@
     "asciidoctor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asciidoctor.git",
       "branch": "master",
-      "revision": "f96b36f6ac565e0f62e708129c98a0c84de15f4e"
+      "revision": "69de323e5d203fd179b8126188a445f4fdf0f02d"
     },
     "asio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asio.git",
