@@ -7279,7 +7279,7 @@
     "qt5-styleplugins": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-styleplugins.git",
       "branch": "master",
-      "revision": "38ae88a71cc91d64a9c30ef19566b62f523d4628"
+      "revision": "075dac15287f927e5e9fca59a365c7336a768816"
     },
     "qt5-svg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-svg.git",
