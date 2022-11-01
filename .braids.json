@@ -4489,7 +4489,7 @@
     "libressl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libressl.git",
       "branch": "master",
-      "revision": "55dc5043ab10b6a149a6a5327c3c4144282aef7e"
+      "revision": "dc474320aea70dca89adcaf24fe421fb8043a4e9"
     },
     "libretls": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libretls.git",
