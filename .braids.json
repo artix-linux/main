@@ -3724,7 +3724,7 @@
     "libevent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevent.git",
       "branch": "master",
-      "revision": "2820c50d6aadbb68ba9f8809233590c4ba11335b"
+      "revision": "b86d422d8b7ca7e2ad8856a6882e888211b7e6b2"
     },
     "libewf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libewf.git",
