@@ -8949,7 +8949,7 @@
     "upx": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upx.git",
       "branch": "master",
-      "revision": "95d103a2b0a194f2eb51cb60d77b81e00b89310b"
+      "revision": "d3cb1e86a2f89cfe6721c8c5201568dd2896621e"
     },
     "uriparser": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uriparser.git",
