@@ -6434,7 +6434,7 @@
     "opensmtpd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd.git",
       "branch": "master",
-      "revision": "fe1f24fa380bfa9a7d7d0b70d08d29e45788c7ca"
+      "revision": "7db23f8e0f632d28feac4ebaf8b1ed4ada934aa0"
     },
     "opensp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensp.git",
