@@ -1229,7 +1229,7 @@
     "debugedit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/debugedit.git",
       "branch": "master",
-      "revision": "3756ff3d32ce4f7faad042ccfcdcad18f596fe3e"
+      "revision": "2599a5e8f76b138026b488c03d48b06a504fff5f"
     },
     "dejagnu": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dejagnu.git",
