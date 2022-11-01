@@ -4189,7 +4189,7 @@
     "libmspack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspack.git",
       "branch": "master",
-      "revision": "ac6c27392c22e706e45d36c7c95f4da4de300c9a"
+      "revision": "53eacda676716b7fcd937ac99df6f87125443e91"
     },
     "libmspub": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmspub.git",
