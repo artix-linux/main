@@ -6179,7 +6179,7 @@
     "ntfs-3g": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntfs-3g.git",
       "branch": "master",
-      "revision": "50b683238f2e2dc11bfb07b0f4f428c4ec876104"
+      "revision": "fcde4d97111c6314e6fc2f373cda41f3d45d1bc2"
     },
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
