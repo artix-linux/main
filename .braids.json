@@ -3409,7 +3409,7 @@
     "libarchive": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libarchive.git",
       "branch": "master",
-      "revision": "2c8462ac4dbd99ade136ee64e63a32ca525b182e"
+      "revision": "74f45f5049f225167fc1568fc3492c6805a1de6f"
     },
     "libass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libass.git",
