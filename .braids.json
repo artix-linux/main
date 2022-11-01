@@ -8704,7 +8704,7 @@
     "tpm2-tss": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tss.git",
       "branch": "master",
-      "revision": "cba4c99528fce566edffb84bf4e399b108ae2428"
+      "revision": "17e2e41d184cb9bce92085cf6435ca89e0622142"
     },
     "traceroute": {
       "url": "gitea@gitea.artixlinux.org:packagesT/traceroute.git",
