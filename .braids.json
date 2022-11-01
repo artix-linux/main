@@ -8609,7 +8609,7 @@
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
       "branch": "master",
-      "revision": "da3ac97e38050ec5d73c50f8c108c49290a3a340"
+      "revision": "6adc797a31adc85e33887ed7c3be34285f200570"
     },
     "tidy": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tidy.git",
