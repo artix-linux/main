@@ -1,26 +1,38 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 pkgname=polkit
-pkgver=121
+pkgver=122
 pkgrel=1
 pkgdesc="Application development toolkit for controlling system-wide privileges"
 url="https://gitlab.freedesktop.org/polkit/polkit"
 arch=(x86_64)
 license=(LGPL)
-depends=(glib2 pam expat elogind js78 duktape)
-makedepends=(meson gtk-doc gobject-introspection git)
+depends=(
+  duktape
+  elogind
+  expat
+  glib2
+  pam
+)
+makedepends=(
+  meson
+  gtk-doc
+  gobject-introspection
+  git
+)
 checkdepends=(python-dbusmock)
 provides=(libpolkit-{agent,gobject}-1.so)
 backup=(etc/pam.d/polkit-1)
 options=(debug)
-_commit=827b0ddac5b1ef00a47fca4526fcf057bee5f1db  # tags/121
-source=("git+https://gitlab.freedesktop.org/polkit/polkit.git#commit=$_commit"
-        '99-artix.rules'
-        meson-0.61.diff)
+_commit=da87c5698019897dd731bb2cbb54ebd9c9481f52  # tags/122
+source=(
+  "git+https://gitlab.freedesktop.org/polkit/polkit.git#commit=$_commit"
+  '99-artix.rules'
+  '0001-remove-sysd.patch')
 b2sums=('SKIP'
         'd320d928b5480b5b8143717e6f88101912709020efc9583fbb233a2cc11aff51d36226b94cf69104db06f330e04d4dcfd6e4c7b027df75a3c72c43adec625fb2'
-        '29cef1cf9265ec0b70bf5a46655ee51b9855ce64e47636809b9704ca80edaf5777060d7469eea15a4126791d9290d44901726b6496acf83e41f46a96fe137ead')
+        'aadd7eb9dee584c7c0721e472b1ea52e6f7dcd1fffaea34bcc93baebccfa7c693db2478a83f0281005ead721523ace92222f06697faf98f13c50b09ca2d88848')
 
 pkgver() {
   cd polkit
@@ -29,6 +41,7 @@ pkgver() {
 
 prepare() {
   cd polkit
+  patch -Np1 -i ../0001-remove-sysd.patch
 }
 
 build() {
@@ -39,7 +52,6 @@ build() {
     -D os_type=redhat
     -D session_tracking=libelogind
     -D tests=true
-    -D systemdsystemunitdir=foo
   )
 
   artix-meson polkit build "${meson_options[@]}"
@@ -53,18 +65,15 @@ check() {
 package() {
   meson install -C build --destdir "$pkgdir"
 
-  install -d -o root -g 102 -m 750 "$pkgdir"/{etc,usr/share}/polkit-1/rules.d
-  mv "$pkgdir"/{etc,usr/share}/polkit-1/rules.d/50-default.rules
-
-  install -Dm644 /dev/stdin "$pkgdir/usr/lib/sysusers.d/$pkgname.conf" <<END
+  install -Dm644 "${srcdir}"/polkit/src/polkitbackend/50-default.rules \
+        "${pkgdir}"/etc/polkit-1/rules.d
+  
+  install -Dm0644 /dev/stdin "$pkgdir/usr/lib/sysusers.d/$pkgname.conf" <<END
 u polkitd 102 "PolicyKit daemon"
 m polkitd proc
 END
 
   install -m0644 "${srcdir}"/99-artix.rules "${pkgdir}"/etc/polkit-1/rules.d
-
-  # workaround the unit enforcement, atm can't be disabled, needs patching
-  rm -rf "${pkgdir}"/usr/foo
 }
 
 # vim:set sw=2 et:
