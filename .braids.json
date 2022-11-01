@@ -9869,7 +9869,7 @@
     "yelp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-tools.git",
       "branch": "master",
-      "revision": "210ecf24d90b2180500d7a47196fc39de44997c5"
+      "revision": "45304e27cc91b00f9e8d155fba7e32ba2d4a4758"
     },
     "yelp-xsl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-xsl.git",
