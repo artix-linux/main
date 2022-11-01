@@ -6454,7 +6454,7 @@
     "openssl": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssl.git",
       "branch": "master",
-      "revision": "fa4aa6f67f92557226e354c061fd1ba964636c07"
+      "revision": "730335f796b4e2f87e202865920f4ec572a8599f"
     },
     "openssl-1.0": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssl-1.0.git",
