@@ -1279,7 +1279,7 @@
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
-      "revision": "b412060df6f81f50f534578c1d9acd1b3e5a0338"
+      "revision": "b26cfac452007b9137e53783e25bace9d81b9aa8"
     },
     "diffutils": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffutils.git",
