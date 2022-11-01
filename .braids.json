@@ -3269,7 +3269,7 @@
     "kmod": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kmod.git",
       "branch": "master",
-      "revision": "648ac539498bf59ea7123e7a5b6122689ba19bb2"
+      "revision": "52d2a31d4747b1161fceafb9d7685db5a34a31ba"
     },
     "knot": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
