@@ -6509,7 +6509,7 @@
     "orc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/orc.git",
       "branch": "master",
-      "revision": "87720a4cc573e57e47ef56177caada6c083c97f6"
+      "revision": "03f8622f61694f88b0c651274596c49bb8993292"
     },
     "ortp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ortp.git",
