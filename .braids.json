@@ -4889,7 +4889,7 @@
     "libwhich": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhich.git",
       "branch": "master",
-      "revision": "b5f37291ade0c26c7e5330ccc06e71de9dbc8c73"
+      "revision": "9098026f364f0c3b48ae2719701fa6bf147168b0"
     },
     "libwmf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwmf.git",
