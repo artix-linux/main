@@ -24,10 +24,9 @@ makedepends=(git go)
 replaces=(go-pie)
 provides=(go-pie)
 options=(!strip staticlibs)
-source=(https://go.dev/dl/go${pkgver}.src.tar.gz{,.asc})
+source=(https://go.dev/dl/go${pkgver}.src.tar.gz)
 validpgpkeys=('EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796')
-sha256sums=('18ac263e39210bcf68d85f4370e97fb1734166995a1f63fb38b4f6e07d90d212'
-            'SKIP')
+sha256sums=('18ac263e39210bcf68d85f4370e97fb1734166995a1f63fb38b4f6e07d90d212')
 
 build() {
   export GOARCH=amd64
