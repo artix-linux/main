@@ -1514,7 +1514,7 @@
     "ecryptfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ecryptfs-utils.git",
       "branch": "master",
-      "revision": "8aa3ff8bdc2d1562165a1a1ea7e5fc5192ec085e"
+      "revision": "892da0a67eb9339ea512e0b64361c1645a186161"
     },
     "ed": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ed.git",
