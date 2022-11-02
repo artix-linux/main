@@ -4484,7 +4484,7 @@
     "librdkafka": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librdkafka.git",
       "branch": "master",
-      "revision": "b837de2be34b84d462a0bc88f5c91fee1bfe4181"
+      "revision": "ca564267ee27a65f517368077d25c89f412222a5"
     },
     "libreplaygain": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libreplaygain.git",
