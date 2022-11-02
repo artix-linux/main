@@ -149,7 +149,7 @@
     "apache": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache.git",
       "branch": "master",
-      "revision": "460d12f32a0d7672e340b6e1f62c3ff5da02b432"
+      "revision": "a2f5717f881ed8e4946bde2f0d30b4446dfb85f3"
     },
     "apache-orc": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-orc.git",
