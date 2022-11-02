@@ -2804,7 +2804,7 @@
     "ibm-sw-tpm2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ibm-sw-tpm2.git",
       "branch": "master",
-      "revision": "1ea2ee845f5029eadf93ab77ee5034b222a0bbaa"
+      "revision": "f10c1898db75022abacc3cdd70f40709e1b4d870"
     },
     "ibus": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ibus.git",
