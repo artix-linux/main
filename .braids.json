@@ -4464,7 +4464,7 @@
     "librabbitmq-c": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librabbitmq-c.git",
       "branch": "master",
-      "revision": "8a0b15cd90fe63d9fce93d343fcabb7a025529fd"
+      "revision": "c83b2a59de2439f477cd31a08af0e79d7daa1895"
     },
     "libraqm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraqm.git",
