@@ -5784,7 +5784,7 @@
     "mongo-c-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mongo-c-driver.git",
       "branch": "master",
-      "revision": "8ed8afc79301bf4c026a211db58a59cbc2f97a64"
+      "revision": "62ec8a759449b35b369d6c6759ee5e8d6b7a4eea"
     },
     "mono": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mono.git",
