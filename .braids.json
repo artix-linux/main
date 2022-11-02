@@ -8699,7 +8699,7 @@
     "tpm2-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tools.git",
       "branch": "master",
-      "revision": "b109024f3ac5256c90c72626892c264498c5c3ff"
+      "revision": "0ea741ec2f1a5d63f55520f827c4ba69a2724cd6"
     },
     "tpm2-tss": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tss.git",
