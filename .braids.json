@@ -9249,7 +9249,7 @@
     "webfs": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs.git",
       "branch": "master",
-      "revision": "d11e052ff790b4cedf8ea88a73b5f32a81ca5792"
+      "revision": "41e2d114a2744c0fc26c1e61b5c8cf8955442680"
     },
     "webhook": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook.git",
