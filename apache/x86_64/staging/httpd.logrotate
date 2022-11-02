@@ -1,0 +1,7 @@
+/var/log/httpd/*log {
+   missingok
+   sharedscripts
+   postrotate
+      kill -HUP $(pidof httpd) || true
+   endscript
+}
