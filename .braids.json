@@ -7834,7 +7834,7 @@
     "rust": {
       "url": "gitea@gitea.artixlinux.org:/packagesR/rust.git",
       "branch": "master",
-      "revision": "94e7fee69bc39706f23fb2dfb86cb70e06e0fbcf"
+      "revision": "d854ba3713f6b043f1e0b7e931e9d33e8b2ef633"
     },
     "rust-bindgen": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rust-bindgen.git",
