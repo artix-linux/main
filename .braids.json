@@ -2709,7 +2709,7 @@
     "hostapd": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd.git",
       "branch": "master",
-      "revision": "599bcfaca767cf3289297083a477164e540d7bd4"
+      "revision": "7d55cd29d24c03575ac451d1f10db540a7f5b098"
     },
     "hotdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hotdoc.git",
