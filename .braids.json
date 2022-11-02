@@ -6104,7 +6104,7 @@
     "nodejs-lts-fermium": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-lts-fermium.git",
       "branch": "master",
-      "revision": "cd8068d7a0ccbdb7a87bf13150e181451f5da4ad"
+      "revision": "28b86b7b5152005fa031faf16ca3f51dfbade7e9"
     },
     "nodejs-lts-gallium": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-lts-gallium.git",
