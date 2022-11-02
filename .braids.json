@@ -3709,7 +3709,7 @@
     "libesmtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libesmtp.git",
       "branch": "master",
-      "revision": "7f4f5e97b188e266d162877fbeb75c590a03e732"
+      "revision": "9d2d072fcd1e0663c7376b23fb421f832ba54722"
     },
     "libetonyek": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libetonyek.git",
