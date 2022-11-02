@@ -3749,7 +3749,7 @@
     "libfabric": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfabric.git",
       "branch": "master",
-      "revision": "020ae4125aa442cac69e3eda524d11e87a22dc5f"
+      "revision": "f36e75a5a02646c8a1356f2980d66bce720d15ed"
     },
     "libfakekey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libfakekey.git",
