@@ -4,7 +4,7 @@
 pkgbase=openldap
 pkgname=('openldap' 'libldap')
 pkgver=2.6.3
-pkgrel=1.5
+pkgrel=2
 arch=('x86_64')
 url="https://www.openldap.org/"
 license=('custom')
@@ -78,11 +78,11 @@ build() {
   done
 }
 
-# reenable after openssl3 only chroot
-# check() {
-#   cd ${pkgbase}-${pkgver}
-#   make test || :
-# }
+check() {
+  cd ${pkgbase}-${pkgver}
+  # test076-authid-rewrite fails with openssl3
+  make test || :
+}
 
 package_libldap() {
   pkgdesc="Lightweight Directory Access Protocol (LDAP) client libraries"
