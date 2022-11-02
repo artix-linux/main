@@ -2994,7 +2994,7 @@
     "isync": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isync.git",
       "branch": "master",
-      "revision": "3282895cc192b970a8f44f01e628d6cca8e4deeb"
+      "revision": "f6c5a023eef43ec7869e4a65afe25c4d695444ea"
     },
     "itstool": {
       "url": "gitea@gitea.artixlinux.org:packagesI/itstool.git",
