@@ -1,6 +1,6 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 ##
-##
+## update latest
 
 pkgname=openssl-1.1
 _pkgname=openssl
