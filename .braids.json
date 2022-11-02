@@ -5184,7 +5184,7 @@
     "links": {
       "url": "gitea@gitea.artixlinux.org:packagesL/links.git",
       "branch": "master",
-      "revision": "102e08ef1bce9cc7e8ef98cd701643feea6f68db"
+      "revision": "5599e5bae1d2f5dda77a21803c1ada6bbc104f6b"
     },
     "linux": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux.git",
