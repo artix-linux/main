@@ -4364,7 +4364,7 @@
     "libp11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libp11.git",
       "branch": "master",
-      "revision": "fc23d4cee29da90ab04b69ac43a5f56e863bffb1"
+      "revision": "e5292a522993dc00b5740ef2c263869ccd9b8838"
     },
     "libpagemaker": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpagemaker.git",
