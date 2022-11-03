@@ -1974,7 +1974,7 @@
     "fractal": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fractal.git",
       "branch": "master",
-      "revision": "4acb2f134c9bcfd80fa26b4289d338c7daf81465"
+      "revision": "9020be6a73e1b7ec5f3e08804faa1379db2f3147"
     },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
