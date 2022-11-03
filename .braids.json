@@ -6759,7 +6759,7 @@
     "pkcs11-helper": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pkcs11-helper.git",
       "branch": "master",
-      "revision": "2bdf1dc0f75d9372104cf69cee55e0433711207a"
+      "revision": "25724e74970fd072bcaa4549738778a3371bc69a"
     },
     "pkgconf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pkgconf.git",
