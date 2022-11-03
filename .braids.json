@@ -6719,7 +6719,7 @@
     "php7": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php7.git",
       "branch": "master",
-      "revision": "0c048927187925d0d8e6df19b9067c0e3b0af9ca"
+      "revision": "997749817cd076a73377b01a1eb7e5046ff77a3b"
     },
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
