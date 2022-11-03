@@ -38,7 +38,7 @@ build() {
     --sysconfdir=/etc/powerdns \
     --disable-silent-rules \
     --enable-reproducible \
-    --enable-systemd \
+    --disable-systemd \
     --disable-dns-over-tls \
     --with-libsodium \
     --with-lua=luajit \
