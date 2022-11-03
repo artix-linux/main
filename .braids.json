@@ -5219,7 +5219,7 @@
     "linux-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-tools.git",
       "branch": "master",
-      "revision": "6337c297ec4a1b79eba9373e27a91128aa85c1cd"
+      "revision": "f8b7c75b8fb15262ac4586cb5cd7bb5d0333b1f4"
     },
     "linux-zen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-zen.git",
