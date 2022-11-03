@@ -6934,7 +6934,7 @@
     "prosody": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prosody.git",
       "branch": "master",
-      "revision": "5f690891167b73bb3cca197c8b5fcdcbd295d022"
+      "revision": "a9406ae1eaab3a18e8f4d7808d3cf99f43a29dcc"
     },
     "protobuf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/protobuf.git",
