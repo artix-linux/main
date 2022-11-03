@@ -1144,7 +1144,7 @@
     "cyrus-sasl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl.git",
       "branch": "master",
-      "revision": "e3c854fdf5215ecead20c15e2197974b984c8e31"
+      "revision": "49548071f5a15de5e2850f788d72721f2df84322"
     },
     "cython": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cython.git",
