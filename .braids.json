@@ -6319,7 +6319,7 @@
     "open-isns": {
       "url": "gitea@gitea.artixlinux.org:packagesO/open-isns.git",
       "branch": "master",
-      "revision": "607f35e2bc54430764ad5534d68d9c5f43184ec2"
+      "revision": "037ab5d5a42c479a297fd263831aac2380c3dd14"
     },
     "openal": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
