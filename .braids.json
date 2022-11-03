@@ -6064,7 +6064,7 @@
     "ngircd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd.git",
       "branch": "master",
-      "revision": "5c855ae582d5bbc15b95779c06426c60ceaa9100"
+      "revision": "b7cf844962b7261ea17194086e18779e8df35cd1"
     },
     "nilfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nilfs-utils.git",
