@@ -1674,7 +1674,7 @@
     "exim": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim.git",
       "branch": "master",
-      "revision": "9e9cfb648ce182e45a2bcd00c43a7b7e4e019113"
+      "revision": "20cb42d73d215a88c3159a4285a1230d251ad333"
     },
     "exiv2": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exiv2.git",
