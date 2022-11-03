@@ -8059,7 +8059,7 @@
     "shairport-sync": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync.git",
       "branch": "master",
-      "revision": "d49f9b962516849e65b37d088326c445965ccc7c"
+      "revision": "ba27ced244e7050f818b14e69a357e39a20a9212"
     },
     "shared-mime-info": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shared-mime-info.git",
