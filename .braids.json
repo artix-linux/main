@@ -6839,7 +6839,7 @@
     "postfix": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix.git",
       "branch": "master",
-      "revision": "32879ec86f1f6ed059ad5d383de346ad9a1aa271"
+      "revision": "5d0eaab316470e959cf98ee10c3edc1413918eb2"
     },
     "postgresql": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql.git",
