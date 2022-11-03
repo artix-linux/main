@@ -5739,7 +5739,7 @@
     "mktorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mktorrent.git",
       "branch": "master",
-      "revision": "8bf2c13b2fdf731c2ca1c4319242a3e73e6f2491"
+      "revision": "00b7e267cc54a9caa6cfa41c80939bcc183c6037"
     },
     "mlocate": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlocate.git",
