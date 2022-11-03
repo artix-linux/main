@@ -4884,7 +4884,7 @@
     "libwebsockets": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwebsockets.git",
       "branch": "master",
-      "revision": "359c7bb480b85edd5788824b6cb5760ca779ea3d"
+      "revision": "fbd508dd179d6832bc34065a5c9345e5ee8ba0e5"
     },
     "libwhereami": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwhereami.git",
