@@ -3484,7 +3484,7 @@
     "libbobcat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbobcat.git",
       "branch": "master",
-      "revision": "a3465d74dffeec27b41807005d1f778f86d5dbea"
+      "revision": "ed805ee42d22f9d9b5e3ad264e5aa9cd3a0e3f38"
     },
     "libbpf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbpf.git",
