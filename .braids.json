@@ -9164,7 +9164,7 @@
     "vsftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd.git",
       "branch": "master",
-      "revision": "cd6d621b559bf857d8041bf20fa56b40da9e3214"
+      "revision": "0079c97275bc01a25e84b4a2265912891f36d742"
     },
     "vst3sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vst3sdk.git",
