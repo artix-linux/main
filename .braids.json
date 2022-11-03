@@ -8399,7 +8399,7 @@
     "swtpm": {
       "url": "gitea@gitea.artixlinux.org:packagesS/swtpm.git",
       "branch": "master",
-      "revision": "14c2e0a5b99aac8b5bf6acefce369f43dff77317"
+      "revision": "0fc9723dbb0c15dfeaa32079089311be848495f2"
     },
     "syncthing": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing.git",
