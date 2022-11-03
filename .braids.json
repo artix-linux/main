@@ -6189,7 +6189,7 @@
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
-      "revision": "b3cd4eddec266c6e005cd75e2947185a19d757ef"
+      "revision": "1616550152bc9703ba5c0a26d42451cbdbf903b9"
     },
     "numactl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/numactl.git",
