@@ -404,7 +404,7 @@
     "aws-c-cal": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-cal.git",
       "branch": "master",
-      "revision": "c277df100721416ee170700561b9b6c86a26e8ff"
+      "revision": "a691b8d558e18ffc051b446387b27b2b613b6985"
     },
     "aws-c-common": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-common.git",
