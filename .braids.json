@@ -6314,7 +6314,7 @@
     "open-iscsi": {
       "url": "gitea@gitea.artixlinux.org:packagesO/open-iscsi.git",
       "branch": "master",
-      "revision": "9ab8683f1ba382b4650d8f6d4cd73040615fd788"
+      "revision": "7daab600f958baa3938d35c3696dd0e072f53e36"
     },
     "open-isns": {
       "url": "gitea@gitea.artixlinux.org:packagesO/open-isns.git",
