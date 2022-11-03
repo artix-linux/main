@@ -6449,7 +6449,7 @@
     "openssh": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssh.git",
       "branch": "master",
-      "revision": "eea819c6e193b39a3a7223ab5bd48e0db4ffb7fd"
+      "revision": "8899ec756853b42bc8c3cfc5878fae4934f0cff4"
     },
     "openssl": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssl.git",
