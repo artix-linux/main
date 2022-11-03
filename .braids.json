@@ -1994,7 +1994,7 @@
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
       "branch": "master",
-      "revision": "aeeb2110b108863dae2c5a7c23efb99025c982ca"
+      "revision": "537d2604f559d0a4c175d36b5c7a21a222c73f97"
     },
     "freetype2": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetype2.git",
