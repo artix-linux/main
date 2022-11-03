@@ -1559,7 +1559,7 @@
     "electrum": {
       "url": "gitea@gitea.artixlinux.org:packagesE/electrum.git",
       "branch": "master",
-      "revision": "abc277585c430af8e55096a8902ad6fe7ed05b20"
+      "revision": "681fd77e85a93ac7e3a7ba4beed6137b86900107"
     },
     "elfutils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elfutils.git",
