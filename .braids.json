@@ -6159,7 +6159,7 @@
     "nsd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd.git",
       "branch": "master",
-      "revision": "ff8f44573b637a436eb5962e5ffcf4131c887ffc"
+      "revision": "7a05ecd76bc3bd6d73425da5625022afe263d1ea"
     },
     "nspr": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nspr.git",
