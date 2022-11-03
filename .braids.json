@@ -2264,7 +2264,7 @@
     "glusterfs": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glusterfs.git",
       "branch": "master",
-      "revision": "a030976e109b9173a97e2bf746a3a0f7590ef7e7"
+      "revision": "f2747bb45c012ffa1f1d05a1f83df510e40c68de"
     },
     "gmic": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gmic.git",
