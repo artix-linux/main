@@ -9004,7 +9004,7 @@
     "uwsgi": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uwsgi.git",
       "branch": "master",
-      "revision": "81964fb509ee05c26f9720ecd9358c020430fbb2"
+      "revision": "0e15ce81cd88f879f68d88621c6770dc5aae7386"
     },
     "v2ray": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray.git",
