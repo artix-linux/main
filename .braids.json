@@ -4524,7 +4524,7 @@
     "libsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsasl.git",
       "branch": "master",
-      "revision": "831ef58a4a5545ce7ebfe88b03b816a000dbece7"
+      "revision": "46255c6082b331d2f98b91af287c5ba633e33e50"
     },
     "libsass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsass.git",
