@@ -6434,7 +6434,7 @@
     "opensips": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips.git",
       "branch": "master",
-      "revision": "4ead3e64ba3f746d5e2ce37cc1530b072f9d4033"
+      "revision": "0bea1d439ba0b6f40d6371a340fb87a1b7b73c38"
     },
     "opensmtpd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd.git",
