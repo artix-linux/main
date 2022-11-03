@@ -6704,7 +6704,7 @@
     "pgbouncer": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pgbouncer.git",
       "branch": "master",
-      "revision": "222a57082a9ea675e905f3dd0a58280d1f30a8ff"
+      "revision": "272916d7894795284e936e20629c507608f7e458"
     },
     "phodav": {
       "url": "gitea@gitea.artixlinux.org:packagesP/phodav.git",
