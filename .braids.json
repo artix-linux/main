@@ -3429,7 +3429,7 @@
     "libasyncns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libasyncns.git",
       "branch": "master",
-      "revision": "9f238936e43a1216e727d76df76ac378021e9ea0"
+      "revision": "987d9592650f706d7159bc78245f776ceab2fa57"
     },
     "libatasmart": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatasmart.git",
