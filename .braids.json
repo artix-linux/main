@@ -199,7 +199,7 @@
     "ardour": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ardour.git",
       "branch": "master",
-      "revision": "666479e1798a16ca7c0602844645fbe23d0fc3e4"
+      "revision": "7ac0a4ff1f8f8f23cd8125d29d6c9832b6c4b100"
     },
     "argon2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/argon2.git",
