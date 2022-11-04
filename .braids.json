@@ -7699,7 +7699,7 @@
     "rhash": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rhash.git",
       "branch": "master",
-      "revision": "a8de6ca8446d865f30cf0de21c9ca4432e197962"
+      "revision": "99170bdf3ea0472a8827953d91a017ae8c980ad0"
     },
     "rhino": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rhino.git",
