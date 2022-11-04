@@ -2564,7 +2564,7 @@
     "gtksourceview4": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtksourceview4.git",
       "branch": "master",
-      "revision": "3749943b5f5cf24e84b84fd5a225dc5d505070db"
+      "revision": "be1e4a5446f1fea5c660cebd809cd08176c84952"
     },
     "gtksourceviewmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtksourceviewmm.git",
