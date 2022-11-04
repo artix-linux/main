@@ -6639,7 +6639,7 @@
     "patchelf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/patchelf.git",
       "branch": "master",
-      "revision": "42cae67deff3253b26f5cd40b8addebbe24d4152"
+      "revision": "258c120883d10ec8ea7cfaf3846e17ce09c2b167"
     },
     "patchutils": {
       "url": "gitea@gitea.artixlinux.org:packagesP/patchutils.git",
