@@ -9804,7 +9804,7 @@
     "xsel": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsel.git",
       "branch": "master",
-      "revision": "a75eee2929e1d5df3eb3744d1d4669b98dfa91a2"
+      "revision": "7fc13b6fff35bde87f200cb88cb07aa535a87fca"
     },
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
