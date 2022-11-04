@@ -1,4 +1,4 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Remi Gacogne <rgacogne[at]archlinux[dot]org>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 # Contributor: Jan de Groot <jgc@archlinux.org>
@@ -7,7 +7,7 @@
 
 pkgname=powerdns
 pkgver=4.7.2
-pkgrel=1
+pkgrel=2
 pkgdesc='Authoritative DNS server'
 url='https://www.powerdns.com/'
 arch=('x86_64')
