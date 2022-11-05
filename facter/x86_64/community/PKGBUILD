@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Tim Meusel <tim@bastelfreak.de>
 # Contributor: Christian Rebischke <chris.rebischke at archlinux.org>
 # Contributor: Jonathan Steel <jsteel at archlinux.org>
@@ -10,7 +10,7 @@
 
 pkgname=facter
 pkgver=3.14.24
-pkgrel=3
+pkgrel=4
 pkgdesc="Collect and display system facts"
 arch=('x86_64')
 url="https://puppetlabs.com/facter"
