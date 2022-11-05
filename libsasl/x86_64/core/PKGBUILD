@@ -1,4 +1,4 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 # NOTE: upgrade libsasl in tandem with extra/cyrus-sasl
@@ -9,7 +9,7 @@
 _name=cyrus-sasl
 pkgname=libsasl
 pkgver=2.1.28
-pkgrel=1
+pkgrel=3
 pkgdesc="Cyrus Simple Authentication Service Layer (SASL) library"
 arch=(x86_64)
 url="https://www.cyrusimap.org/sasl/"
