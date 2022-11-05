@@ -1,4 +1,4 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 # NOTE: upgrade cyrus-sasl in tandem with core/libsasl
@@ -8,7 +8,7 @@
 pkgbase=cyrus-sasl
 pkgname=(cyrus-sasl cyrus-sasl-gssapi cyrus-sasl-ldap cyrus-sasl-sql)
 pkgver=2.1.28
-pkgrel=1
+pkgrel=2
 pkgdesc="Cyrus Simple Authentication Service Layer (SASL) library"
 arch=(x86_64)
 url="https://www.cyrusimap.org/sasl/"
