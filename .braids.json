@@ -6879,7 +6879,7 @@
     "ppp": {
       "url": "gitea@gitea.artixlinux.org:packagesP/ppp.git",
       "branch": "master",
-      "revision": "2f5d0fe470006527e676f4305d88b68f7bdaa8de"
+      "revision": "2e74cdf6b04f5e5eef292c386ed24d418e35fe41"
     },
     "pps-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pps-tools.git",
