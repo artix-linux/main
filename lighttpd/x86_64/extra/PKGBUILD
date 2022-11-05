@@ -1,8 +1,8 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=lighttpd
 pkgver=1.4.67
-pkgrel=1
+pkgrel=2
 pkgdesc='A secure, fast, compliant and very flexible web-server'
 license=('custom')
 arch=('x86_64')
