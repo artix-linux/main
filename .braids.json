@@ -3274,7 +3274,7 @@
     "kmod": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kmod.git",
       "branch": "master",
-      "revision": "df895e62edb47c362138ace55425b21182e3a829"
+      "revision": "e0be4b4f9d6826496ba2b6b62a2fe609e5837a2f"
     },
     "knot": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
