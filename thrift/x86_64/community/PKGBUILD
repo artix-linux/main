@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
 # Contributor: Byron Clark <byron@theclarkfamily.name>
 
 # This package contains only thrift compiler and C/C++ libraries
@@ -8,7 +8,7 @@
 
 pkgname=thrift
 pkgver=0.17.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Scalable cross-language services framework for IPC/RPC'
 arch=(x86_64)
 url='https://thrift.apache.org'
