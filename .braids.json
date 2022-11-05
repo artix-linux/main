@@ -4719,7 +4719,7 @@
     "libtpms": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtpms.git",
       "branch": "master",
-      "revision": "2df5571e556629d6d3373686058be997d3d57fa9"
+      "revision": "9b2e720e42c02be6f733ddd6c7843ea8502c1914"
     },
     "libudev0-shim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libudev0-shim.git",
