@@ -5799,7 +5799,7 @@
     "mosquitto": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mosquitto.git",
       "branch": "master",
-      "revision": "d89193d420b12ea9675aa0416498acd8e9c16ad4"
+      "revision": "0466aca68f45c94704cfa49afbe62b58abc4aae1"
     },
     "motion": {
       "url": "gitea@gitea.artixlinux.org:packagesM/motion.git",
