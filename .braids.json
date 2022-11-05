@@ -8344,7 +8344,7 @@
     "strongswan": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan.git",
       "branch": "master",
-      "revision": "d548b95ed3774bedc9004f867f8e7f96865bdf7b"
+      "revision": "0955124260325448183c497b7ab9d782bd620499"
     },
     "stubby": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stubby.git",
