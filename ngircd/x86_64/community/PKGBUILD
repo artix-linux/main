@@ -1,10 +1,10 @@
-# Maintainer: Kyle Keen <keenerd@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Mateusz Herych <heniekk@gmail.com>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 
 pkgname=ngircd
 pkgver=26.1
-pkgrel=2
+pkgrel=3
 pkgdesc="Next Generation IRC Daemon"
 arch=('x86_64')
 backup=(etc/ngircd.conf)
