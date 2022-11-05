@@ -1,11 +1,11 @@
-# Maintainer: Sébastien "Seblu" Luttringer
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 # Contributor: judd <jvinet@zeroflux.org>
 
 pkgname=coreutils
 pkgver=9.1
-pkgrel=1
+pkgrel=3
 pkgdesc='The basic file, shell and text manipulation utilities of the GNU operating system'
 arch=('x86_64')
 license=('GPL3')
