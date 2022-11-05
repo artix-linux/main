@@ -1,10 +1,10 @@
-# Maintainer: Timothy Redaelli <timothy.redaelli@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Richard Murri <admin@richardmurri.com>
 # Contributor: Michal Krenek <mikos@sg1.cz>
 
 pkgname=ecryptfs-utils
 pkgver=111
-pkgrel=5
+pkgrel=6
 arch=('x86_64')
 pkgdesc="Enterprise-class stacked cryptographic filesystem for Linux"
 url="https://launchpad.net/ecryptfs"
