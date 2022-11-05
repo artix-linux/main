@@ -7719,7 +7719,7 @@
     "rng-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools.git",
       "branch": "master",
-      "revision": "89b3cc878baea2e8f2a8d865a944a74bca6a11db"
+      "revision": "5b26e035dab8d8195ff33e693aea80dd3ef2b10a"
     },
     "rnnoise": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rnnoise.git",
