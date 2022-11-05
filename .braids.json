@@ -5059,7 +5059,7 @@
     "libxmlrpc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmlrpc.git",
       "branch": "master",
-      "revision": "3f9bc03cf3d4d3f9e81db77f9773d6f0d12592d8"
+      "revision": "55536a487862eda21b886be0d50e475018b179a7"
     },
     "libxmu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmu.git",
