@@ -5399,7 +5399,7 @@
     "lxc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxc.git",
       "branch": "master",
-      "revision": "8e4880b11c4ddb166251119045667fa450629740"
+      "revision": "bec074f2aad38d6a99bf4f1dbd1a8ca05110a095"
     },
     "lxcfs": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxcfs.git",
