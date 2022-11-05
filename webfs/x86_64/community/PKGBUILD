@@ -1,4 +1,4 @@
-# Maintainer: Kyle Keen <keenerd@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Roman Kyrylych <Roman.Kyrylych@gmail.com>
 # Contributor: Mark Rosenstand <mark@archlinux.org>
 # Contributor: Daniel J Griffiths <ghost1227@archlinux.us>
@@ -6,7 +6,7 @@
 
 pkgname=webfs
 pkgver=1.21
-pkgrel=15.1
+pkgrel=16
 pkgdesc="Simple and instant http server for mostly static content."
 arch=(x86_64)
 url="http://linux.bytesex.org/misc/webfs.html"
