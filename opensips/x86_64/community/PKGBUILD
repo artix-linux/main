@@ -1,8 +1,8 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=opensips
 pkgver=3.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="An Open Source SIP Server able to act as a SIP proxy, registrar, location server, redirect server ..."
 url="https://www.opensips.org"
 depends=('gcc-libs' 'openssl' 'db' 'attr' 'libxml2')
