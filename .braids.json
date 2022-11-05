@@ -9939,7 +9939,7 @@
     "zeroc-ice": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeroc-ice.git",
       "branch": "master",
-      "revision": "ebeef0688c45842b97eeb7d7a866d72e00a76354"
+      "revision": "6e5a15b6a887f579248b8a0e0a810d570c683786"
     },
     "zeromq": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeromq.git",
