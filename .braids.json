@@ -869,7 +869,7 @@
     "clevis": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clevis.git",
       "branch": "master",
-      "revision": "aa11da23ca57af36ac1efbcbbf282f1c328d0cb2"
+      "revision": "84655df97f0a1d59efa502cdd256236942b9ca2b"
     },
     "cli11": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cli11.git",
