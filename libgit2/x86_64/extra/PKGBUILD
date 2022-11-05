@@ -1,11 +1,11 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
 # Contributor: Hilton Medeiros <medeiros.hilton@gmail.com>
 # Contributor: Dave Reisner <d@falconindy.com>
 
 pkgname=libgit2
 pkgver=1.5.0
-pkgrel=1
+pkgrel=2
 epoch=1
 pkgdesc="A linkable library for Git"
 arch=(x86_64)
