@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: bitwave <aur [aT] oomlu [d0T] de>
 # Contributor: fnord0 <fnord0 AT riseup DOT net>
 
 pkgname=yara
 pkgver=4.2.3
-pkgrel=1
+pkgrel=2
 pkgdesc='Tool aimed at helping malware researchers to identify and classify malware samples'
 url='https://github.com/VirusTotal/yara'
 arch=('x86_64')
