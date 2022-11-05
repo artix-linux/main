@@ -3124,7 +3124,7 @@
     "jose": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jose.git",
       "branch": "master",
-      "revision": "03c6f0d0cd7e8b32b58458791c2b992d7721f12c"
+      "revision": "32b986b04f765c8c7ad57a8ceda86b6e41390847"
     },
     "jq": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jq.git",
