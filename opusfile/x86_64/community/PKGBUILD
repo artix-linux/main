@@ -1,10 +1,10 @@
-# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: DrZaius <lou@fakeoutdoorsman.com>
 
 pkgname=opusfile
 pkgver=0.12
-pkgrel=2
+pkgrel=3
 pkgdesc='Library for opening, seeking, and decoding .opus files'
 arch=(x86_64)
 url='https://opus-codec.org/'
