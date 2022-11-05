@@ -1,10 +1,10 @@
-# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Roman Kyrylych <roman@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=libesmtp
 pkgver=1.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc='A library to manage posting mail to a preconfigured MTA.'
 arch=('x86_64')
 url='https://libesmtp.github.io/'
@@ -15,7 +15,7 @@ source=("https://github.com/libesmtp/libESMTP/archive/v$pkgver/$pkgname-$pkgver.
 md5sums=('1c89f9af9f56b74ec4dce3fc59a7236f')
 
 build() {
-  arch-meson build libESMTP-${pkgver}
+  artix-meson build libESMTP-${pkgver}
   meson compile -C build
 }
 
