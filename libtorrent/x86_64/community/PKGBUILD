@@ -1,4 +1,4 @@
-# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Jaroslav Lichtblau <svetlemodry@archlinux.org>
 # Contributor: Daenyth <Daenyth+Arch [at] gmail [dot] com>
 # Contributor: Jeff Mickey <jeff@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=libtorrent
 pkgver=0.13.8
-pkgrel=2
+pkgrel=3
 pkgdesc='BitTorrent library with a focus on high performance and good code'
 url='https://rakshasa.github.io/rtorrent/'
 arch=('x86_64')
