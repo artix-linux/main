@@ -1,10 +1,10 @@
-# Maintainer: Jelle van der Waa <jelle@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: David Runge <dvzrv@archlinux.org>
 # Contributor: Jingbei Li <i@jingbei.li>
 
 pkgname=libwebsockets
 pkgver=4.3.2
-pkgrel=2
+pkgrel=3
 pkgdesc="C library for websocket clients and servers"
 arch=(x86_64)
 url="https://libwebsockets.org"
