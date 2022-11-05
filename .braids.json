@@ -1554,7 +1554,7 @@
     "ejabberd": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd.git",
       "branch": "master",
-      "revision": "8febd1ddcfb4c2f146d91ac95eb67a49568268c1"
+      "revision": "e78943d41a0cd833578bdd5cb9007c1e9d9ef8b9"
     },
     "electrum": {
       "url": "gitea@gitea.artixlinux.org:packagesE/electrum.git",
