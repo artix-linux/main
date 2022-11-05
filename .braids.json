@@ -6979,7 +6979,7 @@
     "pure-ftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pure-ftpd.git",
       "branch": "master",
-      "revision": "61e7f1bf01a19c0fd2f68b9ae4e2161a103029e5"
+      "revision": "e3866bc05359b6b5d9d7c7d352c8e016e5479bc8"
     },
     "pv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pv.git",
