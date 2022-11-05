@@ -1,9 +1,9 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Eric Bélanger <eric@archlinux.org>
 
 pkgname=links
 pkgver=2.28
-pkgrel=1
+pkgrel=2
 pkgdesc='A text WWW browser, similar to Lynx'
 arch=('x86_64')
 url='http://links.twibright.com/'
