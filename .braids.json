@@ -819,7 +819,7 @@
     "chromaprint": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
       "branch": "master",
-      "revision": "be5021116bd882c542472c97a4efe61694d76183"
+      "revision": "de2936abc0d926d315752b50d7474d9c9ddb07d0"
     },
     "chrony": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony.git",
