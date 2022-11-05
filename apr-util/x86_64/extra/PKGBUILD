@@ -1,9 +1,9 @@
-# Maintainer: Jan de Groot <jgc@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=apr-util
 pkgver=1.6.1
-pkgrel=9
+pkgrel=10
 pkgdesc="The Apache Portable Runtime"
 arch=('x86_64')
 url="https://apr.apache.org/"
