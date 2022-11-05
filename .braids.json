@@ -2854,7 +2854,7 @@
     "imap": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imap.git",
       "branch": "master",
-      "revision": "e435a692f6e96d7ea4e52d6e61b0d58b075c8b14"
+      "revision": "f97f65c63605be83d340fea308a02de808a58a0b"
     },
     "imath": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imath.git",
