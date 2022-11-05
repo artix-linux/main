@@ -1,0 +1,29 @@
+# Maintainer: Cory Sanin <corysanin@artixlinux.org>
+
+pkgname=robin-map
+pkgver=1.0.1
+pkgrel=1
+pkgdesc="C++ implementation of a fast hash map and hash set using robin hood hashing"
+arch=(x86_64)
+url="https://github.com/Tessil/robin-map"
+license=('MIT')
+makedepends=('cmake')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/Tessil/robin-map/archive/v${pkgver}.tar.gz")
+sha512sums=('5741049287fdb9c3316e1eb84b99343efc7b35f492e1db8166d65c2d16c7905f51b11cf164bedae9e44d4b6000bbea3c49012acf725a977e665a8dc23e89b1fb')
+
+build() {
+  cd $pkgname-$pkgver
+
+  cmake . \
+      -Bbuild \
+      -DCMAKE_INSTALL_PREFIX=/usr
+  make -C build
+}
+
+package() {
+  cd $pkgname-$pkgver
+
+  DESTDIR="$pkgdir" make -C build install
+
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
