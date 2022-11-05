@@ -8169,7 +8169,7 @@
     "softhsm": {
       "url": "gitea@gitea.artixlinux.org:packagesS/softhsm.git",
       "branch": "master",
-      "revision": "e0e4bfc902378fa60fab25e5d4d55e00b232a7dc"
+      "revision": "98781b67b4bdc96a51d5e30f8aa4ab4f44f714d4"
     },
     "sonivox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sonivox.git",
