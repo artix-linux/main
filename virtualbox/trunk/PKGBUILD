@@ -11,7 +11,7 @@ pkgname=('virtualbox'
          'virtualbox-ext-vnc')
 pkgver=7.0.2
 _tarver=${pkgver}
-pkgrel=2
+pkgrel=2.1
 arch=('x86_64')
 url='https://virtualbox.org/'
 license=('GPL' 'custom:CDDL')
@@ -41,6 +41,7 @@ makedepends=('alsa-lib'
              'libxtst'
              'linux-headers'
              'mesa'
+             'openssl-1.1'
              'python'
              'qt5-base'
              'qt5-tools'
@@ -139,7 +140,7 @@ build() {
 package_virtualbox() {
     pkgdesc='Powerful x86 virtualization for enterprise as well as home use'
     depends=('curl' 'gcc-libs' 'glibc' 'liblzf' 'libpng' 'libtpms' 'libvpx' 'libx11' 'libxcursor'
-             'libxext' 'libxinerama' 'libxml2' 'libxmu' 'libxt' 'openssl' 'procps-ng' 'python'
+             'libxext' 'libxinerama' 'libxml2' 'libxmu' 'libxt' 'openssl-1.1' 'procps-ng' 'python'
              'qt5-base' 'qt5-tools' 'qt5-x11extras' 'sdl' 'shared-mime-info' 'zlib'
              'VIRTUALBOX-HOST-MODULES')
     optdepends=('vde2: Virtual Distributed Ethernet support'
