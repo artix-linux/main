@@ -5244,7 +5244,7 @@
     "live-media": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-media.git",
       "branch": "master",
-      "revision": "dc65aa834b1580e63be022255ced419fce184426"
+      "revision": "154cafc13db6aa274baa12dc324c3c89e84ccf42"
     },
     "live-services": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-services.git",
