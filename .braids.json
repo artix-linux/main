@@ -6969,7 +6969,7 @@
     "pulseaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pulseaudio.git",
       "branch": "master",
-      "revision": "55d465f3d07c2d3d9cdba2ab73183108c81e1617"
+      "revision": "00588e6fc49c03b6771e3e34a2da4c1c11d42a77"
     },
     "puppet": {
       "url": "gitea@gitea.artixlinux.org:packagesP/puppet.git",
