@@ -8199,7 +8199,7 @@
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
-      "revision": "0f31cfaf1457f9a0aafb06a7fc67b6dc138533d0"
+      "revision": "cdf7155f68e8bca75781c12b00209d37fbf76397"
     },
     "spandsp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spandsp.git",
