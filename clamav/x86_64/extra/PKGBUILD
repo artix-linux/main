@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Giancarlo Razzolini <grazzolini@archlinux.org>
 # Contributor: Dale Blount <dale@archlinux.org>
 # Contributor: Gregor Ibic <gregor.ibic@intelicom.si>
@@ -6,7 +6,7 @@
 
 pkgname=clamav
 pkgver=0.105.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Anti-virus toolkit for Unix'
 url='https://www.clamav.net/'
 license=('GPL')
