@@ -4554,7 +4554,7 @@
     "libshout": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libshout.git",
       "branch": "master",
-      "revision": "99b8d01b96982ad82e5105b303a4950f0393d494"
+      "revision": "9b4c880f637ca86992659a2634cc21bd2f060449"
     },
     "libsidplay": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsidplay.git",
