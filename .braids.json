@@ -5414,7 +5414,7 @@
     "lynx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lynx.git",
       "branch": "master",
-      "revision": "5dcda0784235a13d78387753224fbe20dd52b186"
+      "revision": "7d023cc4b1cf1ecaa7880915b2fc1dd03719eef9"
     },
     "lz4": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lz4.git",
