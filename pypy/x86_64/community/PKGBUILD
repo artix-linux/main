@@ -1,9 +1,9 @@
-# Maintainer: Sven-Hendrik Haase <svenstaro@archlinux.org>
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
 # Contributor: William Giokas <1007380@gmail.com>
 
 pkgname=pypy
 pkgver=7.3.9
-pkgrel=1
+pkgrel=2
 pkgdesc="A Python implementation written in Python, JIT enabled"
 url="https://pypy.org"
 arch=('x86_64')
