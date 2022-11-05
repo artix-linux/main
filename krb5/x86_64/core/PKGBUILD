@@ -3,7 +3,7 @@
 pkgname=krb5
 _pkgvermajor=1.20
 pkgver=1.20
-pkgrel=1
+pkgrel=3
 pkgdesc='The Kerberos network authentication system'
 url='https://web.mit.edu/kerberos/'
 arch=('x86_64')
@@ -81,6 +81,7 @@ package() {
 
    install -Dm 644 "${srcdir}"/${pkgname}-${pkgver}/NOTICE \
      "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+
 }
 
 # vim: ts=2 sw=2 et:
