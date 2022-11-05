@@ -8624,7 +8624,7 @@
     "time": {
       "url": "gitea@gitea.artixlinux.org:packagesT/time.git",
       "branch": "master",
-      "revision": "635dcee52e486ca068b70d57922a7f49922a21a3"
+      "revision": "3a24b2ff795b6ba8d701c43c06a93d90db358279"
     },
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
