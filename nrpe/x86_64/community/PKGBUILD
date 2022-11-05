@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Phillip Smith <fukawi2@NO-SPAM.gmail.com>
 # Contributor: Dale Blount <dale@archlinux.org>
 
 pkgname=nrpe
 pkgver=4.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Nagios Remote Plugin Executor"
 arch=('x86_64')
 license=('GPL')
