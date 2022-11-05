@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Baptiste Jonglez <baptiste--aur at jonglez dot org>
 
 pkgname=opendht
 epoch=1
 pkgver=2.4.9
-pkgrel=2
+pkgrel=3
 pkgdesc="C++17 Distributed Hash Table (DHT) implementation"
 arch=(x86_64)
 url="https://github.com/savoirfairelinux/opendht"
