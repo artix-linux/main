@@ -6504,7 +6504,7 @@
     "opusfile": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opusfile.git",
       "branch": "master",
-      "revision": "644781e1e93e1b5e6f952ea8f0414959c2de2769"
+      "revision": "5ea501ae081c3cb53c04a8cc8d2c4f2973229665"
     },
     "orc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/orc.git",
