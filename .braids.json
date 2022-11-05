@@ -209,7 +209,7 @@
     "argyllcms": {
       "url": "gitea@gitea.artixlinux.org:packagesA/argyllcms.git",
       "branch": "master",
-      "revision": "221964f73e38ec0f5c0bf3cda24d376e52ff3749"
+      "revision": "90b2a99311a4f0c668b4502d8315bfb0fc3ab1d5"
     },
     "aria2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aria2.git",
