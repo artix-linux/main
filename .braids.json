@@ -6084,7 +6084,7 @@
     "nmap": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nmap.git",
       "branch": "master",
-      "revision": "e5f0cd0fe01a90fbea92b3f019ce2a43cfd70f8e"
+      "revision": "d9863a3055f85adf2303e5c3bd0402221cb8cc90"
     },
     "node-gyp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/node-gyp.git",
