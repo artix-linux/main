@@ -4,7 +4,7 @@
 
 pkgname=ejabberd
 pkgver=22.10
-pkgrel=1
+pkgrel=2
 pkgdesc="Jabber server written in Erlang"
 arch=('x86_64')
 url="https://www.ejabberd.im/"
@@ -33,7 +33,7 @@ source=("$pkgname-$pkgver.tar.gz::https://github.com/processone/ejabberd/archive
 	"fast_yaml::git+https://github.com/processone/fast_yaml#commit=86c66abc4d3b0dcfdf6bd4f0c1a4b3f9609da02d"
 	"idna::git+https://github.com/benoitc/erlang-idna#commit=6cff72747821110169ecfac871b0c69e5064afff"
 	"jiffy::git+https://github.com/davisp/jiffy#commit=9ea1b35b6e60ba21dfd4adbd18e7916a831fd7d4"
-	"jose::git+https://github.com/potatosalad/erlang-jose#commit=090a2ed054304ecc012d6c2d9d10d2a294d835b1"
+	"erlang-jose::git+https://github.com/potatosalad/erlang-jose#commit=090a2ed054304ecc012d6c2d9d10d2a294d835b1"
 	"luerl::git+https://github.com/rvirding/luerl#commit=836d08ad3287d73d9c91cb11a590de15a1761027"
 	"mqtree::git+https://github.com/processone/mqtree#commit=b87975f2c46ea44f3ed0dd484ae248aeea0c5d1e"
 	"p1_acme::git+https://github.com/processone/p1_acme#commit=ff64d95e403bb5eb1670af328359d3c4cc8410d0"
@@ -89,7 +89,7 @@ prepare() {
   cd "$srcdir/$pkgname-$pkgver"
   mkdir -p "$srcdir/$pkgname-$pkgver/deps"
   for i in \
-    base64url cache_tab eimp ejabberd_po elixir epam eredis esip ezlib fast_tls fast_xml fast_yaml idna jiffy jose luerl mqtree p1_acme p1_mysql p1_oauth2 p1_pgsql p1_utils pkix rebar_elixir_plugin sqlite3 stringprep stun unicode_util_compat xmpp yconf \
+    base64url cache_tab eimp ejabberd_po elixir epam eredis esip ezlib fast_tls fast_xml fast_yaml idna jiffy erlang-jose luerl mqtree p1_acme p1_mysql p1_oauth2 p1_pgsql p1_utils pkix rebar_elixir_plugin sqlite3 stringprep stun unicode_util_compat xmpp yconf \
     ; do
     rm -rf "$srcdir/$pkgname-$pkgver/deps/$i"
     mv "$srcdir"/$i "$srcdir/$pkgname-$pkgver/deps"
