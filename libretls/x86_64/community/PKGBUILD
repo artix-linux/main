@@ -1,11 +1,11 @@
-# Maintainer: Bruno Pagani <archange@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Eli Schwartz <eschwartz@archlinux.org>
 # Contributor: lillian rose winter <hi@neko.vg>
 # Contributor: Evan McCarthy <evan@mccarthy.mn>
 
 pkgname=libretls
 pkgver=3.5.2
-pkgrel=1
+pkgrel=2
 pkgdesc="libtls for OpenSSL"
 arch=(x86_64)
 url="https://git.causal.agency/${pkgname}"
