@@ -7731,6 +7731,11 @@
       "branch": "master",
       "revision": "4bae4d3511afc786f8ca86a9a01b473a1b601ad4"
     },
+    "robin-map": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/robin-map.git",
+      "branch": "master",
+      "revision": "d56579dcfeb1658333481ec814c3c50ddbbd02a8"
+    },
     "ropgadget": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
       "branch": "master",
