@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Lukas Fleischer <lfleischer@archlinux.org>
 # Contributor: Angel Velasquez <angvp@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=exim
 pkgver=4.96
-pkgrel=1
+pkgrel=2
 pkgdesc='Message Transfer Agent'
 arch=('x86_64')
 url='https://www.exim.org/'
