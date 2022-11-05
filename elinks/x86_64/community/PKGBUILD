@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Maintainer: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: damir <damir@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=elinks
 pkgver=0.15.1
-pkgrel=1
+pkgrel=2
 pkgdesc="An advanced and well-established feature-rich text mode web browser."
 arch=("x86_64")
 url="http://elinks.or.cz"
