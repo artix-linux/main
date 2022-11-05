@@ -544,7 +544,7 @@
     "bind": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bind.git",
       "branch": "master",
-      "revision": "76084a00010fd0619e81d954ac24824571c23e6a"
+      "revision": "072888be75d06604c107b42892c820c45f7324ec"
     },
     "binutils": {
       "url": "gitea@gitea.artixlinux.org:packagesB/binutils.git",
