@@ -9594,7 +9594,7 @@
     "xmlrpc-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlrpc-c.git",
       "branch": "master",
-      "revision": "570c7762fbb4dab44ab4e216ed3d22e1dd4cca05"
+      "revision": "9c59d925bc9e10bf4bbbc76206bc0a2ce66eac69"
     },
     "xmlsec": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlsec.git",
