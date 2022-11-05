@@ -1,4 +1,4 @@
-# Maintainer: Jonathan Steel <jsteel at archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Mark Pustjens <pustjens@dds.nl>
 # Contributor: Geoffroy Carrier <geoffroy.carrier@koon.fr>
 # Contributor: Giorgio Lando <patroclo7@gmail.com>
@@ -6,10 +6,10 @@
 
 pkgname=isync
 pkgver=1.4.4
-pkgrel=1
+pkgrel=2
 pkgdesc="IMAP and MailDir mailbox synchronizer"
 arch=('x86_64')
-url="http://isync.sourceforge.net"
+url="https://isync.sourceforge.io/"
 license=('GPL2')
 depends=('libsasl' 'zlib')
 source=(https://downloads.sourceforge.net/sourceforge/isync/$pkgname-$pkgver.tar.gz
