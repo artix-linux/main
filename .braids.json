@@ -8054,7 +8054,7 @@
     "shairplay": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairplay.git",
       "branch": "master",
-      "revision": "4a80d8f78ba106115967c39f4caf58c9ffacfe62"
+      "revision": "9febe9f894dddbf5d49b28bebac45863a49b8f6f"
     },
     "shairport-sync": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync.git",
