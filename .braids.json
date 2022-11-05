@@ -7854,7 +7854,7 @@
     "s-nail": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s-nail.git",
       "branch": "master",
-      "revision": "60fc514312bc1504f3902c708e8a2a226ea3726f"
+      "revision": "a61a6a08b2bc1464b3f21583e77826e62198a98e"
     },
     "s2n-tls": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s2n-tls.git",
