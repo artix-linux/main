@@ -1,4 +1,4 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Jonathan Steel <jsteel at archlinux.org>
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Contributor: Andreas Radke <andyrtr@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=vsftpd
 pkgver=3.0.3
-pkgrel=7
+pkgrel=8
 pkgdesc='Very Secure FTP daemon'
 url='https://security.appspot.com/vsftpd.html'
 arch=('x86_64')
