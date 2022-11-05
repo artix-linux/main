@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Maintainer: Remi Gacogne <rgacogne[at]archlinux[dot]org>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 # Contributor: Jan de Groot <jgc@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=powerdns-recursor
 pkgver=4.7.3
-pkgrel=1
+pkgrel=2
 pkgdesc='Resolving DNS server'
 url='https://www.powerdns.com/'
 arch=('x86_64')
@@ -38,9 +38,12 @@ build() {
     --sysconfdir=/etc/powerdns \
     --disable-silent-rules \
     --enable-reproducible \
-    --enable-dns-over-tls \
+    --disable-systemd \
+    --disable-dns-over-tls \
     --with-libsodium \
-    --with-lua=luajit
+    --with-lua=luajit \
+    --with-service-user=pdns-recursor \
+    --with-service-group=pdns-recursor
   make
 }
 
