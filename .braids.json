@@ -3729,7 +3729,7 @@
     "libevent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevent.git",
       "branch": "master",
-      "revision": "6cc167d0973c6382ec9d7f13e0e7c7ccac378765"
+      "revision": "90a933dcf5087f14ca1bb1b9f7f55b33ee0c9918"
     },
     "libewf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libewf.git",
