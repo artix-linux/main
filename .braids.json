@@ -7559,7 +7559,7 @@
     "quota-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quota-tools.git",
       "branch": "master",
-      "revision": "ac6cb9635c7b631ec8a8d5058649c8be02a6c82f"
+      "revision": "16cae848433bd89d92ce7bbc71cef0649d20eb6d"
     },
     "r": {
       "url": "gitea@gitea.artixlinux.org:packagesR/r.git",
