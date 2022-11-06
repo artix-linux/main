@@ -8024,7 +8024,7 @@
     "serf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/serf.git",
       "branch": "master",
-      "revision": "c49ecd1ca71077f9d1bc65679a5a47b1d187657e"
+      "revision": "c2866145e15ca413275f1b9c630f0a48b2f342a3"
     },
     "setconf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/setconf.git",
