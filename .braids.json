@@ -2399,7 +2399,7 @@
     "grafana": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana.git",
       "branch": "master",
-      "revision": "4a27ef33e797a4177edefc15fe237850ffb0f566"
+      "revision": "25bad4922ea8272bc000d618bf44f9cbc3d205c2"
     },
     "grantlee": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grantlee.git",
