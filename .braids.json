@@ -4729,7 +4729,7 @@
     "libuninameslist": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libuninameslist.git",
       "branch": "master",
-      "revision": "d8c83683fd1a93ca8cb8338fe987c13f4855a27f"
+      "revision": "99909798bf2cea2883e889500f87987b7837bb58"
     },
     "libunistring": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunistring.git",
