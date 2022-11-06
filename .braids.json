@@ -8314,7 +8314,7 @@
     "sssd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sssd.git",
       "branch": "master",
-      "revision": "77cc0dd29d450db5d7aedf4be6adedc10d86f685"
+      "revision": "3b32da091c6b227a17323013ba62938774113bde"
     },
     "startup-notification": {
       "url": "gitea@gitea.artixlinux.org:packagesS/startup-notification.git",
