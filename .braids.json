@@ -584,7 +584,7 @@
     "bolt": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bolt.git",
       "branch": "master",
-      "revision": "e9e6675e8620f85c7e7ab513492657373b4e3d81"
+      "revision": "ed38b68b26defe7042d82020a865946ace056c26"
     },
     "boost": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boost.git",
