@@ -65,7 +65,7 @@ build() {
     -no-rpath \
     -dbus-linked \
     -system-harfbuzz \
-    -journald \
+    -no-journald \
     -no-mimetype-database \
     -no-use-gold-linker \
     -no-reduce-relocations \
