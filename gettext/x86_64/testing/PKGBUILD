@@ -1,4 +1,5 @@
 # Maintainer: artoo <artoo@artixlinux.org>
+#
 
 pkgname=gettext
 pkgver=0.21.1
@@ -27,7 +28,7 @@ prepare() {
 
   # Do not build libtextstyle, as it depends on libcroco
   # which is now unmaintained and has known security bugs.
-  # patch from Fedora	
+  # patch from Fedora
   patch -p1 -i $srcdir/gettext-0.21-disable-libtextstyle.patch
 }
 
