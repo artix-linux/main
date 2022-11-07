@@ -9479,7 +9479,7 @@
     "xdg-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdg-utils.git",
       "branch": "master",
-      "revision": "1b708d712bd8e52d66cfa03f1e56d8816a5222e9"
+      "revision": "feab36278e9230067adca2f400426173747d5ed1"
     },
     "xdp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdp-tools.git",
