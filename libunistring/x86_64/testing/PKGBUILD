@@ -4,6 +4,7 @@
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Emmanuel 'guinness' Boudreault
 # Contributor: Patrick McCarty <pnorcks at gmail dot com>
+#
 
 pkgname=libunistring
 pkgver=1.1
