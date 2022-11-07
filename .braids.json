@@ -9489,7 +9489,7 @@
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
       "branch": "master",
-      "revision": "acf66dfc076ed2ff374bc4bdf4b1044fed4f4fad"
+      "revision": "6f5b0252cb0bd179b7518749d609810935855471"
     },
     "xf86-input-elographics": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-elographics.git",
