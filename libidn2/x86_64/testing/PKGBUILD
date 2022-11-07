@@ -1,5 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Daurnimator <quae@daurnimator.com>
+#
+#
 
 pkgname=libidn2
 pkgver=2.3.4
