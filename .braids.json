@@ -879,7 +879,7 @@
     "clisp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clisp.git",
       "branch": "master",
-      "revision": "f4fa170218c7f4453fcf86da9855771df1e976ef"
+      "revision": "22a2c5af26447ad89c42c572243fc87e084c04c2"
     },
     "cln": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cln.git",
