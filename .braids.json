@@ -8924,7 +8924,7 @@
     "unicode-cldr": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-cldr.git",
       "branch": "master",
-      "revision": "e2c127f10107bb6466027b3f87884aa2c49b3655"
+      "revision": "c50875c631d315e57f5ca00bf1a90f728ff7fdcb"
     },
     "unicode-emoji": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicode-emoji.git",
