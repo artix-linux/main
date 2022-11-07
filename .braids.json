@@ -4434,7 +4434,7 @@
     "libpsl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpsl.git",
       "branch": "master",
-      "revision": "d9897d4b1433f7abe1af76f5919b81cc1417d9c2"
+      "revision": "66b20cad6d100ae15d6860dc623d02a5129697d4"
     },
     "libptytty": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libptytty.git",
