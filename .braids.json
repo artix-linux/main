@@ -5384,7 +5384,7 @@
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
       "branch": "master",
-      "revision": "ffe302d13a8437386f1226d162d0507408c39cdb"
+      "revision": "9f55aee3124ba5904326042534e78a734dfb508e"
     },
     "luksmeta": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luksmeta.git",
