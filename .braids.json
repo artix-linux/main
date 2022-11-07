@@ -3409,7 +3409,7 @@
     "libappindicator": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libappindicator.git",
       "branch": "master",
-      "revision": "a6c96adcc7016a20d652f3396f45cd56ab3be093"
+      "revision": "a75178c1d7fda67c1645cefef90a953a4cf06040"
     },
     "libarchive": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libarchive.git",
