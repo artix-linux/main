@@ -409,7 +409,7 @@
     "aws-c-common": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-common.git",
       "branch": "master",
-      "revision": "3a38257e003505cda4e02bc131cec8caca324e8d"
+      "revision": "de96f0bd431f98ce1eadb9d05ed4e26950251d5e"
     },
     "aws-c-compression": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-compression.git",
