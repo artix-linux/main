@@ -5491,6 +5491,11 @@
       "branch": "master",
       "revision": "61938c50defe66b059243b916af10b1eaae1b469"
     },
+    "mailman3-hyperkitty": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailman3-hyperkitty.git",
+      "branch": "master",
+      "revision": "5aad4a2cdf96158ac8b92e98984dbe5c38aa7918"
+    },
     "maim": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maim.git",
       "branch": "master",
