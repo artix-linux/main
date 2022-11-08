@@ -6866,6 +6866,11 @@
       "branch": "master",
       "revision": "e8e332b34bca0e45c700197ed4f7763176e4c91f"
     },
+    "postorius": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postorius.git",
+      "branch": "master",
+      "revision": "198f87e8c52a0000b521472d068fe7e47d2d7a15"
+    },
     "potrace": {
       "url": "gitea@gitea.artixlinux.org:packagesP/potrace.git",
       "branch": "master",
