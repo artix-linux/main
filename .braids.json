@@ -7131,6 +7131,11 @@
       "branch": "master",
       "revision": "68c9bc57c669a510bf23e6779a30223a44fa6493"
     },
+    "python-flufl.testing": {
+      "url": "gitea@gitea.artixlinux.org:packagesPython/python-flufl.testing.git",
+      "branch": "master",
+      "revision": "c44657636e42b1977185814ccee2374fd24b8a63"
+    },
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
       "branch": "master",
