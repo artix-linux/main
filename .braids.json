@@ -5486,6 +5486,11 @@
       "branch": "master",
       "revision": "f2733da40bc9b7bb21a172c803d3498c87b699be"
     },
+    "mailman-web": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailman-web.git",
+      "branch": "master",
+      "revision": "f9ce7309742da661e5cf783e8631576a528ae79a"
+    },
     "mailman3": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman3.git",
       "branch": "master",
