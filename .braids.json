@@ -444,7 +444,7 @@
     "aws-c-sdkutils": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-sdkutils.git",
       "branch": "master",
-      "revision": "59a68a95026e536e1c57b397ceb47a86fd079cdd"
+      "revision": "c32c3aa5df414f9ad4c5072ecededf99e06439a0"
     },
     "aws-checksums": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-checksums.git",
