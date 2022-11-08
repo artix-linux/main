@@ -5489,7 +5489,7 @@
     "mailman-web": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman-web.git",
       "branch": "master",
-      "revision": "f9ce7309742da661e5cf783e8631576a528ae79a"
+      "revision": "0935a0d22d582401aa567cbb9eba7fa018d32294"
     },
     "mailman3": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman3.git",
