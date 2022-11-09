@@ -1,10 +1,10 @@
-# Maintainer:  Jan de Groot <jgc@archlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Maintainer:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=guile
 pkgver=2.2.7
-pkgrel=2
+pkgrel=3
 pkgdesc='Portable, embeddable Scheme implementation written in C'
 url='https://www.gnu.org/software/guile/'
 arch=(x86_64)
