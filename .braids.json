@@ -3449,7 +3449,7 @@
     "libavif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavif.git",
       "branch": "master",
-      "revision": "2c9898a40e2c40e082d484471ebc912729aea610"
+      "revision": "b265c590f274f3d8c8a629331d228ff9331e8ee0"
     },
     "libavtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavtp.git",
