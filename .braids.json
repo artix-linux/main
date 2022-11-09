@@ -7729,7 +7729,7 @@
     "restinio": {
       "url": "gitea@gitea.artixlinux.org:packagesR/restinio.git",
       "branch": "master",
-      "revision": "e1964dc094a946697ffaf36fdfb3c9df77e9d7db"
+      "revision": "e7b9e533b5d53eae8a4d77a1f47cfd0d62a71402"
     },
     "rhash": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rhash.git",
