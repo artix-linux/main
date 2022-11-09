@@ -4734,7 +4734,7 @@
     "libunistring": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunistring.git",
       "branch": "master",
-      "revision": "8b43f9d714a15ae55c050ce771c6b583a0509610"
+      "revision": "4d94907d92289843bb263e4ff8dcd1f0aa9035c3"
     },
     "libunwind": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
