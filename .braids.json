@@ -6839,7 +6839,7 @@
     "popt": {
       "url": "gitea@gitea.artixlinux.org:packagesP/popt.git",
       "branch": "master",
-      "revision": "a3d349013afeddd148f6215c6736844c91217681"
+      "revision": "74b7dafedad54e8de75218598a981428298e4e46"
     },
     "portaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesP/portaudio.git",
