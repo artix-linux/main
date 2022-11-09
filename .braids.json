@@ -2589,7 +2589,7 @@
     "guile": {
       "url": "gitea@gitea.artixlinux.org:packagesG/guile.git",
       "branch": "master",
-      "revision": "d2374da2d2b25ed43b2aa9e7078da5d56781e1ca"
+      "revision": "382a4b02e3f8863680c594755742dddeba76e69c"
     },
     "guile1.8": {
       "url": "gitea@gitea.artixlinux.org:packagesG/guile1.8.git",
