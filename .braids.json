@@ -2914,7 +2914,7 @@
     "intel-ucode": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-ucode.git",
       "branch": "master",
-      "revision": "86ccc7071fa86e0a5136882e79b56f8b8e2dacff"
+      "revision": "789050f3fafdaf473c3357b792e18fc6969cf7c8"
     },
     "intel-undervolt": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt.git",
