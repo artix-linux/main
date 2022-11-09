@@ -6349,7 +6349,7 @@
     "openbsd-netcat": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openbsd-netcat.git",
       "branch": "master",
-      "revision": "3b373846d76855adf44d0f45e61ec4997f57e8c4"
+      "revision": "5cd695f13da2c0503b0ec783de90ca7006817e9d"
     },
     "opencc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencc.git",
