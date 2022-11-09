@@ -7151,6 +7151,11 @@
       "branch": "master",
       "revision": "c44657636e42b1977185814ccee2374fd24b8a63"
     },
+    "python-mitmproxy-wireguard": {
+      "url": "gitea@gitea.artixlinux.org:packagesPython/python-mitmproxy-wireguard.git",
+      "branch": "master",
+      "revision": "f92c06214ca09fa17c68eb19ad69ed6a2922b12d"
+    },
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
       "branch": "master",
