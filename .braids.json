@@ -979,7 +979,7 @@
     "coin-or-mp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-mp.git",
       "branch": "master",
-      "revision": "9521aa639d45c86d8fdd42452d7144803fbbec2b"
+      "revision": "bb354448e5b712d97d9d3ac7b9f35d5dacb7ffc8"
     },
     "coin-or-osi": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-osi.git",
