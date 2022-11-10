@@ -2104,7 +2104,7 @@
     "gdb": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdb.git",
       "branch": "master",
-      "revision": "9290f1ac40ddcfa2327048a873dab902d331bb0f"
+      "revision": "121527e29abc0a4178bce7f6fed86d2d7dbe0e13"
     },
     "gdbm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdbm.git",
