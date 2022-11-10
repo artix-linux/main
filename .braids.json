@@ -2309,7 +2309,7 @@
     "gnutls": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnutls.git",
       "branch": "master",
-      "revision": "b8f16dd37c2c674f80fea85ab4f443231839ed2d"
+      "revision": "8952d156b0cf1ed5f253480a086d054ffd862153"
     },
     "go": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go.git",
