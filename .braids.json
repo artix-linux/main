@@ -9019,7 +9019,7 @@
     "usbutils": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbutils.git",
       "branch": "master",
-      "revision": "e7837f3665bd82d6e5d00fbdede54dacbe3f5c33"
+      "revision": "7f49de4d9af7cc2d45feb373512d3f715bfee28f"
     },
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
