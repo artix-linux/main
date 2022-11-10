@@ -959,7 +959,7 @@
     "coin-or-cgl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-cgl.git",
       "branch": "master",
-      "revision": "b9ed5f9eedee04f3c44e3e282959b76b3be27870"
+      "revision": "1422798c46321f11c51738563f513421044be72c"
     },
     "coin-or-clp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-clp.git",
