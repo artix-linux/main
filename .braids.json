@@ -109,7 +109,7 @@
     "amdvlk": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amdvlk.git",
       "branch": "master",
-      "revision": "02744e59b58446f3d77fd79a3daa535957d604e2"
+      "revision": "332146472de0cf94043e3b08210deb96cc5a3cca"
     },
     "amf-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amf-headers.git",
