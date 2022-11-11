@@ -369,7 +369,7 @@
     "autogen": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autogen.git",
       "branch": "master",
-      "revision": "07e1e270c09c8925e571e838c41e9a20d93f256b"
+      "revision": "3471e83e417787b5fac587cc9b90fbe57336f1eb"
     },
     "automake": {
       "url": "gitea@gitea.artixlinux.org:packagesA/automake.git",
