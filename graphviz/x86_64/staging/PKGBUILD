@@ -1,10 +1,10 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: kevin <kevin@archlinux.org>
 # Contributor: John Proctor <jproctor@prium.net>
 
 pkgname=graphviz
 pkgver=7.0.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Graph visualization software'
 url='https://www.graphviz.org/'
 license=('EPL')
