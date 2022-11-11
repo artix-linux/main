@@ -8224,7 +8224,7 @@
     "soundtouch": {
       "url": "gitea@gitea.artixlinux.org:packagesS/soundtouch.git",
       "branch": "master",
-      "revision": "943ce5736914a20e6e5441ff7a5aca82bcb2f74d"
+      "revision": "add1a0d1e6b955936b457e85878e0dd83720e29a"
     },
     "source-highlight": {
       "url": "gitea@gitea.artixlinux.org:packagesS/source-highlight.git",
