@@ -5399,7 +5399,7 @@
     "lvm2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lvm2.git",
       "branch": "master",
-      "revision": "6291aaa370554d3c03ba22bf6aadd5b65f67f2d8"
+      "revision": "a2a4633a50b3a5188a69610f941f93e21fbbe3a3"
     },
     "lxc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxc.git",
