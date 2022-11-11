@@ -8089,7 +8089,7 @@
     "shadow": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shadow.git",
       "branch": "master",
-      "revision": "ea1465727c8c60a4dae6e06436edaa4db8fdc00b"
+      "revision": "f17416ec38594773828ccfd9469156e6d0bb2c12"
     },
     "shairplay": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairplay.git",
