@@ -9319,7 +9319,7 @@
     "weechat": {
       "url": "gitea@gitea.artixlinux.org:packagesW/weechat.git",
       "branch": "master",
-      "revision": "05f449c0b052cdfd5b156868e039b2b3d0efd7b6"
+      "revision": "8a22fed826d4d7105768aa855a4bd97f944e040e"
     },
     "wget": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wget.git",
