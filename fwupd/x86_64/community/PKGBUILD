@@ -78,7 +78,4 @@ package() {
     rm -r "${pkgdir}"/usr/share/installed-tests/
     mv "${pkgdir}"/usr/bin/{,fwupd-}dbxtool
     mv "${pkgdir}"/usr/share/man/man1/{,fwupd-}dbxtool.1
-    # Remove msr module-load config as it is built-in
-    rm "${pkgdir}"/usr/lib/modules-load.d/fwupd-msr.conf
-    rmdir "${pkgdir}"/usr/lib/modules-load.d
 }
