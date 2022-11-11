@@ -4939,7 +4939,7 @@
     "libx11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx11.git",
       "branch": "master",
-      "revision": "196950c908c5698f5bf8c3ddf29d8456f64e1a6c"
+      "revision": "0a6fba6d50e707d35280134821ac2dd06e81688b"
     },
     "libx86emu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx86emu.git",
