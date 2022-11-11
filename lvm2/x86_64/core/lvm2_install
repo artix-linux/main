@@ -26,7 +26,7 @@ build() {
         '95-dm-notify.rules' \
         '/usr/lib/initcpio/udev/11-dm-initramfs.rules'
 
-    # this udev rule is specific for systemd and non-systemd systems
+    # this udev rule is specific for non-systemd systems
     add_udev_rule '/usr/lib/initcpio/udev/69-dm-lvm.rules'
 
     # config file
