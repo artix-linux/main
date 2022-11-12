@@ -1,10 +1,10 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: spider-mario <spidermario@free.fr>
 # Contributor: Daniel Ehlers <danielehlers@mindeye.net>
 
 pkgname=coin-or-clp
 pkgver=1.17.7
-pkgrel=2
+pkgrel=3
 pkgdesc='COIN-OR linear programming solver'
 arch=(x86_64)
 url='https://github.com/coin-or/Clp'
