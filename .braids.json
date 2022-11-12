@@ -4784,7 +4784,7 @@
     "libutf8proc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libutf8proc.git",
       "branch": "master",
-      "revision": "326214b4e9314de890f9bf72bb00e3f32589c8d2"
+      "revision": "23188c745411a014cd7f69fc26f2e66bd1bb6f2f"
     },
     "libutp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libutp.git",
