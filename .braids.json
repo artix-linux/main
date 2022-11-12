@@ -8004,7 +8004,7 @@
     "sdl_mixer": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl_mixer.git",
       "branch": "master",
-      "revision": "7038abae6ff007c106f57ccde52634dd18fb7bdf"
+      "revision": "a1b0479763002ac7586dcf041f93a8cbd8590bb8"
     },
     "sdl_net": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl_net.git",
