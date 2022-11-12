@@ -6989,7 +6989,7 @@
     "pugixml": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pugixml.git",
       "branch": "master",
-      "revision": "eb548cf57fa489738c59401beb4b1c65e813bd6e"
+      "revision": "a28487ed486e64a527a99515258e6011d9e28368"
     },
     "pulseaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pulseaudio.git",
