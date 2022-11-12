@@ -4374,7 +4374,7 @@
     "libpano13": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpano13.git",
       "branch": "master",
-      "revision": "ffb71290bed8faa4b635fae4fb544374b67598f6"
+      "revision": "a2c7a5ac26916a2fc80adbed5362436565042a4f"
     },
     "libpaper": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpaper.git",
