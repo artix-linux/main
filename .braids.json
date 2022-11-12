@@ -9619,7 +9619,7 @@
     "xl2tpd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd.git",
       "branch": "master",
-      "revision": "025f0478042bc4a80bca40a71796661b8ef47e17"
+      "revision": "461750d88ab9a84b68b9397116e9cd0622ac3d76"
     },
     "xmldiff": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmldiff.git",
