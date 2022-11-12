@@ -8174,7 +8174,7 @@
     "smpeg": {
       "url": "gitea@gitea.artixlinux.org:packagesS/smpeg.git",
       "branch": "master",
-      "revision": "9f3617a455b0a5dbd678490dc14957cd28099326"
+      "revision": "88800810fe4dc362cbb0c601dd9a31c34d050166"
     },
     "snapper": {
       "url": "gitea@gitea.artixlinux.org:packagesS/snapper.git",
