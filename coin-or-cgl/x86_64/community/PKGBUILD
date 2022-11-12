@@ -1,10 +1,10 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: spider-mario <spidermario@free.fr>
 # Contributor: Daniel Ehlers <danielehlers@mindeye.net>
 
 pkgname=coin-or-cgl
 pkgver=0.60.6
-pkgrel=1
+pkgrel=2
 pkgdesc='COIN-OR Cut Generation Library'
 arch=(x86_64)
 url='https://github.com/coin-or/Cgl'
