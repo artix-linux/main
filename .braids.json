@@ -5249,7 +5249,7 @@
     "live-media": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-media.git",
       "branch": "master",
-      "revision": "154cafc13db6aa274baa12dc324c3c89e84ccf42"
+      "revision": "f0b11864cd164e035ff8befdcb07576ad5538be6"
     },
     "live-services": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-services.git",
