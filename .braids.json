@@ -6219,7 +6219,7 @@
     "nvchecker": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvchecker.git",
       "branch": "master",
-      "revision": "177a5029566829c471d83b60b7fab611a9aef13c"
+      "revision": "5eb4c649a34e300441c8c0e2b7f514adc680d2c8"
     },
     "nvidia": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia.git",
