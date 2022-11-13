@@ -2389,7 +2389,7 @@
     "gptfdisk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gptfdisk.git",
       "branch": "master",
-      "revision": "9bef32e77165d68d70040893c399e046dbb968d6"
+      "revision": "6b8e310e6aaccaceaa539a806d3e952bc94d036f"
     },
     "gradle": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gradle.git",
