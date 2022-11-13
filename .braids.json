@@ -6216,6 +6216,11 @@
       "branch": "master",
       "revision": "f2b799a0292658d7972ddbc9e884fc14d26e1fab"
     },
+    "nuklear": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nuklear.git",
+      "branch": "master",
+      "revision": "294c4d72063f3d7c5549aea6481333fb5dda5d45"
+    },
     "numactl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/numactl.git",
       "branch": "master",
