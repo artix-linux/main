@@ -1899,7 +1899,7 @@
     "flake8": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flake8.git",
       "branch": "master",
-      "revision": "682f846136885cf1714d11b285b83faf85afc740"
+      "revision": "fcfb95b8f11435ff785a3affccc218c2474a3498"
     },
     "flashrom": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flashrom.git",
