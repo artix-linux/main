@@ -6219,7 +6219,7 @@
     "nuklear": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nuklear.git",
       "branch": "master",
-      "revision": "2b6113d6bb263cf36b6e3363d6ffe53b47b3e6b2"
+      "revision": "0f5e0c165dd4f06285456ee24bfac3529dc119a9"
     },
     "numactl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/numactl.git",
