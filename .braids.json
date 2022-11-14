@@ -8424,7 +8424,7 @@
     "suitesparse": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suitesparse.git",
       "branch": "master",
-      "revision": "13d427245858e6c1e4426e91f66b9ccef2cc864f"
+      "revision": "17cd195d58c32d1c98552fcc78204d6f70c4a5dc"
     },
     "supermin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/supermin.git",
