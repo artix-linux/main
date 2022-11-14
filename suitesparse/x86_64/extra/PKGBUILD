@@ -14,10 +14,6 @@ license=(GPL)
 source=(https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/v$pkgver/$pkgname-$pkgver.tar.gz)
 sha256sums=('06f55a0449775d1f43d8a33ba8c8417ea8cf76c27833b465c49825baa8741d0c')
 
-prepare() {
-  patch -d SuiteSparse-$pkgver -p1 < 769870a0.patch # Hide C BLAS prototypes from public headers
-}
-
 build() {
   cd SuiteSparse-$pkgver
 
