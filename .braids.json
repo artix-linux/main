@@ -469,7 +469,7 @@
     "banner": {
       "url": "gitea@gitea.artixlinux.org:packagesB/banner.git",
       "branch": "master",
-      "revision": "f17c59f22c8f27f8eaa088a7dfdcd386404a2510"
+      "revision": "5299f2fbbfb0253a75eba33c8abb56790d6ffce3"
     },
     "base": {
       "url": "gitea@gitea.artixlinux.org:packagesB/base.git",
