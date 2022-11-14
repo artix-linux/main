@@ -9784,7 +9784,7 @@
     "xorg-xkill": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xkill.git",
       "branch": "master",
-      "revision": "0f294cdcc238def2937f904830f79225e0054e5e"
+      "revision": "ad9b6068ad811c5dbae9093b4d75bce269677842"
     },
     "xorg-xmessage": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmessage.git",
