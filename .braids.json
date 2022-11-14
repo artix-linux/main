@@ -4309,7 +4309,7 @@
     "libnumbertext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnumbertext.git",
       "branch": "master",
-      "revision": "7be77664a290696c62d2c095f928305df2233c26"
+      "revision": "26a8cad99568f5a7fca10d04ff5f24f23203801a"
     },
     "liboauth": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liboauth.git",
