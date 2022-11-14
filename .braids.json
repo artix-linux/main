@@ -934,7 +934,7 @@
     "codespell": {
       "url": "gitea@gitea.artixlinux.org:packagesC/codespell.git",
       "branch": "master",
-      "revision": "0dfa8fb0ff6eae4f8466410b8c9b242cde88a1fe"
+      "revision": "0e3a3a9e56959742f6336a057f27e28a679f4d73"
     },
     "coffeescript": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coffeescript.git",
