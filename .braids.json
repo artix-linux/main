@@ -744,7 +744,7 @@
     "catdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catdoc.git",
       "branch": "master",
-      "revision": "2dbfba6a66ab234a8bc90e097f03d66dd65a93d9"
+      "revision": "e2041bf38c42f2aa0ac00c88bb99024e33600549"
     },
     "catfish": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
