@@ -7509,7 +7509,7 @@
     "qt6-sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-sensors.git",
       "branch": "master",
-      "revision": "95ca03d3809149276cbaa61f394425efb618ff9a"
+      "revision": "8b451f0f844f08aa5c0cee4880071fddd310d86f"
     },
     "qt6-serialbus": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialbus.git",
