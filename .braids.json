@@ -829,7 +829,7 @@
     "chrpath": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrpath.git",
       "branch": "master",
-      "revision": "1af503912cfdb82452ae96762f89fe669b8fc8b1"
+      "revision": "d270c3ce73ce90bdfcacf2157e8d912c6e6f1088"
     },
     "cifs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cifs-utils.git",
