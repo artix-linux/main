@@ -1364,7 +1364,7 @@
     "docbook-dsssl": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docbook-dsssl.git",
       "branch": "master",
-      "revision": "45afa054629026277cf0071852809870bde8435e"
+      "revision": "f6bc063311fe6ac18ea8dea9d6ad22bb85859952"
     },
     "docbook-sgml": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docbook-sgml.git",
