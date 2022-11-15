@@ -1184,7 +1184,7 @@
     "dblatex": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dblatex.git",
       "branch": "master",
-      "revision": "5af7182114dd32051a9882783e91a6547d38136a"
+      "revision": "41cda85dc63cd0d7cf48531b6e63f73834f2d4ab"
     },
     "dbus": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus.git",
