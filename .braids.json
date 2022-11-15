@@ -7479,7 +7479,7 @@
     "qt6-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-networkauth.git",
       "branch": "master",
-      "revision": "8e93d235999c416ff366899a5f1601a034819f72"
+      "revision": "de6f8bc81f1c0304237915d267a477e4b88dfdc7"
     },
     "qt6-positioning": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-positioning.git",
