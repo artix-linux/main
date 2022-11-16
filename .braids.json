@@ -2744,7 +2744,7 @@
     "httpbin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/httpbin.git",
       "branch": "master",
-      "revision": "e40574a2212275624fe5ba3f25287cd5bca806e9"
+      "revision": "0b2828c9c6320ec381b33e06ff6b8a8e07313dad"
     },
     "hub": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hub.git",
