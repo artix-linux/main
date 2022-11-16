@@ -4289,7 +4289,7 @@
     "libnitrokey": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnitrokey.git",
       "branch": "master",
-      "revision": "c3725a3b60e08a92d13669be4694fd5db53d97f5"
+      "revision": "c156f5f6724a453807915344257a0b0e3b4ecf3d"
     },
     "libnl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnl.git",
