@@ -3864,7 +3864,7 @@
     "libgpg-error": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgpg-error.git",
       "branch": "master",
-      "revision": "488be0ee71af4f9c382f901ab52e030440417278"
+      "revision": "ea80b10b8283aebf0ddddd15d63953243e54d268"
     },
     "libgphoto2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgphoto2.git",
