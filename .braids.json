@@ -7529,7 +7529,7 @@
     "qt6-speech": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-speech.git",
       "branch": "master",
-      "revision": "4133741875d515e570cd7d75a370ae5faf811aab"
+      "revision": "120b08db09ec8a7722e743625a98826452908900"
     },
     "qt6-svg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-svg.git",
