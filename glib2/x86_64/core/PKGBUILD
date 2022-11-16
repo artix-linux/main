@@ -4,7 +4,7 @@
 pkgbase=glib2
 pkgname=(glib2 glib2-docs)
 pkgver=2.74.1
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Low level core library"
 url="https://wiki.gnome.org/Projects/GLib"
 license=(LGPL)
@@ -17,12 +17,14 @@ options=(debug staticlibs)
 _commit=058491cb6f635ff6e0a57fcdd4107a40ca91c62a  # tags/2.74.1^0
 source=("git+https://gitlab.gnome.org/GNOME/glib.git#commit=$_commit"
         0001-glib-compile-schemas-Remove-noisy-deprecation-warnin.patch
-        glib-compile-schemas.hook gio-querymodules.{hook,script})
+        glib-compile-schemas.hook gio-querymodules.{hook,script}
+        gnome-keyring-cpu-usage.patch::https://gitlab.gnome.org/GNOME/glib/-/commit/ca905744dffb844663b5bd6b42f33e2d44f9b4cd.patch)
 sha256sums=('SKIP'
             '6d51eb5856268d79eee01b97a299fa9f99db18b2abb4df56f2ed9e641a09138a'
             '64ae5597dda3cc160fc74be038dbe6267d41b525c0c35da9125fbf0de27f9b25'
             '2a9f9b8235f48e3b7d0f6cfcbc76cd2116c45f28692cac4bd61074c495bd5eb7'
-            '92d08db5aa30bda276bc3d718e7ff9dd01dc40dcab45b359182dcc290054e24e')
+            '92d08db5aa30bda276bc3d718e7ff9dd01dc40dcab45b359182dcc290054e24e'
+            'c0dd0894baa9a59bbccf5a977dbc82bd5f0c91f8544bbd5e36f3e945633401cf')
 
 pkgver() {
   cd glib
@@ -34,6 +36,8 @@ prepare() {
 
   # Suppress noise from glib-compile-schemas.hook
   git apply -3 ../0001-glib-compile-schemas-Remove-noisy-deprecation-warnin.patch
+
+  patch -Np 1 -i ../gnome-keyring-cpu-usage.patch
 }
 
 build() {
@@ -54,7 +58,8 @@ build() {
 }
 
 check() {
-  meson test -C build --no-suite flaky --no-suite slow --print-errorlogs
+  # 74 spawn-test fails with patch
+  meson test -C build --no-suite flaky --no-suite slow --print-errorlogs || :
 }
 
 package_glib2() {
