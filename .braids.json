@@ -3159,7 +3159,7 @@
     "jshon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jshon.git",
       "branch": "master",
-      "revision": "146c6b4e575c6e1aa55c532e75e75763264cbb55"
+      "revision": "59c0031aca8c12069dcd7ca2b7f2bf81b5c5d26e"
     },
     "json-c": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/json-c.git",
