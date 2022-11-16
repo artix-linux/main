@@ -5914,7 +5914,7 @@
     "muparser": {
       "url": "gitea@gitea.artixlinux.org:packagesM/muparser.git",
       "branch": "master",
-      "revision": "66888b0ca9d879998d446a487f9979cc7f9ba721"
+      "revision": "51b7a026f2223571254e93c3ce55f24e9c19cea3"
     },
     "mupdf": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mupdf.git",
