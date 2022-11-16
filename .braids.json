@@ -4319,7 +4319,7 @@
     "libodfgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libodfgen.git",
       "branch": "master",
-      "revision": "774f6963039ead3cfe7c370a6f2ffafc247f66b5"
+      "revision": "9eb8c4e09d06f4721d7f4c5239c46f396a0542bf"
     },
     "libofa": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libofa.git",
