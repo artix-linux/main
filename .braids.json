@@ -1029,7 +1029,7 @@
     "convertlit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/convertlit.git",
       "branch": "master",
-      "revision": "81a70d97bf7f14632ca8238b79eb2afe1721d516"
+      "revision": "0531da54cb3bd3f11f5b3f05c14d436797e89ed0"
     },
     "coreutils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coreutils.git",
