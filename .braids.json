@@ -4219,7 +4219,7 @@
     "libmwaw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmwaw.git",
       "branch": "master",
-      "revision": "a0cab0bf49d9f1879bdf8da6b59cda5e8b5c0734"
+      "revision": "8fb45bfa1ef50db61b6b329c3777b873ad20fcf2"
     },
     "libmypaint": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmypaint.git",
