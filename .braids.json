@@ -1459,7 +1459,7 @@
     "dropbear": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dropbear.git",
       "branch": "master",
-      "revision": "436b477f3733a406a77fce1313863fcbcfb61de3"
+      "revision": "881f55c13a1bf0ac05eb0a244bb6778eaaa7889e"
     },
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
