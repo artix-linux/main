@@ -7789,7 +7789,7 @@
     "rpcbind": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind.git",
       "branch": "master",
-      "revision": "bfe5cdd54875101fe6af5fd0031f4851daefb4fb"
+      "revision": "0f1d6f5e89f16ad2f2d562c8a7e049e484449c4d"
     },
     "rpcsvc-proto": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcsvc-proto.git",
