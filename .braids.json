@@ -3819,7 +3819,7 @@
     "libgcrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgcrypt.git",
       "branch": "master",
-      "revision": "2d2b857210151392cda81671d47ae27dff56bf67"
+      "revision": "8f370ed542a8ef1bda9f763ae5aa4960418f4e31"
     },
     "libgdata": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdata.git",
