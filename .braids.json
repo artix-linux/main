@@ -3709,7 +3709,7 @@
     "libepubgen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepubgen.git",
       "branch": "master",
-      "revision": "5cb36645749f03fc75a11d6768df655165c59aab"
+      "revision": "ca4132f59a8d2db0a8351b74ef3b8e3129101add"
     },
     "libesmtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libesmtp.git",
