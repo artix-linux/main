@@ -3639,7 +3639,7 @@
     "libdiscid": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdiscid.git",
       "branch": "master",
-      "revision": "89534feb3c4ecbde1d5f3b662e93d09541abaf35"
+      "revision": "60aa59e1228d87b52e8a990eb6c3d0eb5fbc55ec"
     },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
