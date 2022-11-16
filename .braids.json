@@ -5799,7 +5799,7 @@
     "modemmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager.git",
       "branch": "master",
-      "revision": "d7949228f1b77ba1361a5e1d03eda3aef58d7ed8"
+      "revision": "ad8d5ea4d379c09414bbe3f3b078a079cea18e49"
     },
     "molecule": {
       "url": "gitea@gitea.artixlinux.org:packagesM/molecule.git",
