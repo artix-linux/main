@@ -4114,7 +4114,7 @@
     "libmbim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmbim.git",
       "branch": "master",
-      "revision": "09fcb65488d10476640deba059499367dd100f6e"
+      "revision": "9aa275a88a68b4428282d2d52bcd2d35dc669983"
     },
     "libmd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmd.git",
