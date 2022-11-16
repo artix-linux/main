@@ -2844,7 +2844,7 @@
     "ijs": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ijs.git",
       "branch": "master",
-      "revision": "1573597e29934574bd70c7e083637b62ee59548e"
+      "revision": "71278e7b042864fc69619b68a50f9c9d435ac8fc"
     },
     "imagemagick": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imagemagick.git",
