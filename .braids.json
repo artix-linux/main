@@ -7549,7 +7549,7 @@
     "qt6-virtualkeyboard": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-virtualkeyboard.git",
       "branch": "master",
-      "revision": "0c41b9c994c7d4b156cef72a0d281b6d7008d5f3"
+      "revision": "9b498903d02a365d706eca2ef8532af961ffb98f"
     },
     "qt6-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-wayland.git",
