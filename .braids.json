@@ -2789,7 +2789,7 @@
     "hyphen": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyphen.git",
       "branch": "master",
-      "revision": "062d89630c60be9292cc65b255601b4cc312eef9"
+      "revision": "d3f8a12788ab91b5b9cc97e06036d5a3e26d6290"
     },
     "i2c-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
