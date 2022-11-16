@@ -4909,7 +4909,7 @@
     "libwnck": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwnck.git",
       "branch": "master",
-      "revision": "42719fe7b1b3fbfdcd8cc786ee24faa4f692bab4"
+      "revision": "81414e79f06a081024fcac0d17148a0f127cf8b2"
     },
     "libwnck3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwnck3.git",
