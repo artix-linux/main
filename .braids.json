@@ -4919,7 +4919,7 @@
     "libwpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpd.git",
       "branch": "master",
-      "revision": "48de90c2f4bc6b9e2d3840303f22c6ee028ad441"
+      "revision": "f3f3b3986ed65a71ab96b666a17d7392132435ee"
     },
     "libwpe": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpe.git",
