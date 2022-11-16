@@ -3724,7 +3724,7 @@
     "libev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libev.git",
       "branch": "master",
-      "revision": "4c4eff9906b3a314ce6d1a4e7cff2f2159941715"
+      "revision": "6facb209b41fde46869f38871b9c2c4616b8e922"
     },
     "libevdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevdev.git",
