@@ -5324,7 +5324,7 @@
     "lpsolve": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lpsolve.git",
       "branch": "master",
-      "revision": "ebec3dedbcbe1ff616dad86b18ea6ed28b99cab3"
+      "revision": "ccabf77bb1a6a46baf9d383ed76c56bf9a696cc9"
     },
     "lrzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lrzip.git",
