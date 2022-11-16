@@ -4929,7 +4929,7 @@
     "libwpg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpg.git",
       "branch": "master",
-      "revision": "9db87336c0bcc644a90402db46ada9bed31f5f5b"
+      "revision": "fe2e971d94121d261c78e0c40410a617cde40ce8"
     },
     "libwps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwps.git",
