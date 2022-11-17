@@ -5089,7 +5089,7 @@
     "libxrandr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxrandr.git",
       "branch": "master",
-      "revision": "8bd761a94bc19b4eb70ea67549dcf695f39c6dc5"
+      "revision": "7d460dd5e545eff04c7787bf9a1936791bc72656"
     },
     "libxrender": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxrender.git",
