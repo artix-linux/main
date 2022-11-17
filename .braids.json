@@ -9449,7 +9449,7 @@
     "xcb-proto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-proto.git",
       "branch": "master",
-      "revision": "6ebed84fdabc158dd1dd91146c90f4d37b36492f"
+      "revision": "4125800eab5cf95e7de4e94e1e5aa951a32955d0"
     },
     "xcb-util": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util.git",
