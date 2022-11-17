@@ -1214,7 +1214,7 @@
     "dconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dconf.git",
       "branch": "master",
-      "revision": "456b93304df4bd123cb71b1c6fa4ac7cf767e28f"
+      "revision": "d5345f007b3ae24cd7f900d9b360df408c36a856"
     },
     "ddclient": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient.git",
