@@ -4679,7 +4679,7 @@
     "libthai": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libthai.git",
       "branch": "master",
-      "revision": "74cccb525e19b760b00cca73f56c4b9bf950c7cd"
+      "revision": "bd51e4e8da29a94a2269641a7317a05ca5bd5105"
     },
     "libtheora": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtheora.git",
