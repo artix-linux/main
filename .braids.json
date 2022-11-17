@@ -2704,7 +2704,7 @@
     "hiredis": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiredis.git",
       "branch": "master",
-      "revision": "dff5ca8aae8e6068d1228bcf2161baeaa4bf4aa5"
+      "revision": "60d2dbf44538d0f537af1bd8b3995d392137520e"
     },
     "hivex": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hivex.git",
