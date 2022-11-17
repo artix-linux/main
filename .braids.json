@@ -5439,7 +5439,7 @@
     "lzo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lzo.git",
       "branch": "master",
-      "revision": "a06b36fca841896d77c5b04d1d0025ef092fb505"
+      "revision": "be9fc4e9e9d3280d287d557116f485a13a32340c"
     },
     "lzop": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lzop.git",
