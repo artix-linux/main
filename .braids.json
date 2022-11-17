@@ -5004,7 +5004,7 @@
     "libxfixes": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxfixes.git",
       "branch": "master",
-      "revision": "96390849b90ff8f9baf87704cf222bec5a1fa919"
+      "revision": "1c6c76084d1342c1cebd6bbdcf0117015296e614"
     },
     "libxfont2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxfont2.git",
