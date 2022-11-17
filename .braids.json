@@ -4744,7 +4744,7 @@
     "libunwind": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libunwind.git",
       "branch": "master",
-      "revision": "945e817b41358085a11e8106048ba60e04a83c70"
+      "revision": "f186ff3f1f59034e3f666795f0fe813b5a922f12"
     },
     "libupnp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libupnp.git",
