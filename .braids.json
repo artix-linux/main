@@ -4964,7 +4964,7 @@
     "libxcb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcb.git",
       "branch": "master",
-      "revision": "76911e7d38ebe5c205afbf777318ead1e4482a94"
+      "revision": "726defba70479fcb02e9a92b8d7c1f3ae5ab2d17"
     },
     "libxcomposite": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcomposite.git",
