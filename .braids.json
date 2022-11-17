@@ -4274,7 +4274,7 @@
     "libnghttp2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnghttp2.git",
       "branch": "master",
-      "revision": "cf01c1383e6c2feb21d6970c8fc8ac5d3bf835d8"
+      "revision": "6c68eae7a66706ea8acaf0a814ad96d5e3bdadef"
     },
     "libnice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnice.git",
