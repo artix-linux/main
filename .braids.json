@@ -5294,7 +5294,7 @@
     "lm_sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors.git",
       "branch": "master",
-      "revision": "8f40d0b3dfeb51042b4d33976d4f92d333b3c34f"
+      "revision": "c5b0aab6eb0a96c8c70420c88a5daee48da72c6f"
     },
     "lmdb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lmdb.git",
