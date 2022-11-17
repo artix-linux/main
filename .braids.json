@@ -4979,7 +4979,7 @@
     "libxcursor": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcursor.git",
       "branch": "master",
-      "revision": "a493b1a84dc6aefb222cd48383a477fe40bc8fec"
+      "revision": "5eda33c94ec7c5de5efbd2ef16f9a23f45cbed2f"
     },
     "libxcvt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcvt.git",
