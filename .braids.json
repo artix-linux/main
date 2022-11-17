@@ -5964,7 +5964,7 @@
     "nauty": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nauty.git",
       "branch": "master",
-      "revision": "543a4ab699fe7f7b79c441ec65721f4bcaabe52b"
+      "revision": "a0d7710fbc22bd8a18402483e8813a52550e5b86"
     },
     "nawk": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nawk.git",
