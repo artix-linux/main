@@ -3609,7 +3609,7 @@
     "libdatrie": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdatrie.git",
       "branch": "master",
-      "revision": "7251f67372ebbe612be810887d81f3382d1cca92"
+      "revision": "6a8e8fa604da60a59da96056ec884558cb490b72"
     },
     "libdbi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdbi.git",
