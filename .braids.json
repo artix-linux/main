@@ -4994,7 +4994,7 @@
     "libxdmcp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxdmcp.git",
       "branch": "master",
-      "revision": "9647cc0654f3c5a206ca6fa0f636124fb8ed802c"
+      "revision": "a6c77aff53ff7b15552073d2533030f73caf1ebf"
     },
     "libxext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxext.git",
