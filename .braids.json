@@ -9869,7 +9869,7 @@
     "xtrans": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xtrans.git",
       "branch": "master",
-      "revision": "56db5a2ddd693cb640d06b2470bb0881c46789f5"
+      "revision": "ff55d6c8420bb5ae856caf1b6f527dc9ed95f262"
     },
     "xvidcore": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xvidcore.git",
