@@ -9154,7 +9154,7 @@
     "virtualbox": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox.git",
       "branch": "master",
-      "revision": "546f974bbfa9436f39745b6c16192cb099d76df9"
+      "revision": "2037898daf4993daf3d8f7e433db965c73261b1c"
     },
     "virtualbox-guest-iso": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-guest-iso.git",
