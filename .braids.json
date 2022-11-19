@@ -9229,7 +9229,7 @@
     "vulkan-docs": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-docs.git",
       "branch": "master",
-      "revision": "9e484e6715e92e8710589836b733624afe2be057"
+      "revision": "067ef4520d53d5c96936f1b8d3afe7c375de7988"
     },
     "vulkan-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-headers.git",
