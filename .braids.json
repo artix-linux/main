@@ -9239,7 +9239,7 @@
     "vulkan-icd-loader": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-icd-loader.git",
       "branch": "master",
-      "revision": "11ee1269205cd63ae6b89e8dccf145a1a2cf397a"
+      "revision": "9551edf83c6817273c3efcfa048de6a802549ba8"
     },
     "vulkan-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-tools.git",
