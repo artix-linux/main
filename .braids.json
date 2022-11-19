@@ -239,7 +239,7 @@
     "artix-mirrorlist": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-mirrorlist.git",
       "branch": "master",
-      "revision": "a8ac75204c56098e11d87d45d7e61cb6d7911ca1"
+      "revision": "def63ce67ba7a73cb03ab4387651fdaa763b8c33"
     },
     "artix-rebuild-order": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artix-rebuild-order.git",
