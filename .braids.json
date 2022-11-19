@@ -9134,7 +9134,7 @@
     "vim": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vim.git",
       "branch": "master",
-      "revision": "f31fa748107f1e2c582840da474b0e99264f2104"
+      "revision": "4f18135df385afd20f33dc924ffaa1fd63dcb087"
     },
     "vimiv": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vimiv.git",
