@@ -4769,7 +4769,7 @@
     "libusb-compat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusb-compat.git",
       "branch": "master",
-      "revision": "6886f0d8b4aa808658684916020fb304d95db24f"
+      "revision": "e6466ed541cb46f0e5fb1daccbcdb847c1c836b2"
     },
     "libusbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbmuxd.git",
