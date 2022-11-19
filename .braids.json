@@ -7629,7 +7629,7 @@
     "raft": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raft.git",
       "branch": "master",
-      "revision": "25c7c549c10035e1969f18747d0ce4b28ae4ebad"
+      "revision": "3df70cebe424c9999b591c4c603088caa2f4f3ee"
     },
     "ragel": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ragel.git",
