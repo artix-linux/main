@@ -4974,7 +4974,7 @@
     "libxcrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcrypt.git",
       "branch": "master",
-      "revision": "89ef01bb09fd82b0da6af18fcbd9feaac8b96d60"
+      "revision": "530b0b95894604bdb5e218b52a976a2f6433b98f"
     },
     "libxcursor": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcursor.git",
