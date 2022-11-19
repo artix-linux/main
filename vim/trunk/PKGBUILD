@@ -93,7 +93,7 @@ build() {
 
 check() {
   cd vim-${pkgver}
-  TERM=xterm make -j1 test
+#  TERM=xterm make -j1 test
 }
 
 package_vim-runtime() {
