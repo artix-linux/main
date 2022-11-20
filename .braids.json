@@ -5544,7 +5544,7 @@
     "mandown": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mandown.git",
       "branch": "master",
-      "revision": "d3026680089abe734bc0c51cea37c3affdab694e"
+      "revision": "7997c01299e97e348bef48436728a45f69192c6f"
     },
     "mariadb": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mariadb.git",
