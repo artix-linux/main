@@ -2284,7 +2284,7 @@
     "gn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gn.git",
       "branch": "master",
-      "revision": "2b698384e096c6a60106f6ceb1324c9e17f3bb32"
+      "revision": "69400e19873ad1ab1b50222c0550f338f160c01d"
     },
     "gnu-efi": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnu-efi.git",
