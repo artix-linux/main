@@ -9444,7 +9444,7 @@
     "xcb-imdkit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-imdkit.git",
       "branch": "master",
-      "revision": "aab61cfb2182b0a584c1a2dac14b320f6ce0cb46"
+      "revision": "b892e41df5661c1affe3f0117e5cec8c390a5b1d"
     },
     "xcb-proto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-proto.git",
