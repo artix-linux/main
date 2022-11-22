@@ -1469,7 +1469,7 @@
     "dump_syms": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dump_syms.git",
       "branch": "master",
-      "revision": "87c41a42338c6de2922b3ca8a37dcaaa764e46aa"
+      "revision": "b6e4ed8712e8a8cb6caf6bb357bf5281322db37d"
     },
     "dune": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dune.git",
