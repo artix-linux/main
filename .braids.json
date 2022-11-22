@@ -139,7 +139,7 @@
     "ant": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ant.git",
       "branch": "master",
-      "revision": "09e049fe3cf547de8faedb92539051dd623ec02d"
+      "revision": "e7ea6a96643096187c055f735f6a847326e0e4a8"
     },
     "aom": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aom.git",
