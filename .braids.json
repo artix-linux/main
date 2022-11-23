@@ -3084,7 +3084,7 @@
     "java-xmlgraphics-commons": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-xmlgraphics-commons.git",
       "branch": "master",
-      "revision": "c648750f60176ffc14540dc6ed32868cd66574a7"
+      "revision": "f6e2d24c4ff0930b6881a9ef89c42df075e6fb0e"
     },
     "java11-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java11-openjdk.git",
