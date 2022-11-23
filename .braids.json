@@ -2489,7 +2489,7 @@
     "gssdp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gssdp.git",
       "branch": "master",
-      "revision": "fbe45e7db373727f2d55fdb1b670f6e9ee95b2e1"
+      "revision": "7f8cd7c530826c6475d2d88a9631e1c3f9287669"
     },
     "gssproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gssproxy.git",
