@@ -9094,7 +9094,7 @@
     "vapoursynth": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vapoursynth.git",
       "branch": "master",
-      "revision": "096893e39ed304abe18c4c457971c5e580a18f9b"
+      "revision": "9733614f4edc3e57d06a1a6fafd5a4291198e7d6"
     },
     "vc-intrinsics": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vc-intrinsics.git",
