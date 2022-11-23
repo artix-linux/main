@@ -4569,7 +4569,7 @@
     "libsidplayfp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsidplayfp.git",
       "branch": "master",
-      "revision": "13df01b5a17a819daf96ac08ba3f99ee3749ab3b"
+      "revision": "ac02197a010a7af5102cba2f9fc1c221b69b54b8"
     },
     "libsigc++": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigcplusplus.git",
