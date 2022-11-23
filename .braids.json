@@ -4934,7 +4934,7 @@
     "libwps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwps.git",
       "branch": "master",
-      "revision": "341ac911aacf697d59b8d91d9605eca9006e9c80"
+      "revision": "ccffba27508bda8d336faf338076f95e34084ef4"
     },
     "libwslay": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwslay.git",
