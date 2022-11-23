@@ -8699,7 +8699,7 @@
     "tk": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tk.git",
       "branch": "master",
-      "revision": "d6fc41dcffaa13689b9f9f900c035cde7ced64e5"
+      "revision": "260a908b5218f2880cfa4245b3c044b15d535835"
     },
     "tldp-howtos-txt": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tldp-howtos-txt.git",
