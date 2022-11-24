@@ -3699,7 +3699,7 @@
     "libedit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libedit.git",
       "branch": "master",
-      "revision": "c936f077aaccdb9b860835e0eb6d184ae21bed14"
+      "revision": "4f9454d8792c8f13605f4b6a08b7f5d987bb79aa"
     },
     "libepoxy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libepoxy.git",
