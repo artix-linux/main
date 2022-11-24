@@ -10029,7 +10029,7 @@
     "zlib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zlib.git",
       "branch": "master",
-      "revision": "e3cfa98a7d45ba2d06991f186365e76aa910230f"
+      "revision": "1a8f12e8b0775eada70cf9fb37106e2a49072a6c"
     },
     "znc": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
