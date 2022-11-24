@@ -669,7 +669,7 @@
     "bzip2": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bzip2.git",
       "branch": "master",
-      "revision": "17d2eb099f98457f8bb49d8e27cf6ad2bd706b26"
+      "revision": "37d303d8528f68c54ff4a9ccad96c181fc69e6bd"
     },
     "bzrtp": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bzrtp.git",
