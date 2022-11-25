@@ -1,5 +1,6 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
+#
 
 pkgbase=glib2
 pkgname=(glib2 glib2-docs)
