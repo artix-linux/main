@@ -6754,7 +6754,7 @@
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
       "branch": "master",
-      "revision": "8b3d65eb6d97f36fe808afbd11e1d86cb96b2898"
+      "revision": "0c44577da64377413fcbccbdc666d6be6a50f10e"
     },
     "pifpaf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pifpaf.git",
