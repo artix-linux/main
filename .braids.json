@@ -2959,7 +2959,7 @@
     "iputils": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iputils.git",
       "branch": "master",
-      "revision": "a6ee06c39387020720804d48f5b4aba6208d63ca"
+      "revision": "affbadf52524a51960dcb3c0de94e0dbd27b1df3"
     },
     "ipython": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipython.git",
