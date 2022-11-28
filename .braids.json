@@ -7454,7 +7454,7 @@
     "qt6-httpserver": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-httpserver.git",
       "branch": "master",
-      "revision": "1467e2a60b066c9332ee2e586ac14ac983dbf53d"
+      "revision": "754a42eec0bd6aedb105d24e421d7b12c46cc3fa"
     },
     "qt6-imageformats": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-imageformats.git",
