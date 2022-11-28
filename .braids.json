@@ -3779,7 +3779,7 @@
     "libffado": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libffado.git",
       "branch": "master",
-      "revision": "8af1ea2a6947d73e7ff9b7efe85ce44adfb580fe"
+      "revision": "bafa777fb3d49106cf45dadbd779fa3fea392ec3"
     },
     "libffi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libffi.git",
