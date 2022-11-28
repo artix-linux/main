@@ -16,6 +16,7 @@ arch=(x86_64)
 license=(MIT)
 makedepends=(
   doxygen
+  elogind
   git
   glib2
   gobject-introspection
@@ -28,6 +29,7 @@ makedepends=(
   python-sphinx
   python-sphinx_rtd_theme
 )
+depends=('libelogind')
 checkdepends=(pipewire-audio)
 options=(debug)
 source=("git+https://gitlab.freedesktop.org/pipewire/$pkgbase.git#commit=$_commit")
