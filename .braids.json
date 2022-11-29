@@ -5374,7 +5374,7 @@
     "luajit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luajit.git",
       "branch": "master",
-      "revision": "00098b11f022dc365efdb7839e93f84648978b01"
+      "revision": "39f8825b330ef190bdb83ec2c3d8b5e76ac88650"
     },
     "luarocks": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luarocks.git",
