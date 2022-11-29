@@ -8254,7 +8254,7 @@
     "sox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sox.git",
       "branch": "master",
-      "revision": "c7908ecbf66a3ad6b0f35063646ebf9c9ec0b644"
+      "revision": "62d89850848b46fd3ea0a3839c865189903b637f"
     },
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
