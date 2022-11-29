@@ -9299,7 +9299,7 @@
     "wayland-protocols": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wayland-protocols.git",
       "branch": "master",
-      "revision": "37cb7661f25e78b9f82ed96a03afdb7839e5ad47"
+      "revision": "e8faf1fba7b3a57b3d2c558ca8d85f6b8d3834ab"
     },
     "wayland-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wayland-utils.git",
