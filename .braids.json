@@ -1234,7 +1234,7 @@
     "default-cursors": {
       "url": "gitea@gitea.artixlinux.org:packagesD/default-cursors.git",
       "branch": "master",
-      "revision": "a54651686aa23eb9a523dbbe4d76a20a56f42bc0"
+      "revision": "49154f62c2a611940c04ed5c6240eb7c0e45a261"
     },
     "dejagnu": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dejagnu.git",
