@@ -4254,7 +4254,7 @@
     "libnewt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnewt.git",
       "branch": "master",
-      "revision": "776652994a1d1deb83f07c4d54622e310ef17cde"
+      "revision": "aa4d058ef06e8241b3d358d865068bc94d1e6061"
     },
     "libnfnetlink": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnfnetlink.git",
