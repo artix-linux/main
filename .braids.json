@@ -7684,7 +7684,7 @@
     "rawtherapee": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rawtherapee.git",
       "branch": "master",
-      "revision": "88409dc47d4e0e8137bc6d3d9e1fe161bf74163d"
+      "revision": "5230825c316aeb31202c171ee523b0b5a6d226a3"
     },
     "razor": {
       "url": "gitea@gitea.artixlinux.org:packagesR/razor.git",
