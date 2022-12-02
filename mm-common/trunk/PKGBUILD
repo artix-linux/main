@@ -12,7 +12,7 @@ makedepends=(libsigc++ git meson)
 license=(GPL2)
 _commit=16af4937218061076c18816f749242b4c488383b  # tags/1.0.5^0
 source=("git+https://gitlab.gnome.org/GNOME/mm-common.git#commit=$_commit"
-        https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag)
+        libstdc++-${pkgver}::https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag)
 sha256sums=('SKIP'
             'dfb6521cb807fc827c34bcd47dbcf2f7564b2fc1b6014ebb13bed349ddf55af0')
 
@@ -23,7 +23,7 @@ pkgver() {
 
 prepare() {
   cd $pkgname
-  cp ../libstdc++.tag doctags
+  cp ../libstdc++-${pkgver}.tag doctags
 }
 
 build() {
