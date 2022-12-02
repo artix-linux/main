@@ -9409,7 +9409,7 @@
     "wpewebkit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpewebkit.git",
       "branch": "master",
-      "revision": "e1ee87bf4228accba09b2fc5791224d36a4d21b2"
+      "revision": "5fe6ddd1413d84f0e17584280c43313cf312a40e"
     },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
