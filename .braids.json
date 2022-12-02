@@ -1099,7 +1099,7 @@
     "cryptsetup": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup.git",
       "branch": "master",
-      "revision": "990eef0663fa4ba39051779883b085681d4c249c"
+      "revision": "8eaaf37d5617dd288f71136b95b0203e5d17e504"
     },
     "cscope": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cscope.git",
