@@ -5789,7 +5789,7 @@
     "mm-common": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mm-common.git",
       "branch": "master",
-      "revision": "9ff9d2c22ee52c94b60d561cb22546437a67a5bf"
+      "revision": "ccd3abd2e079cf2b0025306f0f952db1c708f457"
     },
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
