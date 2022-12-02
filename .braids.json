@@ -8054,7 +8054,7 @@
     "sed": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sed.git",
       "branch": "master",
-      "revision": "7d533982607c2282c167125a258af778b27514ba"
+      "revision": "ab294f59da719f67e91c861ecef796d17b6fddf9"
     },
     "semver": {
       "url": "gitea@gitea.artixlinux.org:packagesS/semver.git",
