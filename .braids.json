@@ -379,7 +379,7 @@
     "autopep8": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autopep8.git",
       "branch": "master",
-      "revision": "f8f29e8476d5db798fca642b66353aa0dea09a70"
+      "revision": "55b5089fb1048f73e0edd3f95ac0ad415ed76251"
     },
     "avahi": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avahi.git",
