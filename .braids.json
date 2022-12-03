@@ -519,7 +519,7 @@
     "beanshell": {
       "url": "gitea@gitea.artixlinux.org:packagesB/beanshell.git",
       "branch": "master",
-      "revision": "602bce2bf1a27b43d291e248ff7a12e9342a51de"
+      "revision": "b5a6269a2f8407cc97ec764f2e83be5dadc07bf9"
     },
     "bearssl": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bearssl.git",
