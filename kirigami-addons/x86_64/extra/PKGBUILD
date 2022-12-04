@@ -9,9 +9,8 @@ arch=(x86_64)
 license=(GPL LGPL)
 depends=(kirigami2)
 makedepends=(extra-cmake-modules ki18n)
-source=(https://download.kde.org/stable/$pkgname/$pkgname-$pkgver.tar.xz{,.sig})
-sha256sums=('2a399afa29ea5ad2c74f5b20e52055aebc43867405596e16b9b1ebe0d000d7d2'
-            'SKIP')
+source=(https://download.kde.org/stable/$pkgname/$pkgname-$pkgver.tar.xz)
+sha256sums=('2a399afa29ea5ad2c74f5b20e52055aebc43867405596e16b9b1ebe0d000d7d2')
 validpgpkeys=(0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D  # Bhushan Shah (mykolab address) <bshah@mykolab.com>
               39FFA93CAE9C6AFC212AD00202325448204E452A) # Carl Schwan <carl@carlschwan.eu>
 
