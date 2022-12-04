@@ -1,7 +1,7 @@
 # Maintainer: Qontinuum <qontinuum@artixlinux.org>
 
 pkgbase=linux-zen
-pkgver=6.0.9.zen1
+pkgver=6.0.11.zen1
 pkgrel=1
 pkgdesc='Linux ZEN'
 _srctag=v${pkgver%.*}-${pkgver##*.}
@@ -26,7 +26,7 @@ validpgpkeys=(
   'C5ADB4F3FEBBCE27A3E54D7D9AE4078033F8024D'  # Steven Barrett <steven@liquorix.net>
 )
 sha256sums=('SKIP'
-            '25e90255e88a9624363b38d2f7343f8f78873f1c318ab45db8cb4e55d51fbdab')
+            '6e1d05ed5a1ab821ab35e53460cc87ff4969338afbfaff38d19e4c12d9c90c2f')
 
 export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
@@ -154,7 +154,7 @@ _package-headers() {
   echo "Stripping build tools..."
   local file
   while read -rd '' file; do
-    case "$(file -bi "$file")" in
+    case "$(file -Sib "$file")" in
       application/x-sharedlib\;*)      # Libraries (.so)
         strip -v $STRIP_SHARED "$file" ;;
       application/x-archive\;*)        # Libraries (.a)
