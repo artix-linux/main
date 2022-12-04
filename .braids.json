@@ -1804,7 +1804,7 @@
     "fcron": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcron.git",
       "branch": "master",
-      "revision": "a30f6d11eb4b491ad4b08c3930e8f40e769517e0"
+      "revision": "882fc6899524b3799b5679b4f24076b15edb3a2b"
     },
     "feh": {
       "url": "gitea@gitea.artixlinux.org:packagesF/feh.git",
