@@ -9764,7 +9764,7 @@
     "xorg-xcursorgen": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xcursorgen.git",
       "branch": "master",
-      "revision": "362024da5684418e30f3eb76ee6764abf4017559"
+      "revision": "11124652409834a92ffc2923e2ce72fb43b9063f"
     },
     "xorg-xdm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xdm.git",
