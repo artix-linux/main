@@ -9824,7 +9824,7 @@
     "xorg-xprop": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xprop.git",
       "branch": "master",
-      "revision": "f44e987f54d6b495479a8b27d6409a3d78729c6d"
+      "revision": "75ec19cd55c0727a478469963b30ba4fb2c07053"
     },
     "xorg-xrandr": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrandr.git",
