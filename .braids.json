@@ -9059,7 +9059,7 @@
     "usbutils": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbutils.git",
       "branch": "master",
-      "revision": "30719ace3ed2b26ee0bf30a5abb19137b15940a4"
+      "revision": "6956e203701a8d78c26cc96adc9fd05a509abd67"
     },
     "usort": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usort.git",
