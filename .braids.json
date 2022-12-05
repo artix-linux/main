@@ -9061,6 +9061,11 @@
       "branch": "master",
       "revision": "30719ace3ed2b26ee0bf30a5abb19137b15940a4"
     },
+    "usort": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usort.git",
+      "branch": "master",
+      "revision": "552945695517b6450c0600c29d167281734833c8"
+    },
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
       "branch": "master",
