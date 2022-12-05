@@ -7166,6 +7166,11 @@
       "branch": "master",
       "revision": "68c9bc57c669a510bf23e6779a30223a44fa6493"
     },
+    "python-feedgen": {
+      "url": "gitea@gitea.artixlinux.org:packagesPython/python-feedgen.git",
+      "branch": "master",
+      "revision": "768d4240a850023f4204b62ce6fb90593f6bac52"
+    },
     "python-flufl.testing": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-flufl.testing.git",
       "branch": "master",
