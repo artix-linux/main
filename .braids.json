@@ -5869,7 +5869,7 @@
     "mplayer": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mplayer.git",
       "branch": "master",
-      "revision": "8e2495a084d01a68fd4ac513d89eab76757a640a"
+      "revision": "5f27e8b80ef420ff66361805b8a8422d36598464"
     },
     "mpv": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpv.git",
