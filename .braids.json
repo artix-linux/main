@@ -8941,6 +8941,11 @@
       "branch": "master",
       "revision": "517d5811de53d2a59dda201c95013895b1d158ea"
     },
+    "ufmt": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ufmt.git",
+      "branch": "master",
+      "revision": "332983df8a92f425b4dbc94860271dff5f482457"
+    },
     "ufw": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw.git",
       "branch": "master",
