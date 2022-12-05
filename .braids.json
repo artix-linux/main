@@ -9854,7 +9854,7 @@
     "xorg-xwininfo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwininfo.git",
       "branch": "master",
-      "revision": "ecd227fc9cf97849f45cbd0e573e3eac3838cca1"
+      "revision": "813aac068afe3d143feff42e9a016ede9370b13e"
     },
     "xorgproto": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorgproto.git",
