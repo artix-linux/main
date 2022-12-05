@@ -9769,7 +9769,7 @@
     "xorg-xdm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xdm.git",
       "branch": "master",
-      "revision": "a8de429f4c349ba68ecf1150cd783ee075f11546"
+      "revision": "4e0fdf73271ed7cdb7b0fb85e5eea299070552f1"
     },
     "xorg-xdpyinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xdpyinfo.git",
