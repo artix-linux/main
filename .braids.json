@@ -9794,7 +9794,7 @@
     "xorg-xinit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xinit.git",
       "branch": "master",
-      "revision": "6080d4b5d3641ddf395bb68cd599079798d7558c"
+      "revision": "400e738980b5b4b18f07b357c746443b5d23e3b0"
     },
     "xorg-xinput": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xinput.git",
