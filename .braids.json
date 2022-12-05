@@ -9844,7 +9844,7 @@
     "xorg-xset": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xset.git",
       "branch": "master",
-      "revision": "df710fe1c1d551dbb80f07187eb3be0828df08e1"
+      "revision": "154b7b28f1ff0c63d202d930b79ccd31df50da59"
     },
     "xorg-xsetroot": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xsetroot.git",
