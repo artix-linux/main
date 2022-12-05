@@ -9829,7 +9829,7 @@
     "xorg-xrandr": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrandr.git",
       "branch": "master",
-      "revision": "1c01abf4b37f402bc47fb4c8b77b74e89bb53dda"
+      "revision": "73278fb16a7dd37fac26621b6cc6a044158a5fa4"
     },
     "xorg-xrdb": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xrdb.git",
