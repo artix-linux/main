@@ -1,4 +1,4 @@
-# Maintainer: Frederik Schwan <freswa at archlinux dot org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Jonathon Fernyhough <jonathon+m2x+dev>
 # Contributor: Giancarlo Razzolini <grazzolini@archlinux.org>
 # Contributor:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
@@ -6,10 +6,10 @@
 # Contributor: Daniel Kozak <kozzi11@gmail.com>
 
 pkgbase=gcc11
-pkgname=($pkgbase gcc11-libs gcc11-fortran gcc11-d)
+pkgname=($pkgbase gcc11-libs gcc11-fortran)
 pkgver=11.3.0
 _majorver=${pkgver%%.*}
-pkgrel=4.2
+pkgrel=5
 pkgdesc='The GNU Compiler Collection (11.x.x)'
 arch=(x86_64)
 license=(GPL LGPL FDL custom)
@@ -85,9 +85,13 @@ build() {
   CXXFLAGS=${CXXFLAGS/-Werror=format-security/}
 
   "$srcdir/gcc/configure" \
-    --enable-languages=c,c++,fortran,lto,d \
+    --enable-languages=c,c++,fortran,lto \
     --enable-bootstrap \
     "${_confflags[@]:?_confflags unset}"
+
+  # Work-around `msgfmt: /build/gcc11/src/gcc-build/x86_64-pc-linux-gnu/libstdc++-v3/src/.libs/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /usr/lib/libicuuc.so.72)`
+  # The trick is borrowed from https://aur.archlinux.org/packages/gcc49
+  export LD_PRELOAD=/usr/lib/libstdc++.so
 
   # see https://bugs.archlinux.org/task/71777 for rationale re *FLAGS handling
   make -O STAGE1_CFLAGS="-O2" \
@@ -223,27 +227,3 @@ package_gcc11-fortran() {
   ln -s /usr/share/licenses/${pkgbase}-libs/RUNTIME.LIBRARY.EXCEPTION \
     "$pkgdir/usr/share/licenses/$pkgname/"
 }
-
-package_gcc11-d() {
-  pkgdesc="D frontend for GCC"
-  depends=("gcc11=$pkgver-$pkgrel" libisl.so)
-  provides=(gdc)
-  replaces=(gdc)
-  options=(staticlibs debug)
-
-  cd gcc-build
-  make -C gcc DESTDIR="$pkgdir" d.install-{common,man,info}
-
-  install -Dm755 gcc/gdc "$pkgdir"/usr/bin/gdc
-  install -Dm755 gcc/d21 "$pkgdir"/"$_libdir"/d21
-
-  make -C $CHOST/libphobos DESTDIR="$pkgdir" install
-  rm -f "$pkgdir/usr/lib/"lib{gphobos,gdruntime}.so*
-  rm -f "$pkgdir/usr/lib32/"lib{gphobos,gdruntime}.so*
-
-  # Install Runtime Library Exception
-  install -d "$pkgdir/usr/share/licenses/$pkgname/"
-  ln -s /usr/share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION \
-    "$pkgdir/usr/share/licenses/$pkgname/"
-}
-
