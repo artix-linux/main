@@ -4999,7 +4999,7 @@
     "libxdamage": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxdamage.git",
       "branch": "master",
-      "revision": "1ef7d387aa7261ea4ed7bc87d35b1dc2046483d5"
+      "revision": "ee3aca8f7ceaf9fba43660d9c6cda82cd226cd7d"
     },
     "libxdmcp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxdmcp.git",
