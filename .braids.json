@@ -4979,7 +4979,7 @@
     "libxcomposite": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcomposite.git",
       "branch": "master",
-      "revision": "f00c2662d41f7490551fd0993074344318efb678"
+      "revision": "12699be0a061f3876e832ce53f0847e4b85e19f0"
     },
     "libxcrypt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcrypt.git",
