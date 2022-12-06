@@ -1359,7 +1359,7 @@
     "dnsmasq": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq.git",
       "branch": "master",
-      "revision": "7d2ee639351b5a06173ceb9a32d90069ae6b4977"
+      "revision": "9b16f4027739d1e350d1fff4e9322bceb9cd223b"
     },
     "dnssec-anchors": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnssec-anchors.git",
