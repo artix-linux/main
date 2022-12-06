@@ -2724,7 +2724,7 @@
     "hotdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hotdoc.git",
       "branch": "master",
-      "revision": "c0ab512ccee2039d060aa9f4e9bb954afb1ef6e6"
+      "revision": "629b3a3377681d9823c37cdf67670aa0d167c034"
     },
     "hplip": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hplip.git",
