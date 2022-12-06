@@ -5139,7 +5139,7 @@
     "libxv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxv.git",
       "branch": "master",
-      "revision": "3236171ca9e41e2c909cc15f5829da79775d776e"
+      "revision": "680d3bc75746514f74cd3ad8ae18646e26034baa"
     },
     "libxvmc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxvmc.git",
