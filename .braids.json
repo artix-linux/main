@@ -5109,7 +5109,7 @@
     "libxres": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxres.git",
       "branch": "master",
-      "revision": "da94b138a0a4991e871acfa0232c05a9c823c992"
+      "revision": "eefdd6e6318e9bfbdb3ca738be9b69e8f1b58912"
     },
     "libxshmfence": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxshmfence.git",
