@@ -486,6 +486,11 @@
       "branch": "master",
       "revision": "78cc7826e4627ef5663d9d18a8b2a6875ba939e2"
     },
+    "bash-bats-assert": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bash-bats-assert.git",
+      "branch": "master",
+      "revision": "eadbc4916638b7fd471676e9456658e7411aba92"
+    },
     "bash-bats-support": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-bats-support.git",
       "branch": "master",
