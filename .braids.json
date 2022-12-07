@@ -486,6 +486,11 @@
       "branch": "master",
       "revision": "78cc7826e4627ef5663d9d18a8b2a6875ba939e2"
     },
+    "bash-bats-support": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bash-bats-support.git",
+      "branch": "master",
+      "revision": "5c794b7778d9be0553c3f8866e468da0ba583f40"
+    },
     "bash-completion": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-completion.git",
       "branch": "master",
