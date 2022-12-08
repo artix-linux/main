@@ -3224,7 +3224,7 @@
     "jupyter-nbconvert": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbconvert.git",
       "branch": "master",
-      "revision": "979e5ddf80a45fdb6d7c95e654c31b013bbbd102"
+      "revision": "e73358bc2ac97ac5d8febf6ba90258f6ed5b673c"
     },
     "jupyter-nbformat": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbformat.git",
