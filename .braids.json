@@ -509,7 +509,7 @@
     "bbswitch": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bbswitch.git",
       "branch": "master",
-      "revision": "79a1cbf15f35d1b3a85bb38594d3d24d0955a5f0"
+      "revision": "2b42ccfb8f7d765490bfbc8e263b527158b8596f"
     },
     "bc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bc.git",
