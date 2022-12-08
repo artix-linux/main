@@ -494,7 +494,7 @@
     "bash-bats-support": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-bats-support.git",
       "branch": "master",
-      "revision": "0db8c8a791c40c61bb19cd7594ff492956395b6f"
+      "revision": "ede74a07cb5e917fbd04a266aca3542fda841249"
     },
     "bash-completion": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-completion.git",
