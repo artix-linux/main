@@ -31,6 +31,5 @@ check() {
 package() {
   cd ${pkgname/-/_}-$pkgver
   python -m installer --destdir="$pkgdir" dist/*.whl
-
   install -Dm644 COPYING.md -t "$pkgdir"/usr/share/licenses/$pkgname
 }
