@@ -9829,7 +9829,7 @@
     "xorg-xkbcomp": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xkbcomp.git",
       "branch": "master",
-      "revision": "6cc803c050e3dd9c29fda64c0d6c7253f4805976"
+      "revision": "e7ed040c9cb9085234ed6a601a8e36f73d0c49d7"
     },
     "xorg-xkill": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xkill.git",
