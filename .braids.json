@@ -4979,7 +4979,7 @@
     "libxau": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxau.git",
       "branch": "master",
-      "revision": "4de98104f82e2fad1d487822d6d8f78b32b54ab4"
+      "revision": "4a90b300e600c9ec1aa03d1d762eadc7325503fa"
     },
     "libxaw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxaw.git",
