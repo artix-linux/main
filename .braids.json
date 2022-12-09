@@ -9579,7 +9579,7 @@
     "xf86-input-elographics": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-elographics.git",
       "branch": "master",
-      "revision": "c7167ace1f5b5cdde5727290db6dd96636249b72"
+      "revision": "35283ffbeac22f7b5d4801e5394df95f4d8a7784"
     },
     "xf86-input-evdev": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-evdev.git",
