@@ -3579,7 +3579,7 @@
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
       "branch": "master",
-      "revision": "e55268496c27fca5acb34bd2047d8eae7954e21c"
+      "revision": "43d8152fd9a1226642b26ae7e18d80b098d4c169"
     },
     "libcdio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcdio.git",
