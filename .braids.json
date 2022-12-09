@@ -7724,7 +7724,7 @@
     "re2": {
       "url": "gitea@gitea.artixlinux.org:packagesR/re2.git",
       "branch": "master",
-      "revision": "0ba0b3ab8c90c82dd8b7b7a1f23afca3d5ffbd78"
+      "revision": "b6cf02c355df4c3234880fd45725038deb6555ca"
     },
     "re2c": {
       "url": "gitea@gitea.artixlinux.org:packagesR/re2c.git",
