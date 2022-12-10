@@ -9649,7 +9649,7 @@
     "xf86-video-vesa": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-vesa.git",
       "branch": "master",
-      "revision": "33d876aaefb3d2dc749e1c7e27d7397e12b051c9"
+      "revision": "e0b7273ff79826d9d08f2d62afa2e25671ee3b4b"
     },
     "xf86-video-vmware": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-vmware.git",
