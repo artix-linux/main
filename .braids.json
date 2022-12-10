@@ -9659,7 +9659,7 @@
     "xf86-video-voodoo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-voodoo.git",
       "branch": "master",
-      "revision": "8badb45d6cf3538691a306e46c10e6460379719a"
+      "revision": "174016f88f13ec660fa0ff58c1a05b4a10ddef41"
     },
     "xfsprogs": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xfsprogs.git",
