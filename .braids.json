@@ -8779,7 +8779,7 @@
     "tp_smapi": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tp_smapi.git",
       "branch": "master",
-      "revision": "403459622fbd749778d9849640a97600c1588779"
+      "revision": "bfd725b51336fa26f270389e7cb5637c9a8907b8"
     },
     "tpm2-abrmd": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-abrmd.git",
