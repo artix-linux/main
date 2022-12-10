@@ -4504,7 +4504,7 @@
     "libraw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraw.git",
       "branch": "master",
-      "revision": "a85f072a5082d0b89c1bd06824bccfba76348206"
+      "revision": "830b54cb211ad3cf7cc6b38ec07510b27dc924fb"
     },
     "libraw1394": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraw1394.git",
