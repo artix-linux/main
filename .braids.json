@@ -5249,7 +5249,7 @@
     "linux-lts": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-lts.git",
       "branch": "master",
-      "revision": "ea930d0c93b6242660ad6a2c74b11fc883c05650"
+      "revision": "38dbad5702e5c058f2f71460cd80cd4e34d3f3db"
     },
     "linux-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-tools.git",
