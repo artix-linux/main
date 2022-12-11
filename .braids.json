@@ -8201,6 +8201,11 @@
       "branch": "master",
       "revision": "d9f263467a43ed669e40b320247bf5361ea4a28c"
     },
+    "slimit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/slimit.git",
+      "branch": "master",
+      "revision": "bffc60b22e0894fc9f2209dbb9f2cb3b6ae12af2"
+    },
     "slirp4netns": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slirp4netns.git",
       "branch": "master",
