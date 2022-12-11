@@ -2804,7 +2804,7 @@
     "hyperkitty": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyperkitty.git",
       "branch": "master",
-      "revision": "846dd2bbb7c59547c92732ff9045580ccc4bbacc"
+      "revision": "e2285338b6b024354b8a66b16254c6b528a4d714"
     },
     "hyperscan": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyperscan.git",
