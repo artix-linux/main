@@ -1334,7 +1334,7 @@
     "django": {
       "url": "gitea@gitea.artixlinux.org:packagesD/django.git",
       "branch": "master",
-      "revision": "1c2170027c34cc8c11f0df87cb0137ef09d17f3a"
+      "revision": "aa1cf7817300848cf2fe1d6ffdd8f2fc952c8741"
     },
     "djvulibre": {
       "url": "gitea@gitea.artixlinux.org:packagesD/djvulibre.git",
