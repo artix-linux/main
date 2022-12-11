@@ -8264,7 +8264,7 @@
     "solr": {
       "url": "gitea@gitea.artixlinux.org:packagesS/solr.git",
       "branch": "master",
-      "revision": "29818c5719f5cedc429b0c1c88a7dbb51c0e304a"
+      "revision": "0593bdb0dfc25d87fa8fed243c5d719ca094ec71"
     },
     "sonivox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sonivox.git",
