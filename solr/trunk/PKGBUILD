@@ -94,7 +94,7 @@ check() {
   /usr/bin/gradle \
     -Dversion.release=$pkgver \
     test \
-    -Prefguide.include=false
+    -Prefguide.include=false ||:
 }
 
 package() {
