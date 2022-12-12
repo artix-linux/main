@@ -3064,7 +3064,7 @@
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
       "branch": "master",
-      "revision": "6b84f4f69f2a652c9475a323f77f2b4fe705a621"
+      "revision": "1a772fd9b315418fd41de08447e55419bdf3276a"
     },
     "java-avalon-framework": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-avalon-framework.git",
