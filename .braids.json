@@ -344,7 +344,7 @@
     "augeas": {
       "url": "gitea@gitea.artixlinux.org:packagesA/augeas.git",
       "branch": "master",
-      "revision": "7882272815367489bbab4b1d6aecab57ded36f7c"
+      "revision": "4791f47a5cfaaf40e46e8311039729097de660e8"
     },
     "auth-tarball-from-git": {
       "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
