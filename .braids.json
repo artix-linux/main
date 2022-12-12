@@ -2439,7 +2439,7 @@
     "graphicsmagick": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphicsmagick.git",
       "branch": "master",
-      "revision": "265fb41a671f59586c1d0ab0624557fd65c1c9ea"
+      "revision": "713e4fb2aa3440e805e569502f7a401839619ca4"
     },
     "graphite": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphite.git",
