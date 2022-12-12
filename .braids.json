@@ -8944,7 +8944,7 @@
     "typescript": {
       "url": "gitea@gitea.artixlinux.org:packagesT/typescript.git",
       "branch": "master",
-      "revision": "1f875dc9efb08b6dd7bdd652db3d61373b7b9c9b"
+      "revision": "191b1a5d3b0f783ba8d979dfdd1ee1c327bf2677"
     },
     "tzdata": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tzdata.git",
