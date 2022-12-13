@@ -6364,7 +6364,7 @@
     "onionshare": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onionshare.git",
       "branch": "master",
-      "revision": "c0cbd1f5566c5fa4e72385dba0f1f2187d9e3c0b"
+      "revision": "a00166254a033ab3391719d4d6c5257781f4647a"
     },
     "opam": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opam.git",
