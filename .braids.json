@@ -1196,6 +1196,11 @@
       "branch": "master",
       "revision": "5bef0837331f62050b1eb57e675786c4f757129a"
     },
+    "db5.3": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/db5.3.git",
+      "branch": "master",
+      "revision": "b2b607efc38c922abf749749b151e5c3e2cb9344"
+    },
     "dblatex": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dblatex.git",
       "branch": "master",
