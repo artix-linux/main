@@ -7754,7 +7754,7 @@
     "redis": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redis.git",
       "branch": "master",
-      "revision": "a335665747ade6beb2e5c62e16559ff998bc720d"
+      "revision": "40f4c990862df0ed4a47c750ae7789647005b0a3"
     },
     "redland": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redland.git",
