@@ -9924,7 +9924,7 @@
     "xscreensaver": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xscreensaver.git",
       "branch": "master",
-      "revision": "0442e468a90d607bac700ae36a944ea5d8803979"
+      "revision": "c39e6bd16ac8c69d887a6f63eaa1c1cbe1c2f51a"
     },
     "xsd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsd.git",
