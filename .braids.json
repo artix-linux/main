@@ -9839,7 +9839,7 @@
     "xorg-xhost": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xhost.git",
       "branch": "master",
-      "revision": "dca2bc0b696bdc2821041c03673382d801f638a1"
+      "revision": "e7b238cf96caf87efeb4ad4e32a9ded3405a0e9d"
     },
     "xorg-xinit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xinit.git",
