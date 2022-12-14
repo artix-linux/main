@@ -3029,7 +3029,7 @@
     "isync": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isync.git",
       "branch": "master",
-      "revision": "decebdad0af96ea21d040888289e9584c6f872ed"
+      "revision": "d06a53fb1a53edf142af789819f75b037f23d220"
     },
     "itstool": {
       "url": "gitea@gitea.artixlinux.org:packagesI/itstool.git",
