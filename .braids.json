@@ -3959,7 +3959,7 @@
     "libical": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libical.git",
       "branch": "master",
-      "revision": "ee64e510ff6e17f5e876a70c38004e54e6313bb2"
+      "revision": "76e6add9ddfc7947c16e21a7945094cffd18f37b"
     },
     "libice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libice.git",
