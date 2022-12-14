@@ -3454,7 +3454,7 @@
     "libarchive": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libarchive.git",
       "branch": "master",
-      "revision": "1a3cab48d7c4f110bf23a439564fb21aa252b141"
+      "revision": "264b542c60476386a61279142547d00d7cbe7b40"
     },
     "libass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libass.git",
