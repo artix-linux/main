@@ -1,25 +1,35 @@
-From 3935c3466b0ebdd11fd2272bb07b8edefb66ae47 Mon Sep 17 00:00:00 2001
+From a3680a667b4822e05a18b99253e4064644a7ee44 Mon Sep 17 00:00:00 2001
 From: Nathan <ndowens@artixlinux.org>
-Date: Wed, 14 Dec 2022 22:17:52 -0600
-Subject: [PATCH] libtool path
+Date: Thu, 15 Dec 2022 14:36:19 -0600
+Subject: [PATCH] libtool-path
 
 ---
- autogen.sh | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ autogen.sh | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
 
 diff --git a/autogen.sh b/autogen.sh
-index 6579daa..b72df91 100755
+index 6579daa..a43ade0 100755
 --- a/autogen.sh
 +++ b/autogen.sh
-@@ -64,7 +64,7 @@ done
- #
+@@ -75,15 +75,13 @@ fi
+ rm -f build/config.guess build/config.sub
+ $libtoolize --copy --automake --force
  
- # Much like APR except we do not prefer libtool 1 over libtool 2.
--libtoolize="`./build/PrintPath glibtoolize libtoolize glibtoolize1 libtoolize15 libtoolize14`"
-+libtoolize="`which glibtoolize libtoolize glibtoolize1 libtoolize15 libtoolize14`"
- lt_major_version=`$libtoolize --version 2>/dev/null | sed -e 's/^[^0-9]*//' -e 's/\..*//' -e '/^$/d' -e 1q`
- 
- if [ "x$libtoolize" = "x" ]; then
+-ltpath="`dirname $libtoolize`"
+-
+ if [ "x$LIBTOOL_M4" = "x" ]; then
+     ltm4_error='(try setting the LIBTOOL_M4 environment variable)'
+-    if [ -d "$ltpath/../share/aclocal/." ]; then
+-        ltm4=`cd "$ltpath/../share/aclocal" && pwd`
++    if [ -d "/usr/share/aclocal/." ]; then
++        ltm4=`cd "/usr/share/aclocal" && pwd`
+     else
+         echo "Libtool helper path not found $ltm4_error"
+-        echo "  expected at: '$ltpath/../share/aclocal'"
++        echo "  expected at: '/usr/share/aclocal'"
+         exit 1
+     fi
+ else
 -- 
 2.39.0
 
