@@ -14,7 +14,7 @@ license=('APACHE')
 depends=('glibc' 'file' 'libutf8proc' 'serf' 'sqlite' 'db' 'apr' 'apr-util'
          'zlib' 'lz4' 'expat' 'libsasl')
 makedepends=('apache' 'python' 'python-py3c' 'perl' 'swig' 'java-environment>=8'
-             'libgnome-keyring' 'kwallet' 'kdelibs4support' 'ruby')
+             'libgnome-keyring' 'kwallet' 'kdelibs4support' 'ruby' 'automake')
 optdepends=('libgnome-keyring: for GNOME Keyring for auth credentials'
             'kwallet: for KWallet for auth credentials'
             'bash-completion: for svn bash completion'
