@@ -6774,7 +6774,7 @@
     "perl": {
       "url": "gitea@gitea.artixlinux.org:packagesP/perl.git",
       "branch": "master",
-      "revision": "6f0edd5cc3fe0f7c1256b5f92c0a766186261b75"
+      "revision": "82a624f0e2a2e5dca49d2bec81d01ea3a45703bd"
     },
     "pgbouncer": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pgbouncer.git",
