@@ -13,7 +13,7 @@ url="https://subversion.apache.org/"
 license=('APACHE')
 depends=('glibc' 'file' 'libutf8proc' 'serf' 'sqlite' 'db' 'apr' 'apr-util'
          'zlib' 'lz4' 'expat' 'libsasl')
-makedepends=('apache' 'python' 'python-py3c' 'perl' 'swig' 
+makedepends=('apache' 'autoconf' 'automake' 'libtool' 'python' 'python-py3c' 'perl' 'swig' 
              'java-environment>=8' 'libgnome-keyring' 'kwallet' 'kdelibs4support' 'ruby')
 optdepends=('libgnome-keyring: for GNOME Keyring for auth credentials'
             'kwallet: for KWallet for auth credentials'
