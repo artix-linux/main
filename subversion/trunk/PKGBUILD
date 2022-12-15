@@ -28,11 +28,13 @@ options=('!makeflags' '!emptydirs')
 source=(https://www.apache.org/dist/subversion/subversion-${pkgver}.tar.bz2
         svn
         svnserve.tmpfiles
+        0001-libtool-path.patch
         subversion.rpath.fix.patch
         ruby-frozen-nil.patch)
 sha512sums=('20ada4688ca07d9fb8da4b7d53b5084568652a3b9418c65e688886bae950a16a3ff37710fcfc9c29ef14a89e75b2ceec4e9cf35d5876a7896ebc2b512cfb9ecc'
             '3df59e92aa0314ff6adce26e2e1162bf2872ca03ff1f78891081a60e67b521b6046b4a2f85f718dcd27f9d5709594658817a09548cdb74e3976d371dbe47e7db'
             '7775f4da5003970c9ebdc2f696ba090df194a77d9daed791875488c943f72ae496b5f9cc6f3ff9f3f4de9f352a3b518137babdea38947d1a2d5dd16aa1844036'
+            '8f1faad6aa2b963b1f976354cb6717d053fc796ee3eb2e54c3d4e53e459b23f441be5c01ffd17e76c51d937046dfa95be293cededd871dc62855d506082e3293'
             '60d538160e738eb3b3e84a3881fe5a8d75c79053d3f31c4c29ef6ace6ccc5dd4367ed712766c911bae3436e9706e4dd144b270bb45161a6c1834a37e154d0440'
             'bb772e55acd9601121ad06b254c364e8d8cf772ca59b8df0cf4c5c5ecba110d4108d0363672f121f770550cdd052802474029e57643258f398aacd2b63ccb898')
 validpgpkeys=('19BBCAEF7B19B280A0E2175E62D48FAD16A0DE01'
@@ -54,6 +56,7 @@ prepare() {
    cd ${pkgname}-${pkgver}
    patch -Np0 -i ../subversion.rpath.fix.patch
    patch -p1 -i ../ruby-frozen-nil.patch
+   patch -Np1 -i ../0001-libtool-path.patch
    rm subversion/bindings/swig/proxy/*.swg
    ./autogen.sh
 }
