@@ -3054,7 +3054,7 @@
     "jack2": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jack2.git",
       "branch": "master",
-      "revision": "e4a264b7534895c6960d3fde069976e74ecd7ca9"
+      "revision": "0c12c1b98a4c7e582571f415765bbe4f6637d731"
     },
     "jami-daemon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jami-daemon.git",
