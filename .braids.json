@@ -3009,7 +3009,7 @@
     "iso-initcpio": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-initcpio.git",
       "branch": "master",
-      "revision": "972cc136e3ef493cd77870455a8274d8f43c52f1"
+      "revision": "7fbf43419653ec0984f0dadb8bc2bfaf18823dca"
     },
     "iso-profiles": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-profiles.git",
