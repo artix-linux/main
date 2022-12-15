@@ -1194,7 +1194,7 @@
     "db": {
       "url": "gitea@gitea.artixlinux.org:packagesD/db.git",
       "branch": "master",
-      "revision": "e3c80500d509ec0207c4d4dd93eb6271b08343eb"
+      "revision": "192909d3fc6522cb030fbc8af185d3601ab12c40"
     },
     "db5.3": {
       "url": "gitea@gitea.artixlinux.org:packagesD/db5.3.git",
