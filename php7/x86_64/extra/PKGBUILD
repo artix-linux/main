@@ -22,13 +22,13 @@ pkgname=('php7'
          'php7-tidy'
          'php7-xsl')
 pkgver=7.4.33
-pkgrel=2
+pkgrel=4
 arch=('x86_64')
 license=('PHP')
 url='https://www.php.net/'
-makedepends=('apache' 'aspell' 'c-client' 'db' 'enchant' 'gd' 'gmp' 'icu' 'libsodium' 'libxslt' 'libzip' 'net-snmp'
+makedepends=('apache' 'argon2' 'aspell' 'c-client' 'enchant' 'gd' 'gmp' 'icu' 'libsodium' 'libxslt' 'libzip' 'net-snmp'
              'postgresql-libs' 'sqlite' 'tidy' 'unixodbc' 'curl' 'libtool' 'postfix' 'freetds' 'pcre2' 'libnsl'
-             'oniguruma' 'argon2')
+             'oniguruma')
 checkdepends=('procps-ng')
 options=(debug)
 source=("https://php.net/distributions/php-${pkgver}.tar.xz"{,.asc}
@@ -108,7 +108,6 @@ build() {
 		--enable-sysvshm=shared \
 		--with-bz2=shared \
 		--with-curl=shared \
-		--with-db4=/usr \
 		--with-enchant=shared \
 		--with-external-gd \
 		--with-external-pcre \
@@ -185,7 +184,7 @@ check() {
 	cd "${srcdir}/build"
 
 	# Check if sendmail was configured correctly (FS#47600)
-	#sapi/cli/php -n -r 'echo ini_get("sendmail_path");' | grep -q '/usr/bin/sendmail'
+	sapi/cli/php -n -r 'echo ini_get("sendmail_path");' | grep -q '/usr/bin/sendmail' || :
 
 	export REPORT_EXIT_STATUS=1
 	export NO_INTERACTION=1
