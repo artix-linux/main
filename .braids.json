@@ -179,7 +179,7 @@
     "apr-util": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apr-util.git",
       "branch": "master",
-      "revision": "5f7bbc90810ee8bf155c22362834f45df9b1131b"
+      "revision": "96ac0091a277a0491c96c8a9227e691959acb13d"
     },
     "arandr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arandr.git",
