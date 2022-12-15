@@ -16,9 +16,9 @@ pkgname=(
   pipewire-v4l2
   pipewire-x11-bell
 )
-_commit=f038e3f23824f9319daaa9f9a31600fc6df49a39  # tags/0.3.61
-pkgver=0.3.61
-pkgrel=1
+_commit=3a443b4e1c9730675c7de0453a6279ab9ee263fd  # tags/0.3.62
+pkgver=0.3.62
+pkgrel=2
 epoch=1
 pkgdesc="Low-latency audio/video router and processor"
 url="https://pipewire.org"
@@ -69,17 +69,9 @@ pkgver() {
 prepare() {
   cd pipewire
 
-  # fix hang in pulse server
-  # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2821
-  git cherry-pick -n b720da771efa950cf380101bed42d5d5ee177908
-
-  # fix crash in pulse server
-  # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2764
-  git cherry-pick -n bf3516ba0496b644b3944b114253f23964178897
-
-  # fix hang in virtual machines
-  # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2830
-  git cherry-pick -n b46d8a8c921a8da6883610ad4b68da95bf59b59e
+  # fix audio distortion
+  # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2885
+  git cherry-pick -n b927063b89b791c5fc5485ce4d9eac2cd17a4ad6
 
   # remove export of LD_LIBRARY_PATH for pw-jack as it would add /usr/lib
   sed -i '/LD_LIBRARY_PATH/d' pipewire-jack/src/pw-jack.in
@@ -172,7 +164,7 @@ package_pipewire() {
     _pick audio usr/lib/pipewire-$_ver/libpipewire-module-loopback.so
     _pick audio usr/lib/pipewire-$_ver/libpipewire-module-pipe-tunnel.so
     _pick audio usr/lib/pipewire-$_ver/libpipewire-module-protocol-simple.so
-    _pick audio usr/lib/spa-0.2/{aec,alsa,audio*,bluez5,volume}
+    _pick audio usr/lib/spa-0.2/{aec,alsa,audio*,bluez5}
     _pick audio usr/share/alsa
     _pick audio usr/share/man/man1/pw-{cat,mididump}.1
     _pick audio usr/share/pipewire/filter-chain*
