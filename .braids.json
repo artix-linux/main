@@ -5996,11 +5996,6 @@
       "branch": "master",
       "revision": "e9226abe52d5c4f26c55e0c187215a80ce6d82f6"
     },
-    "nano": {
-      "url": "gitea@gitea.artixlinux.org:packagesN/nano.git",
-      "branch": "master",
-      "revision": "10de8990915fae89a5abce3ac0de50e314eb0300"
-    },
     "nasm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nasm.git",
       "branch": "master",
