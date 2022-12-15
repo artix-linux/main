@@ -1,21 +1,18 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgname=iso-initcpio
-pkgver=2
-pkgrel=2
+pkgver=3
+pkgrel=1
 arch=('any')
 pkgdesc='Development tools for Artix (ISO initcpio)'
 license=('GPL')
 url='https://gitea.artixlinux.org/artix/iso-initcpio'
 depends=('mkinitcpio')
-source=("${pkgname}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz"
-        comp-level.patch::https://gitea.artixlinux.org/artix/iso-initcpio/commit/31520980745cbd30b006db2e820115e38c248f51.patch)
-sha256sums=('5b6621ad4dbea6fa9b4347623e041f9497bafb037d46697902dadccbb864b0a7'
-            'f596dffe283445149d787150438c4f06390d31380c426fc8a4ee1e05bbebeb13')
+source=("${pkgname}-${pkgver}.tar.gz::$url/archive/${pkgver}.tar.gz")
+sha256sums=('f2a5957c753ddd865bef9ab0299b2317876aafd42a9885e59e9d385bb14bb6a2')
 
 prepare() {
     cd ${pkgname}
-    patch -Np1 -i ../comp-level.patch
 }
 
 package() {
