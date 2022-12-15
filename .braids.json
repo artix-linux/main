@@ -5464,7 +5464,7 @@
     "lxd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxd.git",
       "branch": "master",
-      "revision": "60a910a7117c639da5b086f93d0caf52154ddc5e"
+      "revision": "d758afd0f42003dada66cdcf4f57eb701eb77c0f"
     },
     "lynx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lynx.git",
