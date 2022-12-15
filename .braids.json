@@ -9794,7 +9794,7 @@
     "xorg-server": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-server.git",
       "branch": "master",
-      "revision": "cfabf939036962f3955e6ee69dc6c7047ef70d1b"
+      "revision": "467a30eb35ee4d979c8e074d0f9d3bf4f0ed2a56"
     },
     "xorg-sessreg": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-sessreg.git",
