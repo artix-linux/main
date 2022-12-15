@@ -7029,7 +7029,7 @@
     "psmisc": {
       "url": "gitea@gitea.artixlinux.org:packagesP/psmisc.git",
       "branch": "master",
-      "revision": "3e56295667ba736814d16e8e15fa10d14e70355e"
+      "revision": "9e0076037c58943b142e99dac60782a78a7a4a58"
     },
     "psutils": {
       "url": "gitea@gitea.artixlinux.org:packagesP/psutils.git",
