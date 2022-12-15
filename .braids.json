@@ -8389,7 +8389,7 @@
     "squid": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squid.git",
       "branch": "master",
-      "revision": "f65da5940457b0cef61326f602a50bc1be804593"
+      "revision": "d5032b3c5b4c1cc9e075cc8e5f84f60e1849f6f1"
     },
     "sratom": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sratom.git",
