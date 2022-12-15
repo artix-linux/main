@@ -5354,7 +5354,7 @@
     "logrotate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/logrotate.git",
       "branch": "master",
-      "revision": "9082bf97764bb3f4d861127392172f3ed1ed1602"
+      "revision": "b6c2fefa55a4f5df7a15f0ff05995bf79353a9e5"
     },
     "lolcat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lolcat.git",
