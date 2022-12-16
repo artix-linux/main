@@ -7219,7 +7219,7 @@
     "python-setuptools-gettext": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-setuptools-gettext.git",
       "branch": "master",
-      "revision": "2d8f067a78fb4da668886537e7a1f8bb5741f179"
+      "revision": "ad354e3f546a5d486497af91a7ab9322282d83cd"
     },
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
