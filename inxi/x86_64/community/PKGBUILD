@@ -1,43 +1,57 @@
-# Maintainer: Fabio 'Lolix' Loli <fabio.loli@disroot.org> -> https://github.com/FabioLolix
+# Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Fabio 'Lolix' Loli <fabio.loli@disroot.org> -> https://github.com/FabioLolix
 # Contributor: Stefano Capitani <stefanoatmanjarodotorg>
 # Contributor: Florian Pritz <f-p@gmx.at>
 
 pkgname=inxi
-pkgver=3.3.15
-pkgrel=1
+_pkgver=3.3.24-1
+pkgver=${_pkgver//-/.}
+pkgrel=4
 pkgdesc="Full featured CLI system information tool"
 arch=(any)
-url="https://github.com/smxi/inxi"
+url="https://smxi.org/docs/inxi.htm"
 license=(GPL3)
-depends=(coreutils pciutils perl procps-ng)
+depends=(coreutils pciutils perl procps-ng util-linux)
 optdepends=(
-            "bind-tools: -i wlan IP"
-            "dmidecode: inxi -M if no sys machine data"
-            "file: inxi -o unmounted file system"
-            "hddtemp: inxi -Dx show hdd temp"
-            "iproute2: inxi -i ip lan"
-            "kmod: inxi -Ax,-Nx module version"
-            "lm_sensors: inxi -s sensors output"
-            "mesa-demos: inxi -G glx info"
-            "net-tools: inxi -i ip lan-deprecated"
-            "perl-io-socket-ssl: -U; -w,-W; -i (if dig not installed)"
-            "perl-cpanel-json-xs: --output json - required for export"
-            "perl-json-xs: --output json - required for export (legacy)"
-            "perl-xml-dumper: --output xml - Crude and raw"
-            "sudo: inxi -Dx hddtemp-user;-o file-user"
-            "tree: --debugger 20,21 /sys tree"
-            "usbutils: inxi -A usb audio;-N usb networking"
-            "wmctrl: -S active window manager (not all wm)"
-            "xorg-xdpyinfo: inxi -G multi screen resolution"
-            "xorg-xprop: inxi -S desktop data"
-            "xorg-xrandr: inxi -G single screen resolution"
+    "bind: dig: -i wlan IP"
+    "binutils: strings: -I sysvinit version"
+    "bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig)"
+    "curl: -i (if no dig); -w,-W; -U"
+    "dmidecode: -M if no sys machine data; -m"
+    'doas: -Dx hddtemp-user; -o file-user (alt for sudo)'
+    "file: -o unmounted file system (if no lsblk)"
+    "freeipmi: ipmi-sensors: -s IPMI sensors (servers)"
+    "hddtemp: -Dx show hdd temp, if no drivetemp module"
+    "iproute2: ip: -i ip LAN"
+    "kmod: modinfo: Ax; -Nx module version"
+    "ipmitool: -s IPMI sensors (servers)"
+    "lvm2: lvs: -L LVM data"
+    "lm_sensors: sensors: -s sensors output"
+    "mdadm: -Ra advanced mdraid data"
+    "mesa-utils: glxinfo: -G (X) glx info"
+    "net-tools: ifconfig: -i ip LAN (deprecated)"
+    "perl-cpanel-json-xs: Cpanel::JSON::XS: --output json (faster than JSON::PP)"
+    "perl-json-xs: JSON::XS: --output json (legacy)"
+    "perl-io-socket-ssl: IO::Socket::SSL: -U; -w,-W; -i (if dig not installed)"
+    "smartmontools: smartctl: -Da advanced data"
+    "systemd-sysvcompat: -I runlevel"
+    "sudo: -Dx hddtemp-user; -o file-user"
+    "tree: --debugger 20,21 /sys tree"
+    "upower: -sx attached device battery info"
+    "usbutils: lsusb: -A usb audio; -J (optional); -N usb networking"
+    "wget: -i (if no dig); -w,-W; -U"
+    "wmctrl: -S active window manager (fallback)"
+    "xorg-xdpyinfo: xdpyinfo: -G (X) Screen resolution, dpi; -Ga Screen size"
+    "xorg-xdriinfo: xdriinfo: -G (X) DRI driver (if missing, fallback to Xorg log)"
+    "xorg-xprop: xprop: -S (X) desktop data"
+    "xorg-xrandr: xrandr: -G (X) monitors(s) resolution; -Ga monitor data"
 )
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/smxi/inxi/archive/${pkgver}-1.tar.gz")
-sha256sums=('5d8955fbd6927604ea3d222838d61c956610ee3b8e452da1f83afda7218b3c48')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/smxi/inxi/archive/refs/tags/${_pkgver}.tar.gz")
+sha256sums=('d485cee911f3447afb0f3fb3be2851e31895945ccd37c01fb59c87b12e233991')
 
 package() {
-  cd "${pkgname}-${pkgver}-1"
-  install -Dm755 $pkgname -t "${pkgdir}/usr/bin"
-  install -Dm755 $pkgname.1 -t "${pkgdir}/usr/share/man/man1"
-}
+    cd "$pkgname-${_pkgver}"
 
+    install -Dm 00755 $pkgname "${pkgdir}/usr/bin/$pkgname"
+    install -Dm 00644 $pkgname.1 "${pkgdir}/usr/share/man/man1/$pkgname.1"
+}
