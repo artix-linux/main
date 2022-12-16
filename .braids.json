@@ -584,7 +584,7 @@
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
       "branch": "master",
-      "revision": "07af3b953bf441b7e913e6eefcdba2912e5c65b0"
+      "revision": "ff826bc3983170b6821c26d1ad4d36dc1ed1658a"
     },
     "bluez": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bluez.git",
