@@ -5579,7 +5579,7 @@
     "man2html": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man2html.git",
       "branch": "master",
-      "revision": "9ba76a2f6406d33eb3456e124c23509133fee511"
+      "revision": "985f0ee125ba82b1b6641eb5e10e83f801441898"
     },
     "mandoc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mandoc.git",
