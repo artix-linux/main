@@ -2969,7 +2969,7 @@
     "inxi": {
       "url": "gitea@gitea.artixlinux.org:packagesI/inxi.git",
       "branch": "master",
-      "revision": "3ace2db4922badc224810bbf8436adf5bfdc8029"
+      "revision": "535c35e18f349d38957b4d8b53bcc65803612046"
     },
     "iproute2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iproute2.git",
