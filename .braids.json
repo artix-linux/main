@@ -1669,7 +1669,7 @@
     "erlang-nox": {
       "url": "gitea@gitea.artixlinux.org:packagesE/erlang-nox.git",
       "branch": "master",
-      "revision": "d8d4be0dd77e6c409160c2a18e0e4733c0cdc6bb"
+      "revision": "996732ea861d345318b24818a5664c214f8967f2"
     },
     "espeak-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeak-ng.git",
