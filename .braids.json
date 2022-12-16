@@ -8609,7 +8609,7 @@
     "tcsh": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tcsh.git",
       "branch": "master",
-      "revision": "009f455d4cdae6f2b029a4d1ae4e1587cb1bd19a"
+      "revision": "070899891f02a0342f49053cd8d80b165bd4dcf4"
     },
     "tdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tdb.git",
