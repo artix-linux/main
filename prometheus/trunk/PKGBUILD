@@ -1,7 +1,7 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=prometheus
-pkgver=2.40.5
+pkgver=2.40.7
 pkgrel=1
 
 pkgdesc='An open-source systems monitoring and alerting toolkit'
@@ -18,7 +18,7 @@ options=(!lto)
 source=("prometheus-v$pkgver.tar.gz::https://github.com/prometheus/prometheus/archive/v$pkgver.tar.gz"
         prometheus.sysusers)
 
-sha256sums=('b28692e625b6d9b00676bab7251ae23f4bebdf060df55c6e2ea3eea89a5f01a5'
+sha256sums=('83b4e891204500fc798b5a9e86d0189cbef7f8274c3303c215da5e2c75df6cde'
             '2747fabb4e56b808361eb7dd7acf9729ab8973d1ebe2f857dd56f6c71f71e45f')
 
 build() {
