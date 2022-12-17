@@ -6384,7 +6384,7 @@
     "opam": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opam.git",
       "branch": "master",
-      "revision": "ba4199085dbca44ef6350abab99f6e37334f89e5"
+      "revision": "dccb9b271a6e24fc95a25d998d127e0f9d1855d1"
     },
     "open-iscsi": {
       "url": "gitea@gitea.artixlinux.org:packagesO/open-iscsi.git",
