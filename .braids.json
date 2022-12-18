@@ -2694,7 +2694,7 @@
     "help2man": {
       "url": "gitea@gitea.artixlinux.org:packagesH/help2man.git",
       "branch": "master",
-      "revision": "5f7054ca02d58578702e01cbbdee68af7a1cf851"
+      "revision": "cc13361ed6cb0442c9590d5396e4f2b40e39cce1"
     },
     "hevea": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hevea.git",
