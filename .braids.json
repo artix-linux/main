@@ -2644,7 +2644,7 @@
     "gupnp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gupnp.git",
       "branch": "master",
-      "revision": "5118ecdeff68a04592584c6d6e29a2159f788d0e"
+      "revision": "fca9a94ba0cf5b33af77b4169928335897e92449"
     },
     "gupnp-igd": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gupnp-igd.git",
