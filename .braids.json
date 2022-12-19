@@ -419,7 +419,7 @@
     "aws-c-event-stream": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-event-stream.git",
       "branch": "master",
-      "revision": "b370355d1141dd3df33a1f63b7610b5803355af1"
+      "revision": "585d03df251888dc1caa3e1d71a7f645c9887816"
     },
     "aws-c-http": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-http.git",
