@@ -26,7 +26,7 @@ license=('PHP')
 url='https://www.php.net/'
 makedepends=('apache' 'aspell' 'gdbm' 'enchant' 'gd' 'gmp' 'icu' 'libsodium' 'libxslt' 'libzip' 'net-snmp'
              'postgresql-libs' 'sqlite' 'tidy' 'unixodbc' 'curl' 'libtool' 'postfix' 'freetds' 'pcre2' 'libnsl'
-             'oniguruma')
+             'oniguruma' 'argon2')
 checkdepends=('procps-ng')
 options=('debug')
 source=("https://php.net/distributions/php-${pkgver}.tar.xz"{,.asc}
