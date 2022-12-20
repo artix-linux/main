@@ -2669,7 +2669,7 @@
     "haproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
       "branch": "master",
-      "revision": "bc52db8ba21e7877f20a363c0433605e103f3b29"
+      "revision": "2dfbf6f53b57e4deb4651686d9352450d1205f7a"
     },
     "harfbuzz": {
       "url": "gitea@gitea.artixlinux.org:packagesH/harfbuzz.git",
