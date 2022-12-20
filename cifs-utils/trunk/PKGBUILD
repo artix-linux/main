@@ -1,16 +1,19 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 pkgname=cifs-utils
 pkgver=7.0
-pkgrel=1
+pkgrel=2
 pkgdesc="CIFS filesystem user-space tools"
 arch=(x86_64)
 url="https://wiki.samba.org/index.php/LinuxCIFS_utils"
 license=('GPL')
-depends=('libcap' 'keyutils' 'krb5' 'talloc' 'libwbclient' 'pam')
+depends=('libcap' 'keyutils' 'krb5' 'talloc' 'pam' 'libwbclient')
 makedepends=('python-docutils')
-source=("https://download.samba.org/pub/linux-cifs/$pkgname/$pkgname-$pkgver.tar.bz2")
+optdepends=('python: for smb2-quota and smbinfo script')
+source=("https://download.samba.org/pub/linux-cifs/$pkgname/$pkgname-$pkgver.tar.bz2"{,.asc})
+
 validpgpkeys=('C699981A31F338706C817650DF5BA9D30642D5A0') #cifs-utils Distribution Verification Key <cifs-utils@samba.org>
-sha256sums=('0defaab85bd3ea46ffc45ab41fb0d0ad54d05ae2cfaa7e503de86d4f12bc8161')
+sha256sums=('0defaab85bd3ea46ffc45ab41fb0d0ad54d05ae2cfaa7e503de86d4f12bc8161'
+            'SKIP')
 
 prepare() {
   # Fix install to honor DESTDIR
