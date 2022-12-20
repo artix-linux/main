@@ -849,7 +849,7 @@
     "cifs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cifs-utils.git",
       "branch": "master",
-      "revision": "7367ea1e7f8a6eb1fd2a2738ddd4bce9dca15e3b"
+      "revision": "cbaa050d18ff1fc352a9e4e33420d04b608796eb"
     },
     "cjson": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cjson.git",
