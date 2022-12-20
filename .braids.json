@@ -1329,7 +1329,7 @@
     "directx-shader-compiler": {
       "url": "gitea@gitea.artixlinux.org:packagesD/directx-shader-compiler.git",
       "branch": "master",
-      "revision": "c241eac1dfa35f979cc46983fe862e8a0712d1bc"
+      "revision": "e6791c9111bf3c6b63e2c115e9098f0a015f1304"
     },
     "distcc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc.git",
