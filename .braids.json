@@ -5954,7 +5954,7 @@
     "multipath-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/multipath-tools.git",
       "branch": "master",
-      "revision": "24a757d6996b742e8494c54eb114d58affe54009"
+      "revision": "d02e8b9dfe63fdb724ff283f202231fd4ca23ff7"
     },
     "mumble": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mumble.git",
