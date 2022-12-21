@@ -9549,7 +9549,7 @@
     "xcb-util": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util.git",
       "branch": "master",
-      "revision": "c5509e9f26f5175fa771ad1b7a29d0e2aed14efa"
+      "revision": "11b57cc3a4260df7c65606ccfd968cb937353e4b"
     },
     "xcb-util-cursor": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-util-cursor.git",
