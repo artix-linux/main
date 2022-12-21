@@ -2629,7 +2629,7 @@
     "guile2.2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/guile2.2.git",
       "branch": "master",
-      "revision": "dbb67ff55400381376ee77bc9dcced0fbea9657f"
+      "revision": "029e49882defa04e34a719616857472076fc5b2d"
     },
     "gulp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gulp.git",
