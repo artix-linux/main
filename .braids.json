@@ -6424,7 +6424,7 @@
     "opencl-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencl-headers.git",
       "branch": "master",
-      "revision": "cc48d554fd673f6cd293f6c7dc8ba83c58721dff"
+      "revision": "834301a917794d4b9726f4cc4a73b2c49a9e037b"
     },
     "openconnect": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openconnect.git",
