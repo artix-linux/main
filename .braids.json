@@ -3929,7 +3929,7 @@
     "libgusb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgusb.git",
       "branch": "master",
-      "revision": "5b458cc45b62707320183915bd59af0aa3b24dc8"
+      "revision": "0c77c55a326787f195c97c2c7178dd89ecc0002f"
     },
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
