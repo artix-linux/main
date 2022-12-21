@@ -4664,7 +4664,7 @@
     "libsoxr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoxr.git",
       "branch": "master",
-      "revision": "6fd8b04da161eca2d0dc2b332ab5e839cc4b88da"
+      "revision": "5413d773b5d47eca37bc164887edd5a8b14722db"
     },
     "libspectre": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libspectre.git",
