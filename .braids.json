@@ -7004,7 +7004,7 @@
     "proj": {
       "url": "gitea@gitea.artixlinux.org:packagesP/proj.git",
       "branch": "master",
-      "revision": "eec031a20b042af416982a4080ba5cf3574d9279"
+      "revision": "89056a6d41b70acbd2095ea4011900ec931e586f"
     },
     "projectm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/projectm.git",
