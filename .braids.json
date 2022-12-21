@@ -3989,7 +3989,7 @@
     "libiec61883": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libiec61883.git",
       "branch": "master",
-      "revision": "ec59a35094e6df97c1c3a48600219d0207c6dd67"
+      "revision": "8b812239f28ef3ba65a544d71220fb2d00fafc20"
     },
     "libieee1284": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libieee1284.git",
