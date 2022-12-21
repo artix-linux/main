@@ -225,3 +225,5 @@ package_uwsgi-plugin-notfound() {
   cd $pkgbase-$pkgver
   install -vDm 755 notfound_plugin.so -t "$pkgdir"/usr/lib/uwsgi/
 }
+
+# foo ( remove later)
