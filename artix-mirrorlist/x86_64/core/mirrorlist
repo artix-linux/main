@@ -1,6 +1,6 @@
 ##
 ## Artix Linux repository mirrorlist
-## Generated on 2022-11-17
+## Generated on 2022-12-09
 ##
 
 # Artix mirrors
@@ -59,6 +59,8 @@ Server = https://us-mirror.artixlinux.org/$repo/os/$arch
 Server = https://mirror.csclub.uwaterloo.ca/artixlinux/$repo/os/$arch
 
 ## South America
+# Brazil
+Server = https://notindiegames.tk/pub/artix-linux/$repo/os/$arch
 # Chile
 Server = https://mirror1.cl.netactuate.com/artix/repos/$repo/os/$arch
 
