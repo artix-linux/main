@@ -4629,7 +4629,7 @@
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
       "branch": "master",
-      "revision": "9ccfad82d04f1658f721267d64e18acb031da92d"
+      "revision": "729c235f05bd787d28ea9d93925addaa2dfbe39b"
     },
     "libsmbios": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsmbios.git",
