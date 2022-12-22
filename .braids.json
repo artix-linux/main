@@ -8819,7 +8819,7 @@
     "towncrier": {
       "url": "gitea@gitea.artixlinux.org:packagesT/towncrier.git",
       "branch": "master",
-      "revision": "df90a96c42169612add8a15419639115b2925f12"
+      "revision": "5cbdfe2bd19106404ce14f3f41c829f5397cb4f0"
     },
     "toxcore": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore.git",
