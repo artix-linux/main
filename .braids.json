@@ -2174,7 +2174,7 @@
     "getdns": {
       "url": "gitea@gitea.artixlinux.org:packagesG/getdns.git",
       "branch": "master",
-      "revision": "937195651d908b1347abe3dfe67e00b28e2ec51b"
+      "revision": "1a3d1333cef3beacfe546b282aef5df9af7a73af"
     },
     "gettext": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gettext.git",
