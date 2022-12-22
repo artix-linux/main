@@ -8669,7 +8669,7 @@
     "tesseract": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract.git",
       "branch": "master",
-      "revision": "fafa607f9053bc576b2fa55568894eb76e6123b5"
+      "revision": "f0a9cfc9c2c9552befa1424d87362d2fb095cec3"
     },
     "tesseract-data": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract-data.git",
