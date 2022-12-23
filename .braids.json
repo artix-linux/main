@@ -5741,6 +5741,11 @@
       "branch": "master",
       "revision": "b852e3324b3ee1602ba5173382edc83dbc84181d"
     },
+    "mgba": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mgba.git",
+      "branch": "master",
+      "revision": "81588a538ebd2a23cff8ba510892c27df921ded0"
+    },
     "micro": {
       "url": "gitea@gitea.artixlinux.org:packagesM/micro.git",
       "branch": "master",
