@@ -889,7 +889,7 @@
     "cli11": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cli11.git",
       "branch": "master",
-      "revision": "df58eec93e9de610a0a66b74700de48ff4123fe0"
+      "revision": "7be72c1fa2611ac526ab20db522c11846a399a1d"
     },
     "clisp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clisp.git",
