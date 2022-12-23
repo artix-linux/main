@@ -8484,7 +8484,7 @@
     "stubby": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stubby.git",
       "branch": "master",
-      "revision": "c6b30e2ab4abfc860f2c51729b03933397af3d8c"
+      "revision": "2f7ae04cbcdcfd1238bada7747be550e2dcc1717"
     },
     "stunnel": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel.git",
