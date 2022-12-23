@@ -4619,7 +4619,7 @@
     "libsigc++-3.0": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigcplusplus-3.0.git",
       "branch": "master",
-      "revision": "b00e9a37a052104e038eb6797019015f20d95327"
+      "revision": "9c501707c624cbcf35b37aa989067c375f57fb37"
     },
     "libsignon-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsignon-glib.git",
