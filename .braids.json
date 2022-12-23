@@ -3259,7 +3259,7 @@
     "jupyter-server": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server.git",
       "branch": "master",
-      "revision": "fb156765f3b8a31617ab7070d54150d1f2882122"
+      "revision": "a74be8231ba4782c5ec9903bfdafc96cf7c9cd6f"
     },
     "jupyter-widgetsnbextension": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-widgetsnbextension.git",
