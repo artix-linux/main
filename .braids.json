@@ -4614,7 +4614,7 @@
     "libsigc++": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigcplusplus.git",
       "branch": "master",
-      "revision": "812ae52085c9f7d820c3d8f736c221edb033f6ae"
+      "revision": "c0b706ec27c6c71739a5475964051e7a43ae234e"
     },
     "libsigc++-3.0": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigcplusplus-3.0.git",
