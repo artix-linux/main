@@ -5194,7 +5194,7 @@
     "libzen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libzen.git",
       "branch": "master",
-      "revision": "72c420692742e4337ae60aff8fdf08b30ef678da"
+      "revision": "bcc9c71fb77e19734ae226ee56b90302b3b10f2e"
     },
     "libzip": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libzip.git",
