@@ -1,7 +1,7 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=stubby
-pkgver=0.4.2
+pkgver=0.4.3
 pkgrel=1
 pkgdesc="DNS Privacy stub resolver"
 arch=(x86_64)
@@ -10,7 +10,8 @@ license=(BSD)
 backup=(etc/stubby/stubby.yml)
 depends=(getdns libyaml)
 makedepends=(cmake git)
-source=(git+https://github.com/getdnsapi/stubby.git?signed#tag=v${pkgver}
+_tag=b9a56ea629b9abdc2aaaf5aa7d7b568143b3d9c7 # git rev-parse v${pkgver}
+source=(git+https://github.com/getdnsapi/stubby.git?signed#tag=${_tag}
         stubby-sysusers.conf)
 sha256sums=('SKIP'
             '2b67c70aab850b76187d73d0d5ecde6bc0de182f9fcc76108d82729757183596')
