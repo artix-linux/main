@@ -7889,7 +7889,7 @@
     "rsm": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsm.git",
       "branch": "master",
-      "revision": "110dc916784e35c010259ee6ac90175b9ad3db1e"
+      "revision": "6e1cad12060c8b88e4ffc2b4d2b736a91be96c23"
     },
     "rspamd": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd.git",
