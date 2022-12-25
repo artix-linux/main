@@ -58,6 +58,9 @@ build() {
               --without-ensurepip \
               --with-tzpath=/usr/share/zoneinfo
 
+  # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1025312
+  export LIBGL_ALWAYS_SOFTWARE=1
+
   # Obtain next free server number for xvfb-run; this even works in a chroot environment.
   export servernum=99
   while ! xvfb-run -a -n "$servernum" /bin/true 2>/dev/null; do servernum=$((servernum+1)); done
@@ -73,6 +76,9 @@ check() {
   #               the to-be-installed debug package
 
   cd Python-${pkgver}
+
+  # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1025312
+  export LIBGL_ALWAYS_SOFTWARE=1
 
   # Obtain next free server number for xvfb-run; this even works in a chroot environment.
   export servernum=99
