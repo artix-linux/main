@@ -6189,7 +6189,7 @@
     "nodejs-lts-gallium": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-lts-gallium.git",
       "branch": "master",
-      "revision": "707073f1a351eef2b77c5098e13924adb72f8775"
+      "revision": "a5698ab83bfe25702ce33d912ef567a3c3231f8f"
     },
     "nodejs-nopt": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-nopt.git",
