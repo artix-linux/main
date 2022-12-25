@@ -8346,6 +8346,11 @@
       "branch": "master",
       "revision": "9210859a5ddac2faf7090b47f7a49c14301c99f2"
     },
+    "spatialindex": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spatialindex.git",
+      "branch": "master",
+      "revision": "7a3e20887b85937958ae24c03207ae8fde0957d8"
+    },
     "spdlog": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spdlog.git",
       "branch": "master",
