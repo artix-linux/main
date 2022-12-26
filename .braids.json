@@ -7219,7 +7219,7 @@
     "python": {
       "url": "gitea@gitea.artixlinux.org:packagesP/python.git",
       "branch": "master",
-      "revision": "cee4e980736bb8c989b686a4b0c1885ef983a871"
+      "revision": "c3e3f8972102f1cec7b20ee854e5d72446b9a494"
     },
     "python-feedgen": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-feedgen.git",
