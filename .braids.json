@@ -8509,7 +8509,7 @@
     "subversion": {
       "url": "gitea@gitea.artixlinux.org:packagesS/subversion.git",
       "branch": "master",
-      "revision": "7ac0b067c823a5e3df6ac61b2cd4d25c882f116e"
+      "revision": "6f2848b5617131b47b34a984be547a52df5949a7"
     },
     "sudo": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sudo.git",
