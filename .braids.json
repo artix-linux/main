@@ -1454,7 +1454,7 @@
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
       "branch": "master",
-      "revision": "89910cf97ae14dd69f330dbe550c52c792dade3d"
+      "revision": "c0f693fbe76c16756d2140eb57f0ee8f88359494"
     },
     "double-conversion": {
       "url": "gitea@gitea.artixlinux.org:packagesD/double-conversion.git",
