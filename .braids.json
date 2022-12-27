@@ -899,7 +899,7 @@
     "cln": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cln.git",
       "branch": "master",
-      "revision": "30634a416b6b0ea101c07e7a6bf8e6ab25f5cf5e"
+      "revision": "59794389c5ed8604140ca53d759a8b5a7692f069"
     },
     "cloud-init": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cloud-init.git",
