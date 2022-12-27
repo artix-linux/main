@@ -4074,7 +4074,7 @@
     "libkeybinder3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libkeybinder3.git",
       "branch": "master",
-      "revision": "0c93e54177e5dea99cec420cfbd901119d81a298"
+      "revision": "baecfe0db07dc7ac2a58d558bd8f68566118dedb"
     },
     "libksba": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libksba.git",
