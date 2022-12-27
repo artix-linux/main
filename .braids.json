@@ -1064,7 +1064,7 @@
     "cpio": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpio.git",
       "branch": "master",
-      "revision": "8bc760adea0bf83757569b9b9564e2a19e3bd51e"
+      "revision": "6c029fedfb4ac7905da6ed329e2483b9eeeeb42f"
     },
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
