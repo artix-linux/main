@@ -4734,7 +4734,7 @@
     "libtiger": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtiger.git",
       "branch": "master",
-      "revision": "dcab9d51627470a1a94de63151f4852a9aafcc1d"
+      "revision": "9e681cd12cb0f5127e61d77a70badc93887d6b6f"
     },
     "libtirpc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtirpc.git",
