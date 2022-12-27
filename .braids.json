@@ -2324,7 +2324,7 @@
     "gnu-netcat": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnu-netcat.git",
       "branch": "master",
-      "revision": "d20da9c229eaffe13350fe1cd1f6cec224f6ea95"
+      "revision": "fab57a0d11a501a853688bcee26ca70c3566e56f"
     },
     "gnupg": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnupg.git",
