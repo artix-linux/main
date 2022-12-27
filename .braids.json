@@ -1654,7 +1654,7 @@
     "enscript": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enscript.git",
       "branch": "master",
-      "revision": "eb68475e82a12f6550ccd0e05f8ffeaf92af1148"
+      "revision": "07dab507bade7a3204135afbdf7f52a2ba679a40"
     },
     "entr": {
       "url": "gitea@gitea.artixlinux.org:packagesE/entr.git",
