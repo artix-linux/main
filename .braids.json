@@ -4944,7 +4944,7 @@
     "libwmf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwmf.git",
       "branch": "master",
-      "revision": "61fd5400cad006c3c998ac0c7e599166fb7bddbd"
+      "revision": "d240edae69438b1c5ae2b7f813c2bd6a5437c948"
     },
     "libwnck": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwnck.git",
