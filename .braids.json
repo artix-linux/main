@@ -5294,7 +5294,7 @@
     "lirc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lirc.git",
       "branch": "master",
-      "revision": "4d4c34d1fcad61ac28b3cff49ed016ea1ed0e62a"
+      "revision": "b0c8ecb1d19c77df53fd41405ee9a275e33dd4a4"
     },
     "litehtml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/litehtml.git",
