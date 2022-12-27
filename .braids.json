@@ -1489,7 +1489,7 @@
     "duktape": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duktape.git",
       "branch": "master",
-      "revision": "3b8d35d5e00f650a6ef132f84ea28a61b190315d"
+      "revision": "1788b35bab504d0868ffeb3aa993e7e7472da9b8"
     },
     "dump_syms": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dump_syms.git",
