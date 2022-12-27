@@ -4629,7 +4629,7 @@
     "libsigsegv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
       "branch": "master",
-      "revision": "64e0f262eff95212a9ccab9fb47c79c1ce8400c9"
+      "revision": "94aaefcc0fdea17b44f3926b590906f6d9333dfa"
     },
     "libsm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsm.git",
