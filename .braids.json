@@ -9,7 +9,7 @@
     "aalib": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aalib.git",
       "branch": "master",
-      "revision": "f6e121eed2de9fe007ee4a9f3f6b594c58682473"
+      "revision": "f8a00eef5241222f1776e06e67a0ef4f77d994bb"
     },
     "abseil-cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/abseil-cpp.git",
