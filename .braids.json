@@ -364,7 +364,7 @@
     "autoconf2.13": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autoconf2.13.git",
       "branch": "master",
-      "revision": "b1f88797a80b9b3c0d83e070e5e09fe3701bd413"
+      "revision": "f0682a708734ad2432605b45c321cec627596595"
     },
     "autogen": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autogen.git",
