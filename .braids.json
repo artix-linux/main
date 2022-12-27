@@ -4209,7 +4209,7 @@
     "libmodplug": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmodplug.git",
       "branch": "master",
-      "revision": "c333c72378cebf9724896c4938a2e15208e1eacc"
+      "revision": "2cb7ab612060b6984ce2a3d2513fef56eb015b1b"
     },
     "libmp4v2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmp4v2.git",
