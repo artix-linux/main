@@ -4374,7 +4374,7 @@
     "libomxil-bellagio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libomxil-bellagio.git",
       "branch": "master",
-      "revision": "83c76bac1907d54fd34a40bedfebd1a1ae877adc"
+      "revision": "2a1cdccc3ccfab0e1437eb3ecf7bfe87fcd12c36"
     },
     "libopenmpt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libopenmpt.git",
