@@ -4,7 +4,7 @@
     "a52dec": {
       "url": "gitea@gitea.artixlinux.org:packagesA/a52dec.git",
       "branch": "master",
-      "revision": "90d49c1eb2e817852dc2902856e2ee264accc578"
+      "revision": "2161f34f94e3c8283dcd257e8c618acfc290f572"
     },
     "aalib": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aalib.git",
