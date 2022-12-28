@@ -30,7 +30,7 @@ prepare() {
 build() {
   cd ${pkgname}-agents-${pkgver}
   perl Makefile.PL INSTALLDIRS=vendor
-  make
+  make -j1
 }
 
 check() {
