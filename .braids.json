@@ -7784,7 +7784,7 @@
     "readline": {
       "url": "gitea@gitea.artixlinux.org:packagesR/readline.git",
       "branch": "master",
-      "revision": "9acb975857c959e22ec09d2c01d4c4a899649e1c"
+      "revision": "80c3687d8fb397d3c4185971f4cee23188530849"
     },
     "rebar": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rebar.git",
