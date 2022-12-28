@@ -1594,7 +1594,7 @@
     "elinks": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elinks.git",
       "branch": "master",
-      "revision": "e2126f495c4eee2b6513f6b0e4e5bbf25ef5a2e5"
+      "revision": "22e59d3206dad2da3df6ed6e0f55f0cca51d5bb9"
     },
     "elixir": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elixir.git",
