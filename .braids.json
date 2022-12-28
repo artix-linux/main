@@ -2399,7 +2399,7 @@
     "gperf": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gperf.git",
       "branch": "master",
-      "revision": "8a457ed3d38e8aa8e13d683fff8c84d14729cc96"
+      "revision": "e58741d66a44adee2ef04d0e7d532bd7df2105f8"
     },
     "gperftools": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gperftools.git",
