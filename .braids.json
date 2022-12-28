@@ -7274,7 +7274,7 @@
     "qrencode": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qrencode.git",
       "branch": "master",
-      "revision": "a6d1447eb91c8d9f53416c6b70048de33c5141e7"
+      "revision": "353d641ec643f4011de46c7452ae05a9f09496dc"
     },
     "qt5-3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-3d.git",
