@@ -10049,7 +10049,7 @@
     "yasm": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yasm.git",
       "branch": "master",
-      "revision": "b555e9ec947691332448fd61a3b5f7dc8538d54b"
+      "revision": "355db64563a665676ea6c6434150253b035e35df"
     },
     "yelp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yelp-tools.git",
