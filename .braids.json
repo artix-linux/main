@@ -5429,7 +5429,7 @@
     "luarocks": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luarocks.git",
       "branch": "master",
-      "revision": "b5eb4f855c7188dfde45c17421ac05a0fc05770d"
+      "revision": "d5eeaceaf7923512c091ec643fb9a3e440fded92"
     },
     "luasec": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luasec.git",
