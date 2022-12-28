@@ -6079,7 +6079,7 @@
     "net-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesN/net-tools.git",
       "branch": "master",
-      "revision": "ac3bfaebb7582a759caba1c033a16bccad235407"
+      "revision": "b634a0c236046ab20a85dd6b7b953060dfa9e5bf"
     },
     "netcdf": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcdf.git",
