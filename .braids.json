@@ -7819,7 +7819,7 @@
     "reiserfsprogs": {
       "url": "gitea@gitea.artixlinux.org:packagesR/reiserfsprogs.git",
       "branch": "master",
-      "revision": "aa8ebab469927a53e36563d83339eeb8db2b4aa6"
+      "revision": "6df5aeaebf143764eee4e2941456eb8c047b464d"
     },
     "rest": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rest.git",
