@@ -2989,7 +2989,7 @@
     "iptables": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iptables.git",
       "branch": "master",
-      "revision": "1f95be8901818e3ec8381cfc4b5d17b9fdae02ef"
+      "revision": "7673f0038d4f2e29faf5daeb84ecfdcebef0c618"
     },
     "iputils": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iputils.git",
