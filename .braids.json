@@ -2169,7 +2169,7 @@
     "geoip-database": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip-database.git",
       "branch": "master",
-      "revision": "1570d3a5fb81e4cb8de83c3f681f6226d85ece1b"
+      "revision": "6d12027b0674c0b107d9142e7463b0ffe8b40019"
     },
     "getdns": {
       "url": "gitea@gitea.artixlinux.org:packagesG/getdns.git",
