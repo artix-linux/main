@@ -6641,6 +6641,11 @@
       "branch": "master",
       "revision": "4fb167524b52e8caae00fb95ca54623986872d51"
     },
+    "pacrunner": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pacrunner.git",
+      "branch": "master",
+      "revision": "b735310d9bd5fdf90e4659b45a8d01c9b416c8ad"
+    },
     "pacutils": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pacutils.git",
       "branch": "master",
