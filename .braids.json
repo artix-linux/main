@@ -7779,7 +7779,7 @@
     "re2c": {
       "url": "gitea@gitea.artixlinux.org:packagesR/re2c.git",
       "branch": "master",
-      "revision": "1f73aa18b984515cd644844960e082541e36c282"
+      "revision": "54ab9925257b332695110f0c6886eb67ae0a0c99"
     },
     "readline": {
       "url": "gitea@gitea.artixlinux.org:packagesR/readline.git",
