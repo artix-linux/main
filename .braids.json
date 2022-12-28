@@ -8919,7 +8919,7 @@
     "ttf-bitstream-vera": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-bitstream-vera.git",
       "branch": "master",
-      "revision": "dd10d7c80cca95557825fd81d89a35f12d543a59"
+      "revision": "3e23f0ac61bd084d984a2051196a7d889bb254b5"
     },
     "ttf-carlito": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-carlito.git",
