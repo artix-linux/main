@@ -5399,7 +5399,7 @@
     "lua": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lua.git",
       "branch": "master",
-      "revision": "d3baaa7b7ffd59eb98ee812eadba81a0f29ac48a"
+      "revision": "712ba9aca840ad98bff58028f445190ffa1d9abe"
     },
     "lua-filesystem": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lua-filesystem.git",
