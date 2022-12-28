@@ -9734,7 +9734,7 @@
     "xfsprogs": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xfsprogs.git",
       "branch": "master",
-      "revision": "e25105c82553123e575067e84d67a524b13195f5"
+      "revision": "35c331f44c004388b5a3b0ec3ad8717307daac7e"
     },
     "xinetd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xinetd.git",
