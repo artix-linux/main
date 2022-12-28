@@ -6269,7 +6269,7 @@
     "ntp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp.git",
       "branch": "master",
-      "revision": "f2b799a0292658d7972ddbc9e884fc14d26e1fab"
+      "revision": "482fc6adcb5459f81f2c69f7fa271f890dbf06ab"
     },
     "nuklear": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nuklear.git",
