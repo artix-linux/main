@@ -459,7 +459,7 @@
     "b43-fwcutter": {
       "url": "gitea@gitea.artixlinux.org:packagesB/b43-fwcutter.git",
       "branch": "master",
-      "revision": "5eb0314aff04ab898f5e78d7450f2debb65252e5"
+      "revision": "83613a6eae8d35209c215b2ba3b9ed9e972b23f4"
     },
     "backuppc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/backuppc.git",
