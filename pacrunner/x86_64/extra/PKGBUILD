@@ -48,7 +48,7 @@ build() {
 package() {
   cd $pkgname
   make DESTDIR="$pkgdir" install
-  rm "$pkgdir/usr/share/dbus-1"
+  rm -rf "$pkgdir/usr/share/dbus-1"
 }
 
 # vim:set sw=2 sts=-1 et:
