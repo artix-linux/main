@@ -7764,7 +7764,7 @@
     "razor": {
       "url": "gitea@gitea.artixlinux.org:packagesR/razor.git",
       "branch": "master",
-      "revision": "4fd825c4a986bc59915fdd7c31aeb451d7f9f722"
+      "revision": "03b4886b6604ff492525e9ae36481c3284848639"
     },
     "rclone": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rclone.git",
