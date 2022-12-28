@@ -9464,7 +9464,7 @@
     "whois": {
       "url": "gitea@gitea.artixlinux.org:packagesW/whois.git",
       "branch": "master",
-      "revision": "5c5ac5a01f19139914ec9c0e57e575a292c97019"
+      "revision": "01fd1ed70df2d94867b3a221788f0f5547d77e2d"
     },
     "wildmidi": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wildmidi.git",
