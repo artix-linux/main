@@ -8869,7 +8869,7 @@
     "traceroute": {
       "url": "gitea@gitea.artixlinux.org:packagesT/traceroute.git",
       "branch": "master",
-      "revision": "be47f428e889889013f015506524067df32ee05b"
+      "revision": "de77d9fe40cefb61935fb464013f29d88d458d7f"
     },
     "transcode": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transcode.git",
