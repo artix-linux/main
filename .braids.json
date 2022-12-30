@@ -2939,7 +2939,7 @@
     "intel-media-sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-media-sdk.git",
       "branch": "master",
-      "revision": "4d1a9cb44508667a3dffacafe23710fe6f1fbc51"
+      "revision": "b05940c21119ee07ef852454aa2f0fb68d00b576"
     },
     "intel-metee": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-metee.git",
