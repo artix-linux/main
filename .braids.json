@@ -6039,7 +6039,7 @@
     "ncftp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncftp.git",
       "branch": "master",
-      "revision": "d777a6e2836b6689b9daaf04b674062c11434f59"
+      "revision": "c8460a7e94bd78879b47d67b360be52a48702a6d"
     },
     "ncompress": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncompress.git",
