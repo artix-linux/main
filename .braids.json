@@ -10144,7 +10144,7 @@
     "zita-alsa-pcmi": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zita-alsa-pcmi.git",
       "branch": "master",
-      "revision": "cdb047b3a9d233d2f417b41ef0a9e011e42d5ca0"
+      "revision": "c4f6f9f6f5ec5a728d4819e0df844eec3d78de61"
     },
     "zita-resampler": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zita-resampler.git",
