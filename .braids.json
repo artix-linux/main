@@ -276,6 +276,11 @@
       "branch": "master",
       "revision": "cf90b630fe54703eb4e4cb0f8283e17a19951435"
     },
+    "astromenace": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/astromenace.git",
+      "branch": "master",
+      "revision": "7e9fd064ddb4c2cfc9740506f4a8df1c011e23d7"
+    },
     "at": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at.git",
       "branch": "master",
