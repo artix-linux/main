@@ -8854,7 +8854,7 @@
     "toxic": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxic.git",
       "branch": "master",
-      "revision": "3ba935c062b805e1f0805cd9b601747e10e11eb0"
+      "revision": "f481391624cdc6896b96eb4fe5e51037ea7ccfa4"
     },
     "tp_smapi": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tp_smapi.git",
