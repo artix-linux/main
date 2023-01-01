@@ -844,7 +844,7 @@
     "chromium-bsu": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromium-bsu.git",
       "branch": "master",
-      "revision": "93371e61fbbece9e3b26a8556140e139887c6af3"
+      "revision": "11985c732c4a7e4e01db561988fd76ab5a45c4be"
     },
     "chrony": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony.git",
