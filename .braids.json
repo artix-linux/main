@@ -279,7 +279,7 @@
     "astromenace": {
       "url": "gitea@gitea.artixlinux.org:packagesA/astromenace.git",
       "branch": "master",
-      "revision": "7e9fd064ddb4c2cfc9740506f4a8df1c011e23d7"
+      "revision": "52fcaa3af453827482635b25e8e04526087b7bac"
     },
     "at": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at.git",
