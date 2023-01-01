@@ -12,6 +12,7 @@ depends=('freeglut' 'glu' 'sdl_image' 'openal' 'freealut' 'ftgl' 'fontconfig')
 source=(https://downloads.sourceforge.net/project/chromium-bsu/Chromium%20B.S.U.%20source%20code/chromium-bsu-$pkgver.tar.gz use_fabs_for_floats.patch)
 sha512sums=('1d202c0704e16b31d93c552ae6cfc17caf1182a9ec80730a981cd99c8ca8cb64d4e6e838691aa86e17ea23b7c2c0b1e7b1f4dab91bbc6129f9bf86801f2b27c8'
             '78b0de083c1c11e56aa0e864900c0c2c163f9828505402e63d5eba6092cb2ce2449747c7d5dbd40b96e801f872795a57dc5f247818f4e3d142a3f3af0d4d188d')
+options=(!lto)
 
 prepare() {
   cd $srcdir/$pkgname-$pkgver
