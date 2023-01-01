@@ -2001,6 +2001,11 @@
       "branch": "master",
       "revision": "c1663ea9c375a356259a1b5ebcf2a1a956b57b32"
     },
+    "freealut": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freealut.git",
+      "branch": "master",
+      "revision": "1785cd11a5dc4c7cd09bf2d0b10f9e025ff501cf"
+    },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
       "branch": "master",
