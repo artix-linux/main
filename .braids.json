@@ -4444,7 +4444,7 @@
     "libpcap": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpcap.git",
       "branch": "master",
-      "revision": "99d47abd4bdba23cd6ce1596965a868b61d0072e"
+      "revision": "d48f20c62ac37184eaf9894574bf091454348fe5"
     },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
