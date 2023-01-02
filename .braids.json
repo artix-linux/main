@@ -4224,7 +4224,7 @@
     "libmodplug": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmodplug.git",
       "branch": "master",
-      "revision": "2cb7ab612060b6984ce2a3d2513fef56eb015b1b"
+      "revision": "aebbe90d9d96685edcb36798101b5f485be80fd0"
     },
     "libmp4v2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmp4v2.git",
