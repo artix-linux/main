@@ -5594,7 +5594,7 @@
     "man-pages": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man-pages.git",
       "branch": "master",
-      "revision": "68deb11607b03e4b3731d8c19437e7b41e299f68"
+      "revision": "7de2f0b1abfa270ef018d924ee37f09e4ffe00f9"
     },
     "man2html": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man2html.git",
