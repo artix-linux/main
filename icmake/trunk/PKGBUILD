@@ -35,7 +35,7 @@ build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
     # when upgrading to new SONAME, remove ./manpages from HOME variable
     # to allow compiling the package without invoiking icmake itself
-    HOME=./ ./manpages
+    HOME=./ #./manpages
 
     cd "${srcdir}/${pkgname}-${pkgver}/${pkgname}"
 
