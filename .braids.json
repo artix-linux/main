@@ -8414,7 +8414,7 @@
     "spirv-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-tools.git",
       "branch": "master",
-      "revision": "6c6c9d45ecb51ec09fe1628e753d1a37f83fad25"
+      "revision": "f9b4fccfa8306a02d2f28dc0b9f55b822c5ea482"
     },
     "spotifyd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd.git",
