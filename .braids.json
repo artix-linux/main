@@ -4939,7 +4939,7 @@
     "libwebp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwebp.git",
       "branch": "master",
-      "revision": "b88eb7a3e6fe3c5b74a3724c70f7baefd5af9637"
+      "revision": "3b24404ddebff7413cbb1a54d65defd6ae61e2f6"
     },
     "libwebsockets": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwebsockets.git",
