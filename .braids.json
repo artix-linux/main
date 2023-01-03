@@ -2484,7 +2484,7 @@
     "groovy": {
       "url": "gitea@gitea.artixlinux.org:packagesG/groovy.git",
       "branch": "master",
-      "revision": "c246de7bca6c4a4a16f8686afc763a06e0a2420e"
+      "revision": "96920951328cd9dc827045b82b81d35940802aa6"
     },
     "grpc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grpc.git",
