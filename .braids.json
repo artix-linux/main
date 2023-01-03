@@ -10084,7 +10084,7 @@
     "yodl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yodl.git",
       "branch": "master",
-      "revision": "f3b22efe2902b64eb0a4f9acd1328972a289da94"
+      "revision": "59cfba622679dc22818681e05f2ebd46d010d031"
     },
     "youtube-dl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/youtube-dl.git",
