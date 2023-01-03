@@ -9174,7 +9174,7 @@
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
       "branch": "master",
-      "revision": "0c12f3828cf1d231df154996afbb8656a2ba80e1"
+      "revision": "a1e6da24d3ecbc13098f52e949eed5485705ebb4"
     },
     "uthash": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uthash.git",
