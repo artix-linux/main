@@ -4869,7 +4869,7 @@
     "libva-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva-utils.git",
       "branch": "master",
-      "revision": "8e2003585ab39008fa5b646af2eee22b1e2807ac"
+      "revision": "5bd71f12ae40f585f6623ff5976c66bafcf439f5"
     },
     "libva-vdpau-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva-vdpau-driver.git",
