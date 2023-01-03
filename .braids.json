@@ -1989,7 +1989,7 @@
     "fontforge": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fontforge.git",
       "branch": "master",
-      "revision": "be480fe78634f48a1c8b2d94f6651780a2229133"
+      "revision": "83e2ddee4b1a9abbabe795ec7836692c3f502129"
     },
     "foomatic-db": {
       "url": "gitea@gitea.artixlinux.org:packagesF/foomatic-db.git",
