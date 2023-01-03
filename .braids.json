@@ -6919,7 +6919,7 @@
     "poppler": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler.git",
       "branch": "master",
-      "revision": "47b8d8da4e5c99bdc162dafa47aab7f5ffca001c"
+      "revision": "113618233d01a1ef4d88eed6fddfd37c1234e147"
     },
     "poppler-data": {
       "url": "gitea@gitea.artixlinux.org:packagesP/poppler-data.git",
