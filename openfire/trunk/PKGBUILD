@@ -1,15 +1,15 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=openfire
-pkgver=4.7.3
+pkgver=4.7.4
 pkgrel=1
 pkgdesc="High performance XMPP (Jabber) server."
 arch=('any')
 url='https://www.igniterealtime.org/projects/openfire/'
 license=('APACHE')
-depends=('java-runtime-headless')
-makedepends=('maven')
+depends=('java-runtime-headless<19')
+makedepends=('maven' 'jre11-openjdk-headless' 'jdk11-openjdk')
 backup=('etc/openfire/openfire.xml'
         'etc/openfire/security.xml'
         'etc/openfire/crowd.properties'
@@ -19,7 +19,7 @@ backup=('etc/openfire/openfire.xml'
 source=("$pkgname-$pkgver.tar.gz::https://github.com/igniterealtime/Openfire/archive/refs/tags/v$pkgver.tar.gz"
         'user.conf'
         'tmpfile.conf')
-sha256sums=('e869ebe369d5ee9f165bd77cf65af4853e5bc0d63fbcb6a1770878d7b2d56bb9'
+sha256sums=('5eb22e165d1de0a1e601efbd356266a6823fafc866b684500ec90af1ba764ab9'
             '8bfa51cf8cc88fc69547a8f6e9e3fb242926ca2a100659363e1a6b332f223ba9'
             'c63396991984a067d05e21094a664255d6aed2bf294bddd3885a7da75472b886')
 
