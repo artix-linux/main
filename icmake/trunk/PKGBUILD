@@ -6,7 +6,7 @@
 
 pkgname=icmake
 pkgver=10.03.03
-pkgrel=1
+pkgrel=1.1
 pkgdesc='A program maintenance (make) utility using a C-like grammar'
 arch=('x86_64')
 url='https://fbb-git.gitlab.io/icmake/'
@@ -35,7 +35,7 @@ build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
     # when upgrading to new SONAME, remove ./manpages from HOME variable
     # to allow compiling the package without invoiking icmake itself
-    HOME=./ #./manpages
+    HOME=./ ./manpages
 
     cd "${srcdir}/${pkgname}-${pkgver}/${pkgname}"
 
