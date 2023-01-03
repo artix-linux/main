@@ -1289,7 +1289,7 @@
     "devil": {
       "url": "gitea@gitea.artixlinux.org:packagesD/devil.git",
       "branch": "master",
-      "revision": "335e9f815ad2ae68d8621163c84e28a2907c6200"
+      "revision": "91251910303827398ec9295954c4780d1a84a5a4"
     },
     "dhcp": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp.git",
