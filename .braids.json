@@ -7039,7 +7039,7 @@
     "proj": {
       "url": "gitea@gitea.artixlinux.org:packagesP/proj.git",
       "branch": "master",
-      "revision": "89056a6d41b70acbd2095ea4011900ec931e586f"
+      "revision": "9b1fff69b6b8f1494381b9f7e215e8a663acf2fb"
     },
     "projectm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/projectm.git",
