@@ -6214,7 +6214,7 @@
     "nodejs-yaml": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-yaml.git",
       "branch": "master",
-      "revision": "9a45c91fac59639c2547bcfc159a169dea38d666"
+      "revision": "acf36ee04605443f7b77a7e39fc71d40d7b11988"
     },
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
