@@ -1159,7 +1159,7 @@
     "cups-filters": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cups-filters.git",
       "branch": "master",
-      "revision": "a675df524522bcda297140fed58d2f1fde066086"
+      "revision": "f68dcc674d679d6a46226beeba492a6a495fe192"
     },
     "curl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/curl.git",
