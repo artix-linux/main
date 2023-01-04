@@ -5084,7 +5084,7 @@
     "libxkbcommon": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxkbcommon.git",
       "branch": "master",
-      "revision": "039c39ac347482b16db09217dc0afdb55ecbd9a4"
+      "revision": "cc1b81a2d4254ec1e51a401dd9c65d1b7058157f"
     },
     "libxkbfile": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxkbfile.git",
