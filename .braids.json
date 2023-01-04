@@ -10209,7 +10209,7 @@
     "zvbi": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zvbi.git",
       "branch": "master",
-      "revision": "a7275684c9375b992bbe26d5314369fa54bd97f9"
+      "revision": "f4ab23fbf6eca4bbe94b3f3fac761c654b5a8836"
     },
     "zziplib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zziplib.git",
