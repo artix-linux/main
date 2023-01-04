@@ -2869,7 +2869,7 @@
     "icmake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
       "branch": "master",
-      "revision": "2f5aebbaafa7215dfdbe7dce66123804d8d0a683"
+      "revision": "f69307596c058aeed16a79cd1b54a145db4c27b8"
     },
     "icoutils": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icoutils.git",
