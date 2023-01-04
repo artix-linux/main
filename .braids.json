@@ -4499,7 +4499,7 @@
     "libpsl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpsl.git",
       "branch": "master",
-      "revision": "1652356a9d9a9638d6388e486cf9c48472e91b77"
+      "revision": "4208a9aefd01ad8eefc48728ee36fa13330c0252"
     },
     "libptytty": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libptytty.git",
