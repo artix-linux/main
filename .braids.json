@@ -5584,7 +5584,7 @@
     "make": {
       "url": "gitea@gitea.artixlinux.org:packagesM/make.git",
       "branch": "master",
-      "revision": "9adafab30e1cb43654576997c2652c0960c8f11e"
+      "revision": "5af16eecb3a9773e5bd0b48c0024db5a7b221d4e"
     },
     "mallard-ducktype": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mallard-ducktype.git",
