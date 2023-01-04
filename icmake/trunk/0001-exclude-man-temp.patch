@@ -1,0 +1,33 @@
+From bdecb38973b3e2f97e04b0cc62f5f5a308a5eb31 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Tue, 3 Jan 2023 23:41:20 -0600
+Subject: [PATCH] exclude man temp
+
+---
+ icmake/icm_bootstrap | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+diff --git a/icmake/icm_bootstrap b/icmake/icm_bootstrap
+index 60813b3..beeebe9 100755
+--- a/icmake/icm_bootstrap
++++ b/icmake/icm_bootstrap
+@@ -60,16 +60,6 @@ echo
+ 
+ cd doc
+ 
+-echo man-pages *.1 to tmp${MANDIR}/man1
+-for x in *.1 ; do
+-    gzip -9cn $x > ../tmp${MANDIR}/man1/$x.gz || exit 1
+-done
+-echo
+-
+-echo man-pages *.7 to tmp${MANDIR}/man7
+-for x in *.7 ; do
+-    gzip -9cn $x > ../tmp${MANDIR}/man7/$x.gz  || exit 1
+-done
+ echo
+ 
+ echo ./changelog to tmp${DOCDIR}
+-- 
+2.39.0
+

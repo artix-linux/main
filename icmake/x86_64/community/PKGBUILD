@@ -12,8 +12,10 @@ arch=('x86_64')
 url='https://fbb-git.gitlab.io/icmake/'
 license=('GPL3')
 source=("https://gitlab.com/fbb-git/${pkgname}/-/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz"
+	0001-exclude-man-temp.patch
         'disable-clear-screen.patch')
 b2sums=('4711dee5d66882afeeb6e7206b97341690e2e1c0e511fcf9f43d41ec04bec2ecf5fee10113bba47475b3166dc8dc53f7b236c42dcf0969582a59bbf30b7ca618'
+        '4a1d2e5c9e0f180e3677eb449e00c5d418b3c670dc2bd5e76274e7661b03d7899733cf7216d46300615c979eccb8aee7f2a043684c5a6acb46165ae94566947b'
         '6689ce74a985742e079f95bfaa22dcee22ad667f45cf21f79d4c3d2271f925f53bcd6729ca762a7cfa6a63af9b0fd48c2b9c024bd35ca580e83a6a54758a7bed')
 makedepends=('icmake' 'yodl')
 depends=('libbobcat' 'libunwind')
@@ -21,7 +23,7 @@ depends=('libbobcat' 'libunwind')
 prepare() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
     patch -Np1 -i "${srcdir}/disable-clear-screen.patch"
-
+    patch -Np1 -i ../0001-exclude-man-temp.patch
     # fix paths
     sed -i 's|usr/libexec/icmake|usr/lib/icmake|' icmake/INSTALL.im
 
@@ -35,7 +37,7 @@ build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
     # when upgrading to new SONAME, remove ./manpages from HOME variable
     # to allow compiling the package without invoiking icmake itself
-    HOME=./ ./manpages
+    HOME=./ # ./manpages
 
     cd "${srcdir}/${pkgname}-${pkgver}/${pkgname}"
 
