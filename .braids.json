@@ -7569,7 +7569,7 @@
     "qt6-lottie": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-lottie.git",
       "branch": "master",
-      "revision": "56e1669d4d9de6f98fca965edb1b87052ab3b867"
+      "revision": "548114af52c2266cf15a9db46fbee942a2c91028"
     },
     "qt6-multimedia": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-multimedia.git",
