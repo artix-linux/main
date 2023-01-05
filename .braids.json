@@ -7589,7 +7589,7 @@
     "qt6-positioning": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-positioning.git",
       "branch": "master",
-      "revision": "e388ae0dc1b173addc01efbe2a5aa3f122fca324"
+      "revision": "ca5d1ec1ef6e949dd34ebc5f1c01cc9071497eda"
     },
     "qt6-quick3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-quick3d.git",
