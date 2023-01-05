@@ -7539,7 +7539,7 @@
     "qt6-datavis3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-datavis3d.git",
       "branch": "master",
-      "revision": "11fe7f9eefaa99302c111ec4cd3e548bdb10c068"
+      "revision": "eb6d8420c32f030b46259b0481318c6c4233d8f4"
     },
     "qt6-declarative": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-declarative.git",
