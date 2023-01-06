@@ -8204,7 +8204,7 @@
     "shaderc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shaderc.git",
       "branch": "master",
-      "revision": "6fbcc5eacd58b77e19663fc4f5c8ab97f95260c2"
+      "revision": "af51e2afa107379ac2e3026b8562fd0bdb1e6d9b"
     },
     "shadow": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shadow.git",
