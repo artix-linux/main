@@ -8379,7 +8379,7 @@
     "spandsp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spandsp.git",
       "branch": "master",
-      "revision": "07cbda1f2fb7d4e86f71812c9a103bf13b67a3b6"
+      "revision": "bd291a4c4a69152646e0698a095c5ea165c19e63"
     },
     "spatialindex": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spatialindex.git",
