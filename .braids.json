@@ -2804,7 +2804,7 @@
     "hwdata": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwdata.git",
       "branch": "master",
-      "revision": "a1a71976bf0a5db7e573a20df8b5a6e969dd516e"
+      "revision": "5b6b2ff239963aa9138e241bfac85ba391cad14b"
     },
     "hwinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwinfo.git",
