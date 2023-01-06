@@ -5729,7 +5729,7 @@
     "mesa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
       "branch": "master",
-      "revision": "e3dc3975c232c0345a7bfd5c10d1123967e57905"
+      "revision": "cce08f71e32c4c116f18788ef92dfaa649c13d0c"
     },
     "mesa-demos": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa-demos.git",
