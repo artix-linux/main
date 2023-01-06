@@ -96,12 +96,12 @@ build() {
     -DSPHINX_WARNINGS_AS_ERRORS=OFF
   )
 
-  cmake .. "${cmake_args[@]}"
+  artix-cmake .. "${cmake_args[@]}"
   local distribution_components=$(_get_distribution_components | paste -sd\;)
   test -n "$distribution_components"
   cmake_args+=(-DLLVM_DISTRIBUTION_COMPONENTS="$distribution_components")
 
-  cmake .. "${cmake_args[@]}"
+  artix-cmake .. "${cmake_args[@]}"
   ninja
 }
 
