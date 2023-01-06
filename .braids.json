@@ -3389,7 +3389,7 @@
     "ldc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldc.git",
       "branch": "master",
-      "revision": "6dac855823aa6436baa7416cc664dac2801a047f"
+      "revision": "222909e3868f9682d6b8c87538ae976be24e91b3"
     },
     "ldns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldns.git",
