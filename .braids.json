@@ -1624,7 +1624,7 @@
     "emacs": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emacs.git",
       "branch": "master",
-      "revision": "5d2ff2a361e695a7bf357f29ba79d27ca4802502"
+      "revision": "7eb97c57dcde52d7cac38b44a68127ff57269b9b"
     },
     "emacs-nox": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emacs-nox.git",
