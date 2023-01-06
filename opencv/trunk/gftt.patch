@@ -1,0 +1,115 @@
+From 8e4586cb91c4aa360ac091a5ac0ad11296939827 Mon Sep 17 00:00:00 2001
+From: Alexander Smorkalov <2536374+asmorkalov@users.noreply.github.com>
+Date: Fri, 12 Aug 2022 10:46:27 +0300
+Subject: [PATCH] Merge pull request #3324 from kevinchristensen1:gftt-cuda-fix
+
+Fix CUDA mem leak in GFTT and move CUDA malloc out of critical path
+---
+ modules/cudaimgproc/src/cuda/gftt.cu | 13 +++++--------
+ modules/cudaimgproc/src/gftt.cpp     | 18 ++++++++++++++----
+ 2 files changed, 19 insertions(+), 12 deletions(-)
+
+diff --git a/modules/cudaimgproc/src/cuda/gftt.cu b/modules/cudaimgproc/src/cuda/gftt.cu
+index 66bd6e0d..b5655611 100644
+--- a/modules/cudaimgproc/src/cuda/gftt.cu
++++ b/modules/cudaimgproc/src/cuda/gftt.cu
+@@ -87,25 +87,22 @@ namespace cv { namespace cuda { namespace device
+             }
+         }
+ 
+-        int findCorners_gpu(const cudaTextureObject_t &eigTex, const int &rows, const int &cols, float threshold, PtrStepSzb mask, float2* corners, int max_count, cudaStream_t stream)
++        int findCorners_gpu(const cudaTextureObject_t &eigTex, const int &rows, const int &cols, float threshold, PtrStepSzb mask, float2* corners, int max_count, int* counterPtr, cudaStream_t stream)
+         {
+-            int* counter_ptr;
+-            cudaSafeCall( cudaMalloc(&counter_ptr, sizeof(int)) );
+-
+-            cudaSafeCall( cudaMemsetAsync(counter_ptr, 0, sizeof(int), stream) );
++            cudaSafeCall( cudaMemsetAsync(counterPtr, 0, sizeof(int), stream) );
+ 
+             dim3 block(16, 16);
+             dim3 grid(divUp(cols, block.x), divUp(rows, block.y));
+ 
+             if (mask.data)
+-                findCorners<<<grid, block, 0, stream>>>(threshold, SingleMask(mask), corners, max_count, rows, cols, eigTex, counter_ptr);
++                findCorners<<<grid, block, 0, stream>>>(threshold, SingleMask(mask), corners, max_count, rows, cols, eigTex, counterPtr);
+             else
+-                findCorners<<<grid, block, 0, stream>>>(threshold, WithOutMask(), corners, max_count, rows, cols, eigTex, counter_ptr);
++                findCorners<<<grid, block, 0, stream>>>(threshold, WithOutMask(), corners, max_count, rows, cols, eigTex, counterPtr);
+ 
+             cudaSafeCall( cudaGetLastError() );
+ 
+             int count;
+-            cudaSafeCall( cudaMemcpyAsync(&count, counter_ptr, sizeof(int), cudaMemcpyDeviceToHost, stream) );
++            cudaSafeCall( cudaMemcpyAsync(&count, counterPtr, sizeof(int), cudaMemcpyDeviceToHost, stream) );
+             if (stream)
+                 cudaSafeCall(cudaStreamSynchronize(stream));
+             else
+diff --git a/modules/cudaimgproc/src/gftt.cpp b/modules/cudaimgproc/src/gftt.cpp
+index f25158a6..ae19087a 100644
+--- a/modules/cudaimgproc/src/gftt.cpp
++++ b/modules/cudaimgproc/src/gftt.cpp
+@@ -55,7 +55,7 @@ namespace cv { namespace cuda { namespace device
+ {
+     namespace gfft
+     {
+-        int findCorners_gpu(const cudaTextureObject_t &eigTex_, const int &rows, const int &cols, float threshold, PtrStepSzb mask, float2* corners, int max_count, cudaStream_t stream);
++        int findCorners_gpu(const cudaTextureObject_t &eigTex_, const int &rows, const int &cols, float threshold, PtrStepSzb mask, float2* corners, int max_count, int* counterPtr, cudaStream_t stream);
+         void sortCorners_gpu(const cudaTextureObject_t &eigTex_, float2* corners, int count, cudaStream_t stream);
+     }
+ }}}
+@@ -67,7 +67,7 @@ namespace
+     public:
+         GoodFeaturesToTrackDetector(int srcType, int maxCorners, double qualityLevel, double minDistance,
+                                     int blockSize, bool useHarrisDetector, double harrisK);
+-
++        ~GoodFeaturesToTrackDetector();
+         void detect(InputArray image, OutputArray corners, InputArray mask, Stream& stream);
+ 
+     private:
+@@ -82,6 +82,8 @@ namespace
+         GpuMat buf_;
+         GpuMat eig_;
+         GpuMat tmpCorners_;
++
++        int* counterPtr_;
+     };
+ 
+     GoodFeaturesToTrackDetector::GoodFeaturesToTrackDetector(int srcType, int maxCorners, double qualityLevel, double minDistance,
+@@ -93,6 +95,12 @@ namespace
+         cornerCriteria_ = useHarrisDetector ?
+                     cuda::createHarrisCorner(srcType, blockSize, 3, harrisK) :
+                     cuda::createMinEigenValCorner(srcType, blockSize, 3);
++        cudaSafeCall(cudaMalloc(&counterPtr_, sizeof(int)));
++    }
++
++    GoodFeaturesToTrackDetector::~GoodFeaturesToTrackDetector()
++    {
++        cudaSafeCall(cudaFree(counterPtr_));
+     }
+ 
+     void GoodFeaturesToTrackDetector::detect(InputArray _image, OutputArray _corners, InputArray _mask, Stream& stream)
+@@ -125,17 +133,19 @@ namespace
+         PtrStepSzf eig = eig_;
+         cv::cuda::device::createTextureObjectPitch2D<float>(&eigTex_, eig, texDesc);
+ 
+-        int total = findCorners_gpu(eigTex_, eig_.rows, eig_.cols, static_cast<float>(maxVal * qualityLevel_), mask, tmpCorners_.ptr<float2>(), tmpCorners_.cols, stream_);
+-
++        int total = findCorners_gpu(eigTex_, eig_.rows, eig_.cols, static_cast<float>(maxVal * qualityLevel_), mask, tmpCorners_.ptr<float2>(), tmpCorners_.cols, counterPtr_, stream_);
+ 
+         if (total == 0)
+         {
+             _corners.release();
++            cudaSafeCall( cudaDestroyTextureObject(eigTex_) );
+             return;
+         }
+ 
+         sortCorners_gpu(eigTex_, tmpCorners_.ptr<float2>(), total, stream_);
+ 
++        cudaSafeCall( cudaDestroyTextureObject(eigTex_) );
++
+         if (minDistance_ < 1)
+         {
+             tmpCorners_.colRange(0, maxCorners_ > 0 ? std::min(maxCorners_, total) : total).copyTo(_corners, stream);
+-- 
+2.39.0
+
