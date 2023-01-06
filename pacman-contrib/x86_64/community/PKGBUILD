@@ -1,8 +1,8 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=pacman-contrib
-pkgver=1.8.0
+pkgver=1.8.2
 pkgrel=1
 pkgdesc='Contributed scripts and tools for pacman systems'
 arch=('x86_64')
@@ -15,21 +15,21 @@ optdepends=('diffutils: for pacdiff'
             'mlocate: for pacdiff --locate'
             'sudo: privilege elevation for several scripts'
             'vim: default merge program for pacdiff')
-source=("$url/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz"
+source=("git+$url.git"
         rankmirrors-artix.patch)
-b2sums=('af3d00b230a53158c63cdb42db82531154da54d8e6bcd1dd056818ef7c5602a998180976e87dad059b376b412f0f059b6fa275dd1200ad64b2596c243ec2dade'
+b2sums=('SKIP'
         'ca5d31cdd7a386241ba75a67e517bbd087f77f8740f0d7b5b53b26e2418516e395f01b7b43d09fff2430d214387e8386db679dfd2b226b1403d02135d349e469')
-#validpgpkeys=('5134EF9EAF65F95B6BB1608E50FB9B273A9D0BB5'  # Johannes Löthberg <johannes@kyriasis.com>
-#              '04DC3FB1445FECA813C27EFAEA4F7B321A906AD9') # Daniel M. Capella <polyzen@archlinux.org>
+validpgpkeys=('04DC3FB1445FECA813C27EFAEA4F7B321A906AD9') # Daniel M. Capella <polyzen@archlinux.org>
+#             '5134EF9EAF65F95B6BB1608E50FB9B273A9D0BB5')  # Johannes Löthberg <johannes@kyriasis.com>
 
 prepare() {
-  cd $pkgname-v$pkgver
+  cd $pkgname
   patch -Np 1 -i ../rankmirrors-artix.patch
   ./autogen.sh
 }
 
 build() {
-  cd $pkgname-v$pkgver
+  cd $pkgname
   ./configure \
     --prefix=/usr \
     --sysconfdir=/etc \
@@ -38,12 +38,12 @@ build() {
 }
 
 check() {
-  cd $pkgname-v$pkgver
+  cd $pkgname
   make check
 }
 
 package() {
-  cd $pkgname-v$pkgver
+  cd $pkgname
   make DESTDIR="$pkgdir" install
   rm -fr ${pkgdir}/usr/lib/systemd
 }
