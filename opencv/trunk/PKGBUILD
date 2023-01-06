@@ -22,24 +22,21 @@ optdepends=('opencv-samples: samples'
 source=(https://github.com/opencv/opencv/archive/$pkgver/$pkgname-$pkgver.tar.gz
         https://github.com/opencv/opencv_contrib/archive/$pkgver/opencv_contrib-$pkgver.tar.gz
         https://github.com/opencv/opencv/commit/496eed95.patch
-	cuda-12-build.patch::https://github.com/opencv/opencv_contrib/commit/af3a467adcd4b8cfe2d4084a891c116eecce3b5a.patch
-	cuda12-build.patch::https://github.com/opencv/opencv_contrib/commit/2276095e556bc7d668db81d50636aead728d6628.patch
-	fix-cuda.patch
+	cuda-fix.patch
+	opencv-cuda.patch
         vtk9.patch)
 sha256sums=('1ec1cba65f9f20fe5a41fda1586e01c70ea0c9a6d7b67c9e13edf0cfe2239277'
             '1777d5fd2b59029cf537e5fd6f8aa68d707075822f90bde683fcde086f85f7a7'
             '28edbd94c443b6aaa3054b4f9b35a4ad9a89dc45f40d408bcf3036950a072a32'
-            '2ab6a5c8430c725bd213a2552550ca624e3a2e45eef6045902ebfb5a7738a335'
-            'd36604aa7499d8b7bd37f87a344fc13573638508d1f7a4b424ab70f22b6c9edb'
-            '8078113618109f23d575882e5749acf84e017d79f01b3c217c2b45658829dd57'
+            '3a84389a8ca29c3dcbf40e69af57b31cb0e17e392c0ad6f1065ac032bb54f40a'
+            'fbf67efe615a2c758b20a4855f887f01b6ae1f550117ee2d9e7340d2ee657969'
             'f35a2d4ea0d6212c7798659e59eda2cb0b5bc858360f7ce9c696c77d3029668e')
 
 prepare() {
   patch -d $pkgname-$pkgver -p1 < vtk9.patch # Don't require all vtk optdepends
   patch -d $pkgname-$pkgver -p1 < 496eed95.patch # Fix build with ffmpeg 5.1
-  patch -d $pkgname-$pkgver -p1 < fix-cuda.patch
-  patch -d opencv_contrib-$pkgver -p1 < cuda12-build.patch
-  patch -d opencv_contrib-$pkgver -p1 < cuda-12-build.patch
+  patch -d opencv_contrib-$pkgver -p1 < cuda-fix.patch
+  patch -d $pkgname-$pkgver -p1 < opencv-cuda.patch
 }
 
 build() {
