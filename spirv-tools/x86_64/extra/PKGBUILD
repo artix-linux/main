@@ -1,14 +1,14 @@
-# Maintainer: Laurent Carlier <lordheavym@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=spirv-tools
-pkgver=2022.1
+pkgver=2022.4
 pkgrel=1
 pkgdesc="API and commands for processing SPIR-V modules"
 arch=('x86_64')
 url="https://www.khronos.org/vulkan/"
 license=('custom')
 groups=(vulkan-devel)
-depends=('gcc-libs')
+depends=('gcc-libs' 'sh')
 makedepends=('cmake' 'python' 'git' 'ninja' 'spirv-headers')
 source=("SPIRV-Tools1::git+https://github.com/KhronosGroup/SPIRV-Tools.git#tag=v${pkgver}")
 sha256sums=('SKIP')
@@ -21,7 +21,7 @@ build() {
       -GNinja \
       -DCMAKE_INSTALL_PREFIX=/usr \
       -DCMAKE_INSTALL_LIBDIR=lib \
-      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_BUILD_TYPE=None \
       -DSPIRV_WERROR=Off \
       -DBUILD_SHARED_LIBS=ON \
       -DSPIRV_TOOLS_BUILD_STATIC=OFF \
