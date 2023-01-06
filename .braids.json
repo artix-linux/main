@@ -6069,7 +6069,7 @@
     "ncurses": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncurses.git",
       "branch": "master",
-      "revision": "01767572d6b993ba429c87fee152265fa4b16dbf"
+      "revision": "b0f46272bbbf050bc03703f3ba791d548e5f168a"
     },
     "ndctl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndctl.git",
