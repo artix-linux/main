@@ -4474,7 +4474,7 @@
     "libplacebo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libplacebo.git",
       "branch": "master",
-      "revision": "e5417341a8d2c14f2615393ee562ec96752c3d40"
+      "revision": "77b70a98d449ddb2e97a53ebb790a71a7fb49c6e"
     },
     "libplist": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libplist.git",
