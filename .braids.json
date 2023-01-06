@@ -8799,7 +8799,7 @@
     "tigervnc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc.git",
       "branch": "master",
-      "revision": "83f92028170e44d99488535607a74191418a2363"
+      "revision": "5f5328b74c4e8fade0b79198bcb0e2a1b167fbff"
     },
     "time": {
       "url": "gitea@gitea.artixlinux.org:packagesT/time.git",
