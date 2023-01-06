@@ -1164,7 +1164,7 @@
     "curl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/curl.git",
       "branch": "master",
-      "revision": "497a74909c6d373d87f031adae917575a6496a78"
+      "revision": "0a41c53e02017a1bcb9d9c26ee8f332ef452abc5"
     },
     "cyrus-sasl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl.git",
