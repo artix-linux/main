@@ -889,7 +889,7 @@
     "clazy": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clazy.git",
       "branch": "master",
-      "revision": "6d7ed144ec6652c5cdcaad636a856953bcb3561b"
+      "revision": "87d1f32b6df5156342a96be55fbdaf0d13acb38d"
     },
     "clevis": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clevis.git",
