@@ -9544,7 +9544,7 @@
     "wqy-zenhei": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wqy-zenhei.git",
       "branch": "master",
-      "revision": "c961ac15cba3ca822092fce606cc1327e991f0de"
+      "revision": "7589104b9a3fd2f0bc1f5095bb58b535574ca911"
     },
     "wtype": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wtype.git",
