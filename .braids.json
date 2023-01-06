@@ -3379,7 +3379,7 @@
     "lcms2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lcms2.git",
       "branch": "master",
-      "revision": "6b7b8a878099e2d8a9ade919bc412eae234b80a4"
+      "revision": "82698dde2bf1923d8bfa36b5f5d81341fa031a5b"
     },
     "ldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldb.git",
