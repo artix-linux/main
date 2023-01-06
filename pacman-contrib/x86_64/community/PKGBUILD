@@ -9,7 +9,7 @@ arch=('x86_64')
 url=https://gitlab.archlinux.org/pacman/pacman-contrib
 license=('GPL')
 depends=('fakeroot' 'pacman' 'perl')
-makedepends=('asciidoc')
+makedepends=('asciidoc' 'git')
 optdepends=('diffutils: for pacdiff'
             'findutils: for pacdiff --find'
             'mlocate: for pacdiff --locate'
