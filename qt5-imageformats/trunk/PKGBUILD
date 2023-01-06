@@ -4,7 +4,7 @@
 pkgname=qt5-imageformats
 _basever=5.15.8
 pkgver=5.15.8+kde+r6
-pkgrel=1
+pkgrel=1.1
 _commit=abe44c0f526e499668b1131c5990d9b571f99c46
 arch=('x86_64')
 url='https://www.qt.io'
