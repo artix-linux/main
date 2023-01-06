@@ -6509,7 +6509,7 @@
     "openjpeg2": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openjpeg2.git",
       "branch": "master",
-      "revision": "8dac95a8699afb28c7e4e4c8e3d23fbb71be369a"
+      "revision": "1986dcd80622e34a3605f056a87c9d6c4f6359ac"
     },
     "openldap": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openldap.git",
