@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Frederik Schwan <freswa at archlinux dot org>
 # Contributor: Jaroslav Lichtblau <svetlemodry@archlinux.org>
 # Contributor: Renchi Raju <renchi@green.tam.uiuc.edu>
@@ -6,7 +6,7 @@
 pkgbase=emacs
 pkgname=(emacs emacs-nativecomp emacs-nox)
 pkgver=28.2
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 url='https://www.gnu.org/software/emacs/emacs.html'
 license=('GPL3')
