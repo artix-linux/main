@@ -3884,7 +3884,7 @@
     "libgdiplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdiplus.git",
       "branch": "master",
-      "revision": "406dbeb3ac6c1c6d50d244f25ddfb78797bb89ff"
+      "revision": "c866439c8e4dcb3180586f4af8dcb3d0f45dc933"
     },
     "libgexiv2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgexiv2.git",
