@@ -104,7 +104,7 @@ cc = "/usr/bin/gcc"
 cxx = "/usr/bin/g++"
 ar = "/usr/bin/gcc-ar"
 ranlib = "/usr/bin/gcc-ranlib"
-llvm-config = "/usr/bin/llvm-config"
+llvm-config = "/usr/lib/llvm14/bin/llvm-config"
 
 [target.i686-unknown-linux-gnu]
 cc = "/usr/bin/gcc"
