@@ -2889,7 +2889,7 @@
     "igsc": {
       "url": "gitea@gitea.artixlinux.org:packagesI/igsc.git",
       "branch": "master",
-      "revision": "39b29aa79f8d1ca65107a696b788d6074b6e3cc3"
+      "revision": "79f40a25d83920dd239fcb4f7464dc21f2ab055d"
     },
     "ijs": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ijs.git",
