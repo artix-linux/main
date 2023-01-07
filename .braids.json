@@ -9279,7 +9279,7 @@
     "vigra": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vigra.git",
       "branch": "master",
-      "revision": "ede8ec3887e283dd2b5a93e4a6340b2ca7a73d6c"
+      "revision": "2eb2ed67db816df4f6506f54f18aec965142847b"
     },
     "vim": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vim.git",
