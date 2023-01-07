@@ -8414,7 +8414,7 @@
     "spirv-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-headers.git",
       "branch": "master",
-      "revision": "6049f1b0092551a9cfc4f54532990f9c517087ca"
+      "revision": "fd3d89fe3e473907801e5698b21ed1e257dd01bf"
     },
     "spirv-llvm-translator": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-llvm-translator.git",
