@@ -4339,7 +4339,7 @@
     "libnice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnice.git",
       "branch": "master",
-      "revision": "b2f49b3527fe0daa98e5332de74a73b66d39fc3f"
+      "revision": "15df1f76a9391dd9a61172ceab1b6f3315b1cc26"
     },
     "libnih": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnih.git",
