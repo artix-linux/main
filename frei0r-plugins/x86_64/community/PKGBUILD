@@ -1,9 +1,9 @@
-# Maintainer: Balló György <ballogyor+arch at gmail dot com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 
 pkgname=frei0r-plugins
 pkgver=1.8.0
-pkgrel=2
+pkgrel=3
 pkgdesc='Minimalistic plugin API for video effects'
 arch=('x86_64')
 url='https://frei0r.dyne.org/'
