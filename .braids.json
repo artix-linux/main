@@ -5854,7 +5854,7 @@
     "mlt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt.git",
       "branch": "master",
-      "revision": "c04d31f044e146e823eb3cb9a41d87444222a3fd"
+      "revision": "221285238ec76e111a0f935625aa5b291ee07653"
     },
     "mlt6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mlt6.git",
