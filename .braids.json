@@ -3419,7 +3419,7 @@
     "level-zero": {
       "url": "gitea@gitea.artixlinux.org:packagesL/level-zero.git",
       "branch": "master",
-      "revision": "0140a82807017d970507d7f5126462de44e2fb5a"
+      "revision": "05a55765519d2599068ed85651d188771dbebbe7"
     },
     "leveldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leveldb.git",
