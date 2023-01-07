@@ -7579,7 +7579,7 @@
     "qt6-multimedia": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-multimedia.git",
       "branch": "master",
-      "revision": "e57d7cbd1f4efc7fa67f5ac3c37e1d4fd6e7f420"
+      "revision": "2a35712d98a52ba16cb99d841252846afb949363"
     },
     "qt6-multimedia-ffmpeg": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-multimedia-ffmpeg.git",
