@@ -8334,7 +8334,7 @@
     "sof-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sof-bin.git",
       "branch": "master",
-      "revision": "00e9aac9161cbee6ebe0298a5cac90e7fe380a3f"
+      "revision": "5d47274228056ed4fbef18425c32037e312c1c1a"
     },
     "softhsm": {
       "url": "gitea@gitea.artixlinux.org:packagesS/softhsm.git",
