@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: AndyRTR <andyrtr@archlinux.org>
 # Contributor: Lukas Jirkovsky <l.jirkovsky@gmail.com>
 
 pkgname=vigra
 pkgver=1.11.1.r67+g093d57d1
-pkgrel=4
+pkgrel=5
 pkgdesc="Computer vision library"
 arch=(x86_64)
 url="https://ukoethe.github.io/vigra/"
