@@ -3954,7 +3954,7 @@
     "libgxps": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgxps.git",
       "branch": "master",
-      "revision": "982df045929549ecd23209526e4f5f5549d41c37"
+      "revision": "18aa5d9f9ae6c47bbedd141243da2679a3a892ac"
     },
     "libhandy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libhandy.git",
