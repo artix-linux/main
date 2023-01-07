@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Jan "heftig" Steffens <jan.steffens@gmail.com>
 # Contributor: farid <farid at archlinuc-br.org>
@@ -7,7 +7,7 @@
 pkgbase=gmic
 pkgname=(gmic gimp-plugin-gmic)
 pkgver=3.1.6
-pkgrel=1
+pkgrel=3
 arch=(x86_64)
 url='https://gmic.eu/'
 license=(custom:CeCILL)
