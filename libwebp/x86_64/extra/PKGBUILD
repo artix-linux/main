@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Alexander Rødseth <rodseth@gmail.com>
 # Contributor: Jon Nordby <jononor@gmail.com>
 
 pkgname=libwebp
 pkgver=1.2.4
-pkgrel=1
+pkgrel=2
 pkgdesc="WebP library and conversion tools"
 url="https://developers.google.com/speed/webp/"
 arch=(x86_64)
