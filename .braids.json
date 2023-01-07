@@ -2944,7 +2944,7 @@
     "intel-graphics-compiler": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-graphics-compiler.git",
       "branch": "master",
-      "revision": "5886c3247614aaff7d9fc614ffe97ba0d1ab22c3"
+      "revision": "1c0972c3c040254db2a48188f8a01e614f0c1b3a"
     },
     "intel-media-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-media-driver.git",
