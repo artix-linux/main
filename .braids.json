@@ -7329,7 +7329,7 @@
     "qt5-declarative": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-declarative.git",
       "branch": "master",
-      "revision": "0e7f7e90008f837c7cf55e9bad018c93b24613a7"
+      "revision": "5a0a89afe07c53db7600632fe8eb4e13659ba69f"
     },
     "qt5-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-doc.git",
