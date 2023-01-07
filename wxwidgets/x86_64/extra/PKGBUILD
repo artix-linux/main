@@ -1,10 +1,10 @@
-# Maintainer: Dudemanguy <random342@airmail.cc>
+# Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 # Contributor: Eric Bélanger <eric@archlinux.org>
 
 pkgbase=wxwidgets
 pkgname=(wxwidgets-gtk3 wxwidgets-qt5 wxwidgets-common)
 pkgver=3.2.1
-pkgrel=1
+pkgrel=2
 arch=(x86_64)
 url='https://wxwidgets.org'
 license=(custom:wxWindows)
@@ -61,11 +61,10 @@ package_wxwidgets-common() {
   DESTDIR="$pkgdir" cmake --install build-gtk3
   rm -r "$pkgdir"/usr/{bin/wx-config,lib/{cmake,wx,libwx_gtk*}}
   install -Dm644 wxWidgets-$pkgver/wxwin.m4 -t "$pkgdir"/usr/share/aclocal
-
-  install -Dm644 wxWidgets-$pkgver/docs/licence.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
-
 # Install translations
   make DESTDIR="$pkgdir" -C wxWidgets-$pkgver locale_install  
+
+  install -Dm644 wxWidgets-$pkgver/docs/licence.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 }
 
 package_wxwidgets-gtk3() {
