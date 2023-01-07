@@ -4664,7 +4664,7 @@
     "libsndfile": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsndfile.git",
       "branch": "master",
-      "revision": "addd4568d84fc664bd646a0bba42517e163b758f"
+      "revision": "78b47393c33d01686ee4f5329f1bb40fcc6a83ea"
     },
     "libsodium": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsodium.git",
