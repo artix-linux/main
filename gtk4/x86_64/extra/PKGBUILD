@@ -8,7 +8,7 @@ pkgname=(
   gtk-update-icon-cache
 )
 pkgver=4.8.3
-pkgrel=1
+pkgrel=3
 epoch=1
 pkgdesc="GObject-based multi-platform GUI toolkit"
 url="https://www.gtk.org/"
@@ -50,6 +50,7 @@ depends=(
   libxrender
   pango
   shared-mime-info
+  tracker3
   wayland
 )
 makedepends=(
@@ -99,6 +100,7 @@ build() {
     -D colord=enabled
     -D gtk_doc=true
     -D man-pages=true
+    -D tracker=enabled
   )
 
   CFLAGS+=" -DG_DISABLE_CAST_CHECKS"
@@ -106,18 +108,17 @@ build() {
   meson compile -C build
 }
 
-# fails: skip for now
-#check() (
-#  export XDG_RUNTIME_DIR="$PWD/runtime-dir" WAYLAND_DISPLAY=wayland-5
-#
-#  mkdir -p -m 700 "$XDG_RUNTIME_DIR"
-#  weston --backend=headless-backend.so --socket=$WAYLAND_DISPLAY --idle-time=0 &
-#  _w=$!
-#
-#  trap "kill $_w; wait" EXIT
-#
-#  meson test -C build --print-errorlogs
-#)
+check() (
+  export XDG_RUNTIME_DIR="$PWD/runtime-dir" WAYLAND_DISPLAY=wayland-5
+
+  mkdir -p -m 700 "$XDG_RUNTIME_DIR"
+  weston --backend=headless-backend.so --socket=$WAYLAND_DISPLAY --idle-time=0 &
+  _w=$!
+
+  trap "kill $_w; wait" EXIT
+
+  meson test -C build --print-errorlogs
+)
 
 _pick() {
   local p="$1" f d; shift
