@@ -7389,7 +7389,7 @@
     "qt5-quickcontrols": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-quickcontrols.git",
       "branch": "master",
-      "revision": "3f9c8447525f5f3e10db80baed75ab5f9c2014f4"
+      "revision": "43f7ffb68a350f273bc90567d42631f74fb4c5fc"
     },
     "qt5-quickcontrols2": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-quickcontrols2.git",
