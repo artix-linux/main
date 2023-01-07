@@ -2044,7 +2044,7 @@
     "frei0r-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesF/frei0r-plugins.git",
       "branch": "master",
-      "revision": "b90baf0b14cfbf2aaddf4b3b13c966342129a2ee"
+      "revision": "99b205faa376647ebad64f38707a09f152ee773e"
     },
     "fribidi": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fribidi.git",
