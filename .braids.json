@@ -2799,7 +2799,7 @@
     "hugin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hugin.git",
       "branch": "master",
-      "revision": "6a68d2d8154a7a25acb6d6fd82e44b5f814ce489"
+      "revision": "d5499a24ce058bdeaabd113b3cadd5442d3aa62e"
     },
     "hwdata": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwdata.git",
