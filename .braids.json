@@ -7659,7 +7659,7 @@
     "qt6-translations": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-translations.git",
       "branch": "master",
-      "revision": "c20755e3931d7164ad053446a8a58de988477583"
+      "revision": "9355873b96495effa0ffe7efb5bdf74ee466699c"
     },
     "qt6-virtualkeyboard": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-virtualkeyboard.git",
