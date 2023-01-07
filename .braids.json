@@ -1309,7 +1309,7 @@
     "dialog": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dialog.git",
       "branch": "master",
-      "revision": "adb33b8d1f6c3647524e77890f1bee29fcbb6641"
+      "revision": "1b9194af8de37be6471c14da7f42e5be719a9d26"
     },
     "diffstat": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffstat.git",
