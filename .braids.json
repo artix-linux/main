@@ -1354,7 +1354,7 @@
     "djvulibre": {
       "url": "gitea@gitea.artixlinux.org:packagesD/djvulibre.git",
       "branch": "master",
-      "revision": "606a17557dea2ebc713cad43fd12385b23a424e1"
+      "revision": "975bacb9fd88351a3329e7cb0bfa69f9b83f1849"
     },
     "dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dkms.git",
