@@ -1,18 +1,16 @@
-# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Jan de Groot <jgc@archlinux.org>
 # Contributor: mgushee
-# Contributor: Torr <torr[at]artixlinux[dot]org>
 
 pkgname=djvulibre
 pkgver=3.5.28
-pkgrel=3.1
+pkgrel=4
 pkgdesc="Suite to create, manipulate and view DjVu ('déjà vu') documents"
 url='http://djvu.sourceforge.net/'
 arch=('x86_64')
 license=('GPL2')
-provides=("djvuapi")
-makedepends=('librsvg' 'gcc')
-depends=('libtiff' 'hicolor-icon-theme' 'make')
+makedepends=('librsvg')
+depends=('libtiff' 'hicolor-icon-theme')
 source=(https://downloads.sourceforge.net/project/djvu/DjVuLibre/$pkgver/djvulibre-$pkgver.tar.gz
         djvulibre-check-image-size.patch
         djvulibre-check-input-pool.patch
