@@ -26,7 +26,7 @@ sha256sums=('0f66d3dd2a7915a6f3ca6773c1dc02345444b2644a533211ce1ee57b371ae458'
             'SKIP'
             '6ab96a5949e223d315d49663734ad27b70c72469c691a61ac198cb7794cb5eaa'
             'f899998985f2d374af57f17ef6362c37a305467858195b74d1c1def71d97273f'
-            'b571fe7ccf516a49efb295ae58b51bb36ef3bfcaa5ed99f36d419cfa262c65f1')
+            '6a58227c09a18fc7049ec38351a0fd98195688d15821d67d5af4facda401cbba')
 
 prepare() {
   local _srcdir="src/github.com/syncthing"
