@@ -6199,7 +6199,7 @@
     "nodejs": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs.git",
       "branch": "master",
-      "revision": "63f7979a5fb33ed4ae4ffbaa9c399c7c7a44e04b"
+      "revision": "54b6ff1dd73cac133103b8388c1fcde8b545527d"
     },
     "nodejs-lts-erbium": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nodejs-lts-erbium.git",
