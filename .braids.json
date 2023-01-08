@@ -7819,7 +7819,7 @@
     "recode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/recode.git",
       "branch": "master",
-      "revision": "b43f569e04f36bd0dc0547538d4b5fb88e02b199"
+      "revision": "1c08d12693fde5dcdfddc6015c43834140964d6b"
     },
     "redis": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redis.git",
