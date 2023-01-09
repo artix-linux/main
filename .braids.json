@@ -434,7 +434,7 @@
     "aws-c-io": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-io.git",
       "branch": "master",
-      "revision": "48d7d70a71be8f66d92694087023012058f36e22"
+      "revision": "989dc2ca524351e65635878c1699d2b233f33045"
     },
     "aws-c-mqtt": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-mqtt.git",
