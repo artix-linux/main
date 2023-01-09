@@ -4569,7 +4569,7 @@
     "librevenge": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librevenge.git",
       "branch": "master",
-      "revision": "d1833a72b0dbbc5a4fb40eb74b5777ec4995907e"
+      "revision": "1c592c04227fc0a025ba2b4f0ffd805637f8cee2"
     },
     "librsvg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsvg.git",
