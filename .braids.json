@@ -5414,7 +5414,7 @@
     "lsof": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lsof.git",
       "branch": "master",
-      "revision": "93670e888ffdcad699cd28f8b74dd17889d71ad2"
+      "revision": "6430529a058ea96806d89ebd940feb1cda526774"
     },
     "lsscsi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lsscsi.git",
