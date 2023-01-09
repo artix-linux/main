@@ -8374,7 +8374,7 @@
     "spamassassin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin.git",
       "branch": "master",
-      "revision": "cdf7155f68e8bca75781c12b00209d37fbf76397"
+      "revision": "089a94c314085f4f04f37156c3d134e3ad1afac8"
     },
     "spandsp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spandsp.git",
