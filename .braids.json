@@ -4694,7 +4694,7 @@
     "libspectre": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libspectre.git",
       "branch": "master",
-      "revision": "9ff3076e938c2d0e4bfa6216d67c36e9ebdbb26a"
+      "revision": "fd3aec6e02c847abfa363e98a7c15f26b45cdaec"
     },
     "libspf2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libspf2.git",
