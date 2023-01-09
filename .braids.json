@@ -2104,7 +2104,7 @@
     "gajim": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gajim.git",
       "branch": "master",
-      "revision": "ddc472c208538f0a2d4148f3ca58a4b162861acd"
+      "revision": "2a5cdbeef5973bbd6ec12c85708ce1a9e2599eb6"
     },
     "gamemode": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gamemode.git",
