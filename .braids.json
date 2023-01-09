@@ -3774,7 +3774,7 @@
     "libetonyek": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libetonyek.git",
       "branch": "master",
-      "revision": "699308c41b000f6905b246f3fcb22e6fa5d886e6"
+      "revision": "c0820b3980f4b01188b8d894a5a1690417db37dd"
     },
     "libev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libev.git",
