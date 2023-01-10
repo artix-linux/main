@@ -9314,7 +9314,7 @@
     "virtualbox-host-modules-artix": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-host-modules-artix.git",
       "branch": "master",
-      "revision": "ec82243bebbfa2ec958c66638799ff1ef3abfc2e"
+      "revision": "2e2f4da899cb4ec885ef45450b0bc7338a66b174"
     },
     "virtualgl": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualgl.git",
