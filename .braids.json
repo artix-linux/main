@@ -5794,7 +5794,7 @@
     "minio": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minio.git",
       "branch": "master",
-      "revision": "d6eb14cd44329a590de1d4dc2ea0cf1989ea6c43"
+      "revision": "940689da4b01291a3c4148dbbea88cc66d5afb74"
     },
     "minisign": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minisign.git",
