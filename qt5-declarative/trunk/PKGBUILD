@@ -3,9 +3,9 @@
 
 pkgname=qt5-declarative
 _basever=5.15.8
-pkgver=5.15.8+kde+r22
-pkgrel=2
-_commit=e53eec414af66f72046960693d5b6ac8060fb384
+pkgver=5.15.8+kde+r24
+pkgrel=1
+_commit=05c3f4921d81fb1b0eb497515c24ae56221d1e0a
 arch=('x86_64')
 url='https://www.qt.io'
 license=('GPL3' 'LGPL3' 'FDL' 'custom')
