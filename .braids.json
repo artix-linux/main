@@ -8094,7 +8094,7 @@
     "scrot": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scrot.git",
       "branch": "master",
-      "revision": "e7ad2a6946398d3d5fb27c7dd7ad7f904925aa5f"
+      "revision": "a88727215ccdb4be9caa90f967cef39debc3ed65"
     },
     "sdl": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl.git",
