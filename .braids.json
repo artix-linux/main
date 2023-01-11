@@ -3164,7 +3164,7 @@
     "jenkins": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins.git",
       "branch": "master",
-      "revision": "bcb3429c7a70e8bcaa44d3aacbcb7183b71bd5f2"
+      "revision": "4976f02dcb343f2151e5850b4b1d4c99a6455578"
     },
     "jfsutils": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jfsutils.git",
