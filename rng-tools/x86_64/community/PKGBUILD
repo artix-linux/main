@@ -1,9 +1,9 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Alasdair Haswell <ali at arhaswell dot co dot uk>
 
 pkgname=rng-tools
-pkgver=6.15
-pkgrel=2
+pkgver=6.16
+pkgrel=1
 pkgdesc="Random number generator related utilities"
 arch=('x86_64')
 url="https://github.com/nhorman/rng-tools"
@@ -12,10 +12,10 @@ depends=('curl' 'libxml2' 'sysfsutils' 'jitterentropy' 'libp11' 'jansson' 'rtl-s
 optdepends=('opensc: PKCS11 entropy engine to gather entropy from smart card readers')
 options=('debug')
 source=(https://github.com/nhorman/rng-tools/archive/v$pkgver/$pkgname-$pkgver.tar.gz)
-sha256sums=('bff0c58dff90ec10bd61f672e48618e045155eabd60b32d63a9c4ffbdad05f3a')
+sha256sums=('17666c4745fb635d91df293be188daf94b9e465d51d8503c0195fa3beb390894')
 
 prepare() {
-	cd "$srcdir"/$pkgname-$pkgver
+	cd $pkgname-$pkgver
 	mv README{.md,}
 
 	libtoolize --force
@@ -26,16 +26,12 @@ prepare() {
 }
 
 build() {
-	cd "$srcdir"/$pkgname-$pkgver
-
-	# https://github.com/nhorman/rng-tools/issues/164
-	CPPFLAGS+=' -DJENT_CONF_ENABLE_INTERNAL_TIMER'
-
+	cd $pkgname-$pkgver
 	./configure --prefix=/usr --sbindir=/usr/bin
 	make
 }
 
 package() {
-	cd "$srcdir"/$pkgname-$pkgver
+	cd $pkgname-$pkgver
 	make DESTDIR="$pkgdir" install
 }
