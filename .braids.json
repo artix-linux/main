@@ -1699,7 +1699,7 @@
     "ethtool": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ethtool.git",
       "branch": "master",
-      "revision": "d12a88290546a4eb19bff5e15d742f4e19c635fd"
+      "revision": "222affd23623abf47f2392ec32344811a1185868"
     },
     "exfat-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exfat-utils.git",
