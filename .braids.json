@@ -5354,7 +5354,7 @@
     "llvm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm.git",
       "branch": "master",
-      "revision": "f219c37378ed375dc2418a912301c42531ef34b2"
+      "revision": "751546bbae4ac7507903fe4d81125f9581fe76ee"
     },
     "llvm13": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm13.git",
