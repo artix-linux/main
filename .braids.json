@@ -5599,7 +5599,7 @@
     "man-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man-db.git",
       "branch": "master",
-      "revision": "a93b239b36fdfff56604f08cc31f082df8666438"
+      "revision": "bb7765f18ba88bcfc060e3436a548883c518f2e9"
     },
     "man-pages": {
       "url": "gitea@gitea.artixlinux.org:packagesM/man-pages.git",
