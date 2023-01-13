@@ -6174,7 +6174,7 @@
     "nilfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nilfs-utils.git",
       "branch": "master",
-      "revision": "0f92c994e2601e74937eecee896ebdd966720d34"
+      "revision": "a145ff766b5fcd0cc67b91bb5ce67b114ed8411f"
     },
     "ninja": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ninja.git",
