@@ -10009,7 +10009,7 @@
     "xsd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsd.git",
       "branch": "master",
-      "revision": "b9c3b496076609b4c3ea2220f7265b951db3140b"
+      "revision": "99530a969a71f96b5375002ace231120ccd6e8c3"
     },
     "xsel": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsel.git",
