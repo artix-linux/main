@@ -8854,7 +8854,7 @@
     "tor": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor.git",
       "branch": "master",
-      "revision": "5a1ac4d299dc4a76a005424ddc18357151de1674"
+      "revision": "740d4d84c02de4bfd2911122fd465c265ffc66ef"
     },
     "torsocks": {
       "url": "gitea@gitea.artixlinux.org:packagesT/torsocks.git",
