@@ -9219,7 +9219,7 @@
     "v2ray-geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-geoip.git",
       "branch": "master",
-      "revision": "fb9e96b15077c037347d92762985b65714083a4d"
+      "revision": "163e4b7524860713c303a170b65eb31360049d53"
     },
     "v4l-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v4l-utils.git",
