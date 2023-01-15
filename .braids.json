@@ -2959,7 +2959,7 @@
     "intel-metee": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-metee.git",
       "branch": "master",
-      "revision": "bd205c096f54402f0c36ecefcb16eddf157da96e"
+      "revision": "c147c61177a193bb3d790c317e9eea51bd981036"
     },
     "intel-opencl-clang": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-opencl-clang.git",
