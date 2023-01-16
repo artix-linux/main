@@ -1554,7 +1554,7 @@
     "ed": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ed.git",
       "branch": "master",
-      "revision": "54dd27d9507a8aab918545b703ce944b0eb5e4e2"
+      "revision": "034d0600e246e9d01830055c097abe7bc9a9960e"
     },
     "editline": {
       "url": "gitea@gitea.artixlinux.org:packagesE/editline.git",
