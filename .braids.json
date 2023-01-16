@@ -5679,7 +5679,7 @@
     "mc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mc.git",
       "branch": "master",
-      "revision": "c6509da39ec375fbfbb4a12649968a520cd06e51"
+      "revision": "5e1e93290622a278f7a2a45869dbc5e39b14e102"
     },
     "mcpp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mcpp.git",
