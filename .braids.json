@@ -9209,7 +9209,7 @@
     "v2ray": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray.git",
       "branch": "master",
-      "revision": "37278b901900ca016d8baaa8f09bdb9d070196e1"
+      "revision": "6377dc5d2a34fe7fd9e5c3f44f96b1f207b5be31"
     },
     "v2ray-domain-list-community": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-domain-list-community.git",
