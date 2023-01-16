@@ -5674,7 +5674,7 @@
     "mbedtls": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mbedtls.git",
       "branch": "master",
-      "revision": "dd3ae47b37f19f725f28e2d307aed899de463874"
+      "revision": "7513b6cfd820df3cd0b0d2d30bedffd99baef6a9"
     },
     "mc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mc.git",
