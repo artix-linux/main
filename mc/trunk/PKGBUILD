@@ -54,7 +54,7 @@ backup=(
 )
 options=('!emptydirs')
 source=(
-  "http://ftp.midnight-commander.org/${pkgname}-${pkgver}.tar.xz"
+  "https://fossies.org/linux/misc/${pkgname}-${pkgver}.tar.xz"
   'mc-python3.patch'
 )
 sha512sums=('0f55300769c28b2d6e24af1459eadb5505ba64cc7330b190562f260b74cf0e8acc277b680c5d8d10b6bcf2e429f54195bb4150f787269419f09ba61cba719e27'
