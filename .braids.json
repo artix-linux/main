@@ -6854,7 +6854,7 @@
     "pigeonhole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pigeonhole.git",
       "branch": "master",
-      "revision": "cfcce588a73ca169ac3d5baebdd4bba16ac47486"
+      "revision": "790b060ad629f8c75cfec55ddfe9160b686f1a59"
     },
     "pinentry": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
