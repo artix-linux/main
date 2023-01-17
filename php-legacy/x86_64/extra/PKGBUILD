@@ -24,8 +24,8 @@ arch=('x86_64')
 license=('PHP')
 url='https://www.php.net/'
 makedepends=('apache' 'aspell' 'gdbm' 'enchant' 'gd' 'gmp' 'icu' 'libsodium' 'libxslt' 'libzip' 'net-snmp'
-             'postgresql-libs' 'sqlite' 'tidy' 'unixodbc' 'curl' 'libtool' 'postfix' 'freetds' 'pcre2' 'libnsl'
-             'oniguruma' 'argon2')
+             'postgresql-libs' 'sqlite' 'tidy' 'unixodbc' 'curl' 'libtool' 'patchelf' 'postfix' 'freetds' 
+	     'pcre2' 'libnsl' 'oniguruma' 'argon2')
 checkdepends=('procps-ng')
 source=(
   "https://php.net/distributions/php-${pkgver}.tar.xz"{,.asc}
