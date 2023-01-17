@@ -3604,7 +3604,7 @@
     "libcbor": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcbor.git",
       "branch": "master",
-      "revision": "48f8e0d4a923e8bca76bdc26132f7ca8887e1fd7"
+      "revision": "71e991f2661a3dd1be6cbc04ba2ef57c506024c5"
     },
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
