@@ -1474,7 +1474,7 @@
     "dovecot": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dovecot.git",
       "branch": "master",
-      "revision": "c8f66c21f1487d1cc7092c3ffedf2647497db440"
+      "revision": "6bfb4238596634e779ca35ce308a57bec10e63ba"
     },
     "doxygen": {
       "url": "gitea@gitea.artixlinux.org:packagesD/doxygen.git",
