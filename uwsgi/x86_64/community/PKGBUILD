@@ -24,7 +24,7 @@ pkgname=(
   uwsgi-plugin-notfound
 )
 pkgver=2.0.21
-pkgrel=4
+pkgrel=5
 pkgdesc="A full stack for building hosting services"
 arch=(x86_64)
 url="https://uwsgi-docs.readthedocs.io/en/latest/"
@@ -49,7 +49,6 @@ makedepends=(
   util-linux
   zlib
 )
-options=(debug)
 source=(
   $pkgbase-$pkgver.tar.gz::https://github.com/unbit/$pkgbase/archive/refs/tags/$pkgver.tar.gz
   archlinux.ini
@@ -61,7 +60,7 @@ source=(
   $pkgbase-2.0.22-php8.2.patch
 )
 sha512sums=('36a9c1b87a4c3d08482b9045d2227f56b006acb53f38ddf1b510880ae5fc24c0177a077338ec8af3ef0b8f8e220bc4fc7f8311dab8066e13cbcbb616f736c795'
-            '1421cd09c95217b002333ce07b1048ad37c27ed94c8094c7c7105a8659a07822954d7cc340e4c2e7b8fb50e2305d6444857eea517acb1d301474373b43fe6599'
+            '912b2d85cee0907454f2b1eee79fdeb7d7205c7b6a9f2a05cef969205fd4f3ccb9f3260e71a1c19cc910f6408e1e94da93fcca9978e8432273659b7caed34d9a'
             'd54c84838ddb2f389e115ebb81aa2583705c9e330f020e6583b496f9c271ed236b6820c2a065f2b55a79adbf13e262b9ff2428124a8044b8fa20ca29ca4930ac'
             '937878372aa1556f6ba62ad7148d1681288c94d6cff609368a9e861dd4d4524330006a08ae5993441f7d3101170e3a0a681a4c8b3c2c13b364b8b1f81cf25117'
             '9e9eab08199cf08810ec95b0697cd8817226986d1e3aeb54845c0140ea5887360580348f295060c0558fb2d6aaed26fec929ea36b28cfeaf2b3588ce40fec3df'
@@ -69,7 +68,7 @@ sha512sums=('36a9c1b87a4c3d08482b9045d2227f56b006acb53f38ddf1b510880ae5fc24c0177
             '162ca1be96282b32e8e6be919b6315bfd08954c491056958985bf99e7f5bdad3511665f059329d6cb6ef5d222f9aa11d4dc43c72e6a963ab941ada959fe8d964'
             'd62db75b0e27bbc014ec5e69c360de79f523f33bc1ab15fe7957bf8531635be1bb77200d1ad6d50184eba18c6d56bcdd284082c042792ef7822233128bc22fbc')
 b2sums=('3c5fc3ce3a6a7f8f915bb302c0b775a75227f859dd2b141034e8b1aa5cb867b447ed532b3e8b537db80acc908fc26121b752e35ebc0bf9a542678843fd02ff54'
-        '02a70673c00912c811b4a48ee06c9ed71ce7acec3d3d70feb9a42dab51597f6c51b9c9fd99653729ea0cbee984d3af156263ad5a49a3a693bd9d9a5f69989aa2'
+        '41a9213d55665c905f71f07c752a74fc7685b2f191381d24f3e1d9691a8dae538aa4344ebe771ffd77ba3c9cd7c52fd9eff54ff876bc399d92256cb86f5b7d53'
         '835a1036422e9821cd52ffdf5a6053bdd59fc700d473600bda60b6730746f6c0750c30c85f4139d3ea81c6b6dd10d6849f9406decee3179861c51aca90da6161'
         'a8b7d003f66ed5c5b1b60d57c05339af3dcdcf346eab52760810086e17f6936dd29ed7fd26281657bc86ac6721c989cbfbaa8e81f97111c807bcd06baece3bf2'
         '82e03ea95995cfa78abc4d930bd0c250f22788d9ca4dc0921cfbb44a965c0f851cbcc7a855e36ec6e6aa5bf33fbd313b4fe68a2f1c4b7935c2b297be25895324'
@@ -97,6 +96,7 @@ prepare() {
   cp -av plugins/php{,_legacy}
   # link the php_legacy plugin against libphp-legacy.so
   sed -e 's/lphp/lphp-legacy/g; s/UWSGICONFIG_PHPPATH/UWSGICONFIG_PHP_LEGACY_PATH/g; s/NAME=.*/NAME="php_legacy"/g' -i plugins/php_legacy/uwsgiplugin.py
+  sed -e 's/php_plugin/php_legacy_plugin/g' -i plugins/php_legacy/php_plugin.c
   # copy our custom build profile into place
   cp -v ../archlinux.ini buildconf/
 }
@@ -225,5 +225,3 @@ package_uwsgi-plugin-notfound() {
   cd $pkgbase-$pkgver
   install -vDm 755 notfound_plugin.so -t "$pkgdir"/usr/lib/uwsgi/
 }
-
-# foo ( remove later)
