@@ -8419,7 +8419,7 @@
     "spirv-llvm-translator": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-llvm-translator.git",
       "branch": "master",
-      "revision": "552ef9000348baf1970d9865a7e030944261d4b7"
+      "revision": "6ffb23a830d61667675d496569e2a7048b706a3a"
     },
     "spirv-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spirv-tools.git",
