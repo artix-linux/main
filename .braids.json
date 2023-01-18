@@ -9309,7 +9309,7 @@
     "virtualbox-guest-iso": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-guest-iso.git",
       "branch": "master",
-      "revision": "43986cda3cd53181724b4a1f3a5c73a6f3f06daa"
+      "revision": "6e8fad3af38c113f636be0ed83cc78970a79e72b"
     },
     "virtualbox-host-modules-artix": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualbox-host-modules-artix.git",
