@@ -919,7 +919,7 @@
     "clutter": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clutter.git",
       "branch": "master",
-      "revision": "d2a0e21bcdfb165a89d7a8a1edae64aa801ded5b"
+      "revision": "761c3387a53e112339e9aa74b4126e8bfef64b35"
     },
     "clutter-gst": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clutter-gst.git",
