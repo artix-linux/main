@@ -9499,7 +9499,7 @@
     "wildmidi": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wildmidi.git",
       "branch": "master",
-      "revision": "a1ffb06e103f3cce322bf3466b1f88339cb126d8"
+      "revision": "bfe24c839c02ae08e303808f49008ee74dee4454"
     },
     "wireguard-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-tools.git",
