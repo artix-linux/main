@@ -869,7 +869,7 @@
     "clamav": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav.git",
       "branch": "master",
-      "revision": "11d7bfc1a76f986663115e4ed845789ce5dd2494"
+      "revision": "e0b8d5d9d65c958559685693dfdf005bb60bec65"
     },
     "clang": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clang.git",
