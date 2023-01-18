@@ -5799,7 +5799,7 @@
     "minisign": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minisign.git",
       "branch": "master",
-      "revision": "502f6ffd7443d6fa89b761049992dc94a19525f5"
+      "revision": "08d0547cd10d149dd00d7273d95de8413d226059"
     },
     "miniupnpc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/miniupnpc.git",
