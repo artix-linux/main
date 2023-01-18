@@ -9,7 +9,8 @@
 *.log
 *.log.*
 *.sig
-
+*.service
+*.socket
 pkg/
 src/
 
