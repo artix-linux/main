@@ -1,14 +1,14 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: Sébastien Luttringer
 # Contributor: Balwinder S "bsd" Dheeman (bdheeman AT gmail.com)
 
 pkgname=dkms
-pkgver=3.0.10
+pkgver=2.6.1
 pkgrel=1
 pkgdesc='Dynamic Kernel Modules System'
 arch=('any')
 url='https://github.com/dell/dkms'
 license=('GPL2')
-depends=('coreutils' 'bash' 'gawk' 'sed' 'kmod' 'gcc' 'make' 'patch')
+depends=('bash' 'kmod' 'gcc' 'make' 'patch')
 makedepends=('git')
 optdepends=('linux-headers: build modules against the Arch kernel'
             'linux-lts-headers: build modules against the LTS kernel'
@@ -19,13 +19,17 @@ install=$pkgname.install
 source=("git+https://github.com/dell/dkms.git#tag=v$pkgver"
         'hook.install'
         'hook.remove'
-        'hook.upgrade'
-        'hook.sh')
-sha256sums=('SKIP'
-            'acdc5b45cc018cea04ee1aec56fd8fc3a2de62cf7bc41acf53b3790872120998'
-            '326515cc7d00f93760beb844434ca7442caf7a9424614aa95a8f6d1ab79e15df'
-            '4f8dff7716e73a8bba885638f12e3cdc9e87daec1896f75e700b981527e43870'
-            'c1b4a4e2e4e0e0e59ee0887403e79d60b209f3878dbbec6612573f13b90cce01')
+        'hook.sh'
+        '0001-Revert-Make-newly-installed-modules-available-immedi.patch'
+        '0002-Revert-Fix-to-run-under-BusyBox-shell.patch'
+        '0003-Fix-version-check-when-installing-modules.patch')
+md5sums=('SKIP'
+         '90f1486e0af9aab85e8c60d456802c63'
+         '2e8ffd0c2ddec02872d0234befd129fd'
+         '80632f6a454b35bcade2bed287f13c7b'
+         'd3b91ef709f567a375f4bbdbd3291d2b'
+         '4342b5e9020a52a73a63e7897ead5405'
+         '00813655321b8fc256eda737ca0622ef')
 
 prepare() {
   cd dkms
@@ -41,32 +45,24 @@ prepare() {
 
   # /usr move
   msg2 '/usr move patching'
-  for i in dkms{.in,.8.in,_framework.conf,.bash-completion,_common.postinst}; do
+  for i in dkms{,_framework.conf,.bash-completion,.8,_common.postinst}; do
     sed -ri 's,/lib/modules,/usr/lib/modules,g' "$i"
   done
 }
 
 package() {
-  # alpm hooks
+  # alpm hook
   install -D -m 644 hook.install "$pkgdir/usr/share/libalpm/hooks/70-dkms-install.hook"
-  # both upgrade and remove hooks are removing dkms modules.
-  # remove always call depmod while upgrade never, as install will later.
-  # upgrade is run before remove in order to have the cleanest depmod file,
-  # if something goes wrong before the depmod call in install hook.
-  install -D -m 644 hook.upgrade "$pkgdir/usr/share/libalpm/hooks/70-dkms-upgrade.hook"
-  install -D -m 644 hook.remove "$pkgdir/usr/share/libalpm/hooks/71-dkms-remove.hook"
-  # hook helper
-  install -D -m 755 hook.sh "$pkgdir/usr/share/libalpm/scripts/dkms"
+  install -D -m 644 hook.remove "$pkgdir/usr/share/libalpm/hooks/70-dkms-remove.hook"
+  install -D -m 755 hook.sh "$pkgdir/usr/lib/dkms/alpm-hook"
   # upstream installer
   cd dkms
-  # we don't need kconf files and libdir is only for debian stuff, so
-  # we install them outside of $pkgdir
+  # we don't need kconf files, so we install them outside $pkgdir
   make \
     DESTDIR="$pkgdir" \
     SBIN="$pkgdir/usr/bin" \
     BASHDIR="$pkgdir/usr/share/bash-completion/completions" \
-    KCONF="$srcdir"/trash \
-    LIBDIR="$srcdir"/trash \
+    KCONF="$srcdir"/kconf \
     install
 }
 
