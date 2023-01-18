@@ -9249,7 +9249,7 @@
     "vc-intrinsics": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vc-intrinsics.git",
       "branch": "master",
-      "revision": "4a6b3b31cd016151c49847f626bb2be24532a45c"
+      "revision": "a4f4fcc196e26686d7d6cb9a84a8265ca47e59b4"
     },
     "vcdimager": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vcdimager.git",
