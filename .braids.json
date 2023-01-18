@@ -1994,7 +1994,7 @@
     "foomatic-db": {
       "url": "gitea@gitea.artixlinux.org:packagesF/foomatic-db.git",
       "branch": "master",
-      "revision": "c36be1af3c2e0ddaa81e90c00c1796265a240d50"
+      "revision": "3263965dc46ae84743534b19fdc41e67fb7c818e"
     },
     "foomatic-db-engine": {
       "url": "gitea@gitea.artixlinux.org:packagesF/foomatic-db-engine.git",
