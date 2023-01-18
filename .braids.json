@@ -3104,7 +3104,7 @@
     "java-common": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-common.git",
       "branch": "master",
-      "revision": "29e760e8295a99ac909747d8d0a9bfae6d2201f2"
+      "revision": "16d1579267cf304c5ffbfbbc147edbeb80489a14"
     },
     "java-commons-io": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java-commons-io.git",
