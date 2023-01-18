@@ -2769,7 +2769,7 @@
     "hplip": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hplip.git",
       "branch": "master",
-      "revision": "266c275fdcc6d571717f3abed880d2118e15e80d"
+      "revision": "6204ac743cba99d0a32d3f06c1e303dd9b599c12"
     },
     "hspell": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hspell.git",
