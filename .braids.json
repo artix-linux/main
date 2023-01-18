@@ -6519,7 +6519,7 @@
     "openmp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openmp.git",
       "branch": "master",
-      "revision": "1476414988009463ebc0dcbdca209b3c76a866c4"
+      "revision": "b0b223757a40fdabf6ee891eff42091c1199d8ca"
     },
     "openmpi": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openmpi.git",
