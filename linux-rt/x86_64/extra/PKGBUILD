@@ -3,7 +3,7 @@
 
 pkgbase=linux-rt
 pkgver=6.0.5.14.realtime1
-pkgrel=2
+pkgrel=3
 pkgdesc='Linux RT'
 arch=(x86_64)
 url="https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt/-/commits/v$pkgver"
@@ -14,11 +14,14 @@ options=(!strip)
 source=(
   git+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt#tag=v$pkgver?signed
   config
+  fix-docgen.patch::https://github.com/archlinux/linux/commit/a3b216b0a5c2628624de605599aa6c16675578de.patch
 )
 sha512sums=('SKIP'
-            '31c8f6cc384a2b0009a78e48462a49cc0d390d822a71cf5e707ce8a5debd91e77d96b72ca79400a88caa629b9b12813d7c450c043e2d3d5b401aaba4101d4619')
+            'e4535546d005ed80a9c4d69bd86ff22fe149c7bf204a8fe4c3c00caafe2dbdace5b231b19931a4d311a3c8e4aa71cd4e207afa68d812e6e1cb4ebfcf909fc346'
+            '8c0f0fa346863824c304e6af75488002f2c362c797d422dae5b7472cca86585484ade2cd82d041118ab36fc03ff549d891c0e6aeb892a0a22616b1d696427a11')
 b2sums=('SKIP'
-        '0d17457a339e8bd40c25b223651df604d2431572f5ff5518d562ccb694c091db273a85335af7f8d1682cb960bb84851f46066ba48a30601eb40348d9b0361c71')
+        'cd6e159b7b06e1990d6700570f472cf4d7793654e3847d2409da36a2aa6f9a869d8f64dfa18da0a65d8bcc0d2dfdef35872ff4fa51de3760cec8663eca35ff52'
+        'cc6ded22fb6d03376af12b322697dab117ee76b60a18935188f7b7bc9af862269ad05790593e1873e84e735eedeb2f8ed4b91aece05ef9a419392c44bb53edcd')
 validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman <gregkh@kernel.org>
   '64254695FFF0AA4466CC19E67B96E8162A8CF5D1'  # Sebastian Andrzej Siewior
@@ -26,7 +29,7 @@ validpgpkeys=(
   '991F6E3F0765CF6295888586139B09DA5BF0D338'  # David Runge <dvzrv@archlinux.org>
 )
 
-export KBUILD_BUILD_HOST=archlinux
+export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
 export KBUILD_BUILD_TIMESTAMP="$(date -Ru${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH})"
 
