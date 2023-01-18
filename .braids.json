@@ -9424,7 +9424,7 @@
     "wasi-libc++": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-libcplusplus.git",
       "branch": "master",
-      "revision": "d40d5c3f022060a1c5cd8dcd23f0fc24d3ff2626"
+      "revision": "7f1f035857180b4e26f1114edf0b8f4867bb73a7"
     },
     "wavpack": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wavpack.git",
