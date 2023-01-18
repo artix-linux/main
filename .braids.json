@@ -9414,7 +9414,7 @@
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
       "branch": "master",
-      "revision": "ecb72c3fb63554afd68eb8e1a2d0e9d3b9511d65"
+      "revision": "573c709fbc8a3258461ba7724eb47c71be446b4d"
     },
     "wasi-libc": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-libc.git",
