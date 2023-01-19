@@ -1,2 +1,0 @@
-# jdk17-openjdk
-
