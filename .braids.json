@@ -5919,7 +5919,7 @@
     "mpd": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpd.git",
       "branch": "master",
-      "revision": "cd2e954e76a856b235f6dc90c60a1b200bf09d15"
+      "revision": "402ca1b3c3e42ee8c248ce8a186f413f04fc8e9e"
     },
     "mpdecimal": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpdecimal.git",
