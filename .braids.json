@@ -569,7 +569,7 @@
     "binutils": {
       "url": "gitea@gitea.artixlinux.org:packagesB/binutils.git",
       "branch": "master",
-      "revision": "6368cf2dbd164550c8261dd053d4025025041400"
+      "revision": "32b2fc0f16fbb580b9f25ca6a1d33b62df7da2bc"
     },
     "bison": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bison.git",
