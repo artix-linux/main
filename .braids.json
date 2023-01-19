@@ -3156,6 +3156,11 @@
       "branch": "master",
       "revision": "8815f6f04de0e17c2f3422135ed1494986c5030d"
     },
+    "jdk17-openjdk": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jdk17-openjdk.git",
+      "branch": "master",
+      "revision": "16d76f41a33963dfffe879bf3116ad3a0ff6d087"
+    },
     "jemalloc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
       "branch": "master",
