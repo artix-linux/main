@@ -1,4 +1,4 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Dan McGee <dan@archlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 
@@ -14,7 +14,7 @@
 
 pkgname=valgrind
 pkgver=3.19.0
-pkgrel=5
+pkgrel=6
 pkgdesc='Tool to help find memory-management problems in programs'
 arch=('x86_64')
 license=('GPL')
