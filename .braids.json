@@ -3144,7 +3144,7 @@
     "java17-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java17-openjdk.git",
       "branch": "master",
-      "revision": "c244c0f2b4470af9ddde2bd20fd3f2e75021aea6"
+      "revision": "9027697568ff435eab3b4e611f5cfe4f8d2d6072"
     },
     "java8-openjdk": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/java8-openjdk.git",
