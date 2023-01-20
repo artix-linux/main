@@ -6879,7 +6879,7 @@
     "pipewire-media-session": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pipewire-media-session.git",
       "branch": "master",
-      "revision": "ebe6e1be6a660819693221b48cc4963e54e33d64"
+      "revision": "e3abf220bc53e4c5c07cd20f0b1222976dc7241a"
     },
     "pixman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pixman.git",
