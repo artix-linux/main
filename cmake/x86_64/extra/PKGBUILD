@@ -3,7 +3,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=cmake
-pkgver=3.25.1
+pkgver=3.25.2
 pkgrel=1
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
@@ -14,9 +14,10 @@ makedepends=('qt6-base' 'python-sphinx' 'emacs')
 optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
         "artix-cmake"{,.patch})
-sha512sums=('ec4203cac569e3c340bf6535d193d9ccff9c4e4d59a7a7ae5b9156172f647d9f9212bdc37b3c12cbd676b1351b9a64364c563aaa968a2f41e0f402410ed78d57'
+sha512sums=('20146d06a1722c36249192944a58e4780aad334d2bc5ce2a3d8c4f24656630c5b71ca0ae7ed53587e3d46f488bd773452fa60c3fc7045fe54db2dbc6ffd86390'
             '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7'
             '8a838312162d7792d3a3c5168629191c5c6ae61095bec157c49528b393bf4fe1573567855efd5037675bf0d0837641ed45b26da65165e45ba711f123879b156c')
+
 prepare() {
   cd ${pkgname}-${pkgver}
   patch -Np1 -i ../artix-cmake.patch
