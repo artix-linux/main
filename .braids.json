@@ -1714,7 +1714,7 @@
     "exiv2": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exiv2.git",
       "branch": "master",
-      "revision": "3d3c42e8b67c674af961ef500fa5c0288abb82e7"
+      "revision": "bee81049f3bb172b9db2ec74812e80ddacfaf148"
     },
     "expac": {
       "url": "gitea@gitea.artixlinux.org:packagesE/expac.git",
