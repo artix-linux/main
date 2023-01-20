@@ -5279,7 +5279,7 @@
     "linux-atm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-atm.git",
       "branch": "master",
-      "revision": "28216d1770dd8608c88d21e1718c2a231e4467a2"
+      "revision": "2f02e68a5199f0ff223284e3fe440a042daae25d"
     },
     "linux-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-firmware.git",
