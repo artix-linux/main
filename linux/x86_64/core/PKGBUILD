@@ -1,6 +1,6 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
-_ver=6.1.4
+_ver=6.1.6
 _rel=1
 _tag=arch${_rel}
 _artix=artix${_rel}
@@ -13,7 +13,7 @@ url="https://github.com/archlinux/linux/commits/$_srctag"
 arch=(x86_64)
 license=(GPL2)
 makedepends=(
-  bc libelf pahole cpio perl tar xz
+  bc libelf pahole cpio perl tar xz gettext
   xmlto python-sphinx python-sphinx_rtd_theme graphviz imagemagick texlive-latexextra
   git
 )
@@ -30,7 +30,7 @@ validpgpkeys=(
   'C7E7849466FE2358343588377258734B41C31549'  # David Runge <dvzrv@archlinux.org>
 )
 sha256sums=('SKIP'
-            'b499963b4079c3f7ae26ab314817296a08db409aee731b61add8ee267d665f57')
+            'dfb4e8c3f9a89075e5d61d6dcac8822bc53b42a5a289ea5743102fd57498bdba')
 
 export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
