@@ -1,10 +1,10 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 
 pkgname=dejagnu
 pkgver=1.6.3
-pkgrel=3
+pkgrel=4
 pkgdesc='Framework for testing other programs'
 arch=(any)
 url='https://www.gnu.org/software/dejagnu/'
