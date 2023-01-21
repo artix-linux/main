@@ -8264,7 +8264,7 @@
     "signify": {
       "url": "gitea@gitea.artixlinux.org:packagesS/signify.git",
       "branch": "master",
-      "revision": "3d7de1bd8037938ee10254a9460fca16004340c8"
+      "revision": "409d990c443e7e2809c9ec01c60ab27a9fa49cc4"
     },
     "sip": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sip.git",
