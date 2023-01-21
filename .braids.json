@@ -1249,7 +1249,7 @@
     "ddclient": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient.git",
       "branch": "master",
-      "revision": "a6faa50147d1b938f6f1567fda21f741936e67a8"
+      "revision": "427079d24148946ead2ce5dce2e95acf63f15f2b"
     },
     "debootstrap": {
       "url": "gitea@gitea.artixlinux.org:packagesD/debootstrap.git",
