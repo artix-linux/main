@@ -2939,7 +2939,7 @@
     "intel-gmmlib": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-gmmlib.git",
       "branch": "master",
-      "revision": "835720363067d2025d14db7557d8427525731074"
+      "revision": "dec4c364e16c6d8a27aea7c0cfd1b6a411dc559f"
     },
     "intel-graphics-compiler": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-graphics-compiler.git",
