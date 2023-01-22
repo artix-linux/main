@@ -6989,7 +6989,7 @@
     "postgrey": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey.git",
       "branch": "master",
-      "revision": "9f22d2c076958a4d234b2645878c52aba422d1ea"
+      "revision": "f103f12b1ffd5fd21fecbd5bfb5582c25d6f831a"
     },
     "postorius": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postorius.git",
