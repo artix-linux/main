@@ -8949,7 +8949,7 @@
     "trojan": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan.git",
       "branch": "master",
-      "revision": "ccf7321b6d34c31e3ef71a245ee8f810c5be17e4"
+      "revision": "676015f3e056b982c4ee1ecf85c66b1930fb9025"
     },
     "tslib": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tslib.git",
