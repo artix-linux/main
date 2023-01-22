@@ -9044,7 +9044,7 @@
     "uchardet": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uchardet.git",
       "branch": "master",
-      "revision": "3d13c4fd73b2b1824ee5e766cf9bb013874fe42c"
+      "revision": "b86b25a98fd3fdc8dd2956c8c073444be10316b3"
     },
     "ucl": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ucl.git",
