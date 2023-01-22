@@ -609,7 +609,7 @@
     "boost": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boost.git",
       "branch": "master",
-      "revision": "b69b24914cece27136afc0cab472f0c61ba421ef"
+      "revision": "adde2ff514f869a9d1b2c5f2cfb52ffcf1a51633"
     },
     "booster": {
       "url": "gitea@gitea.artixlinux.org:packagesB/booster.git",
