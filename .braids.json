@@ -7754,7 +7754,7 @@
     "raft": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raft.git",
       "branch": "master",
-      "revision": "3df70cebe424c9999b591c4c603088caa2f4f3ee"
+      "revision": "88e7b81d5d4a1fc848f193fab15731fb79c118c3"
     },
     "ragel": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ragel.git",
