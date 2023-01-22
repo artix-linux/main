@@ -2,7 +2,7 @@
 
 pkgname=dump_syms
 pkgver=2.1.1
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Symbol dumper for Firefox"
 url="https://github.com/mozilla/dump_syms"
 arch=(x86_64)
