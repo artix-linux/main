@@ -7009,7 +7009,7 @@
     "powerdns-recursor": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor.git",
       "branch": "master",
-      "revision": "00382afc69e116759e061ce127eb59ce9bb1209f"
+      "revision": "8d708fa35fa742082505d282ea169dca90c7c638"
     },
     "powertop": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powertop.git",
