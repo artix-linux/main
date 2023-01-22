@@ -8319,7 +8319,7 @@
     "snapper": {
       "url": "gitea@gitea.artixlinux.org:packagesS/snapper.git",
       "branch": "master",
-      "revision": "ef758a7a857c20d0156c70a0a710acf9b634993a"
+      "revision": "1069648557dc3ce91e83586037bb586004f17199"
     },
     "snappy": {
       "url": "gitea@gitea.artixlinux.org:packagesS/snappy.git",
