@@ -4789,7 +4789,7 @@
     "libtorrent-rasterbar": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtorrent-rasterbar.git",
       "branch": "master",
-      "revision": "c2dbb895dca7f0538993348969cb81369251a59f"
+      "revision": "f01b6aeefd9b1bfadb837037f8874b1fac076caf"
     },
     "libtpms": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtpms.git",
