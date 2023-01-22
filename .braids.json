@@ -8374,7 +8374,7 @@
     "source-highlight": {
       "url": "gitea@gitea.artixlinux.org:packagesS/source-highlight.git",
       "branch": "master",
-      "revision": "8b046bd59432d305ceeb7f58d41bd3a241b82f38"
+      "revision": "d0192f7b453f47f03824814857c18b0a9f40e6ad"
     },
     "sox": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sox.git",
