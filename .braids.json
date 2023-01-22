@@ -2184,7 +2184,7 @@
     "geoip-database": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip-database.git",
       "branch": "master",
-      "revision": "6d12027b0674c0b107d9142e7463b0ffe8b40019"
+      "revision": "27db6e4bc0e41e1610edbdfb07dd4dac93576699"
     },
     "getdns": {
       "url": "gitea@gitea.artixlinux.org:packagesG/getdns.git",
