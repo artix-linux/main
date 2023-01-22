@@ -749,7 +749,7 @@
     "cargo-c": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cargo-c.git",
       "branch": "master",
-      "revision": "6615e2b9f1180a8f52a81d96f0f9cd095741bf9c"
+      "revision": "291ede91dd0cc58e033854dacc32a54f09bf122a"
     },
     "catatonit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catatonit.git",
