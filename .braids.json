@@ -4424,7 +4424,7 @@
     "liborcus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liborcus.git",
       "branch": "master",
-      "revision": "ae049be3913a416b314647b6172583fb2c4ae1a4"
+      "revision": "e1549a7d46a9e7eb484cd3b807600bb538746840"
     },
     "libotf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libotf.git",
