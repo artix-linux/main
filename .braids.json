@@ -10204,7 +10204,7 @@
     "znc": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc.git",
       "branch": "master",
-      "revision": "e741517d991fa6b018efb36fd39650c517a6abc4"
+      "revision": "c62ec0e07eebb0a5b9f251d9a349912912ea779f"
     },
     "zsh": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh.git",
