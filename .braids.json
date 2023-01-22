@@ -8689,7 +8689,7 @@
     "telepathy-accounts-signon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-accounts-signon.git",
       "branch": "master",
-      "revision": "15699af49fabe5d2d2ec020eaed80dd7ed02b40e"
+      "revision": "6f0193942a33760165a8995a383242e24969bf06"
     },
     "telepathy-gabble": {
       "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-gabble.git",
