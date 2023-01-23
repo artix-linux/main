@@ -1,9 +1,9 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Thomas Arnhold <thomas at arnhold dot org>
 
 pkgname=liborcus
 pkgver=0.17.2
-pkgrel=3
+pkgrel=4
 pkgdesc="File import filter library for spreadsheet documents."
 arch=('x86_64')
 url="https://gitlab.com/orcus/orcus/blob/master/README.md"
