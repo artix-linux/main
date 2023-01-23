@@ -3649,7 +3649,7 @@
     "libcmis": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcmis.git",
       "branch": "master",
-      "revision": "f6e7c237c2e236a054567463886c3da53a862188"
+      "revision": "0428cd610f5fe45bcd442043da824c1b306c8e18"
     },
     "libconfig": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libconfig.git",
