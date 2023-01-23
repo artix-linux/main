@@ -4074,7 +4074,7 @@
     "libixion": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libixion.git",
       "branch": "master",
-      "revision": "26991c9acf578f6dae10e89338a4ded6add53e78"
+      "revision": "bb5d7ab0eb7279b0832f25b4a1a85a01897e3ed4"
     },
     "libjcat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libjcat.git",
