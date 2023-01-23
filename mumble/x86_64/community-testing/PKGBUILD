@@ -59,18 +59,16 @@ checkdepends=(
   xorg-server-xvfb
 )
 source=(
-  https://github.com/mumble-voip/mumble/releases/download/v$pkgver/$pkgbase-$pkgver.tar.gz{,.sig}
+  https://github.com/mumble-voip/mumble/releases/download/v$pkgver/$pkgbase-$pkgver.tar.gz
   mumble-server.tmpfiles
   $pkgbase-1.5.517-config_defaults.patch
   $pkgbase-1.5.517-pkgconf.patch
 )
 sha512sums=('f64147aa392519d1a7ef538d4fa23eaba0e21474bc9155e2c9e82cff859ff93c455a9ac18aed6197513486ebfca36560bd6de51327555dc7efab884a6a601d9f'
-            'SKIP'
             '350575aaf26ac8b7dc567018defd59913da957983986017e82a92e53f2a6d21473d9c2566177abd7611d95858a723bcf7f8dad49e8ca18d18b9fa4e75fb15ca6'
             'c12f6269c5745532031f09fba5b9e3118e6beaf387ae0aaba6ff8380a1452b47f9f0d1cae04472a5763b3da695e03467de152a98bf03c01ae59bd6d553ec7100'
             '32a4ac43ba7fb2c9bee61609a6edf17d7dc26b27e13ab425ee12aaf25cf1071d99a35c3b045ea23dec1281725790c5ef0de3c9fb5e594073281877ecca70396d')
 b2sums=('d61c8118423af6514ed98a899916516920fae790ce39bdbbc76c4b14a298cf6989e73e2a0f977634968e758ff1f77a03727671617e9c867728f57995ff0cfec2'
-        'SKIP'
         '476353608e794c431d9c79a54e11ad0442e3c96607b6492d3b2f5b589b96b120611e2e3dc1bb4f8e17c0911c238a9ca7b409277353fa08b9f690217f80d7dc4e'
         'c607246691e9701f54b8d133db7d424a46ab94781178d172ae8a35df8ca505da59734ddae00789b93af316de3344d7e177a1a988e1438121e1e921ff59724f24'
         'b3ea596e6603e0e0dbefdd90dea1dddd5609962e26594083c69bc28f69d306405f2ad7532d3d5360af0010ee9f06c7432089d1eca77a7ffa3df2bc7e76608106')
