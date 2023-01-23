@@ -5779,7 +5779,7 @@
     "mgba": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mgba.git",
       "branch": "master",
-      "revision": "2ddd67861f1c50cc5bba29845c49f7b477c7edaf"
+      "revision": "77dd3e6842f17c6ae1e42112485050de1a46d1f9"
     },
     "micro": {
       "url": "gitea@gitea.artixlinux.org:packagesM/micro.git",
