@@ -2,7 +2,7 @@
 
 pkgname=liblas
 pkgver=1.8.1.r128+gded46373
-pkgrel=4.1
+pkgrel=5
 pkgdesc="C/C++ library for reading and writing the very common LAS LiDAR format"
 arch=(x86_64)
 url="https://liblas.org/"
@@ -37,7 +37,7 @@ prepare() {
 
 build() {
   #cmake -B build -S libLAS-${pkgver} \
-  artix-cmake -B build -S libLAS \
+  cmake -B build -S libLAS \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DWITH_GDAL=ON \
     -DWITH_GEOTIFF=ON \
