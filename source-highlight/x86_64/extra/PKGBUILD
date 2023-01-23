@@ -1,9 +1,9 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Douglas Soares de Andrade <douglas@archlinux.org>
 
 pkgname=source-highlight
 pkgver=3.1.9
-pkgrel=9
+pkgrel=10
 pkgdesc="Convert source code to syntax highlighted document"
 arch=('x86_64')
 url="https://www.gnu.org/software/src-highlite/"
