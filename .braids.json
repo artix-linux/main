@@ -934,7 +934,7 @@
     "cmark": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark.git",
       "branch": "master",
-      "revision": "ec80e19893ec90b553392c2c73875ca621d03eb6"
+      "revision": "058e7ad8dce0c5d50d8dad14687c945e3dc7c14d"
     },
     "cmark-gfm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark-gfm.git",
