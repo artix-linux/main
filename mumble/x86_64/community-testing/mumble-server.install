@@ -1,0 +1,9 @@
+post_install() {
+  cat <<MSG
+>>> This package replaces murmur!
+    When starting with a new database, create a superuser password
+    before starting mumble-server.service, by running the following
+    as the _mumble-server user:
+    mumble-server -ini /etc/mumble/mumble-server.ini -supw <password>
+MSG
+}
