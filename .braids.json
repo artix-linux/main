@@ -4114,7 +4114,7 @@
     "liblas": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblas.git",
       "branch": "master",
-      "revision": "ab2e7e8d288c1c4af380258f6e2aa794e0e3a4af"
+      "revision": "59187e4b8d602f3141c41ba659ccbe433267af8a"
     },
     "liblc3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblc3.git",
