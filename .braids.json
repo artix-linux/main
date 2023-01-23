@@ -1079,7 +1079,7 @@
     "cpp-hocon": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpp-hocon.git",
       "branch": "master",
-      "revision": "d0ea80c0a8c4288711b4d23d1e8c54f961ecdc9a"
+      "revision": "665ec7d4b9c5929ef30e1586909fd3d2936126bd"
     },
     "cppcheck": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cppcheck.git",
