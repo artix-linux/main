@@ -639,7 +639,7 @@
     "breezy": {
       "url": "gitea@gitea.artixlinux.org:packagesB/breezy.git",
       "branch": "master",
-      "revision": "cab5e3a3e81f04ac1dedb52be1babf1a1eb729da"
+      "revision": "8173f7eea87bffdd6cb70e6fcefa78a3a30d705e"
     },
     "bridge-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bridge-utils.git",
