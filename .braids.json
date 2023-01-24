@@ -6069,7 +6069,7 @@
     "ncdu": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncdu.git",
       "branch": "master",
-      "revision": "7f2f6b4ff18927e6c75b3aea4eb5e97cda9e3cd6"
+      "revision": "1ce7aee00a90878b8a12bc2946ec27c101e7c1cd"
     },
     "ncftp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncftp.git",
