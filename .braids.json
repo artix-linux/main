@@ -7714,7 +7714,7 @@
     "quazip": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quazip.git",
       "branch": "master",
-      "revision": "51897485ea3b92e917a0d41588e5b8ed041a7ff7"
+      "revision": "37fd94efdbddea34522bebf176b6b9847a153566"
     },
     "quilt": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quilt.git",
