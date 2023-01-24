@@ -8749,7 +8749,7 @@
     "texinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texinfo.git",
       "branch": "master",
-      "revision": "c17292d1414bb80b377981ff0fd9255ffddf641c"
+      "revision": "b99cde7cdec74eea83e17d5c093e486944a7a289"
     },
     "texlive-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-bin.git",
