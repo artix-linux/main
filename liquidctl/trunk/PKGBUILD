@@ -1,7 +1,7 @@
-# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=liquidctl
-pkgver=1.12.0
+pkgver=1.12.1
 pkgrel=1
 arch=('any')
 url='https://github.com/liquidctl/liquidctl'
