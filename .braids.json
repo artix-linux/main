@@ -9769,7 +9769,7 @@
     "xf86-video-vmware": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-vmware.git",
       "branch": "master",
-      "revision": "5f624b30695624dba7797483386757ea1682061a"
+      "revision": "50e1d10303439b71e501b019a3bd87949968bcda"
     },
     "xf86-video-voodoo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-voodoo.git",
