@@ -8119,7 +8119,7 @@
     "sdl2_image": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_image.git",
       "branch": "master",
-      "revision": "6849583f37d69438ecd9ecae605e50b5020a98bc"
+      "revision": "469bd331a43ce79542aa77b70b7f7f68e3c206c7"
     },
     "sdl2_mixer": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_mixer.git",
