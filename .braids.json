@@ -5964,7 +5964,7 @@
     "msgpack-cxx": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
       "branch": "master",
-      "revision": "07d1f23a565957599ecdfa02c9940bad8dd44cfc"
+      "revision": "c58928f1403eb50b82e13b49b32d829dd34c4059"
     },
     "msmtp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msmtp.git",
