@@ -2919,7 +2919,7 @@
     "imlib2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imlib2.git",
       "branch": "master",
-      "revision": "c77a5808530417f1ab6b8c544347c7564d24b928"
+      "revision": "4109ff3b30a92047244b295e0f6a8efca50df6e6"
     },
     "inetutils": {
       "url": "gitea@gitea.artixlinux.org:packagesI/inetutils.git",
