@@ -4,7 +4,7 @@
 pkgbase=iptables
 pkgname=(iptables iptables-nft)
 pkgver=1.8.8
-pkgrel=2
+pkgrel=3
 epoch=1
 pkgdesc='Linux kernel packet control tool'
 arch=(x86_64)
@@ -17,17 +17,17 @@ source=(https://www.netfilter.org/projects/iptables/files/$pkgbase-$pkgver.tar.b
         empty.rules simple_firewall.rules empty-{filter,mangle,nat,raw,security}.rules
         iptables-format-security.patch::https://git.netfilter.org/iptables/patch/?id=b72eb12e
         iptables-apply-default-path.patch)
-sha1sums=('98783621a5e58ff55f83b1350523f3de41af621d'
-          'SKIP'
-          '83b3363878e3660ce23b2ad325b53cbd6c796ecf'
-          'f085a71f467e4d7cb2cf094d9369b0bcc4bab6ec'
-          'd9f9f06b46b4187648e860afa0552335aafe3ce4'
-          'c45b738b5ec4cfb11611b984c21a83b91a2d58f3'
-          '1694d79b3e6e9d9d543f6a6e75fed06066c9a6c6'
-          '7db53bb882f62f6c677cc8559cff83d8bae2ef73'
-          'ebbd1424a1564fd45f455a81c61ce348f0a14c2e'
-          'df4b0a31dfa01cff65926d439ab1475f246d4e74'
-          '454d0a6d3bca14b8702e7c5e2672f5bc0c832b85')
+sha256sums=('71c75889dc710676631553eb1511da0177bbaaf1b551265b912d236c3f51859f'
+            'SKIP'
+            '630d774f089703c2c7370db6d7c188dae25d00c26feaa3d3de8eb52519033948'
+            '9e83d7ae39d31881790f814930d44acbaeab1520adb2fb4fcb80f0bbfab174b9'
+            '09b90da35c2c8cb0fbda63b300f06d2387a102ca53a40980ef0b49829e249528'
+            '92755648f456e235d17a8faeb5f46d27af66eb4db10ea4bac0abd3e35e2dae07'
+            '52bd70dff3e1e1a64127ad7ed86840834b79756c3bdb6947b7c6279ffe95dd48'
+            '5768a471c0559848635c39d270e456bfa5c43eda65f5f6f666fea2d277183a37'
+            '91161a73f323016a9efc5eabd16243d20f8ca2467995cf0eabfb95f845090121'
+            '9d9e23d6452632e7944d942ccbf6c82deb327780a084611aa7444eb88c596a70'
+            '770ceaedce26d05eb1b9d0c4c65f5b8e92facd1dc0652a29c859336d6bc347f6')
 validpgpkeys=('C09DB2063F1D7034BA6152ADAB4655A126D292E4'
               '37D964ACC04981C75500FB9BD55D978A8A1420E4') # Netfilter Core Team
 
