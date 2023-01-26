@@ -4089,7 +4089,7 @@
     "libjxl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libjxl.git",
       "branch": "master",
-      "revision": "0e66fa23e18959ad6d6c13c049e817eec76ecc96"
+      "revision": "06cf6290b38da1b89940592b99687ae861c929e5"
     },
     "libkate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libkate.git",
