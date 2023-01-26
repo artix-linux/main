@@ -7034,7 +7034,7 @@
     "pptpclient": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpclient.git",
       "branch": "master",
-      "revision": "9f9e786bfdbc2f486d7c501688800f295cd19a21"
+      "revision": "3e3af4d1e8814901aa009e0f67bd26b539872c44"
     },
     "pptpd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpd.git",
