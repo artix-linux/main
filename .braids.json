@@ -5554,7 +5554,7 @@
     "m4": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m4.git",
       "branch": "master",
-      "revision": "70e1d81b53cb2771807b7651826cee5202a09ddd"
+      "revision": "72fb06c8ab7bf00ff95a9bc5b0907317582452c5"
     },
     "mac": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mac.git",
