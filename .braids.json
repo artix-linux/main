@@ -1459,7 +1459,7 @@
     "dosfstools": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dosfstools.git",
       "branch": "master",
-      "revision": "4641ef59626279b9d8cc1b863bc3d6892b7fd91a"
+      "revision": "26e61b8214a86df150cf3cb5cac3d7cb5828ca81"
     },
     "dotconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dotconf.git",
