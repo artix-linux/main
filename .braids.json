@@ -5789,7 +5789,7 @@
     "mimetic": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mimetic.git",
       "branch": "master",
-      "revision": "f967a0f22f0904d39bdd61b34eac5f8b28b3bf55"
+      "revision": "d95a8759f05caa1d4ae2ad08791a227fd98122ef"
     },
     "minicom": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minicom.git",
