@@ -5959,7 +5959,7 @@
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
       "branch": "master",
-      "revision": "5fc553a892aaf931c17980e8caef06afa7f38865"
+      "revision": "2ca67bdcd3af37acc1b446092027ca3b3056373b"
     },
     "msgpack-cxx": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-cxx.git",
