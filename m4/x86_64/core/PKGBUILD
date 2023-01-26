@@ -1,10 +1,10 @@
-# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
 # Contributor: Andreas Radke <andyrtr@archlinux.org>
 
 pkgname=m4
 pkgver=1.4.19
-pkgrel=1
+pkgrel=2
 pkgdesc="The GNU macro processor"
 arch=('x86_64')
 url="https://www.gnu.org/software/m4"
@@ -14,8 +14,6 @@ depends=('glibc' 'bash')
 source=("https://ftp.gnu.org/gnu/m4/$pkgname-$pkgver.tar.xz"{,.sig})
 sha256sums=('63aede5c6d33b6d9b13511cd0be2cac046f2e70fd0a07aa9573a04a82783af96'
             'SKIP')
-b2sums=('08694485a49c542761fa9a7db4d7609f4dfb08a5c6b785b57f2e14cf1f696c2a1c788bb5eb934e8159a632b63ff071dfe42511d0109d7b1828f46d33c8bf416a'
-        'SKIP')
 validpgpkeys=('71C2CC22B1C4602927D2F3AAA7A16B4A2527436A')   # Eric Blake
 
 build() {
