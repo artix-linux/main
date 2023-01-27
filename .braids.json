@@ -8694,7 +8694,7 @@
     "tdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tdb.git",
       "branch": "master",
-      "revision": "bec2fb727fb4d985c50bfd2eec61f729db0f9dd8"
+      "revision": "659ea5eb428ebc114620d04d6e0c55139812f657"
     },
     "telepathy-accounts-signon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/telepathy-accounts-signon.git",
