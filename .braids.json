@@ -7279,7 +7279,7 @@
     "python-jupyter-server-terminals": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-jupyter-server-terminals.git",
       "branch": "master",
-      "revision": "93f96d4c6a2ec6b51ba2e3e804c5501e5144b719"
+      "revision": "31c1da2c2007cd48f30bbb29b424399d4068c8df"
     },
     "python-mitmproxy-wireguard": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-mitmproxy-wireguard.git",
