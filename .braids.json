@@ -114,7 +114,7 @@
     "amf-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amf-headers.git",
       "branch": "master",
-      "revision": "8114dd7b6768addd71596fdee5dfa67b3e38c445"
+      "revision": "48d0820bbcf7494eb3af4ee0efcac0b3db27f6cb"
     },
     "amfora": {
       "url": "gitea@gitea.artixlinux.org:packagesA/amfora.git",
