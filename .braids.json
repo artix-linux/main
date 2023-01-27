@@ -5669,7 +5669,7 @@
     "matrix-synapse": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse.git",
       "branch": "master",
-      "revision": "299d0ac560b875738f4dc645fa45a6f5d86e4975"
+      "revision": "aad7738d5e51577b50a9b8e285a50c424362ef61"
     },
     "matterbridge": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge.git",
