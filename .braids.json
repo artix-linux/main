@@ -8059,7 +8059,7 @@
     "samba": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba.git",
       "branch": "master",
-      "revision": "3bc3358f7bfbbb59fcf81bfc8b39780d5bb4dd16"
+      "revision": "a2f3721664d32a03af00a670110e6848bb680119"
     },
     "samurai": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samurai.git",
