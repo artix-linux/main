@@ -1,16 +1,17 @@
-# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Sergej Pupykin <pupykin.s+arch@gmail.com>
 # Contributor: Michal Bozon <michal.bozon__at__gmail.com>
 
 pkgname=libyaml
 pkgver=0.2.5
-pkgrel=1.1
+pkgrel=2
 pkgdesc="YAML 1.1 library"
 arch=('x86_64')
 url="https://pyyaml.org/wiki/LibYAML"
 license=('MIT')
+depends=('glibc')
 source=("https://pyyaml.org/download/libyaml/yaml-$pkgver.tar.gz")
-md5sums=('bb15429d8fb787e7d3f1c83ae129a999')
+sha512sums=('dadd7d8e0d88b5ebab005e5d521d56d541580198aa497370966b98c904586e642a1cd4f3881094eb57624f218d50db77417bbfd0ffdce50340f011e35e8c4c02')
 
 build() {
   cd "$srcdir/yaml-$pkgver"
