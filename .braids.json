@@ -9194,7 +9194,7 @@
     "usbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbmuxd.git",
       "branch": "master",
-      "revision": "a667975df6a46d282b42c92650c829fee23e82b1"
+      "revision": "cc6a45c4a5cac429c3843479deaa0496031df3b2"
     },
     "usbutils": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbutils.git",
