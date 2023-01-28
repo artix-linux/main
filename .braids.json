@@ -5214,7 +5214,7 @@
     "libyaml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libyaml.git",
       "branch": "master",
-      "revision": "f8b2fa3f82dae93987fffd9fa6f2462ece1d68a2"
+      "revision": "17a87c7d6c7f1ffbd19bce7b3bc2f6df90f52416"
     },
     "libyuv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libyuv.git",
