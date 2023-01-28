@@ -22,10 +22,8 @@ backup=("etc/opensips/opensips.cfg"
 arch=('x86_64')
 license=('GPL')
 options=('!emptydirs' '!makeflags')
-source=(https://opensips.org/pub/opensips/${pkgver}/opensips-${pkgver}.tar.gz
-	opensips.service)
-sha256sums=('94800b61155166651b4163084fbe7585d9d4989c676f1b9d15524d57bb9c4a55'
-            'c2fec4be085b108db10834fa9832e98d696c2de6408f85f96cf89c13bf6be819')
+source=(https://opensips.org/pub/opensips/${pkgver}/opensips-${pkgver}.tar.gz)
+sha256sums=('94800b61155166651b4163084fbe7585d9d4989c676f1b9d15524d57bb9c4a55')
 
 _modules="db_http db_mysql db_postgres db_unixodbc h350 httpd ldap presence presence_xml proto_tls tls_mgm tls_openssl tm rr"
 
@@ -43,6 +41,4 @@ package() {
   make \
 	include_modules="${_modules}" bin_dir=bin/ cfg_target=/etc/$pkgname/ cfg_prefix="$pkgdir" \
 	BASEDIR="$pkgdir" PREFIX=/usr LIBDIR=lib install
-
-  install -Dm0644 "$srcdir"/$pkgname.service "$pkgdir"/usr/lib/systemd/system/$pkgname.service
 }
