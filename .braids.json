@@ -1096,6 +1096,11 @@
       "branch": "master",
       "revision": "4ad5dc68010e995a15af9440388a68d4b9cb7580"
     },
+    "cpputest": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpputest.git",
+      "branch": "master",
+      "revision": "30a52f65b7256e03e7a22175d7167fe3fabd98f2"
+    },
     "cracklib": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cracklib.git",
       "branch": "master",
