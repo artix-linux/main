@@ -699,7 +699,7 @@
     "c-ares": {
       "url": "gitea@gitea.artixlinux.org:packagesC/c-ares.git",
       "branch": "master",
-      "revision": "8d5c08daffaf278b3e1ff476b5cd7778febe5dba"
+      "revision": "7fd2485d028e9e7fdeb5c56f9f17bfe6a16ce9ca"
     },
     "ca-certificates": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ca-certificates.git",
