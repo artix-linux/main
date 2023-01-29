@@ -4609,7 +4609,7 @@
     "libsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsasl.git",
       "branch": "master",
-      "revision": "9efb52a4fc42dd9dceea8c42bfe4c695cd83207f"
+      "revision": "7a51eeff1cfeaeb6dac7134fe9e9edb8c194cd61"
     },
     "libsass": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsass.git",
