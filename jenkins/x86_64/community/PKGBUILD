@@ -5,7 +5,7 @@
 
 pkgname=jenkins
 pkgver=2.388
-pkgrel=1
+pkgrel=2
 pkgdesc='Extendable continuous integration server (latest)'
 arch=('any')
 url='https://jenkins.io'
