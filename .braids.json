@@ -2171,6 +2171,11 @@
       "branch": "master",
       "revision": "c63e22d8b55bc9dbf8dbfc71d4df5ca0e16a2f7a"
     },
+    "gengetopt": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gengetopt.git",
+      "branch": "master",
+      "revision": "89155aa0408b504330ea24fa2bb40677800d7c97"
+    },
     "geoclue": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoclue.git",
       "branch": "master",
