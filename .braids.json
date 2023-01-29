@@ -6604,7 +6604,7 @@
     "openvpn": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvpn.git",
       "branch": "master",
-      "revision": "b234eeb1a6fc693c15b32f99fb49bdc699dea568"
+      "revision": "906f75b8140634dbde4a51344001a1c3af5f7719"
     },
     "openvr": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvr.git",
