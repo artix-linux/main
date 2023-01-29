@@ -7911,6 +7911,11 @@
       "branch": "master",
       "revision": "02832d19de9e410acf59f4cce1ba455f6c226863"
     },
+    "roc-toolkit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/roc-toolkit.git",
+      "branch": "master",
+      "revision": "119b6a7df5350d98c4b3c67804e8f82aa939facf"
+    },
     "ropgadget": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
       "branch": "master",
