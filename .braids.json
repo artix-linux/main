@@ -1099,7 +1099,7 @@
     "cpputest": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpputest.git",
       "branch": "master",
-      "revision": "3848002902e95ed90f8148b7e0c9f18124e3f715"
+      "revision": "5aa4c4077626520aba3ea94604ba5d147df978ef"
     },
     "cracklib": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cracklib.git",
