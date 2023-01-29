@@ -6519,7 +6519,7 @@
     "openfec": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfec.git",
       "branch": "master",
-      "revision": "1ff29a9284b3bd91af1c81d590215e145650660e"
+      "revision": "7b844751f85a26a8f43361f7b603e9a1d43fbdf2"
     },
     "openfire": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfire.git",
