@@ -6516,6 +6516,11 @@
       "branch": "master",
       "revision": "13ad18b070024bec3f90c1a70c436f40f3940117"
     },
+    "openfec": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openfec.git",
+      "branch": "master",
+      "revision": "a5b253682941d2671d2d0bca85fe825358dff5e0"
+    },
     "openfire": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfire.git",
       "branch": "master",
