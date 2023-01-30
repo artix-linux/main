@@ -3609,7 +3609,7 @@
     "libcanberra": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcanberra.git",
       "branch": "master",
-      "revision": "6f88f78a0f9d3955afe0bfcb2ab0a64642a1a4f0"
+      "revision": "196fbf780cdf3b5acda0743ead5b09356ac0b1c1"
     },
     "libcap": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcap.git",
