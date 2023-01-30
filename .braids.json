@@ -484,7 +484,7 @@
     "base-devel": {
       "url": "gitea@gitea.artixlinux.org:packagesB/base-devel.git",
       "branch": "master",
-      "revision": "5dd8017be25179361a5446143becffacee176978"
+      "revision": "e5a024a610c94e4fd1dd0a1bdd3e09e0de47b90b"
     },
     "bash": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash.git",
