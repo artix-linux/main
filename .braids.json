@@ -6929,7 +6929,7 @@
     "plocate": {
       "url": "gitea@gitea.artixlinux.org:packagesP/plocate.git",
       "branch": "master",
-      "revision": "59e1a6d19af5fb67a44f2cf329364a8dfff0f2ee"
+      "revision": "aa8543f78658eafae03c7b639979f30b344d4837"
     },
     "pmbootstrap": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pmbootstrap.git",
