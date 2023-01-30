@@ -5969,7 +5969,7 @@
     "mpv": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpv.git",
       "branch": "master",
-      "revision": "dab0e52771710c9d4203b14f0a08e70f1ffdf16d"
+      "revision": "f37f76a58e76ada671227cc8acd19941bb659b2e"
     },
     "msgpack-c": {
       "url": "gitea@gitea.artixlinux.org:packagesM/msgpack-c.git",
