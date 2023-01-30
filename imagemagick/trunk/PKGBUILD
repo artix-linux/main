@@ -31,11 +31,10 @@ makedepends=(ghostscript openexr libwmf librsvg openjpeg2 libraw opencl-headers 
 checkdepends=(gsfonts ttf-dejavu)
 replaces=(imagemagick-doc)
 _relname=ImageMagick-${pkgver%%.*}
-_tarname=ImageMagick-${pkgver%.*}-${pkgver##*.}
-source=(https://imagemagick.org/archive/$_tarname.tar.xz{,.asc}
+_tarname=${pkgver%.*}-${pkgver##*.}
+source=(ImageMagick-$_tarname.tar.gz::https://github.com/ImageMagick/ImageMagick/archive/refs/tags/$_tarname.tar.gz
         arch-fonts.diff)
-sha256sums=('ee2247f2ad8798e674de7fba37e7f3986f5b6be9abec042ab00b0befa8ae5b70'
-            'SKIP'
+sha256sums=('e0d1234124754132fab25a4ce15da529c894461a6292abb470772216d0fefdb9'
             'a85b744c61b1b563743ecb7c7adad999d7ed9a8af816650e3ab9321b2b102e73')
 validpgpkeys=(D8272EF51DA223E4D05B466989AB63D48277377A)  # Lexie Parsimoniae
 
@@ -44,14 +43,15 @@ shopt -s extglob
 prepare() {
   mkdir -p docpkg/usr/share
 
-  cd $_tarname
+  cd ImageMagick-$_tarname
 
   # Fix up typemaps to match our packages, where possible
   patch -p1 -i ../arch-fonts.diff
 }
 
 build() {
-  cd $_tarname
+  cd ImageMagick-$_tarname
+
   ./configure \
     --prefix=/usr \
     --sysconfdir=/etc \
@@ -88,13 +88,13 @@ build() {
 }
 
 check() (
-  cd $_tarname
+  cd ImageMagick-$_tarname
   ulimit -n 4096
   make check
 )
 
 package() {
-  cd $_tarname
+  cd ImageMagick-$_tarname
   make DESTDIR="$pkgdir" install
 
   find "$pkgdir/usr/lib/perl5" -name '*.so' -exec chrpath -d {} +
