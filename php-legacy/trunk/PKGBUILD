@@ -19,7 +19,7 @@ pkgname=('php-legacy'
          'php-legacy-tidy'
          'php-legacy-xsl')
 pkgver=8.1.14
-pkgrel=3
+pkgrel=5
 arch=('x86_64')
 license=('PHP')
 url='https://www.php.net/'
