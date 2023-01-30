@@ -1494,7 +1494,7 @@
     "dracut": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dracut.git",
       "branch": "master",
-      "revision": "5fd3c5fe991df5a1bb6e1add9d36ead33531aac2"
+      "revision": "47e5a7d6a460b30b6b5dd608f6d7500c9a4e7ede"
     },
     "dropbear": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dropbear.git",
