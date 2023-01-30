@@ -54,7 +54,6 @@ Server = https://mirrors.rit.edu/artixlinux/$repo/os/$arch
 Server = https://mirrors.ocf.berkeley.edu/artix-linux/$repo/os/$arch
 Server = http://www.nylxs.com/mirror/repos/$repo/os/$arch
 Server = https://mirrors.nettek.us/artix-linux/$repo/os/$arch
-Server = https://mirror.albony.xyz/artix/$repo/os/$arch
 Server = https://us-mirror.artixlinux.org/$repo/os/$arch
 # Canada
 Server = https://mirror.csclub.uwaterloo.ca/artixlinux/$repo/os/$arch
@@ -70,6 +69,8 @@ Server = https://mirror1.cl.netactuate.com/artix/repos/$repo/os/$arch
 Server = https://mirrors.tuna.tsinghua.edu.cn/artixlinux/$repo/os/$arch
 Server = https://mirrors.aliyun.com/artixlinux/$repo/os/$arch
 Server = https://mirror.nju.edu.cn/artixlinux/$repo/os/$arch
+# India
+Server = https://mirror.albony.xyz/artix/$repo/os/$arch
 # Korea, Republic of
 Server = https://mirror.funami.tech/artix/$repo/os/$arch
 # Singapore
