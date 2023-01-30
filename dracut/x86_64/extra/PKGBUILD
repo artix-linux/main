@@ -1,7 +1,7 @@
 # Maintainer: Giancarlo Razzolini <grazzolini@archlinux.org>
 pkgname=dracut
 pkgver=056
-pkgrel=1
+pkgrel=1.1
 pkgdesc="An event driven initramfs infrastructure"
 arch=('x86_64')
 url="https://dracut.wiki.kernel.org"
@@ -30,7 +30,7 @@ sha512sums=('3a5b82976bfff9d71ca305b786fd9218849d28e0ef36356b19e558e50fefcca540d
             'ac82fa81a8bcb7388890580786c3ca98e09a3314e478f204a9e140a3af235d97e5ba8407fbd27385a482e04714f46a299fb498035b19527e6b867da4a088a8c1'
             '8333619d495e6694f795a1f05492f11686da68c08763a8d285a78eb6d5e895af7925687297bf8cbd03ed2e88b89efc71976631fb4da8069230fd1ccf40b7ed9c'
             '5065a022c4f65fdec44ad0febb06273b73f397af0dfdf5ddb34ad9a08b60c61aa0450551b6c394e41d894a5552fff3daef846199a45da22cf8750e5553285664'
-            '7ed427f610b849c0e460ce723bbb9e7217d2574bfae684e82bafee4c16b64a9b804096be0bf72f8860c9c51d3304ac8077497dd0e33532d94529d0d29cf1c73a')
+            'cdb3aa63d834b0b3a1eb73b7579b2e36c188d66bc8534947830a2358aa6c59bdf4d02119015085ee1208c845945ebf99bb86a0b64a06591eb569aad49f778555')
 validpgpkeys=(
   '7F3D64824AC0B6B8009E50504BC0896FB5693595' # Harald Hoyer <harald@redhat.com>
 )
