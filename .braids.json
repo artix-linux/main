@@ -9449,7 +9449,7 @@
     "w3m": {
       "url": "gitea@gitea.artixlinux.org:packagesW/w3m.git",
       "branch": "master",
-      "revision": "4e1424beb4fbaa7bb6a74a57a2107d60df1dbef9"
+      "revision": "9e7f9fc5a0ad9ee76ee363aa4cddb6d36c2e7ab6"
     },
     "waf": {
       "url": "gitea@gitea.artixlinux.org:packagesW/waf.git",
