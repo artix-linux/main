@@ -9444,7 +9444,7 @@
     "vulkan-validation-layers": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vulkan-validation-layers.git",
       "branch": "master",
-      "revision": "4fdf20ddcccab0a1fe2a48ede07b38f0b096478e"
+      "revision": "79b99ec433eda1e5e5d4794260bf75f3d04b2968"
     },
     "w3m": {
       "url": "gitea@gitea.artixlinux.org:packagesW/w3m.git",
