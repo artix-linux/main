@@ -3339,7 +3339,7 @@
     "kirigami-addons": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kirigami-addons.git",
       "branch": "master",
-      "revision": "d6b0ae747db960158cd3ef46737da8ead99049b3"
+      "revision": "091927a3a9828800ca244ddaeb63d4efd07adaf0"
     },
     "kismet": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kismet.git",
