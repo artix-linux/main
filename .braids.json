@@ -8829,7 +8829,7 @@
     "thermald": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald.git",
       "branch": "master",
-      "revision": "afc1e77f52b3b2f848b60b66b95c98633aa711ff"
+      "revision": "d6d1ecc50d0b46a76450b32c5ea1c3d901c61faf"
     },
     "thin-provisioning-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thin-provisioning-tools.git",
