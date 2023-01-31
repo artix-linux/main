@@ -11,7 +11,8 @@ pkgdesc="NVM-Express user space tooling for Linux"
 arch=('i686' 'x86_64')
 url="https://github.com/linux-nvme/nvme-cli"
 license=('GPL')
-makedepends=('udev' 'meson' 'git' 'asciidoc' 'xmlto' 'doxygen' 'mallard-ducktype')
+makedepends=('udev' 'meson' 'git' 'asciidoc' 'xmlto' 'doxygen' 'mallard-ducktype' 'yelp-tools'
+             'qt5-tools')
 depends=('util-linux' 'libudev')
 options=(strip)
 install=nvme-cli.install
