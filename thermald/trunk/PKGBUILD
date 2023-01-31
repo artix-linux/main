@@ -14,7 +14,7 @@ license=('GPL2')
 depends=('dbus-glib' 'libxml2' 'libevdev' 'upower')
 makedepends=('autoconf-archive' 'python' 'gtk-doc')
 source=("https://github.com/intel/thermal_daemon/archive/v${pkgver}/${_pkgname}-${pkgver}.tar.gz")
-b2sums=('e6427ce50928378e9c3733bcc8a4c20086911fa333a9701331c676c9c50a7e10bbc9e3f078a818811088995ee68efe9ba9b1f0a0363ef1d13309833c62352a14')
+b2sums=('884fbfb440a0b5e9d1d12bfd7b9173fd79f68b46c499e341f0afdf3d312e10bcd5956b14de7c4c8c0b4db1bc7b675025e3b108bc27cc3cbf236212d0bd642508')
 
 build() {
   cd ${_pkgname}-${pkgver}
