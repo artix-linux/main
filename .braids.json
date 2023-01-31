@@ -9194,7 +9194,7 @@
     "upower": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upower.git",
       "branch": "master",
-      "revision": "b6df598b5b7336c10cbef0bd3fea943956ff9069"
+      "revision": "4cad4f67933f6e5ba88d47f131698d036fd5b4c4"
     },
     "uptimed": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
