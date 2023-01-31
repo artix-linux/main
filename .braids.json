@@ -839,7 +839,7 @@
     "cherrytree": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cherrytree.git",
       "branch": "master",
-      "revision": "3d8ab23d680dcd69020964f255025ae4259e4c2e"
+      "revision": "f9ad1af053704c381b460eac8006e81dacf0c57e"
     },
     "chromaprint": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
