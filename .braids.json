@@ -3009,7 +3009,7 @@
     "iproute2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iproute2.git",
       "branch": "master",
-      "revision": "9e6e2ad76ea0f79fbe8e394be374cb8eb4181b48"
+      "revision": "295fac6b4ec363330365144ad3bc01af9b40a906"
     },
     "ipset": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipset.git",
