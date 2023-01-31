@@ -8,8 +8,8 @@ _pkgbase=systemd-stable
 pkgbase=udev
 pkgname=('udev' 'libudev' 'esysusers' 'etmpfiles')
 pkgdesc='Userspace device file manager'
-_tag='2306696b774a8c23f3796a0c9ebd8486fbb2a069' # git rev-parse v${_tag_name}
-_tag_name=252.2
+_tag='b16ce4c7ab80665b65345ea030c51a5c758fe66b' # git rev-parse v${_tag_name}
+_tag_name=252.5
 pkgver="${_tag_name/-/}"
 pkgrel=1
 arch=('x86_64')
@@ -17,7 +17,7 @@ url='https://www.github.com/systemd/systemd'
 license=('GPL2' 'LGPL2.1')
 makedepends=('acl' 'kmod' 'util-linux' 'hwdata' 'libcap' 'kbd' 'gperf'
             'intltool' 'git' 'meson' 'docbook-xsl' 'rsync' 'python-jinja')
-options=('debug' 'strip')
+options=('strip')
 validpgpkeys=('63CDA1E5D3FC22B998D20DD6327F26951A015CC4'  # Lennart Poettering <lennart@poettering.net>
               'A9EA9081724FFAE0484C35A1A81CEA22BC8C7E2E'  # Luca Boccassi <luca.boccassi@gmail.com>
               '9A774DB5DB996C154EBBFBFDA0099A18E29326E1'  # Yu Watanabe <watanabe.yu+github@gmail.com>
