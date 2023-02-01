@@ -2,7 +2,7 @@
 
 pkgbase=shellcheck-bin
 pkgname=('shellcheck')
-pkgver=0.8.0
+pkgver=0.9.0
 pkgrel=1
 pkgdesc='Shell script analysis tool (binary release)'
 license=(AGPL3)
@@ -11,7 +11,7 @@ url='https://shellcheck.net'
 conflicts=('shellcheck')
 provides=('shellcheck')
 source_x86_64=(https://github.com/koalaman/"${pkgname%-bin}"/releases/download/v"$pkgver"/"${pkgname%-bin}"-v"${pkgver}".linux.x86_64.tar.xz)
-sha512sums_x86_64=('89317d97adb341e627b709e86477734ce236e9fb290de8a8c41cdc62769a3225622fa609deffebeabe9edb71f5639a086f61b677947e3ec4bc07c540fcbd0973')
+sha512sums_x86_64=('157fd8b2c18a257f3876e23015580ea63d27b12c4f13f87d625a180e8ca042e7501271d15edeb36e7b5780da73815b45386a33e063ab1c891d838f35c778a8ac')
 
 
 package_shellcheck() {
