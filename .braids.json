@@ -7204,7 +7204,7 @@
     "pyqt-builder": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt-builder.git",
       "branch": "master",
-      "revision": "8bbef205edf510ee6f744a1ba0d0e611a5d0a2d8"
+      "revision": "adcd8c7a2479c9fcd8f7aea7f595bde2c2652b0d"
     },
     "pyqt5": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5.git",
