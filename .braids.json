@@ -8284,7 +8284,7 @@
     "shellcheck-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shellcheck-bin.git",
       "branch": "master",
-      "revision": "2d41d96c81608f8bc27fa68613821f8175473db1"
+      "revision": "fc7ef625ed9cd0f211f1dc16b02048b2bbaa03f7"
     },
     "shhmsg": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shhmsg.git",
