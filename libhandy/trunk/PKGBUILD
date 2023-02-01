@@ -37,7 +37,7 @@ prepare() {
 }
 
 build() {
-  artix-meson libhandy build -D gtk_doc=true
+  artix-meson libhandy-${pkgver} build -D gtk_doc=true
   meson compile -C build
 }
 
