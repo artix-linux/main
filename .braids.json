@@ -7169,7 +7169,7 @@
     "pybind11": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pybind11.git",
       "branch": "master",
-      "revision": "c12266fb14d9631e32940c1c3673d92c4869ac60"
+      "revision": "e635222a6b37f7ce0177f79df441ddcf3b05fcab"
     },
     "pycups": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pycups.git",
