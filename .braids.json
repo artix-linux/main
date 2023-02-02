@@ -3729,7 +3729,7 @@
     "libdnet": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdnet.git",
       "branch": "master",
-      "revision": "c64c74cab90fd8e29fa369ea9beaed67a2d9e4a1"
+      "revision": "85209e3516e305e7edec4afeec3cab726411e243"
     },
     "libdrm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdrm.git",
