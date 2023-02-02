@@ -4729,7 +4729,7 @@
     "libsrtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsrtp.git",
       "branch": "master",
-      "revision": "0d85f1028883e69924f541a699db01e525118d15"
+      "revision": "cc1774de29f742c683f4a609918d35dd0a42f4e0"
     },
     "libssh": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libssh.git",
