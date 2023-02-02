@@ -3394,7 +3394,7 @@
     "lapack": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lapack.git",
       "branch": "master",
-      "revision": "a3b956e9eec29dfc111b44eccb2671ea2c35c074"
+      "revision": "06f7de81e44ae23a8246c8d253e4c092a5c5052e"
     },
     "laszip2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/laszip2.git",
