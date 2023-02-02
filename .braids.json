@@ -9784,7 +9784,7 @@
     "xf86-video-intel": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-intel.git",
       "branch": "master",
-      "revision": "b10a01240089a132902f4f7d9e1ded6f99cb3785"
+      "revision": "3acd86318742bdb6349615f1c7e83f45ac4dc373"
     },
     "xf86-video-nouveau": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-nouveau.git",
