@@ -3619,7 +3619,7 @@
     "libcap": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcap.git",
       "branch": "master",
-      "revision": "06d140026a994222907690e3dfd01f08a3e6c9ee"
+      "revision": "9e8f18c01c296810ab590e25880d868592af20df"
     },
     "libcap-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcap-ng.git",
