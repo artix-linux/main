@@ -1684,7 +1684,7 @@
     "erlang": {
       "url": "gitea@gitea.artixlinux.org:packagesE/erlang.git",
       "branch": "master",
-      "revision": "1002422c50afe9529a5025729f536952304c1b58"
+      "revision": "6d7b21aa8ca3a3c17b22c534c365b007e210d031"
     },
     "erlang-nox": {
       "url": "gitea@gitea.artixlinux.org:packagesE/erlang-nox.git",
