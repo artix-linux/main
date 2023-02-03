@@ -5329,7 +5329,7 @@
     "linux-zen": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-zen.git",
       "branch": "master",
-      "revision": "0f5ceed4f6dc1848886fb0f21e3a9348c580957f"
+      "revision": "e5e79ef165e417b98fc2c263ead487288f8b9a15"
     },
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
