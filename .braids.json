@@ -4794,7 +4794,7 @@
     "libtool": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtool.git",
       "branch": "master",
-      "revision": "e2b5b4ace7010fa8e7fe3b7795252bc971d827cb"
+      "revision": "2d9de71aac133765000a4028bed9e5fb8d50b6c4"
     },
     "libtorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtorrent.git",
