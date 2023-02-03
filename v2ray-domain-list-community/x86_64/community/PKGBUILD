@@ -1,9 +1,9 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=v2ray-domain-list-community
-pkgver=20230130083113
-_commit=048daed828da3da142da8c84bbe982e0f9dd795b
-pkgrel=2
+pkgver=20230202101858
+_commit=d2a50b1b3304c42ddd7f1cbeb55e74278fc013a6
+pkgrel=1
 pkgdesc="A list of domains to be used as geosites for routing purpose in Project V"
 arch=('any')
 url="https://github.com/v2fly/domain-list-community"
