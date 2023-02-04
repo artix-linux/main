@@ -6,7 +6,7 @@
 pkgname=dnscrypt-proxy
 pkgver=2.1.3
 _commit=edc73a4083587c311699b81e37fc796dc066eb10  # refs/tags/2.1.3
-pkgrel=1
+pkgrel=2
 pkgdesc="A flexible DNS proxy, with support for encrypted DNS protocols"
 arch=(x86_64)
 url="https://github.com/DNSCrypt/dnscrypt-proxy"
