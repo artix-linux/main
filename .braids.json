@@ -5009,7 +5009,7 @@
     "libwpe": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpe.git",
       "branch": "master",
-      "revision": "7b6ae862fe287fecc7c70b242886d7a52b6de0ff"
+      "revision": "4deca80c88d24793b9177c5d955605dfa8f43f56"
     },
     "libwpg": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwpg.git",
