@@ -4649,7 +4649,7 @@
     "libsidplay": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsidplay.git",
       "branch": "master",
-      "revision": "819d96b78223f4a11923aca75fbdb25ba00cac2e"
+      "revision": "14c4bde1eedae1d0edbc232bc5b9f30723a1c6e8"
     },
     "libsidplayfp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsidplayfp.git",
