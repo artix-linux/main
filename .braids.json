@@ -2794,7 +2794,7 @@
     "htop": {
       "url": "gitea@gitea.artixlinux.org:packagesH/htop.git",
       "branch": "master",
-      "revision": "4c5917ebc1d6b9db91c5eb98f19354f2d79d480d"
+      "revision": "d3530a7b56d54e749b8aab470548acfca18dc821"
     },
     "http-parser": {
       "url": "gitea@gitea.artixlinux.org:packagesH/http-parser.git",
