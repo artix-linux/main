@@ -1,4 +1,4 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Maintainer: Giancarlo Razzolini <grazzolini@archlinux.org>
 # Contributor:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Allan McRae <allan@archlinux.org>
@@ -8,7 +8,7 @@ pkgname=bash
 _basever=5.1
 _patchlevel=016
 pkgver=${_basever}.${_patchlevel}
-pkgrel=1.1
+pkgrel=2
 pkgdesc='The GNU Bourne Again shell'
 arch=(x86_64)
 license=(GPL)
@@ -66,6 +66,7 @@ check() {
 package() {
   make -C $pkgname-$_basever DESTDIR="$pkgdir" install
   ln -s bash "$pkgdir/usr/bin/sh"
+  ln -s bash "$pkgdir/usr/bin/rbash"
 
   # system-wide configuration files
   install -Dm644 system.bashrc "$pkgdir/etc/bash/bashrc"
@@ -84,9 +85,9 @@ sha256sums=('cc012bc860406dcf42f64431bcd3d2fa7560c02915a601aba9cd597a39329baa'
             'b39df263fa05d29e7a45a163c6fb3cdd82d9492194797ca4e959c0cf3ab4645b'
             'e149407c2bee17779caec70a7edd3d0000d172e7e4347429b80cb4d55bcec9c2'
             '4330edf340394d0dae50afb04ac2a621f106fe67fb634ec81c4bfb98be2a1eb5'
-            '6c4af5d9c12c5fb7dcc7e4c2848482f59fe2272ffdeabd7462ab861d2f5d2548'
+            '499c0b0fc8c3fb259b1e7612a3287adfcf1b9bf466ad040e5123129d860eedd1'
             'd6030e415c64ab0133d9592250c05745435dabee29935b21a599c4215fab3ae0'
-            '8820bb40bcde649326b929ab4e596943c4cdd52e9750dab7950c4221dd453f26'
+            'deb7a8d51844e134f39208c2fcc05ec56ee732b1fb5413a7a4569d88036a94c2'
             'ebb07b3dbadd98598f078125d0ae0d699295978a5cdaef6282fe19adef45b5fa'
             'SKIP'
             '15ea6121a801e48e658ceee712ea9b88d4ded022046a6147550790caf04f5dbe'
