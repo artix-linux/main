@@ -7359,7 +7359,7 @@
     "qt5-base": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-base.git",
       "branch": "master",
-      "revision": "0b5cdac63cbeaf9a68b2e259f235dc21ebd26a5b"
+      "revision": "346ae24933d5642ae7ea895b3fef77beccfea9bc"
     },
     "qt5-charts": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-charts.git",
