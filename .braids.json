@@ -8859,7 +8859,7 @@
     "tigervnc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc.git",
       "branch": "master",
-      "revision": "5f5328b74c4e8fade0b79198bcb0e2a1b167fbff"
+      "revision": "76dfa4bfa8b3b24a5467af493e0b987354afb513"
     },
     "time": {
       "url": "gitea@gitea.artixlinux.org:packagesT/time.git",
