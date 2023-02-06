@@ -3329,7 +3329,7 @@
     "kexec-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kexec-tools.git",
       "branch": "master",
-      "revision": "ffaf6fcb20310f87967541d659c932be51534f64"
+      "revision": "96982c88e264c4e40f7ef3d4e7f658c5ba3c208f"
     },
     "keystone": {
       "url": "gitea@gitea.artixlinux.org:packagesK/keystone.git",
