@@ -489,7 +489,7 @@
     "bash": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash.git",
       "branch": "master",
-      "revision": "d6a8527b0293e4786c37b97a29d5de77cae93d1a"
+      "revision": "c4946edff0ce40510bd569dfea2671048689c05f"
     },
     "bash-bats": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bash-bats.git",
