@@ -3949,7 +3949,7 @@
     "libgphoto2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgphoto2.git",
       "branch": "master",
-      "revision": "8f5eabe17ccf32c1686dfc8b972aa71e53c949f1"
+      "revision": "35261797a4a89c697ab5c79b267e54e962ab15ce"
     },
     "libgpod": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgpod.git",
