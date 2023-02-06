@@ -3954,7 +3954,7 @@
     "libgpod": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgpod.git",
       "branch": "master",
-      "revision": "61f604eb9e8409f1904272bdfa5728b80c602cce"
+      "revision": "146db6e35fe1138a4f56538104e05016fa6d741a"
     },
     "libgsf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgsf.git",
