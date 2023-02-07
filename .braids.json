@@ -794,7 +794,7 @@
     "cdrdao": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cdrdao.git",
       "branch": "master",
-      "revision": "00b238c09205ecdb92b3cc1c26963b040ae7bceb"
+      "revision": "12cf928dc7e49fac2d463685aefe2ccce3e75bc0"
     },
     "cdrtools": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cdrtools.git",
