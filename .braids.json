@@ -1774,7 +1774,7 @@
     "fakeroot": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fakeroot.git",
       "branch": "master",
-      "revision": "66a6d95038f0edce6946b5014a23fa9866468f21"
+      "revision": "7104045ddbf956396c0dd4f4ca7099d6aafaf077"
     },
     "farstream": {
       "url": "gitea@gitea.artixlinux.org:packagesF/farstream.git",
