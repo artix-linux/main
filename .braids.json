@@ -719,7 +719,7 @@
     "cairo": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairo.git",
       "branch": "master",
-      "revision": "78daeaa27290b7fd5af8defbb315fb4c6930c2c7"
+      "revision": "606e0fdccc517e01acb5050f1043efd58bb970ab"
     },
     "cairomm": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairomm.git",
