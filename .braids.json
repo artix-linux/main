@@ -1544,7 +1544,7 @@
     "e2fsprogs": {
       "url": "gitea@gitea.artixlinux.org:packagesE/e2fsprogs.git",
       "branch": "master",
-      "revision": "cfd8a942f51d962e532d2d6e82bbc6a64f9e02e2"
+      "revision": "3d9a5d1667511e8a8d07a8e6d4f340a512c63499"
     },
     "earlyoom": {
       "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom.git",
