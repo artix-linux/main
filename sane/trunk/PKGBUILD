@@ -7,7 +7,7 @@
 _name=backends
 pkgname=sane
 pkgver=1.2.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Scanner Access Now Easy"
 arch=(x86_64)
 url="http://www.sane-project.org/"
@@ -37,7 +37,8 @@ makedepends=(
   texlive-latexextra
 )
 provides=(libsane.so)
-source=("https://gitlab.com/sane-project/${_name}/-/archive/${pkgver}/${_name}-${pkgver}.tar.gz"
+source=(
+  https://gitlab.com/sane-project/$_name/-/archive/$pkgver/$_name-$pkgver.tar.gz
         "66-${pkgname}d.rules"
         "${pkgname}.sysusers"
         "sane.xinetd"
@@ -90,8 +91,8 @@ package() {
   depends+=(
     avahi libavahi-client.so libavahi-common.so
     curl libcurl.so
-    gphoto2 libgphoto2.so libgphoto2_port.so
     glib2 libgobject-2.0.so
+    libgphoto2 libgphoto2.so libgphoto2_port.so
     libtiff libtiff.so
     libusb libusb-1.0.so
     libxml2 libxml2.so
