@@ -6614,7 +6614,7 @@
     "openssl-1.1": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssl-1.1.git",
       "branch": "master",
-      "revision": "27da4ff2dc1d34b92abfc0d6faa27eed3f01e074"
+      "revision": "2c6fa057e87ae587b7c83d8ac008c54f8414624f"
     },
     "openvdb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvdb.git",
