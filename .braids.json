@@ -8174,7 +8174,7 @@
     "sdl2_ttf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_ttf.git",
       "branch": "master",
-      "revision": "7ac2bd4ae948c17669524675248a3c8821e75092"
+      "revision": "bb93c6080db7be80361bf694408ba63841cbd302"
     },
     "sdl_image": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl_image.git",
