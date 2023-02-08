@@ -9194,7 +9194,7 @@
     "unrealircd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
       "branch": "master",
-      "revision": "199e66b44f71400f80062176a15906222858f30d"
+      "revision": "90b668004579857cf9a390b5fd0445595d030042"
     },
     "unzip": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unzip.git",
