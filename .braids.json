@@ -1029,7 +1029,7 @@
     "compiler-rt14": {
       "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt14.git",
       "branch": "master",
-      "revision": "ca63b7a4fddf3129293cbcb81c4d94fdbef80f36"
+      "revision": "6bfd9581d38dc902623e3525cc37f8ca493b1a19"
     },
     "confuse": {
       "url": "gitea@gitea.artixlinux.org:packagesC/confuse.git",
