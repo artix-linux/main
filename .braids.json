@@ -8169,7 +8169,7 @@
     "sdl2_mixer": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_mixer.git",
       "branch": "master",
-      "revision": "af41151e5eebf7c547652b157ea26ed63c385d32"
+      "revision": "70ad55ba47bdaabe9ce9a9f683645ae946b00f04"
     },
     "sdl2_ttf": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2_ttf.git",
