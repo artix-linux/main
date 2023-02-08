@@ -1026,6 +1026,11 @@
       "branch": "master",
       "revision": "55c83005674a03961b9ef4479cdd10dec4e81524"
     },
+    "compiler-rt14": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt14.git",
+      "branch": "master",
+      "revision": "ca63b7a4fddf3129293cbcb81c4d94fdbef80f36"
+    },
     "confuse": {
       "url": "gitea@gitea.artixlinux.org:packagesC/confuse.git",
       "branch": "master",
