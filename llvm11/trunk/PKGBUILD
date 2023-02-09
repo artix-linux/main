@@ -77,7 +77,7 @@ build() {
   cmake_args+=(-DLLVM_DISTRIBUTION_COMPONENTS="$distribution_components")
 
   cmake .. "${cmake_args[@]}"
-  ninja
+  ninja -j1
 }
 
 check() {
