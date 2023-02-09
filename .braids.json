@@ -10264,7 +10264,7 @@
     "zsh": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh.git",
       "branch": "master",
-      "revision": "fd747f94b3e5b61d535f86c3b86a4f35218c81bf"
+      "revision": "58c847a32ee89ce916e6bfcfab158878899a889c"
     },
     "zsh-autosuggestions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-autosuggestions.git",
