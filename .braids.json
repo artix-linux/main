@@ -9739,7 +9739,7 @@
     "xdp-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdp-tools.git",
       "branch": "master",
-      "revision": "3ba48b58425fdad09223c25136aaf397ee50e12f"
+      "revision": "e9be7f8da77dfb59e057317bbc19b56171a4d3cf"
     },
     "xerces-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xerces-c.git",
