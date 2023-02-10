@@ -164,7 +164,7 @@ package_postgresql() {
   pkgdesc='Sophisticated object-relational DBMS'
   backup=('etc/pam.d/postgresql' 'etc/logrotate.d/postgresql')
   depends=("postgresql-libs>=${pkgver}" 'krb5' 'libxml2' 'readline>=6.0'
-           'openssl>=1.0.0' 'pam' 'icu' 'libldap' 'llvm-libs' 'libxslt')
+           'openssl>=1.0.0' 'pam' 'icu' 'libldap' 'llvm-libs' 'libxslt'
            'libxslt' 'lz4' 'zstd')
   optdepends=('python: for PL/Python 3 support'
               'perl: for PL/Perl support'
