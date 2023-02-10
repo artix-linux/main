@@ -714,7 +714,7 @@
     "cabextract": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cabextract.git",
       "branch": "master",
-      "revision": "e3695544e1e8ec10aeda0e1fb70a17ac3983db1e"
+      "revision": "18e9f345823d588b4f915471ec8859a614b762af"
     },
     "cairo": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cairo.git",
