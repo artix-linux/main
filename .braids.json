@@ -2054,7 +2054,7 @@
     "freetype2": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetype2.git",
       "branch": "master",
-      "revision": "30d20825eb52daea7c1bd4a16973c9b8c4564ebc"
+      "revision": "911effc4624c55b10a9b6267a96195b752a18d99"
     },
     "frei0r-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesF/frei0r-plugins.git",
