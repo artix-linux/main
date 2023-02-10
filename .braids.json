@@ -5759,7 +5759,7 @@
     "memtest86+": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memtest86plus.git",
       "branch": "master",
-      "revision": "62d15e53f0f66cbcab49a7e80b2ecd8695c97290"
+      "revision": "56e967e0ec12ee7f5b725843986af6bde1f80772"
     },
     "mercurial": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mercurial.git",
