@@ -7074,7 +7074,7 @@
     "privoxy": {
       "url": "gitea@gitea.artixlinux.org:packagesP/privoxy.git",
       "branch": "master",
-      "revision": "f751704564e86fdf8eb156a30b63811f3cb1b02c"
+      "revision": "5a13e515af366e1053c6f2172c03610d35b118ac"
     },
     "procinfo-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesP/procinfo-ng.git",
