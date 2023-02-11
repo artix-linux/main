@@ -3034,7 +3034,7 @@
     "ipython": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipython.git",
       "branch": "master",
-      "revision": "c2ea43ab00e4e1b3a7db10e8ddd1a81bee1e0a77"
+      "revision": "0c91572d0c5f2b7760ab4097742d45ee0ee3bdd2"
     },
     "irssi": {
       "url": "gitea@gitea.artixlinux.org:packagesI/irssi.git",
