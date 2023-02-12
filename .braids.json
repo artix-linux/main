@@ -5269,7 +5269,7 @@
     "lighttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd.git",
       "branch": "master",
-      "revision": "ac3c48e62e682d02c5d66e4ef951c6a39d1a5b3d"
+      "revision": "323b7a40ddaab7bf02267aee7031e73d7573f063"
     },
     "lilv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lilv.git",
