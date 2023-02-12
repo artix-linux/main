@@ -1,6 +1,6 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
-_ver=6.1.8
+_ver=6.1.10
 _rel=1
 _tag=arch${_rel}
 _artix=artix${_rel}
