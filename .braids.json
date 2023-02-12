@@ -9149,7 +9149,7 @@
     "unarchiver": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unarchiver.git",
       "branch": "master",
-      "revision": "496341aac5cd615a92552ad3c2fe87e4b5f7e56c"
+      "revision": "18c82dc1543bfc98b4f710f3cb7efbcae98cc5a4"
     },
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
