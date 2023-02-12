@@ -6959,7 +6959,7 @@
     "podman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/podman.git",
       "branch": "master",
-      "revision": "1876baa887d6f47d69cf000ffda929ce8edad7e2"
+      "revision": "cf8b0fee11bbf792807bb5a8069ee282b6c1d6e6"
     },
     "polkit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/polkit.git",
