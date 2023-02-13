@@ -7124,7 +7124,7 @@
     "psutils": {
       "url": "gitea@gitea.artixlinux.org:packagesP/psutils.git",
       "branch": "master",
-      "revision": "61dcedd0844e74c61a64bc8c66a6d08f4f612f12"
+      "revision": "060992e61740f0aa797896335900a9f125ec403f"
     },
     "publicsuffix-list": {
       "url": "gitea@gitea.artixlinux.org:packagesP/publicsuffix-list.git",
