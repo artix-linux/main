@@ -3739,7 +3739,7 @@
     "libdrm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdrm.git",
       "branch": "master",
-      "revision": "ace386a3c1c7a28b07841ad5360538c1a247028f"
+      "revision": "7a9f9b7c8f51ac14c54aa0ddaeec5d5e2e9397ec"
     },
     "libdv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdv.git",
