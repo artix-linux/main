@@ -24,7 +24,7 @@
     "acl": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acl.git",
       "branch": "master",
-      "revision": "0f70af45b2aa3110ddd5adbcbb05d4e095940717"
+      "revision": "c46d76c0f6b0e9452e437a07edacaf7195316882"
     },
     "acme-tiny": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acme-tiny.git",
