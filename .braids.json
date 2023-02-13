@@ -3019,7 +3019,7 @@
     "ipset": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ipset.git",
       "branch": "master",
-      "revision": "5053f47a2ac32d1487768ee4dd9ca1f07f06e278"
+      "revision": "a4f6b05383307d784769b8afc77438da1de16732"
     },
     "iptables": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iptables.git",
