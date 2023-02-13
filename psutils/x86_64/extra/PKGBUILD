@@ -4,7 +4,7 @@
  
 pkgname=psutils
 pkgver=2.09
-pkgrel=1
+pkgrel=1.1
 arch=('any')
 pkgdesc="A set of postscript utilities"
 url="https://github.com/rrthomas/psutils"
