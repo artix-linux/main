@@ -4474,7 +4474,7 @@
     "libpaper": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpaper.git",
       "branch": "master",
-      "revision": "e0a14e940d9d359df7ed575af79370e75b2cbf64"
+      "revision": "7d39e0ba67b594212b6ec411c58a5f7f393888b7"
     },
     "libpcap": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpcap.git",
