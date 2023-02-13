@@ -9844,7 +9844,7 @@
     "xkeyboard-config": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xkeyboard-config.git",
       "branch": "master",
-      "revision": "1518c2fba814b4e4076d3ae37a44b8867f8afb13"
+      "revision": "827a623ce2fbb30c873d7c27ed0c0ab0887c6946"
     },
     "xl2tpd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd.git",
