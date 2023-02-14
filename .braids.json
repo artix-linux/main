@@ -1339,7 +1339,7 @@
     "diffutils": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffutils.git",
       "branch": "master",
-      "revision": "3635b11ba44fd25594947139e3660216263be5f4"
+      "revision": "5b75dc11e7a9561914037121eabe0064fb8dc89b"
     },
     "ding-libs": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ding-libs.git",
