@@ -9654,7 +9654,7 @@
     "xa": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xa.git",
       "branch": "master",
-      "revision": "e10bc210fd30325758a2e38146e1a49cab23ff4e"
+      "revision": "750d314915e8cd108aa38a837f33f5642655a7ae"
     },
     "xalan-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xalan-c.git",
