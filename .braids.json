@@ -5279,7 +5279,7 @@
     "lilypond": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lilypond.git",
       "branch": "master",
-      "revision": "c2abf3c7f0856fff742a27651832c85d71da8557"
+      "revision": "249ad3669bfce695848db0bc8a47d1ee27b599af"
     },
     "links": {
       "url": "gitea@gitea.artixlinux.org:packagesL/links.git",
