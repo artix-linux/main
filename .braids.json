@@ -8164,7 +8164,7 @@
     "sdl12-compat": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl12-compat.git",
       "branch": "master",
-      "revision": "8320479fc7e64883b31046a810d4948120dd8390"
+      "revision": "c8bd45527b9ebae7760b5fd4695a6f00da0607a5"
     },
     "sdl2": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl2.git",
