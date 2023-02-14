@@ -8539,7 +8539,7 @@
     "sshpass": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshpass.git",
       "branch": "master",
-      "revision": "ee9cd74a73b48d4b7af978befcc0bd40340fa2f0"
+      "revision": "d3703897cc1b474d7973b63d56258316537d6468"
     },
     "sslh": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh.git",
