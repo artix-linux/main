@@ -8219,7 +8219,7 @@
     "sed": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sed.git",
       "branch": "master",
-      "revision": "ab294f59da719f67e91c861ecef796d17b6fddf9"
+      "revision": "707ab737cb68a88da9f51a11358491ffe86b09ed"
     },
     "semver": {
       "url": "gitea@gitea.artixlinux.org:packagesS/semver.git",
