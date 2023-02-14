@@ -9559,7 +9559,7 @@
     "which": {
       "url": "gitea@gitea.artixlinux.org:packagesW/which.git",
       "branch": "master",
-      "revision": "236df7555099246631154151354683c461830a5e"
+      "revision": "436420916b2d0755a15aef625eb2a6878baeb2bb"
     },
     "whois": {
       "url": "gitea@gitea.artixlinux.org:packagesW/whois.git",
