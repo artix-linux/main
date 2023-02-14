@@ -1,7 +1,7 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=v2ray-geoip
-pkgver=202302081046
+pkgver=202302090046
 pkgrel=1
 pkgdesc="GeoIP List for V2Ray"
 arch=('any')
