@@ -5389,7 +5389,7 @@
     "llvm11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm11.git",
       "branch": "master",
-      "revision": "2c4b6bd5e51b66d605f898f149c3a305572bd219"
+      "revision": "39a3fc371f76b2a7e8eceaf4ae550bb51c1762c4"
     },
     "llvm13": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm13.git",
