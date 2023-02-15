@@ -2484,7 +2484,7 @@
     "graphite": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphite.git",
       "branch": "master",
-      "revision": "67363fc117358a7201fd9da9d949796ab33a5f6f"
+      "revision": "468f2f2fdf2406412d28e63e46f9690c9c03619a"
     },
     "graphviz": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphviz.git",
