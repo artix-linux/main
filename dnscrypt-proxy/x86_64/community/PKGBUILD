@@ -6,7 +6,7 @@
 pkgname=dnscrypt-proxy
 pkgver=2.1.4
 _commit=8e043f435d919912e46ac9b7d2beddcfdc8aab70  # refs/tags/2.1.4
-pkgrel=1
+pkgrel=2
 pkgdesc="A flexible DNS proxy, with support for encrypted DNS protocols"
 arch=(x86_64)
 url="https://github.com/DNSCrypt/dnscrypt-proxy"
@@ -23,11 +23,13 @@ backup=(
   etc/$pkgname/cloaking-rules.txt
   etc/$pkgname/forwarding-rules.txt
 )
+# NOTE: disabled until gcc is fixed to produce reproducible bytecode for go
+options=(!lto)
 source=(
   tmpfiles.d
   sysusers.d
   git+https://github.com/dnscrypt/$pkgname#tag=$_commit?signed
-  $pkgname-$pkgver-configuration.patch::https://github.com/dvzrv/dnscrypt-proxy/commit/4589ad77802b17bf781d6a625afb2e2775e1fb9a.patch
+  $pkgname-$pkgver-configuration.patch::https://github.com/dvzrv/dnscrypt-proxy/commit/0dfd620f36c6d5e411933299d8a1481c67da827b.patch
 )
 sha512sums=('005f8077c2c99a3bd86d814a0c05c0f5142952445e32a615302dc1fc7d4bf66d9f7c661ebd8ef218e890b80bfe0d014dd2e7b47fcebba69f217cec631195f151'
             '888da497ac3a09cd975b9a8de8cad22aabdc40213086b9683715292f6032259929714fd120ac952f91e3af5ada6f4a843054c880a5724c5eb8e6d31664c43ec8'
