@@ -2704,7 +2704,7 @@
     "gzip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gzip.git",
       "branch": "master",
-      "revision": "ef12eba0c0f3fa917ad1c93d662cda719cd2a45d"
+      "revision": "99bce2c46b41a4124d5ad3ea54f80ae86767cb3b"
     },
     "haproxy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haproxy.git",
