@@ -8109,7 +8109,7 @@
     "sane": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sane.git",
       "branch": "master",
-      "revision": "c0d2831b3a19a22614f4412b561698638a3e5fbf"
+      "revision": "467163f4a3aff0037e44629a3a114bf3463a7172"
     },
     "sassc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sassc.git",
