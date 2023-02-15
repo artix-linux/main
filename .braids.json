@@ -1399,7 +1399,7 @@
     "dnscrypt-proxy": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy.git",
       "branch": "master",
-      "revision": "905f00a068d993528d507add27c24eba3f0b0df7"
+      "revision": "6657102be9a47cf9ea7e21bb0b37453606afad37"
     },
     "dnsmasq": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq.git",
