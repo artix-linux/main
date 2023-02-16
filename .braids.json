@@ -6364,7 +6364,7 @@
     "nvidia-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-utils.git",
       "branch": "master",
-      "revision": "3d96e5415b93913d775014e6415d4933d2859ec2"
+      "revision": "6415ff4e533c31e9fde00a60f4d229fbec009208"
     },
     "nvme-cli": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvme-cli.git",
