@@ -5829,7 +5829,7 @@
     "minio": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minio.git",
       "branch": "master",
-      "revision": "8ec8a9c2d797b56b95a0d25b97f19d5002a9edeb"
+      "revision": "8fcdb07eda26784568a3b6b15ac17b9d35181f67"
     },
     "minisign": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minisign.git",
