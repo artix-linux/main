@@ -9614,7 +9614,7 @@
     "wpewebkit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpewebkit.git",
       "branch": "master",
-      "revision": "76440100958939c75eed7e2997cd556d8febfa1a"
+      "revision": "906a4639b0454a9e6e9809e6ea76566fe4ef5d2e"
     },
     "wqy-zenhei": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wqy-zenhei.git",
