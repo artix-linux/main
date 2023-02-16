@@ -10094,7 +10094,7 @@
     "xterm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xterm.git",
       "branch": "master",
-      "revision": "638a3cc37baa3cc6ed78e1525524426d221c92a7"
+      "revision": "5f9f726ef99d24a6e4c499ab22bff5d07f429134"
     },
     "xtrans": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xtrans.git",
