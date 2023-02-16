@@ -9954,7 +9954,7 @@
     "xorg-util-macros": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-util-macros.git",
       "branch": "master",
-      "revision": "8393c8e7194249b92e3d98bd16bb5adb84f06ffc"
+      "revision": "c18601f3f581905184d8374f5ada5ccc0ace3ecd"
     },
     "xorg-xauth": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xauth.git",
