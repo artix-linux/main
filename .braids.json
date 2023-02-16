@@ -4609,7 +4609,7 @@
     "librsync": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librsync.git",
       "branch": "master",
-      "revision": "38bf019b0dd6781be7f321eb885839c93dd74010"
+      "revision": "a50085b9f1f37ae23d3a5607914ff7f1189edb17"
     },
     "libsamplerate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsamplerate.git",
