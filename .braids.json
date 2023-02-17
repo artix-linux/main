@@ -906,6 +906,11 @@
       "branch": "master",
       "revision": "76fb999be28816719ce21deca14479de40965cee"
     },
+    "clinfo": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clinfo.git",
+      "branch": "master",
+      "revision": "f7b0f6a50ced3a0e660aaee3c8f7a10ca5880ff8"
+    },
     "clisp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clisp.git",
       "branch": "master",
