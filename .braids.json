@@ -909,7 +909,7 @@
     "clinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clinfo.git",
       "branch": "master",
-      "revision": "f7b0f6a50ced3a0e660aaee3c8f7a10ca5880ff8"
+      "revision": "8ed063a1b196455b81a63fa2dd6ed108d2269bdd"
     },
     "clisp": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clisp.git",
