@@ -10259,7 +10259,7 @@
     "zita-resampler": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zita-resampler.git",
       "branch": "master",
-      "revision": "4e91f6cc0c9bd5affd413e1c17d74f3789002984"
+      "revision": "c227941e4af25f4d12263bf7afdfd0dae7375aff"
     },
     "zlib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zlib.git",
