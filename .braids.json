@@ -4189,7 +4189,7 @@
     "libmad": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmad.git",
       "branch": "master",
-      "revision": "0725760f52e73e2fbab6a870984ff7714ed3b711"
+      "revision": "1e2ccc72adb27cba3c0764c2ac720c3509693c82"
     },
     "libmanette": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmanette.git",
