@@ -4784,7 +4784,7 @@
     "libtiff": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtiff.git",
       "branch": "master",
-      "revision": "36009d605ecb8da793c2adf018a5a6c758b8b6e1"
+      "revision": "da66f8172eafe45dbc5b7ed9166bc9574f64841c"
     },
     "libtiger": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtiger.git",
