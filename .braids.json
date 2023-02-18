@@ -8859,7 +8859,7 @@
     "thin-provisioning-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thin-provisioning-tools.git",
       "branch": "master",
-      "revision": "f0ecbca76c6bdc24e5362742773718538d6fbeab"
+      "revision": "e02829ca064eee94b65f7b494575d8aea5ac4b7a"
     },
     "thrift": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thrift.git",
