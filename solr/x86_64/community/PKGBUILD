@@ -2,7 +2,7 @@
 
 pkgname=solr
 pkgver=9.1.1
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Open source enterprise search platform built on Apache Lucene"
 arch=(any)
 url="https://lucene.apache.org/solr/"
