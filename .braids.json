@@ -2379,7 +2379,7 @@
     "gnutls": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnutls.git",
       "branch": "master",
-      "revision": "ad38417737dc14731ecbb4d849de96ab4cc894ff"
+      "revision": "386561b57d0e382dc614dd476a320d510f70a440"
     },
     "go": {
       "url": "gitea@gitea.artixlinux.org:packagesG/go.git",
