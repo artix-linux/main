@@ -6694,7 +6694,7 @@
     "p7zip": {
       "url": "gitea@gitea.artixlinux.org:packagesP/p7zip.git",
       "branch": "master",
-      "revision": "bb85b046ec509aaf100ae7bcda918f2841898711"
+      "revision": "e7fb7f66a024f9957b98a684e7d297a0ff4d6ac9"
     },
     "packagekit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/packagekit.git",
