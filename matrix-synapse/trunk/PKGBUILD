@@ -14,12 +14,13 @@ depends=('libwebp' 'python-ijson' 'python-jsonschema' 'python-twisted'
          'python-pyopenssl' 'python-yaml' 'python-pyasn1' 'python-pynacl'
          'python-bcrypt' 'python-frozendict'
          'python-pillow' 'python-pysaml2'
-         'python-unpaddedbase64' 'python-canonicaljson'
+         'python-systemd' 'python-unpaddedbase64' 'python-canonicaljson'
          'python-signedjson' 'python-pymacaroons'
          'python-service-identity' 'python-msgpack'
          'python-phonenumbers' 'python-prometheus_client'
          'python-attrs' 'python-netaddr' 'python-sortedcontainers'
          'python-treq' 'python-idna' 'python-jinja' 'python-matrix-common'
+         'python-bleach' 'python-typing_extensions')
 makedepends=(git python-build python-installer python-wheel python-poetry-core python-setuptools-rust)
 checkdepends=('python-pip' 'python-authlib' 'python-pyjwt' 'python-lxml' 'python-parameterized'
               'python-txredisapi' 'python-hiredis' 'postgresql' 'python-pyicu')
