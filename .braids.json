@@ -10294,7 +10294,7 @@
     "zstd": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zstd.git",
       "branch": "master",
-      "revision": "6390c14dfe7c485df63db9eb1ea603c0b92ba775"
+      "revision": "3da9a4ffbae28cf61c496ce9eadf3b7de507a583"
     },
     "zvbi": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zvbi.git",
