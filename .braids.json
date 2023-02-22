@@ -4736,6 +4736,11 @@
       "branch": "master",
       "revision": "f027d26af3ec9d0fe95ee452bd4acd6317649f40"
     },
+    "libsquish": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libsquish.git",
+      "branch": "master",
+      "revision": "1da56499394dd35526825fa138cb90292689286f"
+    },
     "libsrtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsrtp.git",
       "branch": "master",
