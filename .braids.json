@@ -1904,7 +1904,7 @@
     "file": {
       "url": "gitea@gitea.artixlinux.org:packagesF/file.git",
       "branch": "master",
-      "revision": "c4c7a464ded51d8cfcb17c798766a09e36db5c1e"
+      "revision": "2253323cfb0b59f22167556cc79c1ee25b8892f2"
     },
     "filesystem": {
       "url": "gitea@gitea.artixlinux.org:packagesF/filesystem.git",
