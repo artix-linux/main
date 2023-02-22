@@ -8949,7 +8949,7 @@
     "toxcore": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore.git",
       "branch": "master",
-      "revision": "600d3c9c722ffbd79e795a5ee249ace569b56585"
+      "revision": "3f5bf5004049bd97c552ec5accbc9a9eb005c604"
     },
     "toxic": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxic.git",
