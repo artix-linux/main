@@ -5154,7 +5154,7 @@
     "libxmlb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmlb.git",
       "branch": "master",
-      "revision": "e419530e0b0b65c66e9e7cc6d450e294d6c05c93"
+      "revision": "1d50d0f5d516e9f863431f028a57ddc520281cda"
     },
     "libxmlrpc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmlrpc.git",
