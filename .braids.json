@@ -2859,7 +2859,7 @@
     "hyperscan": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyperscan.git",
       "branch": "master",
-      "revision": "a7e7c2733d0dd2e4d7b1d8b8bd885a5a125a7e40"
+      "revision": "794ae6808d2f3ce44d2618780d2812e346eecf7c"
     },
     "hyphen": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyphen.git",
