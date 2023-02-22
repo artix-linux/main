@@ -21,7 +21,7 @@ depends=('libwebp' 'python-ijson' 'python-jsonschema' 'python-twisted'
          'python-attrs' 'python-netaddr' 'python-sortedcontainers'
          'python-treq' 'python-idna' 'python-jinja' 'python-matrix-common'
          'python-bleach' 'python-typing_extensions')
-makedepends=(git python-build python-installer python-wheel python-poetry-core python-setuptools-rust)
+makedepends=(git python-build python-installer python-wheel 'python-poetry-core<=1.5.0' python-setuptools-rust)
 checkdepends=('python-pip' 'python-authlib' 'python-pyjwt' 'python-lxml' 'python-parameterized'
               'python-txredisapi' 'python-hiredis' 'postgresql' 'python-pyicu')
 optdepends=('perl: sync_room_to_group.pl'
