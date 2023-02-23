@@ -9794,7 +9794,7 @@
     "xf86-video-amdgpu": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-amdgpu.git",
       "branch": "master",
-      "revision": "c9b09b7121b31e0c828369d9c34a91926b5a5c03"
+      "revision": "58999d1ae94b041b7ea78b6c7438e461a40e3334"
     },
     "xf86-video-ati": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-ati.git",
