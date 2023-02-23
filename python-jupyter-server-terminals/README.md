@@ -1,2 +1,0 @@
-# python-jupyter-server-terminals
-
