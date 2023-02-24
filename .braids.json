@@ -9674,7 +9674,7 @@
     "xbitmaps": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xbitmaps.git",
       "branch": "master",
-      "revision": "9f38d739998efec64cbbbb5e691e3754cc4341ad"
+      "revision": "6514d896f7add47f0307121a3bb459db7fb7cd9e"
     },
     "xcb-imdkit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xcb-imdkit.git",
