@@ -6779,7 +6779,7 @@
     "parallel": {
       "url": "gitea@gitea.artixlinux.org:packagesP/parallel.git",
       "branch": "master",
-      "revision": "46f5a352181baf6590288bc7be46d0c48724f0e5"
+      "revision": "ec06c9a739780f8aaddf242e80fd05aab9bacbd3"
     },
     "parted": {
       "url": "gitea@gitea.artixlinux.org:packagesP/parted.git",
