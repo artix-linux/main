@@ -1214,7 +1214,7 @@
     "dash": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dash.git",
       "branch": "master",
-      "revision": "3e64f70a8ae23fd7c61cc6bee955e039a8df14d9"
+      "revision": "d7634edbec868a79a9938fbdd793913ae07f23da"
     },
     "dav1d": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dav1d.git",
