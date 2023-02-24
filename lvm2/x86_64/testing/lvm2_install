@@ -1,0 +1,42 @@
+#!/usr/bin/bash
+
+build() {
+    local symlink
+
+    # device mapper modules
+    map add_module \
+        'dm-mod' \
+        'dm-snapshot' \
+        'dm-mirror' \
+        'dm-cache' \
+        'dm-cache-smq' \
+        'dm-thin-pool'
+
+    # from thin-provisioning-tools
+    add_binary 'pdata_tools'
+    for symlink in cache_{check,dump,metadata_size,repair,restore} thin_{check,delta,dump,ls,metadata_size,repair,restore,rmap,trim}; do
+        add_symlink "/usr/bin/${symlink}" 'pdata_tools'
+    done
+
+    # udev rules and lvm configuration
+    map add_udev_rule \
+        '10-dm.rules' \
+        '11-dm-lvm.rules' \
+        '13-dm-disk.rules' \
+        '95-dm-notify.rules' \
+        '/usr/lib/initcpio/udev/11-dm-initramfs.rules'
+
+    # this udev rule is specific for non-systemd systems
+    add_udev_rule '/usr/lib/initcpio/udev/69-dm-lvm.rules'
+
+    # config file
+    add_file '/etc/lvm/lvm.conf'
+    sed -i -e 's/^[[:space:]#]*monitoring = [[:digit:]]\+\s*$/\tmonitoring = 0/' \
+        -e '/^$/d' -e '/^[[:space:]]*#/d' "${BUILDROOT}/etc/lvm/lvm.conf"
+}
+
+help() {
+  cat <<HELPEOF
+This hook enables LVM2 volumes in initramfs.
+HELPEOF
+}
