@@ -18,7 +18,7 @@ source=("git+https://sourceware.org/git/lvm2.git#tag=${_tag}?signed"
         '11-dm-initramfs.rules')
 sha256sums=('SKIP'
             '2b3a16ec05e2bc6678e9ebd5ffa8319ebfde29aa260ce004f79f9b8df57d73c9'
-            '8870091ef70b5ea18b18bfcc770f8bda7dcd9d7cc2cc4fe5e4c3ac1f35bbb66a'
+            '11bb0396160323e09db67f18a840433686f3a9773b16de90a33d5b63ff0a5183'
             'e10f24b57582d6e2da71f7c80732a62e0ee2e3b867fe84591ccdb53e80fa92e0')
 
 _backports=(
