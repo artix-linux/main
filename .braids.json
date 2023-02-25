@@ -9439,7 +9439,7 @@
     "vpnc": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vpnc.git",
       "branch": "master",
-      "revision": "71fac53518eec3e569f2c1ba5c3608721d8617d3"
+      "revision": "718da0d480551b42af7088dbc6905bcb5f787065"
     },
     "vsftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd.git",
