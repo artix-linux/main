@@ -5759,7 +5759,7 @@
     "memcached": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memcached.git",
       "branch": "master",
-      "revision": "2724852639e02da25758fc47f7b2558334059c07"
+      "revision": "f2a1ba493f0abd3ca361da798ab88fd97414119b"
     },
     "memray": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memray.git",
