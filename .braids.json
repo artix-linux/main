@@ -3639,7 +3639,7 @@
     "libcbor": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcbor.git",
       "branch": "master",
-      "revision": "71e991f2661a3dd1be6cbc04ba2ef57c506024c5"
+      "revision": "0c466546f6c428104ebef0159733eeddfcacc346"
     },
     "libcddb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcddb.git",
