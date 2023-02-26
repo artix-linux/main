@@ -7,7 +7,7 @@
 _name=backends
 pkgname=sane
 pkgver=1.2.1
-pkgrel=3
+pkgrel=4
 pkgdesc="Scanner Access Now Easy"
 arch=(x86_64)
 url="http://www.sane-project.org/"
