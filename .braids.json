@@ -3749,7 +3749,7 @@
     "libdv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdv.git",
       "branch": "master",
-      "revision": "ed5d3bed32824f8db68338221b52617040c63eec"
+      "revision": "f7559557e5134ae922a2512b8932851d6b29a0a9"
     },
     "libdvbpsi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdvbpsi.git",
