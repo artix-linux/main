@@ -1,9 +1,9 @@
-# Maintainer: damir <damir@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Robert Emil Berge <robert@rebi.no>
 
 pkgname=libavc1394
 pkgver=0.5.4
-pkgrel=4.1
+pkgrel=5
 pkgdesc="A library to control A/V devices using the 1394ta AV/C commands."
 arch=("x86_64")
 url="https://sourceforge.net/projects/libavc1394/"
