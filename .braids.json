@@ -4454,7 +4454,7 @@
     "libotf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libotf.git",
       "branch": "master",
-      "revision": "0b074090ace27734ec47ff58d028a6be0c199c17"
+      "revision": "9846f4f5cb18b07c7d192ac78d8628a3002e9a8b"
     },
     "libotr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libotr.git",
