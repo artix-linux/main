@@ -1,9 +1,9 @@
-# Maintainer: Jan de Groot <jgc@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Arjan Timmerman <arjan@archlinux.org>
 
 pkgname=libxklavier
 pkgver=5.4
-pkgrel=3.1
+pkgrel=4
 pkgdesc="High-level API for X Keyboard Extension"
 arch=(x86_64)
 license=('LGPL')
