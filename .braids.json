@@ -8994,7 +8994,7 @@
     "transmission": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission.git",
       "branch": "master",
-      "revision": "6b949669d8012cb701353a75e85e2db3a510fb49"
+      "revision": "8135432bc03b1f6dc9bb6a0b87e566dd270b41cc"
     },
     "transmission-sequential": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission-sequential.git",
