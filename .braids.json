@@ -3689,7 +3689,7 @@
     "libcue": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcue.git",
       "branch": "master",
-      "revision": "f991b96fac7e5b71eebbc3b957b1e4f490644e42"
+      "revision": "5075ee2754a9b528856509a72cfa2b9c11cf29ca"
     },
     "libdaemon": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdaemon.git",
