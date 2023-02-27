@@ -3939,7 +3939,7 @@
     "libgme": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgme.git",
       "branch": "master",
-      "revision": "25e7b1e55b2520ad97bba7086742c4043acc25af"
+      "revision": "f93dfa168d5dff49ab439b6f0b2dcec3d8a3c853"
     },
     "libgnt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgnt.git",
