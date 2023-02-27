@@ -3539,7 +3539,7 @@
     "libavc1394": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavc1394.git",
       "branch": "master",
-      "revision": "5addee03dad5a1f3b9b3e4fe104d4779c67fca14"
+      "revision": "d403e17e48dd79fa56c665186bd839901be76ac7"
     },
     "libavif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavif.git",
