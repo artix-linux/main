@@ -2119,7 +2119,7 @@
     "fzf": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fzf.git",
       "branch": "master",
-      "revision": "1202a56eccdb80be70f06bc54fcce4bb7b824959"
+      "revision": "e8fc86562d73b6456ade8f179502e97b6cc49e30"
     },
     "gajim": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gajim.git",
