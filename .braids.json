@@ -2754,7 +2754,7 @@
     "hicolor-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hicolor-icon-theme.git",
       "branch": "master",
-      "revision": "8dc165ae77dfd0580ce7a50b4a79f8592f1848d9"
+      "revision": "602487933f9d13b1076c7a8b088dec38818b2b4a"
     },
     "hidapi": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hidapi.git",
