@@ -5569,7 +5569,7 @@
     "m17n-db": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-db.git",
       "branch": "master",
-      "revision": "3036906d037b62bbd00d65ffa6736a182a7994ae"
+      "revision": "b7385b2f2afa37b8f01d4f9f69b03c9c838ed213"
     },
     "m17n-lib": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-lib.git",
