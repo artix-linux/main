@@ -5139,7 +5139,7 @@
     "libxklavier": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxklavier.git",
       "branch": "master",
-      "revision": "049befa16344bb774a9f9ab819b7dc5ca4716471"
+      "revision": "57ec475245d5cb6067fc60dc5413ed5be21d5e18"
     },
     "libxml++": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmlplusplus.git",
