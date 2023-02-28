@@ -1939,7 +1939,7 @@
     "firewalld": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld.git",
       "branch": "master",
-      "revision": "32cdddd1cbc90d1f8ff911738ebbc7e9c065b896"
+      "revision": "3b4ceac73a3832c6f3a9a8563d9064f4f462165a"
     },
     "fish": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fish.git",
