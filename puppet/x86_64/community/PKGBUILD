@@ -10,7 +10,7 @@
 # Contributor: Niels Abspoel <aboe76 (at) Gmail (dot) com>
 
 pkgname=puppet
-pkgver=7.21.0
+pkgver=7.23.0
 pkgrel=1
 pkgdesc='Server automation framework and application'
 arch=('any')
@@ -44,9 +44,9 @@ source=("https://github.com/puppetlabs/puppet/archive/${pkgver}/puppet-${pkgver}
         "yumrepo_core::git+https://github.com/puppetlabs/puppetlabs-yumrepo_core#commit=${_yumrepo_commit}"
         "zfs_core::git+https://github.com/puppetlabs/puppetlabs-zfs_core#commit=${_zfs_commit}"
         "zone_core::git+https://github.com/puppetlabs/puppetlabs-zone_core#commit=${_zone_commit}"
-        "artix.patch"
+        "artix.patch::https://github.com/puppetlabs/puppet/commit/b31d40b687c05ef6f6350b29f727144285b7aaab.patch"
         )
-sha512sums=('1b58eeb577c86e9c4927f4522a70899e36fd614a70b47205257730aa3efb72f8fd9da11efa704471d2d170c52d852ccfadf42380bc993da4e4c3d3ca2a63e9e2'
+sha512sums=('dddaa3bd5d3a8435e2584c1c9c129b2ee35d371bb2ca79df43f150944d0137ab9739ab71b5a7762948a9de51847f8cf675ddb2018a4943f23ab279eb507990c3'
             'SKIP'
             'SKIP'
             'SKIP'
@@ -56,7 +56,7 @@ sha512sums=('1b58eeb577c86e9c4927f4522a70899e36fd614a70b47205257730aa3efb72f8fd9
             'SKIP'
             'SKIP'
             'SKIP'
-            'b2e07fa78004dbf552a25443801a9a5fa0963318163fea821ef6fedb53e24cdedd38177c6f18af31708cda29d1a3ad8aa97bd1abefbaf1f82742c2b82e6a256f')
+            '2e12f6155acb3e065372cde456add7abf8335341a70d89ac3c3e28c370a4eecb1a062f7751cb4f05bf49225b31e70c882deb8fa3b7e31bd5d669a7e471242276')
 conflicts=('puppet5' 'puppet6')
 provides=('puppet')
 
@@ -98,7 +98,7 @@ package() {
   echo "d /run/puppetlabs 0755 $pkgname $pkgname -" > "$pkgdir"/usr/lib/tmpfiles.d/$pkgname.conf
 
   # systemd
-  # install -Dm644 "${srcdir}/$pkgname-${pkgver}/ext/systemd/${pkgname}.service" "${pkgdir}/usr/lib/systemd/system/${pkgname}.service"
+  #install -Dm644 "${srcdir}/$pkgname-${pkgver}/ext/systemd/${pkgname}.service" "${pkgdir}/usr/lib/systemd/system/${pkgname}.service"
 
   install -Dm644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 

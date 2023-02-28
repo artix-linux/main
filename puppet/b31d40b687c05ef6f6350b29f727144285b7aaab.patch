@@ -1,0 +1,25 @@
+From b31d40b687c05ef6f6350b29f727144285b7aaab Mon Sep 17 00:00:00 2001
+From: Cory Sanin <corysanin@outlook.com>
+Date: Fri, 11 Nov 2022 13:37:34 -0600
+Subject: [PATCH] (packaging) Add Artix to pacman.rb
+
+Add Artix to the list of Arch-based distros. This will greatly simplify the process of packaging Puppet for Artix.
+---
+ lib/puppet/provider/package/pacman.rb | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/lib/puppet/provider/package/pacman.rb b/lib/puppet/provider/package/pacman.rb
+index 600721faaab..c8f3c919e3f 100644
+--- a/lib/puppet/provider/package/pacman.rb
++++ b/lib/puppet/provider/package/pacman.rb
+@@ -17,8 +17,8 @@ def self.yaourt?
+   # Yaourt is a common AUR helper which, if installed, we can use to query the AUR
+   commands :yaourt => "/usr/bin/yaourt" if yaourt?
+ 
+-  confine     :operatingsystem => [:archlinux, :manjarolinux]
+-  defaultfor  :operatingsystem => [:archlinux, :manjarolinux]
++  confine     :operatingsystem => [:archlinux, :manjarolinux, :artix]
++  defaultfor  :operatingsystem => [:archlinux, :manjarolinux, :artix]
+   has_feature :install_options
+   has_feature :uninstall_options
+   has_feature :upgradeable
