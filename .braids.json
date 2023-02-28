@@ -7154,7 +7154,7 @@
     "puppet": {
       "url": "gitea@gitea.artixlinux.org:packagesP/puppet.git",
       "branch": "master",
-      "revision": "ee5f60a6f9ad2275a80be0157705a18e6a65b379"
+      "revision": "8175aa9175abffc697718c2927c81448bc3bb65c"
     },
     "pure-ftpd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pure-ftpd.git",
