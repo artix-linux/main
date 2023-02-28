@@ -5729,7 +5729,7 @@
     "mcpp": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mcpp.git",
       "branch": "master",
-      "revision": "23cf5d169eb6bd5e6e4adbbf0c958ed18c5d38dd"
+      "revision": "290c96aad0fd14a471acdf5bed4bff4aa1796e5c"
     },
     "mdadm": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdadm.git",
