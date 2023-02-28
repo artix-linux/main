@@ -1,59 +1,38 @@
-# Maintainer: Gaetan Bisson <bisson@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Jaroslav Lichtblau <svetlemodry@archlinux.org>
-# Contributor: Torr <torr[at]artixlinux[dot]org>
 # Contributor: Daenyth <Daenyth [at] gmail [dot] com>
 # Contributor: Jeff Mickey <jeff@archlinux.org>
 # Contributor: sh__
 
 pkgname=rtorrent
 pkgver=0.9.8
-pkgrel=3.2
-pkgdesc="Ncurses BitTorrent client based on libTorrent"
-url="https://rakshasa.github.io/rtorrent/"
-license=("GPL")
-arch=("x86_64")
-depends=(
-	"libtorrent=0.13.${pkgver##*.}"
-	"curl"
-	"xmlrpc-c"
-)
-makedepends=(
-	"autoconf"
-	"automake"
-	"libtool"
-	"pkgconf"
-	"ncurses"
-	"gcc"
-	"make"
-)
-source=(
-	"https://github.com/rakshasa/rtorrent/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz"
-	"https://manpages.debian.org/bullseye/rtorrent/rtorrent.1.en.gz"  # For version 0.9.8.
-)
-sha256sums=(
-	"9edf0304bf142215d3bc85a0771446b6a72d0ad8218efbe184b41e4c9c7542af"
-	"SKIP"
-)
+pkgrel=4
+pkgdesc='Ncurses BitTorrent client based on libTorrent'
+url='https://rakshasa.github.io/rtorrent/'
+license=('GPL')
+arch=('x86_64')
+depends=("libtorrent=0.13.${pkgver##*.}" 'curl' 'xmlrpc-c')
+source=("https://github.com/rakshasa/rtorrent/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
+sha256sums=('9edf0304bf142215d3bc85a0771446b6a72d0ad8218efbe184b41e4c9c7542af')
 
 prepare() {
-	cd "$srcdir/$pkgname-$pkgver"
+	cd "${srcdir}/${pkgname}-${pkgver}"
 	./autogen.sh
 }
 
 build() {
-	cd "$srcdir/$pkgname-$pkgver"
-	export CXXFLAGS+=" -fno-strict-aliasing"
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	export CXXFLAGS+=' -fno-strict-aliasing'
 	./configure \
 		--prefix=/usr \
 		--disable-debug \
-		--with-xmlrpc-c
+		--with-xmlrpc-c \
 
 	make
 }
 
 package() {
-	cd "$srcdir/$pkgname-$pkgver"
-	make DESTDIR="$pkgdir" install
-	install -D doc/rtorrent.rc "$pkgdir/usr/share/doc/rtorrent/rtorrent.rc"
-	install -Dm 644 ../rtorrent.1.en.gz "$pkgdir/usr/share/man/man1/rtorrent.1"
+	cd "${srcdir}/${pkgname}-${pkgver}"
+	make DESTDIR="${pkgdir}" install
+	install -D doc/rtorrent.rc "${pkgdir}"/usr/share/doc/rtorrent/rtorrent.rc
 }
