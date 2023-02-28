@@ -8139,7 +8139,7 @@
     "scdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
       "branch": "master",
-      "revision": "58507ded497ec8018fe5b973d6df50b5b656c00f"
+      "revision": "7f0b04d87eb7edf26dda5c8ec72a8e468742c8e0"
     },
     "schedtool": {
       "url": "gitea@gitea.artixlinux.org:packagesS/schedtool.git",
