@@ -7104,7 +7104,7 @@
     "projectm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/projectm.git",
       "branch": "master",
-      "revision": "76adc045b50ea24fee9b4526ebbbeb0ef88bff79"
+      "revision": "d373ea35f5c966fcdd658134f7b16a4d42a00ad5"
     },
     "prometheus": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prometheus.git",
