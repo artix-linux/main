@@ -7574,7 +7574,7 @@
     "qt5ct": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5ct.git",
       "branch": "master",
-      "revision": "925b47dde20d005b4d3c2cf82f0fa6af8f80ec85"
+      "revision": "1f1bb2588a736401d34adcb8f65bb9dc643e9504"
     },
     "qt5pas": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5pas.git",
