@@ -6604,7 +6604,7 @@
     "opensp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensp.git",
       "branch": "master",
-      "revision": "4d9ece9c114aab0a09d29e0db0bdd1f431a4cd4f"
+      "revision": "c6b8d25911f6f3a89178da4b523bbddf6c476347"
     },
     "openssh": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssh.git",
