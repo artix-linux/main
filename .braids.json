@@ -9954,7 +9954,7 @@
     "xorg-setxkbmap": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-setxkbmap.git",
       "branch": "master",
-      "revision": "f005de53d2b063f4cb2537249818cd1ccb492e47"
+      "revision": "b9a445f3f3cef28c0221fe2e7083c45d6dbd75e5"
     },
     "xorg-twm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-twm.git",
