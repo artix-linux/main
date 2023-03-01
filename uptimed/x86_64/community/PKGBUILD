@@ -1,11 +1,11 @@
-# Maintainer:  Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer:  Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Contributor: Tom Killian <tomk@runbox.com>
 # Contributor: Tom Newsom <Jeepster@gmx.co.uk>
 
 pkgname=uptimed
 pkgver=0.4.6
-pkgrel=2
+pkgrel=3
 pkgdesc="A system uptime record daemon"
 arch=(x86_64)
 #url="http://podgorny.cz/uptimed/"
