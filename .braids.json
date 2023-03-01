@@ -10124,7 +10124,7 @@
     "xxhash": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xxhash.git",
       "branch": "master",
-      "revision": "f21a479082582743428de5bd56a46a3602f2c80c"
+      "revision": "353a906e9072ab68168e395d5c40053c7f22db9c"
     },
     "xz": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xz.git",
