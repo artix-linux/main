@@ -844,7 +844,7 @@
     "chromaprint": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
       "branch": "master",
-      "revision": "bc25c061d520b42abaee8c3d91d1263689b6aded"
+      "revision": "14023546dcb540b55955066835d4e7af3356c8ab"
     },
     "chromium-bsu": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromium-bsu.git",
