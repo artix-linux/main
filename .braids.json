@@ -9229,7 +9229,7 @@
     "uptimed": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed.git",
       "branch": "master",
-      "revision": "9dff59ea7eefa39aaaf4c488bd9df91dbfcf174c"
+      "revision": "9b30e2a3214751e2c50a8d1363dcaf06268738ed"
     },
     "upx": {
       "url": "gitea@gitea.artixlinux.org:packagesU/upx.git",
