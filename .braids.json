@@ -7079,7 +7079,7 @@
     "pqiv": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pqiv.git",
       "branch": "master",
-      "revision": "e0eba66ae7654692d57557117d3c0600af9feb2a"
+      "revision": "11fbf67d95243c882e1f0b62d5079cf60636d1b9"
     },
     "privoxy": {
       "url": "gitea@gitea.artixlinux.org:packagesP/privoxy.git",
