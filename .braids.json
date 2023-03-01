@@ -8929,7 +8929,7 @@
     "tlp": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tlp.git",
       "branch": "master",
-      "revision": "6f17b6fcfde1449a488cdf2f5f3e312f8cdfd8c1"
+      "revision": "54b51610ccd327790ef6eb5b1f423ad620ded54d"
     },
     "tor": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor.git",
