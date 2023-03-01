@@ -2199,7 +2199,7 @@
     "geocode-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geocode-glib.git",
       "branch": "master",
-      "revision": "090edd97c6c9fdfa34a3e56890427235701e0e96"
+      "revision": "bf68d8b2ee6d9683b894c1d0b47e7bbbdb7e90e4"
     },
     "geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/geoip.git",
