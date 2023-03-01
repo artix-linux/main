@@ -5794,7 +5794,7 @@
     "meson-python": {
       "url": "gitea@gitea.artixlinux.org:packagesM/meson-python.git",
       "branch": "master",
-      "revision": "2e971ce0293cc7777b7948a06b25c6933b8bba03"
+      "revision": "7b39abfd0dc2bca05a57fb02d6b044524dc994e4"
     },
     "metalog": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog.git",
