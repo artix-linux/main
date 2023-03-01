@@ -49,7 +49,6 @@ depends=(
   libvorbisenc.so
   libvorbis.so
   libvpx.so
-  libvulkan.so
   libwebp
   libx11
   libx264.so
@@ -83,7 +82,6 @@ makedepends=(
   mesa
   nasm
   opencl-headers
-  vulkan-headers
 )
 optdepends=(
   'avisynthplus: AviSynthPlus support'
@@ -186,7 +184,7 @@ build() {
     --enable-opengl \
     --enable-shared \
     --enable-version3 \
-    --enable-vulkan
+    --disable-vulkan
   make
   make tools/qt-faststart
   make doc/ff{mpeg,play}.1
