@@ -9354,7 +9354,7 @@
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
       "branch": "master",
-      "revision": "0a722ad2cf9709c5ac0b46719543128f1a6935fb"
+      "revision": "90f22c378f195443f737a23c24633424acbadabf"
     },
     "vigra": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vigra.git",
