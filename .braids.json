@@ -9924,7 +9924,7 @@
     "xorg-fonts-encodings": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-encodings.git",
       "branch": "master",
-      "revision": "3a470c76e142d2640a2a583b076f014d3af2d3e4"
+      "revision": "6ed95cda5f33b463ada6706a31d0eab81c922291"
     },
     "xorg-fonts-misc": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-misc.git",
