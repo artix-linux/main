@@ -9929,7 +9929,7 @@
     "xorg-fonts-misc": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-misc.git",
       "branch": "master",
-      "revision": "64eec2180e3a8d28add7c6deef6e51f71fc0b84e"
+      "revision": "9a5b8ecbc0f66f13178b5f3b707618a1e0c4f405"
     },
     "xorg-iceauth": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-iceauth.git",
