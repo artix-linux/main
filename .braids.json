@@ -1724,7 +1724,7 @@
     "exfat-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exfat-utils.git",
       "branch": "master",
-      "revision": "125e69aaaa6041dbbcfe6b18e9f3d1769c89d17d"
+      "revision": "14af41deaf96af2a88ec9af62ddad2f1cfd401db"
     },
     "exim": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim.git",
