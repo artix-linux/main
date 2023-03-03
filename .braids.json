@@ -1884,7 +1884,7 @@
     "ffmpegthumbnailer": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffmpegthumbnailer.git",
       "branch": "master",
-      "revision": "e21d2ba317c490bf00dbd908ff227005ffe0c103"
+      "revision": "7917ffdd744b12b8777793c69f8acf7c2f41e1c0"
     },
     "ffnvcodec-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffnvcodec-headers.git",
