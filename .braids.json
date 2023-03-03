@@ -6479,7 +6479,7 @@
     "openal": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openal.git",
       "branch": "master",
-      "revision": "9f05ae6dfbb605e74d423e32401383aacd015208"
+      "revision": "0373bfbb15d686029c10ee6e41c6a7d7342b6437"
     },
     "openbsd-netcat": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openbsd-netcat.git",
