@@ -4234,7 +4234,7 @@
     "libmicrohttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmicrohttpd.git",
       "branch": "master",
-      "revision": "5633650a13802f9417fa352528b3df4456a10d19"
+      "revision": "3f1fce65dbe334de7c038ff60892d96a1885a715"
     },
     "libmikmod": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmikmod.git",
