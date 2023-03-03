@@ -3729,7 +3729,7 @@
     "libdiscid": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdiscid.git",
       "branch": "master",
-      "revision": "f1269222cb602195a35772d3954d6a1f301f0e46"
+      "revision": "cdf14b13433f69bcc060169949e4e38d40f82b80"
     },
     "libdmtx": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libdmtx.git",
