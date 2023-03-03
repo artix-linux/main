@@ -2719,7 +2719,7 @@
     "harfbuzz": {
       "url": "gitea@gitea.artixlinux.org:packagesH/harfbuzz.git",
       "branch": "master",
-      "revision": "dcbe0309f637c83ce2097c1e3becaae465640dc6"
+      "revision": "107890f6812d12d8375689e43600a3b18c4cf901"
     },
     "haveged": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haveged.git",
