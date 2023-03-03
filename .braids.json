@@ -9919,7 +9919,7 @@
     "xorg-fonts-alias": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-alias.git",
       "branch": "master",
-      "revision": "b7eb128279f5fd0d535e486f73fd94550bb74f65"
+      "revision": "1ddc855152a618f844b6f66fe3d0e2cab06ebd70"
     },
     "xorg-fonts-encodings": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-fonts-encodings.git",
