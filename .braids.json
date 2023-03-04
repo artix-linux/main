@@ -679,7 +679,7 @@
     "bubblewrap": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bubblewrap.git",
       "branch": "master",
-      "revision": "e52883146f1653d8ff16f3b27b296bcef159b7d1"
+      "revision": "f4e2edb40738877ac837f55c36f668534da6d49d"
     },
     "bullet": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bullet.git",
