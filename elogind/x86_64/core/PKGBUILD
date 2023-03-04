@@ -3,7 +3,7 @@
 pkgbase=elogind
 pkgname=('elogind' 'libelogind')
 pkgver=246.10
-pkgrel=10
+pkgrel=11
 pkgdesc="The systemd project's logind, extracted to a standalone package"
 arch=('x86_64')
 url="https://github.com/elogind/elogind"
@@ -53,10 +53,10 @@ package_elogind() {
 
     DESTDIR="$pkgdir" meson install -C build
 
-    install -dm755 "${srcdir}"/_libelogind/{include,pkgconfig,man3}
+    install -dm755 "${srcdir}"/_libelogind
     mv -v "${pkgdir}"/usr/lib/libelogind*.so* "${srcdir}"/_libelogind
-    mv -v "${pkgdir}"/usr/lib/pkgconfig/libelogind.pc "${srcdir}"/_libelogind/pkgconfig
-    mv -v "${pkgdir}"/usr/include/* "${srcdir}"/_libelogind/include
+    mv -v "${pkgdir}"/usr/lib/pkgconfig "${srcdir}"/_libelogind/
+    mv -v "${pkgdir}"/usr/include "${srcdir}"/_libelogind/
     mv -v "${pkgdir}"/usr/share/man/man3 "${srcdir}"/_libelogind/
 
     install -d "${pkgdir}"/{etc,usr/lib}/elogind/{logind,sleep}.conf.d
@@ -65,16 +65,15 @@ package_elogind() {
 package_libelogind(){
     pkgdesc="elogind client libraries"
     provides=('libelogind.so' 'liblogind')
-    depends=('libcap' 'libudev.so')
+    depends=('libcap' 'libudev')
 
     cd "${pkgbase}-${pkgver}"
 
-    install -dm755 "${pkgdir}"/usr/{lib/pkgconfig,include,share/man/man3}
-    mv "${srcdir}"/_libelogind/pkgconfig/* "${pkgdir}"/usr/lib/pkgconfig/
-    mv "${srcdir}"/_libelogind/include/* "${pkgdir}"/usr/include
-    mv "${srcdir}"/_libelogind/man3 "${pkgdir}"/usr/share/man
+    install -dm755 "${pkgdir}"/usr/{lib,share/man}
     mv -v "${srcdir}"/_libelogind/libelogind*.so* "${pkgdir}"/usr/lib
-
+    mv -v "${srcdir}"/_libelogind/pkgconfig "${pkgdir}"/usr/lib/
+    mv -v "${srcdir}"/_libelogind/include "${pkgdir}"/usr/
+    mv -v "${srcdir}"/_libelogind/man3 "${pkgdir}"/usr/share/man
 
     ln -sfv libelogind.so "${pkgdir}"/usr/lib/libsystemd.so
     ln -sfv libsystemd.so "${pkgdir}"/usr/lib/libsystemd.so.0
