@@ -8,8 +8,8 @@ _pkgbase=systemd-stable
 pkgbase=udev
 pkgname=('udev' 'libudev' 'esysusers' 'etmpfiles')
 pkgdesc='Userspace device file manager'
-_tag='b16ce4c7ab80665b65345ea030c51a5c758fe66b' # git rev-parse v${_tag_name}
-_tag_name=252.5
+_tag='199399bb283701b6a4aaf5ace49f56f30f38e9a3' # git rev-parse v${_tag_name}
+_tag_name=253.1
 pkgver="${_tag_name/-/}"
 pkgrel=1
 arch=('x86_64')
@@ -22,7 +22,7 @@ validpgpkeys=('63CDA1E5D3FC22B998D20DD6327F26951A015CC4'  # Lennart Poettering <
               'A9EA9081724FFAE0484C35A1A81CEA22BC8C7E2E'  # Luca Boccassi <luca.boccassi@gmail.com>
               '9A774DB5DB996C154EBBFBFDA0099A18E29326E1'  # Yu Watanabe <watanabe.yu+github@gmail.com>
               '5C251B5FC54EB2F80F407AAAC54CA336CFEB557E') # Zbigniew Jędrzejewski-Szmek <zbyszek@in.waw.pl>
-_alpm=57bcc7fee22d75df96fd546ee7215166cdfb1233
+_alpm=6a9ac65e53f752771fafa423e2b2e80910632e8f
 source=("git+https://github.com/systemd/systemd-stable#tag=${_tag}" #?signed
         "git+https://github.com/systemd/systemd#tag=v${_tag_name%.*}" #?signed
         '0001-Use-Arch-Linux-device-access-groups.patch'
@@ -37,7 +37,7 @@ sha512sums=('SKIP'
             '32606b42856b5f3ea7f485143e532671f58986237e14c58ea5ab17383dc39a375cb6c738c8a2db9e4a8c8be88ea44a876d6bbed129cb2f5c9aa3f8228b04d927'
             '38eed28d42ac8f70bc8d1058ace35f137f7f5c972442ee14b98c2146202e0615aa584304edbd59e8608d1b6bec3cb391fc69b25393740f6eabd8fc5ad3bde64f'
             'SKIP'
-            'e936a4b245400140d2cb4ed250fe23639bc3aaf81fb958b9b10dc1ff5aeb094f37b657e044bf35e832fd4a69dccea5b19ef45d20852ce3aa49325ae2e59d8f51'
+            'e7412ffe57bcbdfdf6e63caa36726a735eaf99c533613218e11dfc3c63912bcb0d713327eb8492ae91e2635e8923e68e552a559d980bc29517f75c711f2b5d71'
             'a26003ddcac5a83ec1fec040b36ff46816869028dc79aebb2646f9f2ed090e6358601f911c9d6a04b426c7f3367595e12716e411fca34ffce59d718b067e4e5c'
             '268817ee63ca0b03d2a10bb952837052c1fa80a5d2f0fe933d2aa3d61a09d286f188a6358107114964930fcef7057392f9520f875a83f6e265d2f4bc2564c26e')
 
@@ -255,11 +255,11 @@ package_udev() {
             'util-linux' 'libblkid.so' 'libudev' 'hwdata' 'kbd')
     provides=("udev=$pkgver")
 
-    meson install -C build --destdir "$pkgdir" --no-rebuild --tags udev,udev-devel,libudev-devel
+    meson install -C build --destdir "$pkgdir" --no-rebuild --tags udev,udev-devel
 
     mv -v  "${pkgdir}"/usr/bin/systemd-hwdb "${pkgdir}"/usr/bin/udev-hwdb
 
-    for m in libudev.3 udev.conf.5 udev.7 udevadm.8; do
+    for m in udev.conf.5 udev.7 udevadm.8; do
         _inst_man_udev "$m"
     done
     _inst_doc
@@ -277,7 +277,9 @@ package_libudev() {
     depends=('gcc-libs')
     provides=('libudev.so')
 
-    meson install -C build --destdir "$pkgdir" --no-rebuild --tags libudev
+    meson install -C build --destdir "$pkgdir" --no-rebuild --tags libudev,libudev-devel
+
+    _inst_man_udev "libudev.3"
 }
 
 package_esysusers() {

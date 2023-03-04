@@ -184,7 +184,7 @@ index 92d54078f0..6795f33e6a 100644
 +        install_data(
 +                libudev_h_path,
 +                install_dir: includedir,
-+                install_tag: 'udev-devel')
++                install_tag: 'libudev-devel')
 +endif
 +
  libudev_basic = static_library(
