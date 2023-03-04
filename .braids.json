@@ -1639,7 +1639,7 @@
     "elogind": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind.git",
       "branch": "master",
-      "revision": "dc852bdd86f8f26b999f7b96f2569ab3e61af0fb"
+      "revision": "c77a868935733aa65f85c05b79684def76a8e324"
     },
     "emacs": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emacs.git",
