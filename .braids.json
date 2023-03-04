@@ -6839,7 +6839,7 @@
     "pcsclite": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite.git",
       "branch": "master",
-      "revision": "131775723a1efa02a56cab1333abb5b8be8250f8"
+      "revision": "462e7f45c9e680923d1e3181ce05965ecb29ab22"
     },
     "pdfjs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdfjs.git",
