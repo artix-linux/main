@@ -34,7 +34,7 @@ build() {
     --enable-ipcdir=/run/pcscd \
     --enable-libudev \
     --enable-usbdropdir=/usr/lib/pcsc/drivers \
-    --disable-libsystemd
+    --disable-libsystemd \
     --enable-polkit
 
   make
