@@ -2499,7 +2499,7 @@
     "grep": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grep.git",
       "branch": "master",
-      "revision": "3786982d1132f17abf13fd7ab3be2b619e82c60b"
+      "revision": "1532132f685d8b01475a7b968ae55266119c6634"
     },
     "groff": {
       "url": "gitea@gitea.artixlinux.org:packagesG/groff.git",
