@@ -3994,7 +3994,7 @@
     "libhandy": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libhandy.git",
       "branch": "master",
-      "revision": "326f366435bef4a81bdadadcc0599e9648de55f4"
+      "revision": "9925e8cccda10fc38b3397534e1d468b6ecd4c05"
     },
     "libhandy0": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libhandy0.git",
