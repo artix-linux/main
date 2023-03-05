@@ -1239,7 +1239,7 @@
     "dbus": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus.git",
       "branch": "master",
-      "revision": "4f1888b6f031a9ecd555ebc452e06b71c742045e"
+      "revision": "7aefaf3c8294e5ce9ab37f3f8ddca76f31c0e96c"
     },
     "dbus-broker": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-broker.git",
