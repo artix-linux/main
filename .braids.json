@@ -4104,7 +4104,7 @@
     "libjcat": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libjcat.git",
       "branch": "master",
-      "revision": "4c6d07c86073a8e2b9ee809695e123444911bf7b"
+      "revision": "da6a07ead58e8322534a92f3fdf109e44f776457"
     },
     "libjpeg-turbo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libjpeg-turbo.git",
