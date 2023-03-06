@@ -10249,7 +10249,7 @@
     "zig": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zig.git",
       "branch": "master",
-      "revision": "ddadccadd85e17f3473014787a6af911cc5d1a41"
+      "revision": "b92686d3c3b33f02f8d300472d1670a63c686f04"
     },
     "zimg": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zimg.git",
