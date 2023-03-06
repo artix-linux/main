@@ -9619,7 +9619,7 @@
     "wpebackend-fdo": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpebackend-fdo.git",
       "branch": "master",
-      "revision": "8f266d21da71dff3c63fccf1e0b2928e139be6e3"
+      "revision": "4e62aae8ba02e0b7a8b4503945175cbab3985d3e"
     },
     "wpewebkit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpewebkit.git",
