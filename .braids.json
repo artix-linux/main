@@ -5774,7 +5774,7 @@
     "mercurial": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mercurial.git",
       "branch": "master",
-      "revision": "5be0c90b4cf659497f252b9374cf79495e01801c"
+      "revision": "8978f05009c7209e9aec22e93a51e8dd098a7e78"
     },
     "mesa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mesa.git",
