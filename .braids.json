@@ -10024,7 +10024,7 @@
     "xorg-xlogo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xlogo.git",
       "branch": "master",
-      "revision": "f31122bbc7f5b7533fff9b3d3447741d96ff9f93"
+      "revision": "7c8bb8cf53c639faf635a1f5af20eebe59ef73bc"
     },
     "xorg-xmessage": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmessage.git",
