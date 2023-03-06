@@ -1674,7 +1674,7 @@
     "enchant": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enchant.git",
       "branch": "master",
-      "revision": "37c3d313b8733a1ca185e1cfaeb45e4f33826960"
+      "revision": "c4efb977ae4673aa3d18c04466daf29d70bd6259"
     },
     "enet": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enet.git",
