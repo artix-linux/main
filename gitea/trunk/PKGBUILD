@@ -23,7 +23,7 @@ optdepends=(
 checkdepends=(openssh)
 options=(!lto)
 _tag=2b5f49c6f40731b00023c39d6efcfade37db56b1 # git rev-parse v${pkgver}
-source=(git+https://github.com/go-gitea/gitea.git#tag=${_tag}?signed
+source=(git+https://github.com/go-gitea/gitea.git#tag=${_tag}
         gitea.tmpfiles
         gitea.sysusers)
 sha256sums=('SKIP'
