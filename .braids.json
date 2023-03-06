@@ -959,7 +959,7 @@
     "cmus": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmus.git",
       "branch": "master",
-      "revision": "b51e0107494345e5a068e70c37b1643c0c73a19b"
+      "revision": "6c89554d4f92a1d4de78e4c77cdbf0fff027880f"
     },
     "cni-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cni-plugins.git",
