@@ -8619,7 +8619,7 @@
     "sudo": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sudo.git",
       "branch": "master",
-      "revision": "7b55c28a84a1e3a00d3aa8f48f3e9ecaa5a5ee9d"
+      "revision": "f29ebd05bd9a891be18044252f7b7ceadd48f6ef"
     },
     "sugar-datastore": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sugar-datastore.git",
