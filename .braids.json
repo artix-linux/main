@@ -329,7 +329,7 @@
     "aubio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aubio.git",
       "branch": "master",
-      "revision": "a57320aa9351c6ae5b23e3389b148126089244d5"
+      "revision": "5006a2829b7cdab2e89214a440e86390cb57cb84"
     },
     "audacity": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audacity.git",
