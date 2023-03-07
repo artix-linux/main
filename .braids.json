@@ -5419,7 +5419,7 @@
     "lmdb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lmdb.git",
       "branch": "master",
-      "revision": "cc5b0be7b3764b0e658e10be341b9ac370c25a70"
+      "revision": "5ef45309890530729da253e199e437d2f2b457cd"
     },
     "log4cplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/log4cplus.git",
