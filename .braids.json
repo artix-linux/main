@@ -8719,7 +8719,7 @@
     "tar": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tar.git",
       "branch": "master",
-      "revision": "9ba8375004f8aa41296b4b17be78aa1301a36aa4"
+      "revision": "cc395a4967f8717819c49b3fbe958efb28d5fae7"
     },
     "tbb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tbb.git",
