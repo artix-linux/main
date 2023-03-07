@@ -8894,7 +8894,7 @@
     "tinycompress": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycompress.git",
       "branch": "master",
-      "revision": "e29e8fd31018c43bca858befec3243b6c2dec493"
+      "revision": "d3b513989d37927764e441847a4175798ff6b256"
     },
     "tinydns": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinydns.git",
