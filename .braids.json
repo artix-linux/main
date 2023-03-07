@@ -4249,7 +4249,7 @@
     "libmms": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmms.git",
       "branch": "master",
-      "revision": "48adb72c5e4bd124b3ad5c43d7ce75cf81de87c6"
+      "revision": "9d3e9de7f3c1bbda174a9c75b12df5a8ca02439b"
     },
     "libmng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmng.git",
