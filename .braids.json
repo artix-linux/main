@@ -2949,7 +2949,7 @@
     "inetutils": {
       "url": "gitea@gitea.artixlinux.org:packagesI/inetutils.git",
       "branch": "master",
-      "revision": "050f490ecee8de7db7f0a7b7080b3a171ff4d5df"
+      "revision": "6c3ed824666f497bad117120a86d7fe81eec4b20"
     },
     "iniparser": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iniparser.git",
