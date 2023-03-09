@@ -5234,7 +5234,7 @@
     "libxvmc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxvmc.git",
       "branch": "master",
-      "revision": "e240ebc4ba90ee6294236c7131b9e591a4072b30"
+      "revision": "9db68c5416505a71ae85a8d684dc39b1b27ce34b"
     },
     "libxxf86vm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxxf86vm.git",
