@@ -5954,7 +5954,7 @@
     "motion": {
       "url": "gitea@gitea.artixlinux.org:packagesM/motion.git",
       "branch": "master",
-      "revision": "9d7eded467683953ee11ee8ec63b8e96818b0c20"
+      "revision": "096ae1fcef05bc338a2ef6a14d83cac98432dff1"
     },
     "movit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/movit.git",
