@@ -1,11 +1,11 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Ray Rashif <schiv@archlinux.org>
 # Contributor: Tobias Kieslich tobias [funnychar] archlinux org
 
 pkgbase=aubio
 pkgname=(aubio python-aubio)
 pkgver=0.4.9
-pkgrel=14
+pkgrel=15
 pkgdesc="A tool for extracting annotations from audio signals"
 arch=(x86_64)
 url="https://aubio.org/"
