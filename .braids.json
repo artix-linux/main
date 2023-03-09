@@ -9304,7 +9304,7 @@
     "v4l-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v4l-utils.git",
       "branch": "master",
-      "revision": "417bc3a2e6f34ac75065ed68b18c284ac1486746"
+      "revision": "6d839bfc0939f6938ed8dad3859179efeba7f884"
     },
     "vala": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vala.git",
