@@ -2829,7 +2829,7 @@
     "hwdata": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwdata.git",
       "branch": "master",
-      "revision": "b84d0d6d58ed1bd6ef04842a43cc73301be13243"
+      "revision": "c3c26ecd71943de21b92dd80350a65f9e2c85ad1"
     },
     "hwinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hwinfo.git",
