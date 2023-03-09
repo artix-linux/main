@@ -89,7 +89,7 @@
     "alsa-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-plugins.git",
       "branch": "master",
-      "revision": "c8f5c6ef03fa67e37b061ef5cd32109c455fa49a"
+      "revision": "c0e1b1787071d5a8979ee5f33274557040e4fb45"
     },
     "alsa-topology-conf": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-topology-conf.git",
