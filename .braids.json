@@ -4019,7 +4019,7 @@
     "libice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libice.git",
       "branch": "master",
-      "revision": "0171eb7e76226382788686ea835945465e83fb93"
+      "revision": "c9426898775e28e243f87be942bf88cccfbcd2fd"
     },
     "libid3tag": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libid3tag.git",
