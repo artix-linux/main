@@ -7959,7 +7959,7 @@
     "roc-toolkit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/roc-toolkit.git",
       "branch": "master",
-      "revision": "745b133654f736151faf22be08b81fa5920489f8"
+      "revision": "fbefbc9e0658c3288240c91e9461581ea02bb1c7"
     },
     "ropgadget": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
