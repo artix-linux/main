@@ -6534,7 +6534,7 @@
     "openexr": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openexr.git",
       "branch": "master",
-      "revision": "0c3e04081f2550c3d89cf7a27fa47a23a5f5ac02"
+      "revision": "d53d64638d3e78107eaeae9d91e71cdcfd5223f8"
     },
     "openfec": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfec.git",
