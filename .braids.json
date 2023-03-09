@@ -619,7 +619,7 @@
     "booster": {
       "url": "gitea@gitea.artixlinux.org:packagesB/booster.git",
       "branch": "master",
-      "revision": "1269c028523329a2e68587b3a38ea6feee3f5f29"
+      "revision": "9497b1a267171748185c6b3ecd398dc2ea7ec06c"
     },
     "bootlogd": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd.git",
