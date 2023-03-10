@@ -444,7 +444,7 @@
     "aws-c-s3": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-s3.git",
       "branch": "master",
-      "revision": "b31570ac04ca8c3c74dcb20aba385700ab88303f"
+      "revision": "efb05c7e2503a6e07049a0e4fd45889f49edb52e"
     },
     "aws-c-sdkutils": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-sdkutils.git",
