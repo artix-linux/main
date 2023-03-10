@@ -429,7 +429,7 @@
     "aws-c-http": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-http.git",
       "branch": "master",
-      "revision": "52b9a1cce8c7945a49cda55be07263895dd118fd"
+      "revision": "6a996b85d57ab98755d7689e0a0288f1a7b9503f"
     },
     "aws-c-io": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aws-c-io.git",
