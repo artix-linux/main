@@ -8,7 +8,7 @@ pkgdesc='An easy-to-use, robust and highly configurable VPN (Virtual Private Net
 arch=('x86_64')
 url='https://openvpn.net/index.php/open-source.html'
 license=('custom')
-depends=('openssl' 'lzo' 'lz4' 'pkcs11-helper' 'libpkcs11-helper.so')
+depends=('openssl' 'lzo' 'lz4' 'pkcs11-helper' 'libnl'  'libpkcs11-helper.so')
 optdepends=('easy-rsa: easy CA and certificate handling'
             'pam: authenticate via PAM')
 makedepends=('git' 'python-docutils')
