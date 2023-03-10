@@ -46,6 +46,7 @@ build() {
   local meson_options=(
     -D system-lua=true
     -D systemd=disabled
+    -D doc=disabled
     -D elogind=enabled
   )
 
