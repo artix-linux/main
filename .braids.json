@@ -5049,7 +5049,7 @@
     "libx86emu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx86emu.git",
       "branch": "master",
-      "revision": "65195d2711db98f6b28740673344c485cf278af4"
+      "revision": "e03e92af64db077c1092da00dc0ac065c57ec72e"
     },
     "libxau": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxau.git",
