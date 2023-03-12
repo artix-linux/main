@@ -2134,7 +2134,7 @@
     "gavl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gavl.git",
       "branch": "master",
-      "revision": "643a2d04807d0efd6f86b4cdeb17e54dd9818fb7"
+      "revision": "b775252c13fcbd1fed0f8b022f67ad86947697ee"
     },
     "gawk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gawk.git",
