@@ -8514,7 +8514,7 @@
     "sqlite": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlite.git",
       "branch": "master",
-      "revision": "e0be1322f286f6e2056be889dce8fe1ec8491c45"
+      "revision": "16794b5533ea257df32bd08b469eaa5f51aab743"
     },
     "squashfs-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squashfs-tools.git",
