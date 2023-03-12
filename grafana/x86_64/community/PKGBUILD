@@ -1,9 +1,9 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Carsten Feuls <archlinux@carstenfeuls.de>
 # Contributor: Gilles Hamel <hamelg at laposte dot net>
 
 pkgname=grafana
-pkgver=9.3.6
+pkgver=9.4.3
 pkgrel=1
 pkgdesc='Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB'
 url='https://grafana.com/'
