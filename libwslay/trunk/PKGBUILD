@@ -1,10 +1,10 @@
-# Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Cebtenzzre <cebtenzzre (at) gmail (dot) com>
 # Contributor: Andy Weidenbaum <archbaum@gmail.com>
 
 pkgname=libwslay
 pkgver=1.1.1
-pkgrel=4
+pkgrel=5
 pkgdesc='WebSocket library'
 arch=(x86_64)
 provides=(wslay)
