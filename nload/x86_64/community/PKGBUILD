@@ -1,0 +1,34 @@
+# Maintainer: Torr <torr@artixlinux.org>
+pkgname=nload
+pkgver=0.7.4
+pkgrel=1
+pkgdesc="console application which monitors network traffic and bandwidth usage"
+arch=("x86_64")
+url="http://www.roland-riegel.de/nload/"
+license=("GPL2")
+changelog=Changelog.txt
+depends=("ncurses")
+makedepends=(
+	"gcc"
+	"make"
+	"automake"
+	"autoconf"
+)
+source=(
+	"http://www.roland-riegel.de/$pkgname/$pkgname-$pkgver.tar.gz"
+)
+sha256sums=(
+	"c1c051e7155e26243d569be5d99c744d8620e65fa8a7e05efcf84d01d9d469e5"
+)
+
+build() {
+	cd "$pkgname-$pkgver"
+	./configure --prefix=/usr
+	make
+}
+
+package() {
+	cd "$pkgname-$pkgver"
+	make install DESTDIR="$pkgdir"
+	install -Dm 644 COPYING "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
