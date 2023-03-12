@@ -6226,6 +6226,11 @@
       "branch": "master",
       "revision": "11e3dd6a32d7fad24fc4198e21976725229c6310"
     },
+    "nload": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nload.git",
+      "branch": "master",
+      "revision": "b222caa0832ee0c40886bb75e7afcecf2399b78f"
+    },
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
       "branch": "master",
