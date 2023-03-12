@@ -1,12 +1,12 @@
-# Maintainer: Balló György <ballogyor+arch at gmail dot com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=libmanette
 pkgver=0.2.6
-pkgrel=3
+pkgrel=4
 pkgdesc='Simple GObject game controller library'
 arch=('x86_64')
-license=('LGPL2.1')
 url='https://gnome.pages.gitlab.gnome.org/libmanette/'
+license=('LGPL2.1')
 depends=('libevdev' 'libgudev')
 makedepends=('gobject-introspection' 'meson' 'udev' 'vala')
 source=("https://download.gnome.org/sources/$pkgname/${pkgver%.*}/$pkgname-$pkgver.tar.xz")
@@ -18,5 +18,5 @@ build() {
 }
 
 package() {
-  DESTDIR="$pkgdir" meson install -C build
+  meson install -C build --destdir "$pkgdir"
 }
