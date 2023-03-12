@@ -5039,7 +5039,7 @@
     "libwslay": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libwslay.git",
       "branch": "master",
-      "revision": "c16f5abfb0477737cb9d2cb5994ca123dabacfd4"
+      "revision": "46fd73016f18cdf73b8d7459b1183619e2c1dce2"
     },
     "libx11": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libx11.git",
