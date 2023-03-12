@@ -1,0 +1,173 @@
+
+2012-02-06 Roland Riegel <feedback@roland-riegel.de>
+
+	* Newer Linux kernels use 64 bit counters, which caused traffic to increase by 4GB on every refresh (see Debian bug #651848)
+
+2011-06-11 Roland Riegel <feedback@roland-riegel.de>
+
+	* Fix calculation of traffic and data units (thanks to Kirby Zhou, see also Debian bug #586943)
+
+	* Fix memory leak in BSD network device detection
+
+	* Workaround for faulty newwin() in ncurses 5.8
+
+	* Correctly escape minus signs in man page
+
+	* Tag 0.7.3 release
+
+2008-06-28 Roland Riegel <feedback@roland-riegel.de>
+
+	* Really fix compilation with g++ 4.3
+
+	* Tag 0.7.2 release
+
+2008-02-27 Roland Riegel <feedback@roland-riegel.de>
+
+	* If devices are given on the command line, display only these
+
+	* Use --sysconfdir as given to configure
+
+	* Tag 0.7.1 release
+
+2008-02-02 Roland Riegel <feedback@roland-riegel.de>
+
+	* Abort configure script if ncurses is not found
+
+	* Rewrite the linux proc devreader
+
+	* Implement hpux device detection
+
+	* Implement reading and writing of config files (fixes debian bug #247030)
+
+	* Add F5 and F6 key shortcuts for reading and writing current settings
+
+	* Change defaults for traffic units to human readable
+
+	* Make shown devices configurable at run time and save this setting as well
+
+	* Remove "-t 0"
+
+	* Change key shortcuts, especially F2 for the option window
+
+	* Replace "average smoothness" by average window period in seconds
+
+	* Apply patch by Paul Brook <paul@nowt.org> so that nload works correctly on 64-bit kernels
+
+	* Fix SIGSEGV when /proc/net/dev doesn't exist
+
+	* Make compilation work with GCC 4.3 (fixes debian bug #417449)
+
+	* Tag 0.7.0 release
+
+2003-12-18 Roland Riegel <feedback@roland-riegel.de>
+
+	* Ported to HP-UX (thanks to Roshan Sequeira)
+
+	* Added some useful key shortcuts
+
+	* Fixed some memory leaks (also on BSD), uninitialized variables
+
+	* Fixed compilation with gcc 3.x
+
+	* Source code cleanup
+
+	* Tagged 0.6.0 release
+
+2002-08-11 Roland Riegel <feedback@roland-riegel.de>
+
+	* New option window (via the 'o' key) to change program settings at run time
+
+	* Display IP numbers of the devices
+
+	* Faster keyboard reaction
+
+	* "Real" average calculation
+
+	* Big code reorganisation
+
+	* New nload-user mailing list (see README)
+
+	* Tagged 0.5.0 release
+
+2001-12-06 Roland Riegel <feedback@roland-riegel.de>
+
+	* Ported to Free/Net/OpenBSD and Solaris
+
+	* Switches -u and -U for customizable data units
+
+	* Tripled graph resolution by adding two additional drawing chars (thanks to Christian Hoenig)
+
+	* Fixed wrong data display after network device restart (thanks to Christian Hoenig)
+
+	* Tagged 0.4.0 release
+
+2001-10-20 Roland Riegel <feedback@roland-riegel.de>
+
+	* Now the 4GB workaround really works
+
+	* Tagged 0.3.2 release
+
+2001-10-17 Roland Riegel <feedback@roland-riegel.de>
+
+	* Parameter -m introduced: don't show graphs
+
+	* Added the nload(1) man page
+
+	* Workaround for the 4GB kernel variable overflow
+
+	* Tagged 0.3.1 release
+
+2001-09-25 Roland Riegel <feedback@roland-riegel.de>
+
+	* Two-dimensional graphs for current net load
+
+	* Arrow keys to switch between devices
+
+	* 'q' key to exit
+
+	* Tagged 0.3.0 release
+
+2001-08-18 Roland Riegel <feedback@roland-riegel.de>
+
+	* Improved average calculation
+
+	* Warning if device doesn't exist
+
+	* More command line parsing fixes
+
+	* Code cleanups
+
+	* Tagged 0.2.2 release
+
+2001-08-08 Roland Riegel <feedback@roland-riegel.de>
+
+	* Added average calculation
+
+	* Fixed min/max calculation
+
+	* Fixed severe timing/calculation problems (thanks to Magnus Roth)
+
+	* Fixed a command line parsing bug
+
+	* Tagged 0.2.1 release
+
+2001-08-03 Roland Riegel <feedback@roland-riegel.de>
+
+	* Switched to ncurses
+
+	* Support of more than one network device
+
+	* Displays min/max bandwidth usage
+
+	* Tagged 0.2.0 release
+
+2001-07-28 Roland Riegel <feedback@roland-riegel.de>
+
+	* Seg fault when specifying a network device fixed
+
+	* Tagged 0.1.1 release
+
+2001-07-27 Roland Riegel <feedback@roland-riegel.de>
+
+	* First public release 0.1.0
+
