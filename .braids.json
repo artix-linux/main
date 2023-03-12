@@ -2759,7 +2759,7 @@
     "hidapi": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hidapi.git",
       "branch": "master",
-      "revision": "49413986c526d7802f7fdd4294dabc75f356d7e4"
+      "revision": "aa08c27a8979544cec5d898cb256f1dc21e907e7"
     },
     "hiera": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiera.git",
