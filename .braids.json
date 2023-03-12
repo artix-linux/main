@@ -4194,7 +4194,7 @@
     "libmanette": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmanette.git",
       "branch": "master",
-      "revision": "1eb79ccc081ca4ded1fd8bacbda575cb9e02e249"
+      "revision": "c3b6efe35cd2588b9a2be8735b0f9a02f706b19a"
     },
     "libmatroska": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmatroska.git",
