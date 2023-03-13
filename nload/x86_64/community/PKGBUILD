@@ -1,34 +1,32 @@
 # Maintainer: Torr <torr@artixlinux.org>
+# Contributor: Andreas Hauser <andy-aur@splashground.de>
+
 pkgname=nload
 pkgver=0.7.4
-pkgrel=1
-pkgdesc="console application which monitors network traffic and bandwidth usage"
-arch=("x86_64")
-url="http://www.roland-riegel.de/nload/"
-license=("GPL2")
-changelog=Changelog.txt
-depends=("ncurses")
-makedepends=(
-	"gcc"
-	"make"
-	"automake"
-	"autoconf"
-)
-source=(
-	"http://www.roland-riegel.de/$pkgname/$pkgname-$pkgver.tar.gz"
-)
-sha256sums=(
-	"c1c051e7155e26243d569be5d99c744d8620e65fa8a7e05efcf84d01d9d469e5"
-)
+pkgrel=7
+pkgdesc='Monitors network traffic and bandwidth usage'
+url='http://www.roland-riegel.de/nload'
+license=('GPL2')
+depends=('gcc-libs' 'ncurses')
+arch=('x86_64')
+source=("$url/$pkgname-$pkgver.tar.gz")
+sha512sums=('ca3e36d3f77c5a7994a3261042fb65a1458a29c769e6bebbe3b8e49b3045aca6f4d047065d11431b28368e0d881c24c92533fa24f0e54ac270f1f5bccfb5c0af')
+
+prepare() {
+  cd $pkgname-$pkgver
+  # make gzip reproducible by not embedding timestamps
+  sed -i 's/gzip -f/gzip -nf'/ docs/Makefile.am docs/Makefile.in
+}
 
 build() {
-	cd "$pkgname-$pkgver"
-	./configure --prefix=/usr
-	make
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr
+  make
 }
 
 package() {
-	cd "$pkgname-$pkgver"
-	make install DESTDIR="$pkgdir"
-	install -Dm 644 COPYING "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  cd $pkgname-$pkgver
+  make DESTDIR="$pkgdir" install
 }
+
+# vim:set ts=2 sw=2 et:
