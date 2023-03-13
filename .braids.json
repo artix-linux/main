@@ -6229,7 +6229,7 @@
     "nload": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nload.git",
       "branch": "master",
-      "revision": "043666914a1044c21b5f0d9c49710440fc4bbe97"
+      "revision": "b1113ae45fbb0dd6e179de3803f6a25bfcb3ae95"
     },
     "nlohmann-json": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nlohmann-json.git",
