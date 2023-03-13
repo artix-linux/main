@@ -2304,7 +2304,7 @@
     "glibmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm.git",
       "branch": "master",
-      "revision": "18af29f799559135110a1b8ddb47215425c91232"
+      "revision": "ab0ecf4ab8c9bfac00c3ef66ff50891d8aff9aa9"
     },
     "glibmm-2.68": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibmm-2.68.git",
