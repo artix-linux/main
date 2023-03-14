@@ -784,7 +784,7 @@
     "ccache": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ccache.git",
       "branch": "master",
-      "revision": "39d8946663af6b2af2f04fffd191cf26887d7cbe"
+      "revision": "c278be17303015f1a2af47a0d332b1d0078156ca"
     },
     "cdparanoia": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cdparanoia.git",
