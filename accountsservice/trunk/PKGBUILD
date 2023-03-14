@@ -30,10 +30,10 @@ checkdepends=(
 _commit=1ef3add46983af875adfed5d29954cbfb184f688  # tags/22.08.8^0
 source=(
   "git+https://gitlab.freedesktop.org/accountsservice/accountsservice.git#commit=$_commit"
-  0001-user-manager-Prevent-use-after-free-of-request-user.patch
+  0001-user-manager-Prevent-use-after-free-of-request-user.patch::https://gitlab.freedesktop.org/accountsservice/accountsservice/-/merge_requests/124.patch
 )
 b2sums=('SKIP'
-        '249ba2e824a600b4f12030d789c531114699ba4b76957e841c89301d192ddaddc71cd2a9b0f0d432164b6e528132b3f6348e7086a778d372daf6d1de5650e0cd')
+        '8937af570d04dbc2c5457157fd2aca733683961baf32746e0eb28f86ad10df44798f841f87fc8ed53c0e2b7734050ee5cbd8893c2767851a49baa11eef3c57d3')
 
 pkgver() {
   cd $pkgname
