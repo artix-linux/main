@@ -19,7 +19,7 @@
     "accountsservice": {
       "url": "gitea@gitea.artixlinux.org:packagesA/accountsservice.git",
       "branch": "master",
-      "revision": "9ae339bde045fdd7f33c22ecfa1604290a49937d"
+      "revision": "fef85dd491bad09d5b8ae9bd06ec14760bf431b6"
     },
     "acl": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acl.git",
