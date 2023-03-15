@@ -6649,7 +6649,7 @@
     "openvr": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvr.git",
       "branch": "master",
-      "revision": "2d4b4154bd80cc32d3c5fdec85a1150e9dbe8394"
+      "revision": "974f6c80ee41da4f5540644db0f270fbc049b9c3"
     },
     "optipng": {
       "url": "gitea@gitea.artixlinux.org:packagesO/optipng.git",
