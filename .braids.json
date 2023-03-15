@@ -3419,7 +3419,7 @@
     "ldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldb.git",
       "branch": "master",
-      "revision": "94d228f0b28a5c28da9313a920263c3a2ccc3f76"
+      "revision": "11f686236f189deee20c7981bd0d6ae9b161ae11"
     },
     "ldc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ldc.git",
