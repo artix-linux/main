@@ -1914,7 +1914,7 @@
     "findutils": {
       "url": "gitea@gitea.artixlinux.org:packagesF/findutils.git",
       "branch": "master",
-      "revision": "9fb249a3d47ae8f04fc5d55f748a09b3c19a6810"
+      "revision": "bc31aa1b33b7a94dfd3d3a387cdab221e8fa51fb"
     },
     "fira-code": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fira-code.git",
