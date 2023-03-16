@@ -2139,7 +2139,7 @@
     "gawk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gawk.git",
       "branch": "master",
-      "revision": "7a8a9d61a65256b8ad654fd9a832f2190cc4d26a"
+      "revision": "41bfeb17ef62125236079526c9657cbf1e9445ad"
     },
     "gc": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gc.git",
