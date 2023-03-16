@@ -6154,7 +6154,7 @@
     "netcdf": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcdf.git",
       "branch": "master",
-      "revision": "c30b120be09020bed3befd08f1ead48367cc3b21"
+      "revision": "1b40c64f3d2465c7a83e4afe1a42145f784e211e"
     },
     "netcdf-fortran": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netcdf-fortran.git",
