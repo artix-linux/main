@@ -1889,7 +1889,7 @@
     "ffnvcodec-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffnvcodec-headers.git",
       "branch": "master",
-      "revision": "95f086df1bcd481612287dc4d0a707c9c07f2b5b"
+      "revision": "46937533d8e09ca72ee592c914cfa1eec8636cbc"
     },
     "fftw": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fftw.git",
