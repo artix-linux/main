@@ -2324,7 +2324,7 @@
     "glslang": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glslang.git",
       "branch": "master",
-      "revision": "9bd4102ba3f7db12cace978f5e15ae98984d38f1"
+      "revision": "bec1fb55a874e1f3da83c2a77efc37f8f076357b"
     },
     "glu": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glu.git",
