@@ -7744,7 +7744,7 @@
     "qt6-webchannel": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-webchannel.git",
       "branch": "master",
-      "revision": "0b9e3fb5294793131b93de95ee655f791257b1fd"
+      "revision": "4f7cca9838285aa913fb1d166176d5861082d6c4"
     },
     "qt6-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-webengine.git",
