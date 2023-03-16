@@ -2504,7 +2504,7 @@
     "groff": {
       "url": "gitea@gitea.artixlinux.org:packagesG/groff.git",
       "branch": "master",
-      "revision": "869ae902a266520fffa7b75f366ad06f874c13b2"
+      "revision": "3728425e2d2b75b8df807c634111b287a30dfa23"
     },
     "groovy": {
       "url": "gitea@gitea.artixlinux.org:packagesG/groovy.git",
