@@ -5059,7 +5059,7 @@
     "libxaw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxaw.git",
       "branch": "master",
-      "revision": "37c8b169628c47b13b071c5e3846eb5c939bc092"
+      "revision": "8067cd03edeb36ea390b846778e06f929d46e62b"
     },
     "libxcb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxcb.git",
