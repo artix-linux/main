@@ -11,7 +11,7 @@ pkgdesc='Userspace device file manager'
 _tag='199399bb283701b6a4aaf5ace49f56f30f38e9a3' # git rev-parse v${_tag_name}
 _tag_name=253.1
 pkgver="${_tag_name/-/}"
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 url='https://www.github.com/systemd/systemd'
 license=('GPL2' 'LGPL2.1')
@@ -284,7 +284,6 @@ package_libudev() {
 
 package_esysusers() {
     pkgdesc='the sysusers.d binary'
-    groups=('base-devel')
     depends=('gcc-libs' 'libxcrypt')
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags sysusers
@@ -300,7 +299,6 @@ package_esysusers() {
 
 package_etmpfiles() {
     pkgdesc='the tmpfiles.d binary'
-    groups=('base-devel')
     depends=('acl' 'libacl.so' 'libcap' 'libcap.so')
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags tmpfiles
