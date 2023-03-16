@@ -9129,7 +9129,7 @@
     "udev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udev.git",
       "branch": "master",
-      "revision": "52caf5c70ced173203543856a2b7b763fe5c2ea7"
+      "revision": "709df0430bbbd053092c168e2e72243abe4970cb"
     },
     "udisks2": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udisks2.git",
