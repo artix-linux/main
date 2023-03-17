@@ -20,6 +20,9 @@ makedepends=(
 	"cmake>=3.5"
 	"pkgconf"
 )
+checkdepends=(
+	"jq"
+)
 source=(
 	"https://github.com/Dushistov/sdcv/archive/v0.5.4.tar.gz"
 )
