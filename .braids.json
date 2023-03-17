@@ -8179,7 +8179,7 @@
     "sdcv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdcv.git",
       "branch": "master",
-      "revision": "b6e039b4fab0a0ce91d2b6a66af594476dd8a95f"
+      "revision": "eb27cd1fceb414bb7b4f7255223846ba7535dad1"
     },
     "sdl": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl.git",
