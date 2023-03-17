@@ -8176,6 +8176,11 @@
       "branch": "master",
       "revision": "233f5aba0b2377f22ffeecedc29a0e40256c2683"
     },
+    "sdcv": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sdcv.git",
+      "branch": "master",
+      "revision": "7efb6bf5a263e31a9f121a1ccef53bd777845edf"
+    },
     "sdl": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sdl.git",
       "branch": "master",
