@@ -14,6 +14,7 @@ url="https://wiki.gnome.org/Projects/GObjectIntrospection"
 arch=(x86_64)
 license=(LGPL GPL)
 _glibver=2.76.0
+_glibcommit=8a9ada663923e39c0e8d7eefe65390955dc3c0d8
 makedepends=(
   cairo
   git
@@ -27,7 +28,7 @@ makedepends=(
 _commit=7aec38488a4d5fbc8539f798a7ce9ae1cb4df711  # tags/1.76.0^0
 source=(
   "git+https://gitlab.gnome.org/GNOME/gobject-introspection.git#commit=$_commit"
-  "git+https://gitlab.gnome.org/GNOME/glib.git?signed#tag=$_glibver"
+  "git+https://gitlab.gnome.org/GNOME/glib.git#commit=$_glibcommit"
 )
 b2sums=('SKIP'
         'SKIP')
