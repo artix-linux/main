@@ -7914,7 +7914,7 @@
     "refind": {
       "url": "gitea@gitea.artixlinux.org:packagesR/refind.git",
       "branch": "master",
-      "revision": "9e59fca3ec1269c21a772244dcfc1f5db0ba5be1"
+      "revision": "b46d47de1aa0226466c9ab38fe8f25f2b6285092"
     },
     "reiserfsprogs": {
       "url": "gitea@gitea.artixlinux.org:packagesR/reiserfsprogs.git",
