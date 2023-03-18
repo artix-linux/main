@@ -1279,7 +1279,7 @@
     "debugedit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/debugedit.git",
       "branch": "master",
-      "revision": "a99795e0ab32fb1440348a3b4ff163a9a363af02"
+      "revision": "f3c1a888157cc2c99fbf42733ba738267bba2cd9"
     },
     "default-cursors": {
       "url": "gitea@gitea.artixlinux.org:packagesD/default-cursors.git",
