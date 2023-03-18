@@ -1589,7 +1589,7 @@
     "efivar": {
       "url": "gitea@gitea.artixlinux.org:packagesE/efivar.git",
       "branch": "master",
-      "revision": "02be2d491f211ef7edaeff488c169211b1db2750"
+      "revision": "56c350d4715e05231222efc95984d59fd3e0e93d"
     },
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
