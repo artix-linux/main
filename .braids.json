@@ -4719,7 +4719,7 @@
     "libsoup3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoup3.git",
       "branch": "master",
-      "revision": "bbba5807d052180c4ed86b82c37d3bb442c364e7"
+      "revision": "f1bc05e6a0f78c2f17e37d1c30195ccd28a4a995"
     },
     "libsoxr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsoxr.git",
