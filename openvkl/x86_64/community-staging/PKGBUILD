@@ -10,13 +10,13 @@ license=(Apache)
 depends=(embree ispc glfw libglvnd imath openvdb rkcommon tbb zlib)
 makedepends=(boost cmake)
 source=(https://github.com/openvkl/openvkl/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz
-	0001-embree.patch)
+	embree.patch::https://github.com/openvkl/openvkl/commit/f4d7f220b4823e2cc1b26ba6c9f09107d6291edf.patch)
 sha256sums=('c9cefb6c313f2b4c0331e9629931759a6bc204ec00deed6ec0becad1670a1933'
-            'a0558104d836c578febab6d113c8a38a60a60851942c6af821033bb7a7dcc89b')
+            '4c249aa99ba38d512ae867b78bb9aeda83e59a7919ead8f38659bf2b7cb39a4d')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  patch -Np1 -i ../0001-embree.patch
+  patch -Np1 -i ../embree.patch
 }
 
 build() {
