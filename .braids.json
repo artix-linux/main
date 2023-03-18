@@ -5269,7 +5269,7 @@
     "licenses": {
       "url": "gitea@gitea.artixlinux.org:packagesL/licenses.git",
       "branch": "master",
-      "revision": "027e07267fa5819dd937e112af3449a973d7f773"
+      "revision": "68c6e798e92c23cada79a6b2dd2eccbeec39a7b3"
     },
     "light-locker": {
       "url": "gitea@gitea.artixlinux.org:packagesL/light-locker.git",
