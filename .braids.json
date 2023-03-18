@@ -3494,7 +3494,7 @@
     "libaio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libaio.git",
       "branch": "master",
-      "revision": "c0c135abf92a8ea772af32a80ec55cddb5f3a989"
+      "revision": "cb932d558e6d24de3771ede5316133c95aecf98f"
     },
     "libao": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libao.git",
