@@ -379,7 +379,7 @@
     "automake": {
       "url": "gitea@gitea.artixlinux.org:packagesA/automake.git",
       "branch": "master",
-      "revision": "c79549e42a0a6b61379e4e836159296df71147f6"
+      "revision": "6a518ca62633e6d4fc7657c2f483e2b86115eda7"
     },
     "autopep8": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autopep8.git",
