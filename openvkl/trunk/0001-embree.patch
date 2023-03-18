@@ -1,0 +1,25 @@
+From bd24c54baf7860e4b7448cbc648612f564bdef61 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Sat, 18 Mar 2023 00:06:00 -0500
+Subject: [PATCH] embree
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index b0981f6..22a1b88 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -57,7 +57,7 @@ get_target_property(RKCOMMON_INCLUDE_DIRS rkcommon::rkcommon
+ # rkcommon includes FindTBB.cmake, needed by Embree
+ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${rkcommon_DIR})
+ 
+-find_package(embree 3.13.1 REQUIRED)
++find_package(embree REQUIRED)
+ openvkl_create_embree_target()
+ 
+ ## Build library, examples, and tests ##
+-- 
+2.40.0
+
