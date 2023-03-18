@@ -9214,7 +9214,7 @@
     "unifdef": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unifdef.git",
       "branch": "master",
-      "revision": "762cd8f4f74faa63fda6d36da11af85d9d13e22f"
+      "revision": "44b5a6c1bffc8a254b20db484f21a9927f9766bf"
     },
     "unittestpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unittestpp.git",
