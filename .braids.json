@@ -2169,7 +2169,7 @@
     "gdbm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdbm.git",
       "branch": "master",
-      "revision": "447c855f41c75578cf29d86735e1e9ed5a395550"
+      "revision": "0614d8c769fc6fced51f2263af5515360a1fa724"
     },
     "gdk-pixbuf-xlib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdk-pixbuf-xlib.git",
