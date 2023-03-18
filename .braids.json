@@ -9211,6 +9211,11 @@
       "branch": "master",
       "revision": "614f81a7882033967072edb3bfd9bfaca41d8018"
     },
+    "unifdef": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unifdef.git",
+      "branch": "master",
+      "revision": "762cd8f4f74faa63fda6d36da11af85d9d13e22f"
+    },
     "unittestpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unittestpp.git",
       "branch": "master",
