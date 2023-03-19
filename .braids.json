@@ -3394,7 +3394,7 @@
     "ladspa": {
       "url": "gitea@gitea.artixlinux.org:packagesL/ladspa.git",
       "branch": "master",
-      "revision": "a92570367563cf99ff28de7fd28dd87f8664eed5"
+      "revision": "deeca3613c8ad1a457de7940e24bdc17d6eebfd8"
     },
     "lame": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lame.git",
