@@ -94,7 +94,7 @@
     "alsa-topology-conf": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-topology-conf.git",
       "branch": "master",
-      "revision": "0909ad0677fb556c9f2fd8c064f4cf1e24b7ab00"
+      "revision": "999f2b334dd1d1ad733e07ceac3d9a4da10ab7b4"
     },
     "alsa-ucm-conf": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-ucm-conf.git",
