@@ -3499,7 +3499,7 @@
     "libao": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libao.git",
       "branch": "master",
-      "revision": "eb2d94fbe009275f2146097ec601b6916276c9dc"
+      "revision": "4489729fb4cdf38a26ea27ed94eed704b43e9e88"
     },
     "libappindicator": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libappindicator.git",
