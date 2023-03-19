@@ -1,6 +1,0 @@
-#!/bin/bash -ex
-
-exec cmake \
-	"$@" \
-	-DCMAKE_PREFIX_PATH=/usr \
-	-DCMAKE_INSTALL_LIBDIR=/usr/lib

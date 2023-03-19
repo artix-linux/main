@@ -3,7 +3,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=cmake
-pkgver=3.25.3
+pkgver=3.26.0
 pkgrel=1
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
@@ -14,10 +14,6 @@ makedepends=('qt6-base' 'python-sphinx' 'emacs')
 optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
         "artix-cmake"{,.patch})
-sha512sums=('ebcb5616ca418fe164863b157f67cff6e8c49b0f8f723c0bd219466211f3cfe8b93c4b3ad0fe6d2d3772881fd867b0905340945156f6d70a9ea08bfb7eb98550'
-            '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7'
-            '8a838312162d7792d3a3c5168629191c5c6ae61095bec157c49528b393bf4fe1573567855efd5037675bf0d0837641ed45b26da65165e45ba711f123879b156c')
-
 prepare() {
   cd ${pkgname}-${pkgver}
   patch -Np1 -i ../artix-cmake.patch
@@ -46,3 +42,6 @@ package() {
   install -Dm644 Copyright.txt "${pkgdir}"/usr/share/licenses/${pkgname}/LICENSE
   install -Dm755 "$srcdir"/artix-cmake "$pkgdir"/usr/bin/artix-cmake
 }
+sha256sums=('4256613188857e95700621f7cdaaeb954f3546a9249e942bc2f9b3c26e381365'
+            '215c4eaac9753eb4039ff23d6a48e9a9469829b18072a23ef9c0658e0a90ddff'
+            '5bdeac4cec6edd657ec6877c3c8b3475c86cee08c3cd71e66ca381243041dc98')
