@@ -8999,7 +8999,7 @@
     "transcode": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transcode.git",
       "branch": "master",
-      "revision": "4e2b2afc584f63e67e6501e54b595d336325705c"
+      "revision": "64d8b60b15d259345f5547407d6cbd61b55ad6e4"
     },
     "transmageddon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmageddon.git",
