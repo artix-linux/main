@@ -7844,7 +7844,7 @@
     "rasqal": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rasqal.git",
       "branch": "master",
-      "revision": "a02e9d6d671d27239faf6bf9bccf69100b6d9fc8"
+      "revision": "913dbdbf983cd4302289f174a18cac7797644ecf"
     },
     "rav1e": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rav1e.git",
