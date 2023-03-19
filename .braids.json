@@ -7839,7 +7839,7 @@
     "raptor": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raptor.git",
       "branch": "master",
-      "revision": "cb7b37fe564c23e1ba24e4a636e738c8d02fc7b6"
+      "revision": "365348e5e477acf1cc0845da896ea029ba78d55e"
     },
     "rasqal": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rasqal.git",
