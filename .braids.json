@@ -6084,7 +6084,7 @@
     "nasm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nasm.git",
       "branch": "master",
-      "revision": "c8e856ddebc9168c02f2354c3afbe0e53918732b"
+      "revision": "907f730b55513cbbcd6cfd071b373cf60ba96be8"
     },
     "nauty": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nauty.git",
