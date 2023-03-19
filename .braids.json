@@ -3549,7 +3549,7 @@
     "libavtp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavtp.git",
       "branch": "master",
-      "revision": "ece73a37e84214e38d27327e7286f88016d4ffb2"
+      "revision": "29fb02e5d67c2a3ee68a391529a24ec69084f99b"
     },
     "libb2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libb2.git",
