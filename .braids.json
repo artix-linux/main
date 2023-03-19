@@ -1589,7 +1589,7 @@
     "efibootmgr": {
       "url": "gitea@gitea.artixlinux.org:packagesE/efibootmgr.git",
       "branch": "master",
-      "revision": "9e57dc001509a3b99a3193855488386fea5e6478"
+      "revision": "321ddf798600bccc35956323d3933088f023fd13"
     },
     "efivar": {
       "url": "gitea@gitea.artixlinux.org:packagesE/efivar.git",
