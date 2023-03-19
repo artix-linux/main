@@ -3104,7 +3104,7 @@
     "jami-daemon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jami-daemon.git",
       "branch": "master",
-      "revision": "6239137f3ac225abb361b863bbfd225b546aface"
+      "revision": "86478361292ccf034c24a953418bd94f7ce931f8"
     },
     "jansson": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jansson.git",
