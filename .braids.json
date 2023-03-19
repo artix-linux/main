@@ -74,7 +74,7 @@
     "alsa-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-firmware.git",
       "branch": "master",
-      "revision": "2179339343fb2ebe3492259db17a8b08f38d6c36"
+      "revision": "9f079da350302d5ef9f97afebfdee15affe08866"
     },
     "alsa-lib": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-lib.git",
