@@ -1759,7 +1759,7 @@
     "faac": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faac.git",
       "branch": "master",
-      "revision": "17e3258c1f54a2c735dd28f58b10bfcb5f584982"
+      "revision": "835858df8336c021e2b69dd42c8f242ecbef24c1"
     },
     "faad2": {
       "url": "gitea@gitea.artixlinux.org:packagesF/faad2.git",
