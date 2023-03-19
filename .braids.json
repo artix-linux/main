@@ -7634,7 +7634,7 @@
     "qt6-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-doc.git",
       "branch": "master",
-      "revision": "1561fe1a9c17d48af13848c809ed55a6a202a0e4"
+      "revision": "e0a3403393ce6fc38b40a9796f79418709a9d0f6"
     },
     "qt6-httpserver": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-httpserver.git",
