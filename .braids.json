@@ -8909,7 +8909,7 @@
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
       "branch": "master",
-      "revision": "a9fbfd22e12902921242929adb27f75e3f428a4c"
+      "revision": "fda5eac2d76523a8b7713ee6f23f5f1a1cbb0a34"
     },
     "tinycompress": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycompress.git",
