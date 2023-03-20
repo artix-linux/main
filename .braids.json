@@ -4124,7 +4124,7 @@
     "libkate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libkate.git",
       "branch": "master",
-      "revision": "1d86b02f6f8fe8a20e3cb7ccc83352811930725a"
+      "revision": "5485a79af6bdbaa0314b900a6d1766f8e1ba411f"
     },
     "libkeybinder3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libkeybinder3.git",
