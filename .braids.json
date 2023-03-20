@@ -4029,7 +4029,7 @@
     "libid3tag": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libid3tag.git",
       "branch": "master",
-      "revision": "f79f044dbe61763988a87c48a757417a0df38a15"
+      "revision": "88cc5c9bdd31e20e24f2983e931ad165d36516cd"
     },
     "libident": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libident.git",
