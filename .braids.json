@@ -7009,7 +7009,7 @@
     "portaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesP/portaudio.git",
       "branch": "master",
-      "revision": "42222eeaaf3ec4d2772d28287020d18372763f17"
+      "revision": "d3dbf0344728d07c47e8f075f8d6c47aaf7d9c31"
     },
     "portmidi": {
       "url": "gitea@gitea.artixlinux.org:packagesP/portmidi.git",
