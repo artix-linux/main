@@ -2,7 +2,7 @@
 
 pkgname=adobe-source-code-pro-fonts
 pkgver=2.038ro+1.058it+1.018var
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Monospaced font family for user interface and coding environments"
 url="https://adobe-fonts.github.io/source-code-pro/"
 arch=(any)
