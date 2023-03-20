@@ -4289,7 +4289,7 @@
     "libmpdclient": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmpdclient.git",
       "branch": "master",
-      "revision": "bd9a24b20bfdd97a893b13be8bd11dcef2e1b0b5"
+      "revision": "a1d55ce6321fe6ae6f09cccc58e875d6165fa717"
     },
     "libmpeg2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmpeg2.git",
