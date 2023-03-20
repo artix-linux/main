@@ -69,7 +69,7 @@
     "adobe-source-sans-pro-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adobe-source-sans-pro-fonts.git",
       "branch": "master",
-      "revision": "e6fe49bbabb1e3e95c02ce58a47716a175546d3e"
+      "revision": "3b693147ec4cee584a376ff4ffc33dcd0d642f2c"
     },
     "adwaita-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adwaita-icon-theme.git",
