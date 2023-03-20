@@ -11,7 +11,7 @@ pkgrel=1
 arch=(x86_64)
 url='https://gmic.eu/'
 license=(custom:CeCILL)
-makedepends=(cmake gimp qt5-base fftw openexr opencv eigen graphicsmagick qt5-tools)
+makedepends=(cmake gimp gmic graphicsmagick qt5-base fftw openexr opencv eigen graphicsmagick qt5-tools)
 source=(https://gmic.eu/files/source/gmic_$pkgver.tar.gz
         CMakeLists.txt FindCImg.cmake FindGMicStdlib.cmake
         gmic-qt-pr-176.patch::https://patch-diff.githubusercontent.com/raw/c-koi/gmic-qt/pull/176.patch)
