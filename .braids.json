@@ -7874,7 +7874,7 @@
     "rclone": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rclone.git",
       "branch": "master",
-      "revision": "28c7ab6d6c489d80eea663b441d5ffdce69d28a3"
+      "revision": "66e4e5dfb85bd17800e108faf3f3cc54fb6d011a"
     },
     "re2": {
       "url": "gitea@gitea.artixlinux.org:packagesR/re2.git",
