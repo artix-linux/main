@@ -4084,7 +4084,7 @@
     "libinstpatch": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinstpatch.git",
       "branch": "master",
-      "revision": "fd7133768777d4a6665b8622702f0a53d8f3def1"
+      "revision": "7dee2aec19de9b8b28361f4f9fee9812aee1840a"
     },
     "libisl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libisl.git",
