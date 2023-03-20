@@ -7014,7 +7014,7 @@
     "portmidi": {
       "url": "gitea@gitea.artixlinux.org:packagesP/portmidi.git",
       "branch": "master",
-      "revision": "040b7e9bbc5ea9d15fbb0e7df568f14442688435"
+      "revision": "3f2795187e524c1d31fee18318fb09fce62e8df0"
     },
     "portsmf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/portsmf.git",
