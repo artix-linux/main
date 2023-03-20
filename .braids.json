@@ -4624,7 +4624,7 @@
     "libsamplerate": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsamplerate.git",
       "branch": "master",
-      "revision": "ed5f39a019023504958222df4e14bf196817e9da"
+      "revision": "dd809b60f948606ce8c752ee5fa711cf35e8c5da"
     },
     "libsasl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsasl.git",
