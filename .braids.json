@@ -1394,7 +1394,7 @@
     "dmidecode": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmidecode.git",
       "branch": "master",
-      "revision": "71a6101deced07e9298185f931ef26d9b057a511"
+      "revision": "8ace9c176df589a824a59a4908d5849d2391050a"
     },
     "dmraid": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmraid.git",
