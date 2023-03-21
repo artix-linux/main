@@ -8124,7 +8124,7 @@
     "samba": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba.git",
       "branch": "master",
-      "revision": "bcb5f196b179de72b6da6c43d67d19d6105a2cac"
+      "revision": "5ec5ae8a2a485b2ff62bacd71e45516b73a2261b"
     },
     "samurai": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samurai.git",
