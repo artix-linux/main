@@ -8629,7 +8629,7 @@
     "stunnel": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel.git",
       "branch": "master",
-      "revision": "23eacf3f4dc52196c266a04946ed4d2e07178a6c"
+      "revision": "d81346c5e5a63bb3ddba7461c09d8369daddc863"
     },
     "subversion": {
       "url": "gitea@gitea.artixlinux.org:packagesS/subversion.git",
