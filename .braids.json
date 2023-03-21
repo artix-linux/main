@@ -1064,7 +1064,7 @@
     "containerd": {
       "url": "gitea@gitea.artixlinux.org:packagesC/containerd.git",
       "branch": "master",
-      "revision": "9c1b0f9424ba749700a5c4bde41d3bd374c246e0"
+      "revision": "5561e32ec1a7ffb88028103ed0f06d3b94cdffb2"
     },
     "containers-common": {
       "url": "gitea@gitea.artixlinux.org:packagesC/containers-common.git",
