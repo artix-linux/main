@@ -824,7 +824,7 @@
     "cgns": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgns.git",
       "branch": "master",
-      "revision": "13aac7367d6cdabd4c836af27db8bee94092725e"
+      "revision": "184833637881feed2a1818a3c15561583338f3fe"
     },
     "chafa": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chafa.git",
