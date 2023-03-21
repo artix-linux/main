@@ -3299,7 +3299,7 @@
     "jupyter-nbformat": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbformat.git",
       "branch": "master",
-      "revision": "dbf08add096a3aa6e08571e1735cac0f12ed89b0"
+      "revision": "a74e40f2cab0431cf59a75e2a14d3305f6f8285e"
     },
     "jupyter-notebook": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-notebook.git",
