@@ -1,13 +1,13 @@
-# Maintainer: David Runge <dvzrv@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=cpptoml
 pkgver=0.1.1
-pkgrel=2
-pkgdesc="A header-only library for parsing TOML "
-arch=('any')
+pkgrel=3
+pkgdesc="A header-only library for parsing TOML"
+arch=(any)
 url="https://github.com/skystrife/cpptoml"
-license=('MIT')
-makedepends=('cmake')
+license=(MIT)
+makedepends=(cmake)
 source=("$pkgname-$pkgver.tar.gz::https://github.com/skystrife/${pkgname}/archive/v${pkgver}.tar.gz"
         "0001-add-missing-header.patch")
 sha512sums=('14edce576514d53a7e13562d7f8d2b66ea2b95f44038396c0e26232ec81783042ebecec31ee272a99afef96d5c8582a8e81ea5167a787844b98de6ee6f545cc5'
@@ -16,23 +16,28 @@ b2sums=('c0ce036bec4731c4dfe96d01076b9ca18a1c4108180d5dbc839dfc44b37eb0c7af85f68
         '7cf771f29940003d9ad5a9a250a5b05b4d99c901ad09291f172c38dd9f71225526353b18b9cfda9e211d965290cf092e4a80645a0fd0a4d5f9be97637944d2a6')
 
 prepare() {
-  cd "$pkgname-$pkgver"
   patch -Np1 -i ../0001-add-missing-header.patch
 }
 
 build() {
-  cd "$pkgname-$pkgver"
-  cmake -DCMAKE_INSTALL_PREFIX='/usr' \
-        -DCMAKE_BUILD_TYPE='None' \
-        -Wno-dev \
-        -B build\
-        -S .
-  make VERBOSE=1 -C build
+  local cmake_options=(
+    -B build
+    -D CMAKE_BUILD_TYPE=None
+    -D CMAKE_INSTALL_PREFIX=/usr
+    -W no-dev
+    -S $pkgname-$pkgver
+  )
+
+  cmake "${cmake_options[@]}"
+  cmake --build build --verbose
+}
+
+check() {
+  ctest --test-dir build --output-on-failure
 }
 
 package() {
-  cd "$pkgname-$pkgver"
-  make DESTDIR="$pkgdir/" VERBOSE=1 install -C build
-  install -vDm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
-  install -vDm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  DESTDIR="$pkgdir" cmake --install build
+  install -vDm 644 $pkgname-$pkgver/LICENSE -t "$pkgdir/usr/share/licenses/$pkgname/"
+  install -vDm 644 $pkgname-$pkgver/README.md -t "$pkgdir/usr/share/doc/$pkgname/"
 }
