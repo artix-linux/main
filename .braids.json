@@ -10094,7 +10094,7 @@
     "xorg-xwayland": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwayland.git",
       "branch": "master",
-      "revision": "1ca61b8153332626b761d472f3aab15ae09351f3"
+      "revision": "2cd61a057d0b403aea430a78466654da34867aac"
     },
     "xorg-xwininfo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xwininfo.git",
