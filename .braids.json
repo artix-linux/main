@@ -1109,7 +1109,7 @@
     "cpptoml": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpptoml.git",
       "branch": "master",
-      "revision": "a664309ac6674511832cb1c18e3e396a41185b3e"
+      "revision": "8813268ddf79ef24e135c4021353727b183af939"
     },
     "cppunit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cppunit.git",
