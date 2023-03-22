@@ -5299,7 +5299,7 @@
     "links": {
       "url": "gitea@gitea.artixlinux.org:packagesL/links.git",
       "branch": "master",
-      "revision": "33f2b8f1e9d66c61dc601a9b05aa4ba130f6d5e9"
+      "revision": "28bf92fd6a9347e2ceedc30a105893a2ff1b190d"
     },
     "linux": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux.git",
