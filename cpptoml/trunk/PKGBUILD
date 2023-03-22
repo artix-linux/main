@@ -16,6 +16,7 @@ b2sums=('c0ce036bec4731c4dfe96d01076b9ca18a1c4108180d5dbc839dfc44b37eb0c7af85f68
         '7cf771f29940003d9ad5a9a250a5b05b4d99c901ad09291f172c38dd9f71225526353b18b9cfda9e211d965290cf092e4a80645a0fd0a4d5f9be97637944d2a6')
 
 prepare() {
+  cd $pkgname-$pkgver
   patch -Np1 -i ../0001-add-missing-header.patch
 }
 
