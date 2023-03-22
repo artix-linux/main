@@ -31,7 +31,7 @@ prepare() {
 }
 
 build() {
-  cmake -B build -S ${pkgname^^}-${pkgver} \
+  artix-cmake -B build -S ${pkgname^^}-${pkgver} \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_SKIP_RPATH=ON \
     -DADIOS2_USE_EXTERNAL_DEPENDENCIES=ON \
