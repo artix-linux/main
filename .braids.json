@@ -1714,7 +1714,7 @@
     "espeakup": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeakup.git",
       "branch": "master",
-      "revision": "13fe9c7399e13bef034d8d7eb62342f4af53e082"
+      "revision": "d7e08e8cc1591064e19cbaede537b0d7ef92a69e"
     },
     "etherwall": {
       "url": "gitea@gitea.artixlinux.org:packagesE/etherwall.git",
