@@ -6139,7 +6139,7 @@
     "neomutt": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neomutt.git",
       "branch": "master",
-      "revision": "e69e1f1762d2cb264d563403204ec6ccc0b06b40"
+      "revision": "c0ede186e47877b1606a1ebe8c8bb8abac2650b4"
     },
     "neon": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neon.git",
