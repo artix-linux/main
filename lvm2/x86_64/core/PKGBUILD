@@ -1,10 +1,10 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Maintainer: Thomas Bächler <thomas@archlinux.org>
 
 pkgbase=lvm2
 pkgname=('lvm2' 'device-mapper')
-_tag='8a84d53c113371f1908325dbada488c233f04e97' # git rev-parse v${pkgver//./_}
-pkgver=2.03.19
+_tag='aba3b33d3778ad28b445130ebaa8efca4ddba844' # git rev-parse v${pkgver//./_}
+pkgver=2.03.20
 pkgrel=1
 arch=('x86_64')
 url='https://sourceware.org/lvm2/'
@@ -75,7 +75,7 @@ build() {
 package_device-mapper() {
   pkgdesc="Device mapper userspace library and tools"
   url="http://sourceware.org/dm/"
-  depends=('glibc' 'libudev.so')
+  depends=('glibc' 'libudev' 'libudev.so')
   provides=('libdevmapper.so'
     'libdevmapper-event.so')
 
@@ -88,9 +88,9 @@ package_device-mapper() {
 
 package_lvm2() {
   pkgdesc="Logical Volume Manager 2 utilities"
-  depends=('bash' "device-mapper>=${pkgver}" 'libudev.so'
-            'util-linux-libs' 'libblkid.so' 'readline' 'libreadline.so'
-            'thin-provisioning-tools' 'libaio' 'libaio.so')
+  depends=('bash' "device-mapper>=${pkgver}" 'libudev'
+    'libudev.so' 'util-linux-libs' 'libblkid.so' 'readline' 'libreadline.so'
+    'thin-provisioning-tools' 'libaio' 'libaio.so')
   conflicts=('lvm' 'mkinitcpio<0.7')
   backup=('etc/lvm/lvm.conf'
     'etc/lvm/lvmlocal.conf')
