@@ -1284,7 +1284,7 @@
     "debugedit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/debugedit.git",
       "branch": "master",
-      "revision": "f3c1a888157cc2c99fbf42733ba738267bba2cd9"
+      "revision": "1e8f6e40853e42656261971d22e67db86c7d0dfc"
     },
     "default-cursors": {
       "url": "gitea@gitea.artixlinux.org:packagesD/default-cursors.git",
