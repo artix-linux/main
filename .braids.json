@@ -1989,7 +1989,7 @@
     "fltk": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fltk.git",
       "branch": "master",
-      "revision": "ef0299d7437389118712baa5b710d688b5807fb1"
+      "revision": "3e84c5f23aa45ecb76d2522431daa5b098b85492"
     },
     "fluidsynth": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fluidsynth.git",
