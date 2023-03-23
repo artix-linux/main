@@ -3,7 +3,7 @@
 
 pkgname=cryptsetup
 pkgver=2.6.1
-pkgrel=1
+pkgrel=3
 pkgdesc='Userspace setup tool for transparent encryption of block devices using dm-crypt'
 arch=(x86_64)
 license=('GPL')
@@ -19,7 +19,7 @@ source=("https://www.kernel.org/pub/linux/utils/cryptsetup/v${pkgver%.*}/${pkgna
         'install-encrypt')
 sha256sums=('410ded65a1072ab9c8e41added37b9729c087fef4d2db02bb4ef529ad6da4693'
             'SKIP'
-            '29a3f1db5b86a8e6b7c914125e2c46711d6d5985bbf4089e158e06af551c8307'
+            '839e961e053512293052250b424f38c347cb46c14cbd51d7e2705b3f5378ec02'
             '2b71c6c56ef81e5bf4f49dcc08dbd1651b46bda51a8f75a0a342b344b2d0eccd')
 
 build() {
