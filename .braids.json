@@ -1974,7 +1974,7 @@
     "flex": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flex.git",
       "branch": "master",
-      "revision": "e79185e9d9f84e36703b76f80b18d46b3731796e"
+      "revision": "dd95a74527fcd1bca6e3aaed993713ccae02597c"
     },
     "flickcurl": {
       "url": "gitea@gitea.artixlinux.org:packagesF/flickcurl.git",
