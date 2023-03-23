@@ -584,7 +584,7 @@
     "bison": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bison.git",
       "branch": "master",
-      "revision": "d41d1628f3474299261e2a435d51e5ba72755c82"
+      "revision": "02c212d23268ff6162684c10ed55bebb1029bef8"
     },
     "blocaled": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blocaled.git",
