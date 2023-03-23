@@ -944,7 +944,7 @@
     "cmake": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmake.git",
       "branch": "master",
-      "revision": "76daee960e71e41065a56d1e5edf4b951e3b5ac3"
+      "revision": "a4019609b3418743b1707da81fd138f097c0bfaa"
     },
     "cmark": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cmark.git",
