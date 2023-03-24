@@ -8844,7 +8844,7 @@
     "texlive-core": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-core.git",
       "branch": "master",
-      "revision": "1eda64058f0934f27225ecc2032641e82a2b9427"
+      "revision": "1b9213b646372adedf51fe376b7af65f8624b9a0"
     },
     "texlive-fontsextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-fontsextra.git",
