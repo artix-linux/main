@@ -8839,7 +8839,7 @@
     "texlive-bin": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-bin.git",
       "branch": "master",
-      "revision": "23f18f90a499b0419a820d755680c540dfd30942"
+      "revision": "e0da8e9cfa9eebdfc7d87da7158963fb9517bfe1"
     },
     "texlive-core": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-core.git",
