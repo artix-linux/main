@@ -8874,7 +8874,7 @@
     "texlive-science": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-science.git",
       "branch": "master",
-      "revision": "1478d686668e7f89c5a4dd9b20a536dd1bd54532"
+      "revision": "5e52d75347c96f6e58764c494bde5bcba54533e6"
     },
     "thermald": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald.git",
