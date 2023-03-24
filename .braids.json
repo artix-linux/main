@@ -4189,7 +4189,7 @@
     "liblzf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblzf.git",
       "branch": "master",
-      "revision": "0a9f89be56f522c1173e8dbc5736562cda4f8185"
+      "revision": "dedce5afb5b261edbb9980e4180ef3be1a9de60b"
     },
     "libmad": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmad.git",
