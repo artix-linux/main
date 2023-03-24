@@ -4169,7 +4169,7 @@
     "liblo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblo.git",
       "branch": "master",
-      "revision": "9631229f8a326b0db7623c7ec185f97d242e3db7"
+      "revision": "bb34eb6058df0a57283174774933b77593c72dc0"
     },
     "liblqr": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblqr.git",
