@@ -8849,7 +8849,7 @@
     "texlive-fontsextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-fontsextra.git",
       "branch": "master",
-      "revision": "7b750c2b2739bdc06931df5144f1f12daf8e73d1"
+      "revision": "f13a75632b545087600e5fa854c27aa21ff67e71"
     },
     "texlive-formatsextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-formatsextra.git",
