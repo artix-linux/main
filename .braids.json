@@ -4884,7 +4884,7 @@
     "libusbsio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
       "branch": "master",
-      "revision": "882537c04bb61df7a17696dad92b81173283578e"
+      "revision": "2f46ce7805ba5de0e0bb2f181f1e6aa48b7bf1b0"
     },
     "libutempter": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libutempter.git",
