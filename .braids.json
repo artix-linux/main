@@ -3684,7 +3684,7 @@
     "libconfig": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libconfig.git",
       "branch": "master",
-      "revision": "3a037225bb2d0bcb9ed0d3192e3dc19cfe43240a"
+      "revision": "361cac23e4df0abede01475d0dc005ba298c190d"
     },
     "libcroco": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcroco.git",
