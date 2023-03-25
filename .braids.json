@@ -8704,7 +8704,7 @@
     "sz": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sz.git",
       "branch": "master",
-      "revision": "60d261505605dea1793f4964194b5402f2fc177c"
+      "revision": "2e57b686ee34d9545bb4b015a4ea0bde0fa649bb"
     },
     "t1lib": {
       "url": "gitea@gitea.artixlinux.org:packagesT/t1lib.git",
