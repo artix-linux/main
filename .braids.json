@@ -2734,7 +2734,7 @@
     "hdf5": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdf5.git",
       "branch": "master",
-      "revision": "a6d438e443915ab06eecf067321c72b8ff204e51"
+      "revision": "6c5c524d6ba5c1fb011be072d1fb5da7c8d91b55"
     },
     "hdparm": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm.git",
