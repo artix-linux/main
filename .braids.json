@@ -7209,7 +7209,7 @@
     "pygobject": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pygobject.git",
       "branch": "master",
-      "revision": "22a53142de6b3a1830a64e3f8063ce54ccb6047c"
+      "revision": "074732674c3e2e8a42a92d2344bc3f2115b3c1ab"
     },
     "pylama": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pylama.git",
