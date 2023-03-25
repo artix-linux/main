@@ -6019,7 +6019,7 @@
     "mtools": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtools.git",
       "branch": "master",
-      "revision": "eefe96e545cd5f4d01b8b3f9bf2e9a65ade17150"
+      "revision": "f85c16d62ba31fd6d48a7f6e406cf801820b9bd5"
     },
     "mtr": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mtr.git",
