@@ -2169,7 +2169,7 @@
     "gdb": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdb.git",
       "branch": "master",
-      "revision": "dd532081b16625591ca1c46e5cc43b3041467014"
+      "revision": "eb7b1daf0c770feed96c3eedc7b4c78ebea271cb"
     },
     "gdbm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdbm.git",
