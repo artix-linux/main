@@ -6134,7 +6134,7 @@
     "ndisc6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
       "branch": "master",
-      "revision": "ba5b1835db2754b25c130c06a30dc41f6c1b56e5"
+      "revision": "a8b3b56664aac7a8a765fc0bfcaf36bd8439dabc"
     },
     "neomutt": {
       "url": "gitea@gitea.artixlinux.org:packagesN/neomutt.git",
