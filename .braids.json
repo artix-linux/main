@@ -9334,7 +9334,7 @@
     "vala": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vala.git",
       "branch": "master",
-      "revision": "7691225c7fce90e7325f27bedd080a8cd6e5b8c2"
+      "revision": "7aca4e8229651777ff66cf226a672869752bec03"
     },
     "valgrind": {
       "url": "gitea@gitea.artixlinux.org:packagesV/valgrind.git",
