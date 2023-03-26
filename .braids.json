@@ -6174,7 +6174,7 @@
     "netpbm": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netpbm.git",
       "branch": "master",
-      "revision": "da25bbf78ee814652b2de027181667794de4d500"
+      "revision": "f30e8cbeaad80b4f1c830a184ed8dcd2226d3d3e"
     },
     "netplan": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netplan.git",
