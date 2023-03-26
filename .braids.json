@@ -8149,7 +8149,7 @@
     "sbsigntools": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sbsigntools.git",
       "branch": "master",
-      "revision": "df5335c67930adca65738be02300cdaf9a6b74b4"
+      "revision": "99babc664109d59d005f2cc5afd4dd6bba471b36"
     },
     "scdoc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scdoc.git",
