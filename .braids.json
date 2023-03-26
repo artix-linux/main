@@ -6064,7 +6064,7 @@
     "mutt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mutt.git",
       "branch": "master",
-      "revision": "bb830c495aae94877270197c437d285810cf3cb9"
+      "revision": "49c650e8031e7fa80c28f3be693e9ba2443e0edb"
     },
     "mypaint-brushes1": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mypaint-brushes1.git",
