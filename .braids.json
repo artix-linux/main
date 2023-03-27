@@ -6139,7 +6139,7 @@
     "ndctl": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndctl.git",
       "branch": "master",
-      "revision": "8f3eac88a721ba30bfd1e39ae7e4946f87562612"
+      "revision": "0ce63acffd095e735601c51e20326aaa0101d17b"
     },
     "ndisc6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ndisc6.git",
