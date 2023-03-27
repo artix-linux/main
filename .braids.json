@@ -4836,6 +4836,11 @@
       "branch": "master",
       "revision": "f8420f25393d555611ace38e8080ff66c940be74"
     },
+    "libtracefs": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libtracefs.git",
+      "branch": "master",
+      "revision": "a1b8f334d5f16a5a7659e70cc2aeeb186d471d1f"
+    },
     "libudev0-shim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libudev0-shim.git",
       "branch": "master",
