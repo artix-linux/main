@@ -1,0 +1,59 @@
+# Maintainer: Nathan <ndowens@artixlinux.org>
+
+pkgbase=libtraceevent
+pkgname=(libtraceevent libtraceevent-docs)
+pkgver=1.7.1
+pkgrel=1
+epoch=1
+pkgdesc="Linux kernel trace event library"
+arch=(x86_64)
+url="https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/about/"
+license=(GPL2 LGPL2.1)
+makedepends=(asciidoc xmlto)
+options=(debug)
+source=(
+  $pkgname-$pkgver.tar.gz::https://git.kernel.org/pub/scm/libs/libtrace/$pkgname.git/snapshot/$pkgname-$pkgver.tar.gz
+  $pkgname-1.5.0-documentation.patch
+)
+sha512sums=('412b93109ccd6e1bdece52f9a10989a58ff5693144fd460c7ebaef0ebc4649fac95eea20c5f88aa2f23bdc59bf359a65ab23ab41c3a5b7c92df6e52225477093'
+            '74b34a722d3fb9d672826e0b6b137f94a7fcd41bb372f8944bb6a0c652c0e725aaef8e95284fc091c2e9954bcf1656b5428d7e0f121682d40c25623178ee4a1e')
+b2sums=('2d935035874e49b3fa73d513c424cab7b5686acf4a9151482d8bbc40a84c0baab8df811ebe37c85cb3bd851b04d343c5ffd585631f00a671f7ee26d20d7734ca'
+        'f66f4f20dfe562407a0d4bb53785d1515c4b5f4be64dd96e06ea6c9e03c299b2f0f613901c30893a976b3874d13e768791632a7cb89be92f3788330e4f5ab97d')
+
+_pick() {
+  local p="$1" f d; shift
+  for f; do
+    d="$srcdir/$p/${f#$pkgdir/}"
+    mkdir -p "$(dirname "$d")"
+    mv "$f" "$d"
+    rmdir -p --ignore-fail-on-non-empty "$(dirname "$f")"
+  done
+}
+
+prepare() {
+  patch -d $pkgname-$pkgver -p1 -i ../$pkgname-1.5.0-documentation.patch
+}
+
+build() {
+  make -C $pkgname-$pkgver
+  make -C $pkgname-$pkgver/Documentation
+}
+
+package_libtraceevent() {
+  depends=(glibc)
+  optdepends=('libtraceevent-docs: for documentation')
+  provides=(libtraceevent.so)
+
+  make libdir_relative=lib prefix=/usr DESTDIR="$pkgdir/" install -C $pkgname-$pkgver
+  make libdir_relative=lib prefix=/usr DESTDIR="$pkgdir/" install -C $pkgname-$pkgver/Documentation
+  (
+    cd "$pkgdir"
+    _pick libtraceevent-docs usr/share/doc
+  )
+}
+
+package_libtraceevent-docs() {
+  pkgdesc+=" - documentation"
+
+  mv -v $pkgname/* "$pkgdir"
+}
