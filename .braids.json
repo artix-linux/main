@@ -4834,7 +4834,7 @@
     "libtraceevent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtraceevent.git",
       "branch": "master",
-      "revision": "0a8ef3b6adfec4d1a1644ce33d524c180b6ee649"
+      "revision": "f8420f25393d555611ace38e8080ff66c940be74"
     },
     "libudev0-shim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libudev0-shim.git",
