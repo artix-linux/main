@@ -4839,7 +4839,7 @@
     "libtracefs": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtracefs.git",
       "branch": "master",
-      "revision": "a1b8f334d5f16a5a7659e70cc2aeeb186d471d1f"
+      "revision": "76565e47ebf93f599634abf0967ade9de1fc5c06"
     },
     "libudev0-shim": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libudev0-shim.git",
