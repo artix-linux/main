@@ -7,7 +7,7 @@
 
 pkgname=docker-compose
 pkgver=2.17.2
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Fast, isolated development environments using Docker"
 arch=('x86_64')
 url="https://www.docker.com/"
