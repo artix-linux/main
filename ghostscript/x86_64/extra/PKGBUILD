@@ -13,8 +13,8 @@ depends=('libxt' 'libcups' 'fontconfig' 'zlib' 'libpng' 'libjpeg' 'jbig2dec'
 makedepends=('gtk3' 'gnutls' 'glu' 'freeglut')
 # https://github.com/ArtifexSoftware/ghostpdl-downloads/releases
 source=(#https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${pkgver//./}/ghostpdl-${pkgver}.tar.xz
-        https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs${pkgver/.01.1/01}/ghostpdl-${pkgver}.tar.xz
-        #https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/ghostpdl-${pkgver/.0//}/ghostpdl-${pkgver}.tar.xz
+        https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10011/ghostpdl-$pkgver.tar.xz
+	#https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/ghostpdl-${pkgver/.0//}/ghostpdl-${pkgver}.tar.xz
         2010_add_build_timestamp_setting.patch)
 # https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10010/SHA512SUMS
 sha512sums=('a7c787ff4a8f9e7f7b0e2e659113527e422427a24ac856d63f2f7b864a93e43dd9cf0d1cd4cf44b44f82ba809a72a035e6a1f8f2bef5a9cb268c154dff3a67b1'
