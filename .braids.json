@@ -2094,7 +2094,7 @@
     "fuse-overlayfs": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fuse-overlayfs.git",
       "branch": "master",
-      "revision": "8ac2162c9ae5785b0aad0ff0b767dae559f304c2"
+      "revision": "4b61a16d4a4e9b0f14bb5dfa31f3a3e037bcfe58"
     },
     "fuse2": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fuse2.git",
