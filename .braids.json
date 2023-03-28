@@ -4404,7 +4404,7 @@
     "libnsl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnsl.git",
       "branch": "master",
-      "revision": "61b4fd961b7110d862a12bed592dbb9f7a12aa37"
+      "revision": "b4dc674ae0277364fdb6174d9439dd020a896570"
     },
     "libnumbertext": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libnumbertext.git",
