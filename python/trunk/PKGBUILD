@@ -9,7 +9,7 @@ shopt -s extglob
 pkgbase=python
 pkgname=(python python-tests)
 pkgver=3.10.10
-pkgrel=1
+pkgrel=1.1
 _pybasever=${pkgver%.*}
 pkgdesc="Next generation of the python high-level scripting language"
 arch=('x86_64')
