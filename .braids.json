@@ -6319,7 +6319,7 @@
     "npth": {
       "url": "gitea@gitea.artixlinux.org:packagesN/npth.git",
       "branch": "master",
-      "revision": "129f8cbb8c0680832953bd7ee236a132ce2bb7c4"
+      "revision": "ed1fb52dad469a08ff5ce01d6dfa65c2442bf422"
     },
     "nrpe": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nrpe.git",
