@@ -2234,7 +2234,7 @@
     "ghostscript": {
       "url": "gitea@gitea.artixlinux.org:packagesG/ghostscript.git",
       "branch": "master",
-      "revision": "5974da8629ca4884c7595234a72fdc99b5be757d"
+      "revision": "1a198fc5400b2c956a13a719ccce08f3fc6a6e58"
     },
     "gi-docgen": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gi-docgen.git",
