@@ -679,7 +679,7 @@
     "btrfs-progs": {
       "url": "gitea@gitea.artixlinux.org:packagesB/btrfs-progs.git",
       "branch": "master",
-      "revision": "b601173acd0095dc88fa61be14b09d54bf1e5f06"
+      "revision": "3942c9289ad80abec6b8963611d7586c26d6521b"
     },
     "bubblewrap": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bubblewrap.git",
