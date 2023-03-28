@@ -1,6 +1,6 @@
 ##
 ## Artix Linux repository mirrorlist
-## Generated on 2023-02-14
+## Generated on 2023-03-18
 ##
 
 # Artix mirrors
@@ -30,6 +30,7 @@ Server = http://mirrors.redcorelinux.org/artixlinux/$repo/os/$arch
 Server = https://mirror.pascalpuffke.de/artix-linux/$repo/os/$arch
 Server = https://ftp.uni-bayreuth.de/linux/artix-linux/$repo/os/$arch
 Server = https://ftp.halifax.rwth-aachen.de/artixlinux/$repo/os/$arch
+Server = https://mirror.opensrv.org/artixlinux/$repo/os/$arch
 Server = https://artix.unixpeople.org/repos/$repo/os/$arch
 Server = https://mirror1.artixlinux.org/repos/$repo/os/$arch
 Server = https://eu-mirror.artixlinux.org/repos/$repo/os/$arch
