@@ -3524,7 +3524,7 @@
     "libassuan": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libassuan.git",
       "branch": "master",
-      "revision": "dd6665a707cf10cd08030e7763d9b412911f28d3"
+      "revision": "77f913f26efb66e92e88243e5b5eb7135571c19d"
     },
     "libasyncns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libasyncns.git",
