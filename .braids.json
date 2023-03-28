@@ -2224,7 +2224,7 @@
     "gettext": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gettext.git",
       "branch": "master",
-      "revision": "037154ce62680205082cfa836c1ba0e9c09a6828"
+      "revision": "2ad539b3d66c466ce00992161ed5ee2d6853eb5f"
     },
     "gflags": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gflags.git",
