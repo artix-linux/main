@@ -8879,7 +8879,7 @@
     "texlive-pictures": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-pictures.git",
       "branch": "master",
-      "revision": "18e4cc44bad3e215eca3d46de9a66316f37440e0"
+      "revision": "971fd77bb8d0c567969d5f5d4ea914f28bb3b5f1"
     },
     "texlive-science": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-science.git",
