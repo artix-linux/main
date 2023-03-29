@@ -329,7 +329,7 @@
     "attr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/attr.git",
       "branch": "master",
-      "revision": "1dfa38e27af54818fd26cc35d655ee0f966ec1c7"
+      "revision": "e7bb7c9a970f70c26ea5f959b6362795e9db3ac3"
     },
     "aubio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/aubio.git",
