@@ -3319,7 +3319,7 @@
     "jupyter-widgetsnbextension": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-widgetsnbextension.git",
       "branch": "master",
-      "revision": "24815105b28ec3caff033a062c773c280f6d7e0c"
+      "revision": "6c1b6207b00ca956832f279070d59d3f5ef90dd8"
     },
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
