@@ -3539,7 +3539,7 @@
     "libatomic_ops": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libatomic_ops.git",
       "branch": "master",
-      "revision": "8784e5df28f9a72d1c92a6aa8c0a8f18d6f282fa"
+      "revision": "1115007b1fed7c8cf96d589684f840585edc9d01"
     },
     "libavc1394": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libavc1394.git",
