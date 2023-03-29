@@ -8874,7 +8874,7 @@
     "texlive-latexextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-latexextra.git",
       "branch": "master",
-      "revision": "f5726b40581eeb4763bf8abb44038be3a1767d41"
+      "revision": "bf14b35f243d62d3483f4767a255d998be6abef3"
     },
     "texlive-pictures": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-pictures.git",
