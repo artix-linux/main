@@ -4079,7 +4079,7 @@
     "libinput": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinput.git",
       "branch": "master",
-      "revision": "44c27e9d79f882ad3bac2ef827f64857ca8be068"
+      "revision": "6fe61cfbc68a438ce4f187d266689ce571d4f7a1"
     },
     "libinstpatch": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libinstpatch.git",
