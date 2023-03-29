@@ -8869,7 +8869,7 @@
     "texlive-langcyrillic": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-langcyrillic.git",
       "branch": "master",
-      "revision": "f9794c86ef2c29dd211e67dcd34ecf4139cc3ced"
+      "revision": "fd33be01085c87c01afa92d3cd04aade8eaf580b"
     },
     "texlive-latexextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-latexextra.git",
