@@ -8864,7 +8864,7 @@
     "texlive-formatsextra": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-formatsextra.git",
       "branch": "master",
-      "revision": "5c1cfab35c416f4749d1dc10e92c88b3fd082c29"
+      "revision": "efde45ef64e8cc89102b3b4bbbcc70a46e79a56d"
     },
     "texlive-langcyrillic": {
       "url": "gitea@gitea.artixlinux.org:packagesT/texlive-langcyrillic.git",
