@@ -1,0 +1,25 @@
+From e1a6edeb3d72fd41705b09ab837944e933cbe9c0 Mon Sep 17 00:00:00 2001
+From: Nathan <ndowens@artixlinux.org>
+Date: Wed, 29 Mar 2023 22:39:30 -0500
+Subject: [PATCH] stricmp
+
+---
+ src/fformat_.cpp | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/fformat_.cpp b/src/fformat_.cpp
+index ecf6046..7b5807a 100644
+--- a/src/fformat_.cpp
++++ b/src/fformat_.cpp
+@@ -11,6 +11,8 @@
+ 
+ #include "fformat.h"
+ #include "myendian.h"
++#define stricmp strcasecmp
++#define strnicmp strncasecmp
+ 
+ // Wrapper for ``strnicmp'' without third argument.
+ int myStrNcaseCmp(const char* s1, const char* s2)
+-- 
+2.40.0
+
