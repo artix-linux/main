@@ -8089,7 +8089,7 @@
     "runc": {
       "url": "gitea@gitea.artixlinux.org:packagesR/runc.git",
       "branch": "master",
-      "revision": "e8e56d19d3170ab1ad21750fc4c065b232e2d04e"
+      "revision": "bc20378ee7c55eb2e9f11d954ce23b839f8c88e6"
     },
     "rust": {
       "url": "gitea@gitea.artixlinux.org:/packagesR/rust.git",
