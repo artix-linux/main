@@ -10119,7 +10119,7 @@
     "xosd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xosd.git",
       "branch": "master",
-      "revision": "42dfa8e0bc6103ae533a26252995cab66cfb77e2"
+      "revision": "4436b0b43651999bdb5520883c4c3c7a662f8bed"
     },
     "xscreensaver": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xscreensaver.git",
