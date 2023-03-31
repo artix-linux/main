@@ -2054,7 +2054,7 @@
     "freerdp": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freerdp.git",
       "branch": "master",
-      "revision": "7e4b7c5160e2e14110c2ed576d20124937dbdafa"
+      "revision": "2bfe0b7dd6dc1c35162f514f96496cfbaf9a9e57"
     },
     "freetds": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freetds.git",
