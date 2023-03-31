@@ -3019,7 +3019,7 @@
     "inxi": {
       "url": "gitea@gitea.artixlinux.org:packagesI/inxi.git",
       "branch": "master",
-      "revision": "f253d148dd6bec6dfeec351625b256d9c3a57a23"
+      "revision": "1763a2d30b23f50f4de47118e579013ad3a1cacd"
     },
     "iproute2": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iproute2.git",
