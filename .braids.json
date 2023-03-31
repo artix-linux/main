@@ -4919,7 +4919,7 @@
     "libva": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva.git",
       "branch": "master",
-      "revision": "7fa5c3b676b3e284524f3d3ef765e5dec7ac8104"
+      "revision": "a61c204f8633d159373943ba23d8448cb09f503b"
     },
     "libva-intel-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libva-intel-driver.git",
