@@ -3,7 +3,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=cmake
-pkgver=3.26.1
+pkgver=3.26.2
 pkgrel=1
 pkgdesc='A cross-platform open-source make system'
 arch=('x86_64')
@@ -14,10 +14,10 @@ makedepends=('qt6-base' 'python-sphinx' 'emacs')
 optdepends=('qt6-base: cmake-gui')
 source=("https://www.cmake.org/files/v${pkgver%.*}/${pkgname}-${pkgver}.tar.gz"
         "artix-cmake"{,.patch})
-sha256sums=('f29964290ad3ced782a1e58ca9fda394a82406a647e24d6afd4e6c32e42c412f'
+sha256sums=('d54f25707300064308ef01d4d21b0f98f508f52dda5d527d882b9d88379f89a8'
             '215c4eaac9753eb4039ff23d6a48e9a9469829b18072a23ef9c0658e0a90ddff'
             '5bdeac4cec6edd657ec6877c3c8b3475c86cee08c3cd71e66ca381243041dc98')
-sha512sums=('e631e4f2277a640015a3c3a2690f0ff68577c4d04d2c39bda0b04afc142df4514b7a813c34e3f245c229ee0d6dcaf667a0f6fd8d76785ea2ff61f5295ae85ada'
+sha512sums=('7f4eefbffce2bad241261583b0b8962519dc266fa0c6c5ea6917a785eb2b81ebeda637ed9035965a43e9f89f072bc509d4583b5d595a7b72f5e54bb5170f7c9c'
             '08a4f8df1b005869a3497fd5090620ce54eefa09df67245e76eb6ae81171e5045f87180cd848d8a1e44ce5c4cf290efd6c9b655ccf46230967abef4941513af7'
             '8a838312162d7792d3a3c5168629191c5c6ae61095bec157c49528b393bf4fe1573567855efd5037675bf0d0837641ed45b26da65165e45ba711f123879b156c')
 
