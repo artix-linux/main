@@ -4014,7 +4014,7 @@
     "libheif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libheif.git",
       "branch": "master",
-      "revision": "b000f7d4983e089e94bead37c75a895978e1df56"
+      "revision": "c70128764c8b6186f48c72a935a17ae557bf6f17"
     },
     "libical": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libical.git",
