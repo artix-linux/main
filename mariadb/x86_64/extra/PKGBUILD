@@ -5,7 +5,7 @@ pkgbase=mariadb
 pkgname=('mariadb-libs' 'mariadb-clients' 'mariadb' 'mytop')
 pkgdesc='Fast SQL database server, derived from MySQL'
 pkgver=10.11.2
-pkgrel=1
+pkgrel=2
 arch=('x86_64')
 license=('GPL')
 url='https://mariadb.org/'
@@ -138,7 +138,7 @@ package_mariadb-libs() {
 
 package_mariadb-clients() {
   pkgdesc='MariaDB client tools'
-  depends=("mariadb-libs=${pkgver}" 'jemalloc')
+  depends=("mariadb-libs=${pkgver}" 'jemalloc' 'ncurses')
   conflicts=('mysql-clients')
   provides=("mysql-clients=$pkgver")
 
