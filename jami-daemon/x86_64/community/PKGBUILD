@@ -3,7 +3,7 @@
 
 pkgname=jami-daemon
 pkgver=20220722
-pkgrel=7
+pkgrel=8
 pkgdesc="Free and universal communication platform which preserves the users’ privacy and freedoms (daemon component)"
 arch=(x86_64)
 url="https://jami.net"
@@ -11,9 +11,9 @@ license=(GPL3)
 groups=(jami)
 depends=(glibc opendht gnutls nettle libgit2 libsecp256k1 ffmpeg speexdsp
          fmt yaml-cpp jsoncpp zlib alsa-lib libpulse jack libupnp libnatpmp
-         openssl webrtc-audio-processing libarchive)
+         openssl webrtc-audio-processing libudev libarchive)
 # portaudio needs a not-yet-upstream patch https://git.jami.net/savoirfairelinux/jami-daemon/-/issues/650
-makedepends=(git cmake perl asio msgpack-c msgpack-cxx restinio udev meson)
+makedepends=(git cmake perl asio msgpack-c msgpack-cxx restinio meson)
 checkdepends=(cppunit)
 _commit=6f64b069a1c95a15b744d4044ad3d8032147439f
 _pjprojectver=4af5d666d18837abaac94c8ec6bfc84984dcf1e2
