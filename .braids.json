@@ -9434,7 +9434,7 @@
     "virtualgl": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virtualgl.git",
       "branch": "master",
-      "revision": "5e9520a26378d0348baa3fdc7396e009431fd6fb"
+      "revision": "f3a65d29b89bf18bd0913cd256fd8f0dbcacbe51"
     },
     "vkd3d": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vkd3d.git",
