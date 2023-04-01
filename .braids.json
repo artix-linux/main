@@ -2894,7 +2894,7 @@
     "ibus": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ibus.git",
       "branch": "master",
-      "revision": "e82c3fd02aad5b4e4b7bda8a94fe63172e252a9d"
+      "revision": "ef5a781e6c5d20fec41105d5a7e32114adfddda2"
     },
     "icmake": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icmake.git",
