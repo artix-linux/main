@@ -1059,7 +1059,7 @@
     "consul": {
       "url": "gitea@gitea.artixlinux.org:packagesC/consul.git",
       "branch": "master",
-      "revision": "d894270e6db4ce519bfbaccb6e59ee1abb5ffff1"
+      "revision": "da99923b769924098bf1578cddc5fe7c9c50897e"
     },
     "containerd": {
       "url": "gitea@gitea.artixlinux.org:packagesC/containerd.git",
