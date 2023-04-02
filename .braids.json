@@ -8819,7 +8819,7 @@
     "tesseract": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract.git",
       "branch": "master",
-      "revision": "f7a2ad5f1be58f516673e6f1f855853ae7d3708c"
+      "revision": "2320c875a28edd1a728940d7701973eec7e87f7c"
     },
     "tesseract-data": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tesseract-data.git",
