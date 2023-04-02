@@ -3449,7 +3449,7 @@
     "leptonica": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leptonica.git",
       "branch": "master",
-      "revision": "9eda5b622a85f1e392039eb9c74de43478725c84"
+      "revision": "c80392d4f4868e54ef72f87f04f7279d5153ae06"
     },
     "less": {
       "url": "gitea@gitea.artixlinux.org:packagesL/less.git",
