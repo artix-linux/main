@@ -6,7 +6,7 @@
 
 pkgname=pkgconf
 pkgver=1.8.1
-pkgrel=1
+pkgrel=1.1
 pkgdesc="Package compiler and linker metadata toolkit"
 url="https://gitea.treehouse.systems/ariadne/pkgconf"
 license=(custom:ISC)
