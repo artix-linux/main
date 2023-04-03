@@ -6589,7 +6589,7 @@
     "openldap": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openldap.git",
       "branch": "master",
-      "revision": "58e0626f2ad4cffb8586aadab898146745a0e294"
+      "revision": "040d08c0fea52306fef39a4d5106b627c20e5607"
     },
     "openmp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openmp.git",
