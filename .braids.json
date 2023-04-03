@@ -6959,7 +6959,7 @@
     "pkgconf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pkgconf.git",
       "branch": "master",
-      "revision": "44955f74e76ab423037fa74bbf9b3dc293c3c986"
+      "revision": "2bc54cd8bce08f4bf6b2aece5e781b6cd554a079"
     },
     "pkgfile": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pkgfile.git",
