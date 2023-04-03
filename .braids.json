@@ -3384,7 +3384,7 @@
     "kotlin": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kotlin.git",
       "branch": "master",
-      "revision": "6262a5702a2dad0a4498da86a18a47f936fc090e"
+      "revision": "30ce514835eb886e5f9d2569145eee361dcf01cf"
     },
     "krb5": {
       "url": "gitea@gitea.artixlinux.org:packagesK/krb5.git",
