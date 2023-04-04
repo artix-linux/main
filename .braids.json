@@ -1079,7 +1079,7 @@
     "coreutils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coreutils.git",
       "branch": "master",
-      "revision": "0b3624ce358975dd15667a8a57f737d734e2813b"
+      "revision": "9a84ff902d99790531761e64634816e390ac1ec0"
     },
     "coturn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn.git",
