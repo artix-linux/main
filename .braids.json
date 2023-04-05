@@ -1879,7 +1879,7 @@
     "ffmpeg": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffmpeg.git",
       "branch": "master",
-      "revision": "324af1dda7ba8e4bb7d7929b262a241ca1534466"
+      "revision": "58b5d47c2d46a4a0ed77e3871e0b4e1b81fe39b9"
     },
     "ffmpeg4.4": {
       "url": "gitea@gitea.artixlinux.org:packagesF/ffmpeg4.4.git",
