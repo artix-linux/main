@@ -6869,7 +6869,7 @@
     "pdfjs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdfjs.git",
       "branch": "master",
-      "revision": "adbd26d15d5551dcf0ffb2e76748455bbc2a14ef"
+      "revision": "ab8f57a5af108712de5f0eeb91a1873ab3b5b56e"
     },
     "pdnsd": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd.git",
