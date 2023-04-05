@@ -9809,7 +9809,7 @@
     "xf86-input-libinput": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-libinput.git",
       "branch": "master",
-      "revision": "9d0a60821dcbf0bac5f00d8a46f79938d17efa26"
+      "revision": "b2e4c70464682f06bab28e45d16e820e08ae82b6"
     },
     "xf86-input-synaptics": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-synaptics.git",
