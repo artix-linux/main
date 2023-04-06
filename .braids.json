@@ -9824,7 +9824,7 @@
     "xf86-input-wacom": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-input-wacom.git",
       "branch": "master",
-      "revision": "16e86aaa8b0764c7380ebec80098f3c5f2d1c59e"
+      "revision": "1e31533b5353a123fd7b471438fe6f2a028e2ba2"
     },
     "xf86-video-amdgpu": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-amdgpu.git",
