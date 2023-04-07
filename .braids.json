@@ -754,7 +754,7 @@
     "capstone": {
       "url": "gitea@gitea.artixlinux.org:packagesC/capstone.git",
       "branch": "master",
-      "revision": "a5a4742ec506609aac862d84d28aa2c2fdbd3ad3"
+      "revision": "c8aa516c0027f83c58baebd643dfc85e54302cd2"
     },
     "cargo-c": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cargo-c.git",
