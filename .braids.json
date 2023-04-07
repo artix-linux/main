@@ -194,7 +194,7 @@
     "archey3": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archey3.git",
       "branch": "master",
-      "revision": "7afa21798075c8cfe8f03a59cb524f25df690883"
+      "revision": "87e0b20bb682e43f66c1a4c4f19082195266844d"
     },
     "archivetools": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archivetools.git",
