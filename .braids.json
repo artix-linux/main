@@ -2874,7 +2874,7 @@
     "i2c-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2c-tools.git",
       "branch": "master",
-      "revision": "827bf96d751afe04d0487657d2d91c657ec01e07"
+      "revision": "f8faa5f1dca11f2c5eae0c626596e4e25730a5cb"
     },
     "i2pd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd.git",
