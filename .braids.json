@@ -1864,7 +1864,7 @@
     "feh": {
       "url": "gitea@gitea.artixlinux.org:packagesF/feh.git",
       "branch": "master",
-      "revision": "d65819a6a4677201801e9b68245384c839c54032"
+      "revision": "9e9f77005357908984a6531d71c9e006252506b5"
     },
     "festival": {
       "url": "gitea@gitea.artixlinux.org:packagesF/festival.git",
