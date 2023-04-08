@@ -7924,7 +7924,7 @@
     "redshift": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redshift.git",
       "branch": "master",
-      "revision": "db616e1d4ec2c4d26104d3b319bf6417fb065ca5"
+      "revision": "702bf6e7907c9f5f45837faf470800a6da94321f"
     },
     "refind": {
       "url": "gitea@gitea.artixlinux.org:packagesR/refind.git",
