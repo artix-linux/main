@@ -9524,7 +9524,7 @@
     "waf": {
       "url": "gitea@gitea.artixlinux.org:packagesW/waf.git",
       "branch": "master",
-      "revision": "5275b1c0eb3da4ee00570fca109da515c235fc89"
+      "revision": "3e2a59e0692a082b3621670d2cefac0c1d3abbfc"
     },
     "wasi-compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wasi-compiler-rt.git",
