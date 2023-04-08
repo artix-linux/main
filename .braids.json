@@ -394,7 +394,7 @@
     "avahi": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avahi.git",
       "branch": "master",
-      "revision": "379340301cf6213c0a1bff25f7705cf9c6467bc9"
+      "revision": "ba71377eb5522f4bc4569d5c94e2609c2c646f14"
     },
     "avisynthplus": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avisynthplus.git",
