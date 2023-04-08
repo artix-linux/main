@@ -4699,7 +4699,7 @@
     "libsmbios": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsmbios.git",
       "branch": "master",
-      "revision": "c028bd3bf282456dae1656e88b25a0cc705e1c3e"
+      "revision": "b854a4ba5b1d8778c09a8a1701fe381097640cfe"
     },
     "libsndfile": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsndfile.git",
