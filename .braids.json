@@ -779,7 +779,7 @@
     "catfish": {
       "url": "gitea@gitea.artixlinux.org:packagesC/catfish.git",
       "branch": "master",
-      "revision": "f07b647be5941d61304d20ea5eb96c5ba75a3af7"
+      "revision": "bef586f029546c20e3b9b948e0f25ba87670b253"
     },
     "cbindgen": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cbindgen.git",
