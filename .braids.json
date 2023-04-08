@@ -9169,7 +9169,7 @@
     "ufmt": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufmt.git",
       "branch": "master",
-      "revision": "8156e3b95e535fbdac94ee77710bcbee6a555f7a"
+      "revision": "29846fd29212b66c1373a0582381c23d4e143743"
     },
     "ufw": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw.git",
