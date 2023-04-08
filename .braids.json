@@ -1104,7 +1104,7 @@
     "cppcheck": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cppcheck.git",
       "branch": "master",
-      "revision": "295ca46f92a4eaa66d905e69d9f67d50c1e32d35"
+      "revision": "20dba421e27b7122a04091cb09fe3488d81235d4"
     },
     "cpptoml": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpptoml.git",
