@@ -10279,7 +10279,7 @@
     "zfp": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zfp.git",
       "branch": "master",
-      "revision": "485638c2a9b69b074aa4e5b6db76ff9874ca3698"
+      "revision": "a50189f0330591f208d6e574dc5cd740344bf2c1"
     },
     "zig": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zig.git",
