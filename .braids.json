@@ -2269,7 +2269,7 @@
     "glad": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glad.git",
       "branch": "master",
-      "revision": "12c7d6b0994a24b4dc9130ef30bd1b6bb465fc3c"
+      "revision": "d911760b623a998792ca899bf6b1cfd7dfb04bef"
     },
     "glade": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glade.git",
