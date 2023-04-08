@@ -9019,7 +9019,7 @@
     "transmageddon": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmageddon.git",
       "branch": "master",
-      "revision": "2a83c0d49dedfe1ce4b75a63905e584a5db28ff3"
+      "revision": "122c00b1b24c56e29ace71fe000cab3e8b68f531"
     },
     "transmission": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission.git",
