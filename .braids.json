@@ -3364,7 +3364,7 @@
     "kismet": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kismet.git",
       "branch": "master",
-      "revision": "efd1c5ae5d5dab6910242113ea8a14c34d1ac1d8"
+      "revision": "96dd6a10611d052059b538a9afaae54e52cbdd12"
     },
     "kitty": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kitty.git",
