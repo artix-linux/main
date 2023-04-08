@@ -2424,7 +2424,7 @@
     "gobject-introspection": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gobject-introspection.git",
       "branch": "master",
-      "revision": "1c3241ef163c983f375237480427339b20aa2c43"
+      "revision": "3c07a1a43894049ee0eb6267a5b44fd290385acc"
     },
     "godot": {
       "url": "gitea@gitea.artixlinux.org:packagesG/godot.git",
