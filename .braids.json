@@ -10254,7 +10254,7 @@
     "zbar": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
       "branch": "master",
-      "revision": "5a188bf239b3bf99a44563bfc61814d8d0cbfd86"
+      "revision": "191f833393935eb91ccd3a9bae0ac472358c91e7"
     },
     "zeitgeist": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeitgeist.git",
