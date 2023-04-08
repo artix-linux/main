@@ -8654,7 +8654,7 @@
     "sugar-datastore": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sugar-datastore.git",
       "branch": "master",
-      "revision": "904364a9377a24fe79a4576cad30eaf8f8a7243b"
+      "revision": "cee27409a3ac2dd82e9d9863f68aab9810aaafea"
     },
     "suil": {
       "url": "gitea@gitea.artixlinux.org:packagesS/suil.git",
