@@ -6239,7 +6239,7 @@
     "ninja": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ninja.git",
       "branch": "master",
-      "revision": "11e3dd6a32d7fad24fc4198e21976725229c6310"
+      "revision": "f7bcad38308b43fb2fd4f47d36495a72f15eb2dd"
     },
     "nload": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nload.git",
