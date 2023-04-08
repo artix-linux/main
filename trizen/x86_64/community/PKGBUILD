@@ -1,8 +1,9 @@
-# Maintainer: Chris Cromer <cromer@artixlinux.org>
-# Maintainer: physkets <physkets@tutanota.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Chris Cromer <cromer@artixlinux.org>
+# Contributor: physkets <physkets@tutanota.com>
 
 pkgname=trizen
-pkgver=1.67
+pkgver=1.68
 pkgrel=1
 pkgdesc="Trizen AUR Package Manager: lightweight pacman wrapper and AUR helper"
 arch=('any')
@@ -27,7 +28,7 @@ optdepends=(
             'perl-json-xs: faster JSON deserialization'
            )
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/trizen/${pkgname}/archive/${pkgver}.tar.gz")
-sha256sums=('3110d89f6e73f4b97c5d4691e955ab8e7ae8d9531ac7ca8a11282c6a187a6a8f')
+sha256sums=('cfaac3ecc92483c5bba54920b0731745676d12652ad5de288914f4fb111f6b3a')
 
 package() {
   cd "$pkgname-$pkgver"
