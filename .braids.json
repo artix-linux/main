@@ -189,7 +189,7 @@
     "arandr": {
       "url": "gitea@gitea.artixlinux.org:packagesA/arandr.git",
       "branch": "master",
-      "revision": "49c8928a77f09af24344d5824d6e386e3d7a7a34"
+      "revision": "36adc94b2129a7bbd7119388a6509abc57cbb4e3"
     },
     "archey3": {
       "url": "gitea@gitea.artixlinux.org:packagesA/archey3.git",
