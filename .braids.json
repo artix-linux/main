@@ -9404,7 +9404,7 @@
     "vimiv": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vimiv.git",
       "branch": "master",
-      "revision": "64ba7568e95eca4c1b54f136929f20bb5302dbac"
+      "revision": "507c8e901caa1e913d9b4bdb2dcb4594a8c84840"
     },
     "virt-manager": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-manager.git",
