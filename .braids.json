@@ -5724,7 +5724,7 @@
     "maturin": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maturin.git",
       "branch": "master",
-      "revision": "57eaecdd33d6948461d5d6ab7d5f1bf6eccf284f"
+      "revision": "7674dbbf5013a25aa7d0ed8ff4c989eda14a43ee"
     },
     "maven": {
       "url": "gitea@gitea.artixlinux.org:packagesM/maven.git",
