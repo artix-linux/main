@@ -6729,7 +6729,7 @@
     "packagekit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/packagekit.git",
       "branch": "master",
-      "revision": "c6f655608ec36695825841fd88f7dd2b05ca7d12"
+      "revision": "cd5ee42b049ee53a1c0ca9350c3b3bddf26126f3"
     },
     "pacman": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pacman.git",
