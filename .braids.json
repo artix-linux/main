@@ -8364,7 +8364,7 @@
     "sip": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sip.git",
       "branch": "master",
-      "revision": "1325632a36f802165621f3201b16414e1622172a"
+      "revision": "9a4906a8762e295f8e3791ea5b4a987dcf24888a"
     },
     "sip4": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sip4.git",
