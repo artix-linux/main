@@ -7719,7 +7719,7 @@
     "qt6-serialbus": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialbus.git",
       "branch": "master",
-      "revision": "31341a3d3e68108679bde068a4025fdd88b1d1e4"
+      "revision": "b9c32870aaee2258c0dd2ac819bdaa9f10f33b2d"
     },
     "qt6-serialport": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialport.git",
