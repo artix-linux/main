@@ -2344,7 +2344,7 @@
     "gmic": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gmic.git",
       "branch": "master",
-      "revision": "deec19567594b7b196b80a29136287abc300cfb4"
+      "revision": "0bd028d78672da210fd963bd56920b572c9606d9"
     },
     "gmp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gmp.git",
