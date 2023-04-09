@@ -7639,7 +7639,7 @@
     "qt6-declarative": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-declarative.git",
       "branch": "master",
-      "revision": "7dfd9819603349d5c02e89b8f0898bb85bb34cf0"
+      "revision": "081bc60a6201a2acb602b03f3882bed2b5924c1b"
     },
     "qt6-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-doc.git",
