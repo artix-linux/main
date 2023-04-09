@@ -7494,7 +7494,7 @@
     "qt5-remoteobjects": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-remoteobjects.git",
       "branch": "master",
-      "revision": "79a63069bf487fb24584bd023120f57d4c3e5178"
+      "revision": "84337cb5c0b768f6ce40fd8f97a91d72e2069ef7"
     },
     "qt5-script": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-script.git",
