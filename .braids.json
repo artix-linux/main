@@ -7504,7 +7504,7 @@
     "qt5-scxml": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-scxml.git",
       "branch": "master",
-      "revision": "298606012b2ee8371c1121bb10d6dacaae5e8cda"
+      "revision": "cb19076920fd66eed5085fb33e796ee562ff12cb"
     },
     "qt5-sensors": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-sensors.git",
