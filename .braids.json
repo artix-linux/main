@@ -7449,7 +7449,7 @@
     "qt5-location": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-location.git",
       "branch": "master",
-      "revision": "45cf06b14e54f8f0af07a4ff98274b331f32bf0a"
+      "revision": "53ad19242eb998f99680d815b8ba86144052aaa8"
     },
     "qt5-lottie": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-lottie.git",
