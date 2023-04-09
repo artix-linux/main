@@ -1599,7 +1599,7 @@
     "egl-wayland": {
       "url": "gitea@gitea.artixlinux.org:packagesE/egl-wayland.git",
       "branch": "master",
-      "revision": "cfce41f5ddd0083ef3d87526ab1dd69870aca375"
+      "revision": "d1462e000bcf8df9a1c92837e543c76067bf1a6a"
     },
     "eglexternalplatform": {
       "url": "gitea@gitea.artixlinux.org:packagesE/eglexternalplatform.git",
