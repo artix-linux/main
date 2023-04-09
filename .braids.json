@@ -8829,7 +8829,7 @@
     "testdisk": {
       "url": "gitea@gitea.artixlinux.org:packagesT/testdisk.git",
       "branch": "master",
-      "revision": "963db6a7e12faef47910ebf94691231d6a8d7342"
+      "revision": "35bf417973cc1341466ce43f06c06127c405a939"
     },
     "tevent": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tevent.git",
