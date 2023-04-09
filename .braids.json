@@ -7469,7 +7469,7 @@
     "qt5-purchasing": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-purchasing.git",
       "branch": "master",
-      "revision": "5a35e920c5e1c362dd296cbcf25077e82b1842d5"
+      "revision": "24171894d96e4e25a9bdd3e6d6da523f88958f69"
     },
     "qt5-quick3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-quick3d.git",
