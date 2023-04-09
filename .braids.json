@@ -6604,7 +6604,7 @@
     "openntpd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openntpd.git",
       "branch": "master",
-      "revision": "8f770d2ae5b28f289490151576fcc6fe4e115854"
+      "revision": "30ee51ea265e6dd6b693251b068625704796712b"
     },
     "openpmix": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openpmix.git",
