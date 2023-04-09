@@ -8826,6 +8826,11 @@
       "branch": "master",
       "revision": "db560af41a59cadee804fccb16600bfce7540b80"
     },
+    "testdisk": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/testdisk.git",
+      "branch": "master",
+      "revision": "963db6a7e12faef47910ebf94691231d6a8d7342"
+    },
     "tevent": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tevent.git",
       "branch": "master",
