@@ -7439,7 +7439,7 @@
     "qt5-graphicaleffects": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-graphicaleffects.git",
       "branch": "master",
-      "revision": "b0e76fed461a944667c11adbad47627c6a6112e6"
+      "revision": "1010ffbf86bb31bcf40b05d36c5fe7185dba4927"
     },
     "qt5-imageformats": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-imageformats.git",
