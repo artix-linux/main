@@ -7424,7 +7424,7 @@
     "qt5-doc": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-doc.git",
       "branch": "master",
-      "revision": "79a71e0c07ea4209dfe9b96e0fea235994eb0231"
+      "revision": "f3eb92fc1115d27e61dd38a0c58ec180477c2c57"
     },
     "qt5-feedback": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-feedback.git",
