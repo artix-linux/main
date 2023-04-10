@@ -6514,7 +6514,7 @@
     "opencc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencc.git",
       "branch": "master",
-      "revision": "20cc57762c4c21fbbb92d7df6839b0e8151749e3"
+      "revision": "591ae5a218a8a73a95ccea6ff79d1edb788bc9a0"
     },
     "opencl-clhpp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencl-clhpp.git",
