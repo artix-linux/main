@@ -7689,7 +7689,7 @@
     "qt6-quick3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-quick3d.git",
       "branch": "master",
-      "revision": "f1f5fb89a8fdbeb1b5defed842a714b21b472653"
+      "revision": "00e5a47a2d9d6d418e740a6556676c9b014593ee"
     },
     "qt6-quick3dphysics": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-quick3dphysics.git",
