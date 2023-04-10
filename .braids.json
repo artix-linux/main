@@ -10144,7 +10144,7 @@
     "xsimd": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xsimd.git",
       "branch": "master",
-      "revision": "eef87089ae1c3c91cda0bb8d1b4fdbe0136db089"
+      "revision": "c7d309a4294b993e443dadd3b1ec6f65600d873a"
     },
     "xterm": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xterm.git",
