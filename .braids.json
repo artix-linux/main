@@ -2239,7 +2239,7 @@
     "gi-docgen": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gi-docgen.git",
       "branch": "master",
-      "revision": "7da9cc78828f055c94167b0564b852c3c4d6d282"
+      "revision": "1d12da80df7784d3ad036ebda813821a6a4d8660"
     },
     "giflib": {
       "url": "gitea@gitea.artixlinux.org:packagesG/giflib.git",
