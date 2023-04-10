@@ -7729,7 +7729,7 @@
     "qt6-shadertools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-shadertools.git",
       "branch": "master",
-      "revision": "ad6444ee574c684d07d07a837eda262fea496508"
+      "revision": "432c4daf31d42e47b80cfd05a27a88833e061ab5"
     },
     "qt6-speech": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-speech.git",
