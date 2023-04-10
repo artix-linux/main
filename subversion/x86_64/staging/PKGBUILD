@@ -67,6 +67,7 @@ prepare() {
    patch -Np1 -i ../subversion-1.14.1-python-3.11-build.patch
    patch -Np1 -i ../subversion-1.14.2-swig-py-Fix-conditionals-by-SWIG-version-and-by-Pyth.patch
 
+   sed -i '/CDPATH/d' autogen.sh
    ./autogen.sh
 }
 
