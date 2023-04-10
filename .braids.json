@@ -7614,7 +7614,7 @@
     "qt6-5compat": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-5compat.git",
       "branch": "master",
-      "revision": "83458f60185f84cdb29724aef04268079d6a30cd"
+      "revision": "8dc4eb63f9baa512a3575a26c2ca33ced1f7416a"
     },
     "qt6-base": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-base.git",
