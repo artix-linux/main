@@ -1,10 +1,13 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 
 pkgbase=at-spi2-core
-pkgname=(at-spi2-core at-spi2-core-docs)
+pkgname=(
+  at-spi2-core
+  at-spi2-core-docs
+)
 pkgver=2.48.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Protocol definitions and daemon for D-Bus at-spi"
 url="https://gitlab.gnome.org/GNOME/at-spi2-core"
 arch=(x86_64)
@@ -12,6 +15,7 @@ license=(GPL2)
 depends=(
   dbus
   glib2
+  gsettings-desktop-schemas
   libx11
   libxml2
   libxtst
@@ -25,7 +29,9 @@ makedepends=(
   meson
   python-sphinx
 )
-options=(debug)
+checkdepends=(
+  at-spi2-core
+)
 _commit=d963aff7f6977e50517fb2ffe8b31f1db142107d  # tags/AT_SPI2_CORE_2_48_0^0
 source=("git+https://gitlab.gnome.org/GNOME/at-spi2-core.git#commit=$_commit")
 b2sums=('SKIP')
