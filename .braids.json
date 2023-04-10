@@ -6539,7 +6539,7 @@
     "opencv": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opencv.git",
       "branch": "master",
-      "revision": "8155aa0134a338bddc98a3dffc0c0aafcef3d50a"
+      "revision": "5f716e1732296004e50494afa63fe646854643b8"
     },
     "opendbx": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendbx.git",
