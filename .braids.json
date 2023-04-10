@@ -2819,7 +2819,7 @@
     "httpbin": {
       "url": "gitea@gitea.artixlinux.org:packagesH/httpbin.git",
       "branch": "master",
-      "revision": "0b2828c9c6320ec381b33e06ff6b8a8e07313dad"
+      "revision": "ec523613d48607c7bbb9f5de3e121dba4d73785b"
     },
     "hub": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hub.git",
