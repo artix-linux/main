@@ -3639,7 +3639,7 @@
     "libcap-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcap-ng.git",
       "branch": "master",
-      "revision": "b89fb37e5ef10f7248bc86983a342d1c5df6cb7d"
+      "revision": "56e138a51e9c2983add7e50eba25e6148da94dac"
     },
     "libcbor": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcbor.git",
