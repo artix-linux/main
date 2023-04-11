@@ -2454,7 +2454,7 @@
     "gpgme": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gpgme.git",
       "branch": "master",
-      "revision": "263321863564fd57bfdd083ffb197230246fb481"
+      "revision": "0ebbae9870c80d5b7b20917f0b20d4a5965a9938"
     },
     "gpm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gpm.git",
