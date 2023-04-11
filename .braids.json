@@ -9209,7 +9209,7 @@
     "unbound": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound.git",
       "branch": "master",
-      "revision": "b2a3c9ad9899bdd34313ab1a65a35d3f28f2788a"
+      "revision": "ecc8ffd4174a6f0ca367391fd2dc20d19bd65be2"
     },
     "unclutter": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unclutter.git",
