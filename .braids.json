@@ -5234,7 +5234,7 @@
     "libxt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxt.git",
       "branch": "master",
-      "revision": "acc9634f3ef9edb994579fcc7f220cdc98250be0"
+      "revision": "26e4c4e586dc515e8cc91ace8f1561e44f8309b7"
     },
     "libxtst": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxtst.git",
