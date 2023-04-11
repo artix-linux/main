@@ -21,7 +21,7 @@ depends=(
   'openssl'
 )
 makedepends=('libxslt' 'mongo-c-driver' 'librabbitmq-c' 'python' 'libesmtp' 'hiredis'
-             'libdbi' 'libmaxminddb' 'net-snmp' 'librdkafka' 'systemd')
+             'libdbi' 'libmaxminddb' 'net-snmp' 'librdkafka')
 checkdepends=('python-nose' 'python-ply')
 optdepends=('logrotate: for rotating log files'
             'libdbi: for the SQL plugin'
