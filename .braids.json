@@ -10259,7 +10259,7 @@
     "z3": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/z3.git",
       "branch": "master",
-      "revision": "32c11715fb4ee3635b3dee9e14432c8861016503"
+      "revision": "44d96b47c3fc7aed724783400eee8dfa279bd927"
     },
     "zbar": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zbar.git",
