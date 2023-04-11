@@ -4779,7 +4779,7 @@
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
-      "revision": "c24988e2a5cfe3da4c81db31a848120df4c22e87"
+      "revision": "04a4eb46d6a5737dd3d5675fee05d9bb8492bce3"
     },
     "libthai": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libthai.git",
