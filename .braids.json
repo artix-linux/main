@@ -9324,7 +9324,7 @@
     "uvicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uvicorn.git",
       "branch": "master",
-      "revision": "80f2fa639d672907a5832d326f929cfeab5c78f7"
+      "revision": "df4a3bd2a4744b3d6a7c91c6bffde62905a60835"
     },
     "uwsgi": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uwsgi.git",
