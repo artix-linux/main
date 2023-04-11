@@ -6919,7 +6919,7 @@
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
       "branch": "master",
-      "revision": "30517b041dfafc27732c0d8b28c55956ac7117c4"
+      "revision": "d06919373dcc58a45f89682ac078a0fd17be323e"
     },
     "pifpaf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pifpaf.git",
