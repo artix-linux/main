@@ -7361,6 +7361,11 @@
       "branch": "master",
       "revision": "f3c6fd65e1df21da2f0fdd2bffc105c103af3b3f"
     },
+    "python-server-fileid": {
+      "url": "gitea@gitea.artixlinux.org:packagesPython/python-server-fileid.git",
+      "branch": "master",
+      "revision": "e95c0705479bdb896a97602d0424d0b199207112"
+    },
     "python-setuptools-gettext": {
       "url": "gitea@gitea.artixlinux.org:packagesPython/python-setuptools-gettext.git",
       "branch": "master",
