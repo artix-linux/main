@@ -5689,7 +5689,7 @@
     "marisa": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marisa.git",
       "branch": "master",
-      "revision": "8f770240f5956e933199f89353776bed2a19dbc1"
+      "revision": "960fde9e7d8cc999fb31494f83e91f2335791835"
     },
     "marked": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marked.git",
