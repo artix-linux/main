@@ -3669,7 +3669,7 @@
     "libcgif": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libcgif.git",
       "branch": "master",
-      "revision": "51cf95c4edd9007221c8bbc365ea1b0059838765"
+      "revision": "2d35ea878ff9cfb1f4dd773ba6b7958178ebbeee"
     },
     "libclc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libclc.git",
