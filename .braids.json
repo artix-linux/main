@@ -7829,7 +7829,7 @@
     "radicale": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radicale.git",
       "branch": "master",
-      "revision": "625e506b80a38a269e957b386a97ec4b7d62cc70"
+      "revision": "0a4d13ecd3b1ec34d44415ad3ff0a0a3c2557913"
     },
     "raft": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raft.git",
