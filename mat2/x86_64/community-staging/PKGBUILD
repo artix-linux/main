@@ -14,7 +14,7 @@ optdepends=(
   'ffmpeg: video support'
   'bubblewrap: sandboxing support'
 )
-checkdepends=('ffmpeg')
+checkdepends=('ffmpeg' 'python-mutagen')
 source=(https://0xacab.org/jvoisin/mat2/-/archive/${pkgver}/mat2-${pkgver}.tar.gz
         https://0xacab.org/jvoisin/mat2/uploads/672c73a1b8b0e79cdf7187900f3cc8ca/mat2-0.13.3.tar.gz.asc
         https://0xacab.org/jvoisin/mat2/-/commit/ed0ffa5693b6d710b19a9101d6cb0625f8b6f1fc.patch
