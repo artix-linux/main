@@ -7224,7 +7224,7 @@
     "pylama": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pylama.git",
       "branch": "master",
-      "revision": "6760ff1617afc2b5497a457f9cd963e992c9a8f6"
+      "revision": "121a67ad23d136ba98a49d17550348c14f14b2e1"
     },
     "pyopengl": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyopengl.git",
