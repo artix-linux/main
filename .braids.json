@@ -9469,7 +9469,7 @@
     "volume_key": {
       "url": "gitea@gitea.artixlinux.org:packagesV/volume_key.git",
       "branch": "master",
-      "revision": "bb26ebe5d070e8456153587876d323b90ef1f184"
+      "revision": "344f12b3099c4b48e29723c9fb77bfe14c64da39"
     },
     "volumeicon": {
       "url": "gitea@gitea.artixlinux.org:packagesV/volumeicon.git",
