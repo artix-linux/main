@@ -7324,7 +7324,7 @@
     "pyside6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyside6.git",
       "branch": "master",
-      "revision": "20a7b6f4197ad3f6527e8c6f678010899992e25d"
+      "revision": "efa9ccb01d9051ea3bc0d73749591974ae979cd3"
     },
     "pysmbc": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pysmbc.git",
