@@ -14,13 +14,13 @@ makedepends=(cmake ninja clang llvm python-setuptools vulkan-headers python-nump
              qt6-tools qt6-svg qt6-3d qt6-scxml qt6-datavis3d qt6-charts qt6-multimedia qt6-quick3d
              qt6-location qt6-positioning qt6-networkauth qt6-remoteobjects qt6-sensors qt6-serialbus qt6-serialport
              qt6-connectivity qt6-webchannel qt6-webengine qt6-websockets qt6-shadertools qt6-speech qt6-httpserver)
-_pkgfn=pyside-setup-opensource-src-$_qtver
+_pkgfn=pyside-setup-everywhere-src-$_qtver
 source=(https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-$pkgver-src/${_pkgfn}.tar.xz
         designer-plugin-install-dir.patch
         pyside-2183.patch::https://code.qt.io/cgit/pyside/pyside-setup.git/patch/?id=196ec4c5)
 sha256sums=('6ef53b29127267e381917e6f9399ce760edc0644cd5831988b1de72c9d583ab4'
             '66e895e07d5b01c64a94092353854c946fd7fc445b6181068dca290b5a3887e0'
-            '9f796e791cf2a684353d44af2455af30e46116dcb7fff5afa239181faf5dd9c8')
+            'debcb196fe5df181f117d56358f17a8c4da06ee3e5e29021fa0427de58835697')
 
 prepare() {
   patch -d $_pkgfn -p1 < designer-plugin-install-dir.patch # Fix designer plugin install dir
