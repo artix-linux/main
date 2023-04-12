@@ -3344,7 +3344,7 @@
     "jupyterlab_pygments": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab_pygments.git",
       "branch": "master",
-      "revision": "2ee0be190510caa4b42e842737b2956acb350353"
+      "revision": "4f141d49b32a830b098551396dbd2a359923e8a5"
     },
     "kbd": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kbd.git",
