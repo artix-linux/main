@@ -674,7 +674,7 @@
     "brotli": {
       "url": "gitea@gitea.artixlinux.org:packagesB/brotli.git",
       "branch": "master",
-      "revision": "18e8bb16365c01c964ca8e110fe796c2002af720"
+      "revision": "c1f66f4bf950cbfad908650b180a6f50ac2b950d"
     },
     "btrfs-progs": {
       "url": "gitea@gitea.artixlinux.org:packagesB/btrfs-progs.git",
