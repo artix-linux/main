@@ -6889,7 +6889,7 @@
     "pelican": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pelican.git",
       "branch": "master",
-      "revision": "f788830ea10b0202c155f9bc7cbaadf6658eff76"
+      "revision": "2f8d261c5a1b5e42db88fdcbeeb6f411517b21a6"
     },
     "percona-server": {
       "url": "gitea@gitea.artixlinux.org:packagesP/percona-server.git",
