@@ -2029,7 +2029,7 @@
     "fop": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fop.git",
       "branch": "master",
-      "revision": "7b4db3cd8ed1519be752964f6275e91f4e4ab542"
+      "revision": "f6d39788ebf1dca1ac449571123a1343da342721"
     },
     "fractal": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fractal.git",
