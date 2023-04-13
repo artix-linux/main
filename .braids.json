@@ -7279,7 +7279,7 @@
     "pyqt5-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-networkauth.git",
       "branch": "master",
-      "revision": "abd42fa67ff644c928af3b26a726b5e37ee8fe63"
+      "revision": "fa4456af6c0c6f3c5eda573ccd2a48e3d558ba30"
     },
     "pyqt5-purchasing": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-purchasing.git",
