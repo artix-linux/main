@@ -7284,7 +7284,7 @@
     "pyqt5-purchasing": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-purchasing.git",
       "branch": "master",
-      "revision": "02f76bf241352294d41b57fa1c0f1f1d13e05b16"
+      "revision": "6764e4a924f9c15c7def602d5d53544ad87178e3"
     },
     "pyqt5-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-webengine.git",
