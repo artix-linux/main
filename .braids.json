@@ -2429,7 +2429,7 @@
     "godot": {
       "url": "gitea@gitea.artixlinux.org:packagesG/godot.git",
       "branch": "master",
-      "revision": "f9ab3f0eefffafc49b13c5735ec88ff557c065b6"
+      "revision": "ddfae4a45711867b659d857b36310f227981a903"
     },
     "google-glog": {
       "url": "gitea@gitea.artixlinux.org:packagesG/google-glog.git",
