@@ -11,7 +11,7 @@ depends=('python-ansiwrap' 'python-colorama' 'python-cryptography' 'python-keyri
          'python-parsedatetime' 'python-dateutil' 'python-pyxdg' 'python-rich' 'python-ruamel-yaml'
          'python-tzlocal')
 makedepends=('python-build' 'python-installer' 'python-poetry-core')
-checkdepends=('python-pytest' 'python-pytest-bdd<6' 'python-toml')
+checkdepends=('python-pytest' 'python-pytest-bdd' 'python-toml')
 source=("https://github.com/jrnl-org/jrnl/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
 sha512sums=('70e111846381b046f83e51c35aeb1ba6747862179c09ecdf39d04a7847723b1e69a2fbc60d7be9cccf53c1b5846dfff7dd0b9820859c93fae579d6be8117eacd')
 
