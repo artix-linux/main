@@ -994,7 +994,7 @@
     "coin-or-cbc": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-cbc.git",
       "branch": "master",
-      "revision": "e1e6ea85c8e03f22295f7b1cec008334b9be1723"
+      "revision": "a3cad9dc30d09796aba5557898934e649fb47daf"
     },
     "coin-or-cgl": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-cgl.git",
