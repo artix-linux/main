@@ -2499,7 +2499,7 @@
     "graphviz": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphviz.git",
       "branch": "master",
-      "revision": "4c8f47d1b79d32d2a1af1873651d57e7a21d698f"
+      "revision": "f85c6d2a11048b500acb837bf23632c193999149"
     },
     "grep": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grep.git",
