@@ -8314,7 +8314,7 @@
     "sfsexp": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sfsexp.git",
       "branch": "master",
-      "revision": "ca41489f8381fec62937904c3518c1dfd7218c13"
+      "revision": "50fe3ff7095ad93101ee3d19b94d9a5e38e3a0ae"
     },
     "sg3_utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sg3_utils.git",
