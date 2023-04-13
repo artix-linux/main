@@ -4584,7 +4584,7 @@
     "libraqm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraqm.git",
       "branch": "master",
-      "revision": "b557685e984522c6c04962685367ea189c4ddea3"
+      "revision": "d2968f34c490b690c28b0b31a534fe642e22e2c4"
     },
     "libraw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libraw.git",
