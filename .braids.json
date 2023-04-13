@@ -7329,7 +7329,7 @@
     "pysmbc": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pysmbc.git",
       "branch": "master",
-      "revision": "19f7db37465acac7691c199c1ec026708abd1eaa"
+      "revision": "11c9d6af2fca1136bf4415b9802059dae81a7784"
     },
     "python": {
       "url": "gitea@gitea.artixlinux.org:packagesP/python.git",
