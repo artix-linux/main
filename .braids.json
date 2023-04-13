@@ -1024,7 +1024,7 @@
     "coin-or-osi": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-osi.git",
       "branch": "master",
-      "revision": "2d8d84e54057141935ddaef5907a92c38575a52c"
+      "revision": "e0e154f68e2e6984857f1fa76feb678fbc504c26"
     },
     "colord": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord.git",
