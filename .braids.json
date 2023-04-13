@@ -7244,7 +7244,7 @@
     "pyprof2calltree": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyprof2calltree.git",
       "branch": "master",
-      "revision": "14202318eecfb845e579ba76a118cc74f44c5189"
+      "revision": "5a9399c9434eecd08341a6f2d68aac56d73e61a4"
     },
     "pypy": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pypy.git",
