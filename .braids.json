@@ -8104,7 +8104,7 @@
     "runc": {
       "url": "gitea@gitea.artixlinux.org:packagesR/runc.git",
       "branch": "master",
-      "revision": "bc20378ee7c55eb2e9f11d954ce23b839f8c88e6"
+      "revision": "864b782d33d399eb7bb9623a9617cbc967bf6639"
     },
     "rust": {
       "url": "gitea@gitea.artixlinux.org:/packagesR/rust.git",
