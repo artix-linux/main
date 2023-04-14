@@ -7979,7 +7979,7 @@
     "rkcommon": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rkcommon.git",
       "branch": "master",
-      "revision": "5c5d0e27545025d0e7290775e72b5217777bf512"
+      "revision": "56d1ad469418cb136f7bbd99fba44603fe526ef9"
     },
     "rng-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools.git",
