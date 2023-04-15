@@ -10369,7 +10369,7 @@
     "zziplib": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zziplib.git",
       "branch": "master",
-      "revision": "ac915ac8f4892680bda77f3e4026c1e25d294629"
+      "revision": "1b7051443ef790fa3bffeddac5df1147667d1933"
     }
   }
 }
