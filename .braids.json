@@ -4099,7 +4099,7 @@
     "libisl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libisl.git",
       "branch": "master",
-      "revision": "e4b4e95e42d013c1672c531fe393c8739fcc6534"
+      "revision": "b7ec6fb61d2dd661ea5c9c1e92c4d9c5ce27ecb9"
     },
     "libisoburn": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libisoburn.git",
