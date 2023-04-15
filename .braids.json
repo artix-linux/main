@@ -8844,7 +8844,7 @@
     "testdisk": {
       "url": "gitea@gitea.artixlinux.org:packagesT/testdisk.git",
       "branch": "master",
-      "revision": "3bf6291c0c75fcabee5078e0d9c686dad841c131"
+      "revision": "a40bf6d8bc7ffb8d91a94f1fd947cda1b8beba10"
     },
     "tevent": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tevent.git",
