@@ -6819,7 +6819,7 @@
     "parted": {
       "url": "gitea@gitea.artixlinux.org:packagesP/parted.git",
       "branch": "master",
-      "revision": "07757812b9ea1d846ae2c1da4881c5e8e2227633"
+      "revision": "5c23a14bd716fce1639c8c399db3062aef7b789c"
     },
     "pass": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pass.git",
