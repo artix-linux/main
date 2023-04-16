@@ -4,7 +4,7 @@
 pkgname=qt5-webview
 _basever=5.15.9
 pkgver=5.15.9
-pkgrel=1
+pkgrel=1.1
 _commit=23d67d0de3301dbed5d8c5880b6cf60bfa9eeb2a
 arch=('x86_64')
 url='https://www.qt.io'
