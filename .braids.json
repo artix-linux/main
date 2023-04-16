@@ -2599,7 +2599,7 @@
     "gtk2": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk2.git",
       "branch": "master",
-      "revision": "bfeeff8e056419b46b124ab10fe2d49b38c18b1c"
+      "revision": "2eaf1a7e49b34e84dcec25d501293f4577142510"
     },
     "gtk2-compat": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk2-compat.git",
