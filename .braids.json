@@ -7474,7 +7474,7 @@
     "qt5-multimedia": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-multimedia.git",
       "branch": "master",
-      "revision": "f9e72887ef7eca95719ea2ab705743208cb68c1e"
+      "revision": "22b7d5985deb6fb648849d149b29037038c36d53"
     },
     "qt5-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-networkauth.git",
