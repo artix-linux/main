@@ -3389,7 +3389,7 @@
     "knot": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot.git",
       "branch": "master",
-      "revision": "c827f700f095e0069431fcc90e59bd1afe1645db"
+      "revision": "9806e03cd5e8b49dba90233a281e0bc16ef828bf"
     },
     "kotlin": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kotlin.git",
