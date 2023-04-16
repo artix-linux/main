@@ -7739,7 +7739,7 @@
     "qt6-serialport": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-serialport.git",
       "branch": "master",
-      "revision": "5c78a0acb0fd0d7ace9145730e47e4e486b37e74"
+      "revision": "9b7faeea0fc1275d880f17f30c77d796b8d022c0"
     },
     "qt6-shadertools": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-shadertools.git",
