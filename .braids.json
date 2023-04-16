@@ -7539,7 +7539,7 @@
     "qt5-speech": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-speech.git",
       "branch": "master",
-      "revision": "2ba492044c82aa26bdc2190a6c2656290cf4e779"
+      "revision": "4006e78f0012cca5ecb58fc523dfbbe46d31276d"
     },
     "qt5-styleplugins": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-styleplugins.git",
