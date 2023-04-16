@@ -6624,7 +6624,7 @@
     "openresolv": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openresolv.git",
       "branch": "master",
-      "revision": "01c84160f78a3edc22e0a9ae2085635041bda7db"
+      "revision": "ef20781a977be7434a0f95f3064389c6c6aa176d"
     },
     "opensips": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips.git",
