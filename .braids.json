@@ -5529,7 +5529,7 @@
     "luasec": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luasec.git",
       "branch": "master",
-      "revision": "9d35d54add34279234c83253382e31df770613ce"
+      "revision": "c87db153834d3b4a5e8ef6d5ed7b8e40d67ae886"
     },
     "luit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/luit.git",
