@@ -7579,7 +7579,7 @@
     "qt5-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webengine.git",
       "branch": "master",
-      "revision": "f214b6b74c7b3a8f21724659b742570c8e93afb8"
+      "revision": "a543499ee66cb97fa0c05d29d5762f0d52f86d1a"
     },
     "qt5-webglplugin": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webglplugin.git",
