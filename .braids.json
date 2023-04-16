@@ -7644,7 +7644,7 @@
     "qt6-connectivity": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-connectivity.git",
       "branch": "master",
-      "revision": "49c9aba6b3cddb1074f2e7f87ff8be6a44718b83"
+      "revision": "453e2dec3541cd66bc8fa0dae9bf63b7d3467c33"
     },
     "qt6-datavis3d": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-datavis3d.git",
