@@ -4499,7 +4499,7 @@
     "libpcap": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpcap.git",
       "branch": "master",
-      "revision": "55d14c6c0d011f30a631a090b64bda0411d2ba0c"
+      "revision": "2a8e2dbbf87a64a888dc907ddfc652f32339ea79"
     },
     "libpciaccess": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpciaccess.git",
