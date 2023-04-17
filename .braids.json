@@ -7999,7 +7999,7 @@
     "robin-map": {
       "url": "gitea@gitea.artixlinux.org:packagesR/robin-map.git",
       "branch": "master",
-      "revision": "02832d19de9e410acf59f4cce1ba455f6c226863"
+      "revision": "06b28a9c77c9db1b500f5eff7e01a0a4b9f05e4e"
     },
     "roc-toolkit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/roc-toolkit.git",
