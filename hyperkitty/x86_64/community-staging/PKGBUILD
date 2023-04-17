@@ -16,7 +16,7 @@ python-flufl-lock python-mailmanclient python-mistune python-networkx
 python-pytz python-robot-detection python-whoosh sassc)
 makedepends=(git python-build python-installer python-isort python-setuptools python-wheel)
 checkdepends=(python-beautifulsoup4 python-django-debug-toolbar
-python-elasticsearch python-lxml python-pytest python-whoosh)
+python-elasticsearch python-lxml python-pytest python-whoosh python-django-q)
 optdepends=(
   'python-django-debug-toolbar: for debugging'
   'python-elasticsearch: for using elasticsearch as search backend'
