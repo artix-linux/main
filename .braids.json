@@ -6941,6 +6941,11 @@
       "branch": "master",
       "revision": "790b060ad629f8c75cfec55ddfe9160b686f1a59"
     },
+    "pigz": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pigz.git",
+      "branch": "master",
+      "revision": "bae49fd986fb47b19849d739037832156685013d"
+    },
     "pinentry": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pinentry.git",
       "branch": "master",
