@@ -3074,7 +3074,7 @@
     "ispc": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ispc.git",
       "branch": "master",
-      "revision": "83de7efb5896fcd3a5532eb20197f94eb3c98fda"
+      "revision": "2768b2a07cc71794cb5e1a60a4478b58745dce22"
     },
     "isync": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isync.git",
