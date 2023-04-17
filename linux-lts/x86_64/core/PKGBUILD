@@ -1,7 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 
 pkgbase=linux-lts
-pkgver=6.1.20
+pkgver=6.1.24
 pkgrel=1
 pkgdesc='LTS Linux'
 url="https://www.kernel.org/"
@@ -23,9 +23,9 @@ validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
 )
 # https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc
-sha256sums=('76322de8c01a3c63b42c4d1e9b9e7d1897ddb91276e10d73d1f9df3562f031f0'
+sha256sums=('aae6a7e38e33589011f5a5c0d7e087c8a26e3daf8d434432ee975ead90546504'
             'SKIP'
-            'e27356e518c3766f6ca56ac6b1507765bccd1440c3efa92ee04f50905d1fd0ad'
+            '512b7034e508cebc3f273223e60dde03b49cb5a6f380a01512932e8c9242210e'
             '1bd8388fcb6ed4eec46450c65eb7a0889a8c541f164a39e3064633981a7a4a3d')
 
 export KBUILD_BUILD_HOST=artixlinux
