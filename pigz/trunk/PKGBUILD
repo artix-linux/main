@@ -1,0 +1,32 @@
+# Maintainer: Torr <torr@artixlinux.org>
+pkgname=pigz
+pkgver=2.7
+pkgrel=1
+pkgdesc="parallel implementation of gzip for modern multi-processor, multi-core machines"
+arch=("x86_64")
+url="https://zlib.net/pigz"
+license=("custom")
+depends=("zlib")
+makedepends=(
+	"gcc"
+	"make"
+)
+source=("https://zlib.net/pigz/$pkgname-$pkgver.tar.gz")
+sha256sums=("b4c9e60344a08d5db37ca7ad00a5b2c76ccb9556354b722d56d55ca7e8b1c707")
+
+prepare(){
+	cd $pkgname-$pkgver
+	sed -n 's/^  //; /without any express or implied/,$p' README >  LICENSE
+}
+
+build() {
+	cd "$pkgname-$pkgver"
+	make
+}
+
+package() {
+	cd "$pkgname-$pkgver"
+	install -Dm 644 pigz.1 -t $pkgdir/usr/share/man/man1
+	install -Dm 755 pigz unpigz -t $pkgdir/usr/bin
+	install -Dm 644 LICENSE -t $pkgdir/usr/share/licenses/$pkgname
+}
