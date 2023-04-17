@@ -1659,7 +1659,7 @@
     "embree": {
       "url": "gitea@gitea.artixlinux.org:packagesE/embree.git",
       "branch": "master",
-      "revision": "2b63880f878624b9f91396fd0837fa1b0bebb700"
+      "revision": "c25bda11b30f1321b83aff9178732e6853a5a142"
     },
     "emovix": {
       "url": "gitea@gitea.artixlinux.org:packagesE/emovix.git",
