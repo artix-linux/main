@@ -7,7 +7,7 @@
 pkgbase=godot
 pkgname=(godot)
 pkgver=4.0.2
-pkgrel=1
+pkgrel=4
 pkgdesc='Advanced cross-platform 2D and 3D game engine'
 url='https://godotengine.org/'
 license=(MIT)
@@ -35,8 +35,8 @@ build() {
   #  AUR: libwebm, rvo2
   #  recastnavigation, xatlas
   scons -j$(nproc --all) \
-    CFLAGS="$CFLAGS -fPIC -Wl,-z,relro,-z,now -w" \
-    CXXFLAGS="$CXXFLAGS -fPIC -Wl,-z,relro,-z,now -w" \
+    CFLAGS="$CFLAGS -fPIC -Wl,-z,relro,-z,now -w -I/usr/include" \
+    CXXFLAGS="$CXXFLAGS -fPIC -Wl,-z,relro,-z,now -w -I/usr/include" \
     LINKFLAGS="$LDFLAGS" \
     arch=$CARCH \
     builtin_embree=no \
