@@ -1,32 +1,40 @@
-# Maintainer: Torr <torr@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Bartłomiej Piotrowski
+# Contributor: Laszlo Papp <djszapi2@gmail.com>
+# Contributor: Stefan Husmann <stefan-husmann@t-online.de>
+
 pkgname=pigz
 pkgver=2.7
-pkgrel=1
-pkgdesc="parallel implementation of gzip for modern multi-processor, multi-core machines"
-arch=("x86_64")
-url="https://zlib.net/pigz"
-license=("custom")
-depends=("zlib")
-makedepends=(
-	"gcc"
-	"make"
-)
-source=("https://zlib.net/pigz/$pkgname-$pkgver.tar.gz")
-sha256sums=("b4c9e60344a08d5db37ca7ad00a5b2c76ccb9556354b722d56d55ca7e8b1c707")
-
-prepare(){
-	cd $pkgname-$pkgver
-	sed -n 's/^  //; /without any express or implied/,$p' README >  LICENSE
-}
+pkgrel=3
+pkgdesc='Parallel implementation of the gzip file compressor'
+arch=('x86_64')
+url='https://www.zlib.net/pigz'
+license=('custom')
+depends=('zlib')
+source=(https://www.zlib.net/$pkgname/$pkgname-$pkgver.tar.gz)
+md5sums=('2d084221ba829d29f344305845a313f3')
+sha256sums=('b4c9e60344a08d5db37ca7ad00a5b2c76ccb9556354b722d56d55ca7e8b1c707')
 
 build() {
-	cd "$pkgname-$pkgver"
-	make
+  cd $pkgname-$pkgver
+
+  make
 }
 
 package() {
-	cd "$pkgname-$pkgver"
-	install -Dm 644 pigz.1 -t $pkgdir/usr/share/man/man1
-	install -Dm 755 pigz unpigz -t $pkgdir/usr/bin
-	install -Dm 644 LICENSE -t $pkgdir/usr/share/licenses/$pkgname
+  cd $pkgname-$pkgver
+
+  install -Dm755 "$srcdir"/$pkgname-$pkgver/$pkgname \
+    "$pkgdir"/usr/bin/$pkgname 
+
+  pushd "$pkgdir"/usr/bin
+    ln -s pigz unpigz 
+  popd
+
+  install -Dm644 "$srcdir"/$pkgname-$pkgver/$pkgname.1 \
+    "$pkgdir"/usr/share/man/man1/$pkgname.1
+  install -Dm644 "$srcdir"/$pkgname-$pkgver/$pkgname.pdf \
+    "$pkgdir"/usr/share/doc/$pkgname/$pkgname.pdf
+  install -Dm644 "$srcdir"/$pkgname-$pkgver/README \
+    "$pkgdir"/usr/share/licenses/$pkgname/README
 }
