@@ -10354,7 +10354,7 @@
     "zsh-completions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-completions.git",
       "branch": "master",
-      "revision": "498b28a57fdc209e53656262a721e168280c04d0"
+      "revision": "7bb13da37295c55ac2941e6180cd01e6a9c86d5e"
     },
     "zsh-syntax-highlighting": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-syntax-highlighting.git",
