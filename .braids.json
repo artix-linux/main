@@ -5204,7 +5204,7 @@
     "libxpm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxpm.git",
       "branch": "master",
-      "revision": "b44085f13d5b20a1568e0f2341449111dd13eb04"
+      "revision": "0a8b4dc4c96f19e6e61cf903a8cfe48c611533e6"
     },
     "libxpresent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxpresent.git",
