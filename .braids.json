@@ -7844,7 +7844,7 @@
     "radeontop": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radeontop.git",
       "branch": "master",
-      "revision": "f8cec4fec87cd63b31e16b21ac9476f2b4cdcb66"
+      "revision": "e14cde37191301e66ea367176b22e062ab31a459"
     },
     "radicale": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radicale.git",
