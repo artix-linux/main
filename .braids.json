@@ -5139,7 +5139,7 @@
     "libxft": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxft.git",
       "branch": "master",
-      "revision": "5ba42525dfd69f5346649c82ace418d1120fdc12"
+      "revision": "a8f65ea13a4d90dde26d0a01b31489f6f8e46902"
     },
     "libxi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxi.git",
