@@ -3049,7 +3049,7 @@
     "irssi": {
       "url": "gitea@gitea.artixlinux.org:packagesI/irssi.git",
       "branch": "master",
-      "revision": "0e5847ac5709416bc3708662f70e6b35be45dc21"
+      "revision": "2cc949d10a344f5cdd5e251c3b79d5b6f75518ff"
     },
     "iso-codes": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iso-codes.git",
