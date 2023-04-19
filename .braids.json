@@ -8059,7 +8059,7 @@
     "rtaudio": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtaudio.git",
       "branch": "master",
-      "revision": "e8a59779bdb81be230ab504152bacb5a4ff2e2c3"
+      "revision": "ca4240fdc7582ab5001a88e2a7eb75e7bef8600d"
     },
     "rtkit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rtkit.git",
