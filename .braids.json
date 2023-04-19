@@ -10349,7 +10349,7 @@
     "zsh-autosuggestions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-autosuggestions.git",
       "branch": "master",
-      "revision": "cacac44da00917c99e15c84a93653021fb1770c7"
+      "revision": "a6c41f210b00c10fea0362eda201e2e37892df94"
     },
     "zsh-completions": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zsh-completions.git",
