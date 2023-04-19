@@ -8744,7 +8744,7 @@
     "t1utils": {
       "url": "gitea@gitea.artixlinux.org:packagesT/t1utils.git",
       "branch": "master",
-      "revision": "8486307a9e4d3788ea4b9f69f0e06dd82a7e45f2"
+      "revision": "1e114b59297287695ef8d6956003ad5d03505f33"
     },
     "taglib": {
       "url": "gitea@gitea.artixlinux.org:packagesT/taglib.git",
