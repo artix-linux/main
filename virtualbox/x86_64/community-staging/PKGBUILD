@@ -102,11 +102,10 @@ prepare() {
     cp "${srcdir}/LocalConfig.kmk" .
 
     echo 'Use our CFLAGS'
-    echo "VBOX_GCC_OPT=$CXXFLAGS" >> LocalConfig.kmk
+    echo "VBOX_GCC_OPT=$CXXFLAGS -I/usr/include/SDL2" >> LocalConfig.kmk
 }
 
 build() {
-    export CXXFLAGS="$CXXFLAGS -I/usr/include/SDL2"
     cd "VirtualBox-${pkgver}"
 
     echo 'Build virtualbox'
