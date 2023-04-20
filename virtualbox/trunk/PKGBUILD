@@ -47,6 +47,8 @@ makedepends=('alsa-lib'
              'qt5-x11extras'
              'sdl'
              'sdl_ttf'
+             'sdl2'
+             'sdl2_ttf'
              'vde2'
              'xorgproto'
              'xorg-server-devel'
@@ -102,7 +104,7 @@ prepare() {
     cp "${srcdir}/LocalConfig.kmk" .
 
     echo 'Use our CFLAGS'
-    echo "VBOX_GCC_OPT=$CXXFLAGS -I/usr/include/SDL" >> LocalConfig.kmk
+    echo "VBOX_GCC_OPT=$CXXFLAGS -I/usr/include/SDL2" >> LocalConfig.kmk
 }
 
 build() {
