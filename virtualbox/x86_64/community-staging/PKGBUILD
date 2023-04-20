@@ -86,7 +86,7 @@ sha256sums=('c305fbe480f507eac7c36893ead66dffaacda944f19c3813a4533e9c39bae237'
             '00f68b86d32a1fada900c2da8dad2ab4215106cd58004f049bded99727cda2ff'
             '87dddfd9047480e4c2b73367facf5dd3702148418c2efcd606af17c07da90fe0'
             '713fa594e8cb52946741839f8b73ffafedcd2e4ab03df169dd0c2c74ba9a18b4'
-            'ce1dd4c0d1e8b08ff0efbc3e7c936d74e201012ac2de11e58267b1047ddb7cb3')
+            '747b1f25d5d3b85ca6b80eddd1d97e8d00463f2af2959c21da7426cbdf8887a3')
 
 prepare() {
     cd "VirtualBox-${pkgver}"
