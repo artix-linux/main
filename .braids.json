@@ -6209,7 +6209,7 @@
     "networkmanager": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager.git",
       "branch": "master",
-      "revision": "3449a03916d331a37e61e8e8a80383092a34caad"
+      "revision": "680415daee5ae5c1d8e6d098326fe2e753ab3511"
     },
     "networkmanager-openvpn": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-openvpn.git",
