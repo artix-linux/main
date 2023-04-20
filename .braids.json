@@ -6769,7 +6769,7 @@
     "pam": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pam.git",
       "branch": "master",
-      "revision": "d90e01c3a57a1a8af255b8e5a79a3d5004675101"
+      "revision": "d6bc5af8a7018039d78a5adb1fac5204864bcd2e"
     },
     "pam_rundir": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pam_rundir.git",
