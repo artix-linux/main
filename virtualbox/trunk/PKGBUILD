@@ -67,7 +67,8 @@ source=("https://download.virtualbox.org/virtualbox/${pkgver}/VirtualBox-${_tarv
         '012-vbglR3GuestCtrlDetectPeekGetCancelSupport.patch'
         '013-support-building-from-dkms.patch'
         '018-upate-xclient-script.patch'
-        '020-python-3-11.patch')
+        '020-python-3-11.patch'
+	'0001-correct-sdl-location.patch')
 sha256sums=('c305fbe480f507eac7c36893ead66dffaacda944f19c3813a4533e9c39bae237'
             '76d98ea062fcad9e5e3fa981d046a6eb12a3e718a296544a68b66f4b65cb56db'
             '2101ebb58233bbfadf3aa74381f22f7e7e508559d2b46387114bc2d8e308554c'
@@ -84,7 +85,8 @@ sha256sums=('c305fbe480f507eac7c36893ead66dffaacda944f19c3813a4533e9c39bae237'
             '81900e13d36630488accd8c0bfd2ceb69563fb2c4f0f171caba1cca59d438024'
             '00f68b86d32a1fada900c2da8dad2ab4215106cd58004f049bded99727cda2ff'
             '87dddfd9047480e4c2b73367facf5dd3702148418c2efcd606af17c07da90fe0'
-            '713fa594e8cb52946741839f8b73ffafedcd2e4ab03df169dd0c2c74ba9a18b4')
+            '713fa594e8cb52946741839f8b73ffafedcd2e4ab03df169dd0c2c74ba9a18b4'
+            'ce1dd4c0d1e8b08ff0efbc3e7c936d74e201012ac2de11e58267b1047ddb7cb3')
 
 prepare() {
     cd "VirtualBox-${pkgver}"
@@ -102,7 +104,7 @@ prepare() {
     cp "${srcdir}/LocalConfig.kmk" .
 
     echo 'Use our CFLAGS'
-    echo "VBOX_GCC_OPT=$CXXFLAGS -I/usr/include/SDL2" >> LocalConfig.kmk
+    echo "VBOX_GCC_OPT=$CXXFLAGS" >> LocalConfig.kmk
 }
 
 build() {
