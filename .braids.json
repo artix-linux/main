@@ -5939,7 +5939,7 @@
     "mobile-broadband-provider-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mobile-broadband-provider-info.git",
       "branch": "master",
-      "revision": "879d8c2b84bf2595628ef74fea06d9bc1a683d88"
+      "revision": "b0b5278c70bba0bf7af9108b6214b179aea44921"
     },
     "modem-manager-gui": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modem-manager-gui.git",
