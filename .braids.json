@@ -5964,7 +5964,7 @@
     "mono": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mono.git",
       "branch": "master",
-      "revision": "141bb283544a1a5e9c6474cdf07c63726a2bebad"
+      "revision": "82b54cca7ed349a731ad6860213d0785700e0a0f"
     },
     "mopidy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy.git",
