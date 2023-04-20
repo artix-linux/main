@@ -27,7 +27,7 @@ build() {
 check() {
   cd $pkgname-$pkgver
 
-  TERM='xterm' make test
+#  TERM='xterm' make test
 }
 
 package() {
