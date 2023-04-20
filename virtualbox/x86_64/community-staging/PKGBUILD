@@ -106,6 +106,7 @@ prepare() {
 }
 
 build() {
+    export CXXFLAGS="$CXXFLAGS -I/usr/include/SDL2"
     cd "VirtualBox-${pkgver}"
 
     echo 'Build virtualbox'
