@@ -1084,7 +1084,7 @@
     "coturn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn.git",
       "branch": "master",
-      "revision": "2f983f762ae8c73b73f90f9320148d6cb3796df8"
+      "revision": "809e43d421270f587a1f9553175ec01819a75e26"
     },
     "couchdb": {
       "url": "gitea@gitea.artixlinux.org:packagesC/couchdb.git",
