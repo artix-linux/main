@@ -17,10 +17,10 @@ source=("https://services.gradle.org/distributions/${_pkgbase}-${pkgver}-src.zip
         ${pkgbase})
 sha256sums=('68132f789c2af4c5e36f07d9ad4869ffa16ee58c5ce6eae4af33bb3f0b5fe635'
             '312eb12875e1747e05c2f81a4789902d7e4ec5defbd1eefeaccc08acf096505d'
-            '141ea6cd0b9fda4a9259bd086c2e5d0f6731a0618789623db502394feb2ed867')
+            '3eea79c4a2c2a4c3febd96e235839174cbc3d2bdbd9f04a443e3d840b8a3f550')
 sha512sums=('6b3a86db2a9f590030773e059b2ab0840bc2334e99ddb23d2f85c7d6f0f17bce9d964b96b793f586c24e29186ce99a615a10009283bb14e2bfe59ddcc0d31c82'
             '5c5b9ade91898ec2fe142ff98dc7ae681a9f3b923ce40998a731cb84fdfcdbde6510cc9da026a9359526569e37472b06c1a6bc5a2794d2af5e9d6f1d13a21ac8'
-            '99a07d5fe6ea3d0ba96834cd332504481e83a5e2888d4e54ba879d9d130f94f03c248eb63f1149c4abd8f02f9b33b6743b4f7fb4d6f90b9ec740bee6cebbcc6f')
+            'd86558e9f95a5265aefe1239a2b4114ced5666d8adc4b2c01d708bdb3bf38f1bb5ffb738b8176f574f0c01ea237bef47e162c893f72cbf0951de1fa2e5c4b31f')
 
 _srcdir="${_pkgbase}-${pkgver}"
 
