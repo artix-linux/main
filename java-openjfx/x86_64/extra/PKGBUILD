@@ -31,7 +31,7 @@ makedepends=(
   gdk-pixbuf2
   glib2
   gperf
-  gradle
+  gradle7
   gtk2
   gtk3
   java-environment-openjdk=17
@@ -75,7 +75,7 @@ build() {
   # build against ffmpeg4.4
   export PKG_CONFIG_PATH='/usr/lib/ffmpeg4.4/pkgconfig'
 
-  gradle zips
+  gradle7 zips
 }
 
 package_java-openjfx() {
