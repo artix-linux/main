@@ -2469,7 +2469,7 @@
     "gradle": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gradle.git",
       "branch": "master",
-      "revision": "6a9e2bcac3be62b431a4da438d094c08811e51cb"
+      "revision": "521df3d8739002773cce8d869e728fd0a60f9709"
     },
     "gradle7": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gradle7.git",
