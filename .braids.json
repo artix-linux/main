@@ -6564,7 +6564,7 @@
     "opendht": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendht.git",
       "branch": "master",
-      "revision": "2366aa93ae22108429f39e3d4046c99776c6e052"
+      "revision": "9461506f988f9a81ad45d1c469f496e7644dd360"
     },
     "opendoas": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opendoas.git",
