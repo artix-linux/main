@@ -2619,7 +2619,7 @@
     "gtk4": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtk4.git",
       "branch": "master",
-      "revision": "a42aa226cf4d940426de2b0067ad590a235f079a"
+      "revision": "a9a8413211cffa7d412fe008beb3c8b72f9f1588"
     },
     "gtkmm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gtkmm.git",
