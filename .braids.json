@@ -8559,7 +8559,7 @@
     "spotifyd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd.git",
       "branch": "master",
-      "revision": "7dfa12b70a803883d5bb013e2bfc7ebcd95dbf33"
+      "revision": "998bb103ff4fd2c2aa6a16e8afb2c7ed62b05e8e"
     },
     "sqlcipher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sqlcipher.git",
