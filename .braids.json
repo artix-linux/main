@@ -2034,7 +2034,7 @@
     "fractal": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fractal.git",
       "branch": "master",
-      "revision": "c1663ea9c375a356259a1b5ebcf2a1a956b57b32"
+      "revision": "eae7e1c249065612bb6f9195e5a042651a6f9aea"
     },
     "freealut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freealut.git",
