@@ -7869,7 +7869,7 @@
     "ranger": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ranger.git",
       "branch": "master",
-      "revision": "d8a7950c42b2d2f2069533eac35b59faedf6e009"
+      "revision": "038b05f8efbc9a6dde52f8df095f5d0a0f49f1ba"
     },
     "rapidfuzz-cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rapidfuzz-cpp.git",
