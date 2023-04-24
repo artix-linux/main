@@ -3384,7 +3384,7 @@
     "kitty": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kitty.git",
       "branch": "master",
-      "revision": "5ac182d29a66a34b41d7dbb2afb09ed0638c5880"
+      "revision": "22183df16c92c65a9b0c570ecd4509fab7a70320"
     },
     "kmod": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kmod.git",
