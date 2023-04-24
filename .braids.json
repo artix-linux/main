@@ -2854,7 +2854,7 @@
     "hy": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hy.git",
       "branch": "master",
-      "revision": "3784137ead0e1af89b74ee6863e5e65c4c1f0f3a"
+      "revision": "959e15681dab85c9ca208bea3610111d9128d874"
     },
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
