@@ -9414,7 +9414,7 @@
     "vid.stab": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vid.stab.git",
       "branch": "master",
-      "revision": "a7dc5d9d99951e4045f2972b1d982bf285fb0b6e"
+      "revision": "913c8e3c15174f319ca72724f6740ff75749eb99"
     },
     "viewnior": {
       "url": "gitea@gitea.artixlinux.org:packagesV/viewnior.git",
