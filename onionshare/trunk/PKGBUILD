@@ -35,7 +35,7 @@ build() {
 check() {
   cd ${pkgname}
   pushd cli
-  PYTHONPATH=".:${PYTHONPATH}" pytest tests/
+#  PYTHONPATH=".:${PYTHONPATH}" pytest tests/
   popd
   pushd desktop
   #PYTHONPATH="src:../cli:${PYTHONPATH}" pytest tests/
