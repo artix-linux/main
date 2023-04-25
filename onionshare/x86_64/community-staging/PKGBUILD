@@ -14,7 +14,7 @@ makedepends=('python-setuptools')
 optdepends=(
   'python-nautilus: enable Nautilus right-click extension'
 )
-checkdepends=('python-pytest')
+checkdepends=('python-pytest' 'python-stem')
 source=(https://github.com/onionshare/${pkgname}/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz
         https://github.com/onionshare/${pkgname}/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz.asc
 )
