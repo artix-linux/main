@@ -9384,7 +9384,7 @@
     "vamp-plugin-sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vamp-plugin-sdk.git",
       "branch": "master",
-      "revision": "f9add44ebc19db2b8a4a8808db7dc3a9207aea1a"
+      "revision": "b240c4771cd27c14191b5bfc7d0c2210a9ef7694"
     },
     "vapoursynth": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vapoursynth.git",
