@@ -9154,7 +9154,7 @@
     "twolame": {
       "url": "gitea@gitea.artixlinux.org:packagesT/twolame.git",
       "branch": "master",
-      "revision": "2a0c3a0437086d139ee01c0cc32f0fbca5485f45"
+      "revision": "1ee2f9c963d3e05bcab9912ad58bec9b54b121a6"
     },
     "txt2man": {
       "url": "gitea@gitea.artixlinux.org:packagesT/txt2man.git",
