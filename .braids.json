@@ -2249,7 +2249,7 @@
     "git": {
       "url": "gitea@gitea.artixlinux.org:packagesG/git.git",
       "branch": "master",
-      "revision": "69d3a86c95a4a74ada6f59643f4336656bffcf05"
+      "revision": "e07220938255227fc3be2ad24f26005d97307700"
     },
     "git-lfs": {
       "url": "gitea@gitea.artixlinux.org:packagesG/git-lfs.git",
