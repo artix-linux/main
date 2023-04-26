@@ -8129,7 +8129,7 @@
     "rustup": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rustup.git",
       "branch": "master",
-      "revision": "0fb703ddac9e3610a1cf9af851ab5b5e04fd2541"
+      "revision": "f4e6f077bde496c6d4b7c1354d6063b41d84be2a"
     },
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
