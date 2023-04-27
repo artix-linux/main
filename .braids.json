@@ -1009,7 +1009,7 @@
     "coin-or-coinutils": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-coinutils.git",
       "branch": "master",
-      "revision": "0efd1c8c918b4fe180ce3bab97df9f3fb2ce257f"
+      "revision": "0d1abe142a61c1b7df0e97f8f9cad09001c34af4"
     },
     "coin-or-data-sample": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coin-or-data-sample.git",
