@@ -1344,7 +1344,7 @@
     "diffuse": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffuse.git",
       "branch": "master",
-      "revision": "b26cfac452007b9137e53783e25bace9d81b9aa8"
+      "revision": "86d69b22a1cf29c3f04184e3481ea0cc9bce6011"
     },
     "diffutils": {
       "url": "gitea@gitea.artixlinux.org:packagesD/diffutils.git",
