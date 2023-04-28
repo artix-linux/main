@@ -9364,7 +9364,7 @@
     "v2ray-domain-list-community": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-domain-list-community.git",
       "branch": "master",
-      "revision": "4fe878d4ade3196c353402375c8ecf8133a1337d"
+      "revision": "fabcec9d6ab1a50a8dbeb9f26275098776f9bbad"
     },
     "v2ray-geoip": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-geoip.git",
