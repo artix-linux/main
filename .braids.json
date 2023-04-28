@@ -4999,7 +4999,7 @@
     "libvoikko": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvoikko.git",
       "branch": "master",
-      "revision": "934a1f0e6b4aaab369d6e6004de004bcda2f55be"
+      "revision": "64146fb1059a24d1baf5fc399cc10ece8d268d8e"
     },
     "libvorbis": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvorbis.git",
