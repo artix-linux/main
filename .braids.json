@@ -9864,7 +9864,7 @@
     "xf86-video-ati": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-ati.git",
       "branch": "master",
-      "revision": "06332e0e4ec0c6fc1203b4254a68680dbd13ec6b"
+      "revision": "aaecf3ba6c9e8f33489f1bd8c4504a2c1377a69c"
     },
     "xf86-video-dummy": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-dummy.git",
