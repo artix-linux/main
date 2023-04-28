@@ -7874,7 +7874,7 @@
     "rapidfuzz-cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rapidfuzz-cpp.git",
       "branch": "master",
-      "revision": "9e8b50acfa92346382e99ee75d2dc8008a029931"
+      "revision": "bf52b3060c6acfe4e29ec74500bd221bf670bdac"
     },
     "raptor": {
       "url": "gitea@gitea.artixlinux.org:packagesR/raptor.git",
