@@ -3374,7 +3374,7 @@
     "keyutils": {
       "url": "gitea@gitea.artixlinux.org:packagesK/keyutils.git",
       "branch": "master",
-      "revision": "9f20d5cd7d205fdcea1f325d2b88b1e9b22de3e4"
+      "revision": "1a43a4b3b0872dc3d1ef025bdf16dbeea6317607"
     },
     "kirigami-addons": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kirigami-addons.git",
