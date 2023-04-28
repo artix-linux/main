@@ -19,7 +19,6 @@ source=("https://downloads.sourceforge.net/$pkgname/$pkgname-$pkgver.tar.xz"
 sha256sums=('6877156d23a7b33f75eee89d2f5c2c91c542afc3cdcb636dea5a88539a58d10c'
             'e3e7f82d754f8b7306c3b7e85a471b60aa7a0066f702521959b5b2618e540689'
             'ee2e9fbbeb8a8b9b71d16b6f32eb41788f6def9d00cc4a47897ed3cb97cdde7c'
-            '1b1add55d82d7623eabf7ff3dfec15c1fbe3c340fa74160df3d60e91eb1c71ba'
             '3fd98fe87d0b31b82126dc669f00355865f58fae81af3fccbc0d06504baef6cd')
 prepare() {
   cd "${srcdir}/${pkgname}-${pkgver}"
