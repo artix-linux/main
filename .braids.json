@@ -10054,7 +10054,7 @@
     "xorg-xdpyinfo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xdpyinfo.git",
       "branch": "master",
-      "revision": "d0acea2d79724e78c619b48d0c88a0a05bc09727"
+      "revision": "183fd621feaea6812bce3d79a3edb0d5929dd195"
     },
     "xorg-xev": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xev.git",
