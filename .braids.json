@@ -9969,7 +9969,7 @@
     "xonsh": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xonsh.git",
       "branch": "master",
-      "revision": "ea463fbb5a901fac690df77d9998c24218482d45"
+      "revision": "492908bf6b2a7448466c1071709e87c652127bbf"
     },
     "xorg-appres": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-appres.git",
