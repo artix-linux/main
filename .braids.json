@@ -6489,7 +6489,7 @@
     "onboard": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onboard.git",
       "branch": "master",
-      "revision": "dcf75045d7109b753240da9aee0087bba5ca608c"
+      "revision": "e0bca8ad6b1427ab2c2bf2ca7c98cb53aa0d369c"
     },
     "onetbb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onetbb.git",
