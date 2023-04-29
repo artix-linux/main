@@ -6239,7 +6239,7 @@
     "nftables": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables.git",
       "branch": "master",
-      "revision": "d3e9c349ca35628a9fcbf39a44f812fcbfd9aed0"
+      "revision": "b2a61fde108ff0962c3a17ed484320bfdcdbca6f"
     },
     "nginx": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nginx.git",
