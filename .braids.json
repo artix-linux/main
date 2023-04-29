@@ -6104,7 +6104,7 @@
     "mypy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mypy.git",
       "branch": "master",
-      "revision": "8392a19640500d97d5afe95e3f348078c62fd3f4"
+      "revision": "dde2bd650da302a18db9f50741021051d7bf1dd9"
     },
     "namcap": {
       "url": "gitea@gitea.artixlinux.org:packagesN/namcap.git",
