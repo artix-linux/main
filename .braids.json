@@ -6944,7 +6944,7 @@
     "pifpaf": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pifpaf.git",
       "branch": "master",
-      "revision": "a5f56d8983fbfbdf5b3e3a83ccc38749196e2172"
+      "revision": "c87efda71771f18d50db31cedb60c328aee4be7f"
     },
     "pigeonhole": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pigeonhole.git",
