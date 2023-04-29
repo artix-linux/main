@@ -1264,7 +1264,7 @@
     "dbus-python": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-python.git",
       "branch": "master",
-      "revision": "ae7925b14ace360640d6bb2cc9a5c95add324bee"
+      "revision": "71abafa296cc962aad6984d1263a7b1c75c2f9db"
     },
     "dconf": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dconf.git",
