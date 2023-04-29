@@ -8969,7 +8969,7 @@
     "tinyprog": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinyprog.git",
       "branch": "master",
-      "revision": "2880f483eff06096663b8ef7cd89288890edfc3f"
+      "revision": "b89e5722fe80ee849e6b680e4f3d7d5a78dc82b0"
     },
     "tinyxml2": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinyxml2.git",
