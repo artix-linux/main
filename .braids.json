@@ -5384,7 +5384,7 @@
     "liquidctl": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liquidctl.git",
       "branch": "master",
-      "revision": "ea556e68da761996c306d902dba19c84943b8e0c"
+      "revision": "5b29a56a3a1161e1b0a39e307d886a4f86a82a91"
     },
     "lirc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lirc.git",
