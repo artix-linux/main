@@ -7299,7 +7299,7 @@
     "pyqt5-purchasing": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-purchasing.git",
       "branch": "master",
-      "revision": "6764e4a924f9c15c7def602d5d53544ad87178e3"
+      "revision": "9669d6340ef6223c27b4ebc55ca9340d78737478"
     },
     "pyqt5-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-webengine.git",
