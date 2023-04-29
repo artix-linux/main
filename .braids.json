@@ -7289,7 +7289,7 @@
     "pyqt5-datavisualization": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-datavisualization.git",
       "branch": "master",
-      "revision": "255cecb353efde419fbb183c52bcbe66da131916"
+      "revision": "3318404f52c8933b8cb59d7f36cd80c4b17de76e"
     },
     "pyqt5-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-networkauth.git",
