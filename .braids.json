@@ -3924,7 +3924,7 @@
     "libftdi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libftdi.git",
       "branch": "master",
-      "revision": "443be44ae4a95bf8dbf21a6c449e8e32ae29377d"
+      "revision": "3d308f138a66529e98a3253607f2c14a2a29ca7d"
     },
     "libgadu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgadu.git",
