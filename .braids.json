@@ -9204,7 +9204,7 @@
     "ufmt": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufmt.git",
       "branch": "master",
-      "revision": "90c193bbc958bf6a5428e86eb158ec5e899882d4"
+      "revision": "21e5dedd2b98a56ce554dca1bbc96a69ed77dc04"
     },
     "ufw": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw.git",
