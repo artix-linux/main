@@ -8024,7 +8024,7 @@
     "ropper": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropper.git",
       "branch": "master",
-      "revision": "419db9cbf3246ba2aae9abaf1170f430440e3fff"
+      "revision": "2e234dbda843ad415d41f7dc6147abcd4a0a99d6"
     },
     "rpcbind": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind.git",
