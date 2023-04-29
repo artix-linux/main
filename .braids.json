@@ -8534,7 +8534,7 @@
     "speech-dispatcher": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speech-dispatcher.git",
       "branch": "master",
-      "revision": "9e701578d518fb633e045f7aeb34c156fa8d1932"
+      "revision": "7ae8ff82e988c0929ca92c0ad2ed06f229d60654"
     },
     "speex": {
       "url": "gitea@gitea.artixlinux.org:packagesS/speex.git",
