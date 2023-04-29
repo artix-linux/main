@@ -6314,7 +6314,7 @@
     "notmuch": {
       "url": "gitea@gitea.artixlinux.org:packagesN/notmuch.git",
       "branch": "master",
-      "revision": "bec4aa4aca0734463e8aa5b34316bc0cdbfdd857"
+      "revision": "71e767372eaef751fed8ea8c457b698e60fcd512"
     },
     "noto-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts.git",
