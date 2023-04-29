@@ -3369,7 +3369,7 @@
     "keystone": {
       "url": "gitea@gitea.artixlinux.org:packagesK/keystone.git",
       "branch": "master",
-      "revision": "10e21e24e4d0909b4032861767eedc39850fd7bf"
+      "revision": "17ee01b51e72f114e3016ac1fad9b21210c5e9e7"
     },
     "keyutils": {
       "url": "gitea@gitea.artixlinux.org:packagesK/keyutils.git",
