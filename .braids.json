@@ -5629,7 +5629,7 @@
     "magic-wormhole": {
       "url": "gitea@gitea.artixlinux.org:packagesM/magic-wormhole.git",
       "branch": "master",
-      "revision": "276ec161667d449098a29b2bc10b939786534cc7"
+      "revision": "0f891aed9ae6d4a8dae4465af9e6bee5a2963f7d"
     },
     "mailcap": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailcap.git",
