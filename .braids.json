@@ -7279,7 +7279,7 @@
     "pyqt5-3d": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-3d.git",
       "branch": "master",
-      "revision": "c6ca52f410dece180fdde17c0b35e66d129a565f"
+      "revision": "93e4854564c6dc8d5bd8db843ac7ff719ed2c16a"
     },
     "pyqt5-chart": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-chart.git",
