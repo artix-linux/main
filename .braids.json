@@ -5424,7 +5424,7 @@
     "lldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lldb.git",
       "branch": "master",
-      "revision": "8ad731e3ac6fc496dbfac590f80b25fdcaca0c59"
+      "revision": "4df015d12ce650b1633f5e20e00eef58938dcae4"
     },
     "llvm": {
       "url": "gitea@gitea.artixlinux.org:packagesL/llvm.git",
