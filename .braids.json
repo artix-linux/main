@@ -6179,7 +6179,7 @@
     "net-snmp": {
       "url": "gitea@gitea.artixlinux.org:packagesN/net-snmp.git",
       "branch": "master",
-      "revision": "d8fd357b58c926b570ad81e0a55cdffcc9fb48dc"
+      "revision": "71fe92b431e2a5200262348cfeeb83857486af2b"
     },
     "net-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesN/net-tools.git",
