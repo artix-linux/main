@@ -8154,7 +8154,7 @@
     "s3cmd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s3cmd.git",
       "branch": "master",
-      "revision": "742b5134a56f4860276d13ab801306efb50a4c40"
+      "revision": "c48dec5b0c9294e3e3a0ce0f0101db1523b134e8"
     },
     "salt": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt.git",
