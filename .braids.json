@@ -349,7 +349,7 @@
     "audit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audit.git",
       "branch": "master",
-      "revision": "09a2739e68b394977bb86dcfd4a836118106f9a4"
+      "revision": "93f940bab75df8b89a6706d0417e4e5a27754657"
     },
     "augeas": {
       "url": "gitea@gitea.artixlinux.org:packagesA/augeas.git",
