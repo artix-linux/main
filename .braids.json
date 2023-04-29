@@ -8019,7 +8019,7 @@
     "ropgadget": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropgadget.git",
       "branch": "master",
-      "revision": "a4644baccb1ccb78026569982da307b47e63403a"
+      "revision": "c6900d360c79c8da86f272561992317d7ce02f16"
     },
     "ropper": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ropper.git",
