@@ -39,7 +39,7 @@
     "acpi_call": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpi_call.git",
       "branch": "master",
-      "revision": "21fa9ad15f2794762e1ff32b9febf4aea23e36eb"
+      "revision": "1c6b7ba4200afcba649ee9f0d950c3a72eb5dbe8"
     },
     "acpi_call-dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acpi_call-dkms.git",
