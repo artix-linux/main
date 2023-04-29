@@ -7394,7 +7394,7 @@
     "pyxdg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyxdg.git",
       "branch": "master",
-      "revision": "ae9e18fec731aaff9696f92b5e307cfc5aacdb7e"
+      "revision": "2b6e78f12683983f35694e6b5871b0c40a044f84"
     },
     "qbe": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qbe.git",
