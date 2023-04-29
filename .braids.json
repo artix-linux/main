@@ -7004,7 +7004,7 @@
     "pmbootstrap": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pmbootstrap.git",
       "branch": "master",
-      "revision": "8d5458f5d5a6ec66e7bf38d8b9a28ec3272a945a"
+      "revision": "621822165390e2cbf2f7156d1670628d67be76a5"
     },
     "po4a": {
       "url": "gitea@gitea.artixlinux.org:packagesP/po4a.git",
