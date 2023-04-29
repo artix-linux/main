@@ -8714,7 +8714,7 @@
     "swig": {
       "url": "gitea@gitea.artixlinux.org:packagesS/swig.git",
       "branch": "master",
-      "revision": "963467f780e0819241c1afbb75d65a135b56c7bf"
+      "revision": "60c93b074e28479462ff1ed5e6970af4ef1dc848"
     },
     "swtpm": {
       "url": "gitea@gitea.artixlinux.org:packagesS/swtpm.git",
