@@ -7229,7 +7229,7 @@
     "pyatspi": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyatspi.git",
       "branch": "master",
-      "revision": "71d566ff20d492801000b8cb7464340258e05a06"
+      "revision": "5bc3e107f20c1d6c4f00267029161fca82e02adc"
     },
     "pybind11": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pybind11.git",
