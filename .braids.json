@@ -4704,7 +4704,7 @@
     "libsignon-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsignon-glib.git",
       "branch": "master",
-      "revision": "fede239372ea8a765f794c61763912ae4a5809a2"
+      "revision": "fb9d6f1f2641bc4d967651cfd22a86a582f77298"
     },
     "libsigsegv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsigsegv.git",
