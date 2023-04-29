@@ -1539,7 +1539,7 @@
     "duplicity": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duplicity.git",
       "branch": "master",
-      "revision": "51567f6361938dfdafbc3791d319e50fd4430668"
+      "revision": "31f824f1fbe71b7da25872980e7dce3db0a02fc7"
     },
     "dvd+rw-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dvd-rw-tools.git",
