@@ -4569,7 +4569,7 @@
     "libpwquality": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpwquality.git",
       "branch": "master",
-      "revision": "6a7f0e07baba87d8a2c63980cd12b89c5e04e700"
+      "revision": "1150e7b6c3e8334d1701bb3b6d29f7ecf3357d3a"
     },
     "libqmi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libqmi.git",
