@@ -8059,7 +8059,7 @@
     "rst2pdf": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rst2pdf.git",
       "branch": "master",
-      "revision": "ef6cf14f8a433ad8f5bd6e96d4bf6034eeabb1f7"
+      "revision": "db0e266f70f3ed2682c4ac7e8d8ddcdea00fc520"
     },
     "rsync": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsync.git",
