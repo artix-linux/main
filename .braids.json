@@ -5884,7 +5884,7 @@
     "miniupnpc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/miniupnpc.git",
       "branch": "master",
-      "revision": "3b0744f8d3269e9b2159a3df77fe455d3792f52d"
+      "revision": "62077841b8d7b411d2a2803cf5c689ba579c7caf"
     },
     "minizip-ng": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minizip-ng.git",
