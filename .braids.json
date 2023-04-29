@@ -9484,7 +9484,7 @@
     "vncdotool": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vncdotool.git",
       "branch": "master",
-      "revision": "108760c7610943de6dd16b91ac0f0b5f516b05bc"
+      "revision": "6425d74412e8b3d47675b2602c7c5b7cc863201b"
     },
     "vnstat": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat.git",
