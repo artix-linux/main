@@ -3349,7 +3349,7 @@
     "jupyterlab": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab.git",
       "branch": "master",
-      "revision": "4b0c439bebc9f01d88b4051c300e6a4da3486b6a"
+      "revision": "07556ce953a16edcc4bf7311674c6bf9fa58c955"
     },
     "jupyterlab_pygments": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab_pygments.git",
