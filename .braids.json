@@ -8044,7 +8044,7 @@
     "rrdtool": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rrdtool.git",
       "branch": "master",
-      "revision": "525ea85af7197f8929b65b0624fd6782270ece68"
+      "revision": "9508d04231277f11e4d996fb583cb5b253183649"
     },
     "rsm": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsm.git",
