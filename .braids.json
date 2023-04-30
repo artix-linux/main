@@ -5756,6 +5756,11 @@
       "branch": "master",
       "revision": "6b772c3468bf9f3d7b4312d137b195d58817a6c1"
     },
+    "mbedtls2": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mbedtls2.git",
+      "branch": "master",
+      "revision": "c48c0106dfea15b947a25c8e6a52e347b0499eb3"
+    },
     "mc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mc.git",
       "branch": "master",
