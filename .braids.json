@@ -2464,7 +2464,7 @@
     "gpm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gpm.git",
       "branch": "master",
-      "revision": "1a7b1c593fadb9880186c31cb1e0bad1bef5861a"
+      "revision": "70bbd5f60047ac6be0773ae3a9e93643825df635"
     },
     "gptfdisk": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gptfdisk.git",
