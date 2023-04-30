@@ -3104,7 +3104,7 @@
     "iw": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iw.git",
       "branch": "master",
-      "revision": "38c16f21e2ebc118147c62ca5b2d36be37cb3523"
+      "revision": "16bfe4df9c45dba019ed5e7a266882e805db5144"
     },
     "iwd": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd.git",
