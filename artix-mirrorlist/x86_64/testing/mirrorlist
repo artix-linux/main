@@ -38,7 +38,7 @@ Server = https://eu-mirror.artixlinux.org/repos/$repo/os/$arch
 Server = https://ftp.cc.uoc.gr/mirrors/linux/artixlinux/$repo/os/$arch
 Server = http://ftp.ntua.gr/pub/linux/artix-linux/$repo/os/$arch
 # Monaco
-Server = https://artixlinux.qontinuum.space/artixlinux/$repo/os/$arch
+Server = https://mirrors.qontinuum.space/artixlinux/$repo/os/$arch
 # Poland
 Server = https://artix.sakamoto.pl/$repo/os/$arch
 # Sweden
