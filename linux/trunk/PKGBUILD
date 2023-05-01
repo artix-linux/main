@@ -7,7 +7,7 @@ _artix=artix${_rel}
 
 pkgbase=linux
 pkgver=${_ver}.${_artix}
-pkgrel=1
+pkgrel=1.1
 pkgdesc='Linux'
 _srctag=v${pkgver%.*}-${_tag}
 url="https://github.com/archlinux/linux/commits/$_srctag"
@@ -44,7 +44,7 @@ validpgpkeys=(
   C7E7849466FE2358343588377258734B41C31549  # David Runge <dvzrv@archlinux.org>
 )
 b2sums=('SKIP'
-        '075385157dd7917b9a596e8cb03fa27d28b8614337a2e7116963e5fad71bfe2eef0af49bd1e01081489adb9d627db1b189e904419cd02e44e13c1dd6e9301a74')
+        '9fb09c333d3ad89e248076cf4718d1c854f55e3ebe5c8c3926799ebef21d3f3f0e84e3b9e2d0b375012bd2ce1f39c9479c6c466b7ae57022e3d18c4cc526cf43')
 
 export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
