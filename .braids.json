@@ -10304,7 +10304,7 @@
     "zenity": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zenity.git",
       "branch": "master",
-      "revision": "fd4eb245f0c359c8a173e74d8e82ffc08af4d85b"
+      "revision": "aa0eaae31ddc4c72e7b0f1e3fc06d0582006526d"
     },
     "zeroc-ice": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeroc-ice.git",
