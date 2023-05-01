@@ -5984,7 +5984,7 @@
     "mopidy": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy.git",
       "branch": "master",
-      "revision": "d71ffecaf49b0f18fe8f0734031096c74f40ffa4"
+      "revision": "482a44e2904718391f59acbc28b47322655f7562"
     },
     "mosquitto": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mosquitto.git",
