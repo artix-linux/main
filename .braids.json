@@ -5189,7 +5189,7 @@
     "libxml2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxml2.git",
       "branch": "master",
-      "revision": "458c885236c198bdc27d79bb225b1ead934bca35"
+      "revision": "6f91a001aaded0c166fda8bf2861e4ca67796b49"
     },
     "libxmlb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxmlb.git",
