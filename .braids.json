@@ -3939,7 +3939,7 @@
     "libgdata": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdata.git",
       "branch": "master",
-      "revision": "9b68e3b95f57e649d85e27ebd38ed0d66f9dc7d5"
+      "revision": "ce419845d6139aa9acc087f628fe045879c7afec"
     },
     "libgdiplus": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgdiplus.git",
