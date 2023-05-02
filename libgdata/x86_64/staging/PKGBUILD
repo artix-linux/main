@@ -43,7 +43,7 @@ build() {
     -D man=true
   )
 
-  artixh-meson libgdata build "${meson_options[@]}"
+  artix-meson libgdata build "${meson_options[@]}"
   ninja -C build
 }
 
