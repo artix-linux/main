@@ -639,7 +639,7 @@
     "botan2": {
       "url": "gitea@gitea.artixlinux.org:packagesB/botan2.git",
       "branch": "master",
-      "revision": "1fafd1a541cacb6b3c7188d52531adb836650db1"
+      "revision": "922e42819adb3daa1fb81f3563a82f938902590b"
     },
     "bower": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bower.git",
