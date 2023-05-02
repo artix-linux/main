@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "021dc719327b1b4af3518d10a56f0abea882939e"
     },
+    "botan2": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/botan2.git",
+      "branch": "master",
+      "revision": "1fafd1a541cacb6b3c7188d52531adb836650db1"
+    },
     "bower": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bower.git",
       "branch": "master",
