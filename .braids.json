@@ -6329,7 +6329,7 @@
     "noto-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts.git",
       "branch": "master",
-      "revision": "c4110558a3b8ec18b6e2fc648314a19842b685c3"
+      "revision": "c47d1c2ae5026cdd5e9ab2b5afcdc56f62f4b465"
     },
     "noto-fonts-cjk": {
       "url": "gitea@gitea.artixlinux.org:packagesN/noto-fonts-cjk.git",
