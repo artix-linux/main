@@ -5374,7 +5374,7 @@
     "linux-rt-lts": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-rt-lts.git",
       "branch": "master",
-      "revision": "e45a5dd362d5214a9dd5d3286b9404ddd6369d84"
+      "revision": "3058371844b59af820240ce1f30d37755a7e3140"
     },
     "linux-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-tools.git",
