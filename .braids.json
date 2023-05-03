@@ -4674,7 +4674,7 @@
     "libseccomp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libseccomp.git",
       "branch": "master",
-      "revision": "ce7bcdda0ed12fed19f57fbec4347b7eb4d9388b"
+      "revision": "54c4da71622f4988d72d907b237c6dd676c4e638"
     },
     "libsecp256k1": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libsecp256k1.git",
