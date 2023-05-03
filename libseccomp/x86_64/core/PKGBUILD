@@ -1,4 +1,4 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: Daniel Micay <danielmicay@gmail.com>
 # Contributor: Patryk Kowalczyk < patryk at kowalczyk dot ws>
@@ -6,7 +6,7 @@
 pkgbase=libseccomp
 pkgname=(libseccomp python-libseccomp)
 pkgver=2.5.4
-pkgrel=1
+pkgrel=2
 pkgdesc='Enhanced seccomp library'
 arch=('x86_64')
 license=('LGPL2.1')
