@@ -3959,7 +3959,7 @@
     "libgexiv2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgexiv2.git",
       "branch": "master",
-      "revision": "8aa2ee0cf3b6bb171113aef584bc2bd84cab3064"
+      "revision": "732c4c912449a4fa2fa5c84671684ef38855f1b5"
     },
     "libgit2": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libgit2.git",
