@@ -9284,7 +9284,7 @@
     "unicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unicorn.git",
       "branch": "master",
-      "revision": "f745d12f1b053b6c8a25e5d0c2d15b9c1e1459c7"
+      "revision": "318e617168369868bcc1ad98363ae637ac5f6135"
     },
     "unifdef": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unifdef.git",
