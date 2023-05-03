@@ -6866,6 +6866,11 @@
       "branch": "master",
       "revision": "a937d2ab0eb766fefb20db7a43493f249f497e8e"
     },
+    "pbzip2": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pbzip2.git",
+      "branch": "master",
+      "revision": "1a524d55574d31e27953a7ffc130dcaab099bffe"
+    },
     "pc-ble-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pc-ble-driver.git",
       "branch": "master",
