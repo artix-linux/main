@@ -2874,7 +2874,7 @@
     "hypercorn": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hypercorn.git",
       "branch": "master",
-      "revision": "168cc46f6dade91f06dbf2fb188d61624f66625b"
+      "revision": "f07ef0c51a6bc9dcfc129bf640d17a7b56ea3e2c"
     },
     "hyperkitty": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hyperkitty.git",
