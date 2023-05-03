@@ -7249,7 +7249,7 @@
     "pyalpm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyalpm.git",
       "branch": "master",
-      "revision": "948c0d81b806aba6f0110f28f481e1cc5610ca3f"
+      "revision": "a5ae78492e2c0c6387423b91e2637756b1646468"
     },
     "pyatspi": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyatspi.git",
