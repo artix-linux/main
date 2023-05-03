@@ -2514,7 +2514,7 @@
     "graphviz": {
       "url": "gitea@gitea.artixlinux.org:packagesG/graphviz.git",
       "branch": "master",
-      "revision": "fdc978923d8c9e47dccbb1aed14fb2959a236770"
+      "revision": "a2768bed55e089e288886ff87ed27d7974bfa26b"
     },
     "grep": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grep.git",
