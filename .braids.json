@@ -7354,7 +7354,7 @@
     "pyqt6-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-networkauth.git",
       "branch": "master",
-      "revision": "9c43ffbd7132d60879f3c98e68cbda1b860d93fb"
+      "revision": "9d494122f5dfe1ddb9a0845a56ae6933fecc743b"
     },
     "pyqt6-webengine": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt6-webengine.git",
