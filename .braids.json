@@ -1149,7 +1149,7 @@
     "crun": {
       "url": "gitea@gitea.artixlinux.org:packagesC/crun.git",
       "branch": "master",
-      "revision": "03280d6ed442f33a85de64440d9d18877237a0c6"
+      "revision": "1271b2c4b2e3889cc13cc8eca27c0d37e1a0f08b"
     },
     "crypto++": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptoplusplus.git",
