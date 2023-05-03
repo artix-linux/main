@@ -1794,7 +1794,7 @@
     "fail2ban": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban.git",
       "branch": "master",
-      "revision": "161d1d1396a040a8d84061218706d00b1990fa5d"
+      "revision": "79b7f4b54ed0377e365d708d646052dcead8a95e"
     },
     "fakechroot": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fakechroot.git",
