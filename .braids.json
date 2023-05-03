@@ -3339,7 +3339,7 @@
     "jupyter-server-fileid": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server-fileid.git",
       "branch": "master",
-      "revision": "d21c928dec1131dad076208e3ecccdc6c1b3be61"
+      "revision": "1b455581492dd9d34f9da5f9b51d6fea0409ca6d"
     },
     "jupyter-server-ydoc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server-ydoc.git",
