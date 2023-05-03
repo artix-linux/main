@@ -3474,7 +3474,7 @@
     "lensfun": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lensfun.git",
       "branch": "master",
-      "revision": "af9eb85d54c8533401f98fdce7b1c36de8d09217"
+      "revision": "b270a9dd71e4b9fb181625faf1a971196bb1ba51"
     },
     "leptonica": {
       "url": "gitea@gitea.artixlinux.org:packagesL/leptonica.git",
