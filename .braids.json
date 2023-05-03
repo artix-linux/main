@@ -5974,7 +5974,7 @@
     "molecule": {
       "url": "gitea@gitea.artixlinux.org:packagesM/molecule.git",
       "branch": "master",
-      "revision": "36515b69c8fe673819d0040295531089f4098fa1"
+      "revision": "4cfd51d25fa061981d4cf9977e6d4d717508ad88"
     },
     "mongo-c-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mongo-c-driver.git",
