@@ -2289,7 +2289,7 @@
     "glade": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glade.git",
       "branch": "master",
-      "revision": "1a44331aad187e4dbeff8d4e178fd68afcd4f74c"
+      "revision": "c720899fa51c36de387c0884d57ea2774a11243f"
     },
     "glances": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glances.git",
