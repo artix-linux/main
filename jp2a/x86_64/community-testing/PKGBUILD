@@ -1,0 +1,45 @@
+# Maintainer: Torr <torr@artixlinux.org>
+pkgname=jp2a
+pkgver=1.1.1
+pkgrel=1
+pkgdesc="Simple JPEG/PNG to ASCII converter"
+arch=("x86_64")
+url="https://github.com/Talinx/jp2a"
+license=("GPL2")
+changelog=Changelog.txt
+depends=(
+	"curl"
+	"libjpeg-turbo"
+	"libpng"
+	"ncurses"
+)
+makedepends=(
+	"make"
+	"autoconf-archive"
+	"automake"
+	"gcc"
+)
+source=(
+	"https://github.com/Talinx/$pkgname/archive/refs/tags/v$pkgver.tar.gz"
+)
+sha256sums=(
+	"332521cd4675b4a03c7080a600ccbd848eb29aebf17fce767f163d8dac141555"
+)
+
+prepare(){
+	cd $pkgname-$pkgver
+	sed -i '/^#.*bash-completion/{N;N;N;d}' configure.ac 
+}
+
+build() {
+	cd "$pkgname-$pkgver"
+	autoreconf -vi
+	./configure --prefix=/usr
+	make
+}
+
+package() {
+	cd "$pkgname-$pkgver"
+	make install DESTDIR=$pkgdir
+	install -Dm 644 completion/bash/jp2a -t "$pkgdir/usr/share/bash-completion/completions"
+}
