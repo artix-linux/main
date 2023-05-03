@@ -1,10 +1,10 @@
-# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
 # Contributor: Florian Bruhin (The Compiler) <archlinux.org@the-compiler.org>
 # Contributor: Brecht Machiels <brecht at mos6581 dot org>
 
 pkgname=pyprof2calltree
 pkgver=1.4.5
-pkgrel=7
+pkgrel=8
 pkgdesc="Help visualize profiling data from cProfile with kcachegrind"
 url="https://pypi.python.org/pypi/pyprof2calltree/"
 arch=('any')
