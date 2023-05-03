@@ -4094,7 +4094,7 @@
     "libimobiledevice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libimobiledevice.git",
       "branch": "master",
-      "revision": "55b574aa37bd6ad33057c0a569146a4b1735ee13"
+      "revision": "70f3651ff390fb1a14c006aa044e0b70508c75aa"
     },
     "libindicator": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libindicator.git",
