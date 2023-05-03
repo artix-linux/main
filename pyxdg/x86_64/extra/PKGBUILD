@@ -1,11 +1,11 @@
-# Maintainer: artoo <artoo@artixlinux.org>
+# Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 # Contributor: Hugo Doria <hugo@archlinux.org>
 # Contributor: Mario A. Vazquez <mario_vazq@hotmail.com>
 
 pkgbase=pyxdg
 pkgname=python-pyxdg
 pkgver=0.28
-pkgrel=1
+pkgrel=2
 pkgdesc="Python library to access freedesktop.org standards"
 arch=('any')
 url="http://freedesktop.org/Software/pyxdg"
