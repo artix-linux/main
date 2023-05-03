@@ -2709,7 +2709,7 @@
     "gunicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gunicorn.git",
       "branch": "master",
-      "revision": "81a489dbfa5bce305f3b1ba23fbd3d75e27d8189"
+      "revision": "271de3f6ad255fe8b50a1d2492d23300b52328d6"
     },
     "gupnp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gupnp.git",
