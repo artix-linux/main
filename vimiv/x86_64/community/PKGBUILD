@@ -1,9 +1,9 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Christian Karl <christian dot karl at protonmail dot com>
 
 pkgname=vimiv
 pkgver=0.9.1
-pkgrel=5
+pkgrel=6
 pkgdesc='Image viewer with vim-like keybindings'
 url='https://github.com/karlch/vimiv'
 arch=('x86_64')
