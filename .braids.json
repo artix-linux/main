@@ -7244,7 +7244,7 @@
     "pwndbg": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pwndbg.git",
       "branch": "master",
-      "revision": "48f8e26df0ce7ef56f5861a4ddf55df274ac678f"
+      "revision": "fa9cd359878fd67c94ef6fdf2f1144149d0f1e46"
     },
     "pyalpm": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyalpm.git",
