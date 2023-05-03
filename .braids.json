@@ -8794,7 +8794,7 @@
     "talloc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/talloc.git",
       "branch": "master",
-      "revision": "5bfa0abc60b0f30f28d8ac5a41fc0c2f37cbeb75"
+      "revision": "0775585a57a674e4e41c96a703d887663c54e090"
     },
     "tang": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tang.git",
