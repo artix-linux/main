@@ -594,7 +594,7 @@
     "blockdiag": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blockdiag.git",
       "branch": "master",
-      "revision": "73ffb3e57b2a8b869eb79dcaf57edb37e2fc2efb"
+      "revision": "5035b34cb0b428a74bb87974e850fd9469848501"
     },
     "blosc": {
       "url": "gitea@gitea.artixlinux.org:packagesB/blosc.git",
