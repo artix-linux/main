@@ -9969,7 +9969,7 @@
     "xmldiff": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmldiff.git",
       "branch": "master",
-      "revision": "4330bf9098c70d65a242eac0f2e0261bf48257ba"
+      "revision": "e1b7fb5aecf3032b1915b4ff090009654b4ba28b"
     },
     "xmlrpc-c": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xmlrpc-c.git",
