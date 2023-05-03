@@ -3089,7 +3089,7 @@
     "isodate": {
       "url": "gitea@gitea.artixlinux.org:packagesI/isodate.git",
       "branch": "master",
-      "revision": "7f9c167c92511280942ec5cfa2544e89f18560d3"
+      "revision": "2b601debb119992e0ceb25cdcb557f7e75ae318b"
     },
     "ispc": {
       "url": "gitea@gitea.artixlinux.org:packagesI/ispc.git",
