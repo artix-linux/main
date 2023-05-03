@@ -9354,7 +9354,7 @@
     "usort": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usort.git",
       "branch": "master",
-      "revision": "b5156c5d2d0af4e171ed10ca564432f08af1496a"
+      "revision": "c643c67a5e80bd70ed40ef8b61aa14ef514b78eb"
     },
     "utf8cpp": {
       "url": "gitea@gitea.artixlinux.org:packagesU/utf8cpp.git",
