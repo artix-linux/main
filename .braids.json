@@ -7264,7 +7264,7 @@
     "pycups": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pycups.git",
       "branch": "master",
-      "revision": "33ee694322dcd26f5587baf63393d7fb2b3d1fcf"
+      "revision": "1ba9c3481cec65d8cfcbe3bb2f08ae0df8d15fe3"
     },
     "pygobject": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pygobject.git",
