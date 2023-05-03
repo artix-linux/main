@@ -1,10 +1,10 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Maxime Gauduin <alucryd@archlinux.org>
 # Contributor: Balló György <ballogyor+arch@gmail.com>
 
 pkgname=libsignon-glib
 pkgver=2.1
-pkgrel=5
+pkgrel=6
 pkgdesc='GLib-based client library for applications handling account authentication through the Online Accounts Single Sign-On service'
 arch=(x86_64)
 url='https://gitlab.com/accounts-sso/libsignon-glib'
