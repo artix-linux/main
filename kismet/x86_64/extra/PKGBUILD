@@ -1,4 +1,4 @@
-# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Maintainer: Juergen Hoetzel <juergen@archlinux.org>
 # Contributor: Angel Velasquez <angvp@archlinux.org>
 # Contributor: Jason Chu <jason@archlinux.org>
@@ -6,7 +6,7 @@
 pkgname=kismet
 pkgver=2022_08_R1
 _realver="${pkgver//_/-}"
-pkgrel=1
+pkgrel=2
 pkgdesc="802.11 layer2 wireless network detector, sniffer, and intrusion detection system"
 url="https://www.kismetwireless.net/"
 arch=('x86_64')
@@ -14,7 +14,7 @@ license=('GPL')
 depends=('libpcap' 'pcre' 'bluez-libs' 'libcap' 'protobuf-c' 'libprotobuf-c.so'
          'sqlite' 'libnm' 'gcc-libs' 'libusb' 'libusb-1.0.so' 'libnl' 'glibc' 'zlib' 'libelf'
          'lm_sensors' 'python' 'python-setuptools' 'python-protobuf' 'python-pyserial'
-         'python-numpy' 'libwebsockets' 'libcap-ng'
+         'python-numpy' 'python-websockets' 'libwebsockets' 'libcap-ng'
          libpcap.so libprotobuf.so libnm.so libwebsockets.so libsensors.so)
 makedepends=('python-setuptools')
 optdepends=(
