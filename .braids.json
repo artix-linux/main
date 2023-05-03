@@ -264,7 +264,7 @@
     "asciidoc": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asciidoc.git",
       "branch": "master",
-      "revision": "99d9b98b11ba82fa77f2a30d642d243db8ef767a"
+      "revision": "41c539a1e0c0a309c0c16754314e9c35d4aad641"
     },
     "asciidoctor": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asciidoctor.git",
