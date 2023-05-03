@@ -1,10 +1,10 @@
-# Maintainer: Jan de Groot <jgc@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Alessio 'mOLOk' Bolognino <themolok@gmail.com>
 # Contributor: daniel g. siegel <dgsiegel@gmail.com>
 
 pkgname=libsmbios
 pkgver=2.4.3
-pkgrel=5
+pkgrel=6
 pkgdesc="A library for providing access to as much BIOS information as possible"
 arch=('x86_64')
 url="https://github.com/dell/libsmbios"
