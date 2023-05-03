@@ -5739,7 +5739,7 @@
     "mat2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mat2.git",
       "branch": "master",
-      "revision": "d8149dd8a8af6b7a6d70177db99997dbb35c0481"
+      "revision": "668f45a56cc8b7fa626580155ef453ab03d1da65"
     },
     "matrix-synapse": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse.git",
