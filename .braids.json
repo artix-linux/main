@@ -3519,7 +3519,7 @@
     "libaccounts-glib": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libaccounts-glib.git",
       "branch": "master",
-      "revision": "017a3f3f1c65e6b0aa05e6345504dbdb17cf67a1"
+      "revision": "f76c4c648e3e0de4646cd192ec29dbd54cfdcd72"
     },
     "libaec": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libaec.git",
