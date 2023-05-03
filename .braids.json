@@ -6514,7 +6514,7 @@
     "onetbb": {
       "url": "gitea@gitea.artixlinux.org:packagesO/onetbb.git",
       "branch": "master",
-      "revision": "0bbe3d7272276ef109166852bacb2bb7b540a172"
+      "revision": "3bc1b618ab335e9da099b12c4964c575de727dc7"
     },
     "oniguruma": {
       "url": "gitea@gitea.artixlinux.org:packagesO/oniguruma.git",
