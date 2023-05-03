@@ -1,10 +1,10 @@
-# Maintainer: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 # Contributor: György Balló <ballogy@freestart.hu>
 
 pkgname=zeitgeist
 pkgver=1.0.4
-pkgrel=1
+pkgrel=2
 pkgdesc="Service logging user activities and events"
 arch=(x86_64)
 url="https://launchpad.net/zeitgeist/"
