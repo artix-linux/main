@@ -2729,7 +2729,7 @@
     "gyp": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gyp.git",
       "branch": "master",
-      "revision": "963505fda8703c7bea071f17dba519cf418e3a74"
+      "revision": "15e08e4b725098ec45467a5bd7d36a48b651f49a"
     },
     "gzip": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gzip.git",
