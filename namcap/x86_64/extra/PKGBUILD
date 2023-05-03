@@ -3,12 +3,12 @@
 
 pkgname=namcap
 pkgver=3.4.0
-pkgrel=2
+pkgrel=3
 pkgdesc="A Pacman package analyzer"
 arch=('any')
 url='https://gitlab.archlinux.org/pacman/namcap'
 license=('GPL')
-depends=('python' 'pyalpm' 'licenses' 'binutils' 'elfutils' 'python-pyelftools')
+depends=('python' 'pyalpm' 'licenses' 'binutils' 'elfutils' 'python-pyelftools' 'pkgconf')
 checkdepends=('python-pytest' 'python-six')
 makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
 source=(https://gitlab.archlinux.org/pacman/namcap/-/archive/${pkgver}/namcap-${pkgver}.tar.bz2)
