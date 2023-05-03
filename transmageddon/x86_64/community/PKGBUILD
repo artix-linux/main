@@ -1,10 +1,10 @@
-# Maintainer: Balló György <ballogyor+arch at gmail dot com>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Dan Serban
 # Contributor: Federico Chiacchiaretta
 
 pkgname=transmageddon
 pkgver=1.5
-pkgrel=9
+pkgrel=10
 pkgdesc='Simple python application for transcoding video into formats supported by GStreamer'
 arch=('any')
 url='http://www.linuxrising.org/'
