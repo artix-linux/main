@@ -5254,7 +5254,7 @@
     "libxslt": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxslt.git",
       "branch": "master",
-      "revision": "65eca29525c7cf39a4b9354101c6144defe74f34"
+      "revision": "9e7fd389e5b05e6eb59dd0cee1023e084df8dccc"
     },
     "libxss": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxss.git",
