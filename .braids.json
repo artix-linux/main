@@ -10324,7 +10324,7 @@
     "zeitgeist": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zeitgeist.git",
       "branch": "master",
-      "revision": "c93aea0166b9b5f646b126eacb7c1d5658941b69"
+      "revision": "d379f77aaab62cd90184a994741b48fc0dda56bd"
     },
     "zenity": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/zenity.git",
