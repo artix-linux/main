@@ -8439,7 +8439,7 @@
     "slimit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slimit.git",
       "branch": "master",
-      "revision": "bc4c3b0359d1dd5baaf5a53522b83e0fd8c40efd"
+      "revision": "148aa2b16b06812f4741e84b129d4f628fb1ef7c"
     },
     "slirp4netns": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slirp4netns.git",
