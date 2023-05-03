@@ -9469,7 +9469,7 @@
     "virt-manager": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-manager.git",
       "branch": "master",
-      "revision": "b08a8cdee66b7aa14cad63ec65f8ce92236fee9a"
+      "revision": "8acef95aaa4d21e367cfc3fcd7391faa6dd9a390"
     },
     "virt-what": {
       "url": "gitea@gitea.artixlinux.org:packagesV/virt-what.git",
