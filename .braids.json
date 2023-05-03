@@ -4084,7 +4084,7 @@
     "libieee1284": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libieee1284.git",
       "branch": "master",
-      "revision": "63bf8a1d6fe6c91be2386f57698f4877d9b24561"
+      "revision": "7ab4118e0c3d6f41c1df9aa41f294800aa8fcd9b"
     },
     "libimagequant": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libimagequant.git",
