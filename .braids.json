@@ -7309,7 +7309,7 @@
     "pyqt5-chart": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-chart.git",
       "branch": "master",
-      "revision": "95b6052021650c8afc0e4befef7105f50c24cefc"
+      "revision": "75b9d9ab1c97f12bb144b4898784c6381d6ce7b4"
     },
     "pyqt5-datavisualization": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pyqt5-datavisualization.git",
