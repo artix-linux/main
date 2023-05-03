@@ -6099,7 +6099,7 @@
     "musl": {
       "url": "gitea@gitea.artixlinux.org:packagesM/musl.git",
       "branch": "master",
-      "revision": "857ec2f436ef0010f1915c95e31b8d19fc2eaf4d"
+      "revision": "b1abbb73fffd4b686dd3d153c4179c8754b039d1"
     },
     "mutt": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mutt.git",
