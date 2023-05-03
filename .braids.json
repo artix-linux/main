@@ -6144,7 +6144,7 @@
     "nbd": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nbd.git",
       "branch": "master",
-      "revision": "0a704fdc88d97a778922edaded5b1b443d07b60a"
+      "revision": "c914469c0eda9dbf11ad913640cf38ced15e5e31"
     },
     "ncdu": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ncdu.git",
