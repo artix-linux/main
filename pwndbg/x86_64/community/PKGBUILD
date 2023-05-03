@@ -1,8 +1,8 @@
-# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=pwndbg
 pkgver=2022.01.05
-pkgrel=1
+pkgrel=2
 pkgdesc='Makes debugging with GDB suck less'
 url='https://github.com/pwndbg/pwndbg'
 arch=('any')
