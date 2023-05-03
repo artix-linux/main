@@ -9014,7 +9014,7 @@
     "tldr": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tldr.git",
       "branch": "master",
-      "revision": "a8bfb3bd16d8ef0f23d71c4d33f85af5a2507a0b"
+      "revision": "a8f97cd79558dcf799f9bcc127d8e174d1cc82ca"
     },
     "tlp": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tlp.git",
