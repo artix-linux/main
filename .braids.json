@@ -5814,7 +5814,7 @@
     "memray": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memray.git",
       "branch": "master",
-      "revision": "bc1745e0d159d4102272329df29f4153372b54a7"
+      "revision": "7aabb0ad89e16e27bb36c3ae74eb4446f0cbb759"
     },
     "memtest86+": {
       "url": "gitea@gitea.artixlinux.org:packagesM/memtest86plus.git",
