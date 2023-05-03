@@ -134,7 +134,7 @@
     "ansible": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ansible.git",
       "branch": "master",
-      "revision": "f8ceff5cb050accc9986869024874a9acfdd7ac0"
+      "revision": "ed3ecd470bd582b8b48a8fb563d58c21c6cdfe98"
     },
     "ansible-core": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ansible-core.git",
