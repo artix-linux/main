@@ -3244,7 +3244,7 @@
     "jp2a": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jp2a.git",
       "branch": "master",
-      "revision": "9532127c3cd7aa4746f29ab6ec7717614d591047"
+      "revision": "63f17214d4fb84ed1359ad6061e6d283d39474fe"
     },
     "jq": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jq.git",
