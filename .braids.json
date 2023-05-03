@@ -9369,7 +9369,7 @@
     "util-linux": {
       "url": "gitea@gitea.artixlinux.org:packagesU/util-linux.git",
       "branch": "master",
-      "revision": "25a363fbe52836b617254e410af928e3f6c785a8"
+      "revision": "a7c2b5ba896d5dbe88f65de67fc3a3a828ed0bf9"
     },
     "uvicorn": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uvicorn.git",
