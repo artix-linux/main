@@ -1,10 +1,10 @@
-# Maintainer: Morten Linderud <foxboron@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Timothy Redaelli <timothy.redaelli@gmail.com>
 # Contributor: DonVla <donvla@users.sourceforge.net>
 
 pkgname=i2c-tools
 pkgver=4.3
-pkgrel=3
+pkgrel=4
 pkgdesc="Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors"
 arch=('x86_64')
 url="https://i2c.wiki.kernel.org/index.php/I2C_Tools"
