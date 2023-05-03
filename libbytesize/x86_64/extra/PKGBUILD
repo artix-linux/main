@@ -1,8 +1,8 @@
-# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=libbytesize
 pkgver=2.7
-pkgrel=1
+pkgrel=2
 pkgdesc='A tiny library providing a C "class" for working with arbitrary big sizes in bytes'
 arch=('x86_64')
 url="https://github.com/rhinstaller/libbytesize"
