@@ -5664,7 +5664,7 @@
     "mailman3": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman3.git",
       "branch": "master",
-      "revision": "61781e4c7a90712aefe18ffd4f370d49615e88f5"
+      "revision": "2e254e3c3295803a28adf0e24527d807a5e81b93"
     },
     "mailman3-hyperkitty": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman3-hyperkitty.git",
