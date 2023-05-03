@@ -1,11 +1,11 @@
-# Maintainer: Juan Cuzmar <glats@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 # Contributor: Luca Weiss <luca (at) z3ntu (dot) xyz>
 # Contributor: Sam S. <smls75@gmail.com>
 # Contributor: Nuno Araujo <nuno.araujo@russo79.com>
 
 pkgname=pmbootstrap
 pkgver=1.50.1
-pkgrel=1.3
+pkgrel=2
 pkgdesc='Sophisticated chroot/build/flash tool to develop and install postmarketOS'
 url='https://gitlab.com/postmarketOS/pmbootstrap'
 arch=('any')
