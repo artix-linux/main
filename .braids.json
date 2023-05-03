@@ -9179,7 +9179,7 @@
     "twine": {
       "url": "gitea@gitea.artixlinux.org:packagesT/twine.git",
       "branch": "master",
-      "revision": "d5769f1231562a258c75ac0fa3a279733d2d27dd"
+      "revision": "caa899f60838ea41e025216d50fa37cc5f0ae018"
     },
     "twolame": {
       "url": "gitea@gitea.artixlinux.org:packagesT/twolame.git",
