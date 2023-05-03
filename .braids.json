@@ -6869,7 +6869,7 @@
     "pbzip2": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pbzip2.git",
       "branch": "master",
-      "revision": "1a524d55574d31e27953a7ffc130dcaab099bffe"
+      "revision": "23178cbc091b3c5817cff259120bb6a4876224c1"
     },
     "pc-ble-driver": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pc-ble-driver.git",
