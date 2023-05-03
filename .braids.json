@@ -8069,7 +8069,7 @@
     "rrdtool": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rrdtool.git",
       "branch": "master",
-      "revision": "9508d04231277f11e4d996fb583cb5b253183649"
+      "revision": "0deb7fe9e9fbedebef0c0ef00adb4d5f655b2477"
     },
     "rsm": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsm.git",
