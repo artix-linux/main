@@ -3344,7 +3344,7 @@
     "jupyter-server-ydoc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-server-ydoc.git",
       "branch": "master",
-      "revision": "71577d2a6d9dcd802bf46719fb157f3855d45b17"
+      "revision": "e105dd46632003d981c1804b501a9854a65336c9"
     },
     "jupyter-widgetsnbextension": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-widgetsnbextension.git",
