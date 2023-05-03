@@ -2804,7 +2804,7 @@
     "hivex": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hivex.git",
       "branch": "master",
-      "revision": "4702874b4534aacbc8a2322a30d165ab1d5dce9e"
+      "revision": "f9f241a63762bbd25e9e6d170a7e5654560495d0"
     },
     "hostapd": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd.git",
