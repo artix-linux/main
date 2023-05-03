@@ -3309,7 +3309,7 @@
     "jupyter-nbclient": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbclient.git",
       "branch": "master",
-      "revision": "c3ca4861c16049fafbbb7cd2e791e68a839c50a8"
+      "revision": "f0d6a94625400fd6e97d3ad0ea569b101fca0f46"
     },
     "jupyter-nbconvert": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbconvert.git",
