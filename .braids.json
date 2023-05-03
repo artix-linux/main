@@ -10254,7 +10254,7 @@
     "yapf": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yapf.git",
       "branch": "master",
-      "revision": "0e8cd41a1b026554437279bc8a3bf7676eb2eff8"
+      "revision": "01a6e9974491d676e851aa15bd846254213ebe7f"
     },
     "yara": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yara.git",
