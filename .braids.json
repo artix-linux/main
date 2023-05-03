@@ -8064,7 +8064,7 @@
     "rpm-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpm-tools.git",
       "branch": "master",
-      "revision": "7d05a60952d95f5553bdf43f86f698e4fac49644"
+      "revision": "b18f76ace776ce87e56d4e1c363b115d9e24276c"
     },
     "rrdtool": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rrdtool.git",
