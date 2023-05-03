@@ -1,8 +1,8 @@
-# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
 
 pkgname=memray
 pkgver=1.7.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A memory profiler for Python"
 arch=('x86_64')
 url="https://github.com/bloomberg/memray"
