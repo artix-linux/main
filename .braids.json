@@ -4809,7 +4809,7 @@
     "libteam": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libteam.git",
       "branch": "master",
-      "revision": "a05b591c2411a8ff511e0dba9950b8fad5e21c40"
+      "revision": "94d078d7719a1902f0da312fc7877277ffcb9afc"
     },
     "libthai": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libthai.git",
