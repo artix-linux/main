@@ -8239,7 +8239,7 @@
     "scons": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scons.git",
       "branch": "master",
-      "revision": "eaf1f4095faca2f72d3ab13894a27533feaa253e"
+      "revision": "0f101bfbb0e3d62eb52e81a67b0ea45fd9fac19d"
     },
     "scrot": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scrot.git",
