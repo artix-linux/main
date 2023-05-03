@@ -5329,7 +5329,7 @@
     "lilv": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lilv.git",
       "branch": "master",
-      "revision": "a7547a5442fb63c5b252f340286dcbe8b56d3298"
+      "revision": "b8d0a886dec0c82d6a56a03650e58f217b3c639b"
     },
     "lilypond": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lilypond.git",
