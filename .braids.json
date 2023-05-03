@@ -64,7 +64,7 @@
     "adios2": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adios2.git",
       "branch": "master",
-      "revision": "6a79125eb5c5c97a104f00b8788602304dca246d"
+      "revision": "af90b67f15df854a58d147e8af268ae9db56e5f0"
     },
     "adobe-source-sans-pro-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adobe-source-sans-pro-fonts.git",
