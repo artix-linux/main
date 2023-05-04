@@ -1,9 +1,9 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
 
 pkgname=ropper
 _pkgname=Ropper
 pkgver=1.13.8
-pkgrel=3
+pkgrel=3.1
 pkgdesc='Show information about binary files and find gadgets to build rop chains for different architectures'
 url='https://github.com/sashs/Ropper'
 arch=('any')
