@@ -356,6 +356,11 @@
       "branch": "master",
       "revision": "4791f47a5cfaaf40e46e8311039729097de660e8"
     },
+    "auth-tarball-from-git": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/auth-tarball-from-git.git",
+      "branch": "master",
+      "revision": "22afdabff9a16a147848cd8eadee86cadc7f4cd5"
+    },
     "autoconf": {
       "url": "gitea@gitea.artixlinux.org:packagesA/autoconf.git",
       "branch": "master",
