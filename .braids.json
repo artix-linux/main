@@ -3134,7 +3134,7 @@
     "jansson": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jansson.git",
       "branch": "master",
-      "revision": "6006350e14e818d1d74b2de3d4a8ea90bdc665e6"
+      "revision": "52ae8f853a5bc4cc8e61aa68e6162ec2340fe70e"
     },
     "jasper": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jasper.git",
