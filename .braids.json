@@ -5374,7 +5374,7 @@
     "linux-hardened": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-hardened.git",
       "branch": "master",
-      "revision": "fd3993eb800d266b48651cdd0668221c1f8bb63e"
+      "revision": "ba3a2d054a607dc3876d7f935fb77e24fd68b377"
     },
     "linux-lts": {
       "url": "gitea@gitea.artixlinux.org:packagesL/linux-lts.git",
