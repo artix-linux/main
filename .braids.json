@@ -7584,7 +7584,7 @@
     "qt5-webkit": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-webkit.git",
       "branch": "master",
-      "revision": "9b133a061bd4405b0fae423580112e1333d1e491"
+      "revision": "8e456555a4a9d8dde5e057080ea30580fa01a5a5"
     },
     "qt5-websockets": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt5-websockets.git",
