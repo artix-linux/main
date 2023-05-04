@@ -2054,7 +2054,7 @@
     "freealut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freealut.git",
       "branch": "master",
-      "revision": "fdc7d457ccb8e2061821c6943572ee94d847a1da"
+      "revision": "ab1c203cb5ffb48e8e43179b433be8d848ea88dd"
     },
     "freeglut": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeglut.git",
