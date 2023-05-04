@@ -8244,7 +8244,7 @@
     "scons": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scons.git",
       "branch": "master",
-      "revision": "0f101bfbb0e3d62eb52e81a67b0ea45fd9fac19d"
+      "revision": "c385f431b5b04012097439221d0216feb60de80f"
     },
     "scrot": {
       "url": "gitea@gitea.artixlinux.org:packagesS/scrot.git",
