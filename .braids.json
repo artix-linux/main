@@ -4469,7 +4469,7 @@
     "libopenraw": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libopenraw.git",
       "branch": "master",
-      "revision": "b1d9c7182d958d601aff306cf4f0594ee4ce8941"
+      "revision": "6603dcbd12a10a2fa02df5f103339189d453f85c"
     },
     "libopusenc": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libopusenc.git",
