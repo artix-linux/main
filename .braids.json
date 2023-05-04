@@ -5154,7 +5154,7 @@
     "libxi": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxi.git",
       "branch": "master",
-      "revision": "087e80a3f74a718f17397b8e88c7e50c356890ec"
+      "revision": "9e69590605ff6a57e53b699b15de77226172a8fd"
     },
     "libxinerama": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libxinerama.git",
