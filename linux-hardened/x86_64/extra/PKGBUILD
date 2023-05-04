@@ -1,11 +1,12 @@
 # Maintainer: Qontinuum <qontinuum@artixlinux.org>
+# Contributor: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Daniel Micay <danielmicay@gmail.com>
 # Contributor: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
 pkgbase=linux-hardened
-pkgver=6.1.24.hardened1
-pkgrel=1
+pkgver=6.1.27.hardened1
+pkgrel=2
 pkgdesc='Security-Hardened Linux'
 url='https://github.com/anthraxx/linux-hardened'
 arch=(x86_64)
@@ -21,6 +22,7 @@ _srctag=${pkgver%.*}-${pkgver##*.}
 source=(
   https://www.kernel.org/pub/linux/kernel/v${pkgver%%.*}.x/${_srcname}.tar.{xz,sign}
   https://github.com/anthraxx/${pkgbase}/releases/download/${_srctag}/${pkgbase}-${_srctag}.patch{,.sig}
+  gcc13-compat.patch
   config         # the main kernel config file
 )
 validpgpkeys=(
@@ -28,13 +30,14 @@ validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
   'E240B57E2C4630BA768E2F26FC1B547C8D8172C8'  # Levente Polyak
 )
-sha256sums=('aae6a7e38e33589011f5a5c0d7e087c8a26e3daf8d434432ee975ead90546504'
+sha256sums=('c2b74b96dd3d0cc9f300914ef7c4eef76d5fac9de6047961f49e69447ce9f905'
             'SKIP'
-            '8ade5aae62e95550ffb78eff31b7fea5dd29fa2aef83cac716210a894171efbb'
+            '645aaa063f643a06712e74dd7e0e0925dcfc1c1b48182b15ec97dbd37122e12d'
             'SKIP'
-            '1b436e00bae208a1cb807f4485ebddbb64886f79e7f0d9e4a413220434dec652')
+            'c6c5f6be7ae0ef5a8bdfea0a5578f096db38113774e08dc7b78fc48034c7b211'
+            '0b668805bbc4ac86513bec3590778444d9390ba8edf5a1d579d814d5ac191ed5')
 
-export KBUILD_BUILD_HOST=artixlinux
+export KBUILD_BUILD_HOST=archlinux
 export KBUILD_BUILD_USER=$pkgbase
 export KBUILD_BUILD_TIMESTAMP="$(date -Ru${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH})"
 
