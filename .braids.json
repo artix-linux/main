@@ -3361,11 +3361,6 @@
       "branch": "master",
       "revision": "ed828903f0f6508b6e272a37f3ec32394d86c5b9"
     },
-    "jupyter_console": {
-      "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
-      "branch": "master",
-      "revision": "9d2eb3a618bc7e5f07c55dffd688e089a00831f4"
-    },
     "jupyterlab": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab.git",
       "branch": "master",
@@ -5630,11 +5625,6 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/m17n-lib.git",
       "branch": "master",
       "revision": "35f0f3566b3c515e8dd4063a9d7e41f5cfc6b6bc"
-    },
-    "m2r": {
-      "url": "gitea@gitea.artixlinux.org:packagesM/m2r.git",
-      "branch": "master",
-      "revision": "7be439431fa14fa90e85ef9e168272645d4e0702"
     },
     "m4": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m4.git",
@@ -8420,11 +8410,6 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sip.git",
       "branch": "master",
       "revision": "687f744af89d9c3eb90b720ec7d31bb423a0d154"
-    },
-    "sip4": {
-      "url": "gitea@gitea.artixlinux.org:packagesS/sip4.git",
-      "branch": "master",
-      "revision": "a5c13fda4003f575bbc29812dddc3caf54398a94"
     },
     "slang": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slang.git",
