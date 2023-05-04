@@ -3364,7 +3364,7 @@
     "jupyter_console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter_console.git",
       "branch": "master",
-      "revision": "be7a54ca40deaa398b39f2f8c28dbbc80525776d"
+      "revision": "9c8e81c38b2627c9337c6b77daec2f63dc1c96f1"
     },
     "jupyterlab": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyterlab.git",
