@@ -2374,7 +2374,7 @@
     "gnu-efi": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnu-efi.git",
       "branch": "master",
-      "revision": "f05c58f66d3c52cd8d71c07e21c28ab3e44781c2"
+      "revision": "a2b43971942f9dc704e350556f77b68290fc6ffd"
     },
     "gnu-free-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gnu-free-fonts.git",
