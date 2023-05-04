@@ -254,7 +254,7 @@
     "artixnews": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artixnews.git",
       "branch": "master",
-      "revision": "aaabe36ed9ea4b2321570f14201489c961fa876c"
+      "revision": "8ac9dfb5efa2cf52d834b33044f893e4fda496e0"
     },
     "artools": {
       "url": "gitea@gitea.artixlinux.org:packagesA/artools.git",
