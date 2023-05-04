@@ -3309,7 +3309,7 @@
     "jupyter-console": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-console.git",
       "branch": "master",
-      "revision": "466db0dbfd54414ca287c204e6f291ec1c356adf"
+      "revision": "8fc2528cd920c7d8fbfb4974f3539285c446316f"
     },
     "jupyter-nbclassic": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jupyter-nbclassic.git",
