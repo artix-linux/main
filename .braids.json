@@ -274,7 +274,7 @@
     "asio": {
       "url": "gitea@gitea.artixlinux.org:packagesA/asio.git",
       "branch": "master",
-      "revision": "f34c3efe6a0601664d3cac81d44c52a23fbcf4e4"
+      "revision": "70262801d73f359aa847a22f129cba5c2e1e590d"
     },
     "assimp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/assimp.git",
