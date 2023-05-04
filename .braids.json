@@ -856,6 +856,11 @@
       "branch": "master",
       "revision": "f9ad1af053704c381b460eac8006e81dacf0c57e"
     },
+    "chmlib": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chmlib.git",
+      "branch": "master",
+      "revision": "490b4d9bffaa99af7f01068d809356b0aac4c6e0"
+    },
     "chromaprint": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chromaprint.git",
       "branch": "master",
