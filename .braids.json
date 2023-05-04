@@ -7731,11 +7731,6 @@
       "branch": "master",
       "revision": "157f4c8228372b63d25966fc666d555b9668ffe6"
     },
-    "qt6-multimedia-ffmpeg": {
-      "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-multimedia-ffmpeg.git",
-      "branch": "master",
-      "revision": "21e38c368e46d991d0c1729da96ec429452e39f2"
-    },
     "qt6-networkauth": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qt6-networkauth.git",
       "branch": "master",
