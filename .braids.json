@@ -3269,7 +3269,7 @@
     "js78": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/js78.git",
       "branch": "master",
-      "revision": "e6736f7b5a0f812238fbb9593c339a94e6924dfa"
+      "revision": "95d2dff2cc64ea95b54ba958339a32ce46d4ae31"
     },
     "jshon": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jshon.git",
