@@ -8329,7 +8329,7 @@
     "sequoia-sq": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sq.git",
       "branch": "master",
-      "revision": "9cc5f3694f4f88843853f8f5df897843d227cf2d"
+      "revision": "d4eda0af088e454c00a664faa1bb8860225c96c7"
     },
     "sequoia-sqv": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sequoia-sqv.git",
