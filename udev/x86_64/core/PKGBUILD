@@ -8,21 +8,22 @@ _pkgbase=systemd-stable
 pkgbase=udev
 pkgname=('udev' 'libudev' 'esysusers' 'etmpfiles')
 pkgdesc='Userspace device file manager'
-_tag='199399bb283701b6a4aaf5ace49f56f30f38e9a3' # git rev-parse v${_tag_name}
-_tag_name=253.1
+_tag='884b34747beaab5909cd65f36ff48afc86377d48' # git rev-parse v${_tag_name}
+_tag_name=253.4
 pkgver="${_tag_name/-/}"
-pkgrel=2
+pkgrel=1
 arch=('x86_64')
 url='https://www.github.com/systemd/systemd'
 license=('GPL2' 'LGPL2.1')
-makedepends=('acl' 'kmod' 'util-linux' 'hwdata' 'libcap' 'kbd' 'gperf'
+makedepends=('acl' 'libacl.so' 'kmod' 'libkmod.so' 'util-linux' 'libblkid.so'
+            'hwdata' 'libcap' 'libcap.so' 'kbd' 'gperf' 'libxcrypt' 'libcrypt.so'
             'intltool' 'git' 'meson' 'docbook-xsl' 'rsync' 'python-jinja')
 options=('strip')
 validpgpkeys=('63CDA1E5D3FC22B998D20DD6327F26951A015CC4'  # Lennart Poettering <lennart@poettering.net>
               'A9EA9081724FFAE0484C35A1A81CEA22BC8C7E2E'  # Luca Boccassi <luca.boccassi@gmail.com>
               '9A774DB5DB996C154EBBFBFDA0099A18E29326E1'  # Yu Watanabe <watanabe.yu+github@gmail.com>
               '5C251B5FC54EB2F80F407AAAC54CA336CFEB557E') # Zbigniew Jędrzejewski-Szmek <zbyszek@in.waw.pl>
-_alpm=6a9ac65e53f752771fafa423e2b2e80910632e8f
+_alpm=4ace40eddd2db821ff0e410e09e4e99a98dca559
 source=("git+https://github.com/systemd/systemd-stable#tag=${_tag}" #?signed
         "git+https://github.com/systemd/systemd#tag=v${_tag_name%.*}" #?signed
         '0001-Use-Arch-Linux-device-access-groups.patch'
@@ -251,8 +252,8 @@ _inst_man_utils() {
 
 package_udev() {
     pkgdesc='Userspace device file manager'
-    depends=('acl' 'libacl.so' 'kmod' 'libkmod.so'
-            'util-linux' 'libblkid.so' 'libudev' 'hwdata' 'kbd')
+    depends=('acl' 'libacl.so' 'bash' 'kbd' 'kmod' 'libkmod.so'
+            'hwdata' 'util-linux' 'libblkid.so' 'libudev')
     provides=("udev=$pkgver")
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags udev,udev-devel
@@ -274,7 +275,7 @@ package_udev() {
 
 package_libudev() {
     pkgdesc='udev library for enumerating and introspecting local devices'
-    depends=('gcc-libs')
+    depends=('gcc-libs' 'glibc' 'libcap')
     provides=('libudev.so')
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags libudev,libudev-devel
@@ -284,7 +285,7 @@ package_libudev() {
 
 package_esysusers() {
     pkgdesc='the sysusers.d binary'
-    depends=('gcc-libs' 'libxcrypt')
+    depends=('gcc-libs' 'libxcrypt' 'libcrypt.so' 'libcap')
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags sysusers
 
@@ -299,7 +300,7 @@ package_esysusers() {
 
 package_etmpfiles() {
     pkgdesc='the tmpfiles.d binary'
-    depends=('acl' 'libacl.so' 'libcap' 'libcap.so')
+    depends=('acl' 'libacl.so' 'libcap')
 
     meson install -C build --destdir "$pkgdir" --no-rebuild --tags tmpfiles
 
