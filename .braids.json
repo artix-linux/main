@@ -6946,11 +6946,6 @@
       "branch": "master",
       "revision": "779996c3fe1b2d375fdb8df830326766762a6b41"
     },
-    "php7": {
-      "url": "gitea@gitea.artixlinux.org:packagesP/php7.git",
-      "branch": "master",
-      "revision": "605b200afa11bf96e8ca08ede7c5261d847c4cb8"
-    },
     "picard": {
       "url": "gitea@gitea.artixlinux.org:packagesP/picard.git",
       "branch": "master",
