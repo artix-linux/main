@@ -1234,7 +1234,7 @@
     "dav1d": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dav1d.git",
       "branch": "master",
-      "revision": "f12db62c634b814d5bd22d3742f93eade4cc256f"
+      "revision": "2b6c45081549492e58d6af34dd473ecf13ff8a4e"
     },
     "db": {
       "url": "gitea@gitea.artixlinux.org:packagesD/db.git",
