@@ -5431,11 +5431,6 @@
       "branch": "master",
       "revision": "994dd608f403d7eadd17773ef7fa7474c769cce6"
     },
-    "lld13": {
-      "url": "gitea@gitea.artixlinux.org:packagesL/lld13.git",
-      "branch": "master",
-      "revision": "72e529142dedee5405bd275bd095095443a48749"
-    },
     "lldb": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lldb.git",
       "branch": "master",
