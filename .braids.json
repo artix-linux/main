@@ -5634,7 +5634,7 @@
     "m2r": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m2r.git",
       "branch": "master",
-      "revision": "254d8bce87977b06b649221cb57fff18efa9fba0"
+      "revision": "fa01ce90c3d5eb1013aee216366239d940a75467"
     },
     "m4": {
       "url": "gitea@gitea.artixlinux.org:packagesM/m4.git",
