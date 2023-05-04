@@ -1364,7 +1364,7 @@
     "directx-headers": {
       "url": "gitea@gitea.artixlinux.org:packagesD/directx-headers.git",
       "branch": "master",
-      "revision": "8f705919a2766665964b1b16d6742fa254a26855"
+      "revision": "efdd04639db981d246e8a2c667348c3d22b824dc"
     },
     "directx-shader-compiler": {
       "url": "gitea@gitea.artixlinux.org:packagesD/directx-shader-compiler.git",
