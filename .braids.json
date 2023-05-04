@@ -10129,7 +10129,7 @@
     "xorg-xlogo": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xlogo.git",
       "branch": "master",
-      "revision": "525cdbe26aba99c7e80e66169bbdcbaa340f2f0c"
+      "revision": "8fc60d751dce03cf9eff4b159280ad6bf9ce1604"
     },
     "xorg-xmessage": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xorg-xmessage.git",
