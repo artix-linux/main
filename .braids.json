@@ -4904,7 +4904,7 @@
     "libupnp": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libupnp.git",
       "branch": "master",
-      "revision": "d96afabf06be3e906d34eab213002366ebb9c762"
+      "revision": "f2c537c64398a0e1ccfaab8de9bbb314ab3f485c"
     },
     "liburcu": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liburcu.git",
