@@ -21,11 +21,6 @@
       "branch": "master",
       "revision": "6f0417704b196427b829586fcf788e07275ffa8a"
     },
-    "acl": {
-      "url": "gitea@gitea.artixlinux.org:packagesA/acl.git",
-      "branch": "master",
-      "revision": "0bc8f9bf8824b66a35047a665d1450b38b2db29d"
-    },
     "acme-tiny": {
       "url": "gitea@gitea.artixlinux.org:packagesA/acme-tiny.git",
       "branch": "master",
