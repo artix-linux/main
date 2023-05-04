@@ -4534,7 +4534,7 @@
     "libpipewire02": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpipewire02.git",
       "branch": "master",
-      "revision": "3eefc9abfa1364274b0076321a3153b1484bd946"
+      "revision": "c560f009b5bb08968c4212a0d118b0b09e9a7598"
     },
     "libplacebo": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libplacebo.git",
