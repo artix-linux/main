@@ -1,2 +1,0 @@
-# auth-tarball-from-git
-
