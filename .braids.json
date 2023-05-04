@@ -811,11 +811,6 @@
       "branch": "master",
       "revision": "625a1254e340f7aa997b42a62383b9490e5cf0c8"
     },
-    "celt": {
-      "url": "gitea@gitea.artixlinux.org:packagesC/celt.git",
-      "branch": "master",
-      "revision": "0233bbe412639da4fe6430bb8a4192b4ead5ccb6"
-    },
     "ceph": {
       "url": "gitea@gitea.artixlinux.org:packagesC/ceph.git",
       "branch": "master",
