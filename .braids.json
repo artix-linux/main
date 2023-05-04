@@ -5829,7 +5829,7 @@
     "metis": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metis.git",
       "branch": "master",
-      "revision": "48ce581c4df157ba837445d60d643310943f813a"
+      "revision": "c324640f822bdb9f0ca38c090cc91e0b1fb9049d"
     },
     "mgard": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mgard.git",
