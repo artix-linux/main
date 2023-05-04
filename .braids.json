@@ -10294,7 +10294,7 @@
     "youtube-dl": {
       "url": "gitea@gitea.artixlinux.org:packagesY/youtube-dl.git",
       "branch": "master",
-      "revision": "10d74dc2ccfaa442ac42934def385a166c17c294"
+      "revision": "0748aa4a6e90ff5ae1095090eccaa150b31218cb"
     },
     "yt-dlp": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yt-dlp.git",
