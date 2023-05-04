@@ -634,7 +634,7 @@
     "botan": {
       "url": "gitea@gitea.artixlinux.org:packagesB/botan.git",
       "branch": "master",
-      "revision": "22acbedb955d92d4f2e2d788ef9c257a16da2912"
+      "revision": "e3585a810e47cc4a13d0d335d8d6b5c621d49dbc"
     },
     "botan2": {
       "url": "gitea@gitea.artixlinux.org:packagesB/botan2.git",
