@@ -3,7 +3,7 @@
 pkgbase="foomatic-db"
 pkgname=('foomatic-db' 'foomatic-db-ppds' 'foomatic-db-nonfree' 'foomatic-db-nonfree-ppds')
 arch=('any')
-pkgver=20230402
+pkgver=20230403
 pkgrel=1
 epoch=3
 
