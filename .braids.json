@@ -69,7 +69,7 @@
     "adobe-source-sans-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adobe-source-sans-fonts.git",
       "branch": "master",
-      "revision": "f78acc2109718a2e43754885eb5ce50edde4921d"
+      "revision": "f7d09c11f47ccc61960abf15a13fe91208546b13"
     },
     "adobe-source-sans-pro-fonts": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adobe-source-sans-pro-fonts.git",
