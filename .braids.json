@@ -6779,7 +6779,7 @@
     "paper": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paper.git",
       "branch": "master",
-      "revision": "3272501b2b3d07d8efa0dd72e0ab04765fdcd97e"
+      "revision": "de700f348d4e3912046fb1ab8dd248015f09faca"
     },
     "paprefs": {
       "url": "gitea@gitea.artixlinux.org:packagesP/paprefs.git",
