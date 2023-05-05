@@ -1174,7 +1174,7 @@
     "cudnn": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cudnn.git",
       "branch": "master",
-      "revision": "2fd3c7beeb83cc3a5deeadc51b8df5c07fa9b8d2"
+      "revision": "1d5d9a6b3f9022d3f8f0019b85740a4f82444bb0"
     },
     "cunit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cunit.git",
