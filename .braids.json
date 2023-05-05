@@ -5754,7 +5754,7 @@
     "mdds": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdds.git",
       "branch": "master",
-      "revision": "1ae36d1a44af3c6306342f1d2adb96b20586f5f5"
+      "revision": "01b00a30d24570e4c55b7d42aecb47e6b115acda"
     },
     "media-player-info": {
       "url": "gitea@gitea.artixlinux.org:packagesM/media-player-info.git",
