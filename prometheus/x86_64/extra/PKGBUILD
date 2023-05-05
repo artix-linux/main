@@ -1,7 +1,8 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: Johannes Löthberg <johannes@kyriasis.com>
 
 pkgname=prometheus
-pkgver=2.41.0
+pkgver=2.43.0
 pkgrel=1
 
 pkgdesc='An open-source systems monitoring and alerting toolkit'
@@ -12,13 +13,13 @@ license=('Apache')
 depends=('glibc')
 makedepends=('go' 'git' 'npm' 'nodejs' 'yamllint' 'typescript' 'yarn')
 
-backup=('etc/prometheus/prometheus.yml')
 options=(!lto)
+backup=('etc/prometheus/prometheus.yml')
 
 source=("prometheus-v$pkgver.tar.gz::https://github.com/prometheus/prometheus/archive/v$pkgver.tar.gz"
         prometheus.sysusers)
 
-sha256sums=('1ef8f4ac5d6863f3d2ffbc70bbc900ef3e25e8353ae306aa05fdb7509a667f4c'
+sha256sums=('0cd8860e5f10d0ecb35d20d23252ddc459e8319882dc163bf71b723e3bcafd71'
             '2747fabb4e56b808361eb7dd7acf9729ab8973d1ebe2f857dd56f6c71f71e45f')
 
 build() {
