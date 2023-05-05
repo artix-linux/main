@@ -5894,7 +5894,7 @@
     "mkinitcpio-openswap": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mkinitcpio-openswap.git",
       "branch": "master",
-      "revision": "035788bcd94ff114584dbace2598b1f862e098ff"
+      "revision": "a43bfbff279b9f69b9b49ced75561ece635b67b9"
     },
     "mktorrent": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mktorrent.git",
