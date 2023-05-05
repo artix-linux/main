@@ -6344,7 +6344,7 @@
     "nss-myhostname": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss-myhostname.git",
       "branch": "master",
-      "revision": "78a7da204993b960aea3455eae74f3f96d0e7dc8"
+      "revision": "a524233d4c15d0f115e68adbcae1c2255d8b36aa"
     },
     "ntfs-3g": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntfs-3g.git",
