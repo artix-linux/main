@@ -2946,11 +2946,6 @@
       "branch": "master",
       "revision": "810cd6162d79a8193a6a85675512a40233278844"
     },
-    "imap": {
-      "url": "gitea@gitea.artixlinux.org:packagesI/imap.git",
-      "branch": "master",
-      "revision": "3a8297c4c2b03dc6be6d00a2b3ba02bfcb4eb2ba"
-    },
     "imath": {
       "url": "gitea@gitea.artixlinux.org:packagesI/imath.git",
       "branch": "master",
