@@ -1,2 +1,0 @@
-# transmission-sequential
-
