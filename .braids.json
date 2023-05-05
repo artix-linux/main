@@ -1679,7 +1679,7 @@
     "enblend-enfuse": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enblend-enfuse.git",
       "branch": "master",
-      "revision": "796688e28e01a09a1d0aed1f707e8e388fa95b8b"
+      "revision": "489e8afe953f496ce799e3f907394ba50ce750f6"
     },
     "enca": {
       "url": "gitea@gitea.artixlinux.org:packagesE/enca.git",
