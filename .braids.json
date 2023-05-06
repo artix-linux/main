@@ -1374,7 +1374,7 @@
     "distcc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc.git",
       "branch": "master",
-      "revision": "cfb73f721cc956acd216c86da85d174ed617bf94"
+      "revision": "c87ba93ee413e176ac9e4d6f81d8499875d1a197"
     },
     "django": {
       "url": "gitea@gitea.artixlinux.org:packagesD/django.git",
