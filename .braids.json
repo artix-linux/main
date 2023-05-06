@@ -2564,7 +2564,7 @@
     "gsl": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsl.git",
       "branch": "master",
-      "revision": "d4c1c986a1f051a73011da60196f8c7eb65f40b3"
+      "revision": "2e3b490e29de4c54f0046515d8661059b36da44e"
     },
     "gsm": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gsm.git",
