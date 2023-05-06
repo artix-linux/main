@@ -3844,7 +3844,7 @@
     "libevdev": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevdev.git",
       "branch": "master",
-      "revision": "ff70de3d0f30083406073d8611b5c31fa177582d"
+      "revision": "e9f3ddb8dd0a7f9e6b4e6b5bdcc5fc8aa1c9bd25"
     },
     "libevent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libevent.git",
