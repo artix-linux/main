@@ -74,7 +74,7 @@
     "adwaita-icon-theme": {
       "url": "gitea@gitea.artixlinux.org:packagesA/adwaita-icon-theme.git",
       "branch": "master",
-      "revision": "f3446b18d75cf530392b770a57d159f9006bd140"
+      "revision": "d43ef9194b3b45bed9a9a26bd539e7442311e600"
     },
     "alsa-firmware": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-firmware.git",
