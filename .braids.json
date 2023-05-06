@@ -2174,7 +2174,7 @@
     "gcc12": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gcc12.git",
       "branch": "master",
-      "revision": "795a962f04dacad4be282440115b837122bf0994"
+      "revision": "530c90e4a16f4c09ed6540facbe5f89eff33514a"
     },
     "gd": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gd.git",
