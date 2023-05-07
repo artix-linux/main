@@ -1384,7 +1384,7 @@
     "dkms": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dkms.git",
       "branch": "master",
-      "revision": "451adb35e2ad3d10fba384827210e14cc4e4ae0a"
+      "revision": "142c843234200808713430593347270dfbb27cde"
     },
     "dmd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmd.git",
