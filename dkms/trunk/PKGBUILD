@@ -1,8 +1,9 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: Sébastien Luttringer
 # Contributor: Balwinder S "bsd" Dheeman (bdheeman AT gmail.com)
 
 pkgname=dkms
-pkgver=3.0.10
+pkgver=3.0.11
 pkgrel=1
 pkgdesc='Dynamic Kernel Modules System'
 arch=('any')
