@@ -8654,7 +8654,7 @@
     "swtpm": {
       "url": "gitea@gitea.artixlinux.org:packagesS/swtpm.git",
       "branch": "master",
-      "revision": "f4093aa7b29153483361ee06d8056434cc476247"
+      "revision": "492635d1f7a929fd959af054bf3674b713d3ed79"
     },
     "syncthing": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing.git",
