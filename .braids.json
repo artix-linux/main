@@ -4829,7 +4829,7 @@
     "libtpms": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtpms.git",
       "branch": "master",
-      "revision": "9b2e720e42c02be6f733ddd6c7843ea8502c1914"
+      "revision": "bff77fd4493c966a6cee36b6e82fbb3df287de4c"
     },
     "libtraceevent": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libtraceevent.git",
