@@ -4079,7 +4079,7 @@
     "libimobiledevice": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libimobiledevice.git",
       "branch": "master",
-      "revision": "e2a3401fd87757cf47e66be4a20f95fa4b1d6a35"
+      "revision": "25da0a84d5cb9c8f98a2568039c136f5b784f743"
     },
     "libindicator": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libindicator.git",
