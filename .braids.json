@@ -4519,7 +4519,7 @@
     "libplist": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libplist.git",
       "branch": "master",
-      "revision": "089415b56e4cdf23b623ac0d4790b6c2cab7f2cf"
+      "revision": "e730551fc2cd50d022beb29b4e34d052e45c451d"
     },
     "libpng": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libpng.git",
