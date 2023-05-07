@@ -4889,7 +4889,7 @@
     "libusbmuxd": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbmuxd.git",
       "branch": "master",
-      "revision": "75201fbb84058c3a8f35fd40282ecae56ed14334"
+      "revision": "2af6a0e4c8dddf3d70c4c0e102415592e50b8c33"
     },
     "libusbsio": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libusbsio.git",
