@@ -3609,7 +3609,7 @@
     "libbpf": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbpf.git",
       "branch": "master",
-      "revision": "80d12f9cea8fa5a80ad28c13774aa47037f8c29d"
+      "revision": "0bc6fe5b94ff2ddb7e2cb2fc43512dba23249d22"
     },
     "libbs2b": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libbs2b.git",
