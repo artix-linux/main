@@ -10159,7 +10159,7 @@
     "yara": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yara.git",
       "branch": "master",
-      "revision": "f26599142e2d4852fc04d9796c16377e4668e292"
+      "revision": "3c2e04d8888f10e394e41b771619d7dedd21f31f"
     },
     "yarn": {
       "url": "gitea@gitea.artixlinux.org:packagesY/yarn.git",
