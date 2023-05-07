@@ -6319,7 +6319,7 @@
     "nss": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss.git",
       "branch": "master",
-      "revision": "60d9db67d6585116d98877d6b62990cdf7458968"
+      "revision": "de714a59cf070e63a72c82a834d09b655721ff6d"
     },
     "nss-mdns": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nss-mdns.git",
