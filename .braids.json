@@ -834,7 +834,7 @@
     "check-jsonschema": {
       "url": "gitea@gitea.artixlinux.org:packagesC/check-jsonschema.git",
       "branch": "master",
-      "revision": "2d63b783e8d0fc0e81059eafc6c44880f7a9efd1"
+      "revision": "0b22983fe8d08ed1e8c85e13cb4c36a21302955d"
     },
     "checkbashisms": {
       "url": "gitea@gitea.artixlinux.org:packagesC/checkbashisms.git",
