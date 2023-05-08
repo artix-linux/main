@@ -9104,7 +9104,7 @@
     "ucl": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ucl.git",
       "branch": "master",
-      "revision": "ac3b2c8dc9de239b942d759a107d37354f1c61b3"
+      "revision": "41c9388569ad0ca280ab7f80cac0b89ec58b501f"
     },
     "udev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udev.git",
