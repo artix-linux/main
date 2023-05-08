@@ -8511,11 +8511,6 @@
       "branch": "master",
       "revision": "d1f8610ad5733ccc818265faca3fe698bb22fd88"
     },
-    "sthttpd": {
-      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd.git",
-      "branch": "master",
-      "revision": "9dbbf0e53775e00c18dad5420fdd2272f5716b7e"
-    },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
       "branch": "master",
