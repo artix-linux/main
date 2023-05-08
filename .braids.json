@@ -531,11 +531,6 @@
       "branch": "master",
       "revision": "cf62bfd292e61d9726ede431abf17e4ae7378f10"
     },
-    "bcunit": {
-      "url": "gitea@gitea.artixlinux.org:packagesB/bcunit.git",
-      "branch": "master",
-      "revision": "0cc31a5e8fc7511f35afa45b91701946af7889e3"
-    },
     "beanshell": {
       "url": "gitea@gitea.artixlinux.org:packagesB/beanshell.git",
       "branch": "master",
