@@ -9461,11 +9461,6 @@
       "branch": "master",
       "revision": "c7c45ffbba7fb4c9c7e9fa1bed147ea2889f53e9"
     },
-    "webfs": {
-      "url": "gitea@gitea.artixlinux.org:packagesW/webfs.git",
-      "branch": "master",
-      "revision": "2143a8fe8c7a10943485c4251de28c5c5f7804ca"
-    },
     "webhook": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook.git",
       "branch": "master",
