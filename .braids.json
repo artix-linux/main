@@ -879,7 +879,7 @@
     "classpath": {
       "url": "gitea@gitea.artixlinux.org:packagesC/classpath.git",
       "branch": "master",
-      "revision": "96924358a951c355c3692269f74de8424f4ffc9b"
+      "revision": "a1578177820afafef9f9cb48a97ec5f7e204649a"
     },
     "clazy": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clazy.git",
