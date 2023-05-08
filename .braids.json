@@ -5679,7 +5679,7 @@
     "marked0.8": {
       "url": "gitea@gitea.artixlinux.org:packagesM/marked0.8.git",
       "branch": "master",
-      "revision": "3874f230165c5a698ff47222b0afe83c09f78692"
+      "revision": "a15e218d8d66e57f54a91f3bfdc6a04d01d98f2b"
     },
     "mat2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mat2.git",
