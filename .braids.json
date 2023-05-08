@@ -876,11 +876,6 @@
       "branch": "master",
       "revision": "208f8c333ef0d8551da885257fa8afc23b993fda"
     },
-    "classpath": {
-      "url": "gitea@gitea.artixlinux.org:packagesC/classpath.git",
-      "branch": "master",
-      "revision": "a1578177820afafef9f9cb48a97ec5f7e204649a"
-    },
     "clazy": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clazy.git",
       "branch": "master",
