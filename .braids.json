@@ -539,7 +539,7 @@
     "bcunit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bcunit.git",
       "branch": "master",
-      "revision": "fd8a231642ce2e2b744ab905e789be7ed939ac6f"
+      "revision": "0cc31a5e8fc7511f35afa45b91701946af7889e3"
     },
     "beanshell": {
       "url": "gitea@gitea.artixlinux.org:packagesB/beanshell.git",
