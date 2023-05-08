@@ -9051,11 +9051,6 @@
       "branch": "master",
       "revision": "b86b25a98fd3fdc8dd2956c8c073444be10316b3"
     },
-    "ucl": {
-      "url": "gitea@gitea.artixlinux.org:packagesU/ucl.git",
-      "branch": "master",
-      "revision": "41c9388569ad0ca280ab7f80cac0b89ec58b501f"
-    },
     "udev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udev.git",
       "branch": "master",
