@@ -9449,7 +9449,7 @@
     "vst3sdk": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vst3sdk.git",
       "branch": "master",
-      "revision": "1289c3c2d453814d1e57657281a5574b61d08df9"
+      "revision": "8326c80cbb3d8ef053332e91a972dbb31325f09a"
     },
     "vte3": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vte3.git",
