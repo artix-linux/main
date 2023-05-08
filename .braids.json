@@ -691,11 +691,6 @@
       "branch": "master",
       "revision": "37d303d8528f68c54ff4a9ccad96c181fc69e6bd"
     },
-    "bzrtp": {
-      "url": "gitea@gitea.artixlinux.org:packagesB/bzrtp.git",
-      "branch": "master",
-      "revision": "e86e6d8e0b57343791e0649e6ade4ea0c3ecc4de"
-    },
     "c-ares": {
       "url": "gitea@gitea.artixlinux.org:packagesC/c-ares.git",
       "branch": "master",
