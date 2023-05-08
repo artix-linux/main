@@ -8559,7 +8559,7 @@
     "sthttpd": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd.git",
       "branch": "master",
-      "revision": "5eb5c91dbb7c015bd3c1756b9984e38c5e00521c"
+      "revision": "9dbbf0e53775e00c18dad5420fdd2272f5716b7e"
     },
     "stoken": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stoken.git",
