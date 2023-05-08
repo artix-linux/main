@@ -6166,11 +6166,6 @@
       "branch": "master",
       "revision": "5efddf6ee885111af170f220625763efe49833fb"
     },
-    "ngircd": {
-      "url": "gitea@gitea.artixlinux.org:packagesN/ngircd.git",
-      "branch": "master",
-      "revision": "c0a46e67f7bc91488cc4378ed52ef6d8df65aee9"
-    },
     "nilfs-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nilfs-utils.git",
       "branch": "master",
