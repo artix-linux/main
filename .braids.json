@@ -1389,7 +1389,7 @@
     "dmd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmd.git",
       "branch": "master",
-      "revision": "187a60dbb18376e82c70fcb7bdd226d58cb8b955"
+      "revision": "e07468a5e8295ae3aafe69737762b5554a4dd9d5"
     },
     "dmidecode": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dmidecode.git",
