@@ -531,11 +531,6 @@
       "branch": "master",
       "revision": "cf62bfd292e61d9726ede431abf17e4ae7378f10"
     },
-    "bctoolbox": {
-      "url": "gitea@gitea.artixlinux.org:packagesB/bctoolbox.git",
-      "branch": "master",
-      "revision": "524718671c327c99e419ea9efafa3442f4a294f9"
-    },
     "bcunit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bcunit.git",
       "branch": "master",
