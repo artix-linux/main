@@ -8811,6 +8811,11 @@
       "branch": "master",
       "revision": "3a24b2ff795b6ba8d701c43c06a93d90db358279"
     },
+    "timew": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/timew.git",
+      "branch": "master",
+      "revision": "824c9e6eace182ab2f217bacccb0488b0ca6a18a"
+    },
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
       "branch": "master",
