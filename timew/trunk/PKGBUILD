@@ -43,7 +43,7 @@ prepare() {
 
 build() {
 	cd "timewarrior-$pkgver"
-	cmake -DCMAKE_INSTALL_PREFIX=/usr .
+	cmake -D CMAKE_INSTALL_PREFIX=/usr .
 	make
 }
 
@@ -55,4 +55,5 @@ check() {
 package() {
 	cd "timewarrior-$pkgver"
 	make install DESTDIR="$pkgdir"
+	dcm
 }
