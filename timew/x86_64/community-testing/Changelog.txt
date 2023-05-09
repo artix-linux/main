@@ -1,0 +1,446 @@
+- #529    Fix summary truncating multibyte characters in long annotations
+          (thanks to Maxim Beder, Leon Grünewald)
+- #531    Update CONTRIBUTING.md to use branch 'develop' instead of 'dev'
+          (thanks to Maxim Beder)
+-         Use local man pages in tests
+          (thanks to Maxim Beder)
+
+------ current release ---------------------------
+
+1.5.0 (2023-04-04) - 51e7c2c772837bbd6d56da8d16506c4b6de8644166e0b5234ad36ae6a70dd4f6
+
+- #361    Improve documentation
+          (thanks to xeruf)
+- #389    Extend summary configuration
+          (thanks to Davide Crucitti)
+- #489    First execution creates database regardless of confirmation response
+          (thanks to Rafael Oliveira)
+- #403    Remove incorrect output stating that an empty interval was recorded
+          (thanks to xeruf)
+- #406    Clarify minimal value for 'epoch' as date value
+          (thanks to Daniel Hornung)
+- #408    Update documentation of hint `:all`
+          (thanks to quazgar)
+- #437    Minor AtomicFile cleanup
+          (thanks to Shaun Ruffel)
+- #439    Show error message if command track is called with an id
+- #441    Return report return code
+          (thanks to lospatchos)
+- #444    Improve documentation on annotations
+          (Thanks to apkawel, Shaun Ruffel)
+- #450    Report 'totals.py' does not display data when no time range specified
+          (thanks to squirrellyDave)
+- #458    Add man documentation for configuring tag colors.
+          (thanks to Lim Ding Wen)
+- #463    Add colors to summary
+          (thanks to Lim Ding Wen)
+- #466    Ignore empty exclusion ranges
+- #468    Refactor interval filtering
+- #469    Do not leak IntervalFilters in IntervalFilterAndGroup
+          (thanks to Shaun Ruffel)
+- #470    Do not leak filter in IntervalFilterFirstOf
+          (thanks to Shaun Ruffel)
+- #474    Make display of ids and annotations in summary report configurable
+- #477    Add configurable default range for reports
+          (thanks to Oivvio Polite, Christian Kohlstedde)
+- #478    Add support for XDG Base Directory specification on Unixes
+          (Thanks to Stanisław Wysocki)
+- #491    Tracking an interval in the future while actively tracking time results in a database inconsistency
+          (thanks to agentcoffee)
+- #505    Report 'totals.py' does not truncate intervals to report range
+          (thanks to eq0cdk)
+- #510    Export intervals by IDs
+          (thanks to Scott Mcdermott)
+- #512    help.t fails on alpine with mandoc package
+          (thanks to Edd Salkield)
+-         Add option '--details' to 'test/problems' script
+
+------ old releases ------------------------------
+
+1.4.3 (2021-05-28) - fc618636aacba6e52d447b482aeef58b375dfc8c
+
+- #159    Tags enclosed in escaped double-quotes are not handled correctly
+          (thanks to Shaun Ruffell)
+- #379    CmdSummary: Fix calculation of display start in summary table
+          (thanks to Shaun Ruffell)
+- #387    Fixed URL for tarball download
+          (thanks to Joerg Kastning)
+- #390    dom.tracked.X.tag.Y always returns dom.tracked.1.tag.Y
+          (thanks to pweaver2019)
+- #393    Update dark_blue.theme
+          (thanks to Peter Zuidema)
+- #398    test: Thread.isAlive() -> Thread.is_alive()
+          (thanks to Shaun Ruffell)
+- #410    Replace roff man pages with asciidoctor
+- #411    Transfer platform testing from Travis CI to GitHub Actions
+- #416    Internal error. Failed encode / decode check when doing undo
+          (thanks to narudarurarasya, Shaun Ruffel)
+- #419    Links not preserved over linebreaks in man page
+          (thanks to draupadi77)
+- #422    Internal error. Failed encode / decode check.
+          (thanks to Glen Solsberry, Shaun Ruffell)
+-         Width determination of Unicode characters now works for up to
+          Unicode 11 (from Unicode 5). Emojis are correctly displayed.
+-         Fix test `summary.t` for single-digit weeks
+
+1.4.2 (2020-08-29) - 4aa8489243adb69958d7717fb2f010c72fd4505a
+
+- #377    make install with error due to missing file `COPYING`
+          (thanks to Dirk Deimeke)
+
+1.4.1 (2020-08-29) - 6747beb2963475f50d2d58b1da5465247eb9e28e
+
+- #378    Summary with `:all` hint is empty for open interval
+
+1.4.0 (2020-08-29) - 2447c3817212d0fd987a8fe749d181ba7073a978
+
+- #126    DOM-Query for ids
+- #188    DOM-Query for tags
+- #206    Add :all hint
+          (thanks to varac, Shaun Ruffell)
+- #241    Allow continue by tag.
+          (thanks to Christian Rösch)
+- #258    make error FS.cpp on freebsd 12.1
+          (thanks to choppy812, silent-at-gh, kbcb, Shaun Ruffell)
+- #307    Introduce 'journal.size' configuration item
+          (thanks to Shaun Ruffell)
+- #309    unicode input causes indefinite hang for commands like day or month
+          (thanks to sclee15, Shaun Ruffell)
+- #317    Fix memory leak in JSON parsing
+          (thanks to Shaun Ruffell)
+- #318    Speed up deserialization of Intervals
+          (thanks to Shaun Ruffell)
+- #331    start command adjust
+          (thanks to Shaun Ruffell)
+- #333    Summary command fails with `:all` hint
+- #335    Update docs links from taskwarrior.org to timewarrior.net
+          (thanks to George Buckingham)
+- #347    delete interval silently fails
+          (thanks to Shaun Ruffell)
+- #351    Stop failed to close currently tracking interval
+          (thanks to Shaun Ruffell)
+- #364    Entering an open interval with future date causes assertion error
+          (thanks to kbcb)
+- #370    Core dump on `timew week` when open interval overlaps into exclusion
+          (thanks to Maximilian Merz)
+- #367    CmdDiagnostics: Show per-file error messages.
+          (thanks to Shaun Ruffell)
+- #372    Empty intervals are not deleted in `:adjust` overlap resolution
+          (thanks to xeruf)
+
+1.3.0 (2020-04-19) - 3de53d7599d1e4364c8aaaeb3c3ef1fe89ee3380
+
+- #155    Corrupts database when no disk space available
+          (thanks to Shaun Ruffell, Tom Dörr)
+- #245    Performance Issues
+          (thanks to  Shaun Ruffell, Tom Dörr)
+- #259    Migrate to python 3
+- #268    Minimum required gcc version to build timewarrior
+          (thanks to Joerg Kastning)
+- #269    Do not load entire database for all commands
+          (thanks to Shaun Ruffell)
+- #270    Stop with id should suggest modify command
+          (thanks to Shaun Ruffell)
+- #273    Report when tests do not run
+          (thanks to Shaun Ruffell)
+- #275    Change `timew help intervals` to `timew help ranges` in help summary
+          (thanks to Shaun Ruffell)
+- #278    New hint :fortnight added
+          (thanks to quazgar)
+- #282    Database: Fix error when empty datafile is most recent / oldest
+          (Thanks to Shaun Ruffell)
+- #283    Use AtomicFile to commit files as a group
+          (Thanks to Shaun Ruffell)
+- #284    tags.data modification date updated when file is not modified
+          (thanks to Shaun Ruffell, Charlie Gorichanaz)
+- #285    Pass record id to extensions
+          (thanks to Johannes Hertenstein)
+- #290    trying to track something that would be before epoch fails silently, corrupting database
+          (thanks to Shaun Ruffell, Clément Hermann)
+- #293    filtering by tag can produce wrong ids
+          (thanks to Shaun Ruffell, Saulius Krasuckas)
+- #298    Add current version of bash-completion
+
+1.2.0 (2019-11-22) 1d271508a27b9d8a5211ae5b01c7a0583ff690fd
+
+- #2      Generate a warning when a new tag is used on the command line
+- #9      Add an 'undo' command (TI-1)
+- #11     The month report shows multi-days current task truncated (TI-3)
+- #21     Add/Remove tag to/from current activity (TI-13)
+          (thanks to lumbric)
+- #22     Warn when new tags are being created (TI-14)
+- #42     No warning about new tags (TI-37)
+- #62     `timew track` with future interval records nothing or incomplete interval (TI-57)
+- #68     Add annotations to time intervals (TI-63)
+- #77     Support non-tag interval data storage (TI-72)
+          (thanks to Tomas Babej)
+- #96     Include Bash completion for timewarrior (TI-92)
+- #97     tag command duplicates entry if same id is passed twice (TI-93)
+- #98     Command Injection Security Vulnerability in on-modify.timewarrior (TI-94)
+          (thanks to Aaron Fields)
+- #101    timew assertion error on delete (TI-97)
+          (thanks to janikrabe)
+- #104    :lastquarter throws exception in first quarter (TI-100)
+          (thanks to Andreas Poisel)
+- #105    Keeps tracking renamed and stopped task (TI-101)
+          (thanks to Antanas B.)
+- #107    Fix autorange in chart (TI-103)
+          (thanks to Fabian Pflug)
+- #109    No rule to make target: test
+          (thanks to tecfu)
+- #111    Some tests fail depending on the time of day
+          (thanks to chronitis)
+- #112    Monday, 1st and others does not work in recent versions
+          (thanks to sgf-dma)
+- #113    summary does not display correctly open intervals spanning day border
+          (thanks to janikrabe)
+- #116    "Recorded" message displayed twice when stopping
+          (thanks to real-or-random)
+- #135    Task at month end not getting displayed
+          (thanks to towo)
+- #138    Entering an escaped quote in a tag name causes incorrect JSON to be generated
+          (thanks to bognolo)
+- #139    month 1st responds with "Time tracking cannot be set in the future"
+          (thanks to ddombrowsky, triclops200)
+- #142    allow setting end of task in future
+          (thanks to sclo)
+- #157    CLI: Ensure IDs are non-zero
+          (thanks to janikrabe)
+- #165    CmdSummary does not show empty intervals at midnight
+          (thanks to janikrabe)
+- #166    getTracked behaves incorrectly when latest interval is empty
+          (thanks to janikrabe)
+- #167    Cannot shorten interval to zero length
+          (thanks to janikrabe)
+- #174    Interval is split in two when it encloses month border
+- #183    Hyphen in annotation gets padded with spaces
+- #185    Introduce 'modify' to adjust historical records to fixed date/time.
+          (thanks to svenXY, sruffell)
+- #189    segfault on timew get dom.active.tag.0
+          (thanks to Valodim)
+- #191    `timew day` aborts when exclusions are configured and a time is specified
+          (thanks to OddBloke)
+- #194    Weekdays get expanded into future ranges
+- #198    Problem with `%` symbol in tag
+          (thanks to sruffel, AlexLov)
+- #200    Fix on-modify.timewarrior hook for tasks with multi line description
+          (thanks to Dennis Schridde)
+- #216    on-modify.timewarrior assumes python is python 3
+          (thanks to somospocos, quazgar)
+- #219    "--help" should show help, not considered to be a tag.
+          (thanks to varac, sruffel)
+- #220    Tag containing double quotes breaks TimeWarrior v1.2.0
+          (thanks to sskras)
+- #222    Taskwarrior hook doesn't work with Portuguese accentuated characters
+          (thanks to mrbig033, Dennis Schridde)
+- #224    Create tag database from existing interval database on startup
+- #227    MAINT: on-modify.timewarrior imports from future
+          (thanks to quazgar)
+- #228    Using those date aliases don't function as intended
+          (thanks to RainbowSwirls)
+- #232    on-modify.timewarrior: Fix "from __future__ imports must occur at the beginning of the file"
+          (thanks to Dennis Schridde)
+- #237    on-modify.timewarrior: Deal with non-UTF-8 characters in input data from taskwarrior
+          (thanks to Dennis Schridde)
+- #240    Core dump when specifying a start time in the past
+          (thanks to OddBloke)
+- #247    Remove annotation from interval
+- #254    Quotes in annotations are not escaped
+          (thanks to bzed, sruffell)
+- #260    Tests with synthetic interval fail when test intervals cross day border
+          (thanks to sruffell)
+- #261    Double quotes in annotations and tags not handled.
+          (thanks to sruffell)
+- #262    Allow tests to use manpages in source tree
+          (thanks to sruffell)
+-         Fixed error from totals.py while timer is active
+          (thanks to davisdude)
+-         Refactoring of Interval and Range
+-         Refactoring of CmdChart
+-         Let command join merge tags of given intervals
+
+1.1.1 (2018-02-03) ef26ebd6fec8472d4b91644806f48b546bb35747
+
+- TI-76   Shortening an interval over an exclusion makes the exclusion no longer apply
+          (thanks to A M)
+- TI-102  Exclusions stopped working
+          (thanks to Christian Decker)
+
+1.1.0 (2018-01-13) 836bc41014018ab333e6ea73412ee09d015beb4e
+
+- TD-120  Missing cmakedefine for HAVE_GET_CURRENT_DIR_NAME
+          (thanks to Jörg Krause, Ben Boeckel).
+- TW-1845 Cygwin build fails, missing get_current_dir_name
+          (thanks to hosaka).
+- TW-1936 Tweak tests to have fuller TAP compliance
+          (thanks to Paul J. Fenwick)
+- TI-27   Continue tracking by ID
+          (thanks to Dennis Schubert)
+- TI-29   timew config can't add new value
+          (thanks to Yury Vidineev)
+- TI-32   taskwarrior hook script doesn't stop recording waiting task
+          (thanks to Yury Videneev).
+- TI-39   Bogus command line option causes segfault
+          (thanks to Jan Stolarek, Thomas Lauf).
+- TI-40   totals.py extension script fails with an error
+          (thanks to Jan Stolarek)
+- TI-42   refresh holiday script throws an error on nb-NO locale
+          (thanks to Jelle van der Waa).
+- TI-43   :lastweek on sunday
+          (thanks to Michel Crucifix).
+- TI-46   Display error in visual reports (day,week,month)
+          (thanks to Michael Meier)
+- TI-47   first call successfully creates new database but returns exit status 1
+          (thanks to Georg Sauthoff).
+- TI-48   Timewarrior hook is not Python3 compatible
+          (thanks to Josh Proehl, Armado Martinez)
+- TI-49   new theme files aren't installed
+          (thanks to Richard Brown).
+- TI-51   in the taskwarrior hook, deleting a task doesn't stop the watch
+          (thanks to Mattia Rizzolo).
+- TI-52   The 'refresh' scripts overwrites previous years data
+          (thanks to m8r).
+- TI-58   Delete command is not always deleting
+          (thanks to Lynoure, asmyers).
+- TI-61   Typo in exclusion.t.cpp
+          (thanks to Thomas Lauf).
+- TI-62   TimeWarrior should not ignore invalid command
+- TI-64   Command 'stop' with date before current interval's start date causes
+          segfault
+          (thanks to Thomas Lauf).
+- TI-65   The 'tags' command should support a filter
+- TI-66   Move with :adjust leaves overlapping intervals.
+          (thanks to A M)
+- TI-67   Summary with parameters shows wrong ids
+          (thanks to Bodo Graumann)
+- TI-68   Cannot shorten interval which has been moved into an exclusion.
+          (thanks to A M)
+- TI-69   timew config converts integers to times
+          (thanks to Thomas Lauf).
+- TI-70   Timew starts a new interval even if a current interval contains the
+          same set of tags
+          (thanks to Thomas Babej).
+- TI-73   timew move with a specific time broken on 1.1.0
+          (thanks to A M).
+- TI-75   The :fill hint not properly detecting the last interval
+          (thanks to Thomas Babej).
+- TI-77   timew track seems to think today is tomorrow
+          (thanks to A M).
+- TI-78   Tag parsing broken for tags starting with "or_"
+          (thanks to Lukas Barth).
+- TI-81   Allow correction with filtered ids
+          (thanks to Plup)
+- TI-85   :adjust creates overlapping interval
+          (thanks to Tim Ruffing)
+- TI-90   Let 'continue' accept a date or a date range
+- TI-91   Timewarrior does not compile on DragonFly
+          (thanks to Michael Neumann)
+- Fixed Python 3 support of the holiday/refresh script
+          (thanks to Jelle van der Waa).
+- Added missing man page link
+          (thanks to David Patrick).
+- Taskwarrior projects are now used as-is as tags, and also split on the '.' to
+  represent project hierarchy as separate tags.
+          (thanks to Josh Proehl).
+- New date names supported (see 'timew help date' or 'man timew').
+- Named dates 'socw', 'socm', 'socq' and 'socy' are now named 'sow', 'som',
+  'soq' and 'soy'. Similarly the 'eocw' etc are modified. The 'c' is now
+  implicit.
+
+1.0.0 (2016-08-17) 6428ce89fcf2a5665d9351c50c2a84c98543206c
+
+- WWW-12  yesterday tag not recognized
+          (thanks to Michel Crucifix).
+- TI-34   Make timew more user-friendly by adding --help and default output
+          (thanks to Felix Wolfsteller).
+- Added 'totals.py' sample extension.
+- Added extension list to the 'help' command.
+
+1.0.0.beta1 (2016-07-26) -
+
+- TI-9    Task spanning over whole day should show up as taking 24:00 instead
+          of 23:59
+          (thanks to Tomas Babej).
+- TI-10   The 'total' summands in the month report are not aligned with the
+          column name
+          (thanks to Tomas Babej).
+- TI-11   Ids displayed incorrectly
+          (thanks to Michael Meier).
+- TI-12   report command does not find extensions
+          (thanks to lumbric).
+- TI-14   Warn when new tags are being created
+          (thanks to Matthias Rieber).
+- TI-16   Should handle case where taskwarrior hook is used before timew
+          (thanks to Aaron Curtis).
+- TI-17   ids of tracked activities should not change when editing
+          (thanks to lumbric).
+- TI-18   Add remove/delete command
+          (thanks to lumbric).
+- TI-20   Week number does not agree with Taskwarrior
+          (thanks to Dirk Deimeke).
+- TI-22   The 'day' chart crashes if there is an open interval and no others
+- TI-25   Work week not blocked off in charts
+          (thanks to Jonathon Bly).
+- TI-34   Make timew more user-friendly by adding --help and default output
+          (thanks to Felix Wolfsteller).
+- timew 0.9.5~alpha install bug
+          (thanks to Gordon Ball).
+- Improved out-of-source build for themes, holidays
+          (thanks to Kent R. Spillner).
+- The rc.reports.<type>.totals setting should control 'Totals' label
+          (thanks to Matthew Lemon).
+- Supports rc.reports.<type>.cell to control the number of minutes that one
+  character cell represents on a chart.
+          (thanks to Matthew Lemon, Rene Vergara).
+- Added basic color themes.
+- Fixed problem where a specific start time closed the previous open interval
+  at the current time.
+          (thanks to Michael Meier).
+- Fixed utf8 encoding in Taskwarrior integration hook
+          (thanks to Martin Boeker).
+- Added DOM support and a 'get' command.
+
+0.9.5.alpha (2016-06-20) -
+
+- TD-49   Log when file management fails
+          (thanks to Ben Boeckel).
+- TD-115  Throw error when config file is missing or not readable
+          (thanks to Jelle van der Waa).
+- TI-2    Two line tags causes false entry in database
+          (thanks to Sebastian Uharek).
+- TI-3    The month report shows multi-days current task truncated
+          (thanks to Tomas Babej).
+- TI-4    The 'timew' command considers only the last interval
+          (thanks to Tomas Babej).
+- TI-5    Unicode tags not working.
+          (thanks to Sergey Trofimov).
+- TI-6    Exception after shortening task.
+          (thanks to Sergey Trofimov).
+- TI-7    Stop command shouldn't interrupt unrelated tags.
+          (thanks to Sergey Trofimov).
+- TI-8    Only the day's last interval is considered in the month report
+          (thanks to Tomas Babej).
+- Added 'continue' command.
+- Added 'diagnostics' command.
+- Added 'export' command.
+- Added 'extensions' command.
+- Added 'help' command.
+- Added 'start' command.
+- Added 'stop' command.
+- Added 'tags' command.
+- Integrated libshared.git.
+- Colored tags supported.
+- Added Taskwarrior hook script to integrate Timewarrior.
+- Added support for the ':debug' and :quiet hints.
+- Added support for the :day, :week, :month, :quarter and :year hints.
+- Added 'track' command.
+- Added 'cancel' command.
+- Added 'config' command.
+- Added 'tag' command.
+- Added 'untag' command.
+- Added 'shorten' command.
+
+Design completed 2016-03-13
+Project started  2015-11-29
+
+------ start -----------------------------------

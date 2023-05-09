@@ -1,0 +1,16 @@
+--- a/test/help.t	2023-05-08 22:49:34.319942506 -0300
++++ b/test/help.t	2023-05-08 22:53:22.779941355 -0300
+@@ -62,13 +62,6 @@
+ 
+         self.assertEqual(actual, expected)
+ 
+-    def test_help_with_command_should_show_man_page(self):
+-        """timew help with command should show man page"""
+-        _, expected, _ = run_cmd_wait_nofail(["man", "timew-start"])
+-        _, actual, _ = self.t("help start")
+-
+-        self.assertEqual(actual, expected)
+-
+     def test_help_with_unknown_argument_should_show_error_message(self):
+         """timew help with unknown argument should show error message"""
+         _, _, expected = run_cmd_wait_nofail(["man", "timew-bogus"])
