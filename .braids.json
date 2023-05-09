@@ -1439,7 +1439,7 @@
     "docker": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker.git",
       "branch": "master",
-      "revision": "6eb16989567a7d9ad6debe5d3922a032061d32af"
+      "revision": "152423ba429ca476968b960d3605af5b21b4ed3b"
     },
     "docker-compose": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-compose.git",
