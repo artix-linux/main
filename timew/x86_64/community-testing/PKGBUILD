@@ -55,5 +55,4 @@ check() {
 package() {
 	cd "timewarrior-$pkgver"
 	make install DESTDIR="$pkgdir"
-	dcm
 }
