@@ -8814,7 +8814,7 @@
     "timew": {
       "url": "gitea@gitea.artixlinux.org:packagesT/timew.git",
       "branch": "master",
-      "revision": "fdf119d38e77660820f7b3c5237feaa2512ebe77"
+      "revision": "9e412d3ab75cad85d68769dc789f12b8eb638cd3"
     },
     "tinycdb": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinycdb.git",
