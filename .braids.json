@@ -104,7 +104,7 @@
     "alsa-ucm-conf": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-ucm-conf.git",
       "branch": "master",
-      "revision": "78d45d938e0f4dcef95daf8de7202eb238d5c0af"
+      "revision": "a15a6897a13652ba3096b8fbbff195cbc79413ad"
     },
     "alsa-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils.git",
