@@ -9084,7 +9084,7 @@
     "umockdev": {
       "url": "gitea@gitea.artixlinux.org:packagesU/umockdev.git",
       "branch": "master",
-      "revision": "c39200712ce85668a1892adf9fbb03ad3a3f374b"
+      "revision": "3762486c548b368139220a0dede035dce03acb6e"
     },
     "unarchiver": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unarchiver.git",
