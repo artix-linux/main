@@ -5549,7 +5549,7 @@
     "mac": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mac.git",
       "branch": "master",
-      "revision": "cfb7aa8ab942ac1996cf99e0ea3d8ba71e2a8999"
+      "revision": "ca37b4b751f5711d411cad1fa330238eca01a05d"
     },
     "magic-wormhole": {
       "url": "gitea@gitea.artixlinux.org:packagesM/magic-wormhole.git",
