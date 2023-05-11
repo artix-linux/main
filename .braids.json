@@ -294,7 +294,7 @@
     "at-spi2-core": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-spi2-core.git",
       "branch": "master",
-      "revision": "4c1a084d8dda39e7e902b6249992ad7752c82d80"
+      "revision": "250b8d96dbc77b75d7b06374701eb5763b969be6"
     },
     "atftp": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atftp.git",
