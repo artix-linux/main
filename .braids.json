@@ -5404,7 +5404,7 @@
     "lowdown": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lowdown.git",
       "branch": "master",
-      "revision": "ff603898354869ee02e6456eb0054bd465bff2df"
+      "revision": "20565131614b5fe99755c00ddb3ff67b6c91e430"
     },
     "lpsolve": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lpsolve.git",
