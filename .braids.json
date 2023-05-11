@@ -5989,7 +5989,7 @@
     "mupdf": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mupdf.git",
       "branch": "master",
-      "revision": "112175e5f3f3d7786d22adb8440691c5adf2d303"
+      "revision": "7d2c1e2de387a95b5fbe8311c77592545c1b2946"
     },
     "musepack": {
       "url": "gitea@gitea.artixlinux.org:packagesM/musepack.git",
