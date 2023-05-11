@@ -2884,7 +2884,7 @@
     "icu": {
       "url": "gitea@gitea.artixlinux.org:packagesI/icu.git",
       "branch": "master",
-      "revision": "a895e349060afe0debb2956b4b1bf2d93d704785"
+      "revision": "bbd97633ffff467181b92987273f6d12dd1dd01f"
     },
     "id3lib": {
       "url": "gitea@gitea.artixlinux.org:packagesI/id3lib.git",
