@@ -7699,7 +7699,7 @@
     "qtkeychain": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qtkeychain.git",
       "branch": "master",
-      "revision": "964c20ff35871982b031d9600d0002383a882b2b"
+      "revision": "f9d03ae624573de45c4a1e32a7f425e5c2d2fb03"
     },
     "quazip": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/quazip.git",
