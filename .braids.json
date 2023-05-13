@@ -2094,7 +2094,7 @@
     "fwupd": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwupd.git",
       "branch": "master",
-      "revision": "80a6164285644f464709762a35d67eec7358206f"
+      "revision": "c7a782b857690963491ca64c9b15ad187bd5f7d1"
     },
     "fwupd-efi": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwupd-efi.git",
