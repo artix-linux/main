@@ -9729,7 +9729,7 @@
     "xf86-video-dummy": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-dummy.git",
       "branch": "master",
-      "revision": "86206ea9c998e633d7242786e4aa05d741bf1ef9"
+      "revision": "fe565d118287fca99f47b8c414e7436dce913d1d"
     },
     "xf86-video-fbdev": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xf86-video-fbdev.git",
