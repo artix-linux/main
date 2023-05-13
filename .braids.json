@@ -514,7 +514,7 @@
     "bazel": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bazel.git",
       "branch": "master",
-      "revision": "5f43536eec31a197fab86ba970c66fdfd6d16490"
+      "revision": "b6dac114b637ea40f13f3353beaece1ea5ed6a88"
     },
     "bbswitch": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bbswitch.git",
