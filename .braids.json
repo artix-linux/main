@@ -8019,7 +8019,7 @@
     "rxvt-unicode": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rxvt-unicode.git",
       "branch": "master",
-      "revision": "75c779aa7f36255ae8664feb646226ad3942b5fd"
+      "revision": "c5c08857de17f0af0768507a019fadb33fbdd456"
     },
     "s-nail": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s-nail.git",
