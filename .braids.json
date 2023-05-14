@@ -1764,7 +1764,7 @@
     "fakechroot": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fakechroot.git",
       "branch": "master",
-      "revision": "e9b2aa33b992ad2a9a24ed42d723c94337d77b24"
+      "revision": "8028cc91962095abadee496542b1d6869c99e13d"
     },
     "fakeroot": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fakeroot.git",
