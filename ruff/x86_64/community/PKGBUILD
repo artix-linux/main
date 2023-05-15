@@ -1,0 +1,64 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: David Runge <dvzrv@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
+
+pkgbase=ruff
+pkgname=($pkgbase python-$pkgbase)
+pkgver=0.0.267
+pkgrel=1
+pkgdesc='An extremely fast Python linter, written in Rust'
+arch=(x86_64)
+url="https://github.com/charliermarsh/$pkgname"
+license=(MIT)
+depends=(
+  gcc-libs
+  glibc
+)
+makedepends=(
+  cargo
+  maturin
+  python-installer
+)
+options=(!lto)
+_archive="$pkgname-$pkgver"
+source=($url/archive/refs/tags/v$pkgver/$_archive.tar.gz)
+sha512sums=('b0584e4f27f8385363eee90dca2e5c48249a4fb662add0004f229f762e1c5a678f277bd8af5795d595e8e50ddf8811258d86722bae101bfe245b5b8bae5596d7')
+b2sums=('a3d12cc4ab6e4260f50a5892ac0ba0055b6046d3b41bd5abd2ad52d56ce2726cab47dfca3b1bd5df34355259218bac8b0bc2e45cb92c0e3dc6b887d19bf406f6')
+
+prepare() {
+  cd "$_archive"
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  cd "$_archive"
+  maturin build --locked --release --all-features --target "$CARCH-unknown-linux-gnu" --strip
+}
+
+check() {
+  cd "$_archive"
+  cargo test -p ruff_cli --frozen --all-features
+}
+
+_package_common() {
+  install -Dm0644 -t "$pkgdir/usr/share/licenses/$pkgname/" LICENSE
+  install -Dm0644 -t "$pkgdir/usr/share/doc/$pkgname/" README.md
+}
+
+package_ruff() {
+  cd "$_archive"
+  _package_common
+  local _target="target/$CARCH-unknown-linux-gnu/release/ruff"
+  install -Dm0755 -t "$pkgdir/usr/bin/" "$_target"
+  $_target --generate-shell-completion bash | install -Dm0644 /dev/stdin "$pkgdir/usr/share/bash-completion/completions/$pkgname.bash"
+  $_target --generate-shell-completion fish | install -Dm0644 /dev/stdin "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
+  $_target --generate-shell-completion zsh  | install -Dm0644 /dev/stdin "$pkgdir/usr/share/zsh/site-functions/_$pkgname"
+}
+
+package_python-ruff() {
+  cd "$_archive"
+  _package_common
+  depends=(python "$pkgbase")
+  python -m installer -d "$pkgdir" target/wheels/*.whl
+  rm -rf "$pkgdir/usr/bin"
+}
