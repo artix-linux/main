@@ -1304,7 +1304,7 @@
     "dhcpcd": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd.git",
       "branch": "master",
-      "revision": "1641331ddaa1b00183ab41d9e7b329d31e3c85ad"
+      "revision": "4a9557b05cd7bb60d51e956bfe936f380d0a2f66"
     },
     "dht": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dht.git",
