@@ -8964,7 +8964,7 @@
     "ttf-carlito": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-carlito.git",
       "branch": "master",
-      "revision": "f15fa0bb75bda47312228b53266f20d740e4c6ee"
+      "revision": "3c18cf9dfec11e27b0766e4571ceda0946276a13"
     },
     "ttf-dejavu": {
       "url": "gitea@gitea.artixlinux.org:packagesT/ttf-dejavu.git",
