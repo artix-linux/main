@@ -4119,7 +4119,7 @@
     "liblc3": {
       "url": "gitea@gitea.artixlinux.org:packagesL/liblc3.git",
       "branch": "master",
-      "revision": "dcfd58db9804574a251aaad59d824ff5c73c931f"
+      "revision": "b3865d91dc20d8fe8329af1e522e503334c995f5"
     },
     "libldac": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libldac.git",
