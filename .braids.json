@@ -679,7 +679,7 @@
     "bullet": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bullet.git",
       "branch": "master",
-      "revision": "7bf2a256b9bd2c2179e7a7ac980f67b18a9611a1"
+      "revision": "0606be7f99d8d82d7f18d415a2810387f4ec25e5"
     },
     "bumblebee": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee.git",
