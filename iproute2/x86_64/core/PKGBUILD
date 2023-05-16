@@ -1,10 +1,11 @@
 # Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: Christian Hesse <mail@eworm.de>
 # Maintainer: Ronald van Haren <ronald.archlinux.org>
 # Contributor: Judd Vinet <jvinet@zeroflux.org>
 
 pkgname=iproute2
 pkgver=6.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc='IP Routing Utilities'
 arch=('x86_64')
 license=('GPL2')
