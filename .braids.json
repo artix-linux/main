@@ -949,7 +949,7 @@
     "cni-plugins": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cni-plugins.git",
       "branch": "master",
-      "revision": "38ac6327c8f740cd4892fc4e23ce5d3d9eda91a0"
+      "revision": "a4a73ee99fa541c7beec26e8743d89b6b2c7f96f"
     },
     "codespell": {
       "url": "gitea@gitea.artixlinux.org:packagesC/codespell.git",
