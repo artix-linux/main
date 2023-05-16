@@ -5919,7 +5919,7 @@
     "mpfr": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpfr.git",
       "branch": "master",
-      "revision": "9f3e55ec934f98427ec3cd86a6a9ae5142ce4a10"
+      "revision": "8ecd6048eb644601bb345abdf517b1fa6bc96db0"
     },
     "mpg123": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpg123.git",
