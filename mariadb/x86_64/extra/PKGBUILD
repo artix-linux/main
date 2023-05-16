@@ -1,11 +1,12 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Maintainer: Christian Hesse <mail@eworm.de>
 
 pkgbase=mariadb
 pkgname=('mariadb-libs' 'mariadb-clients' 'mariadb' 'mytop')
 pkgdesc='Fast SQL database server, derived from MySQL'
-pkgver=10.11.2
-pkgrel=2
+pkgver=10.11.3
+pkgrel=1
 arch=('x86_64')
 license=('GPL')
 url='https://mariadb.org/'
@@ -20,7 +21,7 @@ source=("https://rsync.osuosl.org/pub/mariadb/mariadb-${pkgver}/source/mariadb-$
         'mariadb.sysusers.conf'
         'mariadb.tmpfiles.conf'
         '0001-arch-specific.patch')
-sha256sums=('1c89dee0caed0f68bc2a1d203eb98a123150e6a179f6ee0f1fc0ba3f08dc71dc'
+sha256sums=('b065b0f32a6e9fd479e566fd6671450379886d8dda2d9a7ef930af1e5c26c0c7'
             'SKIP'
             'd21fa98b57b3f44d1731551ac441bf24b75662fb26393757aa22f9cb92d470cd'
             '65dfade5bfa2338ec201e3fdcddd819ee87a94a27e1c7c293e890927f4ac7555'
