@@ -2,7 +2,7 @@
 # Contributor: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 pkgbase=linux-zen
-pkgver=6.3.1.zen1
+pkgver=6.3.2.zen1
 pkgrel=1
 pkgdesc='Linux ZEN'
 _srctag=v${pkgver%.*}-${pkgver##*.}
@@ -40,9 +40,9 @@ validpgpkeys=(
   C5ADB4F3FEBBCE27A3E54D7D9AE4078033F8024D  # Steven Barrett <steven@liquorix.net>
 )
 b2sums=('SKIP'
-        '4c4d14668bc08902dfd5f070cb6a43f03ed66961377cece1ce1703bb8a28ddd14928c235d838eb96d0d9734f8187a009df543b9ab76943bc92daeba89ecd40e5')
+        '99c482cf3e185ba3109a7d09a10537dc86f581d3fb8f0fb97510cd868127d435102e284462971affc942f520545daa43dc28bc007a79249d733681c8b4aae00a')
 
-export KBUILD_BUILD_HOST=archlinux
+export KBUILD_BUILD_HOST=artixlinux
 export KBUILD_BUILD_USER=$pkgbase
 export KBUILD_BUILD_TIMESTAMP="$(date -Ru${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH})"
 
