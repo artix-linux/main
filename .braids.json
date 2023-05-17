@@ -9144,7 +9144,7 @@
     "unrar": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrar.git",
       "branch": "master",
-      "revision": "15ba6d3aa3c797c5ca0f82d8735b11cf3282b635"
+      "revision": "58c983c3fac6d489d5b88f2c5f6d340de8b53e1f"
     },
     "unrealircd": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd.git",
