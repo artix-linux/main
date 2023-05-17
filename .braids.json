@@ -139,7 +139,7 @@
     "ansible-core": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ansible-core.git",
       "branch": "master",
-      "revision": "b59b39ed490bf21f59bd441f5bdc26506a5a6c32"
+      "revision": "1448131a367d5666d2357dc9a644449944356917"
     },
     "ant": {
       "url": "gitea@gitea.artixlinux.org:packagesA/ant.git",
