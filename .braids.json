@@ -1309,7 +1309,7 @@
     "dht": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dht.git",
       "branch": "master",
-      "revision": "9c38cb6329069b8d544a645a537dd0e49710489b"
+      "revision": "8e4ce3ecf6e01430de242d9815cb6d849610d7eb"
     },
     "dialog": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dialog.git",
