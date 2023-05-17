@@ -6954,7 +6954,7 @@
     "postgis": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgis.git",
       "branch": "master",
-      "revision": "44b5988bf84c78f1556d9fc2352dcc17223dc275"
+      "revision": "aec437d6a9b1f16a45a68e91c5eb0a315f7c486f"
     },
     "postgresql": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql.git",
