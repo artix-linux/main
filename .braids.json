@@ -5679,7 +5679,7 @@
     "mbedtls2": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mbedtls2.git",
       "branch": "master",
-      "revision": "ddc472649469f84736c9b80c5122d8d760bbe7f6"
+      "revision": "92f287a096f2ad0bd99cfa8f853597caa3d4a97f"
     },
     "mc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mc.git",
