@@ -5334,7 +5334,7 @@
     "litehtml": {
       "url": "gitea@gitea.artixlinux.org:packagesL/litehtml.git",
       "branch": "master",
-      "revision": "eb26b7ed5688d6d22f1c8c85d184ed7ac884b767"
+      "revision": "6d8f981f4b972384c06d7481d3f80798975ebfb4"
     },
     "live-media": {
       "url": "gitea@gitea.artixlinux.org:packagesL/live-media.git",
