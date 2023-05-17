@@ -8904,7 +8904,7 @@
     "tpm2-abrmd": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-abrmd.git",
       "branch": "master",
-      "revision": "a1448a6ad22e0fe22a540fb28355e4232e0876e7"
+      "revision": "04ad62065238663ea950b3cdcf38a08ccfebaf46"
     },
     "tpm2-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tpm2-tools.git",
