@@ -1014,7 +1014,7 @@
     "compiler-rt": {
       "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt.git",
       "branch": "master",
-      "revision": "55c83005674a03961b9ef4479cdd10dec4e81524"
+      "revision": "0d8bfd51d109eb61ec8790afaf990316ece34b4a"
     },
     "compiler-rt14": {
       "url": "gitea@gitea.artixlinux.org:packagesC/compiler-rt14.git",
