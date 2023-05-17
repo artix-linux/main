@@ -3169,7 +3169,7 @@
     "jemalloc": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jemalloc.git",
       "branch": "master",
-      "revision": "c52746dd66b32ad2a3e48a7020de420cc08b8de3"
+      "revision": "3e47bc0d93ebd753bcef016b207d49652a99c1d9"
     },
     "jenkins": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins.git",
