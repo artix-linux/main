@@ -1,12 +1,13 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Christian Rebischke <chris.rebischke@archlinux.org>
 # Contributor: Robin Candau <antiz@archlinux.org>
 # Contributor: Sébastien Luttringer <seblu@archlinux.org>
 # Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Francois Boulogne <fboulogne at april dot org>
 
 pkgname=glances
-pkgver=3.3.1.1
-pkgrel=4
+pkgver=3.4.0
+pkgrel=1
 pkgdesc='CLI curses-based monitoring tool'
 arch=('any')
 url='https://nicolargo.github.io/glances/'
@@ -22,8 +23,8 @@ optdepends=('hddtemp: HDD temperature monitoring support'
             'python-pystache: templating engine'
             'python-prometheus_client: for the Prometheus export module')
 source=("${pkgname}-${pkgver}-${pkgrel}.tar.gz::https://github.com/nicolargo/glances/archive/v${pkgver}.tar.gz")
-sha512sums=('c8aab6b7140eabfcbe3488fe18f5e8a19f5c5ec822b0f13bbafe312f58f55126fb61d78ab117466a5e479cf7517e11ffc2c19269de51830f28025a2b0ed68285')
-b2sums=('9956ded1c4b5fd1ade9f658a612c2a208bbe933eb759fab9e62eac9b380575019c7bd18bfb70d60caa958fe40642f09ca537c352ccff2d92a99e79507cd5f4d8')
+sha512sums=('dca16ac5116e79979e850dac340d9160afeb066b68ca30021797bdd6ada0a69c609f11e1aa10b7b03c671098a5229b404aed4879f012de881e8e4670dae0d7b2')
+b2sums=('45aeb08668364ec7560c9847e2d5e83a23516455b0036de7d3f357144465a9e6a48f3cb51d68613ee48f6ed33dd861b414fd93be4006fa88277c8db5029d5481')
 
 package() {
   cd "glances-${pkgver}"
