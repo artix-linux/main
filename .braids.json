@@ -1289,7 +1289,7 @@
     "dev86": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dev86.git",
       "branch": "master",
-      "revision": "696148209693441582583795248e093adacf9153"
+      "revision": "58c58e20862f06bf76b53754a96bce0598a57da0"
     },
     "devil": {
       "url": "gitea@gitea.artixlinux.org:packagesD/devil.git",
