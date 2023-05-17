@@ -4199,7 +4199,7 @@
     "libmemcached-awesome": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmemcached-awesome.git",
       "branch": "master",
-      "revision": "db8d4ab8a708a6f0a92ea7b64cc95abd18373a0f"
+      "revision": "4335b6f38df5739b05fb4c8e132aa1cdd6fdd3a9"
     },
     "libmicrodns": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libmicrodns.git",
