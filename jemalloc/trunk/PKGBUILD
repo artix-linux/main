@@ -1,11 +1,12 @@
-# Maintainer:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+# Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor:  Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
 # Contributor: Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
 # Contributor: Kovivchak Evgen <oneonfire@gmail.com>
 
 pkgname=jemalloc
 epoch=1
 pkgver=5.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc='General-purpose scalable concurrent malloc implementation'
 arch=('x86_64')
 license=('BSD')
