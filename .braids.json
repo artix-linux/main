@@ -1109,7 +1109,7 @@
     "criu": {
       "url": "gitea@gitea.artixlinux.org:packagesC/criu.git",
       "branch": "master",
-      "revision": "e55e74b73dd416d2e31a0492df221af01d226ea6"
+      "revision": "e7e75d80cef673494c281b525696403a290a8401"
     },
     "cronie": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cronie.git",
