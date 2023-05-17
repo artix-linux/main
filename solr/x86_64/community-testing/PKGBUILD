@@ -137,7 +137,6 @@ package() {
   # docs
   install -vDm 644 dist/{CHANGES,NOTICE}.txt -t "$pkgdir/usr/share/doc/$pkgname/"
   install -vDm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname/"
-  install -vDm 644 ../$pkgname.service -t "$pkgdir/usr/lib/systemd/system/"
   install -vDm 644 ../$pkgname.sysusers "$pkgdir/usr/lib/sysusers.d/$pkgname.conf"
   install -vDm 644 ../$pkgname.tmpfiles "$pkgdir/usr/lib/tmpfiles.d/$pkgname.conf"
 }
