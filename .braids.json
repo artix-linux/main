@@ -2264,7 +2264,7 @@
     "glances": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glances.git",
       "branch": "master",
-      "revision": "d64db468dda78e76c42ac9c254d86df0f421e9a3"
+      "revision": "7d8513746968d636fc9d0d8a3fe117c4a0365c19"
     },
     "glew": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glew.git",
