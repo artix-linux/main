@@ -1,11 +1,12 @@
 # Maintainer: Nathan <ndowens@artixlinux.org>
+# Contributor: Maxime Gauduin <alucryd@archlinux.org>
 # Contributor: Oleksandr Natalenko <oleksandr@natalenko.name>
 # Contributor: Andrew Lewis <nerf@judo.za.org>
 # Contributor: mezcal
 
 pkgname=rspamd
 pkgver=3.5
-pkgrel=1
+pkgrel=2
 epoch=
 pkgdesc='Fast, free and open-source spam filtering system'
 arch=(x86_64)
