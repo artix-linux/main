@@ -4564,7 +4564,7 @@
     "libretls": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libretls.git",
       "branch": "master",
-      "revision": "eeaeaf7c50c6fe3f45d77b6c52d04d202399ce9f"
+      "revision": "6c75c2133b992407998bb0235557e905415de720"
     },
     "librevenge": {
       "url": "gitea@gitea.artixlinux.org:packagesL/librevenge.git",
