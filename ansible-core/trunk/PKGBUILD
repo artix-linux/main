@@ -10,7 +10,7 @@
 
 pkgname=ansible-core
 pkgver=2.15.0
-pkgrel=1
+pkgrel=1.1
 pkgdesc='Radically simple IT automation platform'
 arch=('any')
 url='https://pypi.org/project/ansible-core'
@@ -57,7 +57,6 @@ optdepends=(
   'python-pip: for module to manage Python libarary dependencies'
   'python-pywinrm: connect to Windows machines'
   'python-setuptools: for module to manage Python libarary dependencies'
-  'python-systemd: for journald support'
   'sshpass: for ssh connections with password'
 )
 provides=('python-ansible' 'ansible-base')
