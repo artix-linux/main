@@ -1514,7 +1514,7 @@
     "dune": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dune.git",
       "branch": "master",
-      "revision": "4fa80d250f2e4bc478f28ce8593c8f33fe1726e6"
+      "revision": "5362cbd50a669694b4ff5ef2fed33ba25c234f47"
     },
     "duplicity": {
       "url": "gitea@gitea.artixlinux.org:packagesD/duplicity.git",
