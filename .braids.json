@@ -3319,7 +3319,7 @@
     "kbd": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kbd.git",
       "branch": "master",
-      "revision": "f5597121a43f459bb35d593715eb7a4010f78261"
+      "revision": "10c32ff2dc9592e0198e8ff6b13cdda351a765d7"
     },
     "kexec-tools": {
       "url": "gitea@gitea.artixlinux.org:packagesK/kexec-tools.git",
