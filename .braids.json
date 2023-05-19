@@ -6349,7 +6349,7 @@
     "ocaml-csexp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-csexp.git",
       "branch": "master",
-      "revision": "74b272757e757a56a51668c746f8e9f740acc48c"
+      "revision": "03c036b70421ab5b5f793f890b8ac2c26f2aa5ee"
     },
     "ocaml-ctypes": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-ctypes.git",
