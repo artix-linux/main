@@ -8289,7 +8289,7 @@
     "sleuthkit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sleuthkit.git",
       "branch": "master",
-      "revision": "d9f263467a43ed669e40b320247bf5361ea4a28c"
+      "revision": "57ce1fb35d5d3ac6d7c079bdf6dd51d6642382e2"
     },
     "slimit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slimit.git",
