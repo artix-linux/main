@@ -726,6 +726,11 @@
       "branch": "master",
       "revision": "8d7bbd3295a2beea07e491ded2951f6382074982"
     },
+    "camlp-streams": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/camlp-streams.git",
+      "branch": "master",
+      "revision": "4aa3745f861e3e459a996c2464f913f16af3ecf9"
+    },
     "camlp4": {
       "url": "gitea@gitea.artixlinux.org:packagesC/camlp4.git",
       "branch": "master",
