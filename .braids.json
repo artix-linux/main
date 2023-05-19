@@ -6359,7 +6359,7 @@
     "ocaml-integers": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-integers.git",
       "branch": "master",
-      "revision": "c32800458af18bae561fa83124dc4b9e9c93e28a"
+      "revision": "38c930e5eab9f6847935633548fb3330a6688a0a"
     },
     "ocaml-pp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-pp.git",
