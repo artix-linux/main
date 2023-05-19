@@ -1,11 +1,11 @@
-# Maintainer: Nathan <ndowens@artixlinux.org>
+# Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: David Runge <dvzrv@archlinux.org>
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgbase=ruff
 pkgname=($pkgbase python-$pkgbase)
-pkgver=0.0.267
-pkgrel=2
+pkgver=0.0.269
+pkgrel=1
 pkgdesc='An extremely fast Python linter, written in Rust'
 arch=(x86_64)
 url="https://github.com/charliermarsh/$pkgname"
@@ -22,8 +22,8 @@ makedepends=(
 options=(!lto)
 _archive="$pkgname-$pkgver"
 source=($url/archive/refs/tags/v$pkgver/$_archive.tar.gz)
-sha512sums=('d86103eadc454fc49169f63cac53c65946c6276f8fe3fb56f81ea31e3e9721e09c710ed35baf1470b1b90306b2ca1606cac8d92e3b1d4d4d3ca445ce215aa215')
-b2sums=('9d7b62ff0ece6b7c76951130b4156b519545611d9bd626c1208af9fc9eb3b51d6cda0337a3278a225a2527d138fcf504cca448635391caefcb685a75f02d5e3e')
+sha512sums=('fba0d3fddb7e2ff68bf78f482a270b709a24ba4fc92d8f97e496433f569639b7c93a2bc350e86081937a4fc618c07d4d2b29d460359f6c88f820d83611317fae')
+b2sums=('529d47be60814a65f17764cc357e784f162bddd90a3bf4d82c3d9aa718acdfca565d4db64ac6eb2dba23766ba2b61efeed18dbb5b781f35d4bbd035c0688514c')
 
 prepare() {
   cd "$_archive"
