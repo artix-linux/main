@@ -1,6 +1,7 @@
 # Maintainer: artoo <artoo@artixlinux.org>
 # Contributor: Evangelos Foutras <evangelos@foutrelis.com>
 # Contributor: Armin K. <krejzi at email dot com>
+#
 
 pkgname=ocaml-ctypes
 pkgver=0.20.2
