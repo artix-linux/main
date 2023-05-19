@@ -9079,7 +9079,7 @@
     "ufw": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw.git",
       "branch": "master",
-      "revision": "521fe980dcf2d297883d3603635c781fef2b15d8"
+      "revision": "5831e2a348c690f504ba5dc2754203a45551a9fb"
     },
     "uglify-js": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uglify-js.git",
