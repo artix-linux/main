@@ -6369,7 +6369,7 @@
     "ocaml-result": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-result.git",
       "branch": "master",
-      "revision": "1180fd59c13ab98c0828379de2eb132e237d4809"
+      "revision": "76751272fcdba24a05579c22946c6d4011a205ba"
     },
     "ocaml-stdlib-shims": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-stdlib-shims.git",
