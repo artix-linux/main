@@ -6339,7 +6339,7 @@
     "ocaml-bigarray-compat": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-bigarray-compat.git",
       "branch": "master",
-      "revision": "ab148776be49012d7f63b9055d1e2475a75eeb8d"
+      "revision": "a0927bb6d2676d74171ede7d9cefdd77509c57a9"
     },
     "ocaml-csexp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-csexp.git",
