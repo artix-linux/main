@@ -7994,7 +7994,7 @@
     "ruff": {
       "url": "gitea@gitea.artixlinux.org:packagesR/ruff.git",
       "branch": "master",
-      "revision": "8179982dd6f186d953cfa4d73b09ca94a9425dce"
+      "revision": "d7673679239169e54aca18f1e0179c05a4fb3c8d"
     },
     "run-parts": {
       "url": "gitea@gitea.artixlinux.org:packagesR/run-parts.git",
