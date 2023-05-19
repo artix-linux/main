@@ -6369,7 +6369,7 @@
     "ocaml-pp": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-pp.git",
       "branch": "master",
-      "revision": "31ab1903861060482f87dd0417df5ed71dd6be92"
+      "revision": "93373ea102c8a9d336a179f93cb64bffc56741de"
     },
     "ocaml-result": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocaml-result.git",
