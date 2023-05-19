@@ -6389,7 +6389,7 @@
     "ocamlbuild": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocamlbuild.git",
       "branch": "master",
-      "revision": "e8f1d9616a05a0242300125c1717d96b0ea2ac3b"
+      "revision": "bb262519b8ef3eda2b8fef076066b3501355b9b0"
     },
     "ocl-icd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/ocl-icd.git",
